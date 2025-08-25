@@ -1,0 +1,35 @@
+# IntelliJ / Resharper
+.idea/
+
+# Claude
+.claude
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Generated files
+generated/*.xml
+Data/database/*.json
+Data/cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Backup files
+Data/backups/

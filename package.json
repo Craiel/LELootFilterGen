@@ -1,0 +1,32 @@
+{
+  "name": "le-loot-filter-gen",
+  "version": "1.0.0",
+  "description": "A Node.js suite to generate and edit loot filter XML files for Last Epoch",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --dev",
+    "parse-templates": "node src/index.js --parse-templates",
+    "generate-filter": "node src/index.js --generate-filter",
+    "build-database": "node scripts/build-database.js",
+    "database-info": "node scripts/database-info.js",
+    "generate-affix-templates": "node scripts/generate-affix-templates.js",
+    "lint": "eslint src/",
+    "test": "jest"
+  },
+  "keywords": ["last-epoch", "loot-filter", "xml", "game-tools"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.6.2",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "jest": "^29.6.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

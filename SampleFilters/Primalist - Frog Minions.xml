@@ -1,0 +1,836 @@
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Frogs!!!!</name>
+  <filterIcon>3</filterIcon>
+  <filterIconColor>12</filterIconColor>
+  <description>https://www.lastepochtools.com/planner/oy5PRmao</description>
+  <lastModifiedInVersion>1.3.0</lastModifiedInVersion>
+  <lootFilterVersion>3</lootFilterVersion>
+  <rules>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL MAGIC RARE</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="ClassCondition">
+          <req>Mage Sentinel Acolyte Rogue</req>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
+            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
+            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+            <EquipmentType>QUIVER</EquipmentType>
+            <EquipmentType>SHIELD</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
+            <EquipmentType>BOW</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Not used item types</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>All experimental items</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>766</int>
+            <int>767</int>
+            <int>768</int>
+            <int>769</int>
+            <int>770</int>
+            <int>771</int>
+            <int>772</int>
+            <int>773</int>
+            <int>774</int>
+            <int>775</int>
+            <int>776</int>
+            <int>777</int>
+            <int>778</int>
+            <int>779</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>All champion items</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity />
+          <minLegendaryPotential>0</minLegendaryPotential>
+          <maxLegendaryPotential>0</maxLegendaryPotential>
+          <minWeaversWill>1</minWeaversWill>
+          <maxWeaversWill>0</maxWeaversWill>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>All Weaver's Will items</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE SET</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>430</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>336</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>421</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>314</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>433</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>443</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>0</minLegendaryPotential>
+          <maxLegendaryPotential>0</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>430</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>336</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>421</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>314</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>433</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>443</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>1</minLegendaryPotential>
+          <maxLegendaryPotential>1</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>430</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>336</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>421</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>314</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>433</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>443</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>2</minLegendaryPotential>
+          <maxLegendaryPotential>2</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>430</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>336</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>421</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>314</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>433</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>443</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>3</minLegendaryPotential>
+          <maxLegendaryPotential>3</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>430</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>336</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>421</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>314</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>433</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>443</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>4</minLegendaryPotential>
+          <maxLegendaryPotential>4</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>345</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>945</int>
+            <int>26</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>64</int>
+            <int>643</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>504</int>
+            <int>52</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>26</int>
+            <int>70</int>
+            <int>25</int>
+            <int>52</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>945</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>26</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>110</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>135</int>
+            <int>151</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>135</int>
+            <int>151</int>
+            <int>213</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+  </rules>
+</ItemFilter>
