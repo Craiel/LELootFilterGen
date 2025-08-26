@@ -1,0 +1,24 @@
+{
+  "id": "UAwRmCYGYHYg",
+  "name": "Thornshell",
+  "category": "Shield",
+  "baseType": "Meruna Shell",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+23% Block Chance",
+    "+(325 to 425) Block Effectiveness",
+    "(45% to 75%) increased Physical Melee Damage"
+  ],
+  "modifiers": [
+    "+23% Block Chance",
+    "+(325 to 425) Block Effectiveness",
+    "(45% to 75%) increased Physical Melee Damage",
+    "(50 to 90) Damage Reflected to Attackers",
+    "(5% to 9%) Increased Flat Damage Reflected to Attackers per AttunementOnly affects the flat \"Damage Reflected to Attackers\" stats not \"% Damage Reflected\"",
+    "(15% to 18%) increased Armor",
+    "+(32% to 45%) Poison Resistance",
+    "+(32% to 45%) Lightning Resistance"
+  ],
+  "lore": "Driven from their homes, the Meruna of Sur Soreth settled among the swamps and fens around Urix. Despite their unfamiliarity with the shallows and thickets of their new home, they gradually adapted to it, learning to tunnel through the mud and grow thorns from their shells."
+}

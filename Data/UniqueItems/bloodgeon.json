@@ -1,0 +1,22 @@
+{
+  "id": "UAzBMwDmI",
+  "name": "Bloodgeon",
+  "category": "One-Handed Mace",
+  "baseType": "Flanged Mace",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+30 Melee Damage",
+    "(30% to 48%) Increased Stun Chance"
+  ],
+  "modifiers": [
+    "+30 Melee Damage",
+    "(30% to 48%) Increased Stun Chance",
+    "+(50 to 70) Physical Melee Damage",
+    "7% of Physical Melee Damage Leeched as Health",
+    "(30% to 50%) Increased Leech Rate",
+    "(30% to 50%) Increased Stun Duration",
+    "(4 to 8) Health Gain on Stun"
+  ],
+  "lore": "Crush. Maul. Bludgeon."
+}

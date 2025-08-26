@@ -1,0 +1,18 @@
+{
+  "id": "UAzCMwdgViA",
+  "name": "The Scavenger",
+  "category": "Belt",
+  "baseType": "Leather Belt",
+  "levelRequirement": 9,
+  "classRequirement": null,
+  "implicits": [
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+4 Potion Slots",
+    "(40% to 120%) Increased Chance To Find Potions",
+    "Gain Haste for 3 Seconds on Potion Use",
+    "(30% to 45%) increased Dodge Rating"
+  ],
+  "lore": "Gods may fall and empires crumble, but the furtive scavenger lives on."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "UAzCsGYHZyA",
+  "name": "Ravager's Dart",
+  "category": "Helmet",
+  "baseType": "Bronze Casque",
+  "levelRequirement": 39,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(35% to 75%) Recurve Chance with Heartseeker",
+    "+(2 to 4) Throwing Damage with Heartseeker Per 5 Dexterity",
+    "Heartseeker now counts as a Throwing Skill and scales with Throwing Damage instead of Bow Damage",
+    "You are limited to one active Heartseeker",
+    "If you have no active Heartseeker and are in combat you throw one at a nearby enemy (3 second cooldown)",
+    "+(5 to 11) Dexterity"
+  ],
+  "lore": ""
+}

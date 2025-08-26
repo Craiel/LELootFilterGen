@@ -1,0 +1,28 @@
+{
+  "id": "UAzBswTgdiA",
+  "name": "Halvar's Pledge",
+  "category": "Two-Handed Staff",
+  "baseType": "Shamanic Staff",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+56 Melee Damage",
+    "+(39 to 47) Spell Damage",
+    "(46% to 86%) increased Damage for Totems"
+  ],
+  "modifiers": [
+    "+56 Melee Damage",
+    "+(39 to 47) Spell Damage",
+    "(46% to 86%) increased Damage for Totems",
+    "+(25 to 40) Physical Spell Damage",
+    "+(2% to 4%) Critical Strike Chance",
+    "+(7 to 10) Attunement",
+    "+30 Mana",
+    "+(5% to 10%) Mana Efficiency",
+    "+20 Cold Spell Damage",
+    "+20 Physical Spell Damage",
+    "+100% Chance to cast Avalanche Boulder at target when you critically hit with a spell.This is affected by your Avalanche tree and has a 1 second cooldown.",
+    "+2 to Level of Avalanche"
+  ],
+  "lore": "The shaman Halvar bound himself with the spirit of the mountain."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsGYFYHYg",
+  "name": "Seed of Ekkidrasil",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 84,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "+(40 to 64) Mana",
+    "(8% to 20%) increased Mana Regen",
+    "(20% to 28%) of Damage Dealt to Mana Before Health",
+    "(40% to 56%) of Endurance applies to all damage dealt to mana",
+    "(4% to 8%) of Maximum Health gained as Endurance Threshold",
+    "+(40 to 64) Health",
+    "(4% to 8%) chance to take 0 Damage when Hit"
+  ],
+  "lore": "From the minds of the devoted grows the roots of the tree of nothing"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMCYBZKA",
+  "name": "Harthenon's Vow",
+  "category": "Two-Handed Axe",
+  "baseType": "Refuge Axe",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+25 Melee Damage"
+  ],
+  "modifiers": [
+    "+25 Melee Damage",
+    "+(18 to 25) Physical Melee Damage",
+    "+(5 to 9) Strength",
+    "+5 Health Gained on Companion HitCompanions are a specific type of minion summoned by Primalists. This grants you health whenever one of your companions hits an enemy.",
+    "(36% to 54%) Increased Companion Revive Range",
+    "(36% to 54%) Increased Companion Revive Speed"
+  ],
+  "lore": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle."
+}

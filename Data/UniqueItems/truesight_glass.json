@@ -1,0 +1,20 @@
+{
+  "id": "UAzAcBYGYE4g",
+  "name": "Truesight Glass",
+  "category": "Amulet",
+  "baseType": "Oracle Amulet",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "(6% to 20%) less Damage Over Time Taken"
+  ],
+  "modifiers": [
+    "(6% to 20%) less Damage Over Time Taken",
+    "Critical Strike Chance above 100% gives you a chance to deal Deadly Strikes (up to 40% chance)",
+    "Deadly Strikes count as Critical Strikes but have an additional 300% Critical Strike Multiplier",
+    "+(20% to 50%) Critical Strike Multiplier",
+    "(6% to 10%) Increased Cooldown Recovery Speed",
+    "+(60% to 100%) Critical Strike Avoidance"
+  ],
+  "lore": "Looking through the right glass can reveal the weaknesses of a foe, the gaps in its armor drawing the eye like resplendant orbs of gold."
+}

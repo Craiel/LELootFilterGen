@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcCYFZyA",
+  "name": "Pact Severance",
+  "category": "One-Handed Axe",
+  "baseType": "Soul Harvester",
+  "levelRequirement": 71,
+  "classRequirement": null,
+  "implicits": [
+    "+46 Necrotic Melee Damage",
+    "(100% to 166%) increased Necrotic Melee Damage",
+    "(100% to 166%) increased Minion Necrotic Damage"
+  ],
+  "modifiers": [
+    "+46 Necrotic Melee Damage",
+    "(100% to 166%) increased Necrotic Melee Damage",
+    "(100% to 166%) increased Minion Necrotic Damage",
+    "+(26% to 39%) Chance to apply Frailty on Hit",
+    "(11 to 26)% increased Attack and Cast Speed",
+    "+(36 to 49) Physical Melee Damage",
+    "+(41 to 56) Spell Physical Damage with Sacrifice",
+    "(26% to 39%) Increased Area with Sacrifice",
+    "When a minion dies you have a (36 to 49)% Chance to cast Sacrifice on your lowest health minion (up to 2 times per second)Only counts your minions' deaths. Can be triggered by sacrificing a minion."
+  ],
+  "lore": ""
+}

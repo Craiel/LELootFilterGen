@@ -1,0 +1,25 @@
+{
+  "id": "UAzDsCZ1I",
+  "name": "Ferebor's Chisel",
+  "category": "Dagger",
+  "baseType": "Rune Dagger",
+  "levelRequirement": 71,
+  "classRequirement": null,
+  "implicits": [
+    "+36 Melee Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "+(30 to 40) Spell Damage"
+  ],
+  "modifiers": [
+    "+36 Melee Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "+(30 to 40) Spell Damage",
+    "+(10 to 15) Physical Melee Damage for Totems",
+    "+(10 to 15) Physical Spell Damage for Totems",
+    "+50 Mana",
+    "+1% Critical Strike Chance for Totems per IntelligenceScales with your Intelligence",
+    "+(15% to 35%) Critical Strike Multiplier for Totems",
+    "+2 to Level of Totem Skills"
+  ],
+  "lore": "When Ferebor's collection of totems grew too large, he gathered his creations in a cave while his fellow nomads moved on without him. As the winters passed and his collection grew, other nomads would visit him to trade food and furs for totems crafted to defend their tribes."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UAzBMYZiA",
+  "name": "Riverbend Grasp",
+  "category": "Gloves",
+  "baseType": "Mail Bracers",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+32 Armor"
+  ],
+  "modifiers": [
+    "+32 Armor",
+    "(50% to 100%) increased Throwing Damage",
+    "+(30 to 60) Health",
+    "(30% to 60%) increased Dodge Rating",
+    "+(5 to 10) Cold Throwing Damage",
+    "(18% to 30%) Chance to Throw an Axe at a nearby enemy on hit (1 second cooldown)Axe Throw is a physical throwing attack"
+  ],
+  "lore": "Move with the fluidity of water, relax and you can react without resistance."
+}

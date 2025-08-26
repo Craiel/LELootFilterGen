@@ -1,0 +1,22 @@
+{
+  "id": "UAzCcGYDYCYg",
+  "name": "Grim Constitution",
+  "category": "Shield",
+  "baseType": "Kite Shield",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+25% Block Chance",
+    "+(600 to 800) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+25% Block Chance",
+    "+(600 to 800) Block Effectiveness",
+    "You cannot Gain Ward while in Combat",
+    "(105% to 155%) of Max Health gained as Ward Decay Threshold",
+    "(35% to 55%) of Max Health gained as Ward per Second",
+    "+(55 to 85) Health",
+    "+(155 to 385) Block Effectiveness"
+  ],
+  "lore": ""
+}

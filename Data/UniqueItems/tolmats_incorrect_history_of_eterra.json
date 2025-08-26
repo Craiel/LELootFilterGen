@@ -1,0 +1,23 @@
+{
+  "id": "UAzCMGYDYE4g",
+  "name": "Tolmat's Incorrect History of Eterra",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Leatherbound Tome",
+  "levelRequirement": 9,
+  "classRequirement": null,
+  "implicits": [
+    "+(2 to 5) Intelligence",
+    "(5% to 8%) increased Cast Speed"
+  ],
+  "modifiers": [
+    "+(2 to 5) Intelligence",
+    "(5% to 8%) increased Cast Speed",
+    "You summon a Historic Minion from a random era of Eterra",
+    "+(1 to 2) to Level of Minion Skills",
+    "+(4 to 10) Minion Melee Damage",
+    "+(4 to 10) Minion Spell Damage",
+    "(6% to 12%) increased Minion Movement Speed",
+    "+(12% to 16%) Elemental Resistance"
+  ],
+  "lore": "Written by an esteemed historian, this book chronicles the entire history of Eterra as we understand it. Or, at least, as Sir Tolmat understood it."
+}

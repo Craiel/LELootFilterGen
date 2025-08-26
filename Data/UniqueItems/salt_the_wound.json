@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcEYA4HYg",
+  "name": "Salt the Wound",
+  "category": "Gloves",
+  "baseType": "Serrated Bracers",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+45 Armor",
+    "(5% to 15%) Increased Bleed Duration",
+    "(5% to 15%) Increased Poison Duration"
+  ],
+  "modifiers": [
+    "+45 Armor",
+    "(5% to 15%) Increased Bleed Duration",
+    "(5% to 15%) Increased Poison Duration",
+    "+(25% to 40%) Critical Strike Multiplier",
+    "(25% to 40%) increased Damage Over Time",
+    "+(15% to 45%) Physical Resistance",
+    "+(15% to 45%) Poison Resistance",
+    "(40% to 50%) of added Critical Strike Multiplier Converted to Physical Penetration with BleedDoes not convert Critical Strike Multiplier specific to certain types of skill, such as spells, or Critical Strike Multiplier from skill trees. The base 200% Critical Strike Multiplier is not converted.",
+    "(40% to 50%) of added Critical Strike Multiplier Converted to Poison Penetration with PoisonDoes not convert Critical Strike Multiplier specific to certain types of skill, such as spells, or Critical Strike Multiplier from skill trees. The base 200% Critical Strike Multiplier is not converted."
+  ],
+  "lore": "A critical success, a critical failure... It's all in the coin toss."
+}

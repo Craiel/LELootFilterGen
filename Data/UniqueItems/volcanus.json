@@ -1,0 +1,20 @@
+{
+  "id": "UAzDswFgDiA",
+  "name": "Volcanus",
+  "category": "Two-Handed Sword",
+  "baseType": "Flamberge",
+  "levelRequirement": 58,
+  "classRequirement": null,
+  "implicits": [
+    "+90 Melee Damage"
+  ],
+  "modifiers": [
+    "+90 Melee Damage",
+    "+(40 to 65) Fire Melee Damage",
+    "+(40 to 65) Fire Spell Damage",
+    "(37% to 57%) increased Fire Damage",
+    "7% of Fire Damage Leeched as Health",
+    "15% chance to cast Magma Shards on melee hit"
+  ],
+  "lore": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh."
+}

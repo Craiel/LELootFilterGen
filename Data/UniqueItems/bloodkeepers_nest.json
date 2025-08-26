@@ -1,0 +1,21 @@
+{
+  "id": "UAwVgnATAbAHEA",
+  "name": "Bloodkeeper's Nest",
+  "category": "Relic",
+  "baseType": "Blood Encased Hive",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+(6 to 10) Bees per 10 seconds while in Spriggan Form"
+  ],
+  "modifiers": [
+    "+(6 to 10) Bees per 10 seconds while in Spriggan Form",
+    "Bees gain an additional (12 to 16) health and (7 to 12)% increased damage per point of your AttunementThis is an addition to its normal Attunement scaling",
+    "Bleed inflicted by Bees has (6 to 8)% Physical Penetration per point of your Strength",
+    "When you directly cast Thorn Shield, the nearest Bee also gains Thorn Shield",
+    "+(32% to 56%) Chance to apply Frailty on hit for Bees",
+    "Minions leech 4% of Physical Damage as HealthThe health is restored to the minion that dealt the damage, not to you",
+    "Minions cannot deal Critical Strikes"
+  ],
+  "lore": ""
+}

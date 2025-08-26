@@ -1,0 +1,25 @@
+{
+  "id": "UAzDsEYDYA4g",
+  "name": "Flight of the First",
+  "category": "Bow",
+  "baseType": "Dreadthorn Bow",
+  "levelRequirement": 58,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+48 Bow Damage",
+    "+(3% to 4%) Bow Critical Strike Chance",
+    "+(31% to 61%) Bow Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+48 Bow Damage",
+    "+(3% to 4%) Bow Critical Strike Chance",
+    "+(31% to 61%) Bow Critical Strike Multiplier",
+    "5% increased Movement Speed",
+    "+5% Bow Critical Strike Chance",
+    "Moving after Attacking grants you Ancient Flight for 2 secondsCannot be triggered by movement skills",
+    "+2 Arrows with Flurry and Multishot while you have Ancient Flight",
+    "100% increased Critical Strike Chance while you have Ancient Flight",
+    "+100% Critical Strike Avoidance while you have Ancient Flight"
+  ],
+  "lore": "Those who ventured outside in the Ancient Era lived in constant terror"
+}

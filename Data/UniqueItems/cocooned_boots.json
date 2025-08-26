@@ -1,0 +1,13 @@
+{
+  "id": "UAzCcBYSA",
+  "name": "Cocooned Boots",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a pair of random unique boots"
+  ],
+  "lore": ""
+}

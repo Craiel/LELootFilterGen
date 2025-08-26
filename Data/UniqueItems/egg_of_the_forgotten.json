@@ -1,0 +1,14 @@
+{
+  "id": "UAwNgjAzALBQ",
+  "name": "Egg of the Forgotten",
+  "category": "Relic",
+  "baseType": "Stone Egg",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Can be replaced with a Unique Item that lacks both Legendary Potential and Weaver's Will",
+    "Changes into a random Unique Item if challenged or empowered"
+  ],
+  "lore": "The lost scion of light dwells no longer among the sun, nor in the resplendent mountains of the east. It lingers only in the minds of the servants of fire, guiding the hands that carve and chisel."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "UAzCswDgTiA",
+  "name": "Defiance of the Forgotten Knight",
+  "category": "Shield",
+  "baseType": "Tower Shield",
+  "levelRequirement": 30,
+  "classRequirement": null,
+  "implicits": [
+    "+28% Block Chance",
+    "+(200 to 300) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+28% Block Chance",
+    "+(200 to 300) Block Effectiveness",
+    "(70% to 105%) increased Void Damage",
+    "+(14% to 21%) Block Chance",
+    "(21% to 28%) Chance to apply Time Rot to Attackers when HitTime Rot is an ailment that deals void damage over time, increases stun duration by 5%, lasts 3 seconds, and stacks up to 12 times.",
+    "+(21% to 28%) Chance to apply Time Rot on Hit",
+    "+(5 to 7) Void Melee Damage",
+    "50% less Void Damage Taken on Block",
+    "50% Void Penetration with Time Rot",
+    "3% more Void Damage per stack of Time Rot"
+  ],
+  "lore": "Dread not the passage of time nor the eternal void beyond."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAwNgzALGZA",
+  "name": "Reliquary Nest",
+  "category": "Relic",
+  "baseType": "Ancient Remains",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+(2 to 4) to All Attributes",
+    "+(11% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+(2 to 4) to All Attributes",
+    "+(11% to 15%) Endurance",
+    "Stats on your Non-Unique Idols have (40 to 60)% increased Effect",
+    "+(5% to 10%) to All Resistances",
+    "(10% to 20%) increased Endurance Threshold",
+    "+(20 to 40) Health",
+    "+(60 to 100) Stun Avoidance"
+  ],
+  "lore": ""
+}

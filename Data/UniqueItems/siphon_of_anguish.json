@@ -1,0 +1,21 @@
+{
+  "id": "UAzAsEYHZKA",
+  "name": "Siphon of Anguish",
+  "category": "Ring",
+  "baseType": "Gold Ring",
+  "levelRequirement": 55,
+  "classRequirement": null,
+  "implicits": [
+    "+(5% to 18%) Elemental Resistance"
+  ],
+  "modifiers": [
+    "+(5% to 18%) Elemental Resistance",
+    "(1% to 3%) of Melee Damage Leeched as Health",
+    "(1% to 3%) of Void Damage Leeched as Health",
+    "(10% to 30%) Increased Leech Rate",
+    "(3% to 8%) increased Movement Speed",
+    "+(10% to 30%) Chance to apply Doom on Hit",
+    "(10% to 30%) Void Penetration with Doom"
+  ],
+  "lore": "The sorrow of those that remain feeds the hungering void."
+}

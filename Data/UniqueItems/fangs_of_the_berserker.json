@@ -1,0 +1,23 @@
+{
+  "id": "UAzCsBZwNiA",
+  "name": "Fangs of the Berserker",
+  "category": "Belt",
+  "baseType": "Nomad Belt",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+5 Potion Slots"
+  ],
+  "modifiers": [
+    "+5 Potion Slots",
+    "You gain Frenzy for (6 to 10) Seconds when you use a PotionFrenzy is a buff that grants 20% Increased attack and cast speed. It cannot stack.",
+    "(9% to 15%) more Melee Damage while you have FrenzyImproved by Increased Effect of Frenzy",
+    "+(9% to 15%) increased Damage Taken while you have FrenzyMagnified by Increased Effect of Frenzy",
+    "(3% to 5%) of Melee Damage leeched as Health while you have FrenzyImproved by Increased Effect of Frenzy",
+    "(9% to 15%) of Health Leech also drains the health of the nearest enemy within 6 meters",
+    "(21% to 35%) of Health Leech also drains the health of the nearest enemy within 6 meters while you have FrenzyImproved by Increased Effect of Frenzy",
+    "(12% to 20%) increased Effect of Frenzy while Dual Wielding",
+    "1% increased Effect of Frenzy per Strength"
+  ],
+  "lore": ""
+}

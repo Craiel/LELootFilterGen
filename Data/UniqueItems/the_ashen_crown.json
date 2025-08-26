@@ -1,0 +1,22 @@
+{
+  "id": "UAwJmEZgViA",
+  "name": "The Ashen Crown",
+  "category": "Helmet",
+  "baseType": "Lunar Helm",
+  "levelRequirement": 33,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+63 Armor",
+    "(9% to 18%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+63 Armor",
+    "(9% to 18%) increased Mana Regen",
+    "+2 to All Attributes",
+    "(40% to 80%) of Physical Damage Taken as Fire",
+    "(40% to 80%) Increased Spell Stun Chance",
+    "(10% to 20%) Increased Stun Duration",
+    "Elemental Nova is now cast at the target location"
+  ],
+  "lore": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins."
+}

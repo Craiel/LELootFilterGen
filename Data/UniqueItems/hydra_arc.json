@@ -1,0 +1,27 @@
+{
+  "id": "UAzAcBZwRiA",
+  "name": "Hydra Arc",
+  "category": "Bow",
+  "baseType": "Serpent Bow",
+  "levelRequirement": 72,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+42 Bow Damage",
+    "+(35% to 70%) Chance to apply Poison on Bow Hit",
+    "(10% to 20%) Increased Poison Duration"
+  ],
+  "modifiers": [
+    "+42 Bow Damage",
+    "+(35% to 70%) Chance to apply Poison on Bow Hit",
+    "(10% to 20%) Increased Poison Duration",
+    "+(3 to 4) to Level of Dexterity Skills",
+    "+(10 to 16) Dexterity",
+    "+(3 to 33) Fire Bow Damage",
+    "+(3 to 33) Cold Bow Damage",
+    "+(3 to 33) Lightning Bow Damage",
+    "After evading you repeat your most recently used bow attack at a nearby enemy (excludes channeled attacks and attacks with cooldowns), consuming 50% of its mana costAny additional repeats also consume 50% of the mana cost",
+    "If you have at least 75 Dexterity you repeat it at up to 2 nearby enemies instead",
+    "If you have at least 135 Dexterity you repeat it at up to 3 nearby enemies instead"
+  ],
+  "lore": ""
+}

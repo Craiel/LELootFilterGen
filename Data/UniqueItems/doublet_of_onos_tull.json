@@ -1,0 +1,18 @@
+{
+  "id": "UAzCMIDiA",
+  "name": "Doublet of Onos Tull",
+  "category": "Body Armor",
+  "baseType": "Leather Coat",
+  "levelRequirement": 5,
+  "classRequirement": null,
+  "implicits": [
+    "+25 Armor"
+  ],
+  "modifiers": [
+    "+25 Armor",
+    "+(60 to 100) Health",
+    "Minions have +(60 to 100)% Chance to Inflict Bleed on Hit",
+    "Minions have (60 to 100)% Increased Bleed Duration"
+  ],
+  "lore": "The horns of the Immortal Empire fill the hearts of the living with fear, and the bones of the dead with glory."
+}

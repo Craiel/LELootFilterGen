@@ -1,0 +1,21 @@
+{
+  "id": "UAwRhGYBYSA",
+  "name": "Cruelty",
+  "category": "Relic",
+  "baseType": "Defiled Bones",
+  "levelRequirement": 31,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "(13% to 19%) increased Spell Damage"
+  ],
+  "modifiers": [
+    "(13% to 19%) increased Spell Damage",
+    "+(1 to 2) to Level of Sacrifice",
+    "Minions are automatically Sacrificed after 2 seconds. If you have any mana then (53 to 89)% of Sacrifice's mana cost is consumed. Otherwise this cast of Sacrifice deals 80% less damage (multiplicative with other modifiers)",
+    "(3% to 11%) increased Movement Speed",
+    "(11% to 23%) increased Minion Movement Speed",
+    "Your minions cannot be Stunned",
+    "+(31 to 83) Mana"
+  ],
+  "lore": ""
+}

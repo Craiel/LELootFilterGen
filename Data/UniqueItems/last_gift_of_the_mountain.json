@@ -1,0 +1,25 @@
+{
+  "id": "UAzDswTgo",
+  "name": "Last Gift of the Mountain",
+  "category": "Relic",
+  "baseType": "Overgrowth Bloom",
+  "levelRequirement": 42,
+  "classRequirement": null,
+  "implicits": [
+    "+3 Attunement",
+    "+5% to All Resistances"
+  ],
+  "modifiers": [
+    "+3 Attunement",
+    "+5% to All Resistances",
+    "(30% to 60%) Increased cold spell damage if you have directly cast a physical spell recently",
+    "(30% to 60%) Increased Spell Stun Chance",
+    "+(50% to 100%) Chance to apply Shred Armor on Spell Hit",
+    "+(50% to 100%) Chance to apply Frostbite on Spell Hit",
+    "+20 Cold Spell Damage",
+    "+20 Physical Spell Damage",
+    "+100% Chance to cast Avalanche Boulder at target when you critically hit with a spell.This is affected by your Avalanche tree and has a 1 second cooldown.",
+    "+2 to Level of Avalanche"
+  ],
+  "lore": "The mountain was sad to lose a friend as true as Halvar."
+}

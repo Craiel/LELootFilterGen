@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMEYA5iA",
+  "name": "Shattered Chains",
+  "category": "Belt",
+  "baseType": "Plated Belt",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots",
+    "(50% to 70%) increased Armor",
+    "+(5 to 10) Void Melee Damage",
+    "(50% to 70%) increased Melee Damage",
+    "5% more Melee Damage per stack of Doom",
+    "Using a Potion Cleanses Stun and Freeze",
+    "Stun Immunity for 4 seconds when you use a Potion"
+  ],
+  "lore": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead."
+}

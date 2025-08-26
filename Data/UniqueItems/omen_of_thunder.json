@@ -1,0 +1,20 @@
+{
+  "id": "UAzCsCYDYGYg",
+  "name": "Omen of Thunder",
+  "category": "Belt",
+  "baseType": "Nomad Belt",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+5 Potion Slots"
+  ],
+  "modifiers": [
+    "+5 Potion Slots",
+    "(10% to 17%) Increased Cooldown Recovery Speed for Summon Storm Totem",
+    "When you directly summon a Storm Totem all existing Totems gain (24 to 34) Spell Lightning DamageThis buff stacks and does not expire. It does not apply to the totem whose summoning applied it.",
+    "+(10% to 17%) Lightning Penetration for Totems",
+    "When you use a Potion all your Totems are restored to full health and gain Damage Immunity for 2 seconds.",
+    "+1 to Level of Totem Skills"
+  ],
+  "lore": ""
+}

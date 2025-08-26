@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcCYA5iA",
+  "name": "Telf'un's Mirage",
+  "category": "Boots",
+  "baseType": "Arcane Boots",
+  "levelRequirement": 53,
+  "classRequirement": null,
+  "implicits": [
+    "+8 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(120 to 230) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+8 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(120 to 230) Ward Decay Threshold",
+    "+(112 to 172) Dodge Rating while Channelling",
+    "(112% to 172%) increased Dodge Rating while Channelling",
+    "(18 to 36) Ward gained when you Dodge While Channelling",
+    "2 Mana gained when you Dodge While Channelling",
+    "+(6 to 12) Intelligence",
+    "18% increased Movement Speed while not Channelling"
+  ],
+  "lore": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own."
+}

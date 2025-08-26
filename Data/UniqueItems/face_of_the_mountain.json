@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgbATArALEA",
+  "name": "Face of the Mountain",
+  "category": "Shield",
+  "baseType": "Stone Shield",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+15% Block Chance",
+    "+(275 to 650) Block Effectiveness",
+    "+(20% to 40%) Physical Resistance"
+  ],
+  "modifiers": [
+    "+15% Block Chance",
+    "+(275 to 650) Block Effectiveness",
+    "+(20% to 40%) Physical Resistance",
+    "+1% Block Chance per 2% Endurance above the CapEndurance has a cap of 60%, so if you have 70% Endurance this adds 5% Block Chance.",
+    "+(12% to 24%) Endurance",
+    "+(225 to 550) Block Effectiveness",
+    "(12% to 6%) less Physical Damage Taken on Block"
+  ],
+  "lore": "The face of the mountain yields no emotion as waves, weather, and time crash upon it."
+}

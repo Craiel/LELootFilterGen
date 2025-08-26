@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMGYEYBYg",
+  "name": "Cleaver Solution",
+  "category": "One-Handed Axe",
+  "baseType": "Rusted Cleaver",
+  "levelRequirement": 27,
+  "classRequirement": null,
+  "implicits": [
+    "+19 Melee Damage",
+    "+(13% to 19%) Chance to apply Bleed on Hit"
+  ],
+  "modifiers": [
+    "+19 Melee Damage",
+    "+(13% to 19%) Chance to apply Bleed on Hit",
+    "Your Intelligence is equal to your Strength",
+    "+1 to Level of All Skills",
+    "+(36 to 54) Physical Melee Damage",
+    "+(3 to 9) Strength"
+  ],
+  "lore": ""
+}

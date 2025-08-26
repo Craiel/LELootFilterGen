@@ -1,0 +1,22 @@
+{
+  "id": "UAzCswRgZiA",
+  "name": "Titan Heart",
+  "category": "Body Armor",
+  "baseType": "Copper Plate",
+  "levelRequirement": 41,
+  "classRequirement": null,
+  "implicits": [
+    "+114 Armor",
+    "+(5% to 14%) Lightning Resistance"
+  ],
+  "modifiers": [
+    "+114 Armor",
+    "+(5% to 14%) Lightning Resistance",
+    "+(50 to 100) Armor",
+    "15% Less Damage Taken while wielding a Two Handed Melee WeaponMultiplicative with other modifiers",
+    "(30% to 40%) increased Melee Damage",
+    "(30% to 40%) increased Health",
+    "You do not regenerate healthYou can still regain health through methods other than health regen"
+  ],
+  "lore": "Heart of stone, blood of gravel."
+}

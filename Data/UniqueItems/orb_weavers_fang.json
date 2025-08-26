@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMBZgViA",
+  "name": "Orb Weaver's Fang",
+  "category": "Two-Handed Sword",
+  "baseType": "Split Greatsword",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+30 Melee Damage"
+  ],
+  "modifiers": [
+    "+30 Melee Damage",
+    "Stats on this item are doubled for 3 seconds after hitting a boss or rare enemy that is at low healthLow health is 35% or less",
+    "+(55 to 70) Melee Damage",
+    "+(4% to 8%) Critical Strike Chance",
+    "(8% to 10%) increased Movement Speed",
+    "+(100 to 140) Dodge Rating"
+  ],
+  "lore": "\"You are the blade that will cut the imperfections from the Weaver's web.\" - Masque, the Acolyte of Golden Silk"
+}

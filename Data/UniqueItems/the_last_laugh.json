@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMwFgdiA",
+  "name": "The Last Laugh",
+  "category": "Two-Handed Sword",
+  "baseType": "Imperial Warblade",
+  "levelRequirement": 47,
+  "classRequirement": null,
+  "implicits": [
+    "+40 Melee Damage",
+    "+(10% to 25%) Chance to apply Shred Armor on Melee Hit"
+  ],
+  "modifiers": [
+    "+40 Melee Damage",
+    "+(10% to 25%) Chance to apply Shred Armor on Melee Hit",
+    "+(50 to 66) Physical Melee Damage",
+    "+5 Strength",
+    "(15% to 25%) increased Melee Attack Speed",
+    "Instantly kill enemies that are left below (15 to 20)% Health by a Melee AttackIf you have a similar effect from an item or node then the highest threshold is used",
+    "5% of Overkill Damage Leeched as Health",
+    "+5% melee critical strike chance if you have less than 100 dodge rating"
+  ],
+  "lore": "When the headsman's blade falls, Sarno laughs in triumph."
+}

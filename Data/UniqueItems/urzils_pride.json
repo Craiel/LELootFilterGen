@@ -1,0 +1,20 @@
+{
+  "id": "UAzBMwRmI",
+  "name": "Urzil's Pride",
+  "category": "Body Armor",
+  "baseType": "Iron Armor",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Armor"
+  ],
+  "modifiers": [
+    "+50 Armor",
+    "+125 Armor",
+    "+(6 to 10) Attunement",
+    "+(9 to 15) Strength",
+    "+(10% to 20%) Lightning Resistance",
+    "1% increased mana regeneration per 2% uncapped Lightning Resistance"
+  ],
+  "lore": "Strength of mind and strength of body are a potent combination."
+}

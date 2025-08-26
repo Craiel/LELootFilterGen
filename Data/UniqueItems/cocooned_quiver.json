@@ -1,0 +1,13 @@
+{
+  "id": "UAzCsGYE4CYg",
+  "name": "Cocooned Quiver",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a random unique quiver"
+  ],
+  "lore": ""
+}

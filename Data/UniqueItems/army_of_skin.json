@@ -1,0 +1,26 @@
+{
+  "id": "UAzAcBZwZiA",
+  "name": "Army of Skin",
+  "category": "Boots",
+  "baseType": "Shrine Boots",
+  "levelRequirement": 49,
+  "classRequirement": null,
+  "implicits": [
+    "+8 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "(16% to 32%) increased Cooldown Recovery Speed for Evade"
+  ],
+  "modifiers": [
+    "+8 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "(16% to 32%) increased Cooldown Recovery Speed for Evade",
+    "When Flay kills an enemy or hits a boss or rare enemy you gain a stack of Excoriation and have a 6% chance to cast Summon Skeleton if not at maximum skeletons",
+    "Excoriation has a maximum of 13 stacks and all stacks expire if you have not gained a new one for 13 seconds",
+    "Each stack of Excoriation grants Flay and Harvest 13% increased Area of Effect and +6 Melee Damage",
+    "Each stack of Excoriation grants an 8% chance on Flay hit to cast Rip Blood (up to 3 times per 2 seconds)Consumes mana equal to Rip Blood's mana cost or 2 mana, whichever is higher. Flay's Deadly Plot can apply to Rip Blood cast this way.",
+    "(13% to 26%) increased Movement Speed",
+    "(13% to 26%) increased Melee Attack Speed",
+    "(26% to 52%) more Melee Damage to High Health Enemies"
+  ],
+  "lore": ""
+}

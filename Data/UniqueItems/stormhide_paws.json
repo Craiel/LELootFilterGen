@@ -1,0 +1,24 @@
+{
+  "id": "UAzCMCZnI",
+  "name": "Stormhide Paws",
+  "category": "Gloves",
+  "baseType": "Leather Gloves",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+10 Armor",
+    "+(5 to 10) Mana"
+  ],
+  "modifiers": [
+    "+10 Armor",
+    "+(5 to 10) Mana",
+    "+1 to Level of Swipe",
+    "Every 3 seconds your next Swipe has 100% of its base damage converted to Lightning and deals +(30 to 45) Melee Lightning Damage",
+    "(30% to 45%) increased Lightning Damage",
+    "(30% to 45%) increased Cold Damage",
+    "+(30 to 45) Health",
+    "+(30% to 45%) Cold Resistance",
+    "+1 to All Attributes"
+  ],
+  "lore": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms."
+}

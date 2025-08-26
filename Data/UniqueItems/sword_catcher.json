@@ -1,0 +1,23 @@
+{
+  "id": "UAwRmGZwDiA",
+  "name": "Sword Catcher",
+  "category": "Two-Handed Axe",
+  "baseType": "Bardiche",
+  "levelRequirement": 71,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Melee Damage",
+    "+(130% to 190%) Chance to apply Bleed on Melee Hit"
+  ],
+  "modifiers": [
+    "+130 Melee Damage",
+    "+(130% to 190%) Chance to apply Bleed on Melee Hit",
+    "+(10% to 13%) Parry Chance",
+    "+(1 to 6) to Level of Melee Skills",
+    "+(28 to 39) Melee Damage for you and your Minions",
+    "100% chance on Parry to restore you and a random minion to full health and grant Frenzy for 5 secondsGrants frenzy to you and the healed minion",
+    "+(39 to 60) Melee Damage while you have FrenzyIncreased by effects that increase the effect of Frenzy on you",
+    "(39% to 60%) increased Effect of Frenzy on You"
+  ],
+  "lore": "\"The wild cannot be protected by unnatural things, by stone walls or iron shields. The flame and steel that would destroy it must be stopped in their tracks and broken by the primal rage of its defenders.\" - Nomad Chief Thulr"
+}

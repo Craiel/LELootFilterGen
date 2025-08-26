@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMwNgDiA",
+  "name": "Grimoire of Necrotic Elixirs",
+  "category": "Relic",
+  "baseType": "Reliquary Grimoire",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+(30 to 40) Health",
+    "(12% to 2%) reduced Health Regen"
+  ],
+  "modifiers": [
+    "+(30 to 40) Health",
+    "(12% to 2%) reduced Health Regen",
+    "+(2 to 4) Vitality",
+    "5% of Current Health Drained per Second for 4 seconds when you use a Potion",
+    "(30 to 40)% less void, necrotic, and poison damage taken for 4 seconds on potion useMultiplicative with other modifiers",
+    "+(30 to 40) necrotic damage to melee attacks and spells for 4 seconds on potion use"
+  ],
+  "lore": "Take a quaff from draught of undeath."
+}

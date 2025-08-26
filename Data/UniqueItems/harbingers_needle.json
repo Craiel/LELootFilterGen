@@ -1,0 +1,13 @@
+{
+  "id": "UAzCMGYBZKA",
+  "name": "Harbinger's Needle",
+  "category": "Small Idol",
+  "baseType": "Small Orobyss Idol",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Breaks if equipped when you kill a timeline boss above 90 corruption, causing that timeline boss kill to grant 3 additional Gaze of Orobyss.Only one Harbinger's Needle can be consumed at once."
+  ],
+  "lore": "A needle forged by Aberroth in the heart of a black hole. It is designed to be plunged into a powerful foe, to sacrifice them to the dark god of fate."
+}

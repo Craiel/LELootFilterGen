@@ -1,0 +1,25 @@
+{
+  "id": "UAzAcCYGZyA",
+  "name": "Hakar's Phoenix",
+  "category": "One-Handed Axe",
+  "baseType": "Eagle Wing",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+48 Melee Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "(3% to 4%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+48 Melee Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "(3% to 4%) increased Movement Speed",
+    "+(1 to 2) to Level of Primalist Melee Skills",
+    "+(12 to 20) Melee Fire Damage for you and your minions",
+    "(120% to 200%) increased Melee Damage",
+    "+(12% to 20%) Fire Penetration",
+    "When a Companion is Downed it is automatically revived after 2 seconds (10 second cooldown)",
+    "When a companion is revived by Hakar's Phoenix it releases a burst of fire and gains 100 melee fire damage and 100% ignite chance for 20 secondsThe burst of fire deals fire spell damage and scales with the minion's stats"
+  ],
+  "lore": ""
+}

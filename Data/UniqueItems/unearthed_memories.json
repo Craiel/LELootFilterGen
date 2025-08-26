@@ -1,0 +1,19 @@
+{
+  "id": "UAwRhBYWI",
+  "name": "Unearthed Memories",
+  "category": "Relic",
+  "baseType": "Defiled Bones",
+  "levelRequirement": 40,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "(13% to 19%) increased Spell Damage"
+  ],
+  "modifiers": [
+    "(13% to 19%) increased Spell Damage",
+    "Wandering Spirits is centered on a Gravestone at the targeted location instead of you",
+    "The Gravestone grants allies within 12 meters (10 to 15)% more necrotic damage over time against cursed enemiesIf Wandering Spirits is converted to another element, this buff is also converted. Multiple sources of this buff do not stack.",
+    "(13% to 19%) Increased Reveal Rate for Wandering Spirits",
+    "+(8 to 12) Intelligence"
+  ],
+  "lore": ""
+}

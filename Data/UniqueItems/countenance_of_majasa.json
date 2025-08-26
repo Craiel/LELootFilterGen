@@ -1,0 +1,21 @@
+{
+  "id": "UAwRgzALCJA",
+  "name": "Countenance of Majasa",
+  "category": "Shield",
+  "baseType": "Ironglass Shield",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness",
+    "Each second every enemy looking at you has up to a 20% chance to be Petrified for 2 secondsThis chance is 80% lower for rare enemies, and 96% lower for bosses. Petrify is a stun, preventing all movement and action.",
+    "When you block an enemy's hit it has up to a 20% chance to be Petrified for 2 secondsThis chance is 80% lower for rare enemies, and 96% lower for bosses",
+    "(25% to 30%) of Block Effectiveness applies to Damage over Time as if it had been Blocked",
+    "+(150 to 300) Block Effectiveness"
+  ],
+  "lore": ""
+}

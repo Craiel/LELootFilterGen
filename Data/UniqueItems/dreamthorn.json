@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMwFgTiA",
+  "name": "Dreamthorn",
+  "category": "Two-Handed Sword",
+  "baseType": "Split Greatsword",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+30 Melee Damage"
+  ],
+  "modifiers": [
+    "+30 Melee Damage",
+    "+40 Void Melee Damage",
+    "+40% Void Penetration",
+    "+(10% to 20%) Block Chance",
+    "(20 to 40) Health Gain on Block",
+    "+(250 to 450) Block Effectiveness"
+  ],
+  "lore": "Eater of dreams, weaver of nightmares."
+}

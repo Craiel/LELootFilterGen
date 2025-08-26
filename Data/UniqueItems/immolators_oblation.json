@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMCYFYA4g",
+  "name": "Immolator's Oblation",
+  "category": "Belt",
+  "baseType": "Leather Belt",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+4 Potion Slots",
+    "(46% to 100%) Chance to Ignite yourself when you use a Fire or Necrotic Skill",
+    "+2 Spell Damage for Fire and Necrotic skills per stack of Ignite on You (up to 20 stacks)",
+    "(4% to 6%) Chance to gain Frenzy for 2 seconds when you directly use a Fire or Necrotic skill per stack of Ignite on You",
+    "(10% to 16%) Increased Ignite Duration",
+    "100% chance to Cleanse All Ailments on Potion UseCleanses all negative ailments such as slow and ignite, but not stun and freeze, which are not ailments."
+  ],
+  "lore": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMeI",
+  "name": "Stormtide",
+  "category": "Boots",
+  "baseType": "Iron Greaves",
+  "levelRequirement": 24,
+  "classRequirement": null,
+  "implicits": [
+    "+35 Armor",
+    "(8% to 10%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+35 Armor",
+    "(8% to 10%) increased Movement Speed",
+    "25% increased Movement Speed",
+    "+(115% to 185%) Chance to apply Shock on Hit with Lightning Skills",
+    "(10% to 15%) Increased Shock Duration",
+    "You are shocked for 4 seconds when you stop movingDoes not shock you if you are already shocked Your shock effectiveness does not apply to this shock"
+  ],
+  "lore": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly."
+}

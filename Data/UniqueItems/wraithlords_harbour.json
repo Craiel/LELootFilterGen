@@ -1,0 +1,26 @@
+{
+  "id": "UAwNgLAzBCsQ",
+  "name": "Wraithlord's Harbour",
+  "category": "Helmet",
+  "baseType": "Immortal Crown",
+  "levelRequirement": 65,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "+137 Armor",
+    "(7% to 13%) Increased Cooldown Recovery Speed",
+    "(13% to 23%) Minion Increased Cooldown Recovery Speed"
+  ],
+  "modifiers": [
+    "+137 Armor",
+    "(7% to 13%) Increased Cooldown Recovery Speed",
+    "(13% to 23%) Minion Increased Cooldown Recovery Speed",
+    "+1 to Level of Summon Wraith",
+    "(28% to 48%) increased Minion Movement Speed",
+    "+(6 to 13) Minion Melee Damage",
+    "+(6 to 13) Minion Spell Damage",
+    "Casting Summon Wraith instead summons a Wraithlord",
+    "The Wraithlord scales with your Summon Wraith Tree and summons other Wraiths for you while in combatThese Wraiths still count as yours, not the Wraithlord's, and scale with your Summon Wraith tree, not the Wraithlord's Summon Wraith tree.",
+    "While at max wraiths, the Wraithlord casts Necrotic Beams and regularly consumes your non-wraith minions to empower itself, gaining Temporary Maximum Health equal to 10% of their maximum health and +3 spell damage for 10 secondsThe Wraithlord can consume up to 5 minions per cast. The buff from consuming minions can stack endlessly."
+  ],
+  "lore": ""
+}

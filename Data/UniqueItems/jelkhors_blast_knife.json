@@ -1,0 +1,23 @@
+{
+  "id": "UAzBsCYA4FYg",
+  "name": "Jelkhor's Blast Knife",
+  "category": "Dagger",
+  "baseType": "Majasan Dagger",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "+44 Melee Damage",
+    "+4% Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+44 Melee Damage",
+    "+4% Critical Strike Chance",
+    "+3 to Level of Detonating Arrow",
+    "(-6 to -3) Mana Cost for Detonating Arrow",
+    "Detonating Arrow no longer requires a bow",
+    "Detonating Arrow's initial projectile is changed to a melee attack that applies an explosive charge to each enemy it hits. Each charge explodes after the same duration that an arrow from Detonating Arrow would, and the explosion deals the same damage.",
+    "Detonating Arrow scales with melee damage instead of bow damage",
+    "+(48 to 65) Melee Damage for directly used Detonating Arrow"
+  ],
+  "lore": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzBMEYDZKA",
+  "name": "Moenia Mentis",
+  "category": "Shield",
+  "baseType": "Heater Shield",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+20% Block Chance",
+    "+(150 to 180) Block Effectiveness",
+    "+80 Armor"
+  ],
+  "modifiers": [
+    "+20% Block Chance",
+    "+(150 to 180) Block Effectiveness",
+    "+80 Armor",
+    "+(3 to 4) Intelligence",
+    "+(30 to 45) Mana",
+    "+(300 to 450) Block Effectiveness",
+    "+(30% to 45%) Void Resistance",
+    "(10% to 15%) of Current Mana gained as Ward on BlockWard is gained after damage is taken from the hit"
+  ],
+  "lore": "\"To survive the void we must build unassailable walls, not just around this town, but around our minds. Do not approach the cultists, do not speak to them.\" - Eos Falrein, last Archmage of Vul'Kaur."
+}

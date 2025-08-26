@@ -1,0 +1,19 @@
+{
+  "id": "UAzBMYFiA",
+  "name": "Fighting Chance",
+  "category": "Gloves",
+  "baseType": "Mail Bracers",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+32 Armor"
+  ],
+  "modifiers": [
+    "+32 Armor",
+    "(65% to 85%) increased Melee Damage",
+    "(5% to 10%) increased Damage Taken",
+    "(15 to 25) Health Gain on Kill",
+    "(5% to 10%) increased Movement Speed"
+  ],
+  "lore": "Fight for your life."
+}

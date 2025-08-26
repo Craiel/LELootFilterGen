@@ -1,0 +1,22 @@
+{
+  "id": "UAzDMoFgJiA",
+  "name": "Traitor's Tongue",
+  "category": "Dagger",
+  "baseType": "Kris",
+  "levelRequirement": 27,
+  "classRequirement": null,
+  "implicits": [
+    "+25 Melee Damage",
+    "+(35% to 65%) Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+25 Melee Damage",
+    "+(35% to 65%) Critical Strike Multiplier",
+    "+(10% to 13%) Parry Chance with Traitor's Tongue equipped in the mainhand",
+    "+(10% to 13%) Critical Strike Chance with Traitor's Tongue equipped in the offhand",
+    "+(1 to 2) to Level of Dexterity Skills",
+    "+(1 to 2) to Level of Intelligence Skills",
+    "(10% to 18%) increased Melee Attack Speed"
+  ],
+  "lore": ""
+}

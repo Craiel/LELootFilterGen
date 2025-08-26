@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsCYBYGYg",
+  "name": "Dragonsong",
+  "category": "Bow",
+  "baseType": "Longbow",
+  "levelRequirement": 36,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+60 Bow Damage"
+  ],
+  "modifiers": [
+    "+60 Bow Damage",
+    "+(12 to 17) Fire Damage with Spells and Attacks",
+    "+2 to Level of Fire Skills",
+    "+(12 to 17)% increased Attack and Cast Speed with Fire Skills",
+    "+(4 to 7)% Critical Strike Chance with Fire Skills",
+    "(24% to 34%) Chance to Cast Dragon Fire on CritDragon Fire cannot trigger itself"
+  ],
+  "lore": ""
+}

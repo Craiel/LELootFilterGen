@@ -1,0 +1,21 @@
+{
+  "id": "UAzBsBZwTiA",
+  "name": "The Butcher's Crown",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "You have FrenzyFrenzy is a buff that grants 20% Increased attack and cast speed. It cannot stack.",
+    "You do not Regenerate Mana",
+    "(6% to 12%) of Current Health Lost per secondThis is not affected by increases and reductions to health drain effects",
+    "12 Health and 1 Mana gained on Hit per 12% increased mana regen (up to 4 times per 2 seconds)",
+    "(60% to 112%) increased Effect of Frenzy on You",
+    "(112% to 144%) increased Damage"
+  ],
+  "lore": ""
+}

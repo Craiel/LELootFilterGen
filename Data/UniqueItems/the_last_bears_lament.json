@@ -1,0 +1,21 @@
+{
+  "id": "UAzAswTgNiA",
+  "name": "The Last Bear's Lament",
+  "category": "Helmet",
+  "baseType": "Dome Cap",
+  "levelRequirement": 20,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Armor"
+  ],
+  "modifiers": [
+    "+50 Armor",
+    "+(10 to 20) Health Regen",
+    "+(25% to 45%) Void Resistance",
+    "+(50 to 150) Endurance Threshold",
+    "+100% Chance to taunt nearby enemies for 2 seconds when you stun an enemy",
+    "+2 Endurance Threshold per Strength",
+    "+30 Strength"
+  ],
+  "lore": "The last bear's ancestors watched as the Temple of Eterra fell from the sky."
+}

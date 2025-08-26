@@ -1,0 +1,27 @@
+{
+  "id": "UAwRgLAzAbA7EA",
+  "name": "Celestial Doom",
+  "category": "Two-Handed Staff",
+  "baseType": "Abyssal Staff",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+70 Melee Damage",
+    "+(63 to 80) Spell Damage",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+70 Melee Damage",
+    "+(63 to 80) Spell Damage",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "(46% to 57%) of Mana spent gained as Maximum Mana for 5 seconds (up to 500)",
+    "You cast Doom Pulse when you directly cast a Fire, Cold, Lightning, Necrotic, or Void Spell (4 second cooldown for each spell type).Each spell type has a separate cooldown",
+    "+1 Spell Damage per 10 Max Mana for Doom Pulse",
+    "+1% Critical Strike Multiplier per 1% increased Mana Regen for Doom Pulse",
+    "+(11 to 23) Void Spell Damage",
+    "(11% to 23%) increased Cast Speed",
+    "+(113 to 227) Ward Decay Threshold",
+    "+(11 to 23) Ward per Second"
+  ],
+  "lore": ""
+}

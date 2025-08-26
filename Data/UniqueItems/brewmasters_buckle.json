@@ -1,0 +1,22 @@
+{
+  "id": "UAwRgTALCBsQ",
+  "name": "Brewmaster's Buckle",
+  "category": "Belt",
+  "baseType": "Coinmail Belt",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+(120 to 180) Armor",
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+(120 to 180) Armor",
+    "+4 Potion Slots",
+    "10% of Max Health gained as Endurance Threshold for 4 seconds when you use a potionCan stack multiple times",
+    "(300 to 400) Health Gained on Potion Use",
+    "+(6 to 10) Vitality",
+    "+(12% to 20%) Endurance",
+    "+(3 to 4) Potion Slots"
+  ],
+  "lore": "They say beer makes you bold\nI say it makes you unbreakable"
+}

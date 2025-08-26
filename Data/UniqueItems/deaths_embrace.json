@@ -1,0 +1,26 @@
+{
+  "id": "UAzCcCZ2I",
+  "name": "Death's Embrace",
+  "category": "Two-Handed Axe",
+  "baseType": "Bone Scythe",
+  "levelRequirement": 75,
+  "classRequirement": null,
+  "implicits": [
+    "+113 Melee Damage",
+    "+(13% to 29%) Necrotic Penetration",
+    "+(13% to 29%) Minion Necrotic Penetration"
+  ],
+  "modifiers": [
+    "+113 Melee Damage",
+    "+(13% to 29%) Necrotic Penetration",
+    "+(13% to 29%) Minion Necrotic Penetration",
+    "+(40 to 60) Necrotic Melee Damage",
+    "+(50% to 90%) Melee Critical Strike Multiplier",
+    "(60% to 78%) reduced Bonus Damage Taken from Critical Strikes",
+    "Gain a stack of Harrowing Claim when you use Harvest and hit at least one enemy(Harrowing Claim lasts 1.5 seconds, stacks are refreshed when gained, max 2 stacks)",
+    "Using Harvest while at 2 stacks of Harrowing Claim instead consumes them to perform Grim Harvest, granting 200% more melee damage and 100% increased area of effect, but consumes mana and health",
+    "(12 to 24) Mana consumed by Grim Harvest",
+    "(18% to 36%) of Current Health consumed by Grim Harvest"
+  ],
+  "lore": "Everything comes with a price - even death."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "UAwRlDYE4g",
+  "name": "Aergon's Refuge",
+  "category": "Two-Handed Staff",
+  "baseType": "Temple Staff",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+(90 to 100) Spell Damage",
+    "(20% to 30%) increased Mana Regen",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(90 to 100) Spell Damage",
+    "(20% to 30%) increased Mana Regen",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "(10% to 20%) of Current Mana gained as Ward when you cast a Fire Spell",
+    "+(1 to 2) to Level of Flame Ward",
+    "+(100 to 750) Ward gained when you cast Flame Ward",
+    "10% less Damage Taken if you have at least 1000 WardMultiplicative with other modifiers",
+    "+(10 to 20) Intelligence",
+    "+75% Fire Resistance"
+  ],
+  "lore": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\""
+}

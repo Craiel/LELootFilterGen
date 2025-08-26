@@ -1,0 +1,19 @@
+{
+  "id": "UAzAcwNgRiA",
+  "name": "Orian's Eye",
+  "category": "Amulet",
+  "baseType": "Oracle Amulet",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "(6% to 20%) less Damage Over Time Taken"
+  ],
+  "modifiers": [
+    "(6% to 20%) less Damage Over Time Taken",
+    "100% of Void Damage Taken as Fire",
+    "(15% to 10%) less Fire Damage Taken",
+    "+(75 to 150) Mana",
+    "(75 to 150)% increased duration of stun immunity after being stunned"
+  ],
+  "lore": "The future burns within the prophetic lense."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "UAzBMoVgNiA",
+  "name": "Peak of the Mountain",
+  "category": "Helmet",
+  "baseType": "Iron Casque",
+  "levelRequirement": 12,
+  "classRequirement": null,
+  "implicits": [
+    "+40 Armor"
+  ],
+  "modifiers": [
+    "+40 Armor",
+    "(240% to 290%) increased Critical Strike Chance",
+    "You cannot Leech Health from Critical Strikes",
+    "+(2 to 5) to All Attributes"
+  ],
+  "lore": "To achieve the loftiest of goals, victory must be valued over survival."
+}

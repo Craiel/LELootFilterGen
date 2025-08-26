@@ -99,6 +99,35 @@ Based on chosen defensive strategy from DEFENSIVE_STRATEGIES:
 - **Strict**: Require resistance caps, focus on primary defense type
 - **Very Strict**: Demand over-cap resistances, perfect defensive combinations
 
+---
+
+## Special Cases and Other Information
+
+### Unique Item Special Categories
+
+**Cocooned Items**
+- **Identification**: Unique items prefixed with "Cocooned " 
+- **Behavior**: Generate random unique items when used
+- **Value Assessment**: Highly variable due to random nature
+- **Filter Recommendation**: Generally worth showing and picking up regardless of build
+- **Rationale**: Potential for any unique outcome makes them universally valuable
+
+**Legendary Power Items**
+- **System**: Unique items can roll with Legendary Power values
+- **Scale**: Legendary Power ranges with different value thresholds
+- **High-Value Threshold**: 4 Legendary Power items are exceptional
+- **Filter Priority**: 4 Legendary Power should always be shown regardless of base item
+- **Variable Value**: 3 and below depend on the base item's individual worth
+- **Implementation**: Consider separate rules for different Legendary Power tiers
+
+**Weaver's Will Items**
+- **System**: Special power type similar to Legendary Power
+- **Scale**: Weaver's Will ranges from 5 to 25
+- **Value Threshold**: 20+ Weaver's Will is generally considered valuable
+- **Filter Recommendation**: Items with 20+ Weaver's Will should likely be shown
+- **Build Consideration**: Value may vary based on specific build requirements
+- **Implementation**: Use Weaver's Will thresholds in filtering conditions
+
 ### Secondary Priorities
 
 **Support & Utility**

@@ -1,0 +1,13 @@
+{
+  "id": "UAzBMGYA4HYg",
+  "name": "Cocooned Cuirass",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a random unique body armor"
+  ],
+  "lore": ""
+}

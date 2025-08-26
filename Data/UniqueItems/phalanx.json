@@ -1,0 +1,21 @@
+{
+  "id": "UAwjMHYEYg",
+  "name": "Phalanx",
+  "category": "Two-Handed Spear",
+  "baseType": "Pike",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+26 Melee Damage"
+  ],
+  "modifiers": [
+    "+26 Melee Damage",
+    "+(60 to 108) Melee Damage",
+    "+(40% to 72%) Vengeance Range",
+    "(5% to 9%) more Damage with Vengeance per 10% Block ChanceMultiplicative with other modifiers. Does not round, so each 1% block chance affects your damage with Vengeance.",
+    "+(20% to 36%) Block Chance while preparing to Riposte",
+    "+(400 to 720) Block Effectiveness while preparing to Riposte",
+    "100% Chance to use Javelin when you RiposteIf Javelin has a cooldown then it must be on your bar and off cooldown for this effect to trigger and triggering it puts Javelin on cooldown."
+  ],
+  "lore": "It was not just Liath's magic and machinery that drove the Wengari threat from Thetima's walls, but the discipline and order her generals instilled in her human soldiers."
+}

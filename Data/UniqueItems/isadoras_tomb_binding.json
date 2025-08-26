@@ -1,0 +1,24 @@
+{
+  "id": "UAzBMwRgNiA",
+  "name": "Isadora's Tomb Binding",
+  "category": "Belt",
+  "baseType": "Plated Belt",
+  "levelRequirement": 19,
+  "classRequirement": null,
+  "implicits": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots",
+    "+200 Armor",
+    "(10% to 15%) increased Cast Speed",
+    "(20% to 35%) increased Armor",
+    "80% Increased Necrotic Damage if you have been Hit RecentlyRecently refers to the past 4 seconds",
+    "+100% Chance to apply Damned on hit with Necrotic SpellsDamned deals necrotic damage over time and reduces health regen by 20%. An enemy can have multiple stacks of Damned at once.",
+    "30% Necrotic Penetration with Damned",
+    "+30% Mana Efficiency with Necrotic Spells"
+  ],
+  "lore": "\"...with a stake they slew her, and with silver they bound her...\""
+}

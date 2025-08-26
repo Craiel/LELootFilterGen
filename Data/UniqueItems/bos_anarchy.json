@@ -1,0 +1,26 @@
+{
+  "id": "UAzDMCYA4E4g",
+  "name": "Bo's Anarchy",
+  "category": "Two-Handed Staff",
+  "baseType": "Quarter Staff",
+  "levelRequirement": 12,
+  "classRequirement": null,
+  "implicits": [
+    "+42 Melee Damage",
+    "+(20 to 24) Spell Damage",
+    "(20% to 24%) increased Melee Attack Speed"
+  ],
+  "modifiers": [
+    "+42 Melee Damage",
+    "+(20 to 24) Spell Damage",
+    "(20% to 24%) increased Melee Attack Speed",
+    "+(24% to 30%) Block Chance",
+    "+(240 to 420) Block Effectiveness",
+    "(30% to 48%) Chance to throw Shurikens on Block",
+    "(30% to 48%) chance for Shurikens to Ricochet 3 additional timesShurikens that ricochet cannot pierce",
+    "+3 to Level of Shurikens",
+    "-3 Mana Cost for Throwing Skills",
+    "(12% to 18%) more Throwing Damage to Bosses and Rare Enemies"
+  ],
+  "lore": "The streets of Maj'elka engender no love for authority"
+}

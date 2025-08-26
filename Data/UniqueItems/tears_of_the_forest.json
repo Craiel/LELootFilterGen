@@ -1,0 +1,23 @@
+{
+  "id": "UAzAsCYHYA4g",
+  "name": "Tears of the Forest",
+  "category": "Amulet",
+  "baseType": "Turquoise Amulet",
+  "levelRequirement": 28,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Critical Strike Chance",
+    "+1 to Level of Summon Spriggan",
+    "+1 to Level of Spriggan Form",
+    "2 Rage Gained per Second per Summoned Vine",
+    "(4% to 8%) increased Movement Speed while Transformed",
+    "(16% to 32%) increased Armor while Transformed",
+    "+(32 to 64) Mana"
+  ],
+  "lore": ""
+}

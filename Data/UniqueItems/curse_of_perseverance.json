@@ -1,0 +1,24 @@
+{
+  "id": "UAzAsCZgViA",
+  "name": "Curse of Perseverance",
+  "category": "Two-Handed Staff",
+  "baseType": "Imperial Staff",
+  "levelRequirement": 20,
+  "classRequirement": null,
+  "implicits": [
+    "+45 Melee Damage",
+    "+(23 to 35) Spell Damage",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+45 Melee Damage",
+    "+(23 to 35) Spell Damage",
+    "-3 Mana Cost for Spell Skills",
+    "+1 to Level of Necrotic Spell Skills",
+    "(13% to 63%) increased Necrotic Damage",
+    "Hungering Souls projectiles are fired in sequence and can all hit the same target but deal 63% less damageMultiplicative with other modifiers",
+    "+(63 to 73) Health",
+    "1% of Necrotic Damage Leeched as Health"
+  ],
+  "lore": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "UAzDMwNgViA",
+  "name": "Arboreal Circuit",
+  "category": "Ring",
+  "baseType": "Silver Ring",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "(3% to 8%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "(3% to 8%) increased Movement Speed",
+    "+(300 to 900) Minion Armor",
+    "(5 to 10)% increased Movement Speed for you and your minions",
+    "10% chance to summon an illusory tree when hit (15 second cooldown)"
+  ],
+  "lore": "You can search round and round, but you are seeking an illusion."
+}

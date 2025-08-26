@@ -1,0 +1,22 @@
+{
+  "id": "UAzCswZgo",
+  "name": "Culnivar's Claim",
+  "category": "Sceptre",
+  "baseType": "Auric Sceptre",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+38 Melee Damage",
+    "+(38 to 48) Spell Damage"
+  ],
+  "modifiers": [
+    "+38 Melee Damage",
+    "+(38 to 48) Spell Damage",
+    "90% increased Lightning Spell Damage",
+    "90% increased Lightning Spell Critical Strike Chance",
+    "+(16 to 24) Lightning Spell Damage",
+    "(16% to 24%) increased Mana Regen",
+    "100% of mana converted to ward when you reach full manaDoes not trigger while your mana is replaced with Rage"
+  ],
+  "lore": "Culnivar, last scion of Liath, was a symbol of hope for the living slaves of Thetima."
+}

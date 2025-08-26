@@ -1,0 +1,21 @@
+{
+  "id": "UAwRhBZ2I",
+  "name": "Bluefeather Band",
+  "category": "Ring",
+  "baseType": "Celestial Ring",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "+(42 to 110) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+(42 to 110) Ward Decay Threshold",
+    "(54% to 48%) less Mana Cost for Spell Skills",
+    "(54% to 48%) less Mana",
+    "(54% to 48%) less Mana Regen",
+    "(6% to 9%) of Damage Dealt to Mana Before Health",
+    "When you use 3 zero mana cost skills in a row you gain (15 to 21) Mana and (180 to 330) Ward (3 second cooldown)",
+    "+(180 to 330) Ward Decay Threshold"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzCswJgDiA",
+  "name": "Beast King",
+  "category": "One-Handed Axe",
+  "baseType": "Wengari Axe",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+36 Melee Damage",
+    "+(36% to 66%) Chance to apply Bleed on Melee Hit",
+    "(10% to 16%) Increased Bleed Duration"
+  ],
+  "modifiers": [
+    "+36 Melee Damage",
+    "+(36% to 66%) Chance to apply Bleed on Melee Hit",
+    "(10% to 16%) Increased Bleed Duration",
+    "+(25 to 35) Physical Melee Damage",
+    "(10% to 20%) increased Melee Attack Speed",
+    "(50% to 75%) increased Minion Health",
+    "8% less damage taken if your minions have killed recentlyRecently refers to the past 4 seconds. Multiplicative with other modifiers.",
+    "minions take 25% less damage if you have killed recentlyRecently refers to the past 4 seconds. Multiplicative with other modifiers."
+  ],
+  "lore": "The King of Beasts leads the charge."
+}

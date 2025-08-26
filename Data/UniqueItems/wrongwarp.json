@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcGYEZiA",
+  "name": "Wrongwarp",
+  "category": "Wand",
+  "baseType": "Crystal Wand",
+  "levelRequirement": 83,
+  "classRequirement": null,
+  "implicits": [
+    "+(50 to 60) Spell Damage",
+    "+(50 to 60) Mana",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(50 to 60) Spell Damage",
+    "+(50 to 60) Mana",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "When you cast Teleport or Transplant you are teleported to a random nearby location, become immune to all damage for 1 second, and gain Chronowarp for 10 seconds.The random teleportation range is 3 to 6 metres.",
+    "Chronowarp grants 35% increased cast speed and movement speedChronowarp cannot stack",
+    "When you cast teleport or transplant you time lock up to 10 enemies around the destination for 1 second. Bosses are slowed instead of time locked.Max range of 4 meters. Timelocked enemies cannot move or attack, as if they are stunned.",
+    "(10% to 35%) Chance to gain Haste for 1 second on Hit",
+    "2% increased Spell Damage per 1% increased Movement Speed",
+    "(5 to 10)% increased Cooldown Recovery Speed for Teleport and Transplant"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,16 @@
+{
+  "id": "UAwgsCYEYg",
+  "name": "The Land Before",
+  "category": "Adorned Idol",
+  "baseType": "Adorned Heorot Idol",
+  "levelRequirement": 32,
+  "classRequirement": "Primalist",
+  "implicits": [],
+  "modifiers": [
+    "+4 Maximum Companions if this is your only equipped Unique IdolEquipping multiple copies of this idol counts as having multiple unique idols equipped and results in no bonus to maximum companions. Harbinger's Needle is ignored.",
+    "You cannot summon more than 1 of any type of companion",
+    "+(36% to 56%) Physical Resistance",
+    "+(36% to 56%) Minion Physical Resistance"
+  ],
+  "lore": "Before the falling of the temple and the strife of gods, there was peace between the osprix, the wengari, the meruna, and the nagasa."
+}

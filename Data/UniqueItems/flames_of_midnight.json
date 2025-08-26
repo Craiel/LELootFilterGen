@@ -1,0 +1,21 @@
+{
+  "id": "UAwRhGYDZKA",
+  "name": "Flames of Midnight",
+  "category": "Ring",
+  "baseType": "Celestial Ring",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+(42 to 110) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+(42 to 110) Ward Decay Threshold",
+    "Evade is replaced by Spirit Step",
+    "You have Swiftness",
+    "When you directly use a Fire, Necrotic, or Void skill you create a Wandering Spirit near the target location (4 second cooldown for each skill type).Each skill type has a separate cooldown. The spirit is created at an accessible location, where it can be swapped with.",
+    "+(4 to 7) Ward gained each second per Active Wandering SpiritDoes not count as a Ward Per Second stat for the purpose of stat conversions or scaling",
+    "100% of Wandering Spirits Base Damage Converted to Fire",
+    "+(7 to 11)% Fire, Necrotic, and Void Penetration"
+  ],
+  "lore": ""
+}

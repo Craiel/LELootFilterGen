@@ -1,0 +1,22 @@
+{
+  "id": "UAwRgLMCsDMQ",
+  "name": "Rahyeh's Light",
+  "category": "Shield",
+  "baseType": "Dawn Shield",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "+30% Block Chance",
+    "+(750 to 1000) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+30% Block Chance",
+    "+(750 to 1000) Block Effectiveness",
+    "75% increased Fire Damage",
+    "(25% to 5%) less Fire Damage Taken on Block",
+    "+75% Fire Resistance",
+    "+1 to Level of Judgement",
+    "75% Increased Healing Effectiveness"
+  ],
+  "lore": "Burn with the fire of the eternal sun."
+}

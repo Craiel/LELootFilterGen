@@ -1,0 +1,22 @@
+{
+  "id": "UAzDsEYDYBYg",
+  "name": "Logi's Hunger",
+  "category": "Amulet",
+  "baseType": "Bone Amulet",
+  "levelRequirement": 82,
+  "classRequirement": null,
+  "implicits": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance"
+  ],
+  "modifiers": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance",
+    "+(2% to 3%) Fire Critical Strike Chance",
+    "(5% to 8%) of Fire Damage Leeched as Health on Crit",
+    "(50% to 80%) Increased Leech Rate",
+    "+(2% to 3%) Minion Critical Strike Chance",
+    "+2 to Level of Minion Fire Skills"
+  ],
+  "lore": "Rise! Through fire we are reborn."
+}

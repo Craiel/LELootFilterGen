@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMwTmI",
+  "name": "Locket of the Forgotten Knight",
+  "category": "Amulet",
+  "baseType": "Silver Amulet",
+  "levelRequirement": 24,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Critical Strike Chance",
+    "(29% to 70%) increased Void Damage",
+    "+(2 to 3)% Critical Strike Chance with Void Skills",
+    "+(21% to 28%) Chance to apply Time Rot on Hit",
+    "+(15% to 20%) Chance to create a Void Rift when you hit an enemy (2 second cooldown)Void Rift is a void spell that deals void damage to all nearby enemies.",
+    "50% Void Penetration with Time Rot",
+    "3% more Void Damage per stack of Time Rot"
+  ],
+  "lore": "A sanctuary for memories lost."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzAcEYFYDYg",
+  "name": "Gaspar's Will",
+  "category": "Sceptre",
+  "baseType": "Obsidian Sceptre",
+  "levelRequirement": 75,
+  "classRequirement": null,
+  "implicits": [
+    "+55 Melee Damage",
+    "+(55 to 65) Spell Damage"
+  ],
+  "modifiers": [
+    "+55 Melee Damage",
+    "+(55 to 65) Spell Damage",
+    "+7 Void Spell Damage",
+    "+(135% to 245%) Chance to apply Ignite on Hit with Void Spell Skills",
+    "(14% to 28%) increased Fire Cast Speed",
+    "100% Chance to cast Decimate when you directly use a Fire Spell (4 second cooldown)Cooldown can only be reduced by set bonus, not other stats.",
+    "50% Cooldown Reduction for DecimateReduces the cooldown for proccing Decimate",
+    "15% more Void Damage to Bosses and Rare Enemies",
+    "100% Increased Area with Decimate"
+  ],
+  "lore": "I failed to protect. I failed to lead. Destruction is all that is left."
+}

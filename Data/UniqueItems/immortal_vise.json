@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgTALCCsQ",
+  "name": "Immortal Vise",
+  "category": "Gloves",
+  "baseType": "Eternal Gauntlets",
+  "levelRequirement": 86,
+  "classRequirement": null,
+  "implicits": [
+    "+211 Armor",
+    "(11% to 24%) of Armor Mitigation also applies to Damage over Time"
+  ],
+  "modifiers": [
+    "+211 Armor",
+    "(11% to 24%) of Armor Mitigation also applies to Damage over Time",
+    "(25% to 30%) of Hit Damage Taken from Bosses and Rare enemies is dealt over 4 seconds insteadThis amount cannot be altered after the hit and is unaffected by temporary immunity effects. It does not count as damage over time.",
+    "While you have more than 10% of your maximum health as delayed damage, damage to health below your endurance threshold is reduced by 30%Delayed damage refers to hit damage which is being dealt over 4 seconds",
+    "(10% to 26%) increased Melee Attack Speed",
+    "(1% to 2%) of Melee Damage Leeched as Health",
+    "+(60 to 90) Health",
+    "+(6 to 9) Strength"
+  ],
+  "lore": ""
+}

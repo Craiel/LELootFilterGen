@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsGYFYBYg",
+  "name": "Wall of Nothing",
+  "category": "Body Armor",
+  "baseType": "Gladiator Armor",
+  "levelRequirement": 85,
+  "classRequirement": null,
+  "implicits": [
+    "+220 Armor"
+  ],
+  "modifiers": [
+    "+220 Armor",
+    "(10% to 16%) chance to take 0 Damage when Hit",
+    "+(60 to 185) Ward Decay Threshold",
+    "+(60 to 185) Endurance Threshold",
+    "(60% to 85%) of Endurance Threshold added as Ward Decay Threshold",
+    "+(60 to 70) Ward per Second"
+  ],
+  "lore": "Cloaked in the void, Harbingers need fear naught."
+}

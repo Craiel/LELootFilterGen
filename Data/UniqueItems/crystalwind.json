@@ -1,0 +1,25 @@
+{
+  "id": "UAzAcGYHZSA",
+  "name": "Crystalwind",
+  "category": "Quiver",
+  "baseType": "Steelweave Quiver",
+  "levelRequirement": 77,
+  "classRequirement": null,
+  "implicits": [
+    "+(77 to 140) Armor",
+    "+(42% to 77%) Chance to apply Shred Armor on Hit",
+    "(21% to 42%) Increased Shred Armor Effect"
+  ],
+  "modifiers": [
+    "+(77 to 140) Armor",
+    "+(42% to 77%) Chance to apply Shred Armor on Hit",
+    "(21% to 42%) Increased Shred Armor Effect",
+    "Gain 4 stacks of Crystalwind per second while moving and 4 stacks when you Evade (max 8)",
+    "Directly using a bow attack consumes up to 4 stacks of Crystalwind to deal (8 to 15)% more damage per stack",
+    "+75% Chance to Slow Bosses and Rare Enemies on hit per stack of Crystalwind consumed",
+    "5% Chance to Petrify other enemies on hit per stack of Crystalwind consumedPetrifies enemies for 2 seconds. Petrify is a stun, preventing all movement and action.",
+    "(4% to 10%) increased Movement Speed",
+    "(4% to 10%) increased Cooldown Recovery Speed for Evade"
+  ],
+  "lore": "The wind chimes sing within the mines"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "UAwjMHZyA",
+  "name": "Gordian Prism",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Glass Catalyst",
+  "levelRequirement": 28,
+  "classRequirement": null,
+  "implicits": [
+    "+(3 to 6) Intelligence"
+  ],
+  "modifiers": [
+    "+(3 to 6) Intelligence",
+    "Directly cast Three Rune Invocations always cast Grand Prism Nova instead",
+    "Grand Prism Nova's base damage is converted based on the Runes used to invoke itFor example if it is invoked with two Rah runes and one Heo rune, two thirds of the base damage will be fire, and one third will be cold",
+    "Grand Prism Nova gains (50 to 65)% chance to ignite, shock, or chill per RuneEach Rah rune grants ignite chance, each Gon rune grants shock chance, and each Heo rune grants chill chance",
+    "10% Chance to not consume Runes when Invoking per Unique RuneThe unique runes are Rah, Heo, and Gon. Effects based on runes used will still apply.",
+    "(35% to 60%) increased Elemental Damage",
+    "+(60 to 120) Ward Decay Threshold"
+  ],
+  "lore": "\"What is innovation without the power to prove its worth? If you present me a solution that is outperformed by a raw expression of power then you have brought me nothing!\" -Runemaster Gordian"
+}

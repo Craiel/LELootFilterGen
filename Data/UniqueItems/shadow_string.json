@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMCYBZyA",
+  "name": "Shadow String",
+  "category": "Bow",
+  "baseType": "Birch Bow",
+  "levelRequirement": 11,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+18 Bow Damage",
+    "+(2% to 3%) Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+18 Bow Damage",
+    "+(2% to 3%) Critical Strike Chance",
+    "(111% to 211%) increased Critical Strike Chance",
+    "+1 Charge for Shift",
+    "+(11 to 111) Ward gained when you use Shift",
+    "+1 Charge for Smoke Bomb",
+    "(11 to 111) Ward gained when you use Smoke Bomb"
+  ],
+  "lore": "Unseen hands strike hardest"
+}

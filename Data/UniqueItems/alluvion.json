@@ -1,0 +1,21 @@
+{
+  "id": "UAzDsEYCZKA",
+  "name": "Alluvion",
+  "category": "Two-Handed Sword",
+  "baseType": "Flamberge",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+90 Melee Damage"
+  ],
+  "modifiers": [
+    "+90 Melee Damage",
+    "+(30 to 62) Cold Melee Damage",
+    "+(30 to 62) Lightning Melee Damage",
+    "+(46 to 62) Spell Damage",
+    "+(20% to 40%) Cold Resistance",
+    "+(20% to 40%) Lightning Resistance",
+    "100% Chance to cast Tidal Wave when you use a Melee Attack (2 second cooldown)Tidal Wave deals cold damage to all enemies hit in a line in front of you."
+  ],
+  "lore": "Waves woven into steel."
+}

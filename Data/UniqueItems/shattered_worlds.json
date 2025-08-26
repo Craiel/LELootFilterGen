@@ -1,0 +1,21 @@
+{
+  "id": "UAwNgTALAjAzEA",
+  "name": "Shattered Worlds",
+  "category": "Relic",
+  "baseType": "Void Star",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 10%) less Damage Taken"
+  ],
+  "modifiers": [
+    "(5% to 10%) less Damage Taken",
+    "You are immune to Slow",
+    "You have HasteEffects which trigger when gaining or refreshing Haste will occur every second",
+    "+(1% to 5%) Critical Strike Chance",
+    "+(1 to 10) to All Attributes",
+    "(10% to 100%) increased Effect of Frenzy on You",
+    "+1 to Level of All Skills"
+  ],
+  "lore": "The unrestrained power of countless shattered timelines, condensed into a vortex of possibility"
+}

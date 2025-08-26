@@ -24,6 +24,7 @@ const WEB_DATA_DIR = path.join(__dirname, '..', 'WebData');
 const OUTPUT_FILE = path.join(DATA_DIR, 'game-database.jsonl');
 const VERSION_FILE = path.join(DATA_DIR, 'database-version.json');
 const LOG_FILE = path.join(DATA_DIR, 'build.log');
+const VALIDATION_REPORT_FILE = path.join(DATA_DIR, 'validation-report.txt');
 
 // Default game version from templates
 const DEFAULT_GAME_VERSION = '1.3.0.4';
@@ -100,8 +101,8 @@ class DatabaseBuilder {
       console.log('🗂️  Parsing data templates...');
       await this.parseDataTemplates();
       
-      console.log('🌐 Processing scraped web data...');
-      await this.processScrapedWebData();
+      console.log('🌐 Processing web data...');
+      await this.processWebData();
       
       console.log('🔧 Loading manual overrides...');
       await this.applyManualOverrides();
@@ -325,7 +326,9 @@ class DatabaseBuilder {
             }
           }
         } else if (nameOverride && nameOverride.includes('Subtypes')) {
-          // Extract subtype information
+          // Extract subtype information - TEMPORARILY DISABLED
+          // TODO: Re-enable when complete subtype data is available
+          /*
           const condition = rule.conditions?.[0]?.Condition?.[0];
           
           if (condition?.$?.['i:type'] === 'SubTypeCondition') {
@@ -342,6 +345,7 @@ class DatabaseBuilder {
               this.gameData.statistics.totalSubtypes++;
             }
           }
+          */
         }
       }
       
@@ -499,21 +503,47 @@ class DatabaseBuilder {
   }
 
   /**
-   * Process scraped web data if available
+   * Process web data if available
    */
-  async processScrapedWebData() {
-    const webDataProcessedDir = path.join(WEB_DATA_DIR, 'processed');
-    const webDataScrapedDir = path.join(WEB_DATA_DIR, 'scraped');
+  async processWebData() {
+    // Check if we have HTML files to process directly
+    const htmlFiles = ['ItemList.html', 'Sets.html', 'Prefixes.html', 'Suffixes.html', 'SkillOverview.html'];
+    const existingFiles = [];
     
-    // Check if we have scraped data to process
-    if (!await fs.pathExists(webDataScrapedDir) && !await fs.pathExists(webDataProcessedDir)) {
-      this.logger.info('No scraped web data found - skipping web data processing');
+    for (const file of htmlFiles) {
+      const filePath = path.join(WEB_DATA_DIR, file);
+      if (await fs.pathExists(filePath)) {
+        existingFiles.push(file);
+      }
+    }
+    
+    if (existingFiles.length === 0) {
+      this.logger.info('No HTML files found in WebData - skipping web data processing');
       return;
+    }
+    
+    this.logger.info(`Found ${existingFiles.length} HTML files to process: ${existingFiles.join(', ')}`);
+    console.log(`📄 Found ${existingFiles.length} HTML files to process: ${existingFiles.join(', ')}`);
+    
+    const webDataProcessedDir = path.join(WEB_DATA_DIR, 'processed');
+    
+    // Check if we have web data to process
+    if (!await fs.pathExists(webDataProcessedDir)) {
+      this.logger.info('No processed directory found - processing HTML files directly');
     }
 
     try {
       // Try to parse HTML data from manual download
       await this.parseHtmlData();
+      
+      // Try to parse set data from HTML
+      await this.parseSetData();
+      
+      // Try to parse affix data from HTML
+      await this.parseAffixData();
+      
+      // Try to parse skill data from HTML
+      await this.parseSkillData();
     } catch (error) {
       this.logger.warn(`Web data processing failed: ${error.message}`);
       console.log(`⚠️  Web data processing failed: ${error.message}`);
@@ -540,45 +570,69 @@ class DatabaseBuilder {
         // Save unique items to Data/UniqueItems directory
         await this.saveHtmlUniqueItemsToFiles(parsedData.uniqueItems);
         
-        // Extract subtypes from HTML data
-        await this.extractSubtypesFromHtmlData(parsedData.subtypes);
+        // Extract subtypes from HTML data - TEMPORARILY DISABLED
+        // TODO: Re-enable when complete subtype data is available
+        // await this.extractSubtypesFromHtmlData(parsedData.subtypes);
         
         // Integrate HTML data into our game database
         for (const uniqueItem of parsedData.uniqueItems) {
-          if (uniqueItem.id && uniqueItem.name) {
-            const existingEntry = this.gameData.uniques.get(uniqueItem.id);
+          if (uniqueItem.name) {
+            // Find existing template entry by name lookup (ignore HTML ID)
+            let templateId = null;
+            let existingEntry = null;
             
-            if (!existingEntry || existingEntry === null) {
-              // Add new unique item from HTML data
-              this.gameData.uniques.set(uniqueItem.id, {
-                name: uniqueItem.name,
-                desc: uniqueItem.lore || '',
-                props: {
+            // Search for existing entry with matching name
+            for (const [id, entry] of this.gameData.uniques) {
+              if (entry && typeof entry === 'object' && entry.name === uniqueItem.name) {
+                templateId = id;
+                existingEntry = entry;
+                break;
+              }
+            }
+            
+            // If no matching name found, look for unfilled template entries
+            if (!templateId) {
+              for (const [id, entry] of this.gameData.uniques) {
+                if (entry === null || (typeof entry === 'object' && !entry.name)) {
+                  // Use first available unfilled template
+                  templateId = id;
+                  existingEntry = entry;
+                  break;
+                }
+              }
+            }
+            
+            if (templateId !== null) {
+              if (!existingEntry || existingEntry === null) {
+                // Fill unfilled template with HTML data
+                this.gameData.uniques.set(templateId, {
+                  name: uniqueItem.name,
+                  desc: uniqueItem.lore || '',
+                  props: {
+                    baseType: uniqueItem.baseType,
+                    category: uniqueItem.category,
+                    levelRequirement: uniqueItem.levelRequirement,
+                    classRequirement: uniqueItem.classRequirement,
+                    implicits: uniqueItem.implicits,
+                    modifiers: uniqueItem.modifiers
+                  }
+                });
+              } else if (typeof existingEntry === 'object' && existingEntry.name) {
+                // Enhance existing template with additional data
+                existingEntry.desc = uniqueItem.lore || existingEntry.desc;
+                existingEntry.props = {
+                  ...existingEntry.props,
                   baseType: uniqueItem.baseType,
                   category: uniqueItem.category,
-                  rarity: uniqueItem.rarity,
                   levelRequirement: uniqueItem.levelRequirement,
                   classRequirement: uniqueItem.classRequirement,
                   implicits: uniqueItem.implicits,
                   modifiers: uniqueItem.modifiers
-                },
-                notes: 'Discovered from HTML data'
-              });
-            } else if (typeof existingEntry === 'object' && !existingEntry.name) {
-              // Enhance existing unfilled template
-              existingEntry.name = uniqueItem.name;
-              existingEntry.desc = uniqueItem.lore || existingEntry.desc;
-              existingEntry.props = {
-                ...existingEntry.props,
-                baseType: uniqueItem.baseType,
-                category: uniqueItem.category,
-                rarity: uniqueItem.rarity,
-                levelRequirement: uniqueItem.levelRequirement,
-                classRequirement: uniqueItem.classRequirement,
-                implicits: uniqueItem.implicits,
-                modifiers: uniqueItem.modifiers
-              };
-              existingEntry.notes = `Template enhanced with HTML data`;
+                };
+              }
+            } else {
+              // No template available - this item wasn't expected in templates
+              this.logger.warn(`HTML item "${uniqueItem.name}" has no corresponding template entry - skipping`);
             }
           }
         }
@@ -600,8 +654,9 @@ class DatabaseBuilder {
       const itemDbData = await parser.loadItemDbData();
       
       if (itemDbData) {
-        // Extract subtypes from web data
-        await this.extractSubtypesFromWebData(itemDbData);
+        // Extract subtypes from web data - TEMPORARILY DISABLED
+        // TODO: Re-enable when complete subtype data is available
+        // await this.extractSubtypesFromWebData(itemDbData);
         
         // Parse unique items
         const uniqueItems = await parser.parseUniqueItemsFromJs();
@@ -660,6 +715,285 @@ class DatabaseBuilder {
   }
   
   /**
+   * Parse set data from HTML file
+   */
+  async parseSetData() {
+    const { HTMLSetParser } = require('./html-set-parser.js');
+    const parser = new HTMLSetParser();
+
+    try {
+      this.logger.info('Starting HTML set data parsing...');
+      
+      // Parse set data
+      const parsedData = await parser.parseSetItems();
+      
+      if (parsedData.setItems && parsedData.setItems.length > 0) {
+        this.logger.info(`Parsed ${parsedData.setItems.length} set items from HTML data`);
+        console.log(`✅ Parsed ${parsedData.setItems.length} set items from HTML data`);
+        
+        // Integrate HTML set data into our game database
+        for (const setItem of parsedData.setItems) {
+          if (setItem.name) {
+            // Find existing template entry by name lookup (ignore HTML ID)
+            let templateId = null;
+            let existingEntry = null;
+            
+            // Search for existing entry with matching name
+            for (const [id, entry] of this.gameData.sets) {
+              if (entry && typeof entry === 'object' && entry.name === setItem.name) {
+                templateId = id;
+                existingEntry = entry;
+                break;
+              }
+            }
+            
+            // If no matching name found, look for unfilled template entries
+            if (!templateId) {
+              for (const [id, entry] of this.gameData.sets) {
+                if (entry === null || (typeof entry === 'object' && !entry.name)) {
+                  // Use first available unfilled template
+                  templateId = id;
+                  existingEntry = entry;
+                  break;
+                }
+              }
+            }
+            
+            if (templateId !== null) {
+              if (!existingEntry || existingEntry === null) {
+                // Fill unfilled template with HTML data
+                this.gameData.sets.set(templateId, {
+                  name: setItem.name,
+                  desc: setItem.lore || '',
+                  props: {
+                    baseType: setItem.baseType,
+                    category: setItem.category,
+                    setName: setItem.setName,
+                    levelRequirement: setItem.levelRequirement,
+                    classRequirement: setItem.classRequirement,
+                    implicits: setItem.implicits,
+                    modifiers: setItem.modifiers,
+                    setBonuses: setItem.setBonuses
+                  }
+                });
+              } else if (typeof existingEntry === 'object' && existingEntry.name) {
+                // Enhance existing template with additional data
+                existingEntry.desc = setItem.lore || existingEntry.desc;
+                existingEntry.props = {
+                  ...existingEntry.props,
+                  baseType: setItem.baseType,
+                  category: setItem.category,
+                  setName: setItem.setName,
+                  levelRequirement: setItem.levelRequirement,
+                  classRequirement: setItem.classRequirement,
+                  implicits: setItem.implicits,
+                  modifiers: setItem.modifiers,
+                  setBonuses: setItem.setBonuses
+                };
+              }
+            } else {
+              // No template available - this item wasn't expected in templates
+              this.logger.warn(`HTML set item "${setItem.name}" has no corresponding template entry - skipping`);
+            }
+          }
+        }
+      } else {
+        this.logger.info('No set items found in HTML data');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse HTML set data: ${error.message}`);
+      console.log(`❌ HTML set parsing failed: ${error.message}`);
+    }
+  }
+  
+  /**
+   * Parse affix data from HTML files
+   */
+  async parseAffixData() {
+    const { HTMLPrefixParser } = require('./html-prefix-parser.js');
+    const { HTMLSuffixParser } = require('./html-suffix-parser.js');
+    
+    let totalPrefixes = 0;
+    let totalSuffixes = 0;
+
+    try {
+      // Parse prefix data
+      this.logger.info('Starting HTML prefix data parsing...');
+      const prefixParser = new HTMLPrefixParser();
+      const prefixData = await prefixParser.parsePrefixes();
+      
+      if (prefixData.prefixes && prefixData.prefixes.length > 0) {
+        totalPrefixes = prefixData.prefixes.length;
+        this.logger.info(`Parsed ${totalPrefixes} prefixes from HTML data`);
+        
+        // Integrate prefix data into our game database
+        await this.integrateParsedAffixes(prefixData.prefixes, 'prefix');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse HTML prefix data: ${error.message}`);
+      console.log(`❌ HTML prefix parsing failed: ${error.message}`);
+    }
+
+    try {
+      // Parse suffix data
+      this.logger.info('Starting HTML suffix data parsing...');
+      const suffixParser = new HTMLSuffixParser();
+      const suffixData = await suffixParser.parseSuffixes();
+      
+      if (suffixData.suffixes && suffixData.suffixes.length > 0) {
+        totalSuffixes = suffixData.suffixes.length;
+        this.logger.info(`Parsed ${totalSuffixes} suffixes from HTML data`);
+        
+        // Integrate suffix data into our game database
+        await this.integrateParsedAffixes(suffixData.suffixes, 'suffix');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse HTML suffix data: ${error.message}`);
+      console.log(`❌ HTML suffix parsing failed: ${error.message}`);
+    }
+    
+    if (totalPrefixes > 0 || totalSuffixes > 0) {
+      console.log(`✅ Parsed ${totalPrefixes} prefixes and ${totalSuffixes} suffixes from HTML data`);
+    } else {
+      this.logger.info('No affix data found in HTML files');
+    }
+  }
+  
+  /**
+   * Integrate parsed affix data into the game database
+   */
+  async integrateParsedAffixes(affixes, type) {
+    for (const affix of affixes) {
+      if (affix.name) {
+        // Find existing template entry by name lookup (ignore HTML ID)
+        let templateId = null;
+        let existingEntry = null;
+        
+        // Search for existing entry with matching name
+        for (const [id, entry] of this.gameData.affixes) {
+          if (entry && typeof entry === 'object' && entry.name === affix.name) {
+            templateId = id;
+            existingEntry = entry;
+            break;
+          }
+        }
+        
+        // If no matching name found, look for unfilled template entries
+        if (!templateId) {
+          for (const [id, entry] of this.gameData.affixes) {
+            if (entry === null || (typeof entry === 'object' && !entry.name)) {
+              // Use first available unfilled template
+              templateId = id;
+              existingEntry = entry;
+              break;
+            }
+          }
+        }
+        
+        if (templateId !== null) {
+          if (!existingEntry || existingEntry === null) {
+            // Fill unfilled template with HTML data
+            this.gameData.affixes.set(templateId, {
+              name: affix.name,
+              desc: affix.description || '',
+              props: {
+                type: type,
+                tier: affix.tier,
+                itemTypes: affix.itemTypes,
+                minValue: affix.minValue,
+                maxValue: affix.maxValue
+              },
+              isIdolAffix: affix.isIdolAffix
+            });
+          } else if (typeof existingEntry === 'object' && existingEntry.name) {
+            // Enhance existing template with additional data
+            existingEntry.desc = affix.description || existingEntry.desc;
+            existingEntry.props = {
+              ...existingEntry.props,
+              type: type,
+              tier: affix.tier,
+              itemTypes: affix.itemTypes,
+              minValue: affix.minValue,
+              maxValue: affix.maxValue
+            };
+            if (affix.isIdolAffix !== undefined) {
+              existingEntry.isIdolAffix = affix.isIdolAffix;
+            }
+          }
+        } else {
+          // No template available - this affix wasn't expected in templates
+          this.logger.warn(`HTML ${type} "${affix.name}" has no corresponding template entry - skipping`);
+        }
+      }
+    }
+  }
+  
+  /**
+   * Parse skill data from HTML file
+   */
+  async parseSkillData() {
+    const { HTMLSkillParser } = require('./html-skill-parser.js');
+    const parser = new HTMLSkillParser();
+
+    try {
+      this.logger.info('Starting HTML skill data parsing...');
+      
+      // Parse skill data
+      const parsedData = await parser.parseSkills();
+      
+      if (parsedData) {
+        const totalSkills = parsedData.classes.reduce((sum, cls) => {
+          return sum + cls.masteries.reduce((masterySum, mastery) => {
+            return masterySum + mastery.skills.length;
+          }, 0);
+        }, 0) + parsedData.otherCategories.reduce((sum, cat) => sum + cat.skills.length, 0);
+        
+        this.logger.info(`Parsed ${parsedData.classes.length} classes, ${parsedData.classes.reduce((sum, cls) => sum + cls.masteries.length, 0)} masteries, and ${totalSkills} skills from HTML data`);
+        console.log(`✅ Parsed ${parsedData.classes.length} classes, ${parsedData.classes.reduce((sum, cls) => sum + cls.masteries.length, 0)} masteries, and ${totalSkills} skills from HTML data`);
+        
+        // Save skill data to Data directory (skills are informational, not integrated into main database)
+        await this.saveSkillData(parsedData);
+        
+      } else {
+        this.logger.info('No skill data found in HTML');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse HTML skill data: ${error.message}`);
+      console.log(`❌ HTML skill parsing failed: ${error.message}`);
+    }
+  }
+  
+  /**
+   * Save skill data to dedicated files
+   */
+  async saveSkillData(skillData) {
+    const skillsDir = path.join(DATA_DIR, 'Skills');
+    await fs.ensureDir(skillsDir);
+    
+    // Save complete skill categorization
+    const categorizationFile = path.join(skillsDir, 'skill_categorization.json');
+    await fs.writeJson(categorizationFile, skillData, { spaces: 2 });
+    
+    // Save individual class files
+    for (const classData of skillData.classes) {
+      const classFile = path.join(skillsDir, `${classData.name.toLowerCase()}.json`);
+      await fs.writeJson(classFile, classData, { spaces: 2 });
+    }
+    
+    // Save other categories file
+    if (skillData.otherCategories.length > 0) {
+      const otherFile = path.join(skillsDir, 'other_skill_categories.json');
+      await fs.writeJson(otherFile, skillData.otherCategories, { spaces: 2 });
+    }
+    
+    this.logger.info(`Saved skill categorization to ${skillsDir}`);
+  }
+  
+  /**
    * Extract individual subtype IDs from web data
    */
   async extractSubtypesFromWebData(itemDbData) {
@@ -688,8 +1022,7 @@ class DatabaseBuilder {
               displayName: subItem.displayNameKey?.replace(/^Type_/, '') || `Subtype ${subtypeIdNum}`,
               equipmentType: equipTypeName,
               equipTypeId: parseInt(equipTypeId),
-              order: 0,
-              notes: 'Extracted from web data'
+              order: 0
             });
             extractedSubtypes++;
           } else {
@@ -697,7 +1030,6 @@ class DatabaseBuilder {
             const existing = this.gameData.subtypes.get(subtypeIdNum);
             if (existing && subItem.displayNameKey) {
               existing.webDisplayName = subItem.displayNameKey;
-              existing.notes = (existing.notes || '') + ' Enhanced with web data';
             }
           }
         }
@@ -818,12 +1150,67 @@ class DatabaseBuilder {
    */
   async validateData() {
     const allDataTypes = ['affixes', 'uniques', 'sets'];
+    const validationReport = [];
+    
+    validationReport.push(`Last Epoch Database Validation Report`);
+    validationReport.push(`Generated: ${new Date().toISOString()}`);
+    validationReport.push(`Game Version: ${this.gameData.version}`);
+    validationReport.push('='.repeat(60));
+    validationReport.push('');
+    
+    let totalWarnings = 0;
+    let totalErrors = 0;
+    let totalDuplicates = 0;
     
     for (const type of allDataTypes) {
       const issues = await this.validator.validateDataSet(type, this.gameData[type]);
+      
+      if (issues.warnings.length > 0 || issues.errors.length > 0 || issues.duplicates > 0) {
+        validationReport.push(`${type.toUpperCase()} VALIDATION ISSUES`);
+        validationReport.push('-'.repeat(30));
+        
+        if (issues.errors.length > 0) {
+          validationReport.push(`ERRORS (${issues.errors.length}):`);
+          issues.errors.forEach(error => validationReport.push(`  ❌ ${error}`));
+          validationReport.push('');
+        }
+        
+        if (issues.warnings.length > 0) {
+          validationReport.push(`WARNINGS (${issues.warnings.length}):`);
+          issues.warnings.forEach(warning => validationReport.push(`  ⚠️  ${warning}`));
+          validationReport.push('');
+        }
+        
+        if (issues.duplicates > 0) {
+          validationReport.push(`DUPLICATES: ${issues.duplicates} found`);
+          validationReport.push('');
+        }
+        
+        validationReport.push('');
+      }
+      
+      // Still track in statistics for summary
       this.gameData.statistics.warnings.push(...issues.warnings);
       this.gameData.statistics.errors.push(...issues.errors);
       this.gameData.statistics.duplicatesFound += issues.duplicates;
+      
+      totalWarnings += issues.warnings.length;
+      totalErrors += issues.errors.length;
+      totalDuplicates += issues.duplicates;
+    }
+    
+    // Add summary
+    validationReport.unshift('');
+    validationReport.unshift(`Total Issues: ${totalErrors} errors, ${totalWarnings} warnings, ${totalDuplicates} duplicates`);
+    validationReport.unshift('SUMMARY');
+    validationReport.unshift('-'.repeat(10));
+    
+    // Write validation report to dedicated file
+    await fs.writeFile(VALIDATION_REPORT_FILE, validationReport.join('\n'));
+    
+    if (totalWarnings > 0 || totalErrors > 0 || totalDuplicates > 0) {
+      this.logger.info(`Validation report written to: ${VALIDATION_REPORT_FILE}`);
+      console.log(`📋 Validation report written to: ${path.basename(VALIDATION_REPORT_FILE)}`);
     }
   }
 
@@ -900,7 +1287,6 @@ class DatabaseBuilder {
           if (entry.name) compactEntry.name = entry.name;
           if (entry.desc) compactEntry.desc = entry.desc;
           if (entry.props && Object.keys(entry.props).length > 0) compactEntry.props = entry.props;
-          if (entry.notes) compactEntry.notes = entry.notes;
           if (typeName === 'affixes' && entry.isIdolAffix !== undefined) compactEntry.isIdolAffix = entry.isIdolAffix;
           if (typeName === 'subtypes') {
             if (entry.displayName) compactEntry.displayName = entry.displayName;
@@ -1117,8 +1503,7 @@ class DatabaseBuilder {
       
       if (!this.gameData.subtypes.has(subtypeId)) {
         this.gameData.subtypes.set(subtypeId, {
-          name: subtype,
-          source: 'html_data'
+          name: subtype
         });
         extractedSubtypes++;
       }
@@ -1263,8 +1648,7 @@ class OverrideManager {
           dataMap.set(id, {
             name: override.name,
             desc: override.description,
-            props: override.properties,
-            notes: override.notes
+            props: override.properties
           });
           
           appliedCount++;
@@ -1281,7 +1665,6 @@ class OverrideManager {
             const existing = dataMap.get(id) || {};
             if (correction.correctedName) {
               existing.name = correction.correctedName;
-              existing.notes = `${correction.explanation} (was: ${correction.originalName})`;
             }
             dataMap.set(id, existing);
             this.logger.info(`Applied correction for ${type} ID ${id}: ${correction.reason}`);

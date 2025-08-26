@@ -1,0 +1,23 @@
+{
+  "id": "UAwjMFZiA",
+  "name": "Flight of Quetzeri",
+  "category": "Boots",
+  "baseType": "Hide Boots",
+  "levelRequirement": 13,
+  "classRequirement": null,
+  "implicits": [
+    "+5 Armor",
+    "(5% to 7%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+5 Armor",
+    "(5% to 7%) increased Movement Speed",
+    "+1 Evade Charge",
+    "(10% to 13%) increased Cooldown Recovery Speed for Evade",
+    "(30% to 45%) Increased Cooldown Recovery Speed for Fury Leap",
+    "(1.4 to 1.9) Seconds of Haste after you use EvadeHaste is a buff that grants 30% increased movement speed by default. It cannot stack.",
+    "(1.4 to 1.9) Seconds of Haste after you use a Traversal SkillHaste is a buff that grants 30% increased movement speed by default. It cannot stack.",
+    "(14% to 19%) Increased Haste Effect"
+  ],
+  "lore": "As the exiled druids flourished in the cloud forests, they learned to seemlessly flit between the forms of human and quetzal."
+}

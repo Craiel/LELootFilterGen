@@ -1,0 +1,23 @@
+{
+  "id": "UAzCMOI",
+  "name": "Calamity",
+  "category": "Helmet",
+  "baseType": "Jewelled Circlet",
+  "levelRequirement": 7,
+  "classRequirement": null,
+  "implicits": [
+    "+5 Armor",
+    "+(10 to 35) Mana",
+    "(5% to 25%) increased Spell Damage"
+  ],
+  "modifiers": [
+    "+5 Armor",
+    "+(10 to 35) Mana",
+    "(5% to 25%) increased Spell Damage",
+    "(20% to 80%) increased Fire Damage",
+    "(100 to 150)% Chance to Ignite on Hit with Fire Skills",
+    "When you kill an enemy with a fire skill you take 4 fire damage over the next 2 seconds",
+    "(5% to 10%) increased Fire Cast Speed"
+  ],
+  "lore": "Set the world ablaze and burn along with it."
+}

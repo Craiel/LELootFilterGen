@@ -1,0 +1,26 @@
+{
+  "id": "UAwJgzGCMZA",
+  "name": "Fundamental Criterion",
+  "category": "Body Armor",
+  "baseType": "Vul'kaur Regalia",
+  "levelRequirement": 54,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+170 Armor",
+    "(27% to 70%) of Mana Spent Gained as Ward",
+    "+(70 to 127) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+170 Armor",
+    "(27% to 70%) of Mana Spent Gained as Ward",
+    "+(70 to 127) Ward Decay Threshold",
+    "+(1 to 3) to Level of Runic Invocation",
+    "(18% to 36%) more Damage while using a Wand for Invocations with Heo as their first RuneMultiplicative with other modifiers",
+    "(18% to 36%) more Damage while using a Staff for Invocations with Gon as their first Rune",
+    "(18% to 36%) more Damage while using a Sceptre for Invocations with Rah as their first Rune",
+    "3% more Damage per Strength for Invocations with Heo as their second RuneMultiplicative with other modifiers",
+    "3% more Damage per Dexterity for Invocations with Gon as their second RuneMultiplicative with other modifiers",
+    "3% more Damage per Attunement for Invocations with Rah as their second RuneMultiplicative with other modifiers"
+  ],
+  "lore": "Discard freely the paths not taken. They are only distractions from deeper knowledge."
+}

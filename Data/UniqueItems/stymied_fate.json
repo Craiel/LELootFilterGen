@@ -1,0 +1,27 @@
+{
+  "id": "UAzCcEYHYA4g",
+  "name": "Stymied Fate",
+  "category": "Boots",
+  "baseType": "Arcane Boots",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+8 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(120 to 230) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+8 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(120 to 230) Ward Decay Threshold",
+    "(14% to 22%) Increased Cooldown Recovery Speed for Teleport",
+    "(14% to 22%) Increased Cooldown Recovery Speed for Fury Leap",
+    "(14% to 22%) Increased Cooldown Recovery Speed for Lunge",
+    "(14% to 22%) Increased Cooldown Recovery Speed for Transplant",
+    "(14% to 22%) Increased Cooldown Recovery Speed for Shift",
+    "(64% to 128%) increased Damage Over Time",
+    "+(14% to 22%) Chance to apply Doom on Hit",
+    "(14% to 22%) Chance to gain Haste for 1 second on Hit"
+  ],
+  "lore": "The end comes slowly, then quickly, then it is all that has ever been."
+}

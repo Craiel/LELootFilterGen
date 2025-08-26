@@ -1,0 +1,21 @@
+{
+  "id": "UAzDMEYBYDYg",
+  "name": "Troaka's Teeth",
+  "category": "Quiver",
+  "baseType": "Nomad Quiver",
+  "levelRequirement": 44,
+  "classRequirement": null,
+  "implicits": [
+    "+(40% to 75%) Chance to apply Bleed on Bow Hit"
+  ],
+  "modifiers": [
+    "+(40% to 75%) Chance to apply Bleed on Bow Hit",
+    "+(60% to 90%) Chance to apply Frostbite on Bow Hit",
+    "+(12 to 16) Cold Bow Damage",
+    "+(120% to 180%) Freeze Rate Multiplier",
+    "(60% to 90%) increased Cold Damage",
+    "100% of Bleed and Poison Chance converted to Frostbite Chance with Puncture",
+    "+90 Freeze Rate with Puncture"
+  ],
+  "lore": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari."
+}

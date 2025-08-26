@@ -1,0 +1,19 @@
+{
+  "id": "UAzBsEYBYCYg",
+  "name": "Drelkor's Compass",
+  "category": "Bow",
+  "baseType": "Longbow",
+  "levelRequirement": 64,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+60 Bow Damage"
+  ],
+  "modifiers": [
+    "+60 Bow Damage",
+    "+(40 to 50) Physical Bow Damage",
+    "(40% to 50%) Increased Bow Stun Chance",
+    "-4 Mana Cost for Bow Skills",
+    "+4 Arrows with Multishot"
+  ],
+  "lore": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAwRg7CCcAcQ",
+  "name": "Bastion of Honour",
+  "category": "Shield",
+  "baseType": "Old Kite Shield",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+14% Block Chance",
+    "+(320 to 400) Block Effectiveness",
+    "+(4 to 10) Strength"
+  ],
+  "modifiers": [
+    "+14% Block Chance",
+    "+(320 to 400) Block Effectiveness",
+    "+(4 to 10) Strength",
+    "+1% Block Chance per Strength against enemies within 4 metres",
+    "(8 to 14) Health Gain on Block",
+    "+(8 to 14) Physical Melee Damage",
+    "+(40 to 60) Health",
+    "+(40 to 60) Mana"
+  ],
+  "lore": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMEYHYFYg",
+  "name": "Omnis",
+  "category": "Amulet",
+  "baseType": "Silver Amulet",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Critical Strike Chance",
+    "+1 to Level of All Skills",
+    "+(1% to 45%) Physical Resistance",
+    "+(1% to 45%) Fire Resistance",
+    "+(1% to 45%) Cold Resistance",
+    "+(1% to 45%) Lightning Resistance",
+    "+(1% to 45%) Void Resistance",
+    "+(1% to 45%) Necrotic Resistance",
+    "+(1% to 45%) Poison Resistance"
+  ],
+  "lore": "All the stars in the empty sky flicker at once and fade into silence and shadow."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAwjMBYA4g",
+  "name": "Phantom Grip",
+  "category": "Ring",
+  "baseType": "Copper Ring",
+  "levelRequirement": 14,
+  "classRequirement": null,
+  "implicits": [
+    "(25% to 50%) increased Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(25% to 50%) increased Critical Strike Chance",
+    "+(1 to 2) to Level of Minion Skills",
+    "+(1% to 2%) Critical Strike Chance",
+    "+(2% to 4%) Minion Critical Strike Chance",
+    "(4% to 8%) increased Mana",
+    "+(4 to 8) Melee Necrotic Damage for Forged Weapons",
+    "(8% to 25%) increased Forged Weapon Duration",
+    "The Stats on your Gloves apply to your Forged Weapons at (64 to 100)% effectiveness"
+  ],
+  "lore": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought."
+}

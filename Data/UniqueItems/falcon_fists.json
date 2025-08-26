@@ -1,0 +1,24 @@
+{
+  "id": "UAzCsGZKA",
+  "name": "Falcon Fists",
+  "category": "Gloves",
+  "baseType": "Plated Gauntlets",
+  "levelRequirement": 27,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance",
+    "+(12 to 16) Cinder Strike Melee Damage per Level of Falconry While Unarmed",
+    "(3% to 4%) increased Cinder Strike Area per Level of Falconry While Unarmed",
+    "While unarmed your Falcon's hits grant Cinder Strike +4 Melee Damage and 1% increasd Area for 6 seconds",
+    "+(1 to 4) to Level of Cinder Strike",
+    "+(1 to 4) to Level of Falconry",
+    "(12% to 27%) increased Melee Attack Speed",
+    "+(12 to 27) Melee Fire Damage for you and your Minions"
+  ],
+  "lore": ""
+}

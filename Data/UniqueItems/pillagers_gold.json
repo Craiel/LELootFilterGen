@@ -1,0 +1,22 @@
+{
+  "id": "UAwVmCYE4EYg",
+  "name": "Pillager's Gold",
+  "category": "Relic",
+  "baseType": "Stolen Tithe",
+  "levelRequirement": 35,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "(1% to 2%) of Damage Leeched as Health on Hit",
+    "(10% to 20%) increased Damage Leeched as Health"
+  ],
+  "modifiers": [
+    "(1% to 2%) of Damage Leeched as Health on Hit",
+    "(10% to 20%) increased Damage Leeched as Health",
+    "(50% to 85%) Increased Leech Rate",
+    "(5% to 8%) more Damage to Ignited Enemies",
+    "+1 Throwing Fire Damage with Burning Daggers per 2% increased chance to find potions",
+    "(35% to 50%) chance to throw a Burning Dagger on hit (1 second cooldown)",
+    "100% Chance to throw a Burning Dagger when you drink a Potion"
+  ],
+  "lore": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils."
+}

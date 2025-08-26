@@ -1,0 +1,22 @@
+{
+  "id": "UAwVgjATMDsQ",
+  "name": "Kelthan Blasting Agent",
+  "category": "Relic",
+  "baseType": "Oil Vial",
+  "levelRequirement": 38,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "(26% to 44%) increased Fire Damage",
+    "+(14% to 26%) Chance to apply Ignite on Hit"
+  ],
+  "modifiers": [
+    "(26% to 44%) increased Fire Damage",
+    "+(14% to 26%) Chance to apply Ignite on Hit",
+    "88% Reduced Decoy Duration",
+    "(100% to 160%) Increased Cooldown Recovery Speed for Decoy",
+    "+(40% to 48%) Chance to apply Ignite on Throwing Hit",
+    "(80% to 120%) Increased Ignite Duration",
+    "+(12% to 18%) Fire Penetration"
+  ],
+  "lore": "Overseer Nicovus had little patience for the traditional mining techniques of his living predecessors. The empire would delve deep and it would delve fast."
+}

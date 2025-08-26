@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMGZgNiA",
+  "name": "Blood of the Exile",
+  "category": "Boots",
+  "baseType": "Iron Greaves",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+35 Armor",
+    "(8% to 10%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+35 Armor",
+    "(8% to 10%) increased Movement Speed",
+    "30% increased Movement Speed",
+    "(30% to 67%) Increased Bleed Duration",
+    "(30% to 40%) more Physical Ailment Damage to Moving Enemies",
+    "+(5 to 8) Strength",
+    "+(5 to 8) Dexterity",
+    "+(5 to 8) Intelligence"
+  ],
+  "lore": "Fleeing does not stem the flow"
+}

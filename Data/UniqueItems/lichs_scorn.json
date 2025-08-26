@@ -1,0 +1,25 @@
+{
+  "id": "UAwRhCYDYSA",
+  "name": "Lich's Scorn",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Crystal Skull",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 16) Intelligence",
+    "+(3% to 6%) Spell Critical Strike Chance",
+    "+(12% to 18%) Ward Retention"
+  ],
+  "modifiers": [
+    "+(10 to 16) Intelligence",
+    "+(3% to 6%) Spell Critical Strike Chance",
+    "+(12% to 18%) Ward Retention",
+    "Dread Shade is Converted to ColdThis causes it to add and increase Cold Damage instead of Necrotic Damage. This takes priority over the Poison Conversion node on Dread Shade's tree.",
+    "+(9% to 13%) Frostbite Chance for Minions affected by Dread Shade",
+    "+(93% to 153%) Freeze Rate Multiplier for Minions affected by Dread Shade",
+    "+(6 to 15) Cold Damage with Spells and Attacks per Attached Infernal Shade for Minions affected by Dread ShadeCounts Infernal Shades attached to enemies and minions, but not ones on the ground. Infernal Shades are counted when Dread Shade is cast.",
+    "+1% Cold Penetration for Minions affected by Dread Shade per Intelligence",
+    "+4 Maximum ShadesAffects the maximum number of Infernal and Dread Shades."
+  ],
+  "lore": ""
+}

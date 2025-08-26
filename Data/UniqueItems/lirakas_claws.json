@@ -1,0 +1,20 @@
+{
+  "id": "UAzCsEYGYBYg",
+  "name": "Li'raka's Claws",
+  "category": "Gloves",
+  "baseType": "Plated Gauntlets",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance",
+    "+(60% to 130%) Chance to apply Poison on Throwing Hit",
+    "+(60% to 130%) Throwing Critical Strike Multiplier",
+    "+2 Projectiles with ShurikensOnly affects the Rogue skill Shurikens"
+  ],
+  "lore": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive."
+}

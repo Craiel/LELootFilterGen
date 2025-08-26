@@ -1,0 +1,24 @@
+{
+  "id": "UAwRgLOCcQ",
+  "name": "Omnividence",
+  "category": "Two-Handed Staff",
+  "baseType": "Abyssal Staff",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+70 Melee Damage",
+    "+(63 to 80) Spell Damage",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+70 Melee Damage",
+    "+(63 to 80) Spell Damage",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "+1 to Level of Void Spell Skills",
+    "-5 Mana Cost for Void Spell Skills",
+    "(15% to 20%) increased Void Cast Speed",
+    "(50% to 100%) of Damage Reflected",
+    "(200% to 300%) increased Void Spell Damage"
+  ],
+  "lore": "Gaze upon all that will never be."
+}

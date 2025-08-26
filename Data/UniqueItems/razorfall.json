@@ -1,0 +1,25 @@
+{
+  "id": "UAwRmGZwdiA",
+  "name": "Razorfall",
+  "category": "Boots",
+  "baseType": "Vanguard Boots",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "+72 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "(24% to 50%) increased Effect of Haste on You"
+  ],
+  "modifiers": [
+    "+72 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "(24% to 50%) increased Effect of Haste on You",
+    "(13% to 20%) increased Movement Speed",
+    "+(1 to 2) to Level of Throwing Skills",
+    "+(3 to 12) Dexterity",
+    "Aerial Assault's Burst of Feathers includes 1 Umbral Blade per 20 DexterityThese Umbral Blades behave the same way as those thrown by the Twighlight Strike node on the Aerial Assault tree and cannot target the same enemies as those Umbral Blades or each other",
+    "You gain Haste and (12 to 30)% increased Throwing Attack Speed for 2 seconds after using Aerial Assault",
+    "(13% to 20%) chance to recover 8% of Aerial Assault's remaining cooldown on Throwing Hit (up to 3 times)Remaining number of cooldown recoveries resets when you use Aerial Assault"
+  ],
+  "lore": ""
+}

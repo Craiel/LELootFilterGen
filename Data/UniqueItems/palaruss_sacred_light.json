@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMGYBYDYg",
+  "name": "Palarus's Sacred Light",
+  "category": "One-Handed Sword",
+  "baseType": "Broadsword",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+22 Melee Damage"
+  ],
+  "modifiers": [
+    "+22 Melee Damage",
+    "+1 Melee Damage per 2 Attunement",
+    "+1 Spell Damage per 2 Strength",
+    "+(32% to 46%) chance to cast Smite on Melee hit (up to 3 times per second)",
+    "(32% to 46%) chance to cast Smite at two additional targets when you cast it directly",
+    "+2 to All Attributes"
+  ],
+  "lore": ""
+}

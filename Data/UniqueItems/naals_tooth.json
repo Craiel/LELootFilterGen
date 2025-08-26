@@ -1,0 +1,26 @@
+{
+  "id": "UAwRgzBBsQ",
+  "name": "Naal's Tooth",
+  "category": "One-Handed Sword",
+  "baseType": "Serrated Tooth",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Melee Damage",
+    "+(25% to 35%) Critical Strike Multiplier",
+    "+(3 to 5) Strength"
+  ],
+  "modifiers": [
+    "+50 Melee Damage",
+    "+(25% to 35%) Critical Strike Multiplier",
+    "+(3 to 5) Strength",
+    "+(10 to 17) Melee Damage for you and your Minions",
+    "(5 to 10)% increased Movement Speed for you and your Minions",
+    "+(1 to 2) to Level of Melee Skills",
+    "+(1 to 2) to Level of Minion Melee Skills",
+    "(10% to 17%) reduced Raptor SizeReduces hitbox size for receiving hits, but does not affect the raptors' attacks or stats.",
+    "(47% to 42%) less Raptor Damagemultiplicative with other modifiers",
+    "You can summon Raptors up to your Companion Limit"
+  ],
+  "lore": "Among the island nomads there was once a legend of a great beastmaster, Gatan Larn, who was so in tune with the paravian kind that he could commune with crows and raptors."
+}

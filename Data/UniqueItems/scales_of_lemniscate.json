@@ -1,0 +1,26 @@
+{
+  "id": "UAzCcCYDZSA",
+  "name": "Scales of Lemniscate",
+  "category": "Two-Handed Axe",
+  "baseType": "Bone Scythe",
+  "levelRequirement": 82,
+  "classRequirement": null,
+  "implicits": [
+    "+113 Melee Damage",
+    "+(13% to 29%) Necrotic Penetration",
+    "+(13% to 29%) Minion Necrotic Penetration"
+  ],
+  "modifiers": [
+    "+113 Melee Damage",
+    "+(13% to 29%) Necrotic Penetration",
+    "+(13% to 29%) Minion Necrotic Penetration",
+    "(270% to 330%) increased Minion Damage",
+    "(120% to 180%) increased Minion Health",
+    "+(70 to 105) Health",
+    "You can only control one ShadeThis overrides other effects on your Shade limit",
+    "Dread Shade has 30% increased Buff Effect and 25% increased Health Decay",
+    "+200% Chance to Apply Frailty and Slow to nearby enemies every second for Infernal Shade",
+    "Casting Infernal Shade grants your minions Damage Immunity for 3 seconds (10 second cooldown)"
+  ],
+  "lore": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "UAwVgHATA7CQ",
+  "name": "Unstable Core",
+  "category": "Body Armor",
+  "baseType": "Arcane Regalia",
+  "levelRequirement": 77,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+196 Armor",
+    "(7% to 14%) increased Mana",
+    "(21% to 42%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+196 Armor",
+    "(7% to 14%) increased Mana",
+    "(21% to 42%) increased Mana Regen",
+    "When you directly cast Elemental Nova 6 times without a 2 second gap, the 6th cast gains (200 to 350)% increased area and +(40 to 100) Spell Damage",
+    "(30% to 150%) increased Elemental Damage",
+    "+(10 to 120) Mana",
+    "+1 to Level of Lightning Skills",
+    "+1 to Level of Fire Skills",
+    "+1 to Level of Cold Skills"
+  ],
+  "lore": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash."
+}

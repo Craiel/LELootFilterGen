@@ -1,0 +1,23 @@
+{
+  "id": "UAzDsCYEZSA",
+  "name": "Sacrificial Embrace",
+  "category": "Gloves",
+  "baseType": "Crusader Gauntlets",
+  "levelRequirement": 81,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance"
+  ],
+  "modifiers": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance",
+    "Your critical strikes do not deal additional damageThey deal the same damage as a regular hit",
+    "(30% to 66%) Chance to gain a stack of Abyssal Rite on Crit",
+    "+10 maximum Abyssal Rite stacks",
+    "When you directly cast an elemental spell each stack of Abyssal Rite is consumed to grant the spell +20 spell void damage and +20% void penetration per stack",
+    "(100% to 128%) increased Void Damage",
+    "(12% to 20%) increased Melee Attack Speed"
+  ],
+  "lore": ""
+}

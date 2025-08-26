@@ -1,0 +1,24 @@
+{
+  "id": "UAwJhEYA4SA",
+  "name": "Eye of Orexia",
+  "category": "Relic",
+  "baseType": "Third Eye",
+  "levelRequirement": 36,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+(3% to 9%) Physical Resistance",
+    "+(3% to 9%) Fire Resistance",
+    "+(3% to 9%) Poison Resistance"
+  ],
+  "modifiers": [
+    "+(3% to 9%) Physical Resistance",
+    "+(3% to 9%) Fire Resistance",
+    "+(3% to 9%) Poison Resistance",
+    "(70% to 120%) Increased Volcanic Orb Damage",
+    "(44% to 70%) Increased Cooldown Recovery Speed for Volcanic Orb",
+    "(30% to 44%) Increased Volcanic Orb Speed",
+    "(22% to 30%) Increased Volcanic Orb Shrapnel Speed",
+    "(10% to 22%) increased Cast Speed"
+  ],
+  "lore": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma."
+}

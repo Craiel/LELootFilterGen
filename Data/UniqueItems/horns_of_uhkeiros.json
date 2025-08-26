@@ -1,0 +1,24 @@
+{
+  "id": "UAwRjFZyA",
+  "name": "Horns of Uhkeiros",
+  "category": "Shield",
+  "baseType": "Mountain Shield",
+  "levelRequirement": 84,
+  "classRequirement": null,
+  "implicits": [
+    "+26% Block Chance",
+    "+(440 to 520) Block Effectiveness",
+    "+(11% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+26% Block Chance",
+    "+(440 to 520) Block Effectiveness",
+    "+(11% to 15%) Endurance",
+    "(60% to 120%) increased Melee Damage",
+    "2 Mana Gain on Block",
+    "50% increased Mana Cost",
+    "+(600 to 1000) Block Effectiveness",
+    "+(10 to 16) Strength"
+  ],
+  "lore": "Uhkeriros, Emperor of Corpses, hear our prayers! Devour your chosen and free us from this undeath."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcGZwJiA",
+  "name": "Blood Roost",
+  "category": "Gloves",
+  "baseType": "Serrated Bracers",
+  "levelRequirement": 59,
+  "classRequirement": null,
+  "implicits": [
+    "+45 Armor",
+    "(5% to 15%) Increased Bleed Duration",
+    "(5% to 15%) Increased Poison Duration"
+  ],
+  "modifiers": [
+    "+45 Armor",
+    "(5% to 15%) Increased Bleed Duration",
+    "(5% to 15%) Increased Poison Duration",
+    "(30% to 50%) increased Minion Movement Speed",
+    "(10% to 30%) Physical Penetration with Bleed inflicted by Minions",
+    "+(1 to 3) to Level of Falconry",
+    "(50% to 100%) of your Bleed Chance granted to your Falcon",
+    "+(2 to 10) Dexterity",
+    "1 Health gained per Dexterity when your Falcon hits an enemy"
+  ],
+  "lore": "The smell of blood fills the air."
+}

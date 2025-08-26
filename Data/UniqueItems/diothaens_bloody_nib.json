@@ -1,0 +1,21 @@
+{
+  "id": "UAwJgzCAsCcQ",
+  "name": "Diothaen's Bloody Nib",
+  "category": "Relic",
+  "baseType": "Scrivening Quill",
+  "levelRequirement": 58,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+(11 to 33) Ward per Second"
+  ],
+  "modifiers": [
+    "+(11 to 33) Ward per Second",
+    "You are inflicted with bleed when you hit an enemy with Shatter StrikeHitting one enemy with both swings of Shatter Strike will result in two bleed stacks",
+    "+2% Cold Penetration with Shatter Strike per stack of bleed on you",
+    "+1 to Level of Shatter Strike",
+    "+(4 to 8) Dexterity",
+    "(30% to 50%) increased Mana Regen",
+    "+(15% to 25%) Critical Strike Multiplier"
+  ],
+  "lore": "\"Some say the pen is mightier than the sword. Sacrificing your blood to write the words, now there’s real power.\" - Archmage Diothaen"
+}

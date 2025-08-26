@@ -1,0 +1,25 @@
+{
+  "id": "UAwRlCYSA",
+  "name": "Coral Aegis",
+  "category": "Shield",
+  "baseType": "Meruna Shell",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+23% Block Chance",
+    "+(325 to 425) Block Effectiveness",
+    "(45% to 75%) increased Physical Melee Damage"
+  ],
+  "modifiers": [
+    "+23% Block Chance",
+    "+(325 to 425) Block Effectiveness",
+    "(45% to 75%) increased Physical Melee Damage",
+    "+(30% to 43%) Lightning Resistance",
+    "(300% to 430%) Chance to Shock Attackers",
+    "+1% Block Chance per Shock on the Attacker",
+    "(35% to 30%) less Lightning Damage Taken on Block",
+    "(50% to 80%) Increased Stun Duration",
+    "(8 to 12) Health Gain on Stun"
+  ],
+  "lore": "As storms scour the land, the sea swells and flourishes."
+}

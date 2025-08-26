@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsGYEYE4g",
+  "name": "Merophage",
+  "category": "Two-Handed Sword",
+  "baseType": "Winged Blade",
+  "levelRequirement": 51,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Melee Damage",
+    "(5% to 15%) of Melee Damage Leeched as Health"
+  ],
+  "modifiers": [
+    "+80 Melee Damage",
+    "(5% to 15%) of Melee Damage Leeched as Health",
+    "+1 to Level of All Skills",
+    "(10% to 17%) Increased Leech Rate",
+    "(17% to 10%) less Damage Taken while LeechingMultiplicative with other modifiers",
+    "(100% to 170%) increased Damage",
+    "When you shatter a Two Handed Sword while you have Merophage equipped, it absorbs the shards you would gain, using them to gain Legendary affixes or replace its existing ones.Only legendary affixes are replaced. The unique affixes that started on the item always remain."
+  ],
+  "lore": "Forged by Archmage Drinial for his remaining son, it carries a powerful enchantment to draw out yearning. Now, its wielders unburdened, the sword itself yearns for its shattered kin."
+}

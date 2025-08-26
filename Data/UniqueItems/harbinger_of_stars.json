@@ -1,0 +1,23 @@
+{
+  "id": "UAzBsCYA5KA",
+  "name": "Harbinger of Stars",
+  "category": "Belt",
+  "baseType": "Noble Sash",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots",
+    "(30% to 60%) increased Meteor Fall Speed",
+    "+1 to Level of Meteor",
+    "(6% to 9%) Chance to Cast Meteor on Crit if above 0 ManaThis consumes Meteor's Mana Cost. Does not include crits from Meteor itself.",
+    "1% less Damage Taken for each Meteor you have cast recently (up to 18)Multiplicative with other modifiers",
+    "(9 to 12) Mana gained on Potion Use for each Meteor you have cast recentlyRecently refers to the past 4 seconds. Meteor showers still only count as one.",
+    "+3 Potion Slots if you have at least 900 Mana"
+  ],
+  "lore": "Above the skies the natural and the arcane are one."
+}

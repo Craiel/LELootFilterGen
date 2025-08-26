@@ -1,0 +1,20 @@
+{
+  "id": "UAzDMYFiA",
+  "name": "Humming Bee",
+  "category": "One-Handed Sword",
+  "baseType": "Gladius",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+10 Melee Damage"
+  ],
+  "modifiers": [
+    "+10 Melee Damage",
+    "(20% to 25%) increased Melee Attack Speed",
+    "(3% to 7%) increased Movement Speed",
+    "(3 to 7) Ward Gain on Melee Hit",
+    "1% Chance per 20 Ward to gain Haste for 2 seconds when you directly use a Melee Attack",
+    "Elemental Attacks deal 1% Increased Damage per 200 WardThis effects all damage from the attack, including damage from ailments and non-elemental damage."
+  ],
+  "lore": "Bzzzzzzzzzz"
+}

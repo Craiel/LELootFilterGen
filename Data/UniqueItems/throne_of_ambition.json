@@ -1,0 +1,18 @@
+{
+  "id": "UAzCsCYEZKA",
+  "name": "Throne of Ambition",
+  "category": "Adorned Idol",
+  "baseType": "Adorned Silver Idol",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "You gain a stack of Ambition when you hit a boss or rare enemy (1 second cooldown)If you have multiple Thrones of Ambition equipped you still only gain 1 stack",
+    "2% more Fire Damage per stack of Ambition",
+    "2% more Cold Damage per stack of Ambition",
+    "2% more Armour per stack of AmbitionThe effects of Ambition are multiplicative with other modifiers, but individual stacks are not multiplicative with each other.",
+    "20 Maximum Stacks of AmbitionIf you have multiple Thrones of Ambition equipped your maximum stacks is still 20",
+    "You lose all stacks of Ambition if you go 4 seconds without gaining a stack"
+  ],
+  "lore": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god."
+}

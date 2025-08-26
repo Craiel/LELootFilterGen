@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMEZQViA",
+  "name": "Oceareon",
+  "category": "Ring",
+  "baseType": "Sapphire Ring",
+  "levelRequirement": 74,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 20) Mana",
+    "(6% to 12%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+(10 to 20) Mana",
+    "(6% to 12%) increased Mana Regen",
+    "+(24% to 40%) Chance to apply Chill on Hit",
+    "(10% to 20%) Increased Chill Duration",
+    "(4% to 2%) less Damage Taken from Chilled EnemiesMultiplicative with other modifiers",
+    "+(24% to 40%) Chance to apply Shock on Hit",
+    "(10% to 20%) Increased Shock Duration",
+    "1% more Damage per stack of Shock"
+  ],
+  "lore": "Empires rise and fall like the waves, but the ocean's might is eternal."
+}

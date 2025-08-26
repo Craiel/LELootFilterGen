@@ -1,0 +1,13 @@
+{
+  "id": "UAwRmGYE5iA",
+  "name": "Cocooned Wand",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a random unique wand"
+  ],
+  "lore": ""
+}

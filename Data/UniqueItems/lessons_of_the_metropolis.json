@@ -1,0 +1,22 @@
+{
+  "id": "UAwhMwNiA",
+  "name": "Lessons of the Metropolis",
+  "category": "Boots",
+  "baseType": "Hide Boots",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+5 Armor",
+    "(5% to 7%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+5 Armor",
+    "(5% to 7%) increased Movement Speed",
+    "+(100 to 300) Dodge Rating if you have been hit recentlyRecently refers to the past 4 seconds",
+    "(10% to 20%) increased Dodge Rating",
+    "+(3 to 5) Dexterity",
+    "(5% to 10%) increased Movement Speed",
+    "5% less Damage Taken While Moving"
+  ],
+  "lore": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMwNgFiA",
+  "name": "The Invoker's Static Touch",
+  "category": "Ring",
+  "baseType": "Sapphire Ring",
+  "levelRequirement": 29,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 20) Mana",
+    "(6% to 12%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+(10 to 20) Mana",
+    "(6% to 12%) increased Mana Regen",
+    "+(30% to 75%) Chance to apply Shock on Spell Hit",
+    "(5% to 10%) Chance to Gain 75 Ward when you hit a Shocked Enemy (up to 3 times per 2 seconds)",
+    "+1 to Level of Static",
+    "+13 Lightning Spell Damage",
+    "13% increased Elemental Cast Speed",
+    "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
+  ],
+  "lore": "...electrified with ambition, he cast spells beyond his cognition..."
+}

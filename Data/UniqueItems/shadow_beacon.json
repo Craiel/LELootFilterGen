@@ -1,0 +1,26 @@
+{
+  "id": "UAzDsCZQTiA",
+  "name": "Shadow Beacon",
+  "category": "Two-Handed Mace",
+  "baseType": "Terror Mace",
+  "levelRequirement": 51,
+  "classRequirement": null,
+  "implicits": [
+    "+106 Melee Damage",
+    "(106% to 166%) Increased Melee Stun Chance",
+    "(16% to 36%) Increased Melee Stun Duration"
+  ],
+  "modifiers": [
+    "+106 Melee Damage",
+    "(106% to 166%) Increased Melee Stun Chance",
+    "(16% to 36%) Increased Melee Stun Duration",
+    "+(50 to 105) Void Melee Damage",
+    "+(50 to 105) Void Spell Damage",
+    "+(50 to 105) Endurance Threshold",
+    "+(1 to 2) to Level of Void Skills",
+    "(10% to 15%) Increased Area for Void Spell Area Skills",
+    "100% Chance to transport Devouring Orbs around the target location when you use Erasing StrikeDoes not affect orbiting Devouring Orbs",
+    "(-10 to -5) Erasing Strike Mana Cost"
+  ],
+  "lore": "Once light fades, only darkness can guide those who remain."
+}

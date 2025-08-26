@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMwZgTiA",
+  "name": "Reach of the Grave",
+  "category": "Wand",
+  "baseType": "Archive Wand",
+  "levelRequirement": 5,
+  "classRequirement": null,
+  "implicits": [
+    "+(4 to 6) Spell Damage",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(4 to 6) Spell Damage",
+    "-3 Mana Cost for Spell Skills",
+    "Your minions' spells and bow attacks deal (70 to 120)% increased damage",
+    "Your minions leech 10% of damage dealt by their spells and bow attacks as health",
+    "(7% to 12%) increased Minion Bow Attack Speed",
+    "(7% to 12%) increased Minion Cast Speed"
+  ],
+  "lore": "The touch of death reaches far beyond the grave."
+}

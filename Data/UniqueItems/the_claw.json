@@ -1,0 +1,18 @@
+{
+  "id": "UAzDMwVgDiA",
+  "name": "The Claw",
+  "category": "Amulet",
+  "baseType": "Brass Amulet",
+  "levelRequirement": 4,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 15%) increased Cast Speed"
+  ],
+  "modifiers": [
+    "(5% to 15%) increased Cast Speed",
+    "+(30 to 50) Health",
+    "+(5 to 9) Melee Physical Damage for Minions",
+    "You can Summon Wolves up to your Maximum Number of CompanionsAffects the Summon Wolf skill. Does not increase your maximum number of companions."
+  ],
+  "lore": "A wolf never hunts alone."
+}

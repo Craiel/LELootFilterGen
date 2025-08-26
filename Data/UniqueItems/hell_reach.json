@@ -1,0 +1,18 @@
+{
+  "id": "UAwiMBZSA",
+  "name": "Hell Reach",
+  "category": "Bow",
+  "baseType": "Shortbow",
+  "levelRequirement": 1,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+12 Bow Damage"
+  ],
+  "modifiers": [
+    "+12 Bow Damage",
+    "+(11 to 20) Fire Bow Damage",
+    "10% increased Bow Attack Speed",
+    "+(11% to 20%) Fire Penetration"
+  ],
+  "lore": "As Wyvernfall burned nothing could escape the flames."
+}

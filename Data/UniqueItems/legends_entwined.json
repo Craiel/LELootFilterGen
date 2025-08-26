@@ -1,0 +1,22 @@
+{
+  "id": "UAwRmBYCYGYg",
+  "name": "Legends Entwined",
+  "category": "Ring",
+  "baseType": "Opal Ring",
+  "levelRequirement": 42,
+  "classRequirement": null,
+  "implicits": [
+    "(6% to 10%) Increased Cooldown Recovery Speed",
+    "+(1 to 2) to All Attributes"
+  ],
+  "modifiers": [
+    "(6% to 10%) Increased Cooldown Recovery Speed",
+    "+(1 to 2) to All Attributes",
+    "Counts as a part of every equipped item set",
+    "+(2 to 5) to All Attributes per Complete Set",
+    "+(2% to 5%) to All Resistances per Complete Set",
+    "+1 to All Skills per Complete Set",
+    "(5 to 12)% increased Attack and Cast Speed"
+  ],
+  "lore": "All stories grow from the same roots"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "UAzDMEYFYHYg",
+  "name": "Gaspar's Acuity",
+  "category": "Body Armor",
+  "baseType": "Noble Raiment",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+32 Armor",
+    "+(2 to 7) Spell Damage"
+  ],
+  "modifiers": [
+    "+32 Armor",
+    "+(2 to 7) Spell Damage",
+    "+(35% to 45%) Void Resistance",
+    "+(35% to 45%) Lightning Resistance",
+    "+(235% to 345%) Chance to apply Shock on Hit with Void Spell Skills",
+    "(7% to 12%) increased Lightning Cast Speed",
+    "100% Chance to cast Decimate when you directly use a Lightning Spell (4 second cooldown)Cooldown can only be reduced by set bonus, not other stats.",
+    "50% Cooldown Reduction for DecimateReduces the cooldown for proccing Decimate",
+    "15% more Void Damage to Bosses and Rare Enemies",
+    "100% Increased Area with Decimate"
+  ],
+  "lore": "Knowledge without power is nothing but informed futility."
+}

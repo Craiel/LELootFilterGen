@@ -1,0 +1,20 @@
+{
+  "id": "UAwRgTAzMxA",
+  "name": "Ambitions of an Erased Acolyte",
+  "category": "Relic",
+  "baseType": "Caged Souls",
+  "levelRequirement": 30,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "(9 to 29) Ward Gained on Potion Use",
+    "+(9% to 29%) Ward Retention"
+  ],
+  "modifiers": [
+    "(9 to 29) Ward Gained on Potion Use",
+    "+(9% to 29%) Ward Retention",
+    "+1 to Level of Acolyte Skills",
+    "+(6% to 14%) Endurance",
+    "When a nearby enemy or ally dies you gain Ward equal to 2% to (4 to 6)% of its maximum health, up to 3,000 ward (2 second cooldown)"
+  ],
+  "lore": "\"The context of thy aspirations is long lost, yet they still pervade thy silken form.\" - The Acolyte of Golden Silk"
+}

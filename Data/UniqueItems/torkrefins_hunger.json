@@ -1,0 +1,24 @@
+{
+  "id": "UAzAsCYFZiA",
+  "name": "Torkrefin's Hunger",
+  "category": "Two-Handed Sword",
+  "baseType": "Claymore",
+  "levelRequirement": 65,
+  "classRequirement": null,
+  "implicits": [
+    "+60 Melee Damage",
+    "+(35% to 45%) Cold Resistance"
+  ],
+  "modifiers": [
+    "+60 Melee Damage",
+    "+(35% to 45%) Cold Resistance",
+    "Every 2 seconds you gain a stack of VisceraMaximum 3 stacks",
+    "20% Chance to gain a stack of Viscera on Kill",
+    "When you use a non-channelled Melee or Throwing Attack you expend a stack of Viscera to grant the attack +1% Physical Penetration with Bleed and +15% Bleed Chance per 5% uncapped Physical Resistance.",
+    "+(150 to 300) Health",
+    "(20% to 45%) Physical Penetration with Bleed",
+    "+(100% to 150%) Chance to apply Bleed on Melee Hit",
+    "(10% to 15%) of Melee Damage Leeched as Health"
+  ],
+  "lore": "The nomads around lake Mawn were optimistic as Grand Matriarch Torkrefin rose to power among the nearby Wengari. She had at first seemed more civilised than the average Wengari, carrying a giant sword instead of a crude axe or club. Nevertheless she proved particularly difficult to reason with on account of her propensity to devour their envoys."
+}

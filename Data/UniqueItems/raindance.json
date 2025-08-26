@@ -1,0 +1,25 @@
+{
+  "id": "UAzAcEYBYHYg",
+  "name": "Raindance",
+  "category": "Boots",
+  "baseType": "Shrine Boots",
+  "levelRequirement": 61,
+  "classRequirement": null,
+  "implicits": [
+    "+8 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "(16% to 32%) increased Cooldown Recovery Speed for Evade"
+  ],
+  "modifiers": [
+    "+8 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "(16% to 32%) increased Cooldown Recovery Speed for Evade",
+    "+(205 to 305) Dodge Rating if you have been hit recentlyRecently refers to the past 4 seconds",
+    "+(13 to 20) Health gained when you Dodge",
+    "(70% to 95%) increased Cold Damage",
+    "+4 to All Attributes",
+    "(10% to 13%) increased Movement Speed",
+    "(50% to 25%) reduced Duration of Stuns Received"
+  ],
+  "lore": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves."
+}

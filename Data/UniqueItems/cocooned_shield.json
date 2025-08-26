@@ -1,0 +1,13 @@
+{
+  "id": "UAzCcGYKA",
+  "name": "Cocooned Shield",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a random unique shield"
+  ],
+  "lore": ""
+}

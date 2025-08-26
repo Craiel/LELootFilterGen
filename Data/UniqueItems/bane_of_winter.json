@@ -1,0 +1,26 @@
+{
+  "id": "UAzAcGYBYFYg",
+  "name": "Bane of Winter",
+  "category": "Two-Handed Spear",
+  "baseType": "Deicide Lance",
+  "levelRequirement": 82,
+  "classRequirement": null,
+  "implicits": [
+    "+115 Melee Damage",
+    "+(5% to 15%) Physical Penetration",
+    "+(5% to 15%) Elemental Penetration"
+  ],
+  "modifiers": [
+    "+115 Melee Damage",
+    "+(5% to 15%) Physical Penetration",
+    "+(5% to 15%) Elemental Penetration",
+    "+(25% to 42%) chance to cast Voidwinter Bolts when you hit an enemy with Javelin or a Melee Attack (up to 3 times per 2 seconds)",
+    "+1% Voidwinter Bolt Critcal Strike Multiplier per 10% uncapped Chill Chance with Melee AttacksGeneric Chill Chance counts towards this total",
+    "1% more Voidwinter Bolt Damage per 10% uncapped Time Rot Chance with Melee AttacksMultiplicative with other modifiers. Generic Time Rot Chance counts towards this total",
+    "100% of Cold Damage Taken as Physical",
+    "+(25 to 42) Void Melee Damage",
+    "+(25 to 42) Cold Melee Damage",
+    "(25% to 42%) of Added Melee Damage applied as Added Spell Damage to Cold and Void SpellsThe type of added spell damage matches the type of added melee damage, for example Melee Fire Damage would be added to Cold and Void Spells as Spell Fire Damage."
+  ],
+  "lore": "Time thaws all winters"
+}

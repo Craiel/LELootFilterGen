@@ -1,0 +1,21 @@
+{
+  "id": "UAzBsGZwFiA",
+  "name": "Talons of Valor",
+  "category": "Bow",
+  "baseType": "Longbow",
+  "levelRequirement": 30,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+60 Bow Damage"
+  ],
+  "modifiers": [
+    "+60 Bow Damage",
+    "117% increased Bow Damage",
+    "+(3% to 5%) Critical Strike Chance",
+    "+(1 to 4) to Level of Falconry",
+    "+(1 to 4) to Level of Dive Bomb",
+    "+(1 to 4) to Level of Aerial Assault",
+    "When you Critically Strike an enemy your Falcon gains +25 Melee Damage for 4 seconds and your Falcon Abilities recover 25% of their remaining cooldown (1 second cooldown)Falcon Abilities are Falcon Strikes, Dive Bomb, and Aerial Assault."
+  ],
+  "lore": ""
+}

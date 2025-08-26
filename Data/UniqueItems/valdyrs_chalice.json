@@ -1,0 +1,20 @@
+{
+  "id": "UAzAswdgRiA",
+  "name": "Valdyr's Chalice",
+  "category": "Relic",
+  "baseType": "Silver Grail",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 25) Mana"
+  ],
+  "modifiers": [
+    "+(10 to 25) Mana",
+    "100% of Damage Reflected",
+    "+(40% to 50%) Chance to apply Bleed on Hit",
+    "(40% to 50%) Increased Bleed Duration",
+    "2% of Physical Damage Over Time Leeched as Health",
+    "20 Health gained on Kill per stack of Bleed on the Target"
+  ],
+  "lore": "The blood within is said to reflect the drinker's true face."
+}

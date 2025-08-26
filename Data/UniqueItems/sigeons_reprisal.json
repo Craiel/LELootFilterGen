@@ -1,0 +1,24 @@
+{
+  "id": "UAzBsGYCYE4g",
+  "name": "Sigeon's Reprisal",
+  "category": "Shield",
+  "baseType": "Bandit Shield",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+19% Block Chance",
+    "+(215 to 275) Block Effectiveness",
+    "(25% to 60%) increased Physical Damage"
+  ],
+  "modifiers": [
+    "+19% Block Chance",
+    "+(215 to 275) Block Effectiveness",
+    "(25% to 60%) increased Physical Damage",
+    "+(1 to 3) to Level of Shield Throw",
+    "(25% to 35%) Chance to retaliate with Shield Throw on Block (up to 2 times per second)",
+    "+(5% to 15%) Block Chance",
+    "(35 to 115) Damage Reflected to Attackers",
+    "+1 Throwing Damage for Shield Throw per 10 Damage Reflected to AttackersScales with your Damage Reflected to Attackers stat not with the actual damage that has been reflected to attackers. Does not scale with percent damage reflected."
+  ],
+  "lore": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon"
+}

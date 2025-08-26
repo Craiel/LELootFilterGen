@@ -1,0 +1,18 @@
+{
+  "id": "UAzAswdgNiA",
+  "name": "Liath's Signet",
+  "category": "Ring",
+  "baseType": "Gold Ring",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+(5% to 18%) Elemental Resistance"
+  ],
+  "modifiers": [
+    "+(5% to 18%) Elemental Resistance",
+    "+75% Elemental Resistance while Channelling",
+    "(15% to 30%) Chance to Gain 30 Ward when Hit while Channelling",
+    "(45% to 75%) increased Lightning Damage"
+  ],
+  "lore": "For centuries Architect Liath ensured the prosperity of Lagon's realm."
+}

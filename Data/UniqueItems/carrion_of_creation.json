@@ -1,0 +1,21 @@
+{
+  "id": "UAwRgTALAzCQ",
+  "name": "Carrion of Creation",
+  "category": "Gloves",
+  "baseType": "Eternal Gauntlets",
+  "levelRequirement": 81,
+  "classRequirement": null,
+  "implicits": [
+    "+211 Armor",
+    "(11% to 24%) of Armor Mitigation also applies to Damage over Time"
+  ],
+  "modifiers": [
+    "+211 Armor",
+    "(11% to 24%) of Armor Mitigation also applies to Damage over Time",
+    "+(100% to 157%) Chance to apply Bleed on Hit",
+    "100% of Ignite, Frostbite, Shock, Time Rot, Damned, and Poison Chance Converted to Bleed Chance.",
+    "When you kill an enemy it has a (25 to 47)% chance to explode with Primordial Blood dealing physical damage to others around it",
+    "Primordial Blood gains (37 to 100)% Chance to inflict Bleed on Hit per stack of Bleed on the enemy killed (up to 20)"
+  ],
+  "lore": "\"From blood all is brought forth, and to blood all shall return.\" - Ullur Sandhoof, first neophyte of the Coagulated Titan."
+}

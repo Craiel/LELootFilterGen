@@ -1,0 +1,22 @@
+{
+  "id": "UAzDsGZWI",
+  "name": "Mantle of the Pale Ox",
+  "category": "Body Armor",
+  "baseType": "Forest Cuirass",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "+74 Armor",
+    "(5% to 60%) Increased Healing Effectiveness"
+  ],
+  "modifiers": [
+    "+74 Armor",
+    "(5% to 60%) Increased Healing Effectiveness",
+    "(16% to 24%) of Damage Redirected to your Highest Health MinionNo more than 75% of damage can be redirected in total. A minion can have any amount of damage redirected to it, even if it would leave it below 0 health. This stat has no effect while you have no minions. Downed and undamageable minions are ignored.",
+    "(12 to 18)% increased Health for you and your Minions",
+    "(6% to 10%) increased Movement Speed",
+    "+(12 to 16) Strength",
+    "+(1 to 2) to Level of Minion Strength Skills"
+  ],
+  "lore": "Fight with the strength of an ox and the wisdom of a spirit"
+}

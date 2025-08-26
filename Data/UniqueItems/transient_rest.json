@@ -1,0 +1,22 @@
+{
+  "id": "UAzAsEYGYCYg",
+  "name": "Transient Rest",
+  "category": "Boots",
+  "baseType": "Brigandine Boots",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "(40% to 60%) of Current Mana gained as Ward when you stop moving (2 second cooldown)",
+    "+35% Physical Resistance",
+    "+35% Poison Resistance",
+    "+35% Necrotic Resistance",
+    "(10% to 18%) increased Movement Speed"
+  ],
+  "lore": "We follow in the footsteps of our ancestors, but our paths no longer end."
+}

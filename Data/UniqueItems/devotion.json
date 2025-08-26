@@ -1,0 +1,23 @@
+{
+  "id": "UAzCcEYKA",
+  "name": "Devotion",
+  "category": "Amulet",
+  "baseType": "Gold Amulet",
+  "levelRequirement": 71,
+  "classRequirement": null,
+  "implicits": [
+    "+(18% to 42%) Fire Resistance",
+    "+(18% to 42%) Lightning Resistance"
+  ],
+  "modifiers": [
+    "+(18% to 42%) Fire Resistance",
+    "+(18% to 42%) Lightning Resistance",
+    "1% Increased Cast Speed with Smite per 2% Missing ManaIf you have negative mana equal to 20% of your max mana then you have 120% missing mana",
+    "+1 Spell Damage with Smite per 5 Missing ManaIf you have -40 current mana and 200 max mana then you have 240 missing mana",
+    "+(3% to 15%) Endurance",
+    "(30% to 90%) Increased Healing Effectiveness",
+    "(30% to 90%) increased Lightning Damage",
+    "+(3% to 15%) Lightning Penetration"
+  ],
+  "lore": "Where your limits end, your faith's test begins."
+}

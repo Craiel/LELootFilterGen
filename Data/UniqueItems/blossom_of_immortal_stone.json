@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgLGBMCcQ",
+  "name": "Blossom of Immortal Stone",
+  "category": "Amulet",
+  "baseType": "Stone Amulet",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "+(11% to 15%) Endurance",
+    "+(50 to 110) Endurance Threshold"
+  ],
+  "modifiers": [
+    "+(11% to 15%) Endurance",
+    "+(50 to 110) Endurance Threshold",
+    "100% of Void Damage Taken as Physical",
+    "100% of Necrotic Damage Taken as Physical",
+    "100% of Poison Damage Taken as Physical",
+    "(21% to 60%) increased Armor",
+    "(12% to 21%) of Armor Mitigation also applies to Damage over Time",
+    "+(3 to 12) Attunement"
+  ],
+  "lore": "Three petals unwithered by time"
+}

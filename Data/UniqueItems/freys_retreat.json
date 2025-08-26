@@ -1,0 +1,22 @@
+{
+  "id": "UAwRgzGIOxA",
+  "name": "Frey's Retreat",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Divine Instrument",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+(8 to 14) Intelligence",
+    "+(2% to 6%) Spell Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+(8 to 14) Intelligence",
+    "+(2% to 6%) Spell Critical Strike Chance",
+    "+(1 to 4) to Level of Frost Wall",
+    "(16% to 40%) increased Frost Wall Duration",
+    "When you directly cast Frost Wall it is cast directly in front of you and you leap backwards a short distance and invoke Revik's Blizzard at the wall.Frost Wall now counts as a movement skill. Revik's Blizzard is an Invocation normally cast via the Runic Invocation skill and it scales with Runic Invocation's tree. This consumes Revik's Blizzard's mana cost.",
+    "(48% to 108%) increased Cold Damage Over Time",
+    "(16% to 24%) more Cold Damage Over Time to Frozen Enemies"
+  ],
+  "lore": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot."
+}

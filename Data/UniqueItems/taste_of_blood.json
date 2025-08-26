@@ -1,0 +1,22 @@
+{
+  "id": "UAzBMYTiA",
+  "name": "Taste of Blood",
+  "category": "One-Handed Axe",
+  "baseType": "Rusted Cleaver",
+  "levelRequirement": 13,
+  "classRequirement": null,
+  "implicits": [
+    "+19 Melee Damage",
+    "+(13% to 19%) Chance to apply Bleed on Hit"
+  ],
+  "modifiers": [
+    "+19 Melee Damage",
+    "+(13% to 19%) Chance to apply Bleed on Hit",
+    "+(20 to 30) Physical Melee Damage",
+    "15 Health Gain on Kill",
+    "+(50% to 75%) Chance to apply Bleed on Melee Hit",
+    "15% Increased Bleed Duration",
+    "When you hit a bleeding enemy with a melee attack all bleed stacks on that enemy double in speedWhen a bleed stack's speed is double its duration is halved and its damage per second is doubled."
+  ],
+  "lore": "A bloody fervor clouds the mind."
+}

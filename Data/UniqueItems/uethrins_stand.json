@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMoZgdiA",
+  "name": "Uethrin's Stand",
+  "category": "Bow",
+  "baseType": "Birch Bow",
+  "levelRequirement": 36,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+18 Bow Damage",
+    "+(2% to 3%) Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+18 Bow Damage",
+    "+(2% to 3%) Critical Strike Chance",
+    "(20% to 30%) increased Mana",
+    "+(45% to 60%) Cold Resistance",
+    "+(45% to 60%) Physical Resistance",
+    "+(15 to 25) Bow Physical Damage for Minions",
+    "+2 Maximum BallistaeOnly affects the Rogue's Summon Ballista skill"
+  ],
+  "lore": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter."
+}

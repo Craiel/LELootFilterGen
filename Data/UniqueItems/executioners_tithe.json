@@ -1,0 +1,26 @@
+{
+  "id": "UAzCcBYCZiA",
+  "name": "Executioner's Tithe",
+  "category": "One-Handed Axe",
+  "baseType": "Soul Harvester",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+46 Necrotic Melee Damage",
+    "(100% to 166%) increased Necrotic Melee Damage",
+    "(100% to 166%) increased Minion Necrotic Damage"
+  ],
+  "modifiers": [
+    "+46 Necrotic Melee Damage",
+    "(100% to 166%) increased Necrotic Melee Damage",
+    "(100% to 166%) increased Minion Necrotic Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "50% of added melee damage on equipped weapons applied as added spell damage for Chaos BoltsThis effect does not stack when dual wielded",
+    "Converts direct casts of Harvest to Great Harvest which has a 5 second cooldown, deals 150% more damage, and has 50% more area of effect",
+    "Gain 1 Stack of Spirit Battery when you kill an enemy or when you hit a rare or boss enemy (maximum 3 per 2 seconds)Dual wielding affects the amount of stacks gained, but not the limit per 2 seconds",
+    "Spirit Battery grants (2 to 4)% increased mana per stack and lasts for 8 secondsThis effect does not stack when dual wielded",
+    "(2 to 4)% of your maximum mana restored when Great Harvest kills an enemyThis effect does not stack when dual wielded",
+    "(20 to 30)% of your maximum mana restored when Great Harvest hits a boss or rare enemyThis effect does not stack when dual wielded"
+  ],
+  "lore": "The Immortal Empire conquered death and brought freedom to humanity. Yet in that freedom, there remained one inevitable certainty... the tax claimed from their very souls."
+}

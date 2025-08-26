@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMCYFYHYg",
+  "name": "Ashes of Mortality",
+  "category": "Ring",
+  "baseType": "Ruby Ring",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage",
+    "(13 to 19)% chance on hit to gain 2 Ward per Ignite and Damned on the Target and 30 Ward per Ignite and Damned on You (up to 2000 ward, 2 second cooldown)Additional sources of this stat add to the the chance to trigger, but not the ward gained.",
+    "(6% to 13%) increased Cast Speed",
+    "+(13% to 30%) Ward Retention",
+    "(30% to 76%) increased Fire Damage",
+    "(30% to 76%) increased Necrotic Damage"
+  ],
+  "lore": ""
+}

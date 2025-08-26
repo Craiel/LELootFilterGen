@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsGZWI",
+  "name": "Orian's Sun Seal",
+  "category": "Ring",
+  "baseType": "Gold Ring",
+  "levelRequirement": 27,
+  "classRequirement": null,
+  "implicits": [
+    "+(5% to 18%) Elemental Resistance"
+  ],
+  "modifiers": [
+    "+(5% to 18%) Elemental Resistance",
+    "+(1 to 2) to Level of Symbols of Hope",
+    "(20% to 40%) Increased Symbol Gain RateAffects the rate at which you automatically gain Symbols while Symbols of Hope is equipped. Base Symbol gain rate is 1 every 3 seconds.",
+    "(15% to 25%) Increased Healing Effectiveness",
+    "(10% to 15%) increased Armor",
+    "Symbols of Hope is automatically activated when damage taken leaves you below your endurance threshold, consuming (70 to 80)% of its cooldown and mana cost.This effect can only occur if Symbols of Hope is on your ability bar and not on cooldown, and you have positive mana."
+  ],
+  "lore": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos"
+}

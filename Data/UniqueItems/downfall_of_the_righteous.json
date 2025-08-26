@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgLG5A",
+  "name": "Downfall of the Righteous",
+  "category": "Relic",
+  "baseType": "Cursed Bones",
+  "levelRequirement": 70,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "+(13% to 45%) Fire Resistance",
+    "(13% to 63%) increased Curse Damage"
+  ],
+  "modifiers": [
+    "+(13% to 45%) Fire Resistance",
+    "(13% to 63%) increased Curse Damage",
+    "(5% to 15%) increased Health",
+    "(0.1% to 0.3%) of Fire Damage Over Time Leeched as Health",
+    "(0.1% to 0.3%) of Necrotic Damage Over Time Leeched as Health",
+    "(25% to 100%) increased Curse Damage",
+    "Witchfire deals More Damage equal to 66% of your increased Curse Damage",
+    "While you have both Ignite Overload and Damned Overload, enemies within 10 meters are inflicted with Witchfire every secondWitchfire is an ailment that deals 600 fire and 600 necrotic damage over 12 seconds. It cannot stack."
+  ],
+  "lore": "They told me not to do it, now I know why"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsEYCYGYg",
+  "name": "Symbol of Demise",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Rune Stone",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "+(8 to 14) Intelligence",
+    "+(20 to 30) Ward per Second"
+  ],
+  "modifiers": [
+    "+(8 to 14) Intelligence",
+    "+(20 to 30) Ward per Second",
+    "+(90% to 150%) Ward Retention",
+    "(9 to 13) Ward Gain on Kill",
+    "Every 3 seconds your ward is consumed, granting a stack of Demise per 13 ward consumedStacks of Demise last 3 seconds",
+    "Each stack of Demise grants 10% Bleed Chance (up to 200%)",
+    "Each stack of Demise grants 1% increased Bleed Duration"
+  ],
+  "lore": "The fate of the world engraved in bone."
+}

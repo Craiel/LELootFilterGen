@@ -1,0 +1,13 @@
+{
+  "id": "UAzCMGYE4A4g",
+  "name": "Cocooned Gloves",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a pair of random unique gloves"
+  ],
+  "lore": ""
+}

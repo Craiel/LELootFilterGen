@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMwVgNiA",
+  "name": "Chimaera's Essence",
+  "category": "Amulet",
+  "baseType": "Jade Amulet",
+  "levelRequirement": 22,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 15%) increased Melee Attack Speed",
+    "(5% to 15%) increased Throwing Attack Speed"
+  ],
+  "modifiers": [
+    "(5% to 15%) increased Melee Attack Speed",
+    "(5% to 15%) increased Throwing Attack Speed",
+    "(100% to 160%) increased Damage while Transformed",
+    "(6% to 12%) increased Movement Speed while Transformed",
+    "(-25% to -15%) to All Resistances while Transformed"
+  ],
+  "lore": "Shifting, Changing, Striking."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "UAwiMwTiA",
+  "name": "Shard of the Shattered Lance",
+  "category": "One-Handed Sword",
+  "baseType": "Broken Sword",
+  "levelRequirement": 68,
+  "classRequirement": null,
+  "implicits": [
+    "+14 Melee Damage"
+  ],
+  "modifiers": [
+    "+14 Melee Damage",
+    "100% Chance to gain Deicide for 15 seconds when you kill a rare or boss enemyDeicide grants 20% more movement speed and damage (multiplicative with other modifiers) and does not stack",
+    "+(70 to 85) Cold Melee Damage",
+    "(70% to 100%) increased Cold Melee Damage",
+    "+(100% to 150%) Freeze Rate Multiplier",
+    "+(5 to 10) Health Regen",
+    "5% Increased Melee Cold Damage per 10 Health Regen, up to 1500%Any additional health regen has an effect, there are not thresholds every 10."
+  ],
+  "lore": "Dreams of deicide reflected in ice."
+}

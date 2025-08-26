@@ -1,0 +1,25 @@
+{
+  "id": "UAwNgzALATBQ",
+  "name": "Tyrant's Skull",
+  "category": "Relic",
+  "baseType": "Ancient Remains",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "+(2 to 4) to All Attributes",
+    "+(11% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+(2 to 4) to All Attributes",
+    "+(11% to 15%) Endurance",
+    "+(2 to 3) to Level of Minion Skills",
+    "Summons a Tyrannosaur minion",
+    "+3 Tyrannosaur Melee Damage per Strength",
+    "1% increased Tyrannosaur Attack and Cast Speed per Dexterity",
+    "+1% Tyrannosaur Physical Penetration per Intelligence",
+    "+1% Tyrannosaur Critical Strike Multiplier per Attunement",
+    "1% more Tyrannosaur Health and Damage per 1% Uncapped Endurancemultiplicative with other modifiers",
+    "When your Tyrannosaur roars it grants your other minions +25 Physical Damage with Spells and Attacks and the bonuses it gains from this item are applied to them at 20% effectivenessThis buff lasts 12 seconds"
+  ],
+  "lore": ""
+}

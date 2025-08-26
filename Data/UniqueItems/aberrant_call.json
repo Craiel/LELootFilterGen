@@ -1,0 +1,25 @@
+{
+  "id": "UAzCsCZgTiA",
+  "name": "Aberrant Call",
+  "category": "Two-Handed Staff",
+  "baseType": "Spine Rod",
+  "levelRequirement": 38,
+  "classRequirement": null,
+  "implicits": [
+    "+53 Melee Damage",
+    "+(39 to 47) Spell Damage",
+    "(39% to 93%) increased Damage Over Time"
+  ],
+  "modifiers": [
+    "+53 Melee Damage",
+    "+(39 to 47) Spell Damage",
+    "(39% to 93%) increased Damage Over Time",
+    "+(6 to 12) Maximum WraithsAffects the Acolyte's",
+    "+(1 to 3) to Level of Summon Wraith",
+    "Minions lose 6% of their current health per second",
+    "(36% to 62%) increased Mana Regen",
+    "(63% to 126%) increased Minion Melee Damage",
+    "(13% to 35%) increased Minion Movement Speed"
+  ],
+  "lore": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment."
+}

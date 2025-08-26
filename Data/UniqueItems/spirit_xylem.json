@@ -1,0 +1,26 @@
+{
+  "id": "UAzAcBZwViA",
+  "name": "Spirit Xylem",
+  "category": "Two-Handed Staff",
+  "baseType": "Crystal Staff",
+  "levelRequirement": 58,
+  "classRequirement": null,
+  "implicits": [
+    "+72 Melee Damage",
+    "+(72 to 80) Spell Damage",
+    "+(60 to 80) Mana"
+  ],
+  "modifiers": [
+    "+72 Melee Damage",
+    "+(72 to 80) Spell Damage",
+    "+(60 to 80) Mana",
+    "+(3 to 4) to Level of Attunement Skills",
+    "+(10 to 16) Attunement",
+    "+(2 to 4) Health and Mana per Attunement",
+    "(20% to 10%) reduced Mana Cost for Spell Skills",
+    "(10% to 20%) Reduced Health Cost of Spells",
+    "(10% to 20%) more Damage to Bosses and Rare Enemies while above half mana",
+    "(20% to 10%) less Damage Taken from Bosses and Rare Enemies while below half mana"
+  ],
+  "lore": "The crystal wood inside carries spirits to their rightful destination"
+}

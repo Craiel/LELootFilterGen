@@ -1,0 +1,23 @@
+{
+  "id": "UAzAswJgNiA",
+  "name": "Isadora's Gravechill",
+  "category": "Gloves",
+  "baseType": "Noble Gloves",
+  "levelRequirement": 31,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen",
+    "+(48 to 80) Health",
+    "+(12 to 20) Cold Spell Damage",
+    "+100% chance to chill with necrotic abilities if you have killed an enemy in the last 5 seconds",
+    "+100% Chance to apply Damned on hit with Necrotic SpellsDamned deals necrotic damage over time and reduces health regen by 20%. An enemy can have multiple stacks of Damned at once.",
+    "30% Necrotic Penetration with Damned",
+    "+30% Mana Efficiency with Necrotic Spells"
+  ],
+  "lore": "\"...yet her strength was not blood, but of bone...\""
+}

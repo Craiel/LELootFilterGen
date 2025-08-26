@@ -1,0 +1,22 @@
+{
+  "id": "UAzCsEZwdiA",
+  "name": "Dark Shroud of Cinders",
+  "category": "Body Armor",
+  "baseType": "Copper Plate",
+  "levelRequirement": 66,
+  "classRequirement": null,
+  "implicits": [
+    "+114 Armor",
+    "+(5% to 14%) Lightning Resistance"
+  ],
+  "modifiers": [
+    "+114 Armor",
+    "+(5% to 14%) Lightning Resistance",
+    "+(17% to 25%) Chance to apply Blind on Hit",
+    "+(7 to 12) Void Spell Damage",
+    "(12% to 17%) increased Fire Cast Speed",
+    "+(17% to 25%) Chance to cast Fire Aura when Hit (1 second cooldown)",
+    "(30% to 50%) Increased Void Damage per Fire Aura"
+  ],
+  "lore": "The dying embers of a god swiling around a blackened cloak."
+}

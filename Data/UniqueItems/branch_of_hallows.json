@@ -1,0 +1,25 @@
+{
+  "id": "UAzCMCYHYBYg",
+  "name": "Branch of Hallows",
+  "category": "Two-Handed Staff",
+  "baseType": "Root Staff",
+  "levelRequirement": 74,
+  "classRequirement": null,
+  "implicits": [
+    "+19 Melee Damage",
+    "+(7 to 9) Spell Damage",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+19 Melee Damage",
+    "+(7 to 9) Spell Damage",
+    "-3 Mana Cost for Spell Skills",
+    "Gain 400 Ward when you Transform",
+    "Each stack of Maelstrom grants (3 to 4) Ward per second",
+    "+(150 to 220)% Ward Retention for 6 seconds when you Transform",
+    "(150% to 220%) increased Spell Damage while Transformed",
+    "+(80 to 90) Spell Damage",
+    "+2 to Level of Cold Skills"
+  ],
+  "lore": "Most druids talk to their woodland kin, rarely do the trees consider their fleshy brethren. Some branches seek a host to commune with, be it a man, beast, or treekin. Madness touches all in different ways."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAzBsCYA5SA",
+  "name": "Fragment of the Enigma",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Rune Stone",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+(8 to 14) Intelligence",
+    "+(20 to 30) Ward per Second"
+  ],
+  "modifiers": [
+    "+(8 to 14) Intelligence",
+    "+(20 to 30) Ward per Second",
+    "+(10% to 12%) Chance to apply Spark Charge on Hit",
+    "+2 Lightning Damage for Spark Charge per Intelligence",
+    "(120% to 240%) increased Spark Charge Explosion Area",
+    "(65 to 125)% more Damage for Spark Charges applied by Melee Attacksmultiplicative with other modifiers",
+    "+1 to Level of Lightning Skills",
+    "When you cast Teleport you apply a Spark Charge to all enemies around the destination"
+  ],
+  "lore": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "UAwRgzATArAnEA",
+  "name": "Pyre of Affliction",
+  "category": "Two-Handed Axe",
+  "baseType": "Fire Lich Scythe",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "+146 Melee Damage",
+    "+(46 to 60) Fire Spell Damage",
+    "+(46 to 60) Necrotic Spell Damage"
+  ],
+  "modifiers": [
+    "+146 Melee Damage",
+    "+(46 to 60) Fire Spell Damage",
+    "+(46 to 60) Necrotic Spell Damage",
+    "+(13% to 46%) Chance to apply Damned on Hit",
+    "(13 to 23) Ward Gain on Kill",
+    "100% Chance to Ignite yourself on Kill",
+    "Casting Transplant grants (460 to 694) Ward and converts every stack of Ignite on you to Damned with 160% Increased DurationThis increased duration is additive with other sources of Increased Damned Duration. The remaining duration of each stack is also refreshed.",
+    "Damned inflicted by Spells you cast while Damned has +(10 to 16)% Necrotic Penetration per stack of Damned on YouThis does not affect any other source of necrotic damage aside from Damned, and does not affect Damned on you.",
+    "+(20 to 26)% Fire and Necrotic Penetration",
+    "(23 to 13)% less Fire and Necrotic Damage Over Time TakenMultiplicative with other modifiers"
+  ],
+  "lore": ""
+}

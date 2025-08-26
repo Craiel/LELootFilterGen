@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsIFiA",
+  "name": "Decayed Skull",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 24,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "80% increased void and necrotic damage",
+    "20% of void and necrotic damage taken as physical damage",
+    "+(30 to 100) Armor",
+    "(3 to 10)% More Armor (multiplicative with other modifiers)",
+    "(15% to 30%) of Armor Mitigation also applies to Damage over Time"
+  ],
+  "lore": "A monument to the world's decay carved in bone and steel."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzBswRgDiA",
+  "name": "Chains of Uleros",
+  "category": "Belt",
+  "baseType": "Noble Sash",
+  "levelRequirement": 14,
+  "classRequirement": null,
+  "implicits": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots",
+    "12% increased Damage",
+    "25% increased Ward Gained on Potion Use",
+    "+(24% to 60%) Necrotic Resistance",
+    "24% reduced duration of stuns on you",
+    "Your potions grant ward instead of health100% of the health you would gain on potion use is gained as ward instead"
+  ],
+  "lore": "Tether yourself to this mortal realm."
+}

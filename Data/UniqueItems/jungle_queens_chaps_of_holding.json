@@ -1,0 +1,21 @@
+{
+  "id": "UAzCMwTgJiA",
+  "name": "Jungle Queen's Chaps of Holding",
+  "category": "Belt",
+  "baseType": "Leather Belt",
+  "levelRequirement": 9,
+  "classRequirement": null,
+  "implicits": [
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+4 Potion Slots",
+    "+12 Potion Slots",
+    "(25% to 50%) increased Physical Damage",
+    "(25% to 50%) increased Minion Physical Damage",
+    "+(5 to 10) Dexterity",
+    "(25% to 50%) increased Dodge Rating for 4 seconds when you use a Potion",
+    "10% More Dodge Rating for 4 seconds when you use a PotionCan stack multiple times. Each stack is multiplicative with each other and with other modifiers."
+  ],
+  "lore": "The lack of a bottom means that there is more material for pockets."
+}

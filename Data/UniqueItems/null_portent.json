@@ -1,0 +1,21 @@
+{
+  "id": "UAzBsGYFYA4g",
+  "name": "Null Portent",
+  "category": "Body Armor",
+  "baseType": "Gladiator Armor",
+  "levelRequirement": 81,
+  "classRequirement": null,
+  "implicits": [
+    "+220 Armor"
+  ],
+  "modifiers": [
+    "+220 Armor",
+    "(3% to 6%) of Melee Damage Leeched as Health",
+    "(6% to 16%) of Overkill Damage Leeched as Health",
+    "(16% to 30%) Increased Leech Rate",
+    "(16% to 20%) increased Health",
+    "+(30% to 36%) Physical Resistance",
+    "1% less Damage Taken per 2% Resistance above the normal resistance cap (up to 20% less Damage Taken)Multiplicative with other modifiers. For example having 85% fire resistance will cause you to take 5% less fire damage, because it's 10% above the normal 75% cap."
+  ],
+  "lore": "Gorge on the prophecies of futures lost"
+}

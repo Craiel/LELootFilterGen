@@ -1,0 +1,23 @@
+{
+  "id": "UAzDsCYA5SA",
+  "name": "Hand of Judgement",
+  "category": "Gloves",
+  "baseType": "Crusader Gauntlets",
+  "levelRequirement": 24,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance"
+  ],
+  "modifiers": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance",
+    "+3 Melee Damage per Attunement for Judgement while UnarmedAdds melee damage. Works if you have no weapon in your mainhand or offhand slot.",
+    "2% increased Area per Attunement for Judgement while UnarmedWorks if you have no weapon in your mainhand or offhand slot.",
+    "(-12 to -8) Judgement Mana Cost while Unarmed",
+    "+(4 to 16) Attunement",
+    "(16% to 64%) Increased Cooldown Recovery Speed for Judgement",
+    "+(8% to 24%) Fire Penetration"
+  ],
+  "lore": "The light of divinity!"
+}

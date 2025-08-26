@@ -1,0 +1,21 @@
+{
+  "id": "UAwRmGYRI",
+  "name": "Transcriber's Graver",
+  "category": "One-Handed Sword",
+  "baseType": "Dawn Blade",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+54 Melee Damage"
+  ],
+  "modifiers": [
+    "+54 Melee Damage",
+    "+(16 to 24) Spell Damage",
+    "Modifiers to Volcanic Orb speed also apply to Flame Rush speed and distance at (60 to 64)% effectiveness",
+    "Increases to Fire Aura Area also apply to Glyph of Dominion",
+    "(80% to 120%) chance to cast Fire Aura each second while standing on your Glyph of Dominion",
+    "+(6 to 10) Spell Damage with Flame Rush per stack of Fire Aura",
+    "+(12% to 20%) Elemental Penetration"
+  ],
+  "lore": "Carve the burning nightmares into stone"
+}

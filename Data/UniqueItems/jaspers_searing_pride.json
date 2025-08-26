@@ -1,0 +1,27 @@
+{
+  "id": "UAwRjE5iA",
+  "name": "Jasper's Searing Pride",
+  "category": "Two-Handed Staff",
+  "baseType": "Bladed Staff",
+  "levelRequirement": 74,
+  "classRequirement": null,
+  "implicits": [
+    "+94 Melee Damage",
+    "+(84 to 104) Spell Damage",
+    "+1 to Level of Melee Skills"
+  ],
+  "modifiers": [
+    "+94 Melee Damage",
+    "+(84 to 104) Spell Damage",
+    "+1 to Level of Melee Skills",
+    "+(55 to 75) Melee Damage",
+    "+(13% to 18%) Block Chance",
+    "+(400 to 700) Block Effectiveness",
+    "+(1 to 3) to Level of Flame Reave",
+    "+(1 to 3) to Level of Surge",
+    "+(1 to 3) to Level of Enchant Weapon",
+    "When you use a melee attack and hit at least one enemy you gain a stack of Searing Blades for 16 seconds",
+    "Each stack of Searing Blades grants +2 melee fire damage and 20% melee ignite chance"
+  ],
+  "lore": "A Warrior's Life burned to ashes and all that's left is pride."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAwRgzCDsAsQ",
+  "name": "Ruby Fang Aegis",
+  "category": "Shield",
+  "baseType": "Ironglass Shield",
+  "levelRequirement": 55,
+  "classRequirement": null,
+  "implicits": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness",
+    "(25% to 7%) less Poison Damage Taken",
+    "+(55 to 75)% Chance to Poison on Hit with Fire Skills",
+    "+75% Fire Resistance",
+    "Gain Ruby Venom for 10 seconds on BlockYou can have multiple stacks of Ruby Venom",
+    "15% increased Fire Damage per stack of Ruby Venom",
+    "15% increased Poison Damage per stack of Ruby Venom",
+    "+1% Melee Poison Chance per 1% uncapped Fire ResistanceUncapped means that you will continue to gain poison chance from fire resistance above the 75% resistance cap"
+  ],
+  "lore": ""
+}

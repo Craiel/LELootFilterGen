@@ -1,0 +1,25 @@
+{
+  "id": "UAwRgTAzArBQ",
+  "name": "Nihilis",
+  "category": "Amulet",
+  "baseType": "Unbound Locket",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "(1% to 12%) increased Health",
+    "(1% to 12%) increased Mana",
+    "(-4% to 8%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "(1% to 12%) increased Health",
+    "(1% to 12%) increased Mana",
+    "(-4% to 8%) increased Movement Speed",
+    "+(1 to 2) to Level of All Skills",
+    "(-20% to 50%) increased Mana Regen",
+    "(-10% to 20%) more Armor",
+    "(-5% to 15%) to All Resistances",
+    "(10% to 20%) of Current Health and Ward lost when you use Evade",
+    "(1.2 to 4) Seconds of Frenzy after you use EvadeFrenzy is a buff that grants 20% increased attack and cast speed by default. It cannot stack."
+  ],
+  "lore": "From every void, every lost moment, the will of Orobyss echoes for eternity."
+}

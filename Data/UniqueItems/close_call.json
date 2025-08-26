@@ -1,0 +1,21 @@
+{
+  "id": "UAw4VgRiA",
+  "name": "Close Call",
+  "category": "Shield",
+  "baseType": "Wooden Shield",
+  "levelRequirement": 3,
+  "classRequirement": null,
+  "implicits": [
+    "+18% Block Chance",
+    "+(80 to 120) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+18% Block Chance",
+    "+(80 to 120) Block Effectiveness",
+    "50% less Block Effectiveness",
+    "+(80 to 180) Dodge Rating",
+    "40% increased dodge rating for each hit you have blocked recentlyRecently refers to the last 4 seconds",
+    "+4 Health gained when you Dodge"
+  ],
+  "lore": "Light on your feet, with a foot in the grave."
+}

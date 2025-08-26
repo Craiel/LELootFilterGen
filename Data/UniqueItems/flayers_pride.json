@@ -1,0 +1,24 @@
+{
+  "id": "UAwRgrATCxA",
+  "name": "Flayer's Pride",
+  "category": "Shield",
+  "baseType": "Rotskin Round Shield",
+  "levelRequirement": 65,
+  "classRequirement": null,
+  "implicits": [
+    "+20% Block Chance",
+    "+(200 to 600) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+20% Block Chance",
+    "+(200 to 600) Block Effectiveness",
+    "13% less Physical Damage Taken on Block",
+    "13% less Physical Damage Over Time Taken",
+    "+(65% to 91%) Chance to apply Bleed on Hit",
+    "(26% to 39%) Physical Penetration with Bleed",
+    "(26 to 39) Health Gain on Kill",
+    "+13 Intelligence",
+    "(65% to 91%) Reduced Health Cost of Spells"
+  ],
+  "lore": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer."
+}

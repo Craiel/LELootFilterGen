@@ -1,0 +1,20 @@
+{
+  "id": "UAzDsBYGZyA",
+  "name": "Mask of Indifference",
+  "category": "Helmet",
+  "baseType": "Forest Helmet",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Armor"
+  ],
+  "modifiers": [
+    "+50 Armor",
+    "You are immune to Blind, Bleed, Slow, Chill, Shock, and Stun.",
+    "(10% to 100%) reduced Bonus Damage Taken from Critical Strikes",
+    "(10% to 100%) of Damage Reflected",
+    "+(20 to 200) Armor",
+    "+(20 to 200) Endurance Threshold"
+  ],
+  "lore": "A visage unweathered by even time itself"
+}

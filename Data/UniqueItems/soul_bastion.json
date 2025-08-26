@@ -1,0 +1,24 @@
+{
+  "id": "UAzBMwVlI",
+  "name": "Soul Bastion",
+  "category": "Shield",
+  "baseType": "Heater Shield",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+20% Block Chance",
+    "+(150 to 180) Block Effectiveness",
+    "+80 Armor"
+  ],
+  "modifiers": [
+    "+20% Block Chance",
+    "+(150 to 180) Block Effectiveness",
+    "+80 Armor",
+    "+10% Block Chance",
+    "+(500 to 1000) Block Effectiveness",
+    "Gains a Soul Charge on killSoul charges last for 10 seconds",
+    "At 5 soul charges, casts Soul Eruption",
+    "+2 to Level of Soul Feast"
+  ],
+  "lore": "The weight of souls is too much for most."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UAw4VgFiA",
+  "name": "Strong Mind",
+  "category": "Amulet",
+  "baseType": "Copper Amulet",
+  "levelRequirement": 18,
+  "classRequirement": null,
+  "implicits": [
+    "+(6% to 20%) Lightning Resistance",
+    "+(2 to 3) Lightning Spell Damage"
+  ],
+  "modifiers": [
+    "+(6% to 20%) Lightning Resistance",
+    "+(2 to 3) Lightning Spell Damage",
+    "+(30 to 60) Mana",
+    "200% of maximum mana added as stun avoidance",
+    "Cast a small lightning explosion when you are stunned"
+  ],
+  "lore": "Stand Fast."
+}

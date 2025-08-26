@@ -1,0 +1,24 @@
+{
+  "id": "UAzCMwZgJiA",
+  "name": "Frozen Ire",
+  "category": "Sceptre",
+  "baseType": "Ice Sceptre",
+  "levelRequirement": 33,
+  "classRequirement": null,
+  "implicits": [
+    "+43 Cold Melee Damage",
+    "+43 Cold Spell Damage",
+    "+(43% to 143%) Freeze Rate Multiplier"
+  ],
+  "modifiers": [
+    "+43 Cold Melee Damage",
+    "+43 Cold Spell Damage",
+    "+(43% to 143%) Freeze Rate Multiplier",
+    "(80% to 120%) increased Cold Damage",
+    "+1 spell cold damage per 5 character levels",
+    "+2% freeze rate multiplier per character level",
+    "+1% necrotic resistance per character level",
+    "15% chance to cast tundra nova on hit with cold skills (chance doubled against undead)"
+  ],
+  "lore": "An alliance of wengari and nomads gathered in the northern tundra, forging weapons of ice and preparing to reclaim Heoborea from the Immortal Empire."
+}

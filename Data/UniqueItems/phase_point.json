@@ -1,0 +1,23 @@
+{
+  "id": "UAzCMGYDZSA",
+  "name": "Phase Point",
+  "category": "Quiver",
+  "baseType": "Heavy Quiver",
+  "levelRequirement": 87,
+  "classRequirement": null,
+  "implicits": [
+    "(15% to 30%) increased Bow Damage",
+    "(15% to 30%) Increased Bow Stun Chance"
+  ],
+  "modifiers": [
+    "(15% to 30%) increased Bow Damage",
+    "(15% to 30%) Increased Bow Stun Chance",
+    "+(80 to 143) Dodge Rating",
+    "(8% to 13%) increased Dodge Rating",
+    "(18% to 43%) chance to gain Dusk Shroud on DodgeDusk Shroud is a stacking buff. Each stack grants 50 dodge rating and 5% chance to receive a Glancing Blow when hit. Glancing Blows deal 35% less damage.",
+    "(33% to 48%) Chance to gain a Black Arrow on DodgeBlack Arrows are affected by the Dark Quiver tree",
+    "+1 Bow Void Damage per Dusk Shroud when using a Black Arrow",
+    "+(1 to 3) to Level of Dark Quiver"
+  ],
+  "lore": ""
+}

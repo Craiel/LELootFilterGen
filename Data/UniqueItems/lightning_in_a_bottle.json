@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsBYCZKA",
+  "name": "Lightning in a Bottle",
+  "category": "Belt",
+  "baseType": "Noble Sash",
+  "levelRequirement": 28,
+  "classRequirement": null,
+  "implicits": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots",
+    "Using a Potion grants an Evade Charge",
+    "+(140 to 215) Dodge Rating while using EvadeDoes not work if Evade is replaced by another ability",
+    "After you use Evade to move next to an enemy you attack it with Gathering StormThis Gathering Storm use is instant and does not prevent you from performing other actions.",
+    "+(5 to 14) Lightning Melee Damage",
+    "You are Immune to Shock"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAwNgTAjKQ",
+  "name": "Shroud of Obscurity",
+  "category": "Body Armor",
+  "baseType": "Witch Robes",
+  "levelRequirement": 13,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "+53 Armor",
+    "(7% to 13%) increased Cast Speed"
+  ],
+  "modifiers": [
+    "+53 Armor",
+    "(7% to 13%) increased Cast Speed",
+    "20% of Current Health Lost per secondThis is not affected by increases and reductions to health drain effects",
+    "13% of Missing Health gained as Ward per second",
+    "+(13 to 19) Ward per Second",
+    "+(93 to 130) Dodge Rating",
+    "+(3 to 13) Ward gained when you Dodge"
+  ],
+  "lore": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic."
+}

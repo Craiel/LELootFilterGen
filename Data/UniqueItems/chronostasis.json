@@ -1,0 +1,19 @@
+{
+  "id": "UAwRmCZwZiA",
+  "name": "Chronostasis",
+  "category": "One-Handed Sword",
+  "baseType": "Dawn Blade",
+  "levelRequirement": 75,
+  "classRequirement": null,
+  "implicits": [
+    "+54 Melee Damage"
+  ],
+  "modifiers": [
+    "+54 Melee Damage",
+    "Your melee skills consume up to (500 to 2000) ward, gaining +1 melee damage per 10 ward consumedDual wielding this weapon will not provide this benefit twice, but it will raise the maximum ward you can consume for additional damage",
+    "+(50 to 80) Ward per Second",
+    "+(6 to 10) Intelligence",
+    "(10% to 15%) increased Attack Speed"
+  ],
+  "lore": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance."
+}

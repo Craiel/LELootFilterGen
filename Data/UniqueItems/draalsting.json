@@ -1,0 +1,21 @@
+{
+  "id": "UAzCswFgo",
+  "name": "Draalsting",
+  "category": "Two-Handed Spear",
+  "baseType": "Glaive",
+  "levelRequirement": 29,
+  "classRequirement": null,
+  "implicits": [
+    "+49 Melee Damage",
+    "+(3% to 6%) Melee Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+49 Melee Damage",
+    "+(3% to 6%) Melee Critical Strike Chance",
+    "(12% to 5%) less Melee Attack Speed",
+    "175% increased Poison Damage",
+    "+(120% to 180%) Chance to apply Poison on Melee Hit",
+    "+1 to Level of Poison Melee Skills"
+  ],
+  "lore": "Poison the mind, kill the heart."
+}

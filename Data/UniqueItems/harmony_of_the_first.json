@@ -1,0 +1,21 @@
+{
+  "id": "UAzDMBYCYHYg",
+  "name": "Harmony of the First",
+  "category": "Two-Handed Spear",
+  "baseType": "Impaler",
+  "levelRequirement": 16,
+  "classRequirement": null,
+  "implicits": [
+    "+33 Melee Damage",
+    "+(30% to 39%) Melee Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+33 Melee Damage",
+    "+(30% to 39%) Melee Critical Strike Multiplier",
+    "(6% to 10%) increased Melee Attack Speed",
+    "(4% to 6%) increased Movement Speed",
+    "+(48 to 64) Melee Damage",
+    "All stats on this item are increased by (16 to 20)% per equipped non-idol magic itemMagic items are all items that have one or two non-sealed affixes, excluding unique, set, and legendary items."
+  ],
+  "lore": "The first of osprix, wengari, meruna, and nagasa were united in purpose, under the guidance of the gods and Eterra above them."
+}

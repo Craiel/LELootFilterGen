@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgzGBsAcQ",
+  "name": "Mana Guide",
+  "category": "Amulet",
+  "baseType": "Amber Amulet",
+  "levelRequirement": 30,
+  "classRequirement": null,
+  "implicits": [
+    "+(16 to 48) Mana"
+  ],
+  "modifiers": [
+    "+(16 to 48) Mana",
+    "While channelling Focus you move towards your current target location at 80% of your normal movement speedYou can change direction during Focus and the speed of movement scales with your movement speed",
+    "While channelling Focus you cast Lightning Blast once per secondEach cast consumes 100% of Lightning Blast's mana cost and only occurs if you have more than 0 mana",
+    "Mana regeneration from Focus is half as effectiveThis affects all mana regeneration granted by Focus, but not other sources of mana regeneration",
+    "You have 50% less armor while channeling Focus",
+    "(34% to 70%) increased Mana Regen",
+    "+(25 to 50) Ward per Second while Channelling",
+    "+(50 to 115) Ward Decay Threshold",
+    "+(24% to 38%) Lightning Resistance"
+  ],
+  "lore": ""
+}

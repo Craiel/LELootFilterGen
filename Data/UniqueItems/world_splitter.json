@@ -1,0 +1,23 @@
+{
+  "id": "UAwRmGYDYFYg",
+  "name": "World Splitter",
+  "category": "Two-Handed Axe",
+  "baseType": "Bardiche",
+  "levelRequirement": 85,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Melee Damage",
+    "+(130% to 190%) Chance to apply Bleed on Melee Hit"
+  ],
+  "modifiers": [
+    "+130 Melee Damage",
+    "+(130% to 190%) Chance to apply Bleed on Melee Hit",
+    "+(30 to 52) Void Melee Damage",
+    "+2% increased Area for Melee Area Skills per 1 Mana Cost",
+    "+(0.2% to 0.3%) Critical Strike Chance for Melee Attacks per 1 Mana Cost",
+    "+1% Melee Critical Strike multiplier per 10 Max Mana",
+    "(30% to 52%) increased Mana Regen",
+    "(30% to 52%) increased Mana"
+  ],
+  "lore": "Sever the chains that bind reality"
+}

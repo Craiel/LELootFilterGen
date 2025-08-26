@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMoZgDiA",
+  "name": "Zerrick's Guile",
+  "category": "Belt",
+  "baseType": "Leather Belt",
+  "levelRequirement": 49,
+  "classRequirement": null,
+  "implicits": [
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+4 Potion Slots",
+    "+100% Critical Strike Avoidance for 4 seconds when you use a Potion",
+    "+75% Poison Resistance for 4 seconds when you use a Potion",
+    "(15 to 20)% increased Melee and Throwing Attack Speed for 4 seconds when you use a Potion",
+    "+(125 to 375) Dodge Rating",
+    "Potions no longer heal you, but instead grant +54 necrotic damage to melee and throwing attacks and mark you for death for 4 seconds.Mark for Death is a curse that reduces all resistances by 25%.",
+    "72% Increased Chance To Find Potions",
+    "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
+  ],
+  "lore": "Zerrick's humility and reverence for the Nagasa and the Scalebane leaders long kept him in their favour, sealing their demise."
+}

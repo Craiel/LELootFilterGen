@@ -1,0 +1,22 @@
+{
+  "id": "UAzDsGZ2I",
+  "name": "Spine of Malatros",
+  "category": "Two-Handed Sword",
+  "baseType": "Flamberge",
+  "levelRequirement": 61,
+  "classRequirement": null,
+  "implicits": [
+    "+90 Melee Damage"
+  ],
+  "modifiers": [
+    "+90 Melee Damage",
+    "+(1 to 3) to Level of Fire Skills",
+    "+(1 to 3) to Level of Damage Over Time Skills",
+    "+(1 to 3) to Level of Acolyte Skills",
+    "Chthonic Fissures cast Flame Whip instead of releasing Spirits",
+    "Chthonic Fissure's Skill Tree applies to Flame Whip from all sourcesNodes that affect the fissure and initial hit apply to flame whip, but nodes that only affect the spirits do not.",
+    "+(6% to 9%) Critical Strike Multiplier with Flame Whip per 10% Uncapped Necrotic ResistanceYour uncapped necrotic resistance is your total necrotic resistance disregarding the normal 75% cap",
+    "+(61 to 72) Spell Damage"
+  ],
+  "lore": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzDsGYEYFYg",
+  "name": "Dragorath's Claw",
+  "category": "Dagger",
+  "baseType": "Rune Dagger",
+  "levelRequirement": 37,
+  "classRequirement": null,
+  "implicits": [
+    "+36 Melee Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "+(30 to 40) Spell Damage"
+  ],
+  "modifiers": [
+    "+36 Melee Damage",
+    "+(3% to 4%) Critical Strike Chance",
+    "+(30 to 40) Spell Damage",
+    "(37% to 47%) Chance to Cast Lightning Blast on Crit with Frost Claw (up to 3 casts per second)Consumes Lightning Blast's mana cost",
+    "Lightning Blast cast this way has +1% Critical Strike Chance per 5% uncapped Lightning Resistance and +1% Critical Strike Multiplier per 5% uncapped Cold Resistance",
+    "(7 to 17) Ward Gained on Crit with Frost Claw",
+    "+(7% to 17%) to All Resistances",
+    "+(37% to 47%) Spell Critical Strike Multiplier"
+  ],
+  "lore": ""
+}

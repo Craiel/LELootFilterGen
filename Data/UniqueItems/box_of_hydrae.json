@@ -1,0 +1,22 @@
+{
+  "id": "UAwNmGYEYCYg",
+  "name": "Box of Hydrae",
+  "category": "Relic",
+  "baseType": "Runed Box",
+  "levelRequirement": 36,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+(9% to 18%) Ward Retention"
+  ],
+  "modifiers": [
+    "+(9% to 18%) Ward Retention",
+    "+(1 to 2) to Level of Runic Invocation",
+    "+(9% to 18%) Fire Penetration with Fire InvocationsFire Invocations are invocations from Runic Invocation that have a fire tag",
+    "(9% to 18%) chance to Invoke Hydrahedron on kill with fire skills (9 second cooldown)Hydrahedron is an invocation normally cast by using Runic Invocation with the rune sequence Gon Rah Rah",
+    "(9% to 63%) increased Hydrahedron Area",
+    "(9% to 36%) increased Hydrahedron Cast RateThis increases the rate at which Hydrahedron casts its fire mortarts.",
+    "+(9 to 18) Ward Gained on Hit with Hydrahedron",
+    "+(18 to 108) Ward Decay Threshold"
+  ],
+  "lore": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads."
+}

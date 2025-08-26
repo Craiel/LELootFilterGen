@@ -1,0 +1,25 @@
+{
+  "id": "UAzDsBZgJiA",
+  "name": "Elecoe's Innovation",
+  "category": "Belt",
+  "baseType": "Spidersilk Sash",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+(33% to 47%) Poison Resistance",
+    "+(33% to 47%) Cold Resistance",
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+(33% to 47%) Poison Resistance",
+    "+(33% to 47%) Cold Resistance",
+    "+4 Potion Slots",
+    "Your critical strike chance also applies to your potion uses. When a potion use crits, the health and ward you immediately gain from it is multiplied by a percentage of your critical strike multiplier.This does not increase the effect of temporary stats granted on potion use",
+    "25% of Critical Strike Multiplier applies to PotionsIf a potion crits, this percentage of your Critical Multiplier will affect the potion",
+    "(144 to 216) Health Gained on Potion Use",
+    "(144 to 216) Ward Gained on Potion Use",
+    "(12% to 24%) increased Critical Strike Chance",
+    "+(12% to 24%) Critical Strike Multiplier"
+  ],
+  "lore": "Elecoe discovered that with the right ingredients potions could be imbued with the luck of the brewer."
+}

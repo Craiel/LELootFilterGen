@@ -1,0 +1,18 @@
+{
+  "id": "UAzAsCYE5SA",
+  "name": "Font of the Erased",
+  "category": "Ring",
+  "baseType": "Gold Ring",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+(5% to 18%) Elemental Resistance"
+  ],
+  "modifiers": [
+    "+(5% to 18%) Elemental Resistance",
+    "(4 to 10)% increased Health and Mana",
+    "(14% to 30%) of Mana Spent Gained as Ward",
+    "1 Ward gained on hit per 10 missing mana if your current ward is lower than your missing health"
+  ],
+  "lore": "\"For those who have lost everything, The Weaver's bounty knows no end.\"  - The Acolyte of Golden Silk"
+}

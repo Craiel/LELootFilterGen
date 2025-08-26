@@ -1,0 +1,23 @@
+{
+  "id": "UAzAcGYFZKA",
+  "name": "Aberroth's Command",
+  "category": "Sceptre",
+  "baseType": "Obsidian Sceptre",
+  "levelRequirement": 65,
+  "classRequirement": null,
+  "implicits": [
+    "+55 Melee Damage",
+    "+(55 to 65) Spell Damage"
+  ],
+  "modifiers": [
+    "+55 Melee Damage",
+    "+(55 to 65) Spell Damage",
+    "Void Cleave is now instant and is no longer a movement skill",
+    "Void Cleave no longer has a weapon requirement",
+    "Ravaging Auras created by Void Cleave lasts an additional (6 to 12) seconds and have +40% Void Penetration",
+    "(200% to 285%) increased Damage Over Time",
+    "(20% to 25%) Increased Area for Area Skills",
+    "+(8% to 20%) Void Penetration"
+  ],
+  "lore": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\""
+}

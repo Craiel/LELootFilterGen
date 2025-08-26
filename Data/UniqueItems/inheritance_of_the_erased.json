@@ -1,0 +1,19 @@
+{
+  "id": "UAzAcBZgTiA",
+  "name": "Inheritance of the Erased",
+  "category": "Amulet",
+  "baseType": "Oracle Amulet",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "(6% to 20%) less Damage Over Time Taken"
+  ],
+  "modifiers": [
+    "(6% to 20%) less Damage Over Time Taken",
+    "Every 10 seconds a random minion is Chosen, receiving Frenzy and 200% of the stats on this itemChosen is a buff which lasts for 10 seconds. Frenzy grants 20% increased attack and cast speed.",
+    "(8% to 14%) increased Health",
+    "(52% to 98%) increased Health Regen",
+    "+(28% to 46%) Void Resistance"
+  ],
+  "lore": "\"Our tears for them will be dew upon perfect golden silk.\" - Masque, the Acolyte of Golden Silk"
+}

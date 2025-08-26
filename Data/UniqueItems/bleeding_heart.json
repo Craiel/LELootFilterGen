@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMwVgo",
+  "name": "Bleeding Heart",
+  "category": "Amulet",
+  "baseType": "Jade Amulet",
+  "levelRequirement": 4,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 15%) increased Melee Attack Speed",
+    "(5% to 15%) increased Throwing Attack Speed"
+  ],
+  "modifiers": [
+    "(5% to 15%) increased Melee Attack Speed",
+    "(5% to 15%) increased Throwing Attack Speed",
+    "(35% to 25%) less Health Regen",
+    "(5% to 9%) of Damage Leeched as Health",
+    "You are inflicted with bleed when you cast a spell"
+  ],
+  "lore": "Drink the blood of the weak."
+}

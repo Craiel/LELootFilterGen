@@ -1,0 +1,21 @@
+{
+  "id": "UAzCMCYE4GYg",
+  "name": "Swaddling of the Erased",
+  "category": "Gloves",
+  "baseType": "Leather Gloves",
+  "levelRequirement": 15,
+  "classRequirement": null,
+  "implicits": [
+    "+10 Armor",
+    "+(5 to 10) Mana"
+  ],
+  "modifiers": [
+    "+10 Armor",
+    "+(5 to 10) Mana",
+    "(12% to 17%) more Melee Damage to High Health Enemies",
+    "(12% to 17%) more Spell Damage to Low Health Enemies",
+    "(6 to 12)% increased Attack and Cast Speed",
+    "+(2 to 6) to All Attributes"
+  ],
+  "lore": "\"Cities, memories, whole timelines have been erased by the spreading void. There is much work ahead of us.\" - The Acolyte of Golden Silk"
+}

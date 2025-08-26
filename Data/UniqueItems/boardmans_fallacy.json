@@ -1,0 +1,26 @@
+{
+  "id": "UAwJgnAjCAcQ",
+  "name": "Boardman's Fallacy",
+  "category": "Body Armor",
+  "baseType": "Kolheim Armor",
+  "levelRequirement": 63,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+180 Armor",
+    "+(32% to 46%) Physical Resistance"
+  ],
+  "modifiers": [
+    "+180 Armor",
+    "+(32% to 46%) Physical Resistance",
+    "(221% to 321%) increased Minion Health",
+    "(221% to 321%) increased Minion Health Regen",
+    "+(10% to 21%) Minion Lightning Penetration",
+    "+(30% to 75%) Cold resistance to allies nearby Storm Totem",
+    "You are Frenzied for 3 seconds when hit by your Storm TotemFrenzy gives 20% increased attack and cast speed.",
+    "(10 to 21)% Increased Area of Storm Totem Aura",
+    "Limited to One Active Companion",
+    "Storm Totem can hit allies to grant 21 healthHealth granted is not affected by minion healing effectiveness",
+    "Storm Totem can hit allies to grant 21 ward"
+  ],
+  "lore": ""
+}

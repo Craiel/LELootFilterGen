@@ -1,0 +1,26 @@
+{
+  "id": "UAwjMwViA",
+  "name": "Reowyn's Fortress",
+  "category": "Two-Handed Staff",
+  "baseType": "Travelling Staff",
+  "levelRequirement": 24,
+  "classRequirement": null,
+  "implicits": [
+    "+16 Melee Damage",
+    "+(3 to 5) Spell Damage",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+16 Melee Damage",
+    "+(3 to 5) Spell Damage",
+    "-3 Mana Cost for Spell Skills",
+    "+(3 to 6) to All Attributes",
+    "+(1 to 3) to Level of Runic Invocation",
+    "+(12 to 18) Spell Damage per Active Rune",
+    "+(30 to 36) Armor per Rah Rune",
+    "+(48 to 54) Dodge Rating per Heo Rune",
+    "+(12 to 18) Ward per Second per Gon Rune",
+    "+1 Spell Damage with Runic Invocation per 10 Armor, Dodge Rating, or Ward, whichever is lowest"
+  ],
+  "lore": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch."
+}

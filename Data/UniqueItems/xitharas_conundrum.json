@@ -1,0 +1,19 @@
+{
+  "id": "UAzCsEYGZKA",
+  "name": "Xithara's Conundrum",
+  "category": "Amulet",
+  "baseType": "Ruby Amulet",
+  "levelRequirement": 61,
+  "classRequirement": null,
+  "implicits": [
+    "+(5 to 25) Health"
+  ],
+  "modifiers": [
+    "+(5 to 25) Health",
+    "100% of Potion Health Converted to Ward",
+    "You have no health leechYou can still regain health through methods other than health leech",
+    "You have no health regenYou can still regain health through methods other than health regen",
+    "(25% to 30%) more Physical Damage while at Full Health"
+  ],
+  "lore": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade."
+}

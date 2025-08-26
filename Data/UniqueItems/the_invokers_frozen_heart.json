@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMwVgdiA",
+  "name": "The Invoker's Frozen Heart",
+  "category": "Amulet",
+  "baseType": "Silver Amulet",
+  "levelRequirement": 24,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Critical Strike Chance",
+    "+(30% to 75%) Freeze Rate Multiplier",
+    "+1 to Level of Snap Freeze",
+    "+(30% to 60%) Critical Strike Multiplier against Frozen Enemies",
+    "13% increased Cold Cast Speed",
+    "13% increased Elemental Cast Speed",
+    "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
+  ],
+  "lore": "...alone with ice in his heart, he gained mastery of his art..."
+}

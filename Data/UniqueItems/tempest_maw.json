@@ -1,0 +1,24 @@
+{
+  "id": "UAzBswZgRiA",
+  "name": "Tempest Maw",
+  "category": "One-Handed Axe",
+  "baseType": "Crescent Axe",
+  "levelRequirement": 51,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Melee Damage",
+    "+(14 to 28) Lightning Melee Damage",
+    "+(7% to 14%) Lightning Penetration"
+  ],
+  "modifiers": [
+    "+28 Melee Damage",
+    "+(14 to 28) Lightning Melee Damage",
+    "+(7% to 14%) Lightning Penetration",
+    "+(17 to 21) Lightning Melee Damage",
+    "+(17 to 21) Lightning Spell Damage",
+    "(-6 to -3) Mana Cost for Totems",
+    "+(3 to 6) Strength and Attunement",
+    "When you summon a totem you also summon 4 Storm Sprites around the totem (6 second cooldown)"
+  ],
+  "lore": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena."
+}

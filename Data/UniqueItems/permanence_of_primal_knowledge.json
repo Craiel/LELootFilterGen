@@ -1,0 +1,22 @@
+{
+  "id": "UAwRhBYGYFYg",
+  "name": "Permanence of Primal Knowledge",
+  "category": "Gloves",
+  "baseType": "Ascetic Gloves",
+  "levelRequirement": 79,
+  "classRequirement": null,
+  "implicits": [
+    "+58 Armor",
+    "(6% to 12%) Increased Cooldown Recovery Speed"
+  ],
+  "modifiers": [
+    "+58 Armor",
+    "(6% to 12%) Increased Cooldown Recovery Speed",
+    "Skill Level stats from Legendary Affixes have 50% increased effectThis effect rounds up, so +1 becomes +2. Legendary affixes are the additional affixes on legendary items that are not present on the base unique item. Skill level modifiers are any stats that add levels to your specialised skills.",
+    "(6 to 12)% increased Attack and Cast Speed",
+    "+(48 to 96) Mana",
+    "(12% to 24%) Increased Area for Area Skills",
+    "(12% to 36%) increased Mana Regen"
+  ],
+  "lore": "The vines grow with strange symbols, the meaning of which has long been lost to time."
+}

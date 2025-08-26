@@ -1,0 +1,24 @@
+{
+  "id": "UAwRgLAzATFQ",
+  "name": "The Cuckoo",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Avian Puppet",
+  "levelRequirement": 86,
+  "classRequirement": null,
+  "implicits": [
+    "+(9 to 17) Intelligence",
+    "(9% to 34%) increased Effect of Haste on You",
+    "(1.7 to 2.9) Seconds of Haste after you use a Traversal SkillHaste is a buff that grants 30% increased movement speed by default. It cannot stack."
+  ],
+  "modifiers": [
+    "+(9 to 17) Intelligence",
+    "(9% to 34%) increased Effect of Haste on You",
+    "(1.7 to 2.9) Seconds of Haste after you use a Traversal SkillHaste is a buff that grants 30% increased movement speed by default. It cannot stack.",
+    "The Cuckoo may permanently change into a random exalted item when a nearby enemy diesIt will still be an Avian Puppet. The exalted item always rolls as if it dropped in a level 100 area, but will have higher forging potential.",
+    "(9 to 17) Ward Gain on Kill",
+    "+(66 to 290) Ward Decay Threshold",
+    "+(17% to 29%) Critical Strike Avoidance",
+    "(17% to 29%) increased Dodge Rating"
+  ],
+  "lore": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes."
+}

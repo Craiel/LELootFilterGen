@@ -1,0 +1,20 @@
+{
+  "id": "UAzCM4JiA",
+  "name": "Strands of Souls",
+  "category": "Belt",
+  "baseType": "Leather Belt",
+  "levelRequirement": 82,
+  "classRequirement": null,
+  "implicits": [
+    "+4 Potion Slots"
+  ],
+  "modifiers": [
+    "+4 Potion Slots",
+    "(180 to 320) Ward Gained on Potion Use",
+    "(70% to 180%) of Mana Spent Gained as Ward",
+    "+(30% to 70%) Ward Retention",
+    "(18 to 30) Ward Gain on Kill",
+    "+(7 to 18) Ward per Second"
+  ],
+  "lore": "It is unseemly to wear the heads of your foes upon your belt like a common witch or wengari, and what is the point if the eyes can no longer see and the brains can no longer think. No, a necromancer should wear the souls of those they have conquered, a repository of sentient energy ready to consume."
+}

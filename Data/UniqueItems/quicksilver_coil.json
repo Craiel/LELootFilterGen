@@ -1,0 +1,20 @@
+{
+  "id": "UAzDMEZQViA",
+  "name": "Quicksilver Coil",
+  "category": "Ring",
+  "baseType": "Silver Ring",
+  "levelRequirement": 12,
+  "classRequirement": null,
+  "implicits": [
+    "(3% to 8%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "(3% to 8%) increased Movement Speed",
+    "(10% to 30%) Chance to gain Haste for 1 second on Hit",
+    "(5% to 10%) increased Melee Attack Speed",
+    "(5% to 10%) increased Bow Attack Speed",
+    "(40% to 60%) increased Health Regen",
+    "+100% Critical Strike Chance with the Third Strike of Flurry"
+  ],
+  "lore": "War is about the destination, not the journey."
+}

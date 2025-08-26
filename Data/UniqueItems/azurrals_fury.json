@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsEYA5KA",
+  "name": "Azurral's Fury",
+  "category": "Belt",
+  "baseType": "Noble Sash",
+  "levelRequirement": 57,
+  "classRequirement": null,
+  "implicits": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(16 to 32) Mana",
+    "+3 Potion Slots",
+    "+(20 to 26) Health Regen",
+    "(20% to 60%) increased Fire Damage",
+    "Using a potion grants you Falsewater Fury until you run out of manaDoes not grant Falsewater Fury if you are already out of mana",
+    "During Falsewater Fury your mana does not regenerate and is drained at an accelerating rateMana drain starts at 0 and accelerates by 10 each second",
+    "During Falsewater Fury non-channelled melee attacks consume 20 mana to deal +100 melee fire damage"
+  ],
+  "lore": "The nagasa of the Scorched Basin always warned merchants to disregard the false oasis on the long road to Keltha, but Azurral had never put much heed in the snake people's superstition and his thirst overcame him. He drew deep from the blood red waters. The next day he awoke to his caravan reduced to ash upon the sand and his sword burning hot in his hand."
+}

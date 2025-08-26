@@ -1,0 +1,26 @@
+{
+  "id": "UAzDsGYFYCYg",
+  "name": "Plague Dragon's Tongue",
+  "category": "Two-Handed Spear",
+  "baseType": "Dragonslayer Glaive",
+  "levelRequirement": 57,
+  "classRequirement": null,
+  "implicits": [
+    "+107 Melee Damage",
+    "+(4% to 7%) Melee Critical Strike Chance",
+    "+75% Fire Resistance"
+  ],
+  "modifiers": [
+    "+107 Melee Damage",
+    "+(4% to 7%) Melee Critical Strike Chance",
+    "+75% Fire Resistance",
+    "(27% to 45%) Chance to Summon a Locust on hit with Serpent Strike (max 3 per 2 seconds)Locusts are melee minions that can be upgraded through the Swarmblade Form tree.",
+    "+(3 to 7) Maximum Locusts",
+    "(25% to 47%) increased Melee Attack Speed",
+    "(9% to 27%) Increased attack, cast, and movement speed for Locusts",
+    "+(75 to 105) Physical Melee Damage",
+    "+(15 to 27) Melee Physical Damage for LocustsLocusts are minions that can be summoned in Swarmblade Form and modified through its tree",
+    "+(1 to 5) to Level of Poison Skills"
+  ],
+  "lore": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power."
+}

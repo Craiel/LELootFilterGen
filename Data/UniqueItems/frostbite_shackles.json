@@ -1,0 +1,20 @@
+{
+  "id": "UAzBMoRgZiA",
+  "name": "Frostbite Shackles",
+  "category": "Gloves",
+  "baseType": "Mail Bracers",
+  "levelRequirement": 74,
+  "classRequirement": null,
+  "implicits": [
+    "+32 Armor"
+  ],
+  "modifiers": [
+    "+32 Armor",
+    "+(103% to 143%) Chance to apply Frostbite on Hit",
+    "(23% to 33%) Increased Frostbite Duration",
+    "+(143% to 183%) Freeze Rate Multiplier",
+    "(13 to 23) Ward Gain on Freeze",
+    "+1% Ward Retention per 2% uncapped Cold Resistance"
+  ],
+  "lore": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane."
+}

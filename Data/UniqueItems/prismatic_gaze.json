@@ -1,0 +1,22 @@
+{
+  "id": "UAzCsCZKA",
+  "name": "Prismatic Gaze",
+  "category": "Helmet",
+  "baseType": "Bronze Casque",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "Create a Prism Shard when you directly use an elemental skill that costs less than 40 mana",
+    "5 Max Prism Shards",
+    "Prism Shards orbit you for up to 10 seconds and then expire. If released, they target the nearest enemy and explode, dealing elemental damage and shredding elemental resistances.",
+    "Release all Prism Shards when you directly use a skill that costs at least 40 manaMana cost does not include mana consumption effects",
+    "+(2% to 4%) Critical Strike Chance",
+    "40% increased Critical Strike Chance",
+    "(10% to 5%) less Elemental Damage Taken"
+  ],
+  "lore": "Time collapsing void\nObservation... destruction\nBring her light with you"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzCsNI",
+  "name": "Isadora's Revenge",
+  "category": "Helmet",
+  "baseType": "Bronze Casque",
+  "levelRequirement": 39,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(6% to 12%) Necrotic Penetration",
+    "+(180 to 300) Stun Avoidance",
+    "+(40 to 82) Health",
+    "(36 to 48)% Increased Duration of Chill Applied by Necrotic Spells",
+    "+100% Chance to apply Damned on hit with Necrotic SpellsDamned deals necrotic damage over time and reduces health regen by 20%. An enemy can have multiple stacks of Damned at once.",
+    "30% Necrotic Penetration with Damned",
+    "+30% Mana Efficiency with Necrotic Spells"
+  ],
+  "lore": "\"...and enraged she arose with murder in her eyes...\""
+}

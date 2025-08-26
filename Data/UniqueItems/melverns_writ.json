@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMuAOI",
+  "name": "Melvern's Writ",
+  "category": "Relic",
+  "baseType": "Lost Journal",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+(4% to 6%) Cold Resistance",
+    "+(4% to 6%) Fire Resistance"
+  ],
+  "modifiers": [
+    "+(4% to 6%) Cold Resistance",
+    "+(4% to 6%) Fire Resistance",
+    "+1 Crossbow MercenariesMercenaries are minions and are resummoned after a while if they die.",
+    "(70% to 90%) increased Minion Bow Damage",
+    "+(2% to 3%) Minion Bow Critical Strike Chance",
+    "(20% to 40%) Increased Chance To Find Potions",
+    "+(6 to 8) Dexterity"
+  ],
+  "lore": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAzDsCYE5iA",
+  "name": "Apostate's Sanctuary",
+  "category": "Amulet",
+  "baseType": "Bone Amulet",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance"
+  ],
+  "modifiers": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance",
+    "+(6 to 10) Vitality",
+    "+2 Health per Vitality",
+    "(36% to 48%) of Current Health and Ward lost when you directly cast a Spell",
+    "Health Leech is disabled for 4 seconds when you directly cast a Spell",
+    "+8 Ward per Second per 1% uncapped Physical Resistance while channelling Rebuke",
+    "(6% to 14%) more Damage to Bosses and Rare Enemies"
+  ],
+  "lore": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\""
+}

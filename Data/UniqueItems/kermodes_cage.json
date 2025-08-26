@@ -1,0 +1,25 @@
+{
+  "id": "UAwVhwTgZiA",
+  "name": "Kermode's Cage",
+  "category": "Body Armor",
+  "baseType": "Beastmail",
+  "levelRequirement": 54,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+156 Armor",
+    "(5% to 10%) increased Movement Speed",
+    "+(5 to 16) Health Regen"
+  ],
+  "modifiers": [
+    "+156 Armor",
+    "(5% to 10%) increased Movement Speed",
+    "+(5 to 16) Health Regen",
+    "+(12% to 20%) Elemental Resistance",
+    "+5 Strength",
+    "(65% to 105%) increased Elemental Damage",
+    "+(15 to 30) Melee cold damage in Werebear Form",
+    "2 Rage Gained on Kill in Werebear Form",
+    "White Fur in Werebear Form"
+  ],
+  "lore": "The fury of the spirit bear can not be restrained or subdued, even while confined."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgTALMDsQ",
+  "name": "Essence Weaver",
+  "category": "Two-Handed Spear",
+  "baseType": "Obsidian Lance",
+  "levelRequirement": 68,
+  "classRequirement": null,
+  "implicits": [
+    "+94 Melee Damage",
+    "+(94% to 194%) Chance to apply Shred Armor on Melee Hit"
+  ],
+  "modifiers": [
+    "+94 Melee Damage",
+    "+(94% to 194%) Chance to apply Shred Armor on Melee Hit",
+    "Gain a stack of Elemental Essence when you directly use a melee attack and hit at least one enemy (up to 9 times per 3 seconds)",
+    "At 9 stacks of Elemental Essence, consume all stacks to randomly cast Smite, Frost Claw, or Storm Bolt at a nearby enemy per essence consumedThis consumes mana equal to the chosen spell's mana cost",
+    "Stats on this item are tripled for casts which consumed Elemental Essence",
+    "+(50 to 70) Spell Damage",
+    "(110% to 180%) increased Elemental Damage",
+    "(34% to 52%) increased Mana Regen"
+  ],
+  "lore": "\"Imagine a world free of pain, chaos, and sorrow. A world free of corruption. A perfect world!\" - Masque, the Acolyte of Golden Silk"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "UAzBsCYEYE4g",
+  "name": "Trinity of Flames",
+  "category": "Adorned Idol",
+  "baseType": "Adorned Volcano Idol",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Every 3rd fire spell you cast is guaranteed to crit, but has 36% less critical strike multiplier (multiplicative with other modifiers)Not limited to direct casts but does not include sub skills",
+    "(12% to 16%) increased Fire Spell Damage",
+    "+(12% to 16%) Chance to apply Ignite on Hit"
+  ],
+  "lore": "Three souls to nourish an unquenchable flame."
+}

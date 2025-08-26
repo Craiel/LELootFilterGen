@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsEYFYE4g",
+  "name": "Reign of Winter",
+  "category": "Bow",
+  "baseType": "Longbow",
+  "levelRequirement": 70,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+60 Bow Damage"
+  ],
+  "modifiers": [
+    "+60 Bow Damage",
+    "+(30 to 50) Cold Bow Damage",
+    "+(30 to 50) Cold Spell Damage",
+    "+(5% to 9%) Cold Penetration",
+    "(23% to 28%) Chance to cast Icicle on Bow Hit",
+    "+(10 to 15) Attunement"
+  ],
+  "lore": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot."
+}

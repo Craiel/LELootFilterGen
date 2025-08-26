@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgzCAcAsQ",
+  "name": "Lethal Concentration",
+  "category": "Two-Handed Spear",
+  "baseType": "Jadebone Javelin",
+  "levelRequirement": 58,
+  "classRequirement": null,
+  "implicits": [
+    "+78 Melee Damage",
+    "(80% to 120%) increased Poison Damage"
+  ],
+  "modifiers": [
+    "+78 Melee Damage",
+    "(80% to 120%) increased Poison Damage",
+    "(150% to 210%) increased Melee Damage",
+    "(150% to 210%) increased Minion Damage",
+    "+25% Chance to cast Jade Dust on Hit with Harvest (Jade Dust is a non-stacking buff that grants your minions 50% chance to poison, tripled for throwing attacks. Lasts 4 seconds.)",
+    "Your Poison Damage Modifiers also apply at (150 to 210)% effectiveness to your Skeleton Rogues and your FalconYour poison damage stats such as \"increased poison damage\" apply, but your poison ailment stats such as \"chance to poison on hit\" do not.",
+    "Minions leech 8% of Poison Damage as HealthThe health is restored to the minion that dealt the damage, not to you.",
+    "+(1 to 3) to Level of Minion Throwing Skills"
+  ],
+  "lore": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes"
+}

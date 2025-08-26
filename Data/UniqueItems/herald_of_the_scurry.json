@@ -1,0 +1,27 @@
+{
+  "id": "UAwFgjGDsBMQ",
+  "name": "Herald of the Scurry",
+  "category": "Helmet",
+  "baseType": "Tusked Greathelm",
+  "levelRequirement": 73,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+124 Armor",
+    "(6% to 12%) increased Health",
+    "(2% to 3%) of Damage Leeched as Health on Hit"
+  ],
+  "modifiers": [
+    "+124 Armor",
+    "(6% to 12%) increased Health",
+    "(2% to 3%) of Damage Leeched as Health on Hit",
+    "(10% to 30%) increased Health",
+    "(5% to 75%) increased Minion Dodge Rating",
+    "+(1 to 3) to Level of Summon Wolf",
+    "Converts your Wolves into SquirrelsSquirrels deal 35% less damage than wolves",
+    "You can Summon Squirrels up to twice your Companion Limit",
+    "+(5% to 75%) Chance to Inflict Bleed on Hit for Squirrels",
+    "+(5% to 75%) Chance to Shred Physical Resistance on Hit for Squirrels",
+    "Howl is replaced by Sciurine Rage, which grants Squirrels 40% increased movement speed and melee attack speed for 4 seconds."
+  ],
+  "lore": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!"
+}

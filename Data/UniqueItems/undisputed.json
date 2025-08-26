@@ -1,0 +1,23 @@
+{
+  "id": "UAwRhwZmI",
+  "name": "Undisputed",
+  "category": "One-Handed Axe",
+  "baseType": "Dragonbone Axe",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "+51 Melee Damage",
+    "+(10 to 14) Minion Melee Damage",
+    "+(70% to 100%) Chance to apply Bleed on Hit"
+  ],
+  "modifiers": [
+    "+51 Melee Damage",
+    "+(10 to 14) Minion Melee Damage",
+    "+(70% to 100%) Chance to apply Bleed on Hit",
+    "+(27 to 41) Physical Melee Damage",
+    "(20% to 27%) increased Melee Attack Speed",
+    "(7% to 14%) of Overkill Damage Leeched as Health",
+    "5% increased physical damage for each recent melee hit against a bleeding enemy (up to 255%)Recent refers to the past 4 seconds"
+  ],
+  "lore": ""
+}

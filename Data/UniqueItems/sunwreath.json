@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMoVmI",
+  "name": "Sunwreath",
+  "category": "Ring",
+  "baseType": "Ruby Ring",
+  "levelRequirement": 21,
+  "classRequirement": null,
+  "implicits": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage",
+    "+(40% to 80%) Chance to apply Ignite on Melee Hit",
+    "(40% to 80%) increased Fire Damage Over Time",
+    "+14 Fire Melee Damage",
+    "Flame Reave hits enemies in an expanding circle around youThe circle has 35% less range than Flame Reave's normal shape",
+    "+(4 to 10) Flame Reave Mana Cost"
+  ],
+  "lore": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated."
+}

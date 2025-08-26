@@ -1,0 +1,23 @@
+{
+  "id": "UAzCswTgFiA",
+  "name": "The Last Bear's Fury",
+  "category": "Gloves",
+  "baseType": "Plated Gauntlets",
+  "levelRequirement": 31,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance",
+    "(30% to 75%) increased Physical Melee Damage",
+    "3% Increased Health Regen per point of Strength",
+    "(30% to 100%) Increased Melee Stun Chance",
+    "+3% Critical Strike Chance with SwipeThis also affects Werebear Swipe",
+    "+2 Endurance Threshold per Strength",
+    "+30 Strength"
+  ],
+  "lore": "The last bear stood alone against the void, guarding the cave in which she thought her cubs still rested."
+}

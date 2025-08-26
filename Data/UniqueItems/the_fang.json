@@ -1,0 +1,21 @@
+{
+  "id": "UAzDswNmI",
+  "name": "The Fang",
+  "category": "Amulet",
+  "baseType": "Bone Amulet",
+  "levelRequirement": 58,
+  "classRequirement": null,
+  "implicits": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance"
+  ],
+  "modifiers": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance",
+    "+(50 to 75) Health",
+    "+(10 to 16) Melee Physical Damage for Minions",
+    "Your minions cannot be stunned",
+    "You can Summon Wolves up to your Maximum Number of CompanionsAffects the Summon Wolf skill. Does not increase your maximum number of companions."
+  ],
+  "lore": "A wolf never hunts alone."
+}

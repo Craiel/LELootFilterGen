@@ -1,0 +1,20 @@
+{
+  "id": "UAwJgnODsQ",
+  "name": "Dedication of an Erased Primalist",
+  "category": "Relic",
+  "baseType": "Dream Catcher",
+  "levelRequirement": 30,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+(7 to 14) Health",
+    "(7% to 14%) increased Minion Health"
+  ],
+  "modifiers": [
+    "+(7 to 14) Health",
+    "(7% to 14%) increased Minion Health",
+    "+1 to Level of Primalist Skills",
+    "(12% to 8%) less Damage over Time Taken from Slowed EnemiesMultiplicative with other modifiers",
+    "(28% to 48%) chance on Hit to grant one of your minions Aspect of the Spider (2 second cooldown)Aspect of the Spider lasts 8 seconds and grants 15% more damage to slowed enemies (multiplicative with other modifiers) and +100% chance to slow on hit. It cannot stack."
+  ],
+  "lore": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk"
+}

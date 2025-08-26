@@ -1,0 +1,22 @@
+{
+  "id": "UAzDsCYEYFYg",
+  "name": "Nightbringer",
+  "category": "Quiver",
+  "baseType": "Spidersilk Quiver",
+  "levelRequirement": 68,
+  "classRequirement": null,
+  "implicits": [
+    "+(25% to 60%) Chance to apply Slow on Bow Hit",
+    "(6% to 10%) more Damage to Slowed Enemies"
+  ],
+  "modifiers": [
+    "+(25% to 60%) Chance to apply Slow on Bow Hit",
+    "(6% to 10%) more Damage to Slowed Enemies",
+    "+(30% to 60%) Chance to apply Blind on Bow Hit",
+    "+(54 to 84) Void Bow Damage while at Low Health",
+    "(10% to 18%) more hit damage to Blinded Enemies with Multishot",
+    "(10% to 14%) increased Bow Attack Speed while at Low Health",
+    "(100% to 154%) Increased Blind Duration"
+  ],
+  "lore": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek."
+}

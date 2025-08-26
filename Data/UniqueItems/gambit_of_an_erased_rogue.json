@@ -1,0 +1,18 @@
+{
+  "id": "UAwFg7AzMCMQ",
+  "name": "Gambit of an Erased Rogue",
+  "category": "Relic",
+  "baseType": "Ivory Dice",
+  "levelRequirement": 30,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "(16% to 28%) increased Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(16% to 28%) increased Critical Strike Chance",
+    "+1 to Level of Rogue Skills",
+    "+(24 to 54) Dodge Rating",
+    "1 in 6 chance to take (25 to 15)% less Damage per Active ShadowMultiplicative with other modifiers. The number of shadows multiplies the damage reduction, not the chance."
+  ],
+  "lore": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk"
+}

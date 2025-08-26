@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsCYGYE4g",
+  "name": "Somnia",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 65,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "When you kill a stunned enemy a different nearby enemy is stunned for 2 seconds (excludes bosses)The enemy must have been stunned before the killing blow. Unaffected by increased stun duration.",
+    "(18% to 36%) Increased Stun Duration",
+    "(45% to 105%) Increased Stun Chance",
+    "+(30% to 60%) Ward Retention",
+    "+(6 to 9) Vitality"
+  ],
+  "lore": "The very atmosphere is different here, what once slumbered is now awoken and free."
+}

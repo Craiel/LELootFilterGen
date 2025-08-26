@@ -1,0 +1,22 @@
+{
+  "id": "UAzDMEYDYHYg",
+  "name": "Ravens' Rise",
+  "category": "Gloves",
+  "baseType": "Outcast Gloves",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+21 Armor",
+    "+(13% to 28%) Necrotic Resistance"
+  ],
+  "modifiers": [
+    "+21 Armor",
+    "+(13% to 28%) Necrotic Resistance",
+    "(20% to 28%) increased Minion Movement Speed",
+    "Minions take (20 to 28)% less Damage While Moving",
+    "+2 to Level of Minion Spell Skills",
+    "+(20% to 28%) Lightning Resistance",
+    "+(20% to 28%) Necrotic Resistance"
+  ],
+  "lore": "As men and gods fight the ravens rise. As the blood settles the ravens alight."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzDMCZQNiA",
+  "name": "Drought's Release",
+  "category": "Dagger",
+  "baseType": "Kris",
+  "levelRequirement": 27,
+  "classRequirement": null,
+  "implicits": [
+    "+25 Melee Damage",
+    "+(35% to 65%) Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+25 Melee Damage",
+    "+(35% to 65%) Critical Strike Multiplier",
+    "(23% to 30%) of Missing Health regained on Potion UseMissing health is calculated before any other health gain from potion use",
+    "+1 to Level of Acid Flask",
+    "(23% to 30%) Increased area of effect with Acid Flask",
+    "(30% to 53%) increased Poison Damage",
+    "+3 to All Attributes"
+  ],
+  "lore": "\"Our tribulations shall end with prosperity, and theirs with death\" - Grand Alchemist Avello"
+}

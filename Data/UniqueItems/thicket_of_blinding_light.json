@@ -1,0 +1,24 @@
+{
+  "id": "UAzDsBYCYDYg",
+  "name": "Thicket of Blinding Light",
+  "category": "Body Armor",
+  "baseType": "Forest Cuirass",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+74 Armor",
+    "(5% to 60%) Increased Healing Effectiveness"
+  ],
+  "modifiers": [
+    "+74 Armor",
+    "(5% to 60%) Increased Healing Effectiveness",
+    "(121 to 209) Damage Reflected to Attackers",
+    "Every 0.5 seconds you Blind all enemies facing you and deal Damage to them equal to your Damage Reflected to Attackers statScales with your Damage Reflected to Attackers stat not with the actual damage that has been reflected to attackers. Does not scale with percent damage reflected.",
+    "(329% to 401%) more Damage Reflected to Bosses and Rare EnemiesMultiplicative with other modifiers. Affects both flat Damage Reflected to Attackers and percent Damage Reflected. Taken into account when dealing damage to enemies facing you based on your Damage Reflected to Attackers stat.",
+    "(37% to 83%) increased Armor",
+    "(13% to 29%) more Armor against Blinded Enemiesmultiplicative with other modifiers",
+    "+(17% to 41%) Physical Resistance",
+    "(11 to 17) Damage Reflected to Attackers per 10% uncapped Physical Resistance"
+  ],
+  "lore": ""
+}

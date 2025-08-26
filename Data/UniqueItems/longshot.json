@@ -1,0 +1,23 @@
+{
+  "id": "UAzDMCZQRiA",
+  "name": "Longshot",
+  "category": "Bow",
+  "baseType": "Imperial Bow",
+  "levelRequirement": 23,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+24 Bow Damage",
+    "(0.2% to 0.3%) of Bow Damage Leeched as Health"
+  ],
+  "modifiers": [
+    "+24 Bow Damage",
+    "(0.2% to 0.3%) of Bow Damage Leeched as Health",
+    "Puncture cannot be dodged",
+    "Puncture deals up to 40% more hit damage to distant enemiesscales linearly from 0% right next to you up to 40% at 15 metres away",
+    "+(4 to 10) Fire Bow Damage",
+    "+(4 to 10) Cold Bow Damage",
+    "+(4 to 10) Lightning Bow Damage",
+    "+40 Bow Physical Damage if you have at least 40 Dexterity"
+  ],
+  "lore": ""
+}

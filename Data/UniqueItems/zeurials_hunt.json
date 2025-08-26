@@ -1,0 +1,20 @@
+{
+  "id": "UAzCsCZQRiA",
+  "name": "Zeurial's Hunt",
+  "category": "Quiver",
+  "baseType": "Skalnir Quiver",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+(15% to 35%) Bow Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+(15% to 35%) Bow Critical Strike Multiplier",
+    "When you use a Lightning Bow Attack your next Throwing Attack within 2 seconds has +(42 to 62)% Lightning Penetration",
+    "When you use a Lightning Throwing Attack your next Bow Attack within 2 seconds has +(42 to 62)% Lightning Penetration",
+    "Triggering both effects within 2 seconds grants Haste for 2 seconds",
+    "+(12 to 32) Lightning Bow Damage",
+    "+(12 to 32) Lightning Throwing Damage"
+  ],
+  "lore": ""
+}

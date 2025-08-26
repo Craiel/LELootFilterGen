@@ -1,0 +1,23 @@
+{
+  "id": "UAzDMEYHZiA",
+  "name": "Sinathia's Dying Breath",
+  "category": "One-Handed Mace",
+  "baseType": "Morning Star",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+42 Melee Damage",
+    "(22% to 42%) increased Physical Damage"
+  ],
+  "modifiers": [
+    "+42 Melee Damage",
+    "(22% to 42%) increased Physical Damage",
+    "+30 to 33% to All Resistances for Minions",
+    "(91% to 166%) increased Curse Damage",
+    "+(66 to 91) Curse Spell Damage",
+    "+(30% to 33%) to All Resistances",
+    "(16% to 19%) increased Block Effectiveness",
+    "+2 to Curse Skills+2 to Minion Skills"
+  ],
+  "lore": "As the last dagger plunged into Sinathia's body he uttered a dying curse, sealing the fate of his assassins."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAwJgzGwOxA",
+  "name": "Crest of Unity",
+  "category": "Helmet",
+  "baseType": "Runed Visage",
+  "levelRequirement": 60,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+77 Armor",
+    "(30% to 77%) of Mana Spent Gained as Ward",
+    "(14% to 30%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+77 Armor",
+    "(30% to 77%) of Mana Spent Gained as Ward",
+    "(14% to 30%) increased Mana Regen",
+    "+(3 to 6) to Level of Elemental Nova",
+    "(30% to 60%) Increased Area with Elemental Nova",
+    "Elemental Nova is always Tri-ElementalDisables the possibility of it being Lightning Nova, Ice Nova, or Fire Nova, regardless of its tree.",
+    "+1% Elemental Penetration with Elemental Nova per 10% uncapped Total Elemental ResistanceTotal Elemental Resistance is your fire resistance plus your cold resistance plus your lightning resistance",
+    "(18% to 9%) less Damage Taken from Ignited Shocked or Chilled EnemiesMultiplicative with other modifiers. Only applies once even if more than one of these ailments are applied."
+  ],
+  "lore": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain."
+}

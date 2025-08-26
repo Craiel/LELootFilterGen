@@ -1,0 +1,25 @@
+{
+  "id": "UAwVgbALAzMQ",
+  "name": "Chorus of the Anurok",
+  "category": "Helmet",
+  "baseType": "Ancestral Crown",
+  "levelRequirement": 73,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+116 Armor",
+    "+(11% to 16%) Endurance",
+    "(6% to 10%) of Maximum Health gained as Endurance Threshold"
+  ],
+  "modifiers": [
+    "+116 Armor",
+    "+(11% to 16%) Endurance",
+    "(6% to 10%) of Maximum Health gained as Endurance Threshold",
+    "+2 Maximum Companions",
+    "If you have less than your maximum number of active companions you summon Primal Anuroks up to your maximum number of companionsPrimal Anuroks are melee minions with no maximum duration. They do not count as companions, but disappear as you summon more companions, so that your combined number of anuroks and companions does not exceed your companion limit.",
+    "+(50 to 75)% Cold Resistance for you and your Minions",
+    "(25% to 45%) Increased Area for Minion Area Skills",
+    "(15 to 25)% increased Attack and Cast Speed for Minions",
+    "+(90 to 175) Health"
+  ],
+  "lore": ""
+}

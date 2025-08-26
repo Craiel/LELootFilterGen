@@ -1,0 +1,22 @@
+{
+  "id": "UAzCM4ZiA",
+  "name": "Ribbons of Blood",
+  "category": "Ring",
+  "baseType": "Ruby Ring",
+  "levelRequirement": 53,
+  "classRequirement": null,
+  "implicits": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage",
+    "(7% to 10%) increased Health",
+    "(2% to 4%) of Minion Melee Damage Leeched as Health on Hit",
+    "(20% to 40%) Minion Increased Leech Rate",
+    "+(4 to 7) Melee Physical Damage for Minions",
+    "Your Minions cannot be Crit"
+  ],
+  "lore": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon."
+}

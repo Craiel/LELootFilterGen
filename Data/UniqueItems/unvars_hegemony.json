@@ -1,0 +1,14 @@
+{
+  "id": "UAzCMGYCYFYg",
+  "name": "Unvar's Hegemony",
+  "category": "Adorned Idol",
+  "baseType": "Adorned Arcane Idol",
+  "levelRequirement": 32,
+  "classRequirement": "Mage",
+  "implicits": [],
+  "modifiers": [
+    "Once you have two Runes for Runic Invocation your runes cannot change until they are consumed",
+    "2% Chance per Intelligence for +22% Elemental Penetration with Two Rune Invocations"
+  ],
+  "lore": ""
+}

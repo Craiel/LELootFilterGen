@@ -1,0 +1,21 @@
+{
+  "id": "UAzCMGYBYE4g",
+  "name": "Yrun's Penance",
+  "category": "One-Handed Sword",
+  "baseType": "Broadsword",
+  "levelRequirement": 4,
+  "classRequirement": null,
+  "implicits": [
+    "+22 Melee Damage"
+  ],
+  "modifiers": [
+    "+22 Melee Damage",
+    "(2% to 4%) of Cold Damage Leeched as Health",
+    "100% of Mana Strike Base Damage Converted to ColdWhen converted to Cold Mana Strike has a Freeze Rate of 40",
+    "100% of Fury Leap Base Damage Converted to ColdWhen converted to Cold Fury Leap has a Freeze Rate of 100",
+    "+(22% to 46%) Chance to apply Chill on Melee Hit",
+    "+(22% to 46%) Freeze Rate per stack of Chill",
+    "+(10% to 34%) Cold Penetration"
+  ],
+  "lore": "Like Yrun himself, the former champion's blade was imprisoned in bark and ice."
+}

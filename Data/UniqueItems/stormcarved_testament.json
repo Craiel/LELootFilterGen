@@ -1,0 +1,22 @@
+{
+  "id": "UAwVg7ATAjALEA",
+  "name": "Stormcarved Testament",
+  "category": "Relic",
+  "baseType": "Stone Tablet",
+  "levelRequirement": 78,
+  "classRequirement": null,
+  "implicits": [
+    "+(36% to 44%) Physical Resistance"
+  ],
+  "modifiers": [
+    "+(36% to 44%) Physical Resistance",
+    "+6 Spell Lightning Damage for you and your Totems",
+    "+12% Lightning Penetration for you and your Totems",
+    "+(60 to 94)% Shock Chance for you and your TotemsGrants a chance to Shock on Hit",
+    "+(36 to 44)% Lightning Resistance for You and Your Totems",
+    "+(60 to 94) Mana",
+    "12% Chance to summon a Storm Totem on hit (8 second cooldown)",
+    "+6 Attunement"
+  ],
+  "lore": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs."
+}

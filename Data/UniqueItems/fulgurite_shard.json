@@ -1,0 +1,25 @@
+{
+  "id": "UAwRlE4CYg",
+  "name": "Fulgurite Shard",
+  "category": "Dagger",
+  "baseType": "Obsidian Dagger",
+  "levelRequirement": 71,
+  "classRequirement": null,
+  "implicits": [
+    "+43 Melee Damage",
+    "+4% Critical Strike Chance",
+    "(20% to 80%) increased Physical Damage"
+  ],
+  "modifiers": [
+    "+43 Melee Damage",
+    "+4% Critical Strike Chance",
+    "(20% to 80%) increased Physical Damage",
+    "60% of Shuriken and Lethal Mirage Base Damage converted to LightningAdds a Lightning Tag. Conversion above 100% has no effect. At 100% conversion the Physical Tag is lost.",
+    "+(16 to 26) Lightning Damage with Shurikens",
+    "+(61 to 81) Lightning Damage with Lethal Mirage",
+    "(11% to 21%) Increased Cooldown Recovery Speed with Lethal Mirage",
+    "(41% to 61%) increased Lightning Damage",
+    "+(6% to 16%) Lightning Penetration"
+  ],
+  "lore": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury."
+}

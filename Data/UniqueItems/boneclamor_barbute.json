@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsNI",
+  "name": "Boneclamor Barbute",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 65,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "+150 Armor",
+    "+(6 to 13) Dexterity",
+    "+(6 to 13) Intelligence",
+    "+(35% to 65%) Necrotic Resistance",
+    "1 Ward per Second per 3% uncapped Necrotic Resistance"
+  ],
+  "lore": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzCswDlI",
+  "name": "Sunforged Hammer",
+  "category": "Two-Handed Mace",
+  "baseType": "Great Hammer",
+  "levelRequirement": 68,
+  "classRequirement": null,
+  "implicits": [
+    "+82 Melee Damage",
+    "(82% to 160%) Increased Stun Chance"
+  ],
+  "modifiers": [
+    "+82 Melee Damage",
+    "(82% to 160%) Increased Stun Chance",
+    "+(10 to 25) Melee Fire Damage per Forged Weapon",
+    "+(42 to 84) Physical Melee Damage",
+    "(250% to 420%) Increased Stun Chance",
+    "(25% to 42%) Increased Stun Duration",
+    "+(25% to 42%) Ignite Chance per Forged Weapon",
+    "+3 to Forge Strike+3 to Smelter's Wrath",
+    "+3 Maximum Forged WeaponsForged Weapons can be summoned by Forge Strike and modified by its tree"
+  ],
+  "lore": ""
+}

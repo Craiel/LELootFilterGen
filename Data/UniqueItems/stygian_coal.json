@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgrAzATAHEA",
+  "name": "Stygian Coal",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Soulmass",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "+(12 to 18) Intelligence",
+    "(36% to 84%) increased Necrotic Damage"
+  ],
+  "modifiers": [
+    "+(12 to 18) Intelligence",
+    "(36% to 84%) increased Necrotic Damage",
+    "+(6 to 84) Ward per Second while Channelling",
+    "+(6% to 84%) Chance to apply Ignite on Hit while Channelling",
+    "+(6% to 84%) Chance to apply Damned on Hit while Channelling",
+    "Drain Life repeatedly casts Stygian Beams instead of its normal draining effect",
+    "1% increased Stygian Beam frequency per Intelligence",
+    "3% more Stygian Beam Damage per 10 Current ManaMultiplicative with other modifiers"
+  ],
+  "lore": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzCcCYGZiA",
+  "name": "Usurper's Mandate",
+  "category": "Two-Handed Axe",
+  "baseType": "Bone Scythe",
+  "levelRequirement": 66,
+  "classRequirement": null,
+  "implicits": [
+    "+113 Melee Damage",
+    "+(13% to 29%) Necrotic Penetration",
+    "+(13% to 29%) Minion Necrotic Penetration"
+  ],
+  "modifiers": [
+    "+113 Melee Damage",
+    "+(13% to 29%) Necrotic Penetration",
+    "+(13% to 29%) Minion Necrotic Penetration",
+    "+(1 to 2) to Level of Acolyte Minion Skills",
+    "(13% to 26%) Chance to gain 50 Health on Minion HitGrants a chance to regain health when one of your minions hits an enemy",
+    "(13% to 26%) Chance to gain 50 Health on Minion DeathGrants a chance to regain health when one of your minions dies",
+    "+(52 to 113) Health",
+    "Your minions cannot be Stunned"
+  ],
+  "lore": "\"Only one with the blood and bones of a king may rule. Fortunately, I have both\" - Venred the Usurper"
+}

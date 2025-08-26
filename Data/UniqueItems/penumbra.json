@@ -1,0 +1,20 @@
+{
+  "id": "UAzDMCYDZyA",
+  "name": "Penumbra",
+  "category": "Ring",
+  "baseType": "Silver Ring",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "(3% to 8%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "(3% to 8%) increased Movement Speed",
+    "(65% to 115%) Increased Damage for skills used by Shadows",
+    "(10% to 15%) Physical Penetration with Shadow Daggers",
+    "50% Chance to apply a Shadow Dagger on Hit with Lethal MirageUpon reaching 4 stacks of {Shadow Daggers}, the Daggers plunge into the target, dealing physical damage. This damage always critically strikes.",
+    "+(15% to 25%) Critical Strike Multiplier",
+    "(5 to 10) Health Gain on Crit"
+  ],
+  "lore": "Honour has no place in the arena. To defeat the mightiest foes, a champion must dance on the edge of shadows, preparing for the perfect moment to strike."
+}

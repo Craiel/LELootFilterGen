@@ -1,0 +1,22 @@
+{
+  "id": "UAzAs4DiA",
+  "name": "Architects of Astral Blood",
+  "category": "Body Armor",
+  "baseType": "Banded Armor",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+85 Armor"
+  ],
+  "modifiers": [
+    "+85 Armor",
+    "20% of Current Health Lost per secondThis is not affected by increases and reductions to health drain effects",
+    "(36% to 42%) of Missing Health gained as Ward per second",
+    "(36% to 42%) of Maximum Health gained as Ward Decay Threshold",
+    "(200% to 240%) of Maximum Health applied as a Ward Limit",
+    "+(72 to 168) Health",
+    "+(72 to 168) Stun Avoidance",
+    "+(4 to 6) to All Attributes"
+  ],
+  "lore": "The noblest of ancient beasts wore their hearts in the sky"
+}

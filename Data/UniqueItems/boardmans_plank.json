@@ -1,0 +1,26 @@
+{
+  "id": "UAzAsEYCYHYg",
+  "name": "Boardman's Plank",
+  "category": "Sceptre",
+  "baseType": "Oak Sceptre",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+21 Melee Damage",
+    "+(10 to 17) Spell Damage",
+    "(15% to 35%) increased Minion Damage"
+  ],
+  "modifiers": [
+    "+21 Melee Damage",
+    "+(10 to 17) Spell Damage",
+    "(15% to 35%) increased Minion Damage",
+    "21% Chance to summon a Storm Totem on hit with Tempest Strike",
+    "+21 Lightning damage to spells and attacks when you are hit by Lightning from Storm Totem for 4 seconds. (stacks up to 3 times)",
+    "+(30% to 75%) Physical resistance to allies nearby Storm Totem",
+    "Your companions are Enraged when hit by your Storm TotemEnrage gives 60% increased attack and cast speed and 35% increased movement speed.",
+    "Limited to One Active Companion",
+    "Storm Totem can hit allies to grant 21 healthHealth granted is not affected by minion healing effectiveness",
+    "Storm Totem can hit allies to grant 21 ward"
+  ],
+  "lore": "Unleash the Beast."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzAcYRiA",
+  "name": "Ucenui's Sphere",
+  "category": "Relic",
+  "baseType": "Navigation Orb",
+  "levelRequirement": 61,
+  "classRequirement": null,
+  "implicits": [
+    "(20% to 40%) increased Cold Damage",
+    "(20% to 40%) increased Lightning Damage"
+  ],
+  "modifiers": [
+    "(20% to 40%) increased Cold Damage",
+    "(20% to 40%) increased Lightning Damage",
+    "+(20 to 40) Mana",
+    "+(20 to 40)% Cold and Lightning Resistance",
+    "100% Chance to Cast Water Orb when you hit a Boss or Rare Enemy (3 second cooldown)",
+    "3 Water Orbs per cast if your Attunement is Equal to your Intelligence",
+    "20% increased Cold and Lightning Damage for each Water Orb you have cast in the past 12 secondsBonus Water Orbs also apply this buff"
+  ],
+  "lore": "Ucenui the navigator used his water magic to explore the vast ocean beyond the Isle of Storms. His fate is unknown, but his instrument remains."
+}

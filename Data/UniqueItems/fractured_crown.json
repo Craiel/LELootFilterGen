@@ -1,0 +1,21 @@
+{
+  "id": "UAwJh2BGI",
+  "name": "Fractured Crown",
+  "category": "Helmet",
+  "baseType": "Celestial Helm",
+  "levelRequirement": 56,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+96 Armor",
+    "(40% to 72%) increased Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+96 Armor",
+    "(40% to 72%) increased Critical Strike Chance",
+    "+(70% to 130%) Spell Critical Strike Multiplier",
+    "(15% to 30%) increased Mana",
+    "(20% to 50%) of Damage Dealt to Mana Before Health",
+    "You have no ward"
+  ],
+  "lore": "Few goals have cost more lives than the quest for power."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "UAzAcBYGYHYg",
+  "name": "Primal Cadence",
+  "category": "Two-Handed Axe",
+  "baseType": "Obsidian Axe",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+101 Melee Damage",
+    "(75% to 110%) increased Physical Damage",
+    "(75% to 110%) increased Minion Physical Damage"
+  ],
+  "modifiers": [
+    "+101 Melee Damage",
+    "(75% to 110%) increased Physical Damage",
+    "(75% to 110%) increased Minion Physical Damage",
+    "When you or one of your minions kills an enemy with a hit (40 to 85)% of the Overkill damage is dealt as direct damage to surrounding enemiesThis direct damage does not count as a hit and does not scale with your stats. However it can trigger this effect itself.",
+    "(4% to 9%) of Overkill Damage Leeched as Health",
+    "(20 to 80) Health Gain on Kill",
+    "(190% to 275%) increased Hit Damage",
+    "+(4 to 9) to All Attributes",
+    "+1% Critical Strike Multiplier per 2 Strength",
+    "+(4 to 9)% Critical Strike Chance for you and your minions"
+  ],
+  "lore": ""
+}

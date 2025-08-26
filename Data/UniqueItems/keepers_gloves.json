@@ -1,0 +1,18 @@
+{
+  "id": "UAw4JjI",
+  "name": "Keeper's Gloves",
+  "category": "Gloves",
+  "baseType": "Hide Gloves",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+8 Armor"
+  ],
+  "modifiers": [
+    "+8 Armor",
+    "+(17% to 37%) Poison Resistance",
+    "+(17% to 37%) Minion Poison Resistance",
+    "10% chance to summon a swarm of bees on melee hit (8 second cooldown)"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAzAsCYHYDYg",
+  "name": "Liath's Machinations",
+  "category": "Gloves",
+  "baseType": "Noble Gloves",
+  "levelRequirement": 26,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen",
+    "+2 to Level of Fireball",
+    "50% of Fireball Base Damage Converted to LightningConsequently this damage scales with increases to Lightning Damage, but not with increases to Fire Damage. Conversion above 100% has no effect.",
+    "+(20% to 28%) Chance to apply a Spark Charge on Hit with FireballSpark Charges are spells that explode after 0.7 seconds dealing lightning damage in an area around the target. This damage does not scale with modifiers to the hit that applied the charge.",
+    "100% of Ignite Chance Converted to Shock Chance for Fireball",
+    "(45% to 75%) increased Lightning Damage",
+    "+(20 to 28) Ward per Second"
+  ],
+  "lore": "With careful planning and precise instruments, one can bring order even to a flame."
+}

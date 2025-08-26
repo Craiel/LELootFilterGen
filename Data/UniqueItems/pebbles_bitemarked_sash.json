@@ -1,0 +1,21 @@
+{
+  "id": "UAwiMwJiA",
+  "name": "Pebbles' Bitemarked Sash",
+  "category": "Belt",
+  "baseType": "Sash",
+  "levelRequirement": 12,
+  "classRequirement": null,
+  "implicits": [
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+3 Potion Slots",
+    "(24% to 42%) increased Minion Damage",
+    "+3 Intelligence",
+    "+(24% to 42%) Fire Resistance",
+    "+3 Melee Fire Damage for Minions",
+    "+5% Chance to replenish one potion when Bone Golem hits an enemyApplies to all types of Bone Golem",
+    "Your Summon Skeletons' spells and attacks deal +42 fire, cold or lightning damage. The element selected is your lowest elemental resistance."
+  ],
+  "lore": "As I lay in the ditch pulling my entrails back into my body, I wonder; who is the pet now?  -Traveling Merchant"
+}

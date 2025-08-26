@@ -1,0 +1,24 @@
+{
+  "id": "UAzBsEYBYFYg",
+  "name": "Life's Journey",
+  "category": "Shield",
+  "baseType": "Bandit Shield",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "+19% Block Chance",
+    "+(215 to 275) Block Effectiveness",
+    "(25% to 60%) increased Physical Damage"
+  ],
+  "modifiers": [
+    "+19% Block Chance",
+    "+(215 to 275) Block Effectiveness",
+    "(25% to 60%) increased Physical Damage",
+    "5% of Current Health Lost per secondThis is not affected by increases and reductions to health drain effects",
+    "(30 to 50) Health Gain on Block",
+    "+(25% to 45%) Chance to apply Spirit Plague on Melee Hit",
+    "(3% to 5%) increased Melee Attack Speed",
+    "(3% to 5%) increased Movement Speed"
+  ],
+  "lore": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust."
+}

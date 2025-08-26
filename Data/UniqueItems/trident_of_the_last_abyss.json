@@ -1,0 +1,22 @@
+{
+  "id": "UAzAsEYCZiA",
+  "name": "Trident of the Last Abyss",
+  "category": "Two-Handed Spear",
+  "baseType": "Trident",
+  "levelRequirement": 79,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Melee Damage",
+    "+(100% to 180%) Melee Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+80 Melee Damage",
+    "+(100% to 180%) Melee Critical Strike Multiplier",
+    "+(40 to 60) Void Melee Damage",
+    "(50% to 90%) increased Void Damage",
+    "100% Chance to cast Abyssal Echoes on Melee Kill or Melee Hit Boss or Rare Enemy (3 second cooldown)Abyssal Echoes cast this way can chain as normal, but cannot cause repeated echoes.",
+    "+75% Void Resistance",
+    "(5% to 7%) of Void Damage Leeched as Health on Hit"
+  ],
+  "lore": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it."
+}

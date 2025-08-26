@@ -1,0 +1,18 @@
+{
+  "id": "UAzAswRgJiA",
+  "name": "Yrun's Wisdom",
+  "category": "Body Armor",
+  "baseType": "Banded Armor",
+  "levelRequirement": 27,
+  "classRequirement": null,
+  "implicits": [
+    "+85 Armor"
+  ],
+  "modifiers": [
+    "+85 Armor",
+    "+(65 to 145) Health",
+    "+30 melee cold damage when above 65% health",
+    "3% of melee damage leeched as health when below 65% health"
+  ],
+  "lore": "Yrun was wise in battle, but not in his betrayal of Heorot."
+}

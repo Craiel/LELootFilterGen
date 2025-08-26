@@ -1,0 +1,20 @@
+{
+  "id": "UAzCswZgNiA",
+  "name": "Rainbow Edge",
+  "category": "One-Handed Sword",
+  "baseType": "Falchion",
+  "levelRequirement": 30,
+  "classRequirement": null,
+  "implicits": [
+    "+27 Melee Damage"
+  ],
+  "modifiers": [
+    "+27 Melee Damage",
+    "+(25% to 75%) Critical Strike Multiplier",
+    "+7 Lightning Melee Damage",
+    "+7 Fire Melee Damage",
+    "+7 Cold Melee Damage",
+    "+(25 to 75)% chance to Shock Ignite and Chill on Hit"
+  ],
+  "lore": ""
+}

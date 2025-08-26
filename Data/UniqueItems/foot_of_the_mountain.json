@@ -1,0 +1,22 @@
+{
+  "id": "UAzBMoVgZiA",
+  "name": "Foot of the Mountain",
+  "category": "Boots",
+  "baseType": "Iron Greaves",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+35 Armor",
+    "(8% to 10%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+35 Armor",
+    "(8% to 10%) increased Movement Speed",
+    "+(14% to 28%) Endurance",
+    "+(6 to 12) to All Attributes",
+    "Gain 1 stack of Mountain's Endurance each second while not moving (up to 3)All stacks are lost when you move",
+    "-2 Mana Cost per stack of Mountain's Endurance",
+    "100% of Dodge Rating converted to Endurance Threshold while you have at least 1 stack of Mountain's Endurance"
+  ],
+  "lore": ""
+}

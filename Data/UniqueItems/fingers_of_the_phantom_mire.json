@@ -1,0 +1,24 @@
+{
+  "id": "UAzAsGYFYE4g",
+  "name": "Fingers of the Phantom Mire",
+  "category": "Gloves",
+  "baseType": "Noble Gloves",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen",
+    "Evade is replaced by Terrify",
+    "(10% to 15%) more Damage to Feared Enemies",
+    "You have SwiftnessSwiftness grants increased movement speed based on character level",
+    "(5% to 8%) increased Attack Speed",
+    "(5% to 8%) increased Cast Speed",
+    "(50% to 80%) Chance to Slow Attackers",
+    "You are Immune to SlowThis grants you immunity to the Slow ailment, not to other sources of speed reduction such as chill."
+  ],
+  "lore": "A drained bog seeks vengeance"
+}

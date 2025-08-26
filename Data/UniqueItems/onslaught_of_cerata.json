@@ -1,0 +1,25 @@
+{
+  "id": "UAwRhBYCYA4g",
+  "name": "Onslaught of Cerata",
+  "category": "Shield",
+  "baseType": "Mountain Shield",
+  "levelRequirement": 59,
+  "classRequirement": null,
+  "implicits": [
+    "+26% Block Chance",
+    "+(440 to 520) Block Effectiveness",
+    "+(11% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+26% Block Chance",
+    "+(440 to 520) Block Effectiveness",
+    "+(11% to 15%) Endurance",
+    "+(3 to 4) to Level of Strength Skills",
+    "+(10 to 16) Strength",
+    "After you use a movement skill you attack up to 3 nearby enemies with Vengeance (max 2 times every 12 seconds)",
+    "+(30% to 60%) Block Chance while preparing to Riposte",
+    "(30 to 60) Health Gain on Block",
+    "You and your minions have (20 to 42)% increased area for Melee Area Skills"
+  ],
+  "lore": "Impale upon the horns of primordial might"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAwRgzCIJxA",
+  "name": "Bulwark of the Last Abyss",
+  "category": "Shield",
+  "baseType": "Ironglass Shield",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness",
+    "+(10% to 20%) Block Chance",
+    "(40% to 90%) increased Armor",
+    "Every 3 seconds if you are on high health you lose 25% of your current health and gain the Apocalypse buff for 3 secondsThe only effects of the Apocalypse buff are the ones lists on this item.",
+    "70% increased Void Damage during Apocalypse",
+    "+70% Melee Critical Strike Multiplier during Apocalypse"
+  ],
+  "lore": "Hold steadfast at the edge of light."
+}

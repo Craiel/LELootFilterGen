@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsIJiA",
+  "name": "Snowblind",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 10,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "+(20% to 40%) Cold Resistance",
+    "+(40% to 200%) Freeze Rate Multiplier",
+    "40% chance to blind on hit with cold skills",
+    "40% chance to chill on hit with cold skills",
+    "(16% to 24%) more Armor against Blinded Enemiesmultiplicative with other modifiers",
+    "(16% to 24%) more Armor against Chilled Enemiesmultiplicative with other modifiers",
+    "You are immune to Blind and Chill"
+  ],
+  "lore": "Blind with the snow, never blinded by it."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzAcEYBZKA",
+  "name": "Acidfletch",
+  "category": "Bow",
+  "baseType": "Serpent Bow",
+  "levelRequirement": 60,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+42 Bow Damage",
+    "+(35% to 70%) Chance to apply Poison on Bow Hit",
+    "(10% to 20%) Increased Poison Duration"
+  ],
+  "modifiers": [
+    "+42 Bow Damage",
+    "+(35% to 70%) Chance to apply Poison on Bow Hit",
+    "(10% to 20%) Increased Poison Duration",
+    "(80% to 130%) increased Poison Damage",
+    "100% of Hail of Arrows Damage converted to Poison",
+    "(30% to 60%) increased Hail of Arrows Duration",
+    "+(80% to 130%) Chance to apply Shred Armor on Bow Hit",
+    "(80% to 130%) Increased Shred Armor Effect"
+  ],
+  "lore": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra."
+}

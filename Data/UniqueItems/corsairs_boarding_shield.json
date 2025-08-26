@@ -1,0 +1,26 @@
+{
+  "id": "UAzBsEYE4GYg",
+  "name": "Corsair's Boarding Shield",
+  "category": "Shield",
+  "baseType": "Bandit Shield",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+19% Block Chance",
+    "+(215 to 275) Block Effectiveness",
+    "(25% to 60%) increased Physical Damage"
+  ],
+  "modifiers": [
+    "+19% Block Chance",
+    "+(215 to 275) Block Effectiveness",
+    "(25% to 60%) increased Physical Damage",
+    "+(275 to 575) Block Effectiveness",
+    "+(35% to 45%) Necrotic Resistance",
+    "+(7 to 15) Dexterity",
+    "+1 to Level of Flurry",
+    "+1 to Level of Lethal Mirage",
+    "100% of Glancing Blow Chance Converted to Block Chance",
+    "35% less Necrotic Damage Taken on Block"
+  ],
+  "lore": "Striking the Dreadnought would be their greatest feat yet, a win to remember that would silence those wishing to surrender to the Empire. However, for the captain freeing the whales was the true reward."
+}

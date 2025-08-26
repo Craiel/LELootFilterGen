@@ -1,0 +1,27 @@
+{
+  "id": "UAwZmEYCYE4g",
+  "name": "Boardman's Legacy",
+  "category": "Helmet",
+  "baseType": "Darkwolf Pelt",
+  "levelRequirement": 63,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+84 Armor",
+    "(32% to 64%) increased Physical Damage",
+    "(32% to 64%) increased Minion Physical Damage"
+  ],
+  "modifiers": [
+    "+84 Armor",
+    "(32% to 64%) increased Physical Damage",
+    "(32% to 64%) increased Minion Physical Damage",
+    "21% less Damage Taken for Totems",
+    "+(30% to 75%) Lightning resistance to allies nearby Storm Totem",
+    "You gain haste for 3 seconds when hit by your Storm TotemHaste gives 30% increased attack and cast speed.",
+    "21% increased minion attack and cast speed",
+    "(10 to 21)% Increased Area of Storm Totem Aura",
+    "Limited to One Active Companion",
+    "Storm Totem can hit allies to grant 21 healthHealth granted is not affected by minion healing effectiveness",
+    "Storm Totem can hit allies to grant 21 ward"
+  ],
+  "lore": ""
+}

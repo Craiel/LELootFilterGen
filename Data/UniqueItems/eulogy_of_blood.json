@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcEYFZyA",
+  "name": "Eulogy of Blood",
+  "category": "One-Handed Axe",
+  "baseType": "Soul Harvester",
+  "levelRequirement": 83,
+  "classRequirement": null,
+  "implicits": [
+    "+46 Necrotic Melee Damage",
+    "(100% to 166%) increased Necrotic Melee Damage",
+    "(100% to 166%) increased Minion Necrotic Damage"
+  ],
+  "modifiers": [
+    "+46 Necrotic Melee Damage",
+    "(100% to 166%) increased Necrotic Melee Damage",
+    "(100% to 166%) increased Minion Necrotic Damage",
+    "+(30 to 40) Cold Melee Damage",
+    "+(10 to 16) Minion Cold Melee Damage",
+    "+100% Chance to apply Bleed on Melee Hit",
+    "(30% to 40%) Increased Bleed Duration",
+    "(30% to 40%) Chance to Cast Rip Blood at 5 nearby targets on Melee Hit (2 second cooldown)",
+    "+(13 to 20) Health Gained from Rip BloodIncreases the health gained from Blood Orbs created by Rip Blood. Affected by Increased Healing Effectiveness."
+  ],
+  "lore": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra."
+}

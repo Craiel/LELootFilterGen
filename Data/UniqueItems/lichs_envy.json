@@ -1,0 +1,23 @@
+{
+  "id": "UAzAsCYDZiA",
+  "name": "Lich's Envy",
+  "category": "Gloves",
+  "baseType": "Noble Gloves",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen",
+    "+(14 to 24) Spell Fire Damage for Damage Over Time Spells",
+    "+(14 to 24) Spell Fire Damage for Infernal Shade per Active Dread ShadeDepends on the number of Dread Shades Active when Infernal Shade is cast",
+    "(28% to 48%) Increased Area for Infernal Shade per Active Dread ShadeDepends on the number of Dread Shades Active when Infernal Shade is cast",
+    "(-14 to -8) Mana Cost for Infernal Shade",
+    "(-14 to -8) Mana Cost for Dread Shade",
+    "+4 Maximum ShadesAffects the maximum number of Infernal and Dread Shades."
+  ],
+  "lore": ""
+}

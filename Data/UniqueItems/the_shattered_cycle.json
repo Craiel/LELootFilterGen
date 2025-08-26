@@ -1,0 +1,23 @@
+{
+  "id": "UAzAcGYEZSA",
+  "name": "The Shattered Cycle",
+  "category": "Sceptre",
+  "baseType": "Obsidian Sceptre",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+55 Melee Damage",
+    "+(55 to 65) Spell Damage"
+  ],
+  "modifiers": [
+    "+55 Melee Damage",
+    "+(55 to 65) Spell Damage",
+    "+(1 to 2) to Level of Runic Invocation",
+    "After you directly cast a One Rune Invocation you gain Dawn to DuskYou cannot gain Dawn to Dusk while you have Dusk to Midnight",
+    "Directly casting a Two Rune Invocation consumes Dawn to Dusk to gain +48 Spell Damage and 24% increased area and grant you Dusk to Midnight",
+    "Directly casting a Three Rune Invocation consumes Dusk to Midnight to gain +96 Spell Damage and 48% increased area",
+    "(24% to 36%) increased Cast Speed",
+    "(24% to 36%) increased Mana Regen"
+  ],
+  "lore": ""
+}

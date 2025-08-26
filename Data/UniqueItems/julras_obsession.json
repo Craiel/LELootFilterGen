@@ -1,0 +1,21 @@
+{
+  "id": "UAzDsCYBZiA",
+  "name": "Julra's Obsession",
+  "category": "Gloves",
+  "baseType": "Crusader Gauntlets",
+  "levelRequirement": 75,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance"
+  ],
+  "modifiers": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance",
+    "+(5% to 40%) Cold Resistance",
+    "+(5% to 40%) Lightning Resistance",
+    "+(3 to 10) Spell Damage",
+    "Stats on this item also apply to your minionsAttributes on minions have no effect."
+  ],
+  "lore": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\""
+}

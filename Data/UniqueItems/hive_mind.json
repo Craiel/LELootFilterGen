@@ -1,0 +1,23 @@
+{
+  "id": "UAwFgzATA7MQ",
+  "name": "Hive Mind",
+  "category": "Helmet",
+  "baseType": "Leather Mask",
+  "levelRequirement": 58,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+9 Armor",
+    "+(15% to 26%) Poison Resistance"
+  ],
+  "modifiers": [
+    "+9 Armor",
+    "+(15% to 26%) Poison Resistance",
+    "Decoy releases (6 to 10) Bees when it explodes",
+    "When you hit a Bee with Acid Flask, it gains Toxic CoatingToxic Coating grants 50% Chance to Poison on Hit and 10% less Damage Taken. Lasts 10 seconds and can stack. If Acid Flask is converted to fire, it grants Chance to Ignite on Hit instead",
+    "+(22% to 34%) Mana efficiency for Decoy",
+    "+(40 to 90) Health",
+    "+110 Armor",
+    "+60% Poison Resistance"
+  ],
+  "lore": "\"Why is that decoy buzzing?\"\n\"That's not a decoy, it's a beecoy!\""
+}

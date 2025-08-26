@@ -1,0 +1,22 @@
+{
+  "id": "UAzBMGZQdiA",
+  "name": "Communion of the Erased",
+  "category": "Belt",
+  "baseType": "Plated Belt",
+  "levelRequirement": 19,
+  "classRequirement": null,
+  "implicits": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots",
+    "Stats on this item are doubled for 1 second after using a PotionThis buff does not stack and a potion use that applies the buff does not benefit from it unless you already had the buff",
+    "+1 Potion Slot per equipped Weaver's Will ItemWeaver items are all uniques and legendaries that either have or had Weaver's Will",
+    "(24% to 54%) increased Armor",
+    "(24% to 54%) of Mana Spent Gained as Ward",
+    "(6% to 14%) more Damage to Stunned Enemies"
+  ],
+  "lore": "\"Hark, disparate souls, for you have been blessed. Together you shall imbibe the venom of new life.\" - The Acolyte of Golden Silk"
+}

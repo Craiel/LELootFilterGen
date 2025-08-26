@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgrALCDsQ",
+  "name": "Clotho's Needle",
+  "category": "Two-Handed Sword",
+  "baseType": "Giant Rapier",
+  "levelRequirement": 68,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Melee Damage",
+    "+(5% to 8%) Melee Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+80 Melee Damage",
+    "+(5% to 8%) Melee Critical Strike Chance",
+    "Block Chance is converted to Parry Chance while not wielding a shieldMaximum Parry Chance is 75%",
+    "+(15% to 22%) Melee Critical Strike Multiplier per meter from the target (up to 5 meters)",
+    "20% increased range with Firebrand and Puncture",
+    "+(60 to 80) Melee Damage",
+    "+(3 to 10) Strength",
+    "+(3 to 10) Dexterity"
+  ],
+  "lore": ""
+}

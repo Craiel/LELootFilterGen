@@ -1,0 +1,21 @@
+{
+  "id": "UAwZgrATBCMQ",
+  "name": "Paranoia",
+  "category": "Helmet",
+  "baseType": "Full Helm",
+  "levelRequirement": 85,
+  "classRequirement": "Sentinel",
+  "implicits": [
+    "+95 Armor"
+  ],
+  "modifiers": [
+    "+95 Armor",
+    "Lunge Does Not Require a Target",
+    "(30 to 40)% Reduced Cooldown Recovery Speed for Lunge",
+    "+(1 to 3) to Level of Lunge",
+    "(13% to 7%) less Damage Taken While Moving",
+    "+(16% to 37%) Critical Strike Avoidance",
+    "(33% to 71%) increased Void Damage"
+  ],
+  "lore": "In the whispering bull rushes and the swaying leaves, in the howling wind and flickering shadows, everywhere enemies hide."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "UAzCswDgJiA",
+  "name": "Arek's Bones",
+  "category": "One-Handed Mace",
+  "baseType": "Ebertusk Club",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+53 Melee Damage",
+    "(53% to 75%) Increased Stun Chance"
+  ],
+  "modifiers": [
+    "+53 Melee Damage",
+    "(53% to 75%) Increased Stun Chance",
+    "+(25 to 55) Physical Melee Damage",
+    "+(60 to 90)% Chance to apply Armour Shred on Hit for You and Your Minions",
+    "(100 to 200)% Increased Armour Shred Effect for You and Your Minions",
+    "100% Chance to summon Arek's Flesh when a hit leaves you below half healthArek's Flesh is a melee minion that lasts for 20 seconds. Its damage scales with intelligence. Its health scales with intelligence and character level."
+  ],
+  "lore": "The necromancers were careful to keep Arek's mind intact while they extracted the bones from his flesh."
+}

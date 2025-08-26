@@ -1,0 +1,20 @@
+{
+  "id": "UAzBMoZgDiA",
+  "name": "Julra's Stardial",
+  "category": "Ring",
+  "baseType": "Sapphire Ring",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 20) Mana",
+    "(6% to 12%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+(10 to 20) Mana",
+    "(6% to 12%) increased Mana Regen",
+    "(12% to 36%) of Mana Spent Gained as Ward",
+    "(36% to 72%) increased Spell Damage",
+    "When you use a movement or time travel skill all stats on this item are tripled for 4 seconds (12 second cooldown)"
+  ],
+  "lore": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\""
+}

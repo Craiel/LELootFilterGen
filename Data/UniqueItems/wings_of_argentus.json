@@ -1,0 +1,21 @@
+{
+  "id": "UAzBsEYFYGYg",
+  "name": "Wings of Argentus",
+  "category": "Body Armor",
+  "baseType": "Gladiator Armor",
+  "levelRequirement": 82,
+  "classRequirement": null,
+  "implicits": [
+    "+220 Armor"
+  ],
+  "modifiers": [
+    "+220 Armor",
+    "(40% to 160%) increased Fire Melee Damage",
+    "(40% to 160%) increased Cold Melee Damage",
+    "20% Chance to gain Haste for 1 second on Hit",
+    "20% less Damage Taken While Moving",
+    "+2 to Level of Fire Melee Skills",
+    "+2 to Level of Cold Melee Skills"
+  ],
+  "lore": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both."
+}

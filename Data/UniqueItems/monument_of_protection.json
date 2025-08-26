@@ -1,0 +1,25 @@
+{
+  "id": "UAwRgLAzAbBQ",
+  "name": "Monument of Protection",
+  "category": "One-Handed Axe",
+  "baseType": "Marble Dedication",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+25 Melee Damage",
+    "+10% Block Chance",
+    "+(250 to 425) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+25 Melee Damage",
+    "+10% Block Chance",
+    "+(250 to 425) Block Effectiveness",
+    "(52 to 85) Health Gain on Block",
+    "+(10% to 15%) Endurance",
+    "+(52 to 85) Melee Damage for Shield Bash",
+    "+(52 to 85) Melee Damage for Shield Rush",
+    "(30% to 40%) increased Block Effectiveness",
+    "5% reduced Movement Speed"
+  ],
+  "lore": "A shield dedicated to the great warrior, Arek, who gave his life to repel death from the city's walls."
+}

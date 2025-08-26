@@ -1,0 +1,21 @@
+{
+  "id": "UAwjMoRiA",
+  "name": "Vial of Volatile Ice",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Glass Catalyst",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+(3 to 6) Intelligence"
+  ],
+  "modifiers": [
+    "+(3 to 6) Intelligence",
+    "100% of Acid Flask Base Damage converted to Cold",
+    "Poison Chance from all sources is converted to Frostbite Chance for Acid Flask",
+    "+(45% to 85%) Chance to apply Frostbite on Hit with Cold Skills",
+    "(17% to 45%) Increased Area for Cold Area Skills",
+    "(17% to 45%) increased Cold Damage",
+    "+(45% to 85%) Freeze Rate Multiplier"
+  ],
+  "lore": ""
+}

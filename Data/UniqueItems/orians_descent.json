@@ -1,0 +1,24 @@
+{
+  "id": "UAzBMBZnI",
+  "name": "Orian's Descent",
+  "category": "Belt",
+  "baseType": "Plated Belt",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+(35 to 65) Armor",
+    "+3 Potion Slots",
+    "(30% to 45%) Chance to cast Smite on hit (max 6 per 10 seconds, this cooldown resets when you use a potion)",
+    "Using a potion restores Volatile Reversal's cooldown",
+    "With at least 50 Intelligence Volatile Reversal deals 20% more void damage",
+    "With less than 50 Intelligence Volatile Reversal is converted to fire",
+    "+(4 to 20) Intelligence",
+    "(32% to 55%) Increased Chance To Find Potions",
+    "(8 to 16) Mana Gained on Potion Use"
+  ],
+  "lore": ""
+}

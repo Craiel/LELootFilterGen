@@ -1,0 +1,23 @@
+{
+  "id": "UAzDswRgFiA",
+  "name": "Valeroot",
+  "category": "Body Armor",
+  "baseType": "Forest Cuirass",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+74 Armor",
+    "(5% to 60%) Increased Healing Effectiveness"
+  ],
+  "modifiers": [
+    "+74 Armor",
+    "(5% to 60%) Increased Healing Effectiveness",
+    "+(1 to 2) to Level of Spriggan Form",
+    "+(8 to 12) Physical Spell Damage",
+    "(12% to 20%) Increased Area with Thorn ShieldThorn Shield is an active skill in Spriggan Form",
+    "+(60 to 80) Health",
+    "+(60 to 80) Mana",
+    "(60 to 80) Damage Reflected to Attackers"
+  ],
+  "lore": "The roots of Eterra grow through stone and flesh and time."
+}

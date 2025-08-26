@@ -1,0 +1,23 @@
+{
+  "id": "UAzDsGZQNiA",
+  "name": "Pearls of the Swine",
+  "category": "Amulet",
+  "baseType": "Bone Amulet",
+  "levelRequirement": 58,
+  "classRequirement": null,
+  "implicits": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance"
+  ],
+  "modifiers": [
+    "+(13% to 40%) Physical Resistance",
+    "+(13% to 40%) Necrotic Resistance",
+    "Bone Curse also inflicts Acid SkinAcid Skin is a Curse which deals 80 poison damage over 5 seconds with added damage applying at 80% effectiveness per second, and adds a 20% chance to be critically hit.",
+    "(113 to 166) Ward per Second for each Curse affecting you",
+    "(31% to 55%) increased Poison Damage",
+    "+(5 to 9) Vitality",
+    "+(7% to 11%) to All Resistances",
+    "+(1 to 4) to All Attributes"
+  ],
+  "lore": "Perrin the swineherd preferred not to ask questions. He didn't ask where the feed he was paid to accept came from, or why it glowed at night. He didn't ask why his swine began to whisper the names of dead men when they thought he wasn't looking."
+}

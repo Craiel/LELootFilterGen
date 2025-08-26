@@ -1,0 +1,24 @@
+{
+  "id": "UAzCsEYGYE4g",
+  "name": "Zerrick's Greed",
+  "category": "Gloves",
+  "baseType": "Plated Gauntlets",
+  "levelRequirement": 57,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance",
+    "+(130 to 390) Dodge Rating",
+    "(100% to 130%) increased Damage Over Time",
+    "Cannot Leech Health from Damage over Time",
+    "(3% to 4%) of Damage Leeched as Health on Crit",
+    "Potions no longer heal you, but instead grant +54 necrotic damage to melee and throwing attacks and mark you for death for 4 seconds.Mark for Death is a curse that reduces all resistances by 25%.",
+    "72% Increased Chance To Find Potions",
+    "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
+  ],
+  "lore": ""
+}

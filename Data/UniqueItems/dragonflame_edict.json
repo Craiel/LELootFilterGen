@@ -1,0 +1,24 @@
+{
+  "id": "UAwRgzCBMAsQ",
+  "name": "Dragonflame Edict",
+  "category": "Two-Handed Staff",
+  "baseType": "Dragon Staff",
+  "levelRequirement": 81,
+  "classRequirement": null,
+  "implicits": [
+    "+95 Melee Damage",
+    "+(85 to 95) Spell Damage",
+    "+1 to Level of Elemental Skills"
+  ],
+  "modifiers": [
+    "+95 Melee Damage",
+    "+(85 to 95) Spell Damage",
+    "+1 to Level of Elemental Skills",
+    "+(100% to 200%) Chance to apply Ignite on Hit with Minion Skills",
+    "(100% to 200%) increased Minion Fire Damage",
+    "+(50% to 75%) Minion Fire Resistance",
+    "(20% to 50%) of Damage Reflected",
+    "60% Chance for the nearest minion to the target location to cast Dragonflame Nova when you use a minion skill (1 second cooldown)"
+  ],
+  "lore": "Go forth and conquer by force or by fire."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "UAwNgnAjGAsQ",
+  "name": "Corsair's Blood Cowl",
+  "category": "Helmet",
+  "baseType": "Gorgonscale Coif",
+  "levelRequirement": 57,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+152 Armor",
+    "(5% to 12%) Increased Cooldown Recovery Speed",
+    "(52% to 86%) Increased Stun Chance"
+  ],
+  "modifiers": [
+    "+152 Armor",
+    "(5% to 12%) Increased Cooldown Recovery Speed",
+    "(52% to 86%) Increased Stun Chance",
+    "(17% to 35%) Physical Penetration with Bleed",
+    "(17% to 35%) Increased Bleed Duration",
+    "(17% to 35%) increased Block Effectiveness",
+    "(35% to 85%) Increased Chance To Find Potions",
+    "(35% to 85%) Increased Area of mirage attacks with Lethal MirageThis does not increased the area in which mirages appear in.",
+    "100% of Glancing Blow Chance Converted to Block Chance",
+    "35% less Necrotic Damage Taken on Block"
+  ],
+  "lore": "Standing up to the Empire, not giving in to temptation, the Corsairs of the Scoured Reefs are among the last standing men and women with running blood in their veins."
+}

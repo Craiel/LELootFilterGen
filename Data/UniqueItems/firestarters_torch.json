@@ -1,0 +1,22 @@
+{
+  "id": "UAwhMA5SA",
+  "name": "Firestarter's Torch",
+  "category": "Sceptre",
+  "baseType": "Brass Sceptre",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+10 Melee Damage",
+    "+3 Spell Damage"
+  ],
+  "modifiers": [
+    "+10 Melee Damage",
+    "+3 Spell Damage",
+    "+(14% to 26%) Chance to apply Spreading Flames on Hit",
+    "(26 to 42)% More Fire Damage to enemies afflicted by Spreading FlamesMultiplicative with other modifiers",
+    "(42% to 72%) increased Fire Damage Over Time",
+    "-4 Mana Cost for Fire Spell Skills",
+    "4% increased Movement Speed"
+  ],
+  "lore": "\"By Rahyeh's will this town shall burn!\""
+}

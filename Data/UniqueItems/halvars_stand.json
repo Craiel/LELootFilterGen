@@ -1,0 +1,27 @@
+{
+  "id": "UAzCswTgDiA",
+  "name": "Halvar's Stand",
+  "category": "Boots",
+  "baseType": "Heoborean Boots",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+30 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(10% to 40%) Cold Resistance"
+  ],
+  "modifiers": [
+    "+30 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(10% to 40%) Cold Resistance",
+    "+(100% to 200%) Freeze Rate Multiplier",
+    "+(5% to 10%) Mana Efficiency",
+    "(30% to 60%) Increased physical spell damage if you have directly cast a cold spell recently",
+    "+(15% to 30%) Chance to gain Haste when you kill an enemy with a spellHaste is a buff that grants 30% Increased movement speed and lasts 3 seconds. It cannot stack.",
+    "+20 Cold Spell Damage",
+    "+20 Physical Spell Damage",
+    "+100% Chance to cast Avalanche Boulder at target when you critically hit with a spell.This is affected by your Avalanche tree and has a 1 second cooldown.",
+    "+2 to Level of Avalanche"
+  ],
+  "lore": "When Morditas’ army closed in on him, Halvar asked the mountain to bury them together."
+}

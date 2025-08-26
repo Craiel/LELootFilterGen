@@ -1,0 +1,23 @@
+{
+  "id": "UAzCMwNgZiA",
+  "name": "The Invoker's Scorching Grasp",
+  "category": "Ring",
+  "baseType": "Ruby Ring",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage",
+    "+(30% to 75%) Chance to apply Ignite on Hit",
+    "(30% to 75%) increased Fire Damage Over Time",
+    "+1 to Level of Flame Ward",
+    "13% increased Fire Cast Speed",
+    "13% increased Elemental Cast Speed",
+    "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
+  ],
+  "lore": "...his master fell, a firey death knell..."
+}

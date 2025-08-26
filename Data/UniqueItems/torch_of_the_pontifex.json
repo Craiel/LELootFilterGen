@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMwFlI",
+  "name": "Torch Of The Pontifex",
+  "category": "Two-Handed Mace",
+  "baseType": "Maul",
+  "levelRequirement": 20,
+  "classRequirement": null,
+  "implicits": [
+    "+38 Melee Damage",
+    "(20% to 60%) Increased Melee Stun Chance"
+  ],
+  "modifiers": [
+    "+38 Melee Damage",
+    "(20% to 60%) Increased Melee Stun Chance",
+    "+13 Necrotic Spell Damage",
+    "+(130% to 170%) Chance to apply Ignite on Hit",
+    "(130% to 170%) increased Fire Damage Over Time",
+    "13% increased Fire Damage Taken",
+    "You cremate enemies you kill, burning enemies around them",
+    "You have a 10% chance to summon a Burning Skeleton for 10 seconds when you cremate an enemy"
+  ],
+  "lore": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes."
+}

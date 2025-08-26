@@ -1,0 +1,25 @@
+{
+  "id": "UAwZgnMAcDsQ",
+  "name": "Sunforged Greathelm",
+  "category": "Helmet",
+  "baseType": "Solarum Greathelm",
+  "levelRequirement": 72,
+  "classRequirement": "Sentinel",
+  "implicits": [
+    "+365 Armor",
+    "+(15 to 75) Endurance Threshold",
+    "(15% to 75%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+365 Armor",
+    "+(15 to 75) Endurance Threshold",
+    "(15% to 75%) increased Fire Damage",
+    "+(200 to 300) Armor",
+    "(20% to 30%) increased Armor",
+    "(10% to 12%) Increased Armor per Forged Weapon",
+    "+(3 to 6) Health Regen per Forged Weapon",
+    "+3 to Forge Strike+3 to Smelter's Wrath",
+    "+3 Maximum Forged WeaponsForged Weapons can be summoned by Forge Strike and modified by its tree"
+  ],
+  "lore": ""
+}

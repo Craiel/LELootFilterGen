@@ -1,0 +1,23 @@
+{
+  "id": "UAzDswNgo",
+  "name": "Hollow Finger",
+  "category": "Ring",
+  "baseType": "Turquoise Ring",
+  "levelRequirement": 31,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Health",
+    "+(5% to 35%) Minion Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Health",
+    "+(5% to 35%) Minion Critical Strike Multiplier",
+    "+(40% to 70%) Chance to apply Chill on Hit",
+    "+13 Necrotic Melee Damage",
+    "+(7% to 13%) Cold Resistance",
+    "+1 Maximum SkeletonAffects the Acolyte's Summon Skeleton skill"
+  ],
+  "lore": "Only brittle skin remains."
+}

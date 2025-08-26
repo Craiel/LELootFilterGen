@@ -1,0 +1,25 @@
+{
+  "id": "UAzAcEYHYE4g",
+  "name": "Apathy's Maw",
+  "category": "Two-Handed Axe",
+  "baseType": "Obsidian Axe",
+  "levelRequirement": 65,
+  "classRequirement": null,
+  "implicits": [
+    "+101 Melee Damage",
+    "(75% to 110%) increased Physical Damage",
+    "(75% to 110%) increased Minion Physical Damage"
+  ],
+  "modifiers": [
+    "+101 Melee Damage",
+    "(75% to 110%) increased Physical Damage",
+    "(75% to 110%) increased Minion Physical Damage",
+    "+(90 to 120) Void Melee Damage",
+    "+100% Chance to apply Doom on Hit",
+    "(20% to 50%) Increased Doom Duration",
+    "(20% to 50%) Void Penetration with Doom",
+    "(50% to 100%) increased Melee Damage",
+    "(50% to 100%) Increased Leech Rate"
+  ],
+  "lore": "Forsake the darkening sky and let the ground swallow your mind."
+}

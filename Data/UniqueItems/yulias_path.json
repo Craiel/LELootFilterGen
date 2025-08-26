@@ -1,0 +1,26 @@
+{
+  "id": "UAzCsCYEYA4g",
+  "name": "Yulia's Path",
+  "category": "Boots",
+  "baseType": "Heoborean Boots",
+  "levelRequirement": 79,
+  "classRequirement": null,
+  "implicits": [
+    "+30 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(10% to 40%) Cold Resistance"
+  ],
+  "modifiers": [
+    "+30 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(10% to 40%) Cold Resistance",
+    "(41% to 114%) Increased Healing Effectiveness",
+    "+(10% to 40%) Fire Resistance",
+    "+(10% to 40%) Necrotic Resistance",
+    "+(11% to 14%) Endurance",
+    "(14% to 18%) increased Movement Speed",
+    "100% of Maelstrom base damage converted to Necrotic",
+    "when Maelstrom is cast from any source your minions gain +(2 to 4) melee necrotic damage for the maximum duration of the Maelstrom"
+  ],
+  "lore": "Between loyalty and opression, hope and tyranny, the path of wisdom must be found."
+}

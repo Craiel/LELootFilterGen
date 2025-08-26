@@ -1,0 +1,24 @@
+{
+  "id": "UAwJgzGCMBsQ",
+  "name": "Apex of Thought",
+  "category": "Helmet",
+  "baseType": "Runed Visage",
+  "levelRequirement": 59,
+  "classRequirement": "Mage",
+  "implicits": [
+    "+77 Armor",
+    "(30% to 77%) of Mana Spent Gained as Ward",
+    "(14% to 30%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+77 Armor",
+    "(30% to 77%) of Mana Spent Gained as Ward",
+    "(14% to 30%) increased Mana Regen",
+    "+(39 to 91) Ward per Second for you or your allies while standing on your Glyph of Dominion",
+    "+(78 to 182) Ward Decay Threshold",
+    "While standing on your Glyph of Dominion, 100% of your Ignite Chance is converted to Fire Resistance Shred Chance, 100% of your Chill Chance is converted to Cold Resistance Shred Chance, and 100% of your Shock Chance is converted to Lightning Resistance Shred Chance.",
+    "(39 to 52)% increased Duration of Ignite, Chill, Shock, Fire Resistance Shred, Cold Resistance Shred, and Lightning Resistance Shred.",
+    "+(1 to 2) to Level of Buff Skills"
+  ],
+  "lore": ""
+}

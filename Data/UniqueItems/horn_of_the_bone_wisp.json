@@ -1,0 +1,25 @@
+{
+  "id": "UAzBsBYGYCYg",
+  "name": "Horn of the Bone Wisp",
+  "category": "Wand",
+  "baseType": "Ivory Wand",
+  "levelRequirement": 31,
+  "classRequirement": null,
+  "implicits": [
+    "+(20 to 26) Spell Damage",
+    "+(20% to 30%) Ward Retention",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(20 to 26) Spell Damage",
+    "+(20% to 30%) Ward Retention",
+    "-3 Mana Cost for Spell Skills",
+    "+(3 to 4) to Level of Intelligence Skills",
+    "+(10 to 16) Intelligence",
+    "(25% to 49%) chance to cast Flame Ward after using a movement skill within 16 metres of a boss or rare enemy (max 2 per 16 seconds)",
+    "+(20 to 25) Spell Damage for you and your Minions",
+    "(100% to 160%) increased Spell Damage",
+    "(100% to 160%) increased Minion Damage"
+  ],
+  "lore": "Wisps once took physical form upon the shifting surface of Eterra"
+}

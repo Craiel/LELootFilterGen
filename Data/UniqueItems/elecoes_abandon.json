@@ -1,0 +1,25 @@
+{
+  "id": "UAwNg7AzMCcQ",
+  "name": "Elecoe's Abandon",
+  "category": "Body Armor",
+  "baseType": "Wyrmhide Coat",
+  "levelRequirement": 40,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+168 Armor",
+    "(25% to 50%) increased Dodge Rating",
+    "(25% to 50%) increased Damage Over Time"
+  ],
+  "modifiers": [
+    "+168 Armor",
+    "(25% to 50%) increased Dodge Rating",
+    "(25% to 50%) increased Damage Over Time",
+    "Throwing an Acid Flask consumes a Potion in order to throw an additional flask that deals (125 to 180)% more damageCan only trigger on direct throws and has no effect if you do not have a potion. Consuming a potion this way does not trigger the potion's health recovery, but does trigger other on potion use effects. The damage bonus is multiplicative with other modifiers.",
+    "+(1 to 2) to Level of Throwing Skills",
+    "(25% to 32%) Increased Area for Throwing Area Skills",
+    "+(5% to 16%) to All Resistances",
+    "(5% to 8%) increased Movement Speed",
+    "+(1 to 2) Potion Slots"
+  ],
+  "lore": "\"I do not need to mend the wounds that a dead foe had not the chance to inflict\" - Elecoe the Alchemist Thief"
+}

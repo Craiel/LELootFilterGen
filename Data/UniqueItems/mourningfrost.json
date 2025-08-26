@@ -1,0 +1,21 @@
+{
+  "id": "UAzCMYTiA",
+  "name": "Mourningfrost",
+  "category": "Boots",
+  "baseType": "Leather Boots",
+  "levelRequirement": 8,
+  "classRequirement": null,
+  "implicits": [
+    "+15 Armor",
+    "(8% to 10%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+15 Armor",
+    "(8% to 10%) increased Movement Speed",
+    "(30% to 100%) increased Freeze Rate Multiplier",
+    "(10% to 20%) increased Movement Speed",
+    "+1 cold damage to attacks and spells per point of dexterity",
+    "-1% physical and cold resistance per point of dexterity"
+  ],
+  "lore": "Spread ice with every step, like frost before sunrise."
+}

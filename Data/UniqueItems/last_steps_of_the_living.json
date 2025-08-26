@@ -1,0 +1,24 @@
+{
+  "id": "UAzCcEZwViA",
+  "name": "Last Steps of the Living",
+  "category": "Boots",
+  "baseType": "Arcane Boots",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+8 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(120 to 230) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+8 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(120 to 230) Ward Decay Threshold",
+    "(11% to 15%) of Current Health Lost per secondThis is not affected by increases and reductions to health drain effects",
+    "(11% to 15%) of Missing Health gained as Ward per second",
+    "+(300% to 400%) Freeze Rate Multiplier while at Low Health",
+    "You are Chilled every 3 seconds",
+    "(30% to 36%) increased Movement Speed"
+  ],
+  "lore": "Step out of the cold, out of the mortal realm, and take your place among the empire."
+}

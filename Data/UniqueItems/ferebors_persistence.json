@@ -1,0 +1,23 @@
+{
+  "id": "UAzAcCZ1I",
+  "name": "Ferebor's Persistence",
+  "category": "Ring",
+  "baseType": "Ivory Ring",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+(33% to 46%) Necrotic Resistance",
+    "+(46 to 130) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+(33% to 46%) Necrotic Resistance",
+    "+(46 to 130) Ward Decay Threshold",
+    "+(100 to 181) Armor",
+    "+(100 to 181) Armor for Totems",
+    "+(10 to 18) Intelligence",
+    "+(10 to 18) Health Regen",
+    "+(10 to 18) Health Regen for Totems",
+    "+2 to Level of Totem Skills"
+  ],
+  "lore": "Fifty winters since they first parted, Ferebor's tribe returned to his cave eager to purchase another totem. However, instead of finding the storied totem carver, they were driven away by his creations. Assuming him dead, they paid their respects and moved on, yet the number of totems around the cave continued to grow. Some say Ferebor still dwells there, cut off from the outside but carving totem after totem among the shadows."
+}

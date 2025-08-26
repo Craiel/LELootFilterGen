@@ -1,0 +1,19 @@
+{
+  "id": "UAzCsEYHYDYg",
+  "name": "Aurora's Time Glass",
+  "category": "Amulet",
+  "baseType": "Ruby Amulet",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+(5 to 25) Health"
+  ],
+  "modifiers": [
+    "+(5 to 25) Health",
+    "+(11% to 15%) Endurance",
+    "(6 to 18)% increased Attack and Cast Speed",
+    "+(20% to 60%) Ward Retention",
+    "If damage leaves you below 30% health and doesn't kill you, you are restored to full health, you gain ward equal to the health restored, all nearby enemies are slowed, and you gain haste for (3 to 6) seconds (20 second cooldown)."
+  ],
+  "lore": ""
+}

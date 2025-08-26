@@ -1,0 +1,22 @@
+{
+  "id": "UAzBMwFgViA",
+  "name": "Morditas' Reach",
+  "category": "Two-Handed Spear",
+  "baseType": "Ice Spear",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+(60 to 68) Cold Melee Damage",
+    "+(3% to 6%) Melee Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+(60 to 68) Cold Melee Damage",
+    "+(3% to 6%) Melee Critical Strike Chance",
+    "(1% to 1.5%) of Cold Damage Leeched as Health",
+    "+(5 to 15) Strength",
+    "+500% chance to inflict Frostbite on Melee HitFrostbite deals cold damage over time and reduces freeze avoidance, increasing the enemy's chance to be frozen.",
+    "+(20% to 30%) Cold Melee Penetration",
+    "+(20 to 30) Melee Cold Damage for you and your minions"
+  ],
+  "lore": "Boundless ambition enshrined in ice."
+}

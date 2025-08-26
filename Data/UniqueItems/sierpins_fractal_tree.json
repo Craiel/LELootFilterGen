@@ -1,0 +1,22 @@
+{
+  "id": "UAzAsGYCZiA",
+  "name": "Sierpin's Fractal Tree",
+  "category": "Two-Handed Spear",
+  "baseType": "Trident",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Melee Damage",
+    "+(100% to 180%) Melee Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+80 Melee Damage",
+    "+(100% to 180%) Melee Critical Strike Multiplier",
+    "+(12% to 36%) Physical Penetration",
+    "+(60 to 84) Physical Melee Damage",
+    "Javelin no longer pierces, but when it hits an enemy it splits into 2 piercing spears that are fired at enemies around the target. 1 Additional spear is created per 12 Dexterity.The additional spears pierce. If there are no enemies near the target then only 2 spears are created, regardless of Dexteirty.",
+    "1% increased Area for Area Skills per 3 Dexterity",
+    "+(3 to 12) Dexterity"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzAsCZgRiA",
+  "name": "Battlemage's Endeavour",
+  "category": "Two-Handed Sword",
+  "baseType": "Claymore",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+60 Melee Damage",
+    "+(35% to 45%) Cold Resistance"
+  ],
+  "modifiers": [
+    "+60 Melee Damage",
+    "+(35% to 45%) Cold Resistance",
+    "+(18 to 24) Lightning Melee Damage",
+    "+(18 to 24) Cold Melee Damage",
+    "+(18 to 24) Lightning Spell Damage",
+    "+(18 to 24) Cold Spell Damage",
+    "(12% to 18%) increased Melee Attack Speed",
+    "(6% to 12%) increased Movement Speed",
+    "(45% to 75%) Chance to cast Lightning Blast when you use a Melee Attack and hit at least one enemyThis cast is affected by the Lightning Blast skill tree"
+  ],
+  "lore": "In times of strife the inflexible are doomed to break. A true Battlemage must master all the arts of war."
+}

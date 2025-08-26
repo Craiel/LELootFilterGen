@@ -1,0 +1,21 @@
+{
+  "id": "UAzBswdmI",
+  "name": "Soulfire",
+  "category": "Relic",
+  "baseType": "Grave Lantern",
+  "levelRequirement": 34,
+  "classRequirement": null,
+  "implicits": [
+    "+(10% to 30%) Chance to apply Ignite on Hit"
+  ],
+  "modifiers": [
+    "+(10% to 30%) Chance to apply Ignite on Hit",
+    "(6% to 10%) more Spell Damage to Ignited Enemies",
+    "+(100 to 160)% Chance to Ignite on Hit with Fire Skills and Necrotic Skills",
+    "60% increased fire damage if you have killed an enemy recentlyRecently refers to the last 4 seconds",
+    "100% increased armor while ignited",
+    "100% of Hungering Souls Base Damage Converted to Fire",
+    "Hungering Souls Ignite on Hit instead of Possessing"
+  ],
+  "lore": "The souls of the damned burn with eternal fire."
+}

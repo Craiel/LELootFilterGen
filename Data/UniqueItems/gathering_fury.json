@@ -1,0 +1,17 @@
+{
+  "id": "UAwRhCYHYSA",
+  "name": "Gathering Fury",
+  "category": "Bow",
+  "baseType": "Storm Bow",
+  "levelRequirement": 50,
+  "classRequirement": "Rogue",
+  "implicits": [
+    "+(60 to 72) Lightning Bow Damage"
+  ],
+  "modifiers": [
+    "+(60 to 72) Lightning Bow Damage",
+    "When you directly use a bow ability, you have a (8 to 12)% chance to repeat it (1 second cooldown)",
+    "When you directly use a bow ability and hit an enemy, gain 5% increased attack speed for 3 seconds, stacking up to 10 times"
+  ],
+  "lore": "Lightning does strike twice"
+}

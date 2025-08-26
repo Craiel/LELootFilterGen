@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsCZQViA",
+  "name": "Renegade's Will",
+  "category": "One-Handed Mace",
+  "baseType": "Pick Hammer",
+  "levelRequirement": 37,
+  "classRequirement": null,
+  "implicits": [
+    "+52 Melee Damage"
+  ],
+  "modifiers": [
+    "+52 Melee Damage",
+    "+(3 to 5) to Level of Vengeance",
+    "(35% to 53%) more hit damage with Vengeance against bosses and rare enemies (multiplicative with other modifiers)",
+    "(35% to 53%) increased Melee Attack Speed",
+    "+5 to All Attributes",
+    "5% increased Movement Speed"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsGYyA",
+  "name": "Static Shell",
+  "category": "Body Armor",
+  "baseType": "Banded Armor",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+85 Armor"
+  ],
+  "modifiers": [
+    "+85 Armor",
+    "(21% to 45%) Chance to Shock Attackers",
+    "(105% to 175%) more Armor against Shocked Enemiesmultiplicative with other modifiers",
+    "(7% to 15%) more Lightning Damage to Shocked Enemies",
+    "(21% to 45%) Chance to gain 15 Static Charges when HitAffects the Mage's Static skill. Only works if Static is equipped.",
+    "(7% to 15%) Chance to cast Static when HitThis cast is affected by Static's skill tree. Only works if Static is equipped."
+  ],
+  "lore": "The carapace of a meruna storm ogre makes for an impressive trophy, and an effective cuirass."
+}

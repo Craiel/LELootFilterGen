@@ -1,0 +1,14 @@
+{
+  "id": "UAzCMGYCYBYg",
+  "name": "Unvar's Rise",
+  "category": "Large Idol",
+  "baseType": "Large Arcane Idol",
+  "levelRequirement": 31,
+  "classRequirement": "Mage",
+  "implicits": [],
+  "modifiers": [
+    "Once you have one Rune for Runic Invocation your runes cannot change until they are consumed",
+    "1% Chance per Intelligence for 11% more Elemental Damage with One Rune Invocationsmultiplicative with other modifiers"
+  ],
+  "lore": ""
+}

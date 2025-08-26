@@ -1,0 +1,22 @@
+{
+  "id": "UAzAsCYDZKA",
+  "name": "Burning Avarice",
+  "category": "Gloves",
+  "baseType": "Noble Gloves",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen",
+    "3% of Elemental Damage Leeched as Health",
+    "3% of Necrotic Damage Leeched as Health",
+    "(30% to 39%) Increased Leech Rate",
+    "+13% Elemental Resistance",
+    "(13% to 19%) Fire Penetration with Ignite"
+  ],
+  "lore": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you."
+}

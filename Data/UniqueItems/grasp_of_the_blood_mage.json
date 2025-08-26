@@ -1,0 +1,22 @@
+{
+  "id": "UAwRhGYHYCYg",
+  "name": "Grasp of the Blood Mage",
+  "category": "Gloves",
+  "baseType": "Ascetic Gloves",
+  "levelRequirement": 71,
+  "classRequirement": null,
+  "implicits": [
+    "+58 Armor",
+    "(6% to 12%) Increased Cooldown Recovery Speed"
+  ],
+  "modifiers": [
+    "+58 Armor",
+    "(6% to 12%) Increased Cooldown Recovery Speed",
+    "(20% to 25%) of Hit Damage Taken from Bosses and Rare enemies is dealt over 4 seconds insteadThis amount cannot be altered after the hit and is unaffected by temporary immunity effects. It does not count as damage over time.",
+    "+(25% to 40%) Chance to apply Bleed on Spell Hit",
+    "1% of Spell Damage Leeched as Health",
+    "+(2% to 4%) Spell Critical Strike Chance",
+    "250% of Mana Spent Reflected to you as DamageThis does not count as being hit and is not affected by any mitigation affects. If this effect would kill you it instead leaves you on 1 health."
+  ],
+  "lore": ""
+}

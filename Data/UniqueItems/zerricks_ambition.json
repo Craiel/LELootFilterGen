@@ -1,0 +1,24 @@
+{
+  "id": "UAzAsEZWI",
+  "name": "Zerrick's Ambition",
+  "category": "Boots",
+  "baseType": "Brigandine Boots",
+  "levelRequirement": 52,
+  "classRequirement": null,
+  "implicits": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "+(30% to 50%) Melee Critical Strike Multiplier while at Full Health",
+    "+(30% to 50%) Throwing Critical Strike Multiplier while at Full Health",
+    "(15% to 23%) increased Movement Speed",
+    "(23% to 35%) Increased Leech Rate",
+    "Potions no longer heal you, but instead grant +54 necrotic damage to melee and throwing attacks and mark you for death for 4 seconds.Mark for Death is a curse that reduces all resistances by 25%.",
+    "72% Increased Chance To Find Potions",
+    "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
+  ],
+  "lore": "In games of power you win or you die"
+}

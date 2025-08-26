@@ -1,0 +1,23 @@
+{
+  "id": "UAzCMwDgFiA",
+  "name": "Heirloom of the Last Nomad",
+  "category": "Ring",
+  "baseType": "Ruby Ring",
+  "levelRequirement": 63,
+  "classRequirement": null,
+  "implicits": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+(28% to 45%) Fire Resistance",
+    "(28% to 45%) increased Fire Damage",
+    "+(100 to 140) Health",
+    "+(14% to 40%) Cold Resistance",
+    "+(14% to 40%) Void Resistance",
+    "(20% to 40%) Increased Stun Duration",
+    "(80% to 90%) increased Duration of Stuns Received",
+    "Using a Potion Cleanses Stun and Freeze"
+  ],
+  "lore": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow."
+}

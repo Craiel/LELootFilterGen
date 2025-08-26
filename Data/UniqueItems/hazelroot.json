@@ -1,0 +1,24 @@
+{
+  "id": "UAzAsCYGZSA",
+  "name": "Hazelroot",
+  "category": "Sceptre",
+  "baseType": "Oak Sceptre",
+  "levelRequirement": 21,
+  "classRequirement": null,
+  "implicits": [
+    "+21 Melee Damage",
+    "+(10 to 17) Spell Damage",
+    "(15% to 35%) increased Minion Damage"
+  ],
+  "modifiers": [
+    "+21 Melee Damage",
+    "+(10 to 17) Spell Damage",
+    "(15% to 35%) increased Minion Damage",
+    "(22% to 36%) Chance to Cast Thorn Shield on yourself when you directly use a Physical SkillThorn Shield is an active skill while in Spriggan Form and is affected by its tree",
+    "+1 Spell Physical Damage per 3 AttunementEach point of attunement counts, so if you have 2 Attunement you gain 0.67 Spell Physical Damage.",
+    "(44% to 72%) increased Physical Damage",
+    "+(22 to 36) Health",
+    "+(22 to 36) Mana"
+  ],
+  "lore": ""
+}

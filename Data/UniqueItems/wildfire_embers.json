@@ -1,0 +1,21 @@
+{
+  "id": "UAwRgzALATArEA",
+  "name": "Wildfire Embers",
+  "category": "Amulet",
+  "baseType": "Amber Amulet",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+(16 to 48) Mana"
+  ],
+  "modifiers": [
+    "+(16 to 48) Mana",
+    "Every second while in combat your ignites are spread among nearby enemies and you have a (32 to 36)% chance to create a Wildfire Wisp next to an ignited enemy",
+    "When you directly use a non-channeled Fire Skill each Wildfire Wisp within 12 metres has a (10 to 12)% chance to repeat the skill with an additional (240 to 300)% ignite chanceSkills cast from Wildfire Wisps still count as you casting the skill and scale with your stats",
+    "Skills cast from Wildfire Wisps have +(60 to 100)% Fire Penetration with Ignite",
+    "+(4% to 7%) Chance to Ignite on Hit per 10% uncapped Fire Resistance",
+    "+(50% to 75%) Fire Resistance",
+    "(17% to 25%) increased Health"
+  ],
+  "lore": ""
+}

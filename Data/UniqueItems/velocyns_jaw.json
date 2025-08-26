@@ -1,0 +1,25 @@
+{
+  "id": "UAzCcBZwJiA",
+  "name": "Velocyn's Jaw",
+  "category": "Dagger",
+  "baseType": "Chitin Dagger",
+  "levelRequirement": 75,
+  "classRequirement": null,
+  "implicits": [
+    "+41 Melee Damage",
+    "+4% Critical Strike Chance",
+    "+(40% to 80%) Chance to apply Poison on Hit"
+  ],
+  "modifiers": [
+    "+41 Melee Damage",
+    "+4% Critical Strike Chance",
+    "+(40% to 80%) Chance to apply Poison on Hit",
+    "+(3 to 4) to Level of Dexterity Skills",
+    "+(10 to 16) Dexterity",
+    "1% increased Movement Speed per 10 Dexterity",
+    "(4% to 10%) increased Movement Speed",
+    "(10% to 20%) Chance to gain Haste for 1 second on Hit",
+    "+(20 to 40)% Penetration against all Resistances"
+  ],
+  "lore": ""
+}

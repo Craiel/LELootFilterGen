@@ -1,0 +1,21 @@
+{
+  "id": "UAwRgzMCsxA",
+  "name": "The Slab",
+  "category": "Shield",
+  "baseType": "Ironglass Shield",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness"
+  ],
+  "modifiers": [
+    "+35% Block Chance",
+    "+(400 to 620) Block Effectiveness",
+    "100% less damage taken on block",
+    "(60% to 56%) reduced Block Chance",
+    "Your Block Chance cannot exceed 75%",
+    "+(35 to 65) Health"
+  ],
+  "lore": "Some slabs mark the dead, this one marks the living."
+}

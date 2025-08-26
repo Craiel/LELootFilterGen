@@ -1,0 +1,24 @@
+{
+  "id": "UAwRgzALBDsQ",
+  "name": "Bones of the Ancestral Pack",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Divine Instrument",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+(8 to 14) Intelligence",
+    "+(2% to 6%) Spell Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+(8 to 14) Intelligence",
+    "+(2% to 6%) Spell Critical Strike Chance",
+    "+(1 to 2) to Level of Minion Skills",
+    "When a minion hits an enemy you have a (7 to 12)% chance to gain a stack of Ancestral Pack (1 second cooldown)Ancestal Pack stacks lasts 7 seconds and there is no maximum number of stacks",
+    "Each stack of Ancestral Pack grants 4% more damage, 3% increased attack and cast speed, and 2% increased cooldown recovery speed.The damage modifier is multiplicative with other modifiers, including with other stacks of Ancestral Pack.",
+    "When you gain a stack of Ancestral Pack so does your highest level minionYour highest level minion is the minion from the specialised skill with the highest skill level. If multiple minions have the same level then the closest to you is chosen.",
+    "When you gain a stack of Ancestral Pack you gain Ward equal to (77 to 123)% of your Endurance Threshold",
+    "+(123 to 200) Ward Decay Threshold",
+    "+(77 to 123) Endurance Threshold"
+  ],
+  "lore": "Ghosts lay the tracks of the living"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzDMCZVI",
+  "name": "Snowdrift",
+  "category": "Boots",
+  "baseType": "Outcast Boots",
+  "levelRequirement": 23,
+  "classRequirement": null,
+  "implicits": [
+    "+20 Armor",
+    "(8% to 10%) increased Movement Speed",
+    "+1 Evade Charge"
+  ],
+  "modifiers": [
+    "+20 Armor",
+    "(8% to 10%) increased Movement Speed",
+    "+1 Evade Charge",
+    "+(16% to 32%) Chance to apply Frostbite on Hit",
+    "1% Cold Penetration with Frostbite per 10% Freeze Rate MultiplierDoes not include Freeze Rate Multiplier granted by individual skills' trees or Freeze Rate Multiplier for specific ability types",
+    "+(160 to 320) Dodge Rating while using EvadeDoes not work if Evade is replaced by another ability",
+    "+(5 to 10) Cold Damage with Spells and Attacks",
+    "1% Increased Movement Speed per 2 Dexterity (up to 20%)"
+  ],
+  "lore": "Let the northwind mold you, cold and howling above the frozen tundra."
+}

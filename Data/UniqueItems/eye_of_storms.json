@@ -1,0 +1,20 @@
+{
+  "id": "UAzDMEYFYBYg",
+  "name": "Eye of Storms",
+  "category": "Amulet",
+  "baseType": "Brass Amulet",
+  "levelRequirement": 85,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 15%) increased Cast Speed"
+  ],
+  "modifiers": [
+    "(5% to 15%) increased Cast Speed",
+    "Cast Maelstrom every 3 secondsThis consumes Maelstrom's mana cost",
+    "+(33% to 45%) Cold Resistance",
+    "+(33% to 45%) Lightning Resistance",
+    "(6% to 15%) Increased Lightning Damage per Active Maelstrom",
+    "+(10 to 18) Lightning Melee Damage"
+  ],
+  "lore": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass."
+}

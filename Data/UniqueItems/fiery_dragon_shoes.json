@@ -1,0 +1,25 @@
+{
+  "id": "UAzBswTgRiA",
+  "name": "Fiery Dragon Shoes",
+  "category": "Boots",
+  "baseType": "Solarum Greaves",
+  "levelRequirement": 67,
+  "classRequirement": null,
+  "implicits": [
+    "+90 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(30% to 45%) Fire Resistance"
+  ],
+  "modifiers": [
+    "+90 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(30% to 45%) Fire Resistance",
+    "(15% to 20%) increased Movement Speed",
+    "(25% to 35%) Fire Penetration with Ignite",
+    "(25% to 35%) increased Fire Damage",
+    "+(25% to 35%) Chance to cast Fire Trail when you are critFire Trail leaves patches of burning ground behind you as you run. Each patch applies 4 stacks of ignite per second to nearby enemies. 5 second cooldown.",
+    "+(5% to 15%) Chance to Receive a Critical Strike",
+    "(75% to 85%) reduced Bonus Damage Taken from Critical Strikes"
+  ],
+  "lore": "Embers of a dragon's heart still linger in these smoldering scales. Dire hits threaten to stoke a wrath that has long slumbered."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAwRgrALFQ",
+  "name": "Evolution's End",
+  "category": "Amulet",
+  "baseType": "Fossil Amulet",
+  "levelRequirement": 11,
+  "classRequirement": null,
+  "implicits": [
+    "+(2 to 6) to All Attributes",
+    "(3% to 10%) increased Movement Speed",
+    "+(4% to 15%) to All Resistances"
+  ],
+  "modifiers": [
+    "+(2 to 6) to All Attributes",
+    "(3% to 10%) increased Movement Speed",
+    "+(4% to 15%) to All Resistances",
+    "+(1 to 2) to Level of All Skills",
+    "40% increased Minion Damage",
+    "When a hit leaves a Boss or Champion below 40% health you summon a Rift Beast for 15 seconds (40 second cooldown)",
+    "The Rift Beast summoned has the same Evolutions as the Rift Beast that dropped this item"
+  ],
+  "lore": "A fossil of a lineage forged in time"
+}

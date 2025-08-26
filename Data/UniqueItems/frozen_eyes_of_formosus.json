@@ -1,0 +1,20 @@
+{
+  "id": "UAzDMEZwFiA",
+  "name": "Frozen Eyes of Formosus",
+  "category": "Amulet",
+  "baseType": "Brass Amulet",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 15%) increased Cast Speed"
+  ],
+  "modifiers": [
+    "(5% to 15%) increased Cast Speed",
+    "+(4 to 8) Necrotic Spell Damage",
+    "+(50% to 80%) Freeze Rate per stack of Chill",
+    "+(150% to 300%) Minion Freeze Rate per stack of Chill",
+    "+(25% to 40%) Chance to apply Chill on Hit",
+    "(80 to 140)% increased Minion Cold DamageIncreases cold damage dealt by all minions"
+  ],
+  "lore": "The eyes still stare out, transfixed with longing for the power their owner sought."
+}

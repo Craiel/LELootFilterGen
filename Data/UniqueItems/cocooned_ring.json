@@ -1,0 +1,13 @@
+{
+  "id": "UAzAsGYE4DYg",
+  "name": "Cocooned Ring",
+  "category": "",
+  "baseType": "",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [],
+  "modifiers": [
+    "Contains a random unique ring"
+  ],
+  "lore": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsEZWI",
+  "name": "Call of the Tundra",
+  "category": "Helmet",
+  "baseType": "Gladiator Helmet",
+  "levelRequirement": 74,
+  "classRequirement": null,
+  "implicits": [
+    "+130 Armor"
+  ],
+  "modifiers": [
+    "+130 Armor",
+    "+(1 to 4) to Level of Warcry",
+    "Warcry is Converted to ColdConverts stun to freeze, physical damage to cold damage, and bleed to frostbite.",
+    "Warcry no longer knocks enemies back",
+    "+(80 to 100) Health",
+    "+(10 to 18) Health Regen",
+    "(10 to 18) Health Gain on Freeze",
+    "+(10 to 18) Cold Melee Damage"
+  ],
+  "lore": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades."
+}

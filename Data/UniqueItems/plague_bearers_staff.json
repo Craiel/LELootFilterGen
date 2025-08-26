@@ -1,0 +1,25 @@
+{
+  "id": "UAzCswdgZiA",
+  "name": "Plague Bearer's Staff",
+  "category": "Two-Handed Staff",
+  "baseType": "Spine Rod",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+53 Melee Damage",
+    "+(39 to 47) Spell Damage",
+    "(39% to 93%) increased Damage Over Time"
+  ],
+  "modifiers": [
+    "+53 Melee Damage",
+    "+(39 to 47) Spell Damage",
+    "(39% to 93%) increased Damage Over Time",
+    "+(100% to 220%) Chance to apply Poison on Hit",
+    "100% Chance To Inflict Plague on HitPlague deals poison over time and spreads to enemies around the target, but does not stack.",
+    "(10% to 200%) Poison Penetration with Plague",
+    "(10 to 20)% More Damage Over Time against Enemies afflicted with PlagueMultiplicative with other modifiers",
+    "20% Chance To Blind AttackersBlind causes enemies to aim erratically, reducing the chance that they will hit you, especially at range. Blind does not stack.",
+    "(3% to 6%) of Current Health Drained per Second"
+  ],
+  "lore": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "UAwRgrATA7BQ",
+  "name": "Aaron's Will",
+  "category": "Body Armor",
+  "baseType": "Revenant Plate",
+  "levelRequirement": 75,
+  "classRequirement": "Acolyte",
+  "implicits": [
+    "+279 Armor",
+    "(3% to 6%) of Maximum Health gained as Endurance Threshold"
+  ],
+  "modifiers": [
+    "+279 Armor",
+    "(3% to 6%) of Maximum Health gained as Endurance Threshold",
+    "+1 Maximum Bone Golems per 4 maximum SkeletonsThis effect rounds down, for example if you have 7 max skeletons you will gain +1 maximum Bone Golem",
+    "You cannot summon skeleton warriors, archers or roguesOther skeletal minions can still be summoned",
+    "Bone Golems have a 6% chance on hit to grant you (2 to 4)% of their missing health as ward (1 second global cooldown)",
+    "Bone Shatter now has a 3 Second Cooldown",
+    "(10% to 24%) increased Health",
+    "(100% to 240%) increased Minion Health",
+    "+(100 to 240) Minion Health",
+    "+1 to Level of Minion Skills"
+  ],
+  "lore": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B"
+}

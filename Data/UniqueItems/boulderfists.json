@@ -1,0 +1,20 @@
+{
+  "id": "UAzBMYViA",
+  "name": "Boulderfists",
+  "category": "Gloves",
+  "baseType": "Mail Bracers",
+  "levelRequirement": 25,
+  "classRequirement": null,
+  "implicits": [
+    "+32 Armor"
+  ],
+  "modifiers": [
+    "+32 Armor",
+    "(140% to 240%) Increased Melee Stun Chance",
+    "(14% to 24%) Increased Melee Stun Duration",
+    "+160 Armor",
+    "+(50 to 100) Health",
+    "You cannot leech health"
+  ],
+  "lore": "Strike with the force of a mountain."
+}

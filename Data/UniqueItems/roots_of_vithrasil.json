@@ -1,0 +1,24 @@
+{
+  "id": "UAzCsCZwTiA",
+  "name": "Roots of Vithrasil",
+  "category": "Boots",
+  "baseType": "Heoborean Boots",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+30 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(10% to 40%) Cold Resistance"
+  ],
+  "modifiers": [
+    "+30 Armor",
+    "(15% to 18%) increased Movement Speed",
+    "+(10% to 40%) Cold Resistance",
+    "15% increased Movement Speed",
+    "+(2 to 3) Projectiles with Spirit Thorns",
+    "(100% to 160%) Increased damage while in Spriggan Form",
+    "You cannot move while in Spriggan Form",
+    "+(20 to 26) Health Regen while in Spriggan Form"
+  ],
+  "lore": "Root yourself into the cold earth and drink deep from Eterra's bounty."
+}

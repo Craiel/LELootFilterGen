@@ -1,0 +1,25 @@
+{
+  "id": "UAwZgnMAcBsQ",
+  "name": "Sunforged Cuirass",
+  "category": "Body Armor",
+  "baseType": "Solarum Plate",
+  "levelRequirement": 60,
+  "classRequirement": "Sentinel",
+  "implicits": [
+    "+420 Armor",
+    "+(10% to 15%) Endurance",
+    "(20% to 80%) increased Fire Damage"
+  ],
+  "modifiers": [
+    "+420 Armor",
+    "+(10% to 15%) Endurance",
+    "(20% to 80%) increased Fire Damage",
+    "+(500 to 800) Armor",
+    "+(50% to 80%) Fire Resistance",
+    "+(10% to 20%) Chance to forge a weapon when hit2 second cooldown. These are affected by your Forge Strike's skill tree.",
+    "(15% to 25%) Increased Fire Damage per Forged Weapon",
+    "+3 to Forge Strike+3 to Smelter's Wrath",
+    "+3 Maximum Forged WeaponsForged Weapons can be summoned by Forge Strike and modified by its tree"
+  ],
+  "lore": ""
+}

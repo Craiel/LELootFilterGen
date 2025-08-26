@@ -1,0 +1,22 @@
+{
+  "id": "UAwFmCYA4EYg",
+  "name": "Vortex Pennant",
+  "category": "Relic",
+  "baseType": "Mournful Pennant",
+  "levelRequirement": 12,
+  "classRequirement": "Sentinel",
+  "implicits": [
+    "+(15 to 25) Health",
+    "(3 to 5) Health Gain on Melee Hit"
+  ],
+  "modifiers": [
+    "+(15 to 25) Health",
+    "(3 to 5) Health Gain on Melee Hit",
+    "You throw an axe at a nearby enemy every second while channelling Warpath",
+    "2% increased Axe Throw Frequency per 10% increased physical damageGeneric increased damage is counted. Increased melee physical damage and increased throwing physical damage are not counted. More physical damage affects this multiplicatively. Attributes have no effect on it.",
+    "+1 to Level of Warpath",
+    "+1 to Level of Throwing Skills",
+    "(24% to 124%) Increased Physical Damage while Dual Wielding"
+  ],
+  "lore": ""
+}

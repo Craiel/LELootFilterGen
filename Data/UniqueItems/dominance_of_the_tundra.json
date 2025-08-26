@@ -1,0 +1,21 @@
+{
+  "id": "UAzBMBYEZSA",
+  "name": "Dominance of the Tundra",
+  "category": "Helmet",
+  "baseType": "Iron Casque",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+40 Armor"
+  ],
+  "modifiers": [
+    "+40 Armor",
+    "Evade casts Glacier along its pathThis consumes mana equivalent to Glacier's mana cost",
+    "+(6 to 12) Strength",
+    "+(6 to 12) Intelligence",
+    "+400 Armor",
+    "(30% to 60%) reduced Bonus Damage Taken from Critical Strikes",
+    "25% increased Evade distance"
+  ],
+  "lore": ""
+}

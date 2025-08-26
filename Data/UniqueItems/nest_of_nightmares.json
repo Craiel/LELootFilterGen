@@ -1,0 +1,20 @@
+{
+  "id": "UAzCcBZgNiA",
+  "name": "Nest of Nightmares",
+  "category": "One-Handed Mace",
+  "baseType": "Doom Star",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+59 Melee Damage",
+    "+(50% to 90%) Melee Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+59 Melee Damage",
+    "+(50% to 90%) Melee Critical Strike Multiplier",
+    "+20% Chance to inflict Spiders on Melee Hit per equipped Weaver's Will ItemSpiders are a debuff which add 5% chance to be critically hit. It stacks up to 4 times and lasts 4 seconds.",
+    "+(2 to 6)% of Damage Leeched as Health on Melee Hit for you and your Minions",
+    "+(25 to 45)% Melee Critical Strike Multiplier for you and your Minions"
+  ],
+  "lore": "\"I was surrounded by golden silk, curious creatures, and Her words filling my very soul.\" - Masque, the Acolyte of Golden Silk"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMCYBYHYg",
+  "name": "Chronicle of the Damned",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Leatherbound Tome",
+  "levelRequirement": 8,
+  "classRequirement": null,
+  "implicits": [
+    "+(2 to 5) Intelligence",
+    "(5% to 8%) increased Cast Speed"
+  ],
+  "modifiers": [
+    "+(2 to 5) Intelligence",
+    "(5% to 8%) increased Cast Speed",
+    "+1 to Level of Wandering Spirits",
+    "+1 to Level of Hungering Souls",
+    "+(6 to 11) Ward gained each second per Active Wandering SpiritDoes not count as a Ward Per Second stat for the purpose of stat conversions or scaling",
+    "(11% to 16%) Chance to inflict Damned on Hit with Hungering Souls per Active Wandering Spirit",
+    "(16% to 26%) Chance to Reveal a Wandering Spirit on Kill (1 Second Cooldown)Scales with the Wandering Spirits tree"
+  ],
+  "lore": "The souls of those whose deaths are inked within these pages are bound to the book itself, forever cursed to serve the reader."
+}

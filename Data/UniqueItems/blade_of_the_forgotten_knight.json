@@ -1,0 +1,22 @@
+{
+  "id": "UAzBswDgo",
+  "name": "Blade of the Forgotten Knight",
+  "category": "One-Handed Sword",
+  "baseType": "Longsword",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Melee Damage"
+  ],
+  "modifiers": [
+    "+50 Melee Damage",
+    "+(25 to 35) Void Melee Damage",
+    "+(35 to 50) Void Spell Damage",
+    "(30% to 70%) increased Void Damage",
+    "(15% to 25%) Chance to gain Haste for 1 second on Hit",
+    "15% increased Attack and Cast Speed",
+    "50% Void Penetration with Time Rot",
+    "3% more Void Damage per stack of Time Rot"
+  ],
+  "lore": "Incongruous shards of iron from distant eras woven together through time."
+}

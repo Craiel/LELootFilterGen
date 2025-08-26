@@ -1,0 +1,168 @@
+{
+  "sectionName": "Sentinel",
+  "sectionType": "class",
+  "parseDate": "2025-08-26T14:54:29.010Z",
+  "name": "Sentinel",
+  "masteries": [
+    {
+      "name": "Base Class",
+      "skills": [
+        {
+          "name": "Evade",
+          "link": "https://www.lastepochtools.com/skills/sentinel_evade",
+          "section": "sentinel_evade"
+        },
+        {
+          "name": "Lunge",
+          "link": "https://www.lastepochtools.com/skills/lunge",
+          "section": "lunge"
+        },
+        {
+          "name": "Shield Bash",
+          "link": "https://www.lastepochtools.com/skills/shield_bash",
+          "section": "shield_bash"
+        },
+        {
+          "name": "Rebuke",
+          "link": "https://www.lastepochtools.com/skills/rebuke",
+          "section": "rebuke"
+        },
+        {
+          "name": "Shield Rush",
+          "link": "https://www.lastepochtools.com/skills/shield_rush",
+          "section": "shield_rush"
+        },
+        {
+          "name": "Shield Throw",
+          "link": "https://www.lastepochtools.com/skills/shield_throw",
+          "section": "shield_throw"
+        },
+        {
+          "name": "Healing Hands",
+          "link": "https://www.lastepochtools.com/skills/healing_hands",
+          "section": "healing_hands"
+        }
+      ]
+    },
+    {
+      "name": "Paladin",
+      "skills": [
+        {
+          "name": "Smite",
+          "link": "https://www.lastepochtools.com/skills/smite",
+          "section": "smite"
+        },
+        {
+          "name": "Judgement",
+          "link": "https://www.lastepochtools.com/skills/judgement",
+          "section": "judgement"
+        },
+        {
+          "name": "Holy Aura",
+          "link": "https://www.lastepochtools.com/skills/holy_aura",
+          "section": "holy_aura"
+        }
+      ]
+    },
+    {
+      "name": "Forge Guard",
+      "skills": [
+        {
+          "name": "Hammer Throw",
+          "link": "https://www.lastepochtools.com/skills/hammer_throw",
+          "section": "hammer_throw"
+        },
+        {
+          "name": "Manifest Armor",
+          "link": "https://www.lastepochtools.com/skills/manifest_armor",
+          "section": "manifest_armor"
+        },
+        {
+          "name": "Smelter's Wrath",
+          "link": "https://www.lastepochtools.com/skills/smelters_wrath",
+          "section": "smelters_wrath"
+        },
+        {
+          "name": "Forge Strike",
+          "link": "https://www.lastepochtools.com/skills/forge_strike",
+          "section": "forge_strike"
+        }
+      ]
+    },
+    {
+      "name": "Void Knight",
+      "skills": [
+        {
+          "name": "Void Cleave",
+          "link": "https://www.lastepochtools.com/skills/void_cleave",
+          "section": "void_cleave"
+        },
+        {
+          "name": "Volatile Reversal",
+          "link": "https://www.lastepochtools.com/skills/volatile_reversal",
+          "section": "volatile_reversal"
+        },
+        {
+          "name": "Abyssal Echoes",
+          "link": "https://www.lastepochtools.com/skills/abyssal_echoes",
+          "section": "abyssal_echoes"
+        },
+        {
+          "name": "Devouring Orb",
+          "link": "https://www.lastepochtools.com/skills/devouring_orb",
+          "section": "devouring_orb"
+        },
+        {
+          "name": "Anomaly",
+          "link": "https://www.lastepochtools.com/skills/anomaly",
+          "section": "anomaly"
+        },
+        {
+          "name": "Erasing Strike",
+          "link": "https://www.lastepochtools.com/skills/erasing_strike",
+          "section": "erasing_strike"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "skills": [
+        {
+          "name": "Vengeance",
+          "link": "https://www.lastepochtools.com/skills/vengeance",
+          "section": "vengeance"
+        },
+        {
+          "name": "Warpath",
+          "link": "https://www.lastepochtools.com/skills/warpath",
+          "section": "warpath"
+        },
+        {
+          "name": "Rive",
+          "link": "https://www.lastepochtools.com/skills/rive1",
+          "section": "rive1"
+        },
+        {
+          "name": "Javelin",
+          "link": "https://www.lastepochtools.com/skills/javelin",
+          "section": "javelin"
+        },
+        {
+          "name": "Multistrike",
+          "link": "https://www.lastepochtools.com/skills/multistrike",
+          "section": "multistrike"
+        },
+        {
+          "name": "Ring Of Shields",
+          "link": "https://www.lastepochtools.com/skills/ring_of_shields",
+          "section": "ring_of_shields"
+        },
+        {
+          "name": "Symbols of Hope",
+          "link": "https://www.lastepochtools.com/skills/sigils_of_hope",
+          "section": "sigils_of_hope"
+        }
+      ]
+    }
+  ]
+}

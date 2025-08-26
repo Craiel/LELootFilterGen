@@ -1,0 +1,21 @@
+{
+  "id": "UAzCswDgZiA",
+  "name": "Maehlin's Hubris",
+  "category": "Gloves",
+  "baseType": "Plated Gauntlets",
+  "levelRequirement": 47,
+  "classRequirement": null,
+  "implicits": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+75 Armor",
+    "+(5% to 15%) Endurance",
+    "(30% to 60%) increased Fire Damage Over Time",
+    "+(3 to 6) Vitality",
+    "+(3 to 6) Intelligence",
+    "100% of Bleed Chance Converted to Ignite Chance"
+  ],
+  "lore": "Maehlin devoted his life to Rahyeh. Seeking to learn his will he reached into the god's mind. Rahyeh reached back into his and set his blood aflame."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UAwFgjATAnFQ",
+  "name": "Code of an Erased Sentinel",
+  "category": "Relic",
+  "baseType": "Inscribed Tablet",
+  "levelRequirement": 30,
+  "classRequirement": "Sentinel",
+  "implicits": [
+    "+(10 to 30) Mana",
+    "-3 Mana Cost for Melee Skills"
+  ],
+  "modifiers": [
+    "+(10 to 30) Mana",
+    "-3 Mana Cost for Melee Skills",
+    "+1 to Level of Sentinel Skills",
+    "(20% to 30%) increased Armor",
+    "(20% to 30%) of Armor Mitigation also applies to Damage over Time"
+  ],
+  "lore": "\"Memories of past honour that befits the woven form\" - The Acolyte of Golden Silk"
+}

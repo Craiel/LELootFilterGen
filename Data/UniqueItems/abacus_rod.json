@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMGZgDiA",
+  "name": "Abacus Rod",
+  "category": "Wand",
+  "baseType": "Archive Wand",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+(4 to 6) Spell Damage",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(4 to 6) Spell Damage",
+    "-3 Mana Cost for Spell Skills",
+    "+(50 to 55) Spell Damage",
+    "+(1 to 5) to Level of Runebolt",
+    "Runebolt's element always matches the last skill you used directly that had a single elemental tagElemental tags are Fire, Cold, and Lightning.",
+    "Runebolts that have a different element to the last Runebolt you cast grant you a stack of Numeromancy (up to 5) and refresh the duration of existing stacksNumeromancy stacks last 5 seconds",
+    "+5 Spell Damage per stack of Numeromancy",
+    "5% increased Cast Speed per stack of Numeromancy"
+  ],
+  "lore": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UAzDsYJiA",
+  "name": "Orchirian's Petals",
+  "category": "Relic",
+  "baseType": "Overgrowth Bloom",
+  "levelRequirement": 35,
+  "classRequirement": null,
+  "implicits": [
+    "+3 Attunement",
+    "+5% to All Resistances"
+  ],
+  "modifiers": [
+    "+3 Attunement",
+    "+5% to All Resistances",
+    "8% increased Mana Regen",
+    "13% Increased Cast Speed with Physical Spells",
+    "21% Increased Critical Strike Chance with Physical Spells",
+    "34% Increased Stun Chance with Physical Spells",
+    "55% increased Health Regen",
+    "89% increased Physical Spell Damage"
+  ],
+  "lore": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun."
+}

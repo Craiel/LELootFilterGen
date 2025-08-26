@@ -1,0 +1,22 @@
+{
+  "id": "UAzAswVgTiA",
+  "name": "Death Rattle",
+  "category": "Amulet",
+  "baseType": "Turquoise Amulet",
+  "levelRequirement": 36,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Critical Strike Chance"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Critical Strike Chance",
+    "+(35% to 65%) Minion Critical Strike Multiplier",
+    "+(5 to 10) Intelligence",
+    "Your minions take (10 to 30)% increased damage",
+    "Regain 30 health on minion death",
+    "+(1 to 3) to Level of Sacrifice"
+  ],
+  "lore": "The rattle of the dying is the sound of weakness leaving the world."
+}

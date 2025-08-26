@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsCYFZKA",
+  "name": "Core of the Mountain",
+  "category": "Body Armor",
+  "baseType": "Banded Armor",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "+85 Armor"
+  ],
+  "modifiers": [
+    "+85 Armor",
+    "Gain Damage Immunity for 3 seconds after being Hit (15 second cooldown)This effect does not prevent damage from the hit that procs it",
+    "(30% to 45%) increased Armor",
+    "+(4 to 10) to All Attributes",
+    "+(11% to 14%) Endurance",
+    "+(45 to 90) Endurance Threshold"
+  ],
+  "lore": ""
+}

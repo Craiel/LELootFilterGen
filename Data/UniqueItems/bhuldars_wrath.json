@@ -1,0 +1,22 @@
+{
+  "id": "UAzBsEZQJiA",
+  "name": "Bhuldar's Wrath",
+  "category": "Two-Handed Mace",
+  "baseType": "Titan Femur",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "+96 Melee Damage",
+    "+(16 to 32) Strength"
+  ],
+  "modifiers": [
+    "+96 Melee Damage",
+    "+(16 to 32) Strength",
+    "+(65 to 90) Fire Melee Damage",
+    "+(200% to 400%) Chance to apply Shred Armor on Hit",
+    "100% Chance to use Earthquake after using a Non-Channelled Movement Ability, up to 2 times every 5 seconds",
+    "Earthquake is Converted To FireOnly converts base damage not added damage",
+    "100% of Armour Shred Chance Converted to Ignite Chance for Earthquake"
+  ],
+  "lore": "Shatter! Erupt! This world is only a prison for the immortal flame."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "UAzDsGYCYEYg",
+  "name": "Mad Alchemist's Ladle",
+  "category": "Wand",
+  "baseType": "Birch Wand",
+  "levelRequirement": 17,
+  "classRequirement": null,
+  "implicits": [
+    "+(12 to 16) Spell Damage",
+    "+(20 to 30) Mana",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(12 to 16) Spell Damage",
+    "+(20 to 30) Mana",
+    "-3 Mana Cost for Spell Skills",
+    "+(8% to 48%) Chance to apply Slow on Spell Hit",
+    "+(8% to 48%) Chance to apply Frailty on Spell Hit",
+    "+(8% to 48%) Chance to apply Shred Armor on Spell Hit",
+    "+(8% to 48%) Chance to apply Electrify on Spell Hit",
+    "+(8% to 48%) Chance to apply Poison on Spell Hit",
+    "6% more Spell Damage per Negative Ailment on the Target (up to 8)",
+    "+1% increased Cast Speed per 2 Intelligence",
+    "1 Mana Gained on Potion Use per 4 Intelligence"
+  ],
+  "lore": "Infused with countless potions, its effects are very unpredictable."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzDsCYGYFYg",
+  "name": "Silvafrond",
+  "category": "Ring",
+  "baseType": "Turquoise Ring",
+  "levelRequirement": 44,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Health",
+    "+(5% to 35%) Minion Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "(5% to 35%) increased Minion Damage",
+    "(5% to 35%) increased Minion Health",
+    "+(5% to 35%) Minion Critical Strike Multiplier",
+    "When you directly cast Summon Vines you are teleported to the target locationThis causes Summon Vines to count as a Traversal Skill. Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill.",
+    "+6 Seconds Cooldown Duration for Summon Vines",
+    "100% Increased Vines Summoned when you directly cast Summon Vines",
+    "Summoned Vines are immune to Poison",
+    "(20% to 30%) Increased Attack and Cast Speed for Summoned Vines"
+  ],
+  "lore": "The life of the forest flows through every root and leaf"
+}

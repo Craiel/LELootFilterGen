@@ -1,0 +1,25 @@
+{
+  "id": "UAwRhGYFYSA",
+  "name": "Triboelectra",
+  "category": "Wand",
+  "baseType": "Siren Wand",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+(52 to 56) Spell Damage",
+    "(5% to 10%) increased Cast Speed",
+    "(-3 to -4) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(52 to 56) Spell Damage",
+    "(5% to 10%) increased Cast Speed",
+    "(-3 to -4) Mana Cost for Spell Skills",
+    "+(2 to 3) to Level of Lightning Spell Skills",
+    "+(2 to 5) Tendrils with Static Orb",
+    "(50% to 115%) Increased Shock Duration",
+    "When you use Evade you cast Static Orb for 90% of its mana costStatic Orb is cast in the direction of travel and detonates at the destination. No effect if you are out of mana.",
+    "When you use Evade you transfer all stacks of Shock on you to nearby enemiesThe duration of shock applied to the enemies is the full duration of shock you normally apply",
+    "(20% to 35%) increased Cooldown Recovery Speed for Evade"
+  ],
+  "lore": ""
+}

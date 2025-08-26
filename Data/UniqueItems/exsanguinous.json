@@ -1,0 +1,21 @@
+{
+  "id": "UAzDMwRgo",
+  "name": "Exsanguinous",
+  "category": "Body Armor",
+  "baseType": "Noble Raiment",
+  "levelRequirement": 23,
+  "classRequirement": null,
+  "implicits": [
+    "+32 Armor",
+    "+(2 to 7) Spell Damage"
+  ],
+  "modifiers": [
+    "+32 Armor",
+    "+(2 to 7) Spell Damage",
+    "20% of Current Health Lost per secondThis is not affected by increases and reductions to health drain effects",
+    "20% of Missing Health gained as Ward per second",
+    "(15 to 30)% increased attack speed, cast speed, and movement speed if you have used a potion in the past 4 seconds",
+    "Immunity to Bleed at low healthYou are on low health while below 35% of your maximum health"
+  ],
+  "lore": "Crazed is the mind of a blood starved Lich."
+}

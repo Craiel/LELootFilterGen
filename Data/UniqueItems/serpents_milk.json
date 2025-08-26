@@ -1,0 +1,22 @@
+{
+  "id": "UAzCMoNgViA",
+  "name": "Serpent's Milk",
+  "category": "Amulet",
+  "baseType": "Jade Amulet",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 15%) increased Melee Attack Speed",
+    "(5% to 15%) increased Throwing Attack Speed"
+  ],
+  "modifiers": [
+    "(5% to 15%) increased Melee Attack Speed",
+    "(5% to 15%) increased Throwing Attack Speed",
+    "+200% Chance to apply Poison on Hit with Minion Skills",
+    "Minions deal 90% less Poison Damagemultiplicative with other modifiers",
+    "(50% to 75%) increased Poison Damage",
+    "+(5 to 7) Health Regen",
+    "+(50% to 75%) Poison Resistance"
+  ],
+  "lore": ""
+}

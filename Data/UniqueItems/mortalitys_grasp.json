@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsEYCYDYg",
+  "name": "Mortality's Grasp",
+  "category": "Gloves",
+  "baseType": "Noble Gloves",
+  "levelRequirement": 62,
+  "classRequirement": null,
+  "implicits": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen"
+  ],
+  "modifiers": [
+    "+28 Armor",
+    "(7% to 14%) increased Mana Regen",
+    "(30 to 45)% chance to Mark for Death on Hit with Necrotic SpellsMark for Death is a curse that lasts 8 seconds and reduces all resistances by 25%. It cannot stack",
+    "(313 to 373) Ward gained when damage leaves you at low healthLow health is 35% and this effect has a 5 second cooldown.",
+    "+(73 to 113) Health"
+  ],
+  "lore": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat"
+}

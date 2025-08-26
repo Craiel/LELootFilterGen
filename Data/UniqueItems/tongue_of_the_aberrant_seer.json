@@ -1,0 +1,20 @@
+{
+  "id": "UAzBsCYSA",
+  "name": "Tongue of the Aberrant Seer",
+  "category": "Ring",
+  "baseType": "Jade Ring",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 25) Dodge Rating"
+  ],
+  "modifiers": [
+    "+(10 to 25) Dodge Rating",
+    "+(30% to 40%) Chance to apply Poison on Spell Hit",
+    "+1 to Level of Poison Spell Skills",
+    "+3 to All Attributes",
+    "13% of Damage Reflected",
+    "(30% to 40%) increased Poison Damage"
+  ],
+  "lore": "Litugy in darkness leads only to despair, poison on the tongue beguiles the soul, truth in unwords reveals salvation."
+}

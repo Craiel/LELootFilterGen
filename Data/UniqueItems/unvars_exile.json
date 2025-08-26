@@ -1,0 +1,14 @@
+{
+  "id": "UAzCMGYCYDYg",
+  "name": "Unvar's Exile",
+  "category": "Huge Idol",
+  "baseType": "Huge Arcane Idol",
+  "levelRequirement": 33,
+  "classRequirement": "Mage",
+  "implicits": [],
+  "modifiers": [
+    "Once you have three Runes for Runic Invocation your runes cannot change until they are consumed",
+    "3% Chance per Intelligence for 33% increased Elemental Damage with Three Rune Invocations"
+  ],
+  "lore": ""
+}

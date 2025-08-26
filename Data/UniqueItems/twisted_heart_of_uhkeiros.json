@@ -1,0 +1,21 @@
+{
+  "id": "UAwVgHATAjAbEA",
+  "name": "Twisted Heart of Uhkeiros",
+  "category": "Relic",
+  "baseType": "Dragon Heart",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "(12% to 20%) increased Health"
+  ],
+  "modifiers": [
+    "(12% to 20%) increased Health",
+    "(5% to 8%) of Current Health converted to Ward when you directly cast a Necrotic Spell",
+    "(5% to 8%) of Current Health converted to Ward when you directly cast an Elemental Spell",
+    "+1 to Level of Necrotic Spell Skills",
+    "+1 to Level of Elemental Spell Skills",
+    "+(10 to 16) Strength",
+    "(10% to 16%) increased Cast Speed"
+  ],
+  "lore": "In the blackened heart of an emperor, greed devours mercy."
+}

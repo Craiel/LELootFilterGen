@@ -1,0 +1,25 @@
+{
+  "id": "UAzAcEYKA",
+  "name": "Marina's Lost Soul",
+  "category": "Wand",
+  "baseType": "Profane Wand",
+  "levelRequirement": 78,
+  "classRequirement": null,
+  "implicits": [
+    "+(56 to 66) Necrotic Spell Damage",
+    "(56% to 66%) increased Curse Damage",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(56 to 66) Necrotic Spell Damage",
+    "(56% to 66%) increased Curse Damage",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "+(10 to 25) Necrotic Spell Damage",
+    "(100% to 160%) increased Spell Damage",
+    "(12% to 20%) increased Cast Speed",
+    "+20% Necrotic Penetration with Possess per stack of Damned on You (up to 7)",
+    "You are Damned when you cast a spellDamned is a stacking ailment that deals necrotic damage over time and reduces health regeneration by 20%",
+    "10% reduced Health"
+  ],
+  "lore": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows."
+}

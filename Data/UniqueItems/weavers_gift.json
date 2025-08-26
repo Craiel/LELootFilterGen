@@ -1,0 +1,19 @@
+{
+  "id": "UAzBsBZgDiA",
+  "name": "Weaver's Gift",
+  "category": "One-Handed Sword",
+  "baseType": "Longsword",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Melee Damage"
+  ],
+  "modifiers": [
+    "+50 Melee Damage",
+    "5% Increased Duration of Bleed, Poison, and Electrify per equipped Weaver's Will item (up to 5)",
+    "+(30 to 60)% chance to Electrify and Slow on hit",
+    "(1 to 3)% of Damage Leeched as Health from Damage Over Time",
+    "+(22 to 33)% Penetration against All Resistances for Damage Over Time"
+  ],
+  "lore": "\"The Weaver is the greatest artist of all, to grace Her domain is a blessing.\" - Masque, the Acolyte of Golden Silk"
+}

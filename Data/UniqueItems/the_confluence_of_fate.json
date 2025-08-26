@@ -1,0 +1,21 @@
+{
+  "id": "UAzAcEZ1I",
+  "name": "The Confluence of Fate",
+  "category": "Amulet",
+  "baseType": "Oracle Amulet",
+  "levelRequirement": 81,
+  "classRequirement": null,
+  "implicits": [
+    "(6% to 20%) less Damage Over Time Taken"
+  ],
+  "modifiers": [
+    "(6% to 20%) less Damage Over Time Taken",
+    "+(13 to 18) Fire Spell Damage",
+    "(3% to 9%) increased Fire Damage Taken on Hit",
+    "+(13 to 18) Necrotic Spell Damage",
+    "(3% to 9%) increased Necrotic Damage Taken on Hit",
+    "+(13 to 18) Void Spell Damage",
+    "(3% to 9%) increased Void Damage Taken on Hit"
+  ],
+  "lore": "The fall of Eterra is inevitable, as it always has been."
+}

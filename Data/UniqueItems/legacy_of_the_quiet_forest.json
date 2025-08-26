@@ -1,0 +1,20 @@
+{
+  "id": "UAzCsEZgZiA",
+  "name": "Legacy of the Quiet Forest",
+  "category": "Belt",
+  "baseType": "Nomad Belt",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+5 Potion Slots"
+  ],
+  "modifiers": [
+    "+5 Potion Slots",
+    "+(90 to 245) Armor",
+    "+(30% to 45%) Void Resistance",
+    "+(30% to 45%) Poison Resistance",
+    "+(30% to 45%) Poison Resistance while Transformed",
+    "+(15 to 20) Rage gained every 3 seconds while in Spriggan Form"
+  ],
+  "lore": "“This branch will protect you, even when I can not.” - the last words Quiet heard from her forest friend."
+}

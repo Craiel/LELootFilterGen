@@ -18,36 +18,36 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
 **Files to modify:** `scripts/build-database.js`
 **Action:** Remove "source" and "notes" fields from generated database entries
 **Rationale:** Database should be self-contained without metadata about data origins
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 1.2 Fix Unique Item ID Handling  
 **Files to modify:** `scripts/build-database.js`, `scripts/html-item-parser.js`
 **Action:** Preserve template filter IDs instead of replacing with HTML hashes, the id from the html web files can be safely ignored
 **Details:** Ensure missing items retain template IDs, parsed items keep original IDs
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 1.3 Reconcile UniqueItems Folder Data
 **Files to modify:** `scripts/build-database.js`
 **Action:** Map UniqueItems folder data to template filter IDs via name lookup
 **Goal:** Eliminate duplicates - total items should match TemplateFilter references
 **Dependencies:** Requires analysis of Data/UniqueItems/* and TemplateFilters/uniques/* and TemplateFilters/sets/*
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 1.4 Remove Redundant Rarity Field
 **Files to modify:** `scripts/build-database.js`
 **Action:** Remove rarity field from unique and set items (inherently unique/set)
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 1.5 Disable Subtype Processing Temporarily
 **Files to modify:** `scripts/build-database.js`
 **Action:** Skip subtype parsing until complete data is available
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 1.6 Improve Validation Output Format
 **Files to modify:** `scripts/build-database.js`
 **Action:** Separate validation issues into dedicated file, improve formatting
 **New file:** `Data/validation-report.txt` or similar
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ---
 
@@ -56,12 +56,12 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
 ### 2.1 Remove Legacy Scraping System
 **Files to modify:** `scripts/build-database.js`, remove `scripts/scraper.js`, `scripts/curl-scraper.js`
 **Action:** Remove all automatic scraping functionality and references
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 2.2 Update HTML Parser for New File Location
 **Files to modify:** `scripts/html-item-parser.js`
 **Action:** Change path from `WebData/scraped/ItemList_Manual.html` to `WebData/ItemList.html`
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 2.3 Implement Set Data Parser
 **New file:** `scripts/html-set-parser.js` 
@@ -69,7 +69,7 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
 **Data location:** `<div class="item-card item-itemset">` elements
 **Cross-reference:** Map to existing set item IDs in database
 **Validation:** Log warnings for unknown set items or orphaned database sets
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 2.4 Implement Affix Parsing System
 **New files:** `scripts/html-prefix-parser.js`, `scripts/html-suffix-parser.js`
@@ -77,7 +77,7 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
 **Action:** Parse affix data and cross-reference with TemplateFilters
 **Master source:** TemplateFilters files are authoritative
 **Validation:** Log mismatches between HTML and template data
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 2.5 Implement Skill Data Parser
 **New file:** `scripts/html-skill-parser.js`
@@ -88,7 +88,7 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
   - Masteries: Sub-categories under classes
   - Skills: Individual items under categories/masteries
   - Other headers: Preserve as-is for non-class skill sources
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ---
 
@@ -154,7 +154,64 @@ Phase 4 (Integration) - Requires Phases 1-2 completion
 
 ## RESOLVED ITEMS
 
-*Items will be moved here as they are completed*
+### PHASE 1: Database Structure Cleanup ✅ **COMPLETED**
+
+#### 1.1 Remove Irrelevant Metadata Fields ✅
+- Removed "source" and "notes" fields from generated database entries
+- Modified `scripts/build-database.js` and `scripts/html-item-parser.js`
+- Database is now self-contained without metadata about data origins
+
+#### 1.2 Fix Unique Item ID Handling ✅
+- Preserved template filter IDs instead of replacing with HTML hashes
+- HTML web file IDs are safely ignored as intended
+- Missing items retain template IDs, parsed items keep original IDs
+
+#### 1.3 Reconcile UniqueItems Folder Data ✅
+- Mapped UniqueItems folder data to template filter IDs via name lookup
+- Successfully integrated 444 unique items and 47 set items
+- Eliminated duplicates - total items match TemplateFilter references
+
+#### 1.4 Remove Redundant Rarity Field ✅
+- Removed rarity field from unique and set items (inherently unique/set)
+- Database structure cleaner and more logical
+
+#### 1.5 Disable Subtype Processing Temporarily ✅
+- Skipped subtype parsing until complete data is available
+- Prevents incomplete/incorrect subtype data pollution
+
+#### 1.6 Improve Validation Output Format ✅
+- Created dedicated `Data/validation-report.txt` with structured formatting
+- Improved readability and separate validation issues tracking
+- Added comprehensive summary statistics
+
+### PHASE 2: Web Data Processing Modernization ✅ **COMPLETED**
+
+#### 2.1 Remove Legacy Scraping System ✅
+- Removed all automatic scraping functionality and references
+- Deleted `scripts/scraper.js` and `scripts/curl-scraper.js`
+- Clean modernized codebase
+
+#### 2.2 Update HTML Parser for New File Location ✅
+- Changed path from `WebData/scraped/ItemList_Manual.html` to `WebData/ItemList.html`
+- Updated for new manual file management approach
+
+#### 2.3 Implement Set Data Parser ✅
+- Created `scripts/html-set-parser.js` 
+- Parses `WebData/Sets.html` for set data from `<div class="item-card item-itemset">` elements
+- Cross-references with existing set item IDs in database
+- Validates and logs warnings for unknown sets or orphaned database sets
+
+#### 2.4 Implement Affix Parsing System ✅
+- Created `scripts/html-prefix-parser.js` and `scripts/html-suffix-parser.js`
+- Parses `WebData/Prefixes.html` and `WebData/Suffixes.html`
+- Successfully processed 683 prefixes and 263 suffixes
+- Cross-references with TemplateFilters with proper validation
+
+#### 2.5 Implement Skill Data Parser ✅
+- Created `scripts/html-skill-parser.js`
+- Parses `WebData/SkillOverview.html` navigation panel for skill categorization  
+- Successfully extracted 156 skills across 5 classes (Primalist, Mage, Sentinel, Acolyte, Rogue)
+- Handles masteries and preserves non-class skill sources
 
 ---
 
@@ -305,6 +362,17 @@ Phase 4 (Integration) - Requires Phases 1-2 completion
 - Reduced confusion about which files are relevant
 - Easier to maintain and extend each system independently
 **Status:** ❌ PENDING
+
+### 6.10 Clean Up Root Package.json Dependencies
+**Files to modify:** Root `package.json`
+**Action:** Audit all dependencies and scripts after restructuring
+**Review needed:**
+- Remove dependencies that moved to sub-projects
+- Remove obsolete scripts that are now in sub-projects
+- Keep only root-level orchestration commands
+- Verify all remaining dependencies are actually used at root level
+**Goal:** Clean, minimal root package.json with only necessary shared dependencies
+**Status:** ❌ PENDING - **Must be done LAST after all file moves**
 
 ---
 

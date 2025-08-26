@@ -1,0 +1,25 @@
+{
+  "id": "UAwRjHYSA",
+  "name": "Sinathia's Resurrection",
+  "category": "Shield",
+  "baseType": "Mountain Shield",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+26% Block Chance",
+    "+(440 to 520) Block Effectiveness",
+    "+(11% to 15%) Endurance"
+  ],
+  "modifiers": [
+    "+26% Block Chance",
+    "+(440 to 520) Block Effectiveness",
+    "+(11% to 15%) Endurance",
+    "(30% to 36%) increased Curse Cast Speed",
+    "(32% to 46%) chance when one of your Skeletons dies to resummon a new one after 3 secondsOnly affects the Summon Skeleton skill",
+    "+100% Minion Critical Strike Avoidance",
+    "(100% to 166%) increased Minion Health",
+    "+(12% to 18%) Block Chance",
+    "+2 to Curse Skills+2 to Minion Skills"
+  ],
+  "lore": "As the last of his assassins succumbed to their fates, Sinathia stirred within his tomb."
+}

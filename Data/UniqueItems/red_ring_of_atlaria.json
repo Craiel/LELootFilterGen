@@ -1,0 +1,21 @@
+{
+  "id": "UAzDMCYHZKA",
+  "name": "Red Ring of Atlaria",
+  "category": "Ring",
+  "baseType": "Silver Ring",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "(3% to 8%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "(3% to 8%) increased Movement Speed",
+    "+(4 to 5) to All Attributes",
+    "+(15% to 20%) to All Resistances",
+    "(15% to 20%) increased Health Regen",
+    "(15% to 20%) increased Mana Regen",
+    "(15% to 20%) increased Dodge Rating",
+    "10% less Damage Taken if you have at least 180 Total AttributesMultiplicative with other modifiers. Your Total Attributes is the sum of your Strength, Dexterity, Intelligence, Attunement, and Vitality."
+  ],
+  "lore": "One of seven enchanted rings that were all believed to be lost when Atlaria vanished beneath the waves."
+}

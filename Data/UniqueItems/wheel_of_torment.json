@@ -1,0 +1,26 @@
+{
+  "id": "UAwRgLAzATBQ",
+  "name": "Wheel of Torment",
+  "category": "Two-Handed Staff",
+  "baseType": "Abyssal Staff",
+  "levelRequirement": 75,
+  "classRequirement": null,
+  "implicits": [
+    "+70 Melee Damage",
+    "+(63 to 80) Spell Damage",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+70 Melee Damage",
+    "+(63 to 80) Spell Damage",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "+(1 to 3) to Level of Acolyte Spell Skills",
+    "+(9 to 15) Intelligence",
+    "When you directly cast Soul Feast you curse yourself and up to 1 nearby enemy per 10 Intelligence with TormentCan curse enemies within 20 metres but prefers enemies within 8 metres",
+    "You gain Haste for 3 seconds when you directly cast Soul Feast",
+    "(45% to 63%) increased Effect of Haste on You",
+    "(15% to 90%) Necrotic Penetration with Torment",
+    "(15% to 21%) Chance to cast Chthonic Fissure when you hit a boss or rare enemy with Soul Feast and don't have an active Fissure"
+  ],
+  "lore": "The torment of consumed souls lingers within their devourer."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UAzDMEYDZSA",
+  "name": "Herkir's Vessel",
+  "category": "Relic",
+  "baseType": "Copper Chalice",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "+(2 to 3) Health Regen"
+  ],
+  "modifiers": [
+    "+(2 to 3) Health Regen",
+    "(60% to 100%) increased Fire Damage",
+    "(60 to 100) Health Gained on Potion Use",
+    "+(6 to 10) Fire Spell Damage for 4 seconds when you use a Potion",
+    "100% Chance to cast Fire Aura on Potion Use",
+    "(30% to 60%) Increased Fire Aura Area"
+  ],
+  "lore": "Drink deep of the flame, brothers... Immortality awaits."
+}

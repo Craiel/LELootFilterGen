@@ -1,0 +1,20 @@
+{
+  "id": "UAwkdiA",
+  "name": "The Kestrel",
+  "category": "Body Armor",
+  "baseType": "Refuge Armor",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+20 Armor"
+  ],
+  "modifiers": [
+    "+20 Armor",
+    "+(30 to 70) Dodge Rating",
+    "(5% to 7%) increased Movement Speed",
+    "(30% to 45%) Chance to gain Haste for 1 second on Hit",
+    "(15% to 30%) increased Effect of Haste on You",
+    "+1 to Level of Dexterity Skills"
+  ],
+  "lore": "May the dying breaths of your enemies put air beneath your wings."
+}

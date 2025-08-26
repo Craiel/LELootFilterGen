@@ -1,0 +1,22 @@
+{
+  "id": "UAzDMCYA5SA",
+  "name": "Rotmind",
+  "category": "Off-Hand Catalyst",
+  "baseType": "Branded Skull",
+  "levelRequirement": 31,
+  "classRequirement": null,
+  "implicits": [
+    "+(5 to 9) Intelligence",
+    "+(2% to 3%) Spell Critical Strike Chance"
+  ],
+  "modifiers": [
+    "+(5 to 9) Intelligence",
+    "+(2% to 3%) Spell Critical Strike Chance",
+    "+(17 to 29) Poison Damage for Damage Over Time Spells",
+    "+1 to Level of Damage Over Time Spell Skills",
+    "17% less Damage Over Time Taken",
+    "1% of Poison Damage Leeched as Health",
+    "(10% to 17%) Increased Area for Damage Over Time Spell Area Skills"
+  ],
+  "lore": "The witches of the Red Marsh learned to cultivate a type of magical fungus within their own skulls. The mycelium grew eagerly into their brains, twisting their minds, but the powers it bestowed were well worth their sanity."
+}

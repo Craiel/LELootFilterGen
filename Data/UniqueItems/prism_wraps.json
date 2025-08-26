@@ -1,0 +1,19 @@
+{
+  "id": "UAzCMITiA",
+  "name": "Prism Wraps",
+  "category": "Body Armor",
+  "baseType": "Leather Coat",
+  "levelRequirement": 5,
+  "classRequirement": null,
+  "implicits": [
+    "+25 Armor"
+  ],
+  "modifiers": [
+    "+25 Armor",
+    "30% less Elemental Damage Taken",
+    "30% increased Elemental Damage",
+    "30% increased Critical Strike Chance",
+    "(3% to 8%) of Elemental Damage Leeched as Health on Crit"
+  ],
+  "lore": "The elements shift like light through a prism. If you control the prism you control the elements."
+}

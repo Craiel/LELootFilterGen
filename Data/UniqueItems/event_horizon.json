@@ -1,0 +1,25 @@
+{
+  "id": "UAwRhGYDYBYg",
+  "name": "Event Horizon",
+  "category": "Two-Handed Mace",
+  "baseType": "Vault Crusher",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "+126 Melee Damage",
+    "(60% to 126%) Increased Melee Stun Chance"
+  ],
+  "modifiers": [
+    "+126 Melee Damage",
+    "(60% to 126%) Increased Melee Stun Chance",
+    "(50 to 72)% Penetration against All Resistances with Melee Damage",
+    "When you use a Melee Attack and hit at least one enemy you gain a stack of Dilation (up to 10)Dilation has no time limit and no effects beyond those described on this item",
+    "15% more Melee Damage per stack of Dilationmultiplicative with other modifiers",
+    "5% less Attack and Cast Speed per stack of Dilationmultiplicative with other modifiers",
+    "5% less Movement Speed per stack of Dilationmultiplicative with other modifiers",
+    "All stacks of Dilation are lost when you use Evade",
+    "(10% to 15%) more Damage to Slowed Enemies",
+    "(10% to 15%) increased Movement Speed"
+  ],
+  "lore": "All must pass beyond the brink"
+}

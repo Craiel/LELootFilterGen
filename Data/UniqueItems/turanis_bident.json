@@ -1,0 +1,23 @@
+{
+  "id": "UAzDMCZwNiA",
+  "name": "Tu'rani's Bident",
+  "category": "Two-Handed Spear",
+  "baseType": "Impaler",
+  "levelRequirement": 48,
+  "classRequirement": null,
+  "implicits": [
+    "+33 Melee Damage",
+    "+(30% to 39%) Melee Critical Strike Multiplier"
+  ],
+  "modifiers": [
+    "+33 Melee Damage",
+    "+(30% to 39%) Melee Critical Strike Multiplier",
+    "+(16 to 22) Lightning Throwing Damage with Javelin",
+    "100% of Javelin Damage Converted To LightningIncludes all base and added damage",
+    "100% of Bleed and Ignite Chance converted to Electrify Chance for JavelinElectrify deals lightning damage over time, lasts 3 seconds, and has no stack limit.",
+    "(80% to 130%) Lightning Penetration with Electrify",
+    "+(16% to 22%) Lightning Penetration",
+    "When you use Javelin you gain a stack of Tu'rani's Thunder for 4 seconds. Each stack grants +(8 to 12) Spell Lightning Damage.Tu'rani's Thunder has no stack limit"
+  ],
+  "lore": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha."
+}

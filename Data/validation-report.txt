@@ -1,0 +1,92 @@
+----------
+SUMMARY
+Total Issues: 0 errors, 77 warnings, 77 duplicates
+
+Last Epoch Database Validation Report
+Generated: 2025-08-26T14:41:55.805Z
+Game Version: 1.3.0.4
+============================================================
+
+AFFIXES VALIDATION ISSUES
+------------------------------
+WARNINGS (77):
+  ⚠️  Duplicate affixes name "Spell Damage" found for items: ID 38 and ID 49
+  ⚠️  Duplicate affixes name "Increased Minion Cooldown Recovery Speed" found for idols: ID 148 and ID 286
+  ⚠️  Duplicate affixes name "Shared Lightning Damage" found for items: ID 320 and ID 333
+  ⚠️  Duplicate affixes name "Cold Penetration with Frostbite" found for items: ID 183 and ID 339
+  ⚠️  Duplicate affixes name "Shared Cold Damage" found for items: ID 321 and ID 340
+  ⚠️  Duplicate affixes name "Cast Speed for Totems" found for items: ID 144 and ID 342
+  ⚠️  Duplicate affixes name "Totem Damage" found for items: ID 329 and ID 357
+  ⚠️  Duplicate affixes name "Fire Damage Over Time" found for items: ID 127 and ID 371
+  ⚠️  Duplicate affixes name "Cold Damage Over Time" found for items: ID 176 and ID 388
+  ⚠️  Duplicate affixes name "Fire Damage Over Time" found for items: ID 127 and ID 389
+  ⚠️  Duplicate affixes name "Melee Elemental Damage" found for items: ID 179 and ID 390
+  ⚠️  Duplicate affixes name "Chance to Ignite on Fire Hit" found for items: ID 180 and ID 391
+  ⚠️  Duplicate affixes name "Increased Fire Aura Damage" found for items: ID 240 and ID 394
+  ⚠️  Duplicate affixes name "Chance to Gain Lightning Aegis when Hit" found for items: ID 243 and ID 395
+  ⚠️  Duplicate affixes name "Chance to apply a Spark Charge on Melee Hit" found for items: ID 327 and ID 399
+  ⚠️  Duplicate affixes name "Mana Spent Gained as Ward" found for items: ID 328 and ID 400
+  ⚠️  Duplicate affixes name "Chance to Gain 20 Ward on Kill with Hungering Souls" found for items: ID 311 and ID 415
+  ⚠️  Duplicate affixes name "Increased Projectile Speed With Marrow Shards And Bone Nova" found for items: ID 302 and ID 417
+  ⚠️  Duplicate affixes name "Increased Damage With Rip Blood And Blood Splatter" found for items: ID 312 and ID 418
+  ⚠️  Duplicate affixes name "Chance to apply Damned on Hit" found for items: ID 260 and ID 421
+  ⚠️  Duplicate affixes name "Reduced Health Cost of Spells" found for items: ID 264 and ID 423
+  ⚠️  Duplicate affixes name "Physical Spell Critical Strike Chance" found for items: ID 295 and ID 424
+  ⚠️  Duplicate affixes name "Increased Damage of Skills use by Shadows" found for items: ID 438 and ID 439
+  ⚠️  Duplicate affixes name "Dodge Rating if Hit Recently" found for items: ID 441 and ID 442
+  ⚠️  Duplicate affixes name "Increased Critical Strike Chance per Equipped Sword" found for items: ID 445 and ID 446
+  ⚠️  Duplicate affixes name "Increased Critical Strike Chance per Equipped Dagger" found for items: ID 447 and ID 448
+  ⚠️  Duplicate affixes name "Poison Chance per Equipped Dagger" found for items: ID 452 and ID 453
+  ⚠️  Duplicate affixes name "Increased Damage while wielding a Sword" found for items: ID 458 and ID 459
+  ⚠️  Duplicate affixes name "Increased Damage while wielding a Dagger" found for items: ID 460 and ID 461
+  ⚠️  Duplicate affixes name "Increased Damage while wielding a Bow" found for items: ID 462 and ID 463
+  ⚠️  Duplicate affixes name "Fire Penetration with Ignite" found for items: ID 182 and ID 468
+  ⚠️  Duplicate affixes name "Throwing Physical Damage" found for items: ID 470 and ID 471
+  ⚠️  Duplicate affixes name "Chance to Shred Armor on Melee Hit" found for items: ID 474 and ID 475
+  ⚠️  Duplicate affixes name "Chance to Shred Armor on Bow Hit" found for items: ID 476 and ID 477
+  ⚠️  Duplicate affixes name "Increased Armor Shred Effect" found for items: ID 370 and ID 479
+  ⚠️  Duplicate affixes name "Increased Armor Shred Duration" found for items: ID 480 and ID 481
+  ⚠️  Duplicate affixes name "Chance to Ignite on Bow Hit" found for items: ID 482 and ID 483
+  ⚠️  Duplicate affixes name "Chance to Slow on Bow Hit" found for items: ID 484 and ID 485
+  ⚠️  Duplicate affixes name "Physical Penetration with Shadow Daggers" found for items: ID 486 and ID 487
+  ⚠️  Duplicate affixes name "Bow Elemental Damage" found for items: ID 488 and ID 489
+  ⚠️  Duplicate affixes name "Chance to Inflict Bleed On Bow Hit" found for items: ID 493 and ID 494
+  ⚠️  Duplicate affixes name "Increased Area with Cinder Strike's First Strike" found for items: ID 495 and ID 496
+  ⚠️  Duplicate affixes name "Increased crit chance with Flurry" found for items: ID 497 and ID 498
+  ⚠️  Duplicate affixes name "Physical Penetration with Puncture" found for items: ID 499 and ID 500
+  ⚠️  Duplicate affixes name "Vitality" found for items: ID 124 and ID 505
+  ⚠️  Duplicate affixes name "Increased Area with Detonating Arrow" found for items: ID 508 and ID 509
+  ⚠️  Duplicate affixes name "Increased Damage per arrow with Multishot" found for items: ID 510 and ID 511
+  ⚠️  Duplicate affixes name "Increased Damage per active Shadow with Shadow Cascade" found for items: ID 514 and ID 515
+  ⚠️  Duplicate affixes name "Chance to Inflict Bleed on Hit with Shurikens" found for items: ID 516 and ID 517
+  ⚠️  Duplicate affixes name "Lightning Damage with Shurikens" found for items: ID 518 and ID 519
+  ⚠️  Duplicate affixes name "Increased Area with Acid Flask" found for items: ID 520 and ID 521
+  ⚠️  Duplicate affixes name "Increased Area with Dancing Strikes" found for items: ID 523 and ID 524
+  ⚠️  Duplicate affixes name "Mana efficiency with Decoy" found for items: ID 527 and ID 528
+  ⚠️  Duplicate affixes name "Ward gained on use with Smoke Bomb" found for items: ID 529 and ID 530
+  ⚠️  Duplicate affixes name "Ward gained on use with Shift" found for items: ID 531 and ID 532
+  ⚠️  Duplicate affixes name "Black Arrows dropped by Dark Quiver and Increased Bow Damage" found for items: ID 533 and ID 534
+  ⚠️  Duplicate affixes name "Void Penetration and Minion Void Penetration" found for idols: ID 723 and ID 831
+  ⚠️  Duplicate affixes name "Poison Penetration and Minion Poison Penetration" found for idols: ID 725 and ID 832
+  ⚠️  Duplicate affixes name "Physical Penetration and Minion Physical Penetration" found for idols: ID 719 and ID 833
+  ⚠️  Duplicate affixes name "Necrotic Resistance and Minion Necrotic Resistance" found for idols: ID 834 and ID 838
+  ⚠️  Duplicate affixes name "Cold Penetration and Minion Cold Penetration" found for idols: ID 721 and ID 847
+  ⚠️  Duplicate affixes name "Fire Penetration and Minion Fire Penetration" found for idols: ID 720 and ID 848
+  ⚠️  Duplicate affixes name "Lightning Penetration and Minion Lightning Penetration" found for idols: ID 722 and ID 849
+  ⚠️  Duplicate affixes name "Necrotic Penetration and Minion Necrotic Penetration" found for idols: ID 724 and ID 863
+  ⚠️  Duplicate affixes name "Void Penetration and Minion Void Penetration" found for idols: ID 723 and ID 864
+  ⚠️  Duplicate affixes name "Poison Penetration and Minion Poison Penetration" found for idols: ID 725 and ID 865
+  ⚠️  Duplicate affixes name "Physical Penetration and Minion Physical Penetration" found for idols: ID 719 and ID 866
+  ⚠️  Duplicate affixes name "Void Resistance and Minion Void Resistance" found for idols: ID 835 and ID 868
+  ⚠️  Duplicate affixes name "Poison Resistance and Minion Poison Resistance" found for idols: ID 836 and ID 869
+  ⚠️  Duplicate affixes name "Physical Resistance and Minion Physical Resistance" found for idols: ID 837 and ID 870
+  ⚠️  Duplicate affixes name "Cold Penetration and Minion Cold Penetration" found for idols: ID 721 and ID 882
+  ⚠️  Duplicate affixes name "Fire Penetration and Minion Fire Penetration" found for idols: ID 720 and ID 883
+  ⚠️  Duplicate affixes name "Lightning Penetration and Minion Lightning Penetration" found for idols: ID 722 and ID 884
+  ⚠️  Duplicate affixes name "Cold Resistance and Minion Cold Resistance" found for idols: ID 850 and ID 885
+  ⚠️  Duplicate affixes name "Elemental Resistance and Minion Elemental Resistance" found for idols: ID 851 and ID 886
+  ⚠️  Duplicate affixes name "Fire Resistance and Minion Fire Resistance" found for idols: ID 852 and ID 887
+  ⚠️  Duplicate affixes name "Lightning Resistance and Minion Lightning Resistance" found for idols: ID 855 and ID 888
+
+DUPLICATES: 77 found
+

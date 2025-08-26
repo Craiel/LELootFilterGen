@@ -1,0 +1,20 @@
+{
+  "id": "UAw4RgViA",
+  "name": "Vipertail",
+  "category": "Belt",
+  "baseType": "Sash",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+3 Potion Slots"
+  ],
+  "modifiers": [
+    "+3 Potion Slots",
+    "+(50% to 80%) Chance to apply Poison on Hit",
+    "+(10% to 30%) Chance to apply Slow on Hit",
+    "(5% to 10%) increased Melee Attack Speed",
+    "(45% to 60%) increased Dodge Rating",
+    "7% Chance to Summon a Primal Serpent on kill with Serpent StrikePrimal Serpents are melee minions that poison on hit. They have an unlimited duration, but do not regenerate health. You are limited to one Primal Serpent at a time."
+  ],
+  "lore": "The bite of the viper brings lethargy and death."
+}

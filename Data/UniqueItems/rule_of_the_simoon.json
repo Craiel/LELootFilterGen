@@ -1,0 +1,22 @@
+{
+  "id": "UAzDsEYE5KA",
+  "name": "Rule of the Simoon",
+  "category": "Gloves",
+  "baseType": "Crusader Gauntlets",
+  "levelRequirement": 72,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance"
+  ],
+  "modifiers": [
+    "+80 Armor",
+    "+(30% to 45%) Void Resistance",
+    "+30% Chance to cast stationary fire Tornado at a nearby enemy on hit (up to 2 times per 3 seconds)This only modifies Tornadoes cast by this effect. Consumes mana equal to 50% of Tornado's mana cost on cast.",
+    "+(50% to 150%) Chance to shred fire resistance each second with Tornado",
+    "(40% to 60%) increased Fire Damage",
+    "+(30% to 50%) Fire Resistance",
+    "(20% to 30%) increased Armor"
+  ],
+  "lore": "When fire falls in love with the wind, run."
+}

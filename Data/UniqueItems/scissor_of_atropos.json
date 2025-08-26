@@ -1,0 +1,21 @@
+{
+  "id": "UAzCsBYEYA4g",
+  "name": "Scissor of Atropos",
+  "category": "One-Handed Sword",
+  "baseType": "Falchion",
+  "levelRequirement": 60,
+  "classRequirement": null,
+  "implicits": [
+    "+27 Melee Damage"
+  ],
+  "modifiers": [
+    "+27 Melee Damage",
+    "Gain a stack of Kismet when you directly use a melee attack and hit at least one enemyMax 8 stacks. Dual wielding this weapon affects the amount of stacks gained.",
+    "When you directly use a throwing attack, consume all stacks of Kismet to gain +8% throwing critical strike chance and +8 throwing physical damage per stack",
+    "+46 Melee Damage",
+    "(12% to 16%) increased Attack Speed",
+    "+(1 to 2) to Level of Melee Skills",
+    "+(4 to 9) Vitality"
+  ],
+  "lore": ""
+}

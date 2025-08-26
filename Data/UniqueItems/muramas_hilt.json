@@ -1,0 +1,18 @@
+{
+  "id": "UAzCcEZgdiA",
+  "name": "Murama's Hilt",
+  "category": "Relic",
+  "baseType": "Broken Hilt",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "(5% to 7%) increased Melee Attack Speed"
+  ],
+  "modifiers": [
+    "(5% to 7%) increased Melee Attack Speed",
+    "(85% to 130%) increased Curse Damage",
+    "(30% to 50%) increased Curse Cast Speed",
+    "(4 to 6) Mana Gained when you use Harvest"
+  ],
+  "lore": "Xenath broke his father's sword, casting away the cursed blade in resentment of his harsh master, and keeping the hilt as a reminder of his loving parent."
+}

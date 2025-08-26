@@ -1,0 +1,25 @@
+{
+  "id": "UAwRmBYQTiA",
+  "name": "Blight of Lachesis",
+  "category": "Two-Handed Staff",
+  "baseType": "Temple Staff",
+  "levelRequirement": 70,
+  "classRequirement": null,
+  "implicits": [
+    "+(90 to 100) Spell Damage",
+    "(20% to 30%) increased Mana Regen",
+    "(-3 to -5) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(90 to 100) Spell Damage",
+    "(20% to 30%) increased Mana Regen",
+    "(-3 to -5) Mana Cost for Spell Skills",
+    "+(1 to 2) Maximum Skeletal Mages",
+    "+(1 to 2) to Level of Minion Necrotic Skills",
+    "+(1 to 2) to Level of Minion Cold Skills",
+    "+(1 to 2) to Level of Minion Lightning Skills",
+    "(100% to 170%) increased Minion Damage",
+    "+(40% to 70%) Chance to apply Electrify on Hit with Minion Skills"
+  ],
+  "lore": ""
+}

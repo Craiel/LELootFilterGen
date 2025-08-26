@@ -1,0 +1,25 @@
+{
+  "id": "UAzAcCYyA",
+  "name": "Ravenous Void",
+  "category": "Gloves",
+  "baseType": "Gluttonous Gloves",
+  "levelRequirement": 91,
+  "classRequirement": null,
+  "implicits": [
+    "+80 Armor",
+    "+(5 to 10) Vitality",
+    "(5% to 10%) increased Health"
+  ],
+  "modifiers": [
+    "+80 Armor",
+    "+(5 to 10) Vitality",
+    "(5% to 10%) increased Health",
+    "Gain a stack of Void Barrier every 5 seconds while above your endurance thresholdVoid Barrier stacks up to 3 times. You take 5% less damage per stack (multiplicative with other modifiers).",
+    "Dropping below your endurance threshold doubles all stacks of Void Barrier for 3 seconds, allowing you to exceed the normal maximum. After that all stacks of Void Barrier are converted to Mimic Feast.Time Rot deals void damage over time for 3 seconds and increases the duration of stuns you receive.",
+    "Each stack of Mimic Feast deals Void Damage over Time to you and disables Void Barrier generation and Health LeechMimic Hunger is an Ailment that lasts 15 seconds and can be cleansed by effects that cleanse negative ailments.",
+    "(15% to 10%) less Void Damage Taken",
+    "(10% to 15%) of Physical Damage Taken as Void",
+    "+(60 to 100) Endurance Threshold"
+  ],
+  "lore": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UAzDsEYA4DYg",
+  "name": "Vilatria's Downfall",
+  "category": "Two-Handed Staff",
+  "baseType": "Moon Staff",
+  "levelRequirement": 46,
+  "classRequirement": null,
+  "implicits": [
+    "+78 Melee Damage",
+    "+(60 to 68) Spell Damage",
+    "(-3 to -4) Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+78 Melee Damage",
+    "+(60 to 68) Spell Damage",
+    "(-3 to -4) Mana Cost for Spell Skills",
+    "Meteor is Converted to LightningConverts meteor's base damage, causing it to no longer scale with fire damage and causing Meteor to count as a lightning spell. Does not affect Shrapnel.",
+    "(200% to 400%) increased Lightning Damage",
+    "+(100 to 200) Mana",
+    "1% increased Shock Duration per Intelligence",
+    "+1 Spell Lightning Damage per 2 Intelligence"
+  ],
+  "lore": "In her old age, Vilatria's hubris only grew. Having defeated all her human challengers, the storm queen's mind turned to Lagon, the fabled god of the sea and storms. With her apprentice, she sailed out from the border town of Etendell, along the estuary and out into the Fogrise sea. Lagon was said to dwell beneath the far seas beyond the western isles, yet the journey was quick for Vilatria as she fuelled her sails with winds of magic. Eventually she alighted at night upon a great isle of rock, coral, and ancient shrines. The moon spoke to her from its reflection flickering on the surface of the sea. It spoke with the voice of Lagon, and it spoke with amusement at her challenge, readily accepting, and opening the heavens. Thousands of years have passed and Vilatria is long dead, and her kingdom fractured, but the storms still rage upon the seas around that isle."
+}

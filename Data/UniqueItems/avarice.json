@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMoZlI",
+  "name": "Avarice",
+  "category": "Gloves",
+  "baseType": "Leather Gloves",
+  "levelRequirement": 6,
+  "classRequirement": null,
+  "implicits": [
+    "+10 Armor",
+    "+(5 to 10) Mana"
+  ],
+  "modifiers": [
+    "+10 Armor",
+    "+(5 to 10) Mana",
+    "3% of Elemental Damage Leeched as Health",
+    "(30% to 39%) Increased Leech Rate",
+    "+13% Elemental Resistance"
+  ],
+  "lore": "Have the wisdom to know what is rightfully yours and the will to seize it."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "UAzCsEYGZiA",
+  "name": "Gambler's Fallacy",
+  "category": "Amulet",
+  "baseType": "Ruby Amulet",
+  "levelRequirement": 1,
+  "classRequirement": null,
+  "implicits": [
+    "+(5 to 25) Health"
+  ],
+  "modifiers": [
+    "+(5 to 25) Health",
+    "Your Skills gain +100% Critical Strike Chance if you have not dealt a Critical Strike Recently. Excludes Channeled Skills.Recently refers to the last 4 seconds.",
+    "50% less Critical Strike Chance if you have dealt a Critical Strike RecentlyMultiplicative with other modifiers",
+    "(10 to 15) Health Gain on Crit"
+  ],
+  "lore": "Just means you're due for a big one, don't worry."
+}

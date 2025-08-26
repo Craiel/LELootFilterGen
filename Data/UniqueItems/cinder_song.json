@@ -1,0 +1,23 @@
+{
+  "id": "UAzBMwZgdiA",
+  "name": "Cinder Song",
+  "category": "Wand",
+  "baseType": "Archive Wand",
+  "levelRequirement": 40,
+  "classRequirement": null,
+  "implicits": [
+    "+(4 to 6) Spell Damage",
+    "-3 Mana Cost for Spell Skills"
+  ],
+  "modifiers": [
+    "+(4 to 6) Spell Damage",
+    "-3 Mana Cost for Spell Skills",
+    "+1 to Level of Fire Spell Skills",
+    "+(17 to 22) Fire Spell Damage",
+    "(120% to 170%) increased Fire Damage",
+    "(15 to 25)% chance to inflict Spreading Flames on HitSpreading flames deals fire damage over time and spreads between enemies. It does not stack.",
+    "-3 Mana Cost for Fire Spells",
+    "+2 Projectiles for FireballIf you have the Embers node on the Fireball tree, this bonus is affected by the additional projectiles penalty on that node."
+  ],
+  "lore": "An ode to fires past."
+}

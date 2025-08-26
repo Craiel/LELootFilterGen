@@ -1,0 +1,24 @@
+{
+  "id": "UAwJgnMwMxA",
+  "name": "Artor's Legacy",
+  "category": "Helmet",
+  "baseType": "Icewolf Pelt",
+  "levelRequirement": 44,
+  "classRequirement": "Primalist",
+  "implicits": [
+    "+84 Armor",
+    "+(32% to 44%) Cold Resistance",
+    "+(104% to 208%) Freeze Rate Multiplier"
+  ],
+  "modifiers": [
+    "+84 Armor",
+    "+(32% to 44%) Cold Resistance",
+    "+(104% to 208%) Freeze Rate Multiplier",
+    "+1 Maximum Companions",
+    "+(1 to 2) to Level of Minion Skills",
+    "(20% to 50%) Increased Chill Duration",
+    "+(20% to 40%) Chance to apply Chill on Melee Hit",
+    "(20% to 30%) increased Melee Attack Speed"
+  ],
+  "lore": "The great wolf Artor ran with Heorot in times long forgotten."
+}

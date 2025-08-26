@@ -1,0 +1,23 @@
+{
+  "id": "UAzDsCYDZSA",
+  "name": "Ashes of Orchirian",
+  "category": "Relic",
+  "baseType": "Overgrowth Bloom",
+  "levelRequirement": 45,
+  "classRequirement": null,
+  "implicits": [
+    "+3 Attunement",
+    "+5% to All Resistances"
+  ],
+  "modifiers": [
+    "+3 Attunement",
+    "+5% to All Resistances",
+    "8% increased Mana Regen",
+    "13% Increased Cast Speed with Physical and Fire Spells",
+    "21% Increased Critical Strike Chance with Physical and Fire Spells",
+    "34% Increased Stun Chance with Physical and Fire Spells",
+    "55% increased Health Regen",
+    "89% increased Physical and Fire Damage"
+  ],
+  "lore": ""
+}

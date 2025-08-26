@@ -1,0 +1,20 @@
+{
+  "id": "UAwVgbAjCBMQ",
+  "name": "Anchor of Oblivion",
+  "category": "Relic",
+  "baseType": "Lost Anchor",
+  "levelRequirement": 80,
+  "classRequirement": null,
+  "implicits": [
+    "(15% to 25%) increased Armor"
+  ],
+  "modifiers": [
+    "(15% to 25%) increased Armor",
+    "(40% to 100%) increased Void Damage",
+    "+40% Endurance",
+    "+(40 to 100) Endurance Threshold",
+    "When a hit leaves you below your endurance threshold you are slowed and release a powerful Wave of Void (2 second cooldown)",
+    "+(10 to 14) Strength"
+  ],
+  "lore": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals."
+}

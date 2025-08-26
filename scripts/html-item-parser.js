@@ -12,7 +12,7 @@ const { JSDOM } = require('jsdom');
  */
 class HTMLItemParser {
   constructor() {
-    this.htmlFile = path.join(__dirname, '..', 'WebData', 'scraped', 'ItemList_Manual.html');
+    this.htmlFile = path.join(__dirname, '..', 'WebData', 'ItemList.html');
     this.outputDir = path.join(__dirname, '..', 'Data');
     this.logger = console;
   }
@@ -173,13 +173,11 @@ class HTMLItemParser {
       name: itemName,
       category: category,
       baseType: baseType,
-      rarity: rarity,
       levelRequirement: levelRequirement,
       classRequirement: classRequirement,
       implicits: implicits,
       modifiers: modifiers,
-      lore: lore,
-      source: 'manual_html'
+      lore: lore
     };
   }
 
@@ -219,11 +217,9 @@ class HTMLItemParser {
     // Save summary
     const summary = {
       parseDate: new Date().toISOString(),
-      source: 'manual_html',
       totalUniqueItems: data.uniqueItems.length,
       totalSubtypes: data.subtypes.length,
-      categories: [...new Set(data.uniqueItems.map(item => item.category))].sort(),
-      rarities: [...new Set(data.uniqueItems.map(item => item.rarity))].sort()
+      categories: [...new Set(data.uniqueItems.map(item => item.category))].sort()
     };
 
     const summaryFile = path.join(this.outputDir, 'html_parse_summary.json');
@@ -250,7 +246,7 @@ class HTMLItemParser {
       this.logger.log(`   Unique Items: ${summary.totalUniqueItems}`);
       this.logger.log(`   Base Types: ${summary.totalSubtypes}`);
       this.logger.log(`   Categories: ${summary.categories.join(', ')}`);
-      this.logger.log(`   Source: ${summary.source}`);
+      this.logger.log(`   Source: manual_html`);
       
       this.logger.log('\n🎉 HTML parsing complete!');
       return summary;

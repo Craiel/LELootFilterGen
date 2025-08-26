@@ -1,0 +1,21 @@
+{
+  "id": "UAzAsoZgNiA",
+  "name": "Wings of Discord",
+  "category": "Body Armor",
+  "baseType": "Banded Armor",
+  "levelRequirement": 64,
+  "classRequirement": null,
+  "implicits": [
+    "+85 Armor"
+  ],
+  "modifiers": [
+    "+85 Armor",
+    "(32% to 16%) less Damage Taken from the First Hit Received from each enemyMultiplicative with other modifiers",
+    "100% increased effect of stats on your Non-Unique Idols that are a different shape to all other equipped Non-Unique IdolsFor example if you have a 4x1 idol, a 3x1 idol, and two 1x3 idols equipped, the stats on the 4x1 idol and the 3x1 idol would have 100% increased effect, but the stats on the 1x3 idols would not be changed. Ignores idols of the Unique rarity.",
+    "+(2% to 4%) Critical Strike Chance",
+    "+(126 to 256) Dodge Rating",
+    "+(256 to 512) Dodge Rating if you have been hit recentlyRecently refers to the past 4 seconds",
+    "+(32 to 64) Ward gained when you Dodge"
+  ],
+  "lore": "Osprix elders used to tell of the Quetzal Dragons, resplendant with wings of mismatched feathers, who were never seen to roost in the same place twice. The elders speculated that having visited every peak and forest in Eterra, they traveled far over the sea in search of new lands."
+}

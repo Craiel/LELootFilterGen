@@ -1,0 +1,26 @@
+{
+  "id": "UAzDsCZwFiA",
+  "name": "The Judicator",
+  "category": "Two-Handed Spear",
+  "baseType": "Dragonslayer Glaive",
+  "levelRequirement": 76,
+  "classRequirement": null,
+  "implicits": [
+    "+107 Melee Damage",
+    "+(4% to 7%) Melee Critical Strike Chance",
+    "+75% Fire Resistance"
+  ],
+  "modifiers": [
+    "+107 Melee Damage",
+    "+(4% to 7%) Melee Critical Strike Chance",
+    "+75% Fire Resistance",
+    "+(26 to 60) Fire Spell Damage",
+    "+(26 to 60) Lightning Melee Damage",
+    "+2 to Level of Judgement",
+    "+2 to Level of Javelin",
+    "(20 to 26)% Increased Cooldown Recovery Speed for Judgement and JavelinHas no effect on Javelin unless it has been given a cooldown",
+    "(60% to 120%) Increased Healing Effectiveness",
+    "(20% to 26%) chance to cast Smite at a nearby enemy on Kill"
+  ],
+  "lore": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it."
+}

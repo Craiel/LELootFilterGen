@@ -1,0 +1,25 @@
+{
+  "id": "UAwRmBYGYA4g",
+  "name": "Whetstone Gavel",
+  "category": "One-Handed Mace",
+  "baseType": "Rune Hammer",
+  "levelRequirement": 78,
+  "classRequirement": null,
+  "implicits": [
+    "+64 Melee Damage",
+    "(80% to 128%) Increased Stun Chance",
+    "+1 to Level of Lightning Skills"
+  ],
+  "modifiers": [
+    "+64 Melee Damage",
+    "(80% to 128%) Increased Stun Chance",
+    "+1 to Level of Lightning Skills",
+    "+1 to Level of Fire Skills",
+    "+1 to Level of Physical Skills",
+    "If you have an Exalted Weapon in your offhand its stats have (90 to 100)% increased effectiveness",
+    "(15% to 35%) increased Armor",
+    "(15% to 35%) of Armor Mitigation also applies to Damage over Time",
+    "+(5 to 13) to All Attributes"
+  ],
+  "lore": "All is judged according to its creation"
+}

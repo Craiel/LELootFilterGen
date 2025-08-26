@@ -1,0 +1,20 @@
+{
+  "id": "UAzCMoFgZiA",
+  "name": "Gladiator's Oath",
+  "category": "One-Handed Sword",
+  "baseType": "Broadsword",
+  "levelRequirement": 31,
+  "classRequirement": null,
+  "implicits": [
+    "+22 Melee Damage"
+  ],
+  "modifiers": [
+    "+22 Melee Damage",
+    "(10% to 15%) increased Melee Attack Speed",
+    "+(20% to 45%) Critical Strike Multiplier while Dual Wielding",
+    "(20% to 40%) Increased Area with Dancing Strikes",
+    "Dancing Strikes' 3rd Strike Creates a Fighting Arena",
+    "+100% Melee Critical Strike Chance while in Dancing Strikes' Fighting Arena"
+  ],
+  "lore": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood."
+}

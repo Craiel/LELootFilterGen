@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsCZQRiA",
+  "name": "Vessel of Strife",
+  "category": "Relic",
+  "baseType": "Silver Grail",
+  "levelRequirement": 86,
+  "classRequirement": null,
+  "implicits": [
+    "+(10 to 25) Mana"
+  ],
+  "modifiers": [
+    "+(10 to 25) Mana",
+    "(20% to 30%) of Health Regen also applies to Ward",
+    "+(40% to 66%) Ward Retention",
+    "+(40 to 66) Mana",
+    "+(4 to 6) Void Spell Damage",
+    "(40% to 66%) increased Void Damage"
+  ],
+  "lore": "The durance of strife is an impossible task. Boiling within, despair's sole fate is to erupt and envelop its vessel."
+}

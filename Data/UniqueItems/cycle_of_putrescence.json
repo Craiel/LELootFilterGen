@@ -1,0 +1,22 @@
+{
+  "id": "UAzAcGZnI",
+  "name": "Cycle of Putrescence",
+  "category": "Ring",
+  "baseType": "Ivory Ring",
+  "levelRequirement": 66,
+  "classRequirement": null,
+  "implicits": [
+    "+(33% to 46%) Necrotic Resistance",
+    "+(46 to 130) Ward Decay Threshold"
+  ],
+  "modifiers": [
+    "+(33% to 46%) Necrotic Resistance",
+    "+(46 to 130) Ward Decay Threshold",
+    "Your Volatile Zombies have a chance to resurrect equal to 100% divided by your Number of ZombiesFor example if you have four zombies and one dies it has a 25% chance to resurrect. Resurrection occurs after 1 second.",
+    "(36% to 81%) increased Minion Spell Damage",
+    "+(18 to 27) Poison Damage for your Minions' Damage Over Time Spells",
+    "+1 to Level of Minion Damage Over Time Skills",
+    "+(27% to 36%) Minion Fire Resistance"
+  ],
+  "lore": "\"The cycle of life and death is forever shattered. Our cities shall not crumble and our citizens shall not yield or die at the whims of a winged devil. We shall persist. Our bodies may whither and decay, but even when we fall we return and persist again. Glory to the new cycle. Glory to persistence and decay. Glory to humanity.\" - Thelocus, Imperial Governor of Argentum"
+}

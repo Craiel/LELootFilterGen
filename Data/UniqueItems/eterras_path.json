@@ -1,0 +1,22 @@
+{
+  "id": "UAzAswJgRiA",
+  "name": "Eterra's Path",
+  "category": "Boots",
+  "baseType": "Brigandine Boots",
+  "levelRequirement": 30,
+  "classRequirement": null,
+  "implicits": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "+(80 to 120) Health",
+    "You and your minions have 20% increased movement speed",
+    "You and your minions have (20 to 28)% increased healing effectiveness",
+    "Every second if you are moving you have a (20 to 28)% chance to cast Summon VinesSummon Vines is an active skill in Spriggan Form and scales with specific nodes on its tree. Limited to 12 Vines by default.",
+    "+1 to Level of Entangling Roots"
+  ],
+  "lore": "Life grows in your footsteps."
+}

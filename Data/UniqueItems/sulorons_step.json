@@ -1,0 +1,20 @@
+{
+  "id": "UAzAsEYyA",
+  "name": "Suloron's Step",
+  "category": "Boots",
+  "baseType": "Brigandine Boots",
+  "levelRequirement": 57,
+  "classRequirement": null,
+  "implicits": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed"
+  ],
+  "modifiers": [
+    "+56 Armor",
+    "(11% to 14%) increased Movement Speed",
+    "+(70% to 105%) Melee Critical Strike Multiplier",
+    "(17% to 22%) increased Movement Speed",
+    "-75% Physical Resistance"
+  ],
+  "lore": "The rebel Suloron struck deep into Majasa's territory, but his fervour could not save him from the matrons' blades."
+}

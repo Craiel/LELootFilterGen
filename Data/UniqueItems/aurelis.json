@@ -1,0 +1,21 @@
+{
+  "id": "UAzBsCZwViA",
+  "name": "Aurelis",
+  "category": "One-Handed Sword",
+  "baseType": "Longsword",
+  "levelRequirement": 50,
+  "classRequirement": null,
+  "implicits": [
+    "+50 Melee Damage"
+  ],
+  "modifiers": [
+    "+50 Melee Damage",
+    "+(20 to 28) Lightning Damage with Spells and Melee Attacks",
+    "+(1 to 2) to Level of Multistrike",
+    "+(1 to 2) to Level of Smite",
+    "100% Chance to cast Smite after you use Multistrike and hit a Boss or Rare enemyCasts smite at the enemy hit. Extra chance above 100% has no effect.",
+    "+(40% to 48%) Chance to apply Electrify on Melee Hit",
+    "(34% to 64%) Lightning Penetration with Electrify"
+  ],
+  "lore": "The sky's wrath alights in a golden storm."
+}

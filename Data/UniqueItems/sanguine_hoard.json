@@ -1,0 +1,21 @@
+{
+  "id": "UAzDMEYA4E4g",
+  "name": "Sanguine Hoard",
+  "category": "Quiver",
+  "baseType": "Nomad Quiver",
+  "levelRequirement": 44,
+  "classRequirement": null,
+  "implicits": [
+    "+(40% to 75%) Chance to apply Bleed on Bow Hit"
+  ],
+  "modifiers": [
+    "+(40% to 75%) Chance to apply Bleed on Bow Hit",
+    "(100% to 125%) of Chance to Inflict Bleed on Hit gained as Bleed Chance per second with Hail of ArrowsIf bleed chance for Hail of Arrows is converted to ignite or poison chance then this added bleed chance is also converted, but still depends on your chance to inflict bleed on hit, not your chance to inflict ignite or poison on hit.",
+    "25% increased Bow Attack Speed",
+    "2% of Damage Over Time Leeched as Health",
+    "+(25 to 45) Health",
+    "+(25 to 45) Mana",
+    "(-15 to -10) Hail of Arrows Mana CostIf Hail of Arrows is channeled this does not affect the channel cost"
+  ],
+  "lore": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\""
+}
