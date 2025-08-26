@@ -1,0 +1,765 @@
+{
+  "name": "Mage",
+  "masteries": [
+    {
+      "name": "Base Class",
+      "skills": [
+        {
+          "name": "Evade",
+          "section": "mage_evade",
+          "description": "Rapidly move a short distance forwards.Evading does not grant damage immunity or prevent abilities from hitting you.Evade gains 0.5% Increased Cooldown Recovery Speed per Character level.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "0.5% Increased Cooldown Recovery Speed"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement"
+          ],
+          "source": "Rogue Level 1"
+        },
+        {
+          "name": "Mana Strike",
+          "section": "mana_strike",
+          "description": "A melee attack that hits all enemies in an area in front of you, returning 15 mana if it hits an enemy.Deals 15 base lightning damage.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 15,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Melee",
+            "Area",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage is applied at 100% effectiveness.",
+          "source": "Mage Level 5"
+        },
+        {
+          "name": "Flame Ward",
+          "section": "flame_ward",
+          "description": "Grants a burst of 400 ward. Then for 3 seconds, hits deal 30% less damage to you and cause a retaliatory burst of flames.",
+          "manaCost": 25,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage",
+                "+1% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Spell",
+            "Buff",
+            "Area",
+            "Instant Cast",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies ot the burst of flames at 200% effectiveness.The area of effect of the burst of flames scales with increased Area of Area Skills stats.",
+          "source": "Mage Level 7"
+        },
+        {
+          "name": "Teleport",
+          "section": "teleport",
+          "manaCost": 28,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "comboSkills": [
+            "Teleport"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Intelligence"
+          ]
+        },
+        {
+          "name": "Focus",
+          "section": "focus",
+          "description": "Hold ability key to channel. While channelling you have 100% increased mana regen and gain 10 ward per second. After channelling for exactly one second you recover 10% of missing mana and gain a burst of 40 mana and ward.",
+          "manaCost": 0,
+          "scaling": [],
+          "tags": [
+            "Spell",
+            "Buff",
+            "Channeled"
+          ],
+          "source": "Mage Level 20"
+        },
+        {
+          "name": "Enchant Weapon",
+          "section": "enchant_weapon",
+          "description": "Active: Enchant your weapon with elemental power. Your melee attacks deal 50% more elemental damage for 5 seconds.Passive: Your melee attacks deal 15% more elemental damage.",
+          "manaCost": 20,
+          "scaling": [],
+          "tags": [
+            "Elemental",
+            "Buff",
+            "Instant Cast"
+          ],
+          "additionalInfo": "Multiplicative with other damage modifiers",
+          "source": "Spellblade Level 15"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "skills": [
+        {
+          "name": "Lightning Blast",
+          "section": "lightning_blast",
+          "description": "Channel to create a beam of pure energy in the target direction. The beam deals fire and lightning damage to all enemies caught in it.Drains 20 mana per second.",
+          "manaCost": 5,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 23,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies at 250% effectiveness each second. Damage reduces while rotating."
+        },
+        {
+          "name": "Fireball",
+          "section": "fireball",
+          "description": "Cast a ball of fire towards the target. Added spell damage applies at 175% effectiveness.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 34,
+            "type": "FireCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Fire",
+            "Spell"
+          ]
+        },
+        {
+          "name": "Elemental Nova",
+          "section": "nova",
+          "description": "Cast a ball of fire dealing moderate damage",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 8,
+            "type": "Fire"
+          },
+          "scaling": [],
+          "tags": [
+            "Lightning",
+            "Cold",
+            "Fire",
+            "Elemental",
+            "Spell",
+            "Channeled"
+          ]
+        },
+        {
+          "name": "Static",
+          "section": "static_spell",
+          "description": "Static charges up as you move or when you get hit. Activate Static to discharge what you have built up, striking up to 5 nearby enemies with lightning.100 charges maximum. Deals 4% more damage per charge.",
+          "manaCost": 15,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 50,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Spell",
+            "Instant Cast",
+            "Intelligence"
+          ],
+          "additionalInfo": "By default static gains 5 charges per second while moving, and also gains 5 charges whenever you take a hit.Added spell damage applies at 250% effectiveness.",
+          "source": "Mage Level 15"
+        },
+        {
+          "name": "Volcanic Orb",
+          "section": "volcanic_orb",
+          "description": "Casts a fiery orb that spews burning shrapnel in all directions.",
+          "manaCost": 70,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 16,
+            "type": "FireCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage is applied at 100% effectiveness.",
+          "source": "Mage Level 15"
+        },
+        {
+          "name": "Static Orb",
+          "section": "static_orb",
+          "description": "Casts an orb in a target direction that deals lightning damage and pulls enemies that it hits towards it as it travels. At the target location it explodes, dealing lightning damage to enemies surrounding it and also striking up to 5 enemies further out. The further it travels the higher the damage and area of effect of the explosion, up to 100%.",
+          "manaCost": 38,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 40,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Spell",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "As the area of effect of the explosion increases so does the maximum range at which it can strike additional enemies. Increased Area for Area Skills stats also affect both and are additive with this increase.Static Orb's added damage is applied at 100% effectiveness and the explosion added damages is applied at 200% effectiveness.",
+          "source": "Sorcerer Level 5"
+        },
+        {
+          "name": "Meteor",
+          "section": "meteor",
+          "description": "Call a meteor from the sky that deals a large amount of damage upon landing. Added damage is applied at 950% effectiveness.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 190,
+            "type": "FireCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Fire",
+            "Spell",
+            "Area"
+          ]
+        },
+        {
+          "name": "Runebolt",
+          "section": "fire_runebolt",
+          "description": "A combo spell that fires piercing projectiles. The first part of the combo is fire, the second is cold, and the third is lightning.",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 66,
+            "type": "Fire"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Elemental",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies at 100% effectiveness. The cold rune bolt has a freeze rate of 40."
+        }
+      ]
+    },
+    {
+      "name": "Runemaster",
+      "skills": [
+        {
+          "name": "Surge",
+          "section": "surge",
+          "description": "Quick fixed distance dash which hits all enemies in the path with a lightning melee attack.",
+          "manaCost": 25,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Melee",
+            "Area",
+            "Movement",
+            "Traversal",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added melee damage applies at 200% effectiveness.Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill.",
+          "source": "Spellblade Level 40"
+        },
+        {
+          "name": "Glyph of Dominion",
+          "section": "glyph_of_dominion",
+          "description": "Places a lightning glyph on the ground that grows over time. Deals lightning damage over time and slows in its area. At full size it detonates, dealing large amounts of lightning damage to enemies within its area. You can have a maximum of one Glyph at a time by default.",
+          "manaCost": 30,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 40,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies to the damage over time at 150% effectiveness each second, and to the explosion at 200% effectiveness.The glyph and its explosion gain up to 150% more radius (multiplicative with other modifiers) over the course of its growth. Modifiers to duration do not affect the total growth.",
+          "source": "Runemaster Level 35"
+        },
+        {
+          "name": "Runic Invocation",
+          "section": "runic_invocation",
+          "description": "Passive: Whenever you directly use an elemental skill, gain 1 Rune of the corresponding element. For channelled skills you gain 1 rune per second instead.Active: Consume all of your active Runes to cast a unique Invocation based on the combination and order of runes consumed.The last Rune in the sequence determines the damage type.Casting a fire skill grants a Rah Rune.Casting a lightning skill grants a Gon Rune.Casting a cold skill grants a Heo Rune.",
+          "manaCost": 15,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Cold",
+            "Fire",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies at varying effectiveness and for Invocations, but the more Runes you have before casting an Invocation the more powerful they become and the more mana they cost.",
+          "source": "Runemaster"
+        }
+      ]
+    },
+    {
+      "name": "Spellblade",
+      "skills": [
+        {
+          "name": "Frost Claw",
+          "section": "frost_claw",
+          "description": "Three projectiles arc to the target location to create a burst of frost. Added spell damage applies to the burst at 100% effectiveness and it has a freeze rate of 40.",
+          "manaCost": 12,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 20,
+            "type": "ColdCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Intelligence"
+          ]
+        },
+        {
+          "name": "Flame Reave",
+          "section": "flame_reave",
+          "description": "A melee attack that release a wave of flames from your weapon cleaving through enemies in a cone infront of you. Deals up to 50% less damage to distant enemies. Deals 16 additional base fire damage. Other added melee damage applies at 200% effectiveness.",
+          "manaCost": 26,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 16,
+            "type": "FireCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Melee",
+            "Area",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "source": "Spellblade Level 5"
+        },
+        {
+          "name": "Firebrand",
+          "section": "firebrand",
+          "description": "A melee attack which grants you a stack of Firebrand buff if it hits an enemy. Each stack of the Firebrand buff increases the size of subsequent Firebrand attacks and adds melee fire damage.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "FireCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Melee",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "Firebrand can stack up to 4 times. Each stack grants +5 melee fire damage, increases the size of Firebrand attacks by 25% and lasts for 4 seconds.Added damage is applied at 100% effectiveness.",
+          "source": "Spellblade Level 30"
+        },
+        {
+          "name": "Shatter Strike",
+          "section": "shatter_strike",
+          "description": "A sweeping melee attack of 2 arcs that strikes enemies in a circle around you dealing cold damage and instantly kills frozen enemies below 10% health.Enemies in the middle of the attack are hit twice, where the arcs overlap.",
+          "manaCost": 15,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "ColdCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Cold Damage",
+                "+4% Freeze Rate Multiplier"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Melee Damage",
+                "+1 Cold Melee Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Melee",
+            "Area",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "Has a freeze rate of 50.Added damage is applied at 100% effectiveness.",
+          "source": "Spellblade"
+        },
+        {
+          "name": "Flame Rush",
+          "section": "flame_rush",
+          "description": "You turn into a ball of flame and launch yourself in the target direction. The longer you hold down the key, the slower you move, but the larger and more damaging the explosion is when you stop channeling. You take 40% less damage during Flame Rush.",
+          "manaCost": 22,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 40,
+            "type": "FireCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Spell",
+            "Area",
+            "Channeled",
+            "Movement",
+            "Traversal",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies to the hit from passing through enemies at 100% effectiveness, and to the explosion at 200% effectiveness.The explosion gains up to 150% more damage (multiplicative with other modifiers) and 150% increased area based on time spent channeling.",
+          "source": "Runemaster Level 5"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "skills": [
+        {
+          "name": "Snap Freeze",
+          "section": "snap_freeze",
+          "description": "Freezes enemies in a cone in front of you. Freeze lasts for 2 seconds.20% of remaining cooldown recovered whenever you freeze an enemy, including with Snap Freeze itself. This effect can occur a maximum of two times each second.",
+          "manaCost": 30,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Area",
+            "Intelligence"
+          ],
+          "source": "Mage Level 3"
+        },
+        {
+          "name": "Glacier",
+          "section": "glacier",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 70,
+            "type": "ColdCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Area"
+          ]
+        },
+        {
+          "name": "Disintegrate",
+          "section": "disintegrate",
+          "description": "Channel to create a beam of pure energy in the target direction. The beam deals fire and lightning damage to all enemies caught in it.",
+          "manaCost": 5,
+          "baseDamage": {
+            "amount": 25,
+            "type": "seconds12"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Fire",
+            "Spell",
+            "Damage Over Time",
+            "Channeled",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies at 480% effectiveness each second. Damage reduces while rotating.",
+          "source": "Mage Level 10"
+        },
+        {
+          "name": "Ice Barrage",
+          "section": "ice_barrage",
+          "description": "Opens a rift that repeatedly shoots a barrage of ice shards in a target direction for 5 seconds.",
+          "manaCost": 50,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 24,
+            "type": "ColdCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage",
+                "+4% Freeze Rate Multiplier"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Ice Shards are cold projectiles that will curve to nearby targets.The shards have a freeze rate of 40.Added damage is applied at 120% effectiveness.",
+          "source": "Sorcerer Level 15"
+        },
+        {
+          "name": "Arcane Ascendance",
+          "section": "arcane_ascendance",
+          "description": "Toggle to prevent movement and drain 25 mana each second. Mana drain increases by 1 mana per second. All spells cost +5 mana to cast. 100% increased spell damage and 50% increased cast speed.",
+          "manaCost": 0,
+          "scaling": [],
+          "tags": [
+            "Spell",
+            "Buff",
+            "Instant Cast"
+          ]
+        },
+        {
+          "name": "Black Hole",
+          "section": "black_hole",
+          "description": "Summon a powerful black hole at target location that aggressively pulls enemies and deals cold damage over time to enemies within its reach.",
+          "manaCost": 35,
+          "baseDamage": {
+            "amount": 3,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage is applied at 600% effectiveness per second. The Black Hole persists for 2.75s by default.",
+          "source": "Sorcerer Level 40"
+        },
+        {
+          "name": "Frost Wall",
+          "section": "frost_wall",
+          "description": "Creates a wall of frost which persists for 6 seconds. Enemies inside the wall take cold damage over time and receive a stack of chill every 0.25 seconds. You can have up to 1 active Frost Wall at a time.Enemies that reach the wall at least 0.2 seconds after it's been created are frozen for twice as long as the wall has existed, up to a 2 second freeze duration. Bosses cannot be frozen in this way.",
+          "manaCost": 35,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 25,
+            "type": "seconds20"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies at 400% effectiveness per second and the damage over time has a freeze rate of 80 per second.",
+          "source": "Runemaster Level 15"
+        }
+      ]
+    }
+  ]
+}

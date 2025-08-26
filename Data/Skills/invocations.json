@@ -1,0 +1,1055 @@
+{
+  "name": "Invocations",
+  "skills": [
+    {
+      "name": "Aergon's Greater Fireball",
+      "section": "runic_invocation26_true_fireball",
+      "description": "Hurls a burning orb that creates a massive explosion at the target location. Enemies can be hit by the orb and explosion independently.The explosion also applies spreading flames, an ailment that deals fire damage over time and does not stack, but spreads between enemies. Spreading flames inflicted this way deals 100% more damage.",
+      "manaCost": 60,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 70,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added spell damage applies at 150% to the orb, and at 350% to the explosion."
+    },
+    {
+      "name": "Aergon's Mirror Bolt",
+      "section": "runic_invocation30_bouncing_projectile",
+      "description": "Conjures a fire bolt which repeatedly bounces between enemies and allies, dealing fire damage to enemies it hits, and granting ward to allies it hits. Whenever it ricochets you gain ward.Ward gained by Allies hit: 20 + 1 per intelligneceWard gained on Ricochet: 30 + 1.5 per intelligence.",
+      "manaCost": 56,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "FireCritical"
+      },
+      "comboSkills": [
+        "Shield Throw"
+      ],
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Intelligence"
+      ],
+      "additionalInfo": "\"Allies\" includes you.Ward gain always scales with your intelligence even when granting ward to allies.The bolt all enemies and allies in its path, even those it does not ricochet from.Added spell damage is applied at 150% effectiveness."
+    },
+    {
+      "name": "Aergon's Plasma Arc",
+      "section": "runic_invocation33_triple_ignite_burst",
+      "description": "Lightning arcs between enemies around the target location, dealing ligthning damage on hit, igniting them and applying spreading flames.Applies 7 stacks of ignite, and ignite applied this way has 70% increased duration and +70% fire penetration.",
+      "manaCost": 38,
+      "triggers": [
+        "Plasma Blast"
+      ],
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added spell damage applies at 150% effectiveness to the lightning hit.Neither the ignite nor the spreading flames count as spell damage.Spreading Flames is a fire damage over time ailment that spreads between enemies and does not stack."
+    },
+    {
+      "name": "Antipode of Mesembria",
+      "section": "runic_invocation45_antipode",
+      "description": "Creates an antipode at the target location. After a few seconds it pulls in all enemies around it and explodes. Added spell damage applies at 900% effectiveness.",
+      "manaCost": 62,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "Fire"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Increased area for area skills stats affect the range at which this skill damages enemies, but not the range at which it pulls enemies in."
+    },
+    {
+      "name": "Antipode of the Rune Slinger",
+      "section": "runic_invocation36_antipode_projectiles",
+      "description": "Conjures an antipode which repeatedly casts Rune Bolts at nearby enemies. This scales with your Rune Bolt tree.",
+      "manaCost": 70,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Ball Lightning",
+      "section": "runic_invocation39_shocking_orb",
+      "description": "Creates a slow moving orb in the target direction. 4 times a second lightning arcs from the orb to up to 7 enemies around it, dealing lightning damage. Added spell damage applies at 100% effectiveness to the orb and each zap hit.",
+      "manaCost": 64,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Covenant Arc",
+      "section": "runic_invocation48_chain_lightning_buff",
+      "description": "Lightning arcs between allies and enemies around the target location. Enemies hit take lightning damage. Allies hit gain a buff that grants +100% chance to shock on hit and +10 lightning damage for spells and attacks. This buffs last 4 seconds and can stack multiple times, but each target can only be hit once per second.Allies hit also gain Frenzy for 4 seconds. Frenzy is a buff that grants 20% increased attack and cast speed, and does not stack.The lightning can arc to you and buff you, but only if you're close enough to the target location or to another target to which it has already arced.",
+      "manaCost": 44,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Buff",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added spell damage is applied at 150% effectiveness to the lightning hit against enemies."
+    },
+    {
+      "name": "Crackling Glyph",
+      "section": "runic_invocation37_lightning_mine",
+      "description": "Places a lightning glyph on the ground that explodes after a short duration. Added spell damage applies at 250% effectiveness.",
+      "manaCost": 16,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Dancing Sparks",
+      "section": "runic_invocation42_lightning_zigzags",
+      "description": "Creates a burst of erratic projectiles that deal lightning damage on hit and grants you ward on hit. The ward gained is equal to 10 + 1 per intelligence.Multiple projectiles cannot hit the same target.Added spell damage applies at 200% effectiveness.",
+      "manaCost": 36,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Dragons' Breath",
+      "section": "runic_invocation16_fire_cold_cone",
+      "description": "An invocation inspired by ancient two headed drakes. Deals fire and cold damage to all enemies in a cone in front of you. Added spell damage applies at 300% effectiveness.",
+      "manaCost": 18,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "Fire"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Echoes of Thunder",
+      "section": "runic_invocation43_static_field",
+      "description": "Creates a series of lightning explosions around the target location and enemies surrounding it. Added spell damage applies at 250% to each explosion and each enemy can only be hit by one explosion.",
+      "manaCost": 46,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Elemental Tide",
+      "section": "runic_invocation23_lots_of_small_explosions",
+      "description": "Creates three cold explosions, then four fire explosions, and then five lightning explosions in concentric half rings in front of you.Added spell damage applies to each explosion at 200% effectiveness and the cold explosions have a freeze rate of 80. Multiple explosions can hit the same target.",
+      "manaCost": 44,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Increased area for area skills stats affect the size of the individual explosions, but not the distance between them."
+    },
+    {
+      "name": "Freezing Cascade",
+      "section": "runic_invocation22_ice_zipper",
+      "description": "Creates a cascade of freezing novas. Whenever an enemy is hit by a nova another one is created around them. Each ice nova has a freeze rate of 40.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 24,
+        "type": "ColdCritical"
+      },
+      "triggers": [
+        "delayerForChainingIceNova"
+      ],
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added damage applies at 120% effectiveness.Each enemy can only be hit by a maximum of one freezing nova."
+    },
+    {
+      "name": "Grand Prism Nova",
+      "section": "runic_invocation19_mega_elemental_nova",
+      "description": "Create a massive burst of fire, cold, and lightning damage that hits all enemies around you. Added spell damage applies at 600% effectiveness.",
+      "manaCost": 50,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "Fire"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Hydrahedron",
+      "section": "runic_invocation27_repeating_fire_mortars",
+      "description": "Conjures a fiery octohedron which repeatedly spews arcing fire projectiles at nearby enemies. The projectiles deal fire damage in a small area on impact.Added spell damage applies at 150% effectiveness to each projectile.",
+      "manaCost": 60,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Increased area for area skills stats only affect the size of the impact of individual projectiles, not the area in which the projectiles are fired."
+    },
+    {
+      "name": "Igneous Rain",
+      "section": "runic_invocation28_meteor_pelting",
+      "description": "Pelts the target area with a barrage of small fiery meteorites that have a 50% chance to ignite enemies, and ignites inflicted this way have 20% increased duration.Added spell damage applies at 150% effectiveness to each hit.",
+      "manaCost": 54,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Increased area for area skills modifiers increases the size of the meteorites' impacts, but not the area in which they fall."
+    },
+    {
+      "name": "Il'kir's Storm Star",
+      "section": "runic_invocation40_explosion_with_sparks",
+      "description": "Lobs a whirling projectile at the target location. It deals fire damage on impact and creates several wild sparks that move randomly and deal lightning damage over time to enemies around them.Added spell damage applies at 400% effectiveness to the impact and at 250% effectiveness per second to each spark.",
+      "manaCost": 42,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 1,
+        "type": "metersInterval"
+      },
+      "comboSkills": [
+        "Rune Hail"
+      ],
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Modifiers to damage over time affect the sparks, but not the initial impact.Increased area for area skills stats affect the impact but not the sparks."
+    },
+    {
+      "name": "Lightning Web",
+      "section": "runic_invocation47_lightning_web",
+      "description": "Lightning repeatedly arcs between enemies around the target. Each enemy can be hit up to three times and added spell damage applies to each hit at 250% effectiveness.",
+      "manaCost": 56,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Plasma Blast",
+      "section": "runic_invocation32_ignite_burst",
+      "description": "Blasts the target enemy with an arc of plasma, dealing lightning damage on hit, igniting them and applying spreading flames.Applies 7 stacks of ignite, and ignite applied this way has 70% increased duration and +70% fire penetration.",
+      "manaCost": 33,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added spell damage applies at 150% effectiveness to the lightning hit.Neither the ignite nor the spreading flames count as spell damage.Spreading Flames is a fire damage over time ailment that spreads between enemies and does not stack."
+    },
+    {
+      "name": "Plasma Orb",
+      "section": "runic_invocation34_fire_orbiter",
+      "description": "Conjures a fiery sphere that orbits you, dealing fire damage to enemies it hits. Lightning repeatedly arcs from the orb to nearby enemies dealing lightning damage on hit.Added spell damage applies at 210% effectiveness to the orb's hits and at 150% to the lightning hits.",
+      "manaCost": 62,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Fire",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Realms of Mayhem",
+      "section": "runic_invocation35_line_of_large_explosions",
+      "description": "Conjures three glyphs in a line in front of you, which explode after a brief delay, dealing cold, lightning, and fire damage respectively.Enemies can be hit by more than one glyph. Added spell damage applies at 250% effectiveness to each glyph and the cold glyph has a freeze rate of 100.",
+      "manaCost": 38,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Reowyn's Doomfrost",
+      "section": "runic_invocation15_attaching_ice_large",
+      "description": "Conjures ice glyphs around up to three target enemies. After a short delay the glyphs detonate, dealing cold damage to all enemies around the targets. Enemies can be hit by multiple detonations.",
+      "manaCost": 48,
+      "triggers": [
+        "Reowyn's Doomfrost"
+      ],
+      "scaling": [],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Area"
+      ],
+      "additionalInfo": "Added spell damage applies at 400% to each detonation and each detonation has a freeze rate of 100."
+    },
+    {
+      "name": "Reowyn's Frostguard",
+      "section": "runic_invocation18_ice_shield",
+      "description": "Casts a shield of mystic frost which grants you a large burst of ward immediately and a smaller amount of ward every 0.4 seconds. If you run out of ward the shield breaks immediately. Otherwise it lasts 13 seconds. While the shield is up you have +100% freeze rate multiplier.Initial ward granted: 100 + 3 per intelligence.Ward granted every 0.4 seconds: 20 + 1 per intelligence.When the shield expires it deals a burst of cold damage to enemies around you. This burst has a freeze rate of 100 and added spell damage applies to it at 250% effectiveness.",
+      "manaCost": 64,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Buff",
+        "Area",
+        "Instant Cast",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Revik's Blizzard",
+      "section": "runic_invocation13_blizzard",
+      "description": "Creates a blizzard at the target location that deals cold damage over time and chills enemies every second. Added damage applies at 300% effectiveness per second. Has a freeze rate of 100 per second.",
+      "manaCost": 45,
+      "criticalChance": "0%",
+      "criticalMultiplier": "100%",
+      "baseDamage": {
+        "amount": 8,
+        "type": "metersInterval"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Damage Over Time",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Rime Spiral",
+      "section": "runic_invocation17_spiral_cold",
+      "description": "Releases a barrage of frost arrows that travel in a spiral. Each enemy can only be hit at most once every 0.3 seconds. The hits have a freeze rate of 70 and added spell damage applies to them at 175% effectiveness.",
+      "manaCost": 46,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Rune Gale",
+      "section": "runic_invocation44_shock_and_haste",
+      "description": "Releases an expanding aura that grants you haste. When the aura hits enemies it shocks them and deals lightning damage. After 1.5 seconds the aura begins to retract and after 3 seconds it detonates dealing lightning damage to enemies in a small area around you.Added spell damage applies at 300% effectiveness to the aura hit and the detonation. Enemies can only be hit by the aura once, but can be hit by both the aura and the detonation.",
+      "manaCost": 48,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Buff",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Rune Shard",
+      "section": "runic_invocation11_cold_projectiles",
+      "description": "Cast a swirling, piercing rune shard that can hit an enemy multiple times. Added spell damage applies at 200% effectiveness.",
+      "manaCost": 10,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Sea of Sparks",
+      "section": "runic_invocation38_lightning_delayed_under_enemies",
+      "description": "Creates a series of sparks under nearby enemies that explode after a short duration. Added damage applies at 200% to each explosion and multiple explosions can hit the same target.",
+      "manaCost": 35,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Increased area for area skills stats affects the size of the individual explosions, but not the area in which the sparks are created."
+    },
+    {
+      "name": "Swirling Frost",
+      "section": "runic_invocation14_attached_whirlwind",
+      "description": "Creates an icy explosion that then forms a cold damage over time aura around the caster.Added damage to the explosion applies at 200% effectiveness and it has a freeze rate of 80.Added damage to the aura applies at 250% effectiveness per second and it has a freeze rate of 100 per second.",
+      "manaCost": 38,
+      "criticalChance": "0%",
+      "criticalMultiplier": "100%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "ColdCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Damage Over Time",
+        "Area"
+      ]
+    },
+    {
+      "name": "Trinity of Elements",
+      "section": "runic_invocation49_tri_beam",
+      "description": "Creates three elemental beams that rotate around you. Added spell damage applies at 250% effectiveness per second for each beam and the cold beam has 100 freeze rate per second.",
+      "manaCost": 67,
+      "criticalChance": "0%",
+      "criticalMultiplier": "100%",
+      "baseDamage": {
+        "amount": 333,
+        "type": "seconds16"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Twin Embers",
+      "section": "runic_invocation24_fire_spin",
+      "description": "Fires two embers in a spiral, each one deals fire damage on hit. Added spell damage applies at 150% effectiveness to each hit. Each target can be hit no more than once per 0.3 seconds.",
+      "manaCost": 12,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Unvar's Eruption",
+      "section": "runic_invocation25_fire_mortars",
+      "description": "Spews fire projectiles at nearby enemies, which each deal damage in a small area on impact. Added spell damage applies at 200% effectiveness to each impact.",
+      "manaCost": 24,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Unvar's Eternal Embers",
+      "section": "runic_invocation29_infinity_fireballs",
+      "description": "Fires two embers which swirl in the shape of an infinity, dealing fire damage on hit. Added spell damage applies at 150% effectiveness to each hit. Each target can be hit no more than once per 0.3 seconds.",
+      "manaCost": 24,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Unvar's Ice Glyph",
+      "section": "runic_invocation12_large_cold_explosion_ward_granter",
+      "description": "A burst of frost that grants 20 ward on hit and has a freeze rate of 100.Added spell damage applies at 250% effectiveness.",
+      "manaCost": 37,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Unvar's Shatter Bolt",
+      "section": "runic_invocation20_bouncing_cold_lightning",
+      "description": "Hurls an arcane bolt that rapidly ricochets between enemies, dealing cold damage on hit and creating a small lightning explosion.The bolt can hit the same enemy multiple times and added spell damage applies at 200% effectiveness to each hit. Its hits have a freeze rate of 80.The lightning explosions hit the original target that caused them and enemies in a small area around them. Added spell damage applies to them at 200% effectiveness.",
+      "manaCost": 36,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "ColdCritical"
+      },
+      "triggers": [
+        "Lightning Explosion"
+      ],
+      "comboSkills": [
+        "Shield Throw"
+      ],
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Cold",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Increased area for area skills stats affect the explosions, but not the projectile."
+    },
+    {
+      "name": "Unvar's Shockwave",
+      "section": "runic_invocation46_discharging_snap",
+      "description": "Creates a rapidly expanding circle that deals lightning damage on hit. Added spell damage applies at 250% effectiveness.",
+      "manaCost": 28,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Vilatria's Storm Lance",
+      "section": "runic_invocation41_mega_lightning_bolt",
+      "description": "An intense beam of lightning that hits all enemies in a line in front of you. Added damage applies at 300% effectiveness.The beam has 100% base critical strike chance, meaning that it always crits unless the target has critical strike avoidance.",
+      "manaCost": 44,
+      "criticalChance": "100%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Wave of Frost",
+      "section": "runic_invocation21_expanding_cold_snap",
+      "description": "An expanding wave that deals cold damage on hit with a freeze rate of 100. Added spell damage applies at 250% effectiveness.",
+      "manaCost": 48,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Winds of Eos",
+      "section": "runic_invocation31_fire_aura_frenzy",
+      "description": "Conjures a fiery explosion, dealing fire damage to enemies it hits and granting you Frenzy and 4 stacks of Fire Aura for 4 seconds.Frenzy is a non-stacking buff that grants 20% increased attack and cast speed. It lasts 4 seconds when gained this way.Fire Aura deals fire damage over time in a small area around you.",
+      "manaCost": 38,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 50,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Buff",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Duration increases to Frenzy and Fire Aura are applied as usual.Added spell damage applies to the explosion at 250% effectiveness.Added spell damage applies to each stack of Fire Aura at 140% effectiveness per second.Increased Area for Area Skills stats can affect both the explosion and Fire Aura, but if the stat only affects Runic Invocation then it will not affect stacks of Fire Aura even if they are gained from this invocation."
+    },
+    {
+      "name": "Wordless Invocation",
+      "section": "runic_invocation10_ward_burst",
+      "description": "Grants you a burst of ward.Ward gained: 80 + 1 per intelligenceCast elemental skills to gain runes and invoke more powerful invocations than this one.",
+      "manaCost": 12,
+      "scaling": [],
+      "tags": [
+        "Spell",
+        "Buff",
+        "Area"
+      ]
+    }
+  ]
+}

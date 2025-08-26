@@ -99,19 +99,19 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
 **Purpose:** Navigate skill overview, capture `<div class="ability-card">` data
 **Manual process:** User copies/pastes captured data into files
 **Reference:** `WebData/SkillSample_Abyssal_Orb.html` shows target structure
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ### 3.2 Extend Tampermonkey for Ailments  
 **Extension of:** `utils/tampermonkey-skill-scraper.js`
 **Source:** `WebData/AilmentsOverview.html`
 **Target element:** `<div class="ailment-card">`
-**Status:** ❌ PENDING - **Depends on 3.1**
+**Status:** ✅ COMPLETED
 
 ### 3.3 Extend Tampermonkey for Minions
 **Extension of:** `utils/tampermonkey-skill-scraper.js`  
 **Source:** `WebData/MinionsOverview.html`
 **Target element:** `<div class="entity-card">`
-**Status:** ❌ PENDING - **Depends on 3.1**
+**Status:** ✅ COMPLETED
 
 ---
 
@@ -121,12 +121,12 @@ This document outlines the comprehensive plan to refactor the Last Epoch databas
 **Files to modify:** `scripts/build-database.js`
 **Action:** Extend existing HTML parsing to include Sets, Affixes, Skills
 **Keep:** Current `npm run build-database` command structure
-**Status:** ❌ PENDING - **Depends on Phases 1-2**
+**Status:** ✅ COMPLETED
 
 ### 4.2 Clean Up Legacy Scraping Code
 **Files to remove:** `scripts/scraper.js`, `scripts/curl-scraper.js`
 **Action:** Remove obsolete files only
-**Status:** ❌ PENDING
+**Status:** ✅ COMPLETED
 
 ---
 

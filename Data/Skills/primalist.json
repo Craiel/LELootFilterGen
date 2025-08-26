@@ -1,0 +1,865 @@
+{
+  "name": "Primalist",
+  "masteries": [
+    {
+      "name": "Base Class",
+      "skills": [
+        {
+          "name": "Evade",
+          "section": "primalist_evade",
+          "description": "Rapidly move a short distance forwards.Evading does not grant damage immunity or prevent abilities from hitting you.Evade gains 0.5% Increased Cooldown Recovery Speed per Character level.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "0.5% Increased Cooldown Recovery Speed"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement"
+          ],
+          "source": "Rogue Level 1"
+        },
+        {
+          "name": "Gathering Storm",
+          "section": "gathering_storm",
+          "description": "Strike at your enemy with a mighty lightning powered storm. When you use Gathering Storm and hit at least one enemy, you gain a Storm Stack. Every second you expend a Storm Stack to cause a Storm Bolt to strike a nearby enemy. This interval is reduced by 2% for every stack you currently have.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "LightningCritical"
+          },
+          "triggers": [
+            "Gathering Storm"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Melee Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+1 Spell Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Melee",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "The attack deals melee lightning damage with added damage applying at 100% effectiveness, and the Storm Bolt deals spell lightning damage with added damage applying at 100% effectiveness.Increased area for area skills stats apply to the melee attack and to the damage area of the Storm Bolt, but not to the area in which enemies are targeted by Storm Bolts."
+        },
+        {
+          "name": "Fury Leap",
+          "section": "fury_leap",
+          "manaCost": 7,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area"
+          ]
+        },
+        {
+          "name": "Summon Thorn Totem",
+          "section": "summon_thorn_totem",
+          "description": "Summons a totem that fires thorns at nearby enemies. You can have a maximum of two thorn totems by default.",
+          "manaCost": 18,
+          "summon": {
+            "count": 1,
+            "type": "Thorn Totem",
+            "limit": 2
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+6 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+6 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Totem",
+            "Attunement"
+          ],
+          "additionalInfo": "Totems scale with your minion or totem stats, not your stats.Added minion spell damage applies at 75% effectiveness for the Thorns fired by the Thorn Totem.Thorn totems have 120 base health and last 6 seconds by default.",
+          "source": "Primalist Level 4"
+        },
+        {
+          "name": "Swipe",
+          "section": "swipe",
+          "description": "A melee attack that hits all enemies in an area in front of you. Unaffected by weapon range.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Strength"
+          ]
+        },
+        {
+          "name": "Tempest Strike",
+          "section": "tempest_strike",
+          "description": "A melee combo attack that cycles through a cold strike, a physical strike, and a lightning strike that trigger elemental Tempest spells of the same damage type if the strikes hit at least one enemy.Cold strike: Triggers a Frigid Tempest, which is a cold projectile that pierces through enemies.Physical strike: Triggers a Wind Tempest, which is a small twister that lasts a short duration dealing physical damage per over time.Lightning strike: Triggers a Thunder Tempest, which is an expanding storm of lightning bolts.",
+          "manaCost": 16,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "LightningCritical"
+          },
+          "triggers": [
+            "Thunder Tempest"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Lightning",
+            "Cold",
+            "Melee",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "Added damage for the melee strikes apply at 100% effectiveness.Frigid Tempest: Added damage applies at 150% effectiveness.Wind Tempest: Added damage applies at 150% effectiveness per second.Thunder Tempest: Added damage applies at 100% effectiveness."
+        },
+        {
+          "name": "Maelstrom",
+          "section": "maelstrom",
+          "description": "Surrounds you with a freezing Maelstrom that deals cold damage over time to nearby enemies.Can be cast repeatedly to create multiple maelstroms at once. Each Maelstrom lasts 7 seconds.",
+          "manaCost": 17,
+          "baseDamage": {
+            "amount": 8,
+            "type": "ColdCan"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage",
+                "+4% Freeze Rate Multiplier"
+              ]
+            }
+          ],
+          "tags": [
+            "Cold",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Attunement"
+          ],
+          "additionalInfo": "Each Maelstrom has a base freeze rate per second of 24.Added spell damage applies to each Maelstrom at 80% effectiveness per second.",
+          "source": "Primalist Level 12"
+        },
+        {
+          "name": "Upheaval",
+          "section": "upheaval",
+          "description": "Sunders the ground in a line in front of you, dealing damage to enemies along the path.",
+          "manaCost": 10,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "Added damage is applied at 150% effectiveness.",
+          "source": "Primalist Level 14"
+        },
+        {
+          "name": "Eterra's Blessing",
+          "section": "eterras_blessing",
+          "description": "The nearest allied target is healed for 100 health. If the target is one of your minions then the healing is tripled and the minion is energised for 4 seconds, increasing its size by 20% and its damage by 100%.",
+          "manaCost": 32,
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "5% Increased Healing Effectiveness",
+                "+3% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Spell",
+            "Buff",
+            "Attunement"
+          ],
+          "source": "Primalist Level 5"
+        },
+        {
+          "name": "Warcry",
+          "section": "warcry",
+          "description": "Unleash a mighty roar that knocks back nearby enemies and stuns them for 1.5 seconds. Rares and bosses are stunned for half as long.20% of remaining cooldown recovered whenever you stun (or freeze if Warcry is converted to cold) an enemy, including with Warcry itself. This effect can occur a maximum of two times each second.",
+          "manaCost": 24,
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Area",
+            "Attunement"
+          ],
+          "source": "Primalist Level 10"
+        }
+      ]
+    },
+    {
+      "name": "Beastmaster",
+      "skills": [
+        {
+          "name": "Summon Wolf",
+          "section": "summon_wolf",
+          "description": "Summons a primal wolf that follows you into combat. When its health drops to 0 it is downed, and you can stand near it to revive it.While you have your maximum number of wolves, the ability is replaced with Howl.The wolf counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 48,
+          "comboSkills": [
+            "Howl"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Primal Wolf",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+12 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+12 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Strength"
+          ],
+          "additionalInfo": "The Wolf has 220 base health and is resistant to powerful area attacks.",
+          "source": "Primalist Level 1"
+        },
+        {
+          "name": "Summon Storm Crows",
+          "section": "summon_storm_crow",
+          "description": "Summons Storm Crows up to your companion limit. The Storm Crow casts spells from a distance. When its health drops to 0 it is downed, and you can stand near it to revive it.The Storm Crow counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 36,
+          "comboSkills": [
+            "Crowstorm"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Storm Crow",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+10 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+10 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+10 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "The crow has 200 base health and is resistant to powerful area attacks.",
+          "source": "Primalist Level 15"
+        },
+        {
+          "name": "Serpent Strike",
+          "section": "serpent_strike",
+          "description": "Requires a spear.A melee attack with 140% poison chance.Poisons inflicted by serpent strike last 40% longer.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage",
+                "+4% Chance to apply Poison on Melee Hit"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Poison",
+            "Melee",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "Poison chance above 100% gives a chance to apply additional stacks of poison (this mechanic applies to all hits, not just Serpent Strike).Added damage is applied at 100% effectiveness.",
+          "source": "Primalist Level 20"
+        },
+        {
+          "name": "Summon Bear",
+          "section": "summon_bear",
+          "description": "Summons a primal bear that follows you into combat. When its health drops to 0 it is downed, and you can stand near it to revive it.The bear counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 60,
+          "comboSkills": [
+            "Bear Roar"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Primal Bear",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+20 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+20 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Strength"
+          ],
+          "additionalInfo": "Primals bears have 300 base health and is resistant to powerful area attacks.",
+          "source": "Beastmaster Level 5"
+        },
+        {
+          "name": "Summon Scorpion",
+          "section": "summon_scorpion",
+          "description": "Summons a scorpion that follows you into combat. Its attacks with its tails inflict a long lasting poison. When its health drops to 0 it is downed, and you can stand near it to revive it.The scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 70,
+          "comboSkills": [
+            "Venom Nova"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Primal Scorpion",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+15 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+12 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+15 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "The scorpion has 400 base health and is resistant to powerful area attacks.",
+          "source": "Beastmaster Level 15"
+        },
+        {
+          "name": "Summon Frenzy Totem",
+          "section": "summon_frenzy_totem",
+          "description": "Summons a totem that grants Frenzy to all nearby allies. Frenzy increases attack and cast speed by 20%.",
+          "manaCost": 18,
+          "summon": {
+            "count": 1,
+            "type": "Frenzy Totem",
+            "limit": 2
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+5 Minion Health"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+3 Minion Health",
+                "1% Increased Minion Frenzy Effect"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+5 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Totem",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "Frenzy totems have 120 base health and last 6 seconds.",
+          "source": "Beastmaster Level 25"
+        },
+        {
+          "name": "Summon Sabertooth",
+          "section": "summon_sabertooth",
+          "description": "Summons a primal sabertooth cat that leaps into combat. When its health drops to 0 it is downed, and you can stand near it to revive it.The sabertooth cat counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 60,
+          "comboSkills": [
+            "Flurry Swipes"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Primal Sabertooth",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+12 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+12 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+12 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "The sabertooth has 240 base health and is resistant to powerful area attacks.",
+          "source": "Beastmaster Level 35"
+        },
+        {
+          "name": "Summon Raptor",
+          "section": "summon_raptor",
+          "description": "Summons a primal raptor that ferociously attacks your enemies. When its health drops to 0 it is downed, and you can stand near it to revive it.The raptor counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 60,
+          "comboSkills": [
+            "Rampage"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Primal Raptor",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+12 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+12 Minion Health",
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+12 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "The raptor has 240 base health and is resistant to powerful area attacks.",
+          "source": "Beastmaster"
+        }
+      ]
+    },
+    {
+      "name": "Shaman",
+      "skills": [
+        {
+          "name": "Tornado",
+          "section": "tornado",
+          "description": "Conjures a tornado that moves at random, pulling in nearby enemies and dealing physical damage to them.",
+          "manaCost": 22,
+          "baseDamage": {
+            "amount": 7,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Attunement"
+          ],
+          "additionalInfo": "Added damage applies to the damage over time at 125% effectiveness per second.",
+          "source": "Shaman Level 5"
+        },
+        {
+          "name": "Earthquake",
+          "section": "earthquake_slam",
+          "description": "A melee attack that hits all enemies in an area around you sending out tremors to nearby enemies.",
+          "manaCost": 35,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Strength",
+            "Attunement"
+          ]
+        },
+        {
+          "name": "Avalanche",
+          "section": "avalanche",
+          "description": "Launches an icy boulder from the sky.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 40,
+            "type": "Physical"
+          },
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Cold",
+            "Spell",
+            "Area"
+          ],
+          "additionalInfo": "Added damage is applied at 300% effectiveness."
+        },
+        {
+          "name": "Summon Storm Totem",
+          "section": "summon_storm_totem",
+          "description": "Summons a totem that casts lightning storms around nearby enemies.Storm totems last 8 seconds, and you cannot control more than 1 at once.",
+          "manaCost": 20,
+          "summon": {
+            "count": 1,
+            "type": "Storm Totem",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+6 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+6 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Totem",
+            "Attunement"
+          ],
+          "additionalInfo": "Storm totems have 120 base health",
+          "source": "Shaman"
+        }
+      ]
+    },
+    {
+      "name": "Druid",
+      "skills": [
+        {
+          "name": "Spriggan Form",
+          "section": "spriggan_form",
+          "description": "Transform into a forest spriggan, increasing your spell casting capabilities, and gaining 4 new abilities.Your mana is replaced with Rage while in spriggan form. When your Rage reaches 0 you automatically transform back into your human form. Your starting Rage is equal to your maximum mana. Rage slowly decays over time at a constant rate.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 20,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Minion",
+            "Totem",
+            "Buff",
+            "Area",
+            "Transform",
+            "Attunement"
+          ],
+          "additionalInfo": "The four new abilities are: Spirit Thorns, Thorn Shield, Summon Vine and Summon Healing Totem.While in spriggan form you have 50% increased spell damage and +300 armor.",
+          "source": "Druid Level 5"
+        },
+        {
+          "name": "Summon Spriggan",
+          "section": "summon_spriggan",
+          "description": "Summon a spriggan that casts spells to attack your enemies and has a passive Healing Aura that restores 10 health per second. When its health drops to 0 it is downed, and you can stand near it to revive it.The spriggan counts as a companion. You can have a maximum of two companions at once by default.",
+          "manaCost": 70,
+          "comboSkills": [
+            "Rejuvenating Wind"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Spriggan",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+8 Minion Health",
+                "4% increased Minion Damage",
+                "4% Minion Increased Healing Effectiveness"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+8 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Attunement"
+          ],
+          "additionalInfo": "The spriggan has 160 base health and is resistant to powerful area attacks.",
+          "source": "Druid Level 15"
+        },
+        {
+          "name": "Swarmblade Form",
+          "section": "swarmblade_form",
+          "description": "Transform into an agile Swarmblade, increasing your melee capabilities, and gaining 4 new abilities.Your mana is replaced with Rage while in swarmblade form. When your Rage reaches 0 you automatically transform back into your human form. Your starting Rage is equal to your maximum mana. Rage slowly decays over time at a constant rate.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 15,
+            "type": "metersInterval"
+          },
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Damage Over Time",
+            "Minion",
+            "Area",
+            "Transform",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "The four new abilities are: Armblade Slashes, Swarm Strike, Dash and Summon Hive.While in Swarmblade Form you have 10% increased melee attack speed and movement speed.",
+          "source": "Druid Level 25"
+        },
+        {
+          "name": "Entangling Roots",
+          "section": "entangling_roots",
+          "description": "Smites a target enemy with a bolt of holy fire that descends from the sky, healing allies around the target for 60 health. If you are in the area you are also healed.Cannot be used without a target.",
+          "manaCost": 3,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 25,
+            "type": "seconds10"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage",
+                "4% increased Increased Healing Effectiveness"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Attunement"
+          ],
+          "additionalInfo": "Added spell damage applies at 150% effectiveness"
+        },
+        {
+          "name": "Werebear Form",
+          "section": "werebear_form",
+          "description": "Transform into a ferocious werebear, increasing your physical capabilities and gaining 4 new abilities. Your mana is replaced with Rage while in werebear form. When your Rage reaches 0 you automatically transform back into your human form. Your starting Rage is equal to your maximum mana. Rage slowly decays over time at a constant rate.",
+          "manaCost": 0,
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Transform",
+            "Movement",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "The four new abilities are: Rampage, Swipe, Maul and Roar. Swipe and Roar inherit all bonuses from your Swipe and Warcry skill trees.While in bear form you have 50% increased melee damage and 15% increased health.",
+          "source": "Druid"
+        }
+      ]
+    }
+  ]
+}

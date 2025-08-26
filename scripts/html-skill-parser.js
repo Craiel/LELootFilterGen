@@ -13,8 +13,35 @@ const { JSDOM } = require('jsdom');
 class HTMLSkillParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'SkillOverview.html');
+    this.skillDataFile = path.join(__dirname, '..', 'WebData', 'SkillData.json');
     this.outputDir = path.join(__dirname, '..', 'Data');
     this.logger = console;
+    this.scrapedSkillData = null;
+    this.globalTags = new Set(); // Track all unique tags
+  }
+
+  /**
+   * Load scraped skill data for integration
+   */
+  async loadScrapedSkillData() {
+    if (await fs.pathExists(this.skillDataFile)) {
+      this.logger.log('📄 Loading scraped SkillData.json...');
+      const skillData = await fs.readJson(this.skillDataFile);
+      this.scrapedSkillData = new Map();
+      
+      // Create lookup map by skill name (navText)
+      if (skillData.items) {
+        for (const item of skillData.items) {
+          if (item.navText && item.navText !== 'Changelog') {
+            this.scrapedSkillData.set(item.navText, item);
+          }
+        }
+      }
+      
+      this.logger.log(`📊 Loaded ${this.scrapedSkillData.size} scraped skill entries for integration`);
+    } else {
+      this.logger.log('⚠️ SkillData.json not found - parsing without scraped data integration');
+    }
   }
 
   /**
@@ -24,6 +51,9 @@ class HTMLSkillParser {
     if (!await fs.pathExists(this.htmlFile)) {
       throw new Error(`HTML file not found: ${this.htmlFile}`);
     }
+
+    // Load scraped data first
+    await this.loadScrapedSkillData();
 
     this.logger.log('📄 Loading SkillOverview HTML file...');
     const htmlContent = await fs.readFile(this.htmlFile, 'utf8');
@@ -74,9 +104,9 @@ class HTMLSkillParser {
         });
         
         // Count skills safely
-        if (isClass && sectionData.masteries) {
+        if (isClass && sectionData.masteries && Array.isArray(sectionData.masteries)) {
           results.totalSkills += sectionData.masteries.reduce((sum, mastery) => sum + (mastery.skills?.length || 0), 0);
-        } else if (!isClass && sectionData.skills) {
+        } else if (!isClass && sectionData.skills && Array.isArray(sectionData.skills)) {
           results.totalSkills += sectionData.skills.length;
         }
       }
@@ -143,11 +173,13 @@ class HTMLSkillParser {
       }
     }
 
-    this.logger.log(`   📚 ${className}: Found ${classData.masteries.length} masteries with ${classData.masteries.reduce((sum, m) => sum + m.skills.length, 0)} total skills`);
+    this.logger.log(`   📚 ${className}: Found ${classData.masteries?.length || 0} masteries with ${classData.masteries?.reduce((sum, m) => sum + m.skills.length, 0) || 0} total skills`);
     
     // Log mastery breakdown
-    for (const mastery of classData.masteries) {
-      this.logger.log(`      - ${mastery.name}: ${mastery.skills.length} skills`);
+    if (classData.masteries) {
+      for (const mastery of classData.masteries) {
+        this.logger.log(`      - ${mastery.name}: ${mastery.skills?.length || 0} skills`);
+      }
     }
 
     return classData;
@@ -325,16 +357,307 @@ class HTMLSkillParser {
         }
         
         if (skillName && skillName.length > 0) {
-          skills.push({
+          const skillData = {
             name: skillName,
-            link: link.getAttribute('href') || '',
             section: link.getAttribute('section') || ''
-          });
+          };
+          
+          // Integrate scraped data if available
+          if (this.scrapedSkillData && this.scrapedSkillData.has(skillName)) {
+            const scrapedInfo = this.scrapedSkillData.get(skillName);
+            const extractedSkillData = this.extractSkillGameData(scrapedInfo);
+            Object.assign(skillData, extractedSkillData);
+          }
+          
+          skills.push(skillData);
         }
       }
     }
     
     return skills;
+  }
+
+  /**
+   * Extract relevant game data from scraped skill information
+   */
+  extractSkillGameData(scrapedInfo) {
+    const skillData = {};
+    
+    // Add description
+    if (scrapedInfo.description) {
+      skillData.description = scrapedInfo.description;
+    }
+
+    // Extract skill stats from HTML if available
+    if (scrapedInfo.rawHtml) {
+      const htmlData = this.parseSkillHtml(scrapedInfo.rawHtml);
+      Object.assign(skillData, htmlData);
+    }
+
+    // Note: Removed lists processing as requested - focusing on structured HTML parsing instead
+
+    return skillData;
+  }
+
+  /**
+   * Parse skill HTML to extract key game statistics
+   */
+  parseSkillHtml(rawHtml) {
+    const skillData = {};
+    
+    try {
+      const dom = new JSDOM(rawHtml);
+      const doc = dom.window.document;
+
+      // Extract basic stats
+      this.extractBasicStats(doc, rawHtml, skillData);
+      
+      // Extract structured data blocks
+      this.extractStructuredBlocks(doc, skillData);
+      
+      // Extract tags and add to global tracking
+      this.extractAndTrackTags(doc, skillData);
+
+      // Extract additional info sections
+      this.extractAdditionalInfo(doc, skillData);
+
+    } catch (error) {
+      console.warn(`Failed to parse HTML for skill: ${error.message}`);
+    }
+
+    return skillData;
+  }
+
+  /**
+   * Extract basic stats like mana cost, cooldown, etc.
+   */
+  extractBasicStats(doc, rawHtml, skillData) {
+    // Mana cost
+    const manaCostMatch = rawHtml.match(/Mana Cost:\s*<[^>]*><[^>]*>(\d+)<\/[^>]*><\/[^>]*>/);
+    if (manaCostMatch) {
+      skillData.manaCost = parseInt(manaCostMatch[1]);
+    }
+
+    // Cooldown
+    const cooldownMatch = rawHtml.match(/Cooldown:\s*<[^>]*><[^>]*>([^<]+)<\/[^>]*><\/[^>]*>/);
+    if (cooldownMatch) {
+      skillData.cooldown = cooldownMatch[1].trim();
+    }
+
+    // Base Speed
+    const baseSpeedMatch = rawHtml.match(/Base Speed:\s*<[^>]*><[^>]*>([^<]+)<\/[^>]*><\/[^>]*>/);
+    if (baseSpeedMatch) {
+      skillData.baseSpeed = baseSpeedMatch[1].trim();
+    }
+
+    // Use Delay and Duration
+    const useDelayMatch = rawHtml.match(/Use Delay:\s*<[^>]*><[^>]*>([^<]+)<\/[^>]*><\/[^>]*>/);
+    if (useDelayMatch) {
+      skillData.useDelay = useDelayMatch[1].trim();
+    }
+
+    const useDurationMatch = rawHtml.match(/Use Duration:\s*<[^>]*><[^>]*>([^<]+)<\/[^>]*><\/[^>]*>/);
+    if (useDurationMatch) {
+      skillData.useDuration = useDurationMatch[1].trim();
+    }
+
+    // Critical stats
+    const critChanceMatch = rawHtml.match(/Critical Chance:\s*<[^>]*>([^<]+)<\/[^>]*>/);
+    if (critChanceMatch) {
+      skillData.criticalChance = critChanceMatch[1].trim();
+    }
+
+    const critMultMatch = rawHtml.match(/Critical Multiplier:\s*<[^>]*>([^<]+)<\/[^>]*>/);
+    if (critMultMatch) {
+      skillData.criticalMultiplier = critMultMatch[1].trim();
+    }
+  }
+
+  /**
+   * Extract structured data blocks (Scaling, Summon, Base Damage, etc.)
+   */
+  extractStructuredBlocks(doc, skillData) {
+    const abilityParams = doc.querySelectorAll('.ability-params');
+    
+    for (const param of abilityParams) {
+      const text = param.textContent.trim();
+      
+      // Base Damage section
+      if (text.includes('Base Damage:')) {
+        skillData.baseDamage = this.extractBaseDamageInfo(param);
+      }
+      
+      // Scaling section
+      if (text.includes('Scaling:')) {
+        skillData.scaling = this.extractScalingInfo(param);
+      }
+      
+      // Summon section
+      if (text.includes('Summon:')) {
+        skillData.summon = this.extractSummonInfo(param);
+      }
+      
+      // Combo skills section
+      if (text.includes('Combo skills:')) {
+        skillData.comboSkills = this.extractComboSkillsInfo(param);
+      }
+      
+      // Trigger section
+      if (text.includes('Trigger on hit:') || text.includes('Trigger on')) {
+        skillData.triggers = this.extractTriggersInfo(param);
+      }
+    }
+  }
+
+  /**
+   * Extract Base Damage information
+   */
+  extractBaseDamageInfo(param) {
+    const damageInfo = {};
+    const text = param.textContent;
+    
+    // Extract damage amount and type
+    const damageMatch = text.match(/(\d+)\s+(\w+)/);
+    if (damageMatch) {
+      damageInfo.amount = parseInt(damageMatch[1]);
+      damageInfo.type = damageMatch[2];
+    }
+    
+    return damageInfo;
+  }
+
+  /**
+   * Extract Scaling information
+   */
+  extractScalingInfo(param) {
+    const scaling = [];
+    
+    // Look for attribute scaling sections
+    const scalingSections = param.querySelectorAll('.attr-scaling');
+    for (const section of scalingSections) {
+      const attributeText = section.textContent.trim();
+      const nextSibling = section.nextElementSibling;
+      
+      if (nextSibling && nextSibling.classList.contains('attr-scaling-stats')) {
+        const stats = [];
+        const statItems = nextSibling.querySelectorAll('li');
+        for (const item of statItems) {
+          stats.push(item.textContent.trim());
+        }
+        
+        scaling.push({
+          attribute: attributeText,
+          effects: stats
+        });
+      }
+    }
+    
+    return scaling;
+  }
+
+  /**
+   * Extract Summon information
+   */
+  extractSummonInfo(param) {
+    const summon = {};
+    
+    // Extract summon count and type
+    const countMatch = param.textContent.match(/(\d+) x/);
+    if (countMatch) {
+      summon.count = parseInt(countMatch[1]);
+    }
+    
+    const entityLink = param.querySelector('.entity-link');
+    if (entityLink) {
+      summon.type = entityLink.textContent.trim();
+    }
+    
+    const limitMatch = param.textContent.match(/Summon limit:\s*(\d+)/);
+    if (limitMatch) {
+      summon.limit = parseInt(limitMatch[1]);
+    }
+    
+    return summon;
+  }
+
+  /**
+   * Extract Combo Skills information
+   */
+  extractComboSkillsInfo(param) {
+    const comboSkills = [];
+    const skillLinks = param.querySelectorAll('.ability-link');
+    
+    for (const link of skillLinks) {
+      comboSkills.push(link.textContent.trim());
+    }
+    
+    return comboSkills;
+  }
+
+  /**
+   * Extract Triggers information
+   */
+  extractTriggersInfo(param) {
+    const triggers = [];
+    const triggerLinks = param.querySelectorAll('.ability-link');
+    
+    for (const link of triggerLinks) {
+      triggers.push(link.textContent.trim());
+    }
+    
+    return triggers;
+  }
+
+  /**
+   * Extract and track all tags globally
+   */
+  extractAndTrackTags(doc, skillData) {
+    // Scaling Tags
+    const scalingTagsEl = doc.querySelector('.ability-params:has(.ability-tags)');
+    if (scalingTagsEl) {
+      const tags = [];
+      const tagElements = scalingTagsEl.querySelectorAll('.ability-tag');
+      for (const tagEl of tagElements) {
+        const tag = tagEl.textContent.trim();
+        tags.push(tag);
+        this.globalTags.add(tag); // Add to global tracking
+      }
+      if (tags.length > 0) {
+        skillData.tags = tags;
+      }
+    }
+
+    // Minion Tags (for minion-related skills)
+    const minionTagsSection = doc.querySelector('.ability-params');
+    if (minionTagsSection && minionTagsSection.textContent.includes('Minion Tags:')) {
+      const minionTags = [];
+      const minionTagElements = minionTagsSection.querySelectorAll('.ability-tag');
+      for (const tagEl of minionTagElements) {
+        const tag = tagEl.textContent.trim();
+        minionTags.push(tag);
+        this.globalTags.add(tag); // Add to global tracking
+      }
+      if (minionTags.length > 0) {
+        skillData.minionTags = minionTags;
+      }
+    }
+  }
+
+  /**
+   * Extract additional information sections
+   */
+  extractAdditionalInfo(doc, skillData) {
+    // Alt-text for additional descriptions
+    const altTextEl = doc.querySelector('.ability-alt-text');
+    if (altTextEl) {
+      skillData.additionalInfo = altTextEl.textContent.trim();
+    }
+
+    // Source class/level requirement
+    const sourceClassEl = doc.querySelector('.ability-source-class');
+    if (sourceClassEl) {
+      skillData.source = sourceClassEl.textContent.trim();
+    }
   }
 
   /**
@@ -491,7 +814,7 @@ class HTMLSkillParser {
         fileName: fileName
       };
 
-      if (section.type === 'class' && section.data.masteries) {
+      if (section.type === 'class' && section.data.masteries && Array.isArray(section.data.masteries)) {
         sectionSummary.masteryCount = section.data.masteries.length;
         sectionSummary.skillCount = section.data.masteries.reduce((sum, mastery) => sum + (mastery.skills?.length || 0), 0);
         sectionSummary.masteries = section.data.masteries.map(mastery => ({
@@ -512,6 +835,13 @@ class HTMLSkillParser {
     this.logger.log(`📁 Created ${savedFiles.length} skill section files`);
 
     return summary;
+  }
+
+  /**
+   * Get collected global tags
+   */
+  getGlobalTags() {
+    return Array.from(this.globalTags).sort();
   }
 
   /**

@@ -1,0 +1,2241 @@
+{
+  "name": "From Equipment",
+  "skills": [
+    {
+      "name": "Aftershock",
+      "section": "earthquake_aftershock",
+      "description": "Seeks out targets and erupts, damaging all nearby enemies.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 2,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Area",
+        "Strength",
+        "Attunement"
+      ],
+      "additionalInfo": "Added damage is applied at 200% effectiveness"
+    },
+    {
+      "name": "Alluvion Wave",
+      "section": "alluvion_wave",
+      "description": "A wave of crashing water dealing spell cold damage in a wide area. Added spell damage is applied at 400% effectiveness.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 80,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Intelligence",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Avalanche",
+      "section": "avalanche_snowball",
+      "description": "Launches an icy boulder from the sky.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "Physical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Cold",
+        "Spell",
+        "Area"
+      ],
+      "additionalInfo": "Added damage is applied at 300% effectiveness."
+    },
+    {
+      "name": "Axe Throw",
+      "section": "axe_throw",
+      "description": "Throws an axe at a nearby enemy.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 25,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Throwing",
+        "Strength",
+        "Dexterity"
+      ],
+      "additionalInfo": "This is a throwing attack that scales with throwing attack damage and throwing attack speed. It is not a melee attack or spell.Added damage is applied at 100% effectiveness."
+    },
+    {
+      "name": "Bear Roar",
+      "section": "bear_ability",
+      "description": "The companion ability of your Primal Bear.Releases a mighty roar, taunting enemies around it and healing it for 25% of its maximum health.",
+      "manaCost": 40,
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Spell",
+        "Area",
+        "Instant Cast",
+        "Attunement"
+      ],
+      "additionalInfo": "The healing scales with your bear's increased healing effectiveness. The area scales your bear's increased area for area skills stats."
+    },
+    {
+      "name": "Blood Splatter",
+      "section": "blood_splatter",
+      "description": "Blood Splatter is a physical spell dealing damage to other enemies around the target, but not the original target. Added damage applies at 50% effectiveness.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 10,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Spell",
+        "Area"
+      ]
+    },
+    {
+      "name": "Bone Armor",
+      "section": "bone_armor",
+      "description": "A protective coating of bone armor which grants 8% less damage taken for 4 seconds.",
+      "manaCost": 0,
+      "scaling": [],
+      "tags": [
+        "Spell",
+        "Buff"
+      ]
+    },
+    {
+      "name": "Bone Nova",
+      "section": "bone_nova",
+      "description": "Bones fly out in all directions, impaling enemies.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Spell"
+      ],
+      "additionalInfo": "Added damage is applied at 100% effectiveness."
+    },
+    {
+      "name": "Bone Shatter",
+      "section": "bone_shatter",
+      "description": "Launch splintered bones that impale enemies.",
+      "manaCost": 6,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Spell"
+      ],
+      "additionalInfo": "Added damage is applied at 100% effectiveness."
+    },
+    {
+      "name": "Burning Dagger",
+      "section": "burning_dagger",
+      "description": "Launch a burning dagger at a nearby enemy.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Throwing",
+        "Dexterity"
+      ],
+      "additionalInfo": "Added damage is applied at 150% effectiveness."
+    },
+    {
+      "name": "Caltrops",
+      "section": "caltrops",
+      "description": "Creates an area of sharp Caltrops that deals physical damage when enemies first walk over them.Enemies can only take damage once per Caltrops area, but stacking multiple on top of each other will still cause enemies to take damage from each of the areas.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Throwing"
+      ],
+      "additionalInfo": "Added damage applies at 200% effectiveness."
+    },
+    {
+      "name": "Create Shadow",
+      "section": "create_shadow",
+      "manaCost": 0,
+      "scaling": []
+    },
+    {
+      "name": "Cremate",
+      "section": "pontifex_cremate",
+      "description": "Burns a corpse, dealing fire damage to surrounding enemies.Has a 10% chance to raise a burning skeleton from the remains.",
+      "manaCost": 10,
+      "baseDamage": {
+        "amount": 2,
+        "type": "metersInterval"
+      },
+      "summon": {
+        "count": 1,
+        "type": "Burning Skeleton"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage",
+            "4% increased Minion Damage",
+            "+20 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+20 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Minion",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Crowstorm",
+      "section": "storm_crow_ability",
+      "description": "The companion ability of your Storm Crows.Your crows call down a single massive lightning strike on the targeted area after a brief delay, hitting all enemies in the area. Deals 30% more damage per contributing crow.",
+      "manaCost": 38,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 80,
+        "type": "LightningCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Attunement"
+      ],
+      "additionalInfo": "Your crows' added spell damage applies at 400% effectiveness by default.Not affected by increased cast speed."
+    },
+    {
+      "name": "Decimate",
+      "section": "gaspar_set_swipe",
+      "description": "Slashes the area infront of you with void. Added spell damage is applied at 800% effectiveness.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 160,
+        "type": "VoidCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Void",
+        "Spell",
+        "Area",
+        "Intelligence",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Divine Bolt",
+      "section": "divine_bolt",
+      "description": "Cast a bolt of divine fire towards the target.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage",
+            "4% increased Increased Healing Effectiveness"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Attunement"
+      ],
+      "additionalInfo": "Added damage is applied at 100% effectiveness."
+    },
+    {
+      "name": "Doom Pulse",
+      "section": "doom_pulse",
+      "description": "Unleashes a wave of void energy in the target direction. Added spell damage is applied at at 500% effectiveness.",
+      "manaCost": 3,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 100,
+        "type": "VoidCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Void",
+        "Spell",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Dragonfire",
+      "section": "dragon_song_explosion",
+      "description": "A burst of firey breath that deals damage to enemies in a cone in the direction you're facing. Added spell damage applies at 900% effectiveness.",
+      "manaCost": 7,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 180,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Area",
+        "Dexterity"
+      ]
+    },
+    {
+      "name": "Dragonflame Nova",
+      "section": "dragonfire_nova",
+      "description": "Create a burst of fire damage around a minion. This ability is cast by your minion, not by you.",
+      "manaCost": 7,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 80,
+        "type": "FireCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Fire",
+        "Spell"
+      ],
+      "additionalInfo": "Added damage applies at 400% effectiveness."
+    },
+    {
+      "name": "Falcon Strikes",
+      "section": "falcon_strikes",
+      "description": "Your Falcon rapidly strike enemies within the target area.",
+      "manaCost": 35,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "PhysicalCritical"
+      },
+      "comboSkills": [
+        "Shield Throw"
+      ],
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Minion"
+      ],
+      "additionalInfo": "Added damage is applied at 150% effectiveness."
+    },
+    {
+      "name": "Fire Aura",
+      "section": "fire_aura",
+      "description": "Deals fire damage in an area around you. Can be converted to cold or lightning.",
+      "manaCost": 0,
+      "baseDamage": {
+        "amount": 14,
+        "type": "FireCan"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage",
+            "4% increased Freeze Rate Multiplier"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Damage Over Time",
+        "Area",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added spell damage is applied at 140% effectiveness per second."
+    },
+    {
+      "name": "Fire Trail",
+      "section": "fire_trail",
+      "description": "Leaves a trail of fire behind you, igniting enemies each second.",
+      "manaCost": 0,
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Damage Over Time",
+        "Instant Cast",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Flame Whip",
+      "section": "flame_whip",
+      "description": "A fire whip that lashes at a nearby enemy.",
+      "manaCost": 3,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added damage is applied at 300% effectiveness."
+    },
+    {
+      "name": "Flurry Swipes",
+      "section": "sabertooth_ability",
+      "description": "The companion ability of your Primal Sabertooth.Releases three swipes in rapid succession",
+      "manaCost": 36,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Area",
+        "Instant Cast",
+        "Attunement"
+      ],
+      "additionalInfo": "Scales with your sabertooth's stats rather than yours"
+    },
+    {
+      "name": "Freezing Conction",
+      "section": "freezing_concoction",
+      "description": "A splash of freezing potion that deals no damage, but has 400 Freeze Rate.",
+      "manaCost": 7,
+      "scaling": [],
+      "tags": [
+        "Cold",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Healing Nova",
+      "section": "healing_nova",
+      "description": "Cast a nova around your character that heals allies.",
+      "manaCost": 7,
+      "scaling": [],
+      "tags": [
+        "Spell",
+        "Buff"
+      ]
+    },
+    {
+      "name": "Howl",
+      "section": "wolf_ability",
+      "description": "The companion ability of your Primal Wolves.Your wolves howl to embolden themselves and allies around them, granting them frenzy and 25% more melee damage (multiplicative with other modifiers) for 3 seconds.The howl also heals allies around you for 50 health.",
+      "manaCost": 40,
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Spell",
+        "Buff",
+        "Area",
+        "Instant Cast",
+        "Attunement"
+      ],
+      "additionalInfo": "\"Allies\" includes you and your other minions.Frenzy grants 20% increased attack and cast speed.This buff does not stack, even if you have multiple wolves.Scales with your wolves' Increased Area for Area Skills stat."
+    },
+    {
+      "name": "Icicle",
+      "section": "heorot_unique_bow_icicle",
+      "description": "Cast a shard of ice in the direction of your bow attack.",
+      "manaCost": 3,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 100,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Dexterity",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Jade Dust",
+      "section": "jade_dust",
+      "description": "Your nearby minions are granted +50% chance to poison on hit, tripled for throwing attacks. Lasts 4 seconds.",
+      "manaCost": 30,
+      "scaling": [],
+      "tags": [
+        "Buff",
+        "Instant Cast"
+      ]
+    },
+    {
+      "name": "Lightning Aegis",
+      "section": "lightning_aegis",
+      "description": "Lightning Aegis is a buff which grants 50% increased lightning damage and 25% less damage taken. Lightning Aegis causes an explosion of lightning damage when you lose 25% of your health or after 10 seconds.",
+      "manaCost": 7,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 18,
+        "type": "LightningCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Buff"
+      ]
+    },
+    {
+      "name": "Lightning Explosion",
+      "section": "lightning_explosion",
+      "manaCost": 7,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "LightningCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area"
+      ]
+    },
+    {
+      "name": "Magma Shards",
+      "section": "flame_shards",
+      "description": "Shards of magma splinter off, hitting enemies around you. Added spell damage applies at 300% effectiveness.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "FireCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "8% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "8% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+1 Spell Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Fire",
+        "Spell",
+        "Intelligence",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Oblivion Wave",
+      "section": "anchor_of_oblivion_wave",
+      "description": "A devastating wave of void centred on the caster.Added spell damage is applied at 500% effectiveness.Applies three stacks of slow to the caster.",
+      "manaCost": 0,
+      "baseDamage": {
+        "amount": 200,
+        "type": "VoidCan"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Vitality:",
+          "effects": [
+            "+2 Void Spell Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Void",
+        "Spell",
+        "Area",
+        "Vitality"
+      ]
+    },
+    {
+      "name": "Phoenix Flames",
+      "section": "hackars_phoenix_flame_burst",
+      "description": "Create a burst of fire damage emanating from the revived companion. Scales with the companion's stats. Added spell damage applies at 400% effectiveness.",
+      "manaCost": 7,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 80,
+        "type": "FireCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Fire",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Poison Nova",
+      "section": "poison_nova",
+      "description": "Unleash a nova that poisons enemies, and has 25% increased effect of poison.",
+      "manaCost": 0,
+      "scaling": [],
+      "tags": [
+        "Poison",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Primordial Blood",
+      "section": "primordial_blood_splatter",
+      "description": "Primordial Blood Splatter is a physical spell that deals damage to other enemies around the target.Added damage applies at 150% effectiveness.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 30,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Spell",
+        "Area"
+      ]
+    },
+    {
+      "name": "Prism Shard",
+      "section": "prism_shard_create",
+      "description": "Throw 3 shurikens in a cone.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 5,
+        "type": "Fire"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Elemental",
+        "Spell",
+        "Intelligence",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Rampage",
+      "section": "rampage",
+      "description": "Charge towards a target location dealing damage and knocking back enemies in your path.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 2,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage",
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Area",
+        "Channeled",
+        "Movement",
+        "Traversal",
+        "Strength",
+        "Attunement"
+      ],
+      "additionalInfo": "Rampage's cooldown does not recover while you are using it."
+    },
+    {
+      "name": "Rampage",
+      "section": "werebear_charge",
+      "description": "Charge towards a target location dealing damage and knocking back enemies in your path.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 2,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage",
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Area",
+        "Channeled",
+        "Movement",
+        "Traversal",
+        "Strength",
+        "Attunement"
+      ],
+      "additionalInfo": "Rampage's cooldown does not recover while you are using it."
+    },
+    {
+      "name": "Ravaging Aura",
+      "section": "ravaging_aura",
+      "description": "Ravaging Aura deals spell void damage over time in an area around you, but you lose 5% of your current health per second. Added spell damage is applied at 350% effectiveness per second.",
+      "manaCost": 0,
+      "criticalChance": "0%",
+      "criticalMultiplier": "100%",
+      "baseDamage": {
+        "amount": 5,
+        "type": "metersInterval"
+      },
+      "scaling": [],
+      "tags": [
+        "Void",
+        "Spell",
+        "Damage Over Time",
+        "Area",
+        "Instant Cast"
+      ],
+      "additionalInfo": "Added damage is applied at 105% effectiveness."
+    },
+    {
+      "name": "Reap",
+      "section": "reap",
+      "description": "Dash a short distance in the target direction using your scythes to strike all enemies in your path. Restores 15 health for each enemy hit.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "100%",
+      "baseDamage": {
+        "amount": 2,
+        "type": "NecroticCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+1 Necrotic Melee Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Necrotic",
+        "Melee",
+        "Area",
+        "Movement",
+        "Traversal",
+        "Intelligence",
+        "Dexterity"
+      ],
+      "additionalInfo": "Added damage is applied at 100% effectiveness.Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill."
+    },
+    {
+      "name": "Recruit Mercenary",
+      "section": "summon_mercenary",
+      "description": "Recruit a crossbow mercenary to guard you.",
+      "manaCost": 60,
+      "summon": {
+        "count": 1,
+        "type": "Mercenary",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "+20 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+20 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Dexterity"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Rejuvenating Wind",
+      "section": "spriggan_ability",
+      "description": "The companion ability of your Spriggan.Restores 150 health and 15 mana to the spriggan and all nearby allies over 2 seconds.",
+      "manaCost": 36,
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Spell",
+        "Minion",
+        "Buff",
+        "Instant Cast",
+        "Attunement"
+      ],
+      "additionalInfo": "Scales with your spriggan's stats and your minion stats. The amount healed scales with your spriggan's increased healing effectiveness."
+    },
+    {
+      "name": "Riposte",
+      "section": "riposte",
+      "description": "A retaliatory melee attack performed automatically upon being hit.You take less damage from the hit that triggers the riposte.",
+      "manaCost": 7,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 2,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Area"
+      ],
+      "additionalInfo": "Added damage is applied at 150% effectiveness."
+    },
+    {
+      "name": "Runebolt",
+      "section": "runebolt",
+      "description": "A combo spell that fires piercing projectiles. The first part of the combo is fire, the second is cold, and the third is lightning.",
+      "manaCost": 3,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 66,
+        "type": "Fire"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Elemental",
+        "Spell",
+        "Intelligence"
+      ],
+      "additionalInfo": "Added damage applies at 100% effectiveness. The cold rune bolt has a freeze rate of 40."
+    },
+    {
+      "name": "Sciurine Rage",
+      "section": "squirrel_ability",
+      "description": "The companion ability of your Primal Squirrels.Your squirrels are worked up into a Sciurine Rage and gain 40% increased movement and attack speed for 4 seconds.",
+      "manaCost": 40,
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Spell",
+        "Buff",
+        "Instant Cast",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Shockwave",
+      "section": "upheaval_shockwave",
+      "description": "Unleashes a shockwave around the enemy or totem, dealing damage to nearby enemies. Cannot hit enemies that were already hit by the Upheaval.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 2,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Physical",
+        "Melee"
+      ],
+      "additionalInfo": "Upheaval and its Shockwaves deal the same amount of damage.Added damage is applied at 135% effectiveness."
+    },
+    {
+      "name": "Shrapnel",
+      "section": "shrapnel",
+      "description": "Fires a piece of burning shrapnel in a random direction.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 23,
+        "type": "FireCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Fire",
+        "Spell"
+      ],
+      "additionalInfo": "Added damage is applied at 100% effectiveness."
+    },
+    {
+      "name": "Soul Eruption",
+      "section": "soul_eruption",
+      "description": "Creates 5 souls that target enemies and apply Marked for Death. Also applies Marked for Death to you.",
+      "manaCost": 0,
+      "scaling": [],
+      "tags": [
+        "Spell"
+      ]
+    },
+    {
+      "name": "Spark Charge",
+      "section": "spark_charge",
+      "description": "Spark charges explode after 1 second dealing lightning damage to nearby enemies. Spark charges automatically detonate when the enemy they are attached to dies.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Spirit Step",
+      "section": "swap_with_wandering_spirit",
+      "description": "Swap places with a target wandering spirit at the targeted area. If there is no spirit, you will instead reappear a short distance forwards.Effects that trigger when you use Evade also trigger when you use Spirit Step.",
+      "manaCost": 28,
+      "scaling": [],
+      "tags": [
+        "Movement"
+      ]
+    },
+    {
+      "name": "Spirit Thorns",
+      "section": "spriggan_spirit_thorns",
+      "description": "Releases a burst of thorns towards enemies in the target direction. Thorns deal physical damage on hit and multiple thorns can hit the same target.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage",
+            "+4% Freeze Rate Multiplier"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Spell",
+        "Attunement"
+      ],
+      "additionalInfo": "Added damage applies at 60% effectiveness. 40% less chance to apply ailments on hit."
+    },
+    {
+      "name": "Storm Bolt",
+      "section": "primal_lightning",
+      "description": "Call forth a bolt of lightning to strike the area.",
+      "manaCost": 10,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 23,
+        "type": "LightningCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+1 Spell Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Lightning",
+        "Spell",
+        "Area",
+        "Attunement"
+      ],
+      "additionalInfo": "Added damage applies at 115% effectiveness."
+    },
+    {
+      "name": "Stygian Beam",
+      "section": "drain_life_stygian_beam",
+      "description": "Shoot a quick necrotic beam at the target.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "NecroticCritical"
+      },
+      "scaling": [],
+      "tags": [
+        "Necrotic",
+        "Spell"
+      ],
+      "additionalInfo": "Added damage is applied at 100% effectiveness."
+    },
+    {
+      "name": "Summon Anurok",
+      "section": "summon_anurok",
+      "description": "Summons Anuroks to fill your unused companion slots.Anuroks are not affected by increased area of effect stats, but gain 3% more damage for each 1% increased Area of Effect for Minion Area Skills.",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Primal Anurok"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "+4% Minion Physical Penetration"
+          ]
+        },
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "+4% Minion Critical Strike Multiplier"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+1% Minion Critical Strike Chance"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+30 Minion Health",
+            "6% increased Minion Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Strength",
+        "Dexterity",
+        "Attunement"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Arek's Flesh",
+      "section": "summon_areks_flesh",
+      "description": "Summon the remains of Arek to fight for you. Arek uses physical melee attacks.",
+      "manaCost": 20,
+      "summon": {
+        "count": 1,
+        "type": "Arek's Flesh",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+15 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+30 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Intelligence"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Bee",
+      "section": "summon_bee",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Bee"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Cold Bee",
+      "section": "summon_cold_bee",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Chilly Bee"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Crab",
+      "section": "summon_crab",
+      "description": "Summons a loyal crab that follows you into combat.Effects that trigger when you use Evade also trigger when you use Summon Crab.",
+      "manaCost": 70,
+      "summon": {
+        "count": 1,
+        "type": "Summoned Crab",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+40 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Strength",
+        "Intelligence",
+        "Attunement"
+      ],
+      "additionalInfo": "The crab has 400 base health and is resistant to powerful area attacks."
+    },
+    {
+      "name": "Summon Fire Bee",
+      "section": "summon_fire_bee",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Fire Bee"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Flame Wraith",
+      "section": "summon_flame_wraith",
+      "description": "Summon a primal wolf to guard you and attack your enemies",
+      "manaCost": 36,
+      "summon": {
+        "count": 1,
+        "type": "Flame Wraith",
+        "limit": 6
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Summon Forged Weapon",
+      "section": "summon_weapon",
+      "description": "Summons a Forged Weapon which lasts for 20 seconds and is affected by the stats and attack rate of your weapon. You can control up to 6 Forged Weapons at once.Forged Weapons have 220 based health.",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Forged Weapon",
+        "limit": 6
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+11 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+11 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Historic Minion",
+      "section": "summon_tolmat_minion",
+      "description": "Tolmat's History of Eterra describes many fantastical creatures from across the eras of Eterra, and how to tame them.One such creature is summoned to aid you whenever you travel to a new area, and if it perishes a new one will be summoned in its stead.",
+      "manaCost": 60,
+      "summon": {
+        "count": 1,
+        "type": "Tolmat Minion (Ancient Era)",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+15 Minion Health",
+            "3% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Illusory Tree",
+      "section": "summon_illusory_tree",
+      "description": "Summons an illusory tree that distracts your opponents and lasts 8 seconds.",
+      "manaCost": 14,
+      "summon": {
+        "count": 1,
+        "type": "Illusory Tree",
+        "limit": 2
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+5 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+5 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Lightning Bee",
+      "section": "summon_lightning_bee",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Lightning Bee"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Locust",
+      "section": "summon_locust",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Locust",
+        "limit": 12
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+5 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+5 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Strength",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Primal Serpent",
+      "section": "summon_serpent",
+      "description": "Summon a Primal Serpent, a melee minion that poisons on hit. They have an unlimited duration, but do not regenerate health.You are limited to one primal serpent at a time, but Primal Serpents do not count towards your companion limit.Primal Serpents have 500 base health.",
+      "manaCost": 36,
+      "summon": {
+        "count": 1,
+        "type": "Primal Serpent",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Minion Damage",
+            "+25 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Minion Damage",
+            "+25 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+25 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Strength",
+        "Dexterity"
+      ]
+    },
+    {
+      "name": "Summon Primal Tyrannosaur",
+      "section": "summon_trex",
+      "description": "Summons a Tyrannosaur minion that follows you into combat. It can roar, granting your other minions +25 physical damage with spells and attacks, and the bonuses from Tyrant's Skull are applied to them at 20% effectiveness. The roar's buff lasts for 12 seconds, and also grants frenzy to all allies hit for the same duration.The roar also applies frailty, slow, and armor shred to nearby enemies.",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Primal Tyrannosaur",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "+30 Health"
+          ]
+        },
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+30 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+30 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+30 Minion Health",
+            "6% increased Minion Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Strength",
+        "Intelligence",
+        "Attunement"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Putrid Wraith",
+      "section": "summon_putrid_wraith",
+      "description": "Summon a wraith with decaying health that deals ranged poison attacks.",
+      "manaCost": 10,
+      "summon": {
+        "count": 1,
+        "type": "Putrid Wraith",
+        "limit": 6
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Summon Rift Beast",
+      "section": "summon_time_beast",
+      "description": "Summons a Rift Beast.The Rift Beast has evolutions matching the evolutions of the Rift Beast that dropped this item.",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Rift Beast"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "+1% Minion Critical Strike Chance"
+          ]
+        },
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+1% Minion Critical Strike Chance"
+          ]
+        },
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "+4% Minion Critical Strike Multiplier"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+4% Minion Critical Strike Multiplier"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+80 Minion Health",
+            "10% increased Minion Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Strength",
+        "Intelligence",
+        "Dexterity",
+        "Attunement"
+      ],
+      "additionalInfo": "Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Skeleton Harvester",
+      "section": "summon_skeleton_harvester",
+      "description": "Summon an ancient skeleton to harvest your foes.",
+      "manaCost": 36,
+      "summon": {
+        "count": 1,
+        "type": "Skeleton Harvester"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Minion Damage",
+            "+20 Minion Health"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+20 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Summon Skeleton Rogue",
+      "section": "summon_skeleton_rogue",
+      "description": "Summon a primal wolf to guard you and attack your enemies",
+      "manaCost": 36,
+      "summon": {
+        "count": 1,
+        "type": "Skeleton Rogue",
+        "limit": 3
+      },
+      "scaling": [],
+      "tags": [
+        "Minion"
+      ]
+    },
+    {
+      "name": "Summon Squirrel",
+      "section": "summon_primal_squirrel",
+      "description": "Summons a primal wolf that follows you into combat. When its health drops to 0 it is downed, and you can stand near it to revive it.The wolf counts as a companion. You can have a maximum of two companions at once by default.",
+      "manaCost": 48,
+      "comboSkills": [
+        "Sciurine Rage"
+      ],
+      "summon": {
+        "count": 1,
+        "type": "Primal Squirrel",
+        "limit": 10
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "+8 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+8 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Companion",
+        "Strength"
+      ],
+      "additionalInfo": "The Wolf has 160 base health and is resistant to powerful area attacks. Press A to give your minions an attack command."
+    },
+    {
+      "name": "Summon Storm Sprite",
+      "section": "summon_storm_sprite",
+      "description": "Summons a storm sprite to defend your totem. Storm Sprites use lightning spells to damage nearby enemies and last for 6 seconds.",
+      "manaCost": 20,
+      "summon": {
+        "count": 1,
+        "type": "Storm Sprite"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+10 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+10 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Vines",
+      "section": "spriggan_summon_vine",
+      "description": "Summons 3 poisonous vines around the target location.Vines are melee minions that inflict poison on hit. You can have up to 12 vines.",
+      "manaCost": 0,
+      "summon": {
+        "count": 3,
+        "type": "Poisonous Vine",
+        "limit": 12
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Minion Damage",
+            "+3 Minion Health",
+            "+4% Chance to apply Poison on Hit with Minion Skills"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Summon Wraithlord",
+      "section": "summon_wraithlord",
+      "description": "Summons a wraithlord that summons wraiths and casts necrotic beams",
+      "manaCost": 20,
+      "summon": {
+        "count": 1,
+        "type": "Wraithlord",
+        "limit": 1
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Intelligence"
+      ]
+    },
+    {
+      "name": "Swarm of Bees",
+      "section": "swarm_of_bees",
+      "description": "Summon a swarm of bees to attack your enemies.",
+      "manaCost": 0,
+      "summon": {
+        "count": 4,
+        "type": "Bee"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+3 Minion Health",
+            "4% increased Minion Damage"
+          ]
+        },
+        {
+          "attribute": "Per Character Level:",
+          "effects": [
+            "+3 Minion Health"
+          ]
+        }
+      ],
+      "tags": [
+        "Minion",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Swarm Strike",
+      "section": "swarmblade_spin_attack",
+      "description": "A circular attack which deals damage to all nearby enemies, then gathers nearby locusts to create a Swarm around you which deals damage over time to nearby enemies.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 15,
+        "type": "metersInterval"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Strength:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Melee",
+        "Area",
+        "Strength",
+        "Attunement"
+      ],
+      "additionalInfo": "For each Locust consumed the Swarm gains +15 melee physical, +15 melee poison damage, 15% increased duration, and 15% increased area.Added melee damage applies at 350% effectiveness to the initial hit and at 300% per second to the Swarm."
+    },
+    {
+      "name": "Terrify",
+      "section": "terrify",
+      "description": "Inflicts Fear for 1.5 to 2.7 seconds, causing enemies to flee from the target location. Enemies can only be feared once.Effects that trigger when you use Evade also trigger when you use Terrify.",
+      "manaCost": 16,
+      "scaling": [],
+      "tags": [
+        "Area"
+      ]
+    },
+    {
+      "name": "Thorn Shield",
+      "section": "thorn_shield",
+      "description": "Form a protective barrier of thorns around yourself or an ally that grants 30 armor and reflects 50 damage to attackers. When the shield expires, a burst of thorns shoots out and damages all nearby enemies.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "PhysicalCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Spell",
+        "Buff",
+        "Area",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Tundra Nova",
+      "section": "tundra_nova",
+      "description": "Cast a burst of frigid sleet to pelt enemies around the target.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 40,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Intelligence",
+        "Attunement"
+      ],
+      "additionalInfo": "Tundra Nova has a freeze rate of 80."
+    },
+    {
+      "name": "Vale Spirit",
+      "section": "vale_spirit",
+      "description": "Creates a Vale Spirit which orbits you for a short time. During this time you automatically shoot nearby enemies with Spirit Thorns from the Vale Spirit.",
+      "manaCost": 0,
+      "summon": {
+        "count": 1,
+        "type": "Vale Spirit"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Minion Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Physical",
+        "Spell",
+        "Attunement"
+      ],
+      "additionalInfo": "The Spirit Thorns cast through Vale Spirit use your stats."
+    },
+    {
+      "name": "Venom Nova",
+      "section": "scorpion_ability",
+      "description": "The companion ability of your Primal Scorpion.Releases a burst of venom that inflicts all enemies around the scorpion with 3 stacks of poison, and releases a spiral of projectiles that also inflict poison on hit.",
+      "manaCost": 45,
+      "scaling": [
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "+2% Mana Efficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "Poison",
+        "Spell",
+        "Area",
+        "Instant Cast",
+        "Attunement"
+      ],
+      "additionalInfo": "Scales with your scorpion's stats rather than yours."
+    },
+    {
+      "name": "Void Rift",
+      "section": "void_rift",
+      "description": "Creates a dark rift in an area, dealing void damage to enemies it hits.Added spell damage applies at 100% effectiveness.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 20,
+        "type": "VoidCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Vitality:",
+          "effects": [
+            "+2 Void Spell Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Void",
+        "Spell",
+        "Area",
+        "Vitality"
+      ]
+    },
+    {
+      "name": "Voidwinter Bolt",
+      "section": "voidwinter_bolt",
+      "description": "Cast 3 piercing corrupted shards of ice towards enemies in front of you.",
+      "manaCost": 0,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 60,
+        "type": "Cold"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Void",
+        "Spell",
+        "Dexterity",
+        "Attunement"
+      ],
+      "additionalInfo": "Added spell damage is applied at 600% effectiveness to each shard."
+    },
+    {
+      "name": "Water Orb",
+      "section": "water_orb",
+      "description": "Cast a frigid orb of water to blast your enemy.Added spell damage is applied at 400% effectiveness.",
+      "manaCost": 3,
+      "criticalChance": "5%",
+      "criticalMultiplier": "200%",
+      "baseDamage": {
+        "amount": 80,
+        "type": "ColdCritical"
+      },
+      "scaling": [
+        {
+          "attribute": "Per point of Intelligence:",
+          "effects": [
+            "4% increased Damage",
+            "+4% Freeze Rate Multiplier"
+          ]
+        },
+        {
+          "attribute": "Per point of Attunement:",
+          "effects": [
+            "4% increased Damage",
+            "+4% Freeze Rate Multiplier"
+          ]
+        }
+      ],
+      "tags": [
+        "Cold",
+        "Spell",
+        "Intelligence",
+        "Attunement"
+      ]
+    },
+    {
+      "name": "Wildfire Wisp",
+      "section": "wildfire_wisp",
+      "description": "Creates a Wildfire Wisp at the target location",
+      "manaCost": 3,
+      "scaling": [
+        {
+          "attribute": "Per point of Dexterity:",
+          "effects": [
+            "4% increased Damage"
+          ]
+        }
+      ],
+      "tags": [
+        "Spell",
+        "Dexterity"
+      ]
+    }
+  ]
+}

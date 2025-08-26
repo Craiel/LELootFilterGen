@@ -1,0 +1,737 @@
+{
+  "name": "Sentinel",
+  "masteries": [
+    {
+      "name": "Base Class",
+      "skills": [
+        {
+          "name": "Evade",
+          "section": "sentinel_evade",
+          "description": "Rapidly move a short distance forwards.Evading does not grant damage immunity or prevent abilities from hitting you.Evade gains 0.5% Increased Cooldown Recovery Speed per Character level.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "0.5% Increased Cooldown Recovery Speed"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement"
+          ],
+          "source": "Rogue Level 1"
+        },
+        {
+          "name": "Lunge",
+          "section": "lunge",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Dexterity"
+          ]
+        },
+        {
+          "name": "Shield Bash",
+          "section": "shield_bash",
+          "description": "Requires a shield.A melee directional attack that stuns enemies for 1 second. 100% increased stun duration against non-boss enemies.1.5% more damage per 1% block chance (up to 150%, multiplicative with other modifiers).20% of remaining cooldown recovered whenever you stun an enemy, including with Shield Bash itself. This effect can occur a maximum of two times each second.",
+          "manaCost": 9,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Strength"
+          ],
+          "additionalInfo": "Increased attack speed has no effect for Shield Bash.Added damage is applied at 150% effectiveness.",
+          "source": "Sentinel Level 7"
+        },
+        {
+          "name": "Rebuke",
+          "section": "rebuke",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 40,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Area"
+          ]
+        },
+        {
+          "name": "Shield Rush",
+          "section": "shield_rush",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Physical",
+            "Melee"
+          ]
+        },
+        {
+          "name": "Shield Throw",
+          "section": "shield_throw",
+          "description": "Throws a shield at a target enemy. The shield ricochets to up to 2 additional targets before returning to you.The cooldown starts when the shield returns to you.",
+          "manaCost": 20,
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Throwing",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "The shield hits all enemies in its path, even those it does not ricochet from.Added throwing attack damage is applied at 200% effectiveness."
+        },
+        {
+          "name": "Healing Hands",
+          "section": "healing_hands",
+          "description": "Dash a short fixed distance in the target direction.",
+          "manaCost": 25,
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement",
+            "Traversal",
+            "Dexterity"
+          ],
+          "additionalInfo": "Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill."
+        }
+      ]
+    },
+    {
+      "name": "Paladin",
+      "skills": [
+        {
+          "name": "Smite",
+          "section": "smite",
+          "description": "Smites a target enemy with a bolt of holy fire that descends from the sky, healing allies around the target for 60 health. If you are in the area you are also healed.Cannot be used without a target.",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 30,
+            "type": "FireCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage",
+                "4% increased Increased Healing Effectiveness"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Spell",
+            "Attunement"
+          ],
+          "additionalInfo": "Added spell damage applies at 150% effectiveness",
+          "source": "Sentinel Level 20"
+        },
+        {
+          "name": "Judgement",
+          "section": "judgement",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "FireCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Fire",
+            "Melee",
+            "Area"
+          ]
+        },
+        {
+          "name": "Holy Aura",
+          "section": "holy_aura",
+          "description": "You and nearby allies passively gain 30% increased damage and +15% additional elemental resistance. Activating Holy Aura doubles the stat bonuses for 4 seconds.",
+          "manaCost": 30,
+          "scaling": [],
+          "tags": [
+            "Spell",
+            "Buff",
+            "Instant Cast"
+          ],
+          "source": "Paladin"
+        }
+      ]
+    },
+    {
+      "name": "Forge Guard",
+      "skills": [
+        {
+          "name": "Hammer Throw",
+          "section": "hammer_throw",
+          "description": "Throws a hammer that returns to you after a short delay.Added Throwing Damage is applied to each hit at 110% effectiveness.",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 22,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Throwing",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "This is a throwing attack that scales with throwing attack damage and throwing attack speed. It is not a melee attack or spell.",
+          "source": "Sentinel Level 3"
+        },
+        {
+          "name": "Manifest Armor",
+          "section": "manifest_armor",
+          "description": "Manifests an animated set of heavy armor, which attacks slowly.Stats granted by your body armor, helmet, gloves and boots also apply to your Manifest Armor.",
+          "manaCost": 60,
+          "summon": {
+            "count": 1,
+            "type": "Manifested Armor",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+10 Minion Health"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+10 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+10 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "Manifested Armors have 400 base health.Manifest Armor has a 30% chance to retaliate with Forge Nova when hit. This effect deals 40 spell fire damage with added damage applying at 200% effectiveness, applies fire resistance shred to enemies hit and has a 2 second cooldown.",
+          "source": "Forge Guard Level 15"
+        },
+        {
+          "name": "Smelter's Wrath",
+          "section": "smelters_wrath",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 1,
+            "type": "Physical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+0 Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Fire",
+            "Melee",
+            "Area",
+            "Strength"
+          ]
+        },
+        {
+          "name": "Forge Strike",
+          "section": "forge_strike",
+          "description": "A melee attack that hits all enemies in an area in front of you.25% chance on hit to summon a Forged Weapon which lasts for 20 seconds and is affected by the stats and attack rate of your weapon. You can control up to 6 Forged Weapons at once.",
+          "manaCost": 25,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "triggers": [
+            "Summon Forged Weapon"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "4% increased Damage",
+                "+11 Minion Health"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+11 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Minion",
+            "Area",
+            "Strength",
+            "Attunement"
+          ],
+          "additionalInfo": "Added melee damage applies at 600% effectiveness.",
+          "source": "Forge Guard"
+        }
+      ]
+    },
+    {
+      "name": "Void Knight",
+      "skills": [
+        {
+          "name": "Void Cleave",
+          "section": "void_cleave",
+          "description": "Requires a 2-handed sword or axe.A melee attack that hits all enemies in an area in front of you. Can be echoed by Void Knights. Unaffected by weapon range.",
+          "manaCost": 15,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "VoidCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Vitality:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Void",
+            "Melee",
+            "Area",
+            "Movement",
+            "Strength",
+            "Vitality"
+          ],
+          "additionalInfo": "Added damage applies at 400% effectiveness.",
+          "source": "Sentinel Level 19"
+        },
+        {
+          "name": "Volatile Reversal",
+          "section": "volatile_reversal",
+          "description": "A combo ability that jumps forwards in time to a target location and performs a melee attack on arrival. Recast within 3 seconds to jump backwards in time to your original location and perform a melee attack on arrival.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "VoidCritical"
+          },
+          "comboSkills": [
+            "Volatile Reversal"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Vitality:",
+              "effects": [
+                "+2 Void Spell Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Void",
+            "Melee",
+            "Area",
+            "Movement",
+            "Traversal",
+            "Strength",
+            "Vitality"
+          ],
+          "additionalInfo": "Added damage applies to the melee attacks at 200% effectiveness."
+        },
+        {
+          "name": "Abyssal Echoes",
+          "section": "abyssal_echoes",
+          "description": "A nova that echoes from up to 8 enemies it reaches and applies abyssal decay. Enemies with abyssal decay take void damage over time for 5 seconds, if they take a hit all the damage from abyssal decay is dealt to them immediately.",
+          "manaCost": 35,
+          "triggers": [
+            "Abyssal Echoes"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Vitality:",
+              "effects": [
+                "+2 Void Spell Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Void",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Vitality"
+          ],
+          "additionalInfo": "Abyssal decay deals a total of 100 void damage over its duration, with added spell damage applied at 100% effectiveness each second.Abyssal Echoes cannot apply other on hit effects on hit.",
+          "source": "Void Knight Level 10"
+        },
+        {
+          "name": "Devouring Orb",
+          "section": "devouring_orb",
+          "description": "Creates a devouring orb at the target location for 10 seconds that deals void damage over time to nearby enemies, and casts a void rift whenever something dies nearby, hitting nearby enemies to deal void damage.Each successive rift has 12% more damage and area of effect, capped at an increase of 120%.",
+          "manaCost": 18,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Vitality:",
+              "effects": [
+                "+2 Void Spell Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Void",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Vitality"
+          ],
+          "additionalInfo": "Added damage is applied to the damage over time area at 100% effectiveness per second, and to the Void Rifts at 75% effectiveness.Devouring orb cannot cast more than one void rift every 0.1 seconds.",
+          "source": "Void Knight Level 15"
+        },
+        {
+          "name": "Anomaly",
+          "section": "anomaly",
+          "description": "Brings enemies that were sent forward back to your time.",
+          "manaCost": 0,
+          "scaling": [],
+          "tags": [
+            "Void",
+            "Spell",
+            "Instant Cast"
+          ]
+        },
+        {
+          "name": "Erasing Strike",
+          "section": "erasing_strike",
+          "manaCost": 7,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "VoidCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Void",
+            "Melee",
+            "Area"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "skills": [
+        {
+          "name": "Vengeance",
+          "section": "vengeance",
+          "description": "A melee attack that also prepares you to riposte incoming hits.If vengeance successfully hits an enemy and you take a hit in the next 2 seconds you will riposte, taking 25% less damage and striking at a nearby enemy.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "triggers": [
+            "Riposte"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Strength"
+          ],
+          "additionalInfo": "Added damage is applied at 125% effectiveness to the initial hit and 150% effectiveness to the riposte.",
+          "source": "Sentinel Level 1"
+        },
+        {
+          "name": "Warpath",
+          "section": "warpath",
+          "manaCost": 7,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 1,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Movement",
+            "Strength"
+          ]
+        },
+        {
+          "name": "Rive",
+          "section": "rive1",
+          "description": "A combo of three melee attacks. Every third consecutive attack with Rive slashes in a full circle around the character, dealing double damage.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Strength"
+          ],
+          "additionalInfo": "The consecutive attack counter resets if you go 3 seconds without using Rive.Added melee damage applies to the first two hits at 125% effectiveness and to the third hit at 250% effectiveness."
+        },
+        {
+          "name": "Javelin",
+          "section": "javelin",
+          "description": "Hurl a javelin that pierces through every enemy in its path.",
+          "manaCost": 20,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 20,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Throwing",
+            "Strength",
+            "Dexterity"
+          ],
+          "additionalInfo": "This is a throwing attack that scales with throwing attack damage and throwing attack speed. It is not a melee attack or spell."
+        },
+        {
+          "name": "Multistrike",
+          "section": "multistrike",
+          "description": "A melee attack that grants a stack of Armament if you hit at least one enemy.Armament stacks up to 2 times and each stack lasts 3 seconds.Each stack of Armament causes an additional sword to strike a nearby enemy when you use Multistrike.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Strength"
+          ],
+          "additionalInfo": "Additional swords cannot target the enemy you initially hit or enemies targeted by other swords.Added damage is applied at 100% effectiveness.",
+          "source": "Sentinel Level 15"
+        },
+        {
+          "name": "Ring Of Shields",
+          "section": "ring_of_shields",
+          "description": "Manifests a ring of shields around you.Each shield has 75 base health and lasts up to 10 seconds. Shields draw enemy aggression and block projectiles.Stats on your equipped shield also apply to the shields created by Ring of Shields",
+          "manaCost": 30,
+          "summon": {
+            "count": 3,
+            "type": "Manifested Shield"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Strength:",
+              "effects": [
+                "+5 Minion Health"
+              ]
+            },
+            {
+              "attribute": "Per point of Attunement:",
+              "effects": [
+                "+5 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+5 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Instant Cast",
+            "Strength",
+            "Attunement"
+          ],
+          "source": "Forge Guard Level 30"
+        },
+        {
+          "name": "Symbols of Hope",
+          "section": "sigils_of_hope",
+          "description": "Every 2 seconds, summons a symbol that orbits you, causing you and your allies' attacks and spells to deal 3 additional fire damage and increasing health regeneration by 20%.Activate to consume the symbols, granting 100 ward and 5% less damage taken per symbol for 3 seconds.You can have up to 3 symbols at a time.",
+          "manaCost": 30,
+          "scaling": [],
+          "tags": [
+            "Spell",
+            "Buff",
+            "Instant Cast"
+          ],
+          "source": "Paladin Level 15"
+        }
+      ]
+    }
+  ]
+}

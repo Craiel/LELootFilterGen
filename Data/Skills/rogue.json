@@ -1,0 +1,714 @@
+{
+  "name": "Rogue",
+  "masteries": [
+    {
+      "name": "Base Class",
+      "skills": [
+        {
+          "name": "Evade",
+          "section": "rogue_evade",
+          "description": "Rapidly move a short distance forwards.Evading does not grant damage immunity or prevent abilities from hitting you.Evade gains 0.5% Increased Cooldown Recovery Speed per Character level.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "0.5% Increased Cooldown Recovery Speed"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement"
+          ],
+          "source": "Rogue Level 1"
+        },
+        {
+          "name": "Shift",
+          "section": "shift",
+          "description": "Dash a short fixed distance in the target direction.",
+          "manaCost": 25,
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement",
+            "Traversal",
+            "Dexterity"
+          ],
+          "additionalInfo": "Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill.",
+          "source": "Rogue Level 3"
+        },
+        {
+          "name": "Puncture",
+          "section": "puncture",
+          "description": "An extended melee stab or piercing bow attack that has a 30% chance to inflict bleed on hit. Bleeds inflicted by puncture have 30% increased duration.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Bow",
+            "Dexterity"
+          ],
+          "additionalInfo": "When using a bow, Puncture deals 5% less damage to each subsequent enemy hit up to 20% less damage.Added damage is applied at 100% effectiveness.",
+          "source": "Rogue Level 5"
+        },
+        {
+          "name": "Smoke Bomb",
+          "section": "smoke_bomb",
+          "description": "Dash a short fixed distance in the target direction.",
+          "manaCost": 25,
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement",
+            "Traversal",
+            "Dexterity"
+          ],
+          "additionalInfo": "Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill."
+        },
+        {
+          "name": "Decoy",
+          "section": "decoy",
+          "description": "Throw a device to create a decoy that taunts enemies around it for 3 seconds before exploding.",
+          "manaCost": 40,
+          "summon": {
+            "count": 1,
+            "type": "Decoy",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+20 Minion Health"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+10 Minion Health"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+20 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Throwing",
+            "Area",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added throwing attack damage is applied at 600% effectiveness to the explosion."
+        }
+      ]
+    },
+    {
+      "name": "Bladedancer",
+      "skills": [
+        {
+          "name": "Flurry",
+          "section": "flurry",
+          "description": "A bow or melee attack that performs 3 rapid strikes. The last strike can be cancelled by moving.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Bow",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage applies at 80% effectiveness to each strike and each strike has a 40% reduced chance to apply ailments on hit.Increased Area for Area skills stats only affect the melee version of Flurry.",
+          "source": "Rogue Level 1"
+        },
+        {
+          "name": "Umbral Blades",
+          "section": "umbral_blades",
+          "description": "Recall all Umbral Blades to you, hitting enemies along the way.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Throwing",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage applies at 60% effectiveness. 40% less chance to apply ailments on hit."
+        },
+        {
+          "name": "Synchronized Strike",
+          "section": "synchronized_strikes",
+          "description": "Requires a melee weapon.Jump forward and strike in an area in front of you while shadows appear and simultaneously strike on either side of you.",
+          "manaCost": 40,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 5,
+            "type": "PhysicalCritical"
+          },
+          "comboSkills": [
+            "Dancing Strikes",
+            "Dancing Strikes",
+            "Dancing Strikes"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Movement",
+            "Dexterity"
+          ],
+          "source": "Bladedancer Level 10"
+        },
+        {
+          "name": "Lethal Mirage",
+          "section": "lethal_mirage",
+          "description": "Become immune for a duration and rapidly strike nearby targets with 6 mirages.",
+          "manaCost": 45,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 50,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Movement",
+            "Dexterity"
+          ],
+          "additionalInfo": "Mirages' added damage is applied at 100% effectiveness.Increased Area for Area Skills stats apply to the attacks of individual mirages, but not to the maximum range at which mirages can be created.",
+          "source": "Bladedancer Level 30"
+        },
+        {
+          "name": "Dancing Strikes",
+          "section": "dancing_strikes",
+          "description": "Requires dual wielding.A series of fast dash attacks. Dancing Strikes' movement does not scale with attack speed, but it gains increased cooldown recovery speed and more damage equal to 50% of your total increased melee attack speed.",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Movement",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage is applied to each attack at 150% effectiveness.Your total increased melee attack speed includes the modifier from attack rate and generic increased attack speed stats. If your Melee Attack Speed is 1.5, then Dancing Strikes gains 25% increased cooldown recovery speed and 25% more damage (multiplicative with other modifiers)."
+        }
+      ]
+    },
+    {
+      "name": "Marksman",
+      "skills": [
+        {
+          "name": "Ballista",
+          "section": "summon_ballista",
+          "description": "Summons a ballista that fires bolts at nearby enemies.",
+          "manaCost": 44,
+          "summon": {
+            "count": 1,
+            "type": "Ballista",
+            "limit": 2
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Minion Damage",
+                "1% increased Minion Attack Speed"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+75 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Dexterity"
+          ],
+          "additionalInfo": "Ballistae have 1000 base health and last 10 seconds by default. Enemies rarely target ballistas.",
+          "source": "Rogue Level 15"
+        },
+        {
+          "name": "Multishot",
+          "section": "rogue_multishot",
+          "description": "Requires a bow.A bow attack that fires a cone of 5 arrows in the target direction. Aiming the cursor further from your character reduces the spread.",
+          "manaCost": 8,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 6,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Bow",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage is applied at 120% effectiveness",
+          "source": "Marksman Level 5"
+        },
+        {
+          "name": "Hail of Arrows",
+          "section": "hail_of_arrows",
+          "description": "Requires a bow.Launch a hail of arrows into the sky that rain down on the target location over 3.5 seconds.",
+          "manaCost": 55,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 4,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Bow",
+            "Damage Over Time",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added bow damage is applied at 325% effectiveness per second.",
+          "source": "Marksman Level 35"
+        },
+        {
+          "name": "Detonating Arrow",
+          "section": "detonating_arrow",
+          "description": "Requires a bow.Fires an arrow that embeds itself in a target then explodes after 0.6 seconds.",
+          "manaCost": 8,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "LightningCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Lightning",
+            "Bow",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added bow damage applies to the arrow at 125% effectiveness and to the explosion at 200% effectiveness.",
+          "source": "Marksman"
+        },
+        {
+          "name": "Explosive Trap",
+          "section": "explosive_trap",
+          "description": "Throw a device to create a Decoy that taunts enemies around it for 2.5 seconds before exploding.",
+          "manaCost": 10,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 30,
+            "type": "FireCritical"
+          },
+          "comboSkills": [
+            "Detonate Decoy"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Throwing",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added throwing attack damage is applied at 600% effectiveness to the explosion.The Decoy cannot be destroyed before it expires."
+        },
+        {
+          "name": "Net",
+          "section": "net",
+          "description": "Leaps backwards and throws a net which snares enemies and deals physical damage. Netted bosses and rare enemies have 35% less movement speed, and other enemies are immobilized.",
+          "manaCost": 6,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "comboSkills": [
+            "Detonate Decoy"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Throwing",
+            "Area",
+            "Movement",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage applies at 100% effectiveness.Nets last 3-5 seconds at random on each enemy.",
+          "source": "Falconer Level 15"
+        }
+      ]
+    },
+    {
+      "name": "Falconer",
+      "skills": [
+        {
+          "name": "Aerial Assault",
+          "section": "aerial_assault",
+          "description": "Freezes enemies in a cone in front of you. Freeze lasts for 2 seconds.",
+          "manaCost": 30,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 30,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "2% increased Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Intelligence"
+          ]
+        },
+        {
+          "name": "Dive Bomb",
+          "section": "dive_bomb",
+          "description": "Your Falcon ascends high into the sky then dive bombs the target location at high speed, dealing a high amount of physical damage to enemies in the area.",
+          "manaCost": 20,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 100,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Minion",
+            "Movement",
+            "Dexterity"
+          ],
+          "additionalInfo": "Your falcon's added damage applies at 500% effectiveness.If Dive Bomb is interrupted before impact, 70% of the cooldown and mana cost are recovered.",
+          "source": "Falconer Level 35"
+        },
+        {
+          "name": "Falconry",
+          "section": "falconry",
+          "description": "Passive:Summons a Falcon that fights with you.Active:Falcon Strikes: The Falcon rapidly hits many enemies in the target area.",
+          "manaCost": 48,
+          "comboSkills": [
+            "Falcon Strikes"
+          ],
+          "summon": {
+            "count": 1,
+            "type": "Rogue Falcon",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Minion Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Companion",
+            "Dexterity"
+          ],
+          "additionalInfo": "The Falcon cannot take damage and is untargetable by enemies. Press A to give your minions an attack command.",
+          "source": "Falconer"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "skills": [
+        {
+          "name": "Shurikens",
+          "section": "shurikens",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 12,
+            "type": "PhysicalCritical"
+          },
+          "comboSkills": [
+            "Umbral Blades"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Throwing",
+            "Dexterity"
+          ]
+        },
+        {
+          "name": "Acid Flask",
+          "section": "acid_flask",
+          "description": "Throw a flask of acid that explodes dealing physical damage on impact, poisoning enemies and reducing their armor.",
+          "manaCost": 10,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 25,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Poison",
+            "Throwing",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damage applies at 125% effectiveness.",
+          "source": "Rogue Level 4"
+        },
+        {
+          "name": "Cinder Strike",
+          "section": "cinder_strike1",
+          "description": "Melee or bow combo with three attacks. The first attack also creates a fiery explosion, damaging nearby enemies.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "FireCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Melee",
+            "Bow",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "The consecutive attack counter resets if you go 2 seconds without using Cinder Strike.Added damage applies to the first attack at 200% effectiveness, and to the other attacks at 100% effectiveness."
+        },
+        {
+          "name": "Shadow Cascade",
+          "section": "shadow_cascade",
+          "description": "Requires dual wielding.A circular attack that's also used by your shadow clones.",
+          "manaCost": 15,
+          "criticalChance": "10%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 20,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Dexterity"
+          ],
+          "additionalInfo": "Added damages is applied at 200% effectiveness. Base critical strike chance is 10%, instead of the normal 5%.",
+          "source": "Bladedancer Level 5"
+        },
+        {
+          "name": "Dark Quiver",
+          "section": "dark_quiver",
+          "description": "Requires a bow.Summons 7 Black Arrows that rain from the sky over 4 seconds, granting 100% increased damage to your next bow attack when retrieved.",
+          "manaCost": 20,
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Buff",
+            "Dexterity"
+          ],
+          "additionalInfo": "You can hold up to 3 Black Arrows at once, but can only expend one at a time.",
+          "source": "Marksman Level 15"
+        },
+        {
+          "name": "Heartseeker",
+          "section": "heartseeker",
+          "description": "Requires a bow.Shoot an arrow that seeks the heart of a nearby target, passing harmlessly through other enemies. Whenever it hits its target it has a chance to continue through it and Recurve to strike it again. Subsequent Recurve chance is multiplied by 0.8 each time the arrow Recurves. If the target dies, it will choose a new target.",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 20,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Bow",
+            "Dexterity"
+          ],
+          "additionalInfo": "Base recurve chance is 100%.Added damage applies at 100% effectiveness.",
+          "source": "Marksman Level 30"
+        }
+      ]
+    }
+  ]
+}

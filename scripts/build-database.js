@@ -41,6 +41,7 @@ class DatabaseBuilder {
       sounds: new Map(),
       beams: new Map(),
       subtypes: new Map(),
+      globalTags: new Set(),
       statistics: {
         totalAffixes: 0,
         totalUniques: 0,
@@ -544,6 +545,12 @@ class DatabaseBuilder {
       
       // Try to parse skill data from HTML
       await this.parseSkillData();
+      
+      // Try to parse monster data from JSON
+      await this.parseMonsterData();
+      
+      // Try to parse ailment data from JSON  
+      await this.parseAilmentData();
     } catch (error) {
       this.logger.warn(`Web data processing failed: ${error.message}`);
       console.log(`⚠️  Web data processing failed: ${error.message}`);
@@ -945,14 +952,15 @@ class DatabaseBuilder {
       const parsedData = await parser.parseSkills();
       
       if (parsedData) {
-        const totalSkills = parsedData.classes.reduce((sum, cls) => {
-          return sum + cls.masteries.reduce((masterySum, mastery) => {
-            return masterySum + mastery.skills.length;
-          }, 0);
-        }, 0) + parsedData.otherCategories.reduce((sum, cat) => sum + cat.skills.length, 0);
+        this.logger.info(`Parsed ${parsedData.parsedSections.length} sections with ${parsedData.totalSkills} skills from HTML data`);
+        console.log(`✅ Parsed ${parsedData.parsedSections.length} sections with ${parsedData.totalSkills} skills from HTML data`);
         
-        this.logger.info(`Parsed ${parsedData.classes.length} classes, ${parsedData.classes.reduce((sum, cls) => sum + cls.masteries.length, 0)} masteries, and ${totalSkills} skills from HTML data`);
-        console.log(`✅ Parsed ${parsedData.classes.length} classes, ${parsedData.classes.reduce((sum, cls) => sum + cls.masteries.length, 0)} masteries, and ${totalSkills} skills from HTML data`);
+        // Collect global tags from skill parser
+        const skillTags = parser.getGlobalTags();
+        if (skillTags && skillTags.length > 0) {
+          skillTags.forEach(tag => this.gameData.globalTags.add(tag));
+          this.logger.info(`📋 Collected ${skillTags.length} skill tags for global tags list`);
+        }
         
         // Save skill data to Data directory (skills are informational, not integrated into main database)
         await this.saveSkillData(parsedData);
@@ -974,23 +982,80 @@ class DatabaseBuilder {
     const skillsDir = path.join(DATA_DIR, 'Skills');
     await fs.ensureDir(skillsDir);
     
-    // Save complete skill categorization
-    const categorizationFile = path.join(skillsDir, 'skill_categorization.json');
-    await fs.writeJson(categorizationFile, skillData, { spaces: 2 });
-    
-    // Save individual class files
-    for (const classData of skillData.classes) {
-      const classFile = path.join(skillsDir, `${classData.name.toLowerCase()}.json`);
-      await fs.writeJson(classFile, classData, { spaces: 2 });
+    // Save individual section files
+    for (const section of skillData.parsedSections) {
+      const fileName = section.name.toLowerCase().replace(/\s+/g, '_') + '.json';
+      const sectionFile = path.join(skillsDir, fileName);
+      await fs.writeJson(sectionFile, section.data, { spaces: 2 });
     }
     
-    // Save other categories file
-    if (skillData.otherCategories.length > 0) {
-      const otherFile = path.join(skillsDir, 'other_skill_categories.json');
-      await fs.writeJson(otherFile, skillData.otherCategories, { spaces: 2 });
+    this.logger.info(`Saved ${skillData.parsedSections.length} skill section files to ${skillsDir}`);
+  }
+
+  /**
+   * Parse monster data from Monsters.json file
+   */
+  async parseMonsterData() {
+    const HTMLMonsterParser = require('./html-monster-parser.js');
+    const parser = new HTMLMonsterParser();
+
+    try {
+      this.logger.info('Starting monster data parsing...');
+      
+      // Parse monster data
+      const parsedData = await parser.parseMonsters();
+      
+      if (parsedData) {
+        this.logger.info(`Parsed ${parsedData.totalMonsters} monsters from JSON data`);
+        console.log(`✅ Parsed ${parsedData.totalMonsters} monsters from JSON data`);
+        
+        // Collect global tags from monster parser
+        const monsterTags = parser.getGlobalTags();
+        if (monsterTags && monsterTags.length > 0) {
+          monsterTags.forEach(tag => this.gameData.globalTags.add(tag));
+          this.logger.info(`📋 Collected ${monsterTags.length} monster tags for global tags list`);
+        }
+      } else {
+        this.logger.info('No monster data found');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse monster data: ${error.message}`);
+      console.log(`❌ Monster parsing failed: ${error.message}`);
     }
-    
-    this.logger.info(`Saved skill categorization to ${skillsDir}`);
+  }
+
+  /**
+   * Parse ailment data from Ailments.json file
+   */
+  async parseAilmentData() {
+    const HTMLAilmentParser = require('./html-ailment-parser.js');
+    const parser = new HTMLAilmentParser();
+
+    try {
+      this.logger.info('Starting ailment data parsing...');
+      
+      // Parse ailment data
+      const parsedData = await parser.parseAilments();
+      
+      if (parsedData) {
+        this.logger.info(`Parsed ${parsedData.totalAilments} ailments from JSON data`);
+        console.log(`✅ Parsed ${parsedData.totalAilments} ailments from JSON data`);
+        
+        // Collect global tags from ailment parser
+        const ailmentTags = parser.getGlobalTags();
+        if (ailmentTags && ailmentTags.length > 0) {
+          ailmentTags.forEach(tag => this.gameData.globalTags.add(tag));
+          this.logger.info(`📋 Collected ${ailmentTags.length} ailment tags for global tags list`);
+        }
+      } else {
+        this.logger.info('No ailment data found');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse ailment data: ${error.message}`);
+      console.log(`❌ Ailment parsing failed: ${error.message}`);
+    }
   }
   
   /**
@@ -1229,6 +1294,7 @@ class DatabaseBuilder {
         uniques: this.gameData.uniques.size,
         sets: this.gameData.sets.size,
         subtypes: this.gameData.subtypes.size,
+        globalTags: this.gameData.globalTags.size,
         overrides: this.gameData.statistics.overridesApplied,
         discovered: this.countDiscoveredItems()
       }
@@ -1238,6 +1304,7 @@ class DatabaseBuilder {
     const colors = {};
     const sounds = {};
     const beams = {};
+    const globalTags = Array.from(this.gameData.globalTags).sort();
     
     for (const [id, name] of this.gameData.colors) {
       colors[id] = name;
@@ -1249,7 +1316,7 @@ class DatabaseBuilder {
       beams[id] = name;
     }
     
-    lines.push(JSON.stringify({ colors, sounds, beams }, null, 2));
+    lines.push(JSON.stringify({ colors, sounds, beams, globalTags }, null, 2));
     
     // Add game data (sorted by ID for consistent diffs)
     const gameDataTypes = [
@@ -1307,55 +1374,8 @@ class DatabaseBuilder {
     this.logger.info(`💾 Database saved to: ${OUTPUT_FILE}`);
     console.log(`💾 Database saved to: ${OUTPUT_FILE}`);
     
-    // Also save a human-readable summary
-    const summaryFile = path.join(DATA_DIR, 'database-summary.txt');
-    await this.createSummaryFile(summaryFile);
   }
 
-  /**
-   * Create human-readable summary file
-   */
-  async createSummaryFile(summaryFile) {
-    const lines = [
-      `Last Epoch Game Database Summary`,
-      `Generated: ${new Date(this.gameData.buildDate).toLocaleString()}`,
-      `Game Version: ${this.gameData.version}`,
-      ``,
-      `Data Counts:`,
-      `  Affixes: ${this.gameData.affixes.size}`,
-      `  Unique Items: ${this.gameData.uniques.size}`,
-      `  Set Items: ${this.gameData.sets.size}`,
-      `  Subtypes: ${this.gameData.subtypes.size}`,
-      `  Colors: ${this.gameData.colors.size}`,
-      `  Sounds: ${this.gameData.sounds.size}`,
-      `  Beams: ${this.gameData.beams.size}`,
-      ``,
-      `Build Statistics:`,
-      `  Files Processed: ${this.gameData.statistics.parsedFiles}`,
-      `  Overrides Applied: ${this.gameData.statistics.overridesApplied}`,
-      `  Duplicates Found: ${this.gameData.statistics.duplicatesFound}`,
-      `  Warnings: ${this.gameData.statistics.warnings.length}`,
-      `  Errors: ${this.gameData.statistics.errors.length}`,
-      ``
-    ];
-    
-    if (this.gameData.statistics.warnings.length > 0) {
-      lines.push(`Warnings:`);
-      this.gameData.statistics.warnings.forEach(warning => {
-        lines.push(`  • ${warning}`);
-      });
-      lines.push(``);
-    }
-    
-    if (this.gameData.statistics.errors.length > 0) {
-      lines.push(`Errors:`);
-      this.gameData.statistics.errors.forEach(error => {
-        lines.push(`  • ${error}`);
-      });
-    }
-    
-    await fs.writeFile(summaryFile, lines.join('\n'));
-  }
 
   /**
    * Save version information

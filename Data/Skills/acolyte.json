@@ -1,0 +1,787 @@
+{
+  "name": "Acolyte",
+  "masteries": [
+    {
+      "name": "Base Class",
+      "skills": [
+        {
+          "name": "Evade",
+          "section": "acolyte_evade",
+          "description": "Rapidly move a short distance forwards.Evading does not grant damage immunity or prevent abilities from hitting you.Evade gains 0.5% Increased Cooldown Recovery Speed per Character level.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "0.5% Increased Cooldown Recovery Speed"
+              ]
+            }
+          ],
+          "tags": [
+            "Movement"
+          ],
+          "source": "Rogue Level 1"
+        },
+        {
+          "name": "Marrow Shards",
+          "section": "marrow_shards",
+          "description": "Fires sharpened bones from your body. The bones pierce through enemies inflicting physical damage. Instead of mana, 9% of your current health is consumed to cast this spell.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 25,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage is applied at 125% effectiveness.",
+          "source": "Acolyte Level 3"
+        },
+        {
+          "name": "Harvest",
+          "section": "harvest",
+          "description": "A melee attack that hits all enemies in an area in front of you, dealing double damage to those that are Cursed.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "NecroticCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+2 Necrotic Melee Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Melee",
+            "Area",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "Unaffected by weapon range. Added damage applies at 70% effectiveness. Common curses include Marked for Death, Bone Curse and Spirit Plague.",
+          "source": "Acolyte Level 5"
+        },
+        {
+          "name": "Transplant",
+          "section": "transplant",
+          "description": "Creates a new body for you at the target location, then detonates your old body to deal physical damage to enemies around it.Instead of mana, 13% of your current health is consumed to cast this spell.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 50,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Area",
+            "Movement",
+            "Traversal",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage is applied at 250% effectiveness.Using a Traversal skill puts all other traversal skills on cooldown and traversal skills' cooldowns do not recover while you are using a traversal skill.",
+          "source": "Acolyte Level 9"
+        },
+        {
+          "name": "Sacrifice",
+          "section": "sacrifice",
+          "description": "Rips apart an allied minion, dealing physical damage to enemies around it.",
+          "manaCost": 23,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 80,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage is applied at 400% effectiveness.",
+          "source": "Necromancer Level 10"
+        }
+      ]
+    },
+    {
+      "name": "Necromancer",
+      "skills": [
+        {
+          "name": "Summon Skeleton",
+          "section": "summon_skeleton",
+          "description": "Summon a Skeleton Mage to fight your enemies. It casts Hungering Souls every second.",
+          "manaCost": 36,
+          "summon": {
+            "count": 1,
+            "type": "Skeleton Mage",
+            "limit": 3
+          },
+          "scaling": [],
+          "tags": [
+            "Minion"
+          ]
+        },
+        {
+          "name": "Bone Curse",
+          "section": "bone_curse",
+          "description": "Apply a curse to enemies in an area for 8 seconds that causes physical damage when hit. The damage is tripled if you inflicted the hit yourself.",
+          "manaCost": 16,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Curse",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies at 20% effectiveness to each hit.When the curse deals damage it counts as an additional hit, but cannot apply ailments from effects such as \"chance to ignite on hit\".",
+          "source": "Acolyte Level 7"
+        },
+        {
+          "name": "Summon Volatile Zombie",
+          "section": "summon_volatile_zombie",
+          "description": "Summons a Volatile Zombie which trudges towards the nearest enemy. When it reaches an enemy or dies, it explodes dealing physical and fire damage to surrounding enemies.",
+          "manaCost": 13,
+          "summon": {
+            "count": 1,
+            "type": "Volatile Zombie",
+            "limit": 6
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+10 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+10 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Intelligence"
+          ],
+          "additionalInfo": "You are limited to 6 active zombies. Summoning more will cause older ones to explode.Volatile Zombies' have 200 base health and their health decays at an accelerating rate.Press A to give your minions an attack command.",
+          "source": "Acolyte Level 16"
+        },
+        {
+          "name": "Summon Bone Golem",
+          "section": "summon_bone_golem",
+          "description": "Summons a bone golem, which attacks slowly, but retaliates with a bone nova when it takes 70 damage.",
+          "manaCost": 60,
+          "summon": {
+            "count": 1,
+            "type": "Spectral Golem",
+            "limit": 1
+          },
+          "scaling": [],
+          "tags": [
+            "Minion"
+          ]
+        },
+        {
+          "name": "Assemble Abomination",
+          "section": "assemble_abomination",
+          "description": "Hold ability key to channel to absorb your Wraiths, Summoned Skeletons, Skeletal Mages, Golems, and Volatile Zombies in an area. When you release, summon a single hulking abomination with added health and more damage per minion absorbed.The abomination remembers the minions absorbed to create it and will rapidly devour those minions to restore 10% of its maximum health.",
+          "manaCost": 65,
+          "summon": {
+            "count": 1,
+            "type": "Abomination",
+            "limit": 1
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "10% increased Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Minion",
+            "Channeled",
+            "Intelligence"
+          ],
+          "additionalInfo": "Abomination gains health equal to the max health of minions consumed and 5% more damage (multiplicative with other modifiers) per minion consumed (up to 20 minions).All minions of the same type are devoured if any one of them are absorbed. For example, Skeleton Warriors, Skeleton Rogues, and Skeleton Archers are the same type of Summoned Skeleton.",
+          "source": "Necromancer Level 40"
+        }
+      ]
+    },
+    {
+      "name": "Lich",
+      "skills": [
+        {
+          "name": "Drain Life",
+          "section": "drain_life",
+          "description": "Channelled spell that targets up to 3 enemies around the target location, dealing necrotic damage over time and leeching 30% of that damage back as health.",
+          "manaCost": 5,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "NecroticCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Channeled",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies at 360% effectiveness per second.",
+          "source": "Lich Level 5"
+        },
+        {
+          "name": "Death Seal",
+          "section": "death_seal",
+          "description": "Releases a Wave of Death dealing damage based on how long Death Seal has been actve and your current percent missing health.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Spell",
+            "Buff",
+            "Instant Cast",
+            "Intelligence"
+          ]
+        },
+        {
+          "name": "Reaper Form",
+          "section": "reaper_form",
+          "description": "Take on the mantle of death itself and transform into a Reaper, temporarily gaining the Reap ability. While in Reaper Form, your health regen does not apply and your health decays over time. When your health reaches 0 instead of dying you transform back to human form and are healed to full health.",
+          "manaCost": 0,
+          "criticalChance": "5%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "NecroticCritical"
+          },
+          "scaling": [],
+          "tags": [
+            "Melee",
+            "Area",
+            "Transform",
+            "Movement"
+          ],
+          "additionalInfo": "Reap is a short ranged dash. It deals melee damage to enemies you pass through and heals you for each enemy hit. This healing scales with your increased healing effectiveness.The rate at which your health decays in reaper form is not based on your current or maximum health.The health decay accelerates while you remain in reaper form.If you take more damage than your remaining health in Reaper Form, the excess damage will be dealt to your human form health.",
+          "source": "Lich"
+        },
+        {
+          "name": "Ghostflame",
+          "section": "ghostflame",
+          "description": "Channel to releases a continuous jet of horrid flames in front of you dealing fire and necrotic damage over time.",
+          "manaCost": 5,
+          "baseDamage": {
+            "amount": 25,
+            "type": "seconds17"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Channeled",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage applies at 600% effectiveness each second. Damage reduces while rotating.",
+          "source": "Warlock Level 15"
+        },
+        {
+          "name": "Soul Feast",
+          "section": "soul_feast",
+          "description": "Feasts on the souls of cursed enemies, dealing necrotic damage to them, and drawing fragments of their souls back to you. The soul fragments each grant 3 ward when they reach you.Feasts on up to 13 enemies, prioritising those closest to you.",
+          "manaCost": 17,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 50,
+            "type": "NecroticCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage is applied at 250% effectiveness."
+        }
+      ]
+    },
+    {
+      "name": "Warlock",
+      "skills": [
+        {
+          "name": "Infernal Shade",
+          "section": "infernal_shade",
+          "description": "Target enemy and all nearby enemies take fire damage per second. Each enemy can only have one Infernal Shade attached at a time. Expires after 5 seconds. Max 4 active shades.",
+          "manaCost": 14,
+          "baseDamage": {
+            "amount": 2,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies at 250% effectiveness each second.Your maximum number of shades is shared with Dread Shade.",
+          "source": "Acolyte Level 20"
+        },
+        {
+          "name": "Chaos Bolts",
+          "section": "chaos_bolts",
+          "description": "Call a meteor from the sky that deals a large amount of damage upon landing. Added damage is applied at five times its normal value.",
+          "manaCost": 1,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 10,
+            "type": "Fire"
+          },
+          "comboSkills": [
+            "Shocking Impact",
+            "Shocking Impact"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Necrotic",
+            "Spell",
+            "Intelligence"
+          ]
+        },
+        {
+          "name": "Profane Veil",
+          "section": "profane_veil",
+          "description": "Channel to conceal yourself within a Profane Veil that deals necrotic damage over time to enemies around you. While concealed you dodge every Hit, but you can still take damage from damage over time effects, such as ailments, and you move more slowly.Last for up to 2 seconds (also ends when you release the key). Cooldown does not recover during use.",
+          "manaCost": 25,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 4,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Channeled",
+            "Movement",
+            "Intelligence"
+          ],
+          "additionalInfo": "You have 40% less movement speed while channeling (multiplicative with other modifiers).Added spell damage applies at 200% effectiveness per second.",
+          "source": "Warlock Level 35"
+        },
+        {
+          "name": "Chthonic Fissure",
+          "section": "chthonic_fissure",
+          "description": "Opens an infernal fissure in the ground, dealing fire damage over time to enemies on top of it, as well as releasing Spirits from the fissure that seek nearby enemies. These spirits inflict enemies with Torment, a Curse that slows and deals necrotic damage over time.Max 1 active fissure.",
+          "manaCost": 45,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 6,
+            "type": "NecroticCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Fire",
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Curse",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added damage for the Fissure applies at 120% effectiveness each second.Added damage for the Spirits applies at 30% effectiveness.Torment applies 18% less movement speed (multiplicative with other modifiers), deals 120 damage over 3 seconds and added damage applies at 200% effectiveness per second.",
+          "source": "Warlock"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "skills": [
+        {
+          "name": "Rip Blood",
+          "section": "rip_blood",
+          "description": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 5 health when it reaches you.",
+          "manaCost": 3,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 20,
+            "type": "PhysicalCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage",
+                "4% Increased Healing Effectiveness"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Spell",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Affected by increases to Healing Effectiveness.Added damage is applied at 100% effectiveness.",
+          "source": "Acolyte Level 1"
+        },
+        {
+          "name": "Wandering Spirits",
+          "section": "wandering_spirits",
+          "description": "Reveals wandering spirits around you for 6 seconds. The spirits wander at random dealing necrotic damage over time to enemies they pass through.4 spirits are revealed immediately after casting the skill and 17 more are revealed over the next 6 seconds.The spirits individually last up to 4 seconds, but all remaining spirits fade once the reveal duration ends.",
+          "manaCost": 31,
+          "criticalChance": "0%",
+          "criticalMultiplier": "100%",
+          "baseDamage": {
+            "amount": 6,
+            "type": "metersInterval"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies to each spirit's damage at 200% effectiveness per second.Increased Area stats affect the area of effect of each individual spirit, but not the area in which spirits are revealed.",
+          "source": "Acolyte Level 4"
+        },
+        {
+          "name": "Hungering Souls",
+          "section": "hungering_souls",
+          "description": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.Possessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+          "manaCost": 11,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 9,
+            "type": "NecroticCritical"
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Intelligence"
+          ],
+          "additionalInfo": "Possess's damage counts as spell damage and it is affected by modifiers to base spell damage.Added spell damage applies to the initial hit at 45% effectiveness and to possess at 75% effectiveness over its full duration.",
+          "source": "Acolyte Level 5"
+        },
+        {
+          "name": "Spirit Plague",
+          "section": "spirit_plague",
+          "description": "Curses a target with a powerful necrotic damage over time effect which lasts 3 seconds. Spreads to a single nearby target on target death.",
+          "manaCost": 3,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Damage Over Time",
+            "Curse",
+            "Intelligence"
+          ],
+          "additionalInfo": "Added spell damage applies at 150% effectiveness per second.",
+          "source": "Acolyte Level 15"
+        },
+        {
+          "name": "Summon Skeletal Mage",
+          "section": "summon_mage",
+          "description": "Summons a Skeletal Mage to assist you. You are limited to 2 Skeletal Mages at a time.Skeletal Mages cast Dread Bolt, which has 150% added damage effectiveness and has a 50% chance to apply Damned on hit.",
+          "manaCost": 21,
+          "summon": {
+            "count": 1,
+            "type": "Skeleton Mage",
+            "limit": 3
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+8 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+8 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Intelligence"
+          ],
+          "additionalInfo": "Skeletal Mages have 100 base health.You will always summon the Skeletal Mage type you have the fewest of.",
+          "source": "Necromancer Level 5"
+        },
+        {
+          "name": "Dread Shade",
+          "section": "dread_shade",
+          "description": "Your minion's health is drained for 3% of its max health per second for each second the shade has been active, but it and your minions around it deal +10 necrotic damage with spells and attacks and have 50% increased necrotic damage.",
+          "manaCost": 30,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+2% Mana Efficiency"
+              ]
+            }
+          ],
+          "tags": [
+            "Necrotic",
+            "Spell",
+            "Buff",
+            "Area",
+            "Intelligence"
+          ],
+          "additionalInfo": "Each minion only benefits from one Dread Shade aura. Max 4 active shades.Your maximum number of shades is shared with Infernal Shade.",
+          "source": "Necromancer Level 30"
+        },
+        {
+          "name": "Summon Wraith",
+          "section": "summon_wraith",
+          "description": "Summons a wraith that rapidly fades from this world, but will seek and attack your foes while it remains.",
+          "manaCost": 20,
+          "summon": {
+            "count": 1,
+            "type": "Wraith",
+            "limit": 6
+          },
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "+3 Minion Health",
+                "4% increased Minion Damage"
+              ]
+            },
+            {
+              "attribute": "Per Character Level:",
+              "effects": [
+                "+3 Minion Health"
+              ]
+            }
+          ],
+          "tags": [
+            "Minion",
+            "Intelligence"
+          ],
+          "additionalInfo": "You are limited to 6 active wraiths.Wraiths have 60 base health.",
+          "source": "Necromancer"
+        },
+        {
+          "name": "Aura Of Decay",
+          "section": "aura_of_decay",
+          "description": "Toggles Aura of Decay, which poisons you every second, and leaves a trail of decay. Enemies near you or in the trail are poisoned four times a second, and your chance to poison on hit applies to each of these instances at 100% effectiveness.While Aura of Decay is active you take 30% less poison damage. Additionally, you take 50% less damage from your own Aura of Decay.",
+          "manaCost": 0,
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Poison",
+            "Damage Over Time",
+            "Area",
+            "Instant Cast",
+            "Intelligence"
+          ],
+          "additionalInfo": "Your chance to poison on hit does not increase the rate at which poison is applied to you.",
+          "source": "Lich Level 10"
+        },
+        {
+          "name": "Flay",
+          "section": "flay",
+          "description": "Spirit Step up to 3 meters towards an enemy if not within range, then perform a narrow rending slash.Each enemy killed by the melee attack will release a Blood Eruption, a spell dealing physical damage in an area.Enemies can be hit by both Flay and all Blood Eruptions that occur.",
+          "manaCost": 10,
+          "criticalChance": "5%",
+          "criticalMultiplier": "200%",
+          "baseDamage": {
+            "amount": 2,
+            "type": "PhysicalCritical"
+          },
+          "comboSkills": [
+            "Teleport"
+          ],
+          "scaling": [
+            {
+              "attribute": "Per point of Intelligence:",
+              "effects": [
+                "4% increased Damage"
+              ]
+            },
+            {
+              "attribute": "Per point of Dexterity:",
+              "effects": [
+                "+2 Physical Melee Damage"
+              ]
+            }
+          ],
+          "tags": [
+            "Physical",
+            "Melee",
+            "Area",
+            "Movement",
+            "Intelligence",
+            "Dexterity"
+          ],
+          "additionalInfo": "The melee attack has 200% effectiveness of added melee damage.The Blood Eruption has 200% effectiveness of added spell damage.",
+          "source": "Lich Level 30"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "dataType": "ailment",
+  "url": "https://www.lastepochtools.com/ailments/",
+  "scrapedAt": "2025-08-26T19:42:42.907Z",
+  "itemCount": 128,
+  "totalLinks": 129,
+  "items": [
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/changelog/version130",
+      "extractedAt": "2025-08-26T19:42:44.145Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-126\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"137\">Exposed Flesh</div><div class=\"ailment-description\">A Curse that reduces armor and cold resistance, and increases chance to be frozen</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">-15%</span></span> Cold Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> Increased Chance To Be Frozen</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 0,
+      "navIndex": 1,
+      "navText": "Changelog",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/ambush_buff",
+      "extractedAt": "2025-08-26T19:42:44.876Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"102\">Ambusher</div><div class=\"ailment-description\">Increases attack, cast and move speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">600</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> less Damage Taken</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> increased Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 1,
+      "navIndex": 2,
+      "navText": "Ambusher",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/ancient_flight",
+      "extractedAt": "2025-08-26T19:42:45.616Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-73\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"89\">Ancient Flight</div><div class=\"ailment-description\">Increases movement speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">2</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">2</span></span> Arrows with Flurry while using a Bow<br><span class=\"item-description-part alt\">Additional arrows cannot hit the same target as the first</span></div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">2</span></span> Arrows with Multishot</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> increased Critical Strike Chance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> Critical Strike Avoidance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 2,
+      "navIndex": 3,
+      "navText": "Ancient Flight",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/apocalypse",
+      "extractedAt": "2025-08-26T19:42:46.343Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-56\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"70\">Apocalypse</div><div class=\"ailment-description\">Increased void damage and melee critical strike multiplier</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">70%</span></span> increased Void Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">70%</span></span> Melee Critical Strike Multiplier</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 3,
+      "navIndex": 4,
+      "navText": "Apocalypse",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/arcane_ascendance",
+      "extractedAt": "2025-08-26T19:42:47.084Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-44\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"57\">Arcane Ascendance</div><div class=\"ailment-description\">Accelerating mana drain. Additional spell mana cost. Increased spell damage and increased cast speed. Deals lightning damage to nearby enemies.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">1</span> second</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Immobilizes target</div></div></div>",
+      "index": 4,
+      "navIndex": 5,
+      "navText": "Arcane Ascendance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aspect_of_the_crow",
+      "extractedAt": "2025-08-26T19:42:47.802Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-72\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"88\">Aspect of the Crow</div><div class=\"ailment-description\">Grants +3 melee lightning damage and +3 spell lightning damage.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">3</span></span> Lightning Melee Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">3</span></span> Lightning Spell Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 5,
+      "navIndex": 6,
+      "navText": "Aspect of the Crow",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aspect_of_the_spider",
+      "extractedAt": "2025-08-26T19:42:48.527Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-85\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"103\">Aspect of the Spider</div><div class=\"ailment-description\">Slow on hit and deal more damage to slowed enemies (multiplicative with other modifiers)</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> Chance to apply Slow on Hit</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> more Damage to Slowed Enemies</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 6,
+      "navIndex": 7,
+      "navText": "Aspect of the Spider",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/chosen_erased_ailment",
+      "extractedAt": "2025-08-26T19:42:49.240Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-124\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"135\">Chosen of the Chosen</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">15</span></span> Necrotic Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">70%</span></span> increased Movement Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">50%</span></span> increased Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> less Damage Taken</div></div></div></div>",
+      "index": 7,
+      "navIndex": 8,
+      "navText": "Chosen of the Chosen",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/contempt",
+      "extractedAt": "2025-08-26T19:42:49.955Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-48\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"61\">Contempt</div><div class=\"ailment-description\">10% more armor and +10% to all resistances</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">500</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">5</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> to All Resistances</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> more Armor</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 8,
+      "navIndex": 9,
+      "navText": "Contempt",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/corrupted_heraldry",
+      "extractedAt": "2025-08-26T19:42:50.682Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-80\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"97\">Corrupted Heraldry</div><div class=\"ailment-description\">5% increased movement speed and mana regen\n\n+5 Spell Void Damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">12</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">12</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> increased Movement Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> increased Mana Regen</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5</span></span> Void Spell Damage</div></div></div></div>",
+      "index": 9,
+      "navIndex": 10,
+      "navText": "Corrupted Heraldry",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/crimson_shroud",
+      "extractedAt": "2025-08-26T19:42:51.405Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-67\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"83\">Crimson Shroud</div><div class=\"ailment-description\">Additional bleed chance and less damage taken over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">50%</span></span> Chance to apply Bleed on Hit</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> less Damage Over Time Taken</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 10,
+      "navIndex": 11,
+      "navText": "Crimson Shroud",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/critical_effluence",
+      "extractedAt": "2025-08-26T19:42:52.130Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-43\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"56\">Critical Effluence</div><div class=\"ailment-description\">Increases Critical Strike Chance with Spells</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> increased Spell Critical Strike Chance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 11,
+      "navIndex": 12,
+      "navText": "Critical Effluence",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shrine_crit",
+      "extractedAt": "2025-08-26T19:42:52.845Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-51\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"64\">Critical Shrine</div><div class=\"ailment-description\">Your hits always crit</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> Critical Strike Chance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 12,
+      "navIndex": 13,
+      "navText": "Critical Shrine",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/damage_boost",
+      "extractedAt": "2025-08-26T19:42:53.558Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-21\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"22\">Damage Boost</div><div class=\"ailment-description\">10% increased damage per stack</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> increased Damage</div></div></div></div>",
+      "index": 13,
+      "navIndex": 14,
+      "navText": "Damage Boost",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/immunity",
+      "extractedAt": "2025-08-26T19:42:54.270Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-83\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"100\">Damage Immunity</div><div class=\"ailment-description\">Prevents All Damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> less Damage Taken</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 14,
+      "navIndex": 15,
+      "navText": "Damage Immunity",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/darkness",
+      "extractedAt": "2025-08-26T19:42:55.008Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-20\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"96\">Darkness</div><div class=\"ailment-description\">Massively Increases damage and reduces damage taken while in Darkness</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10,000</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> more Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">90%</span></span> less Damage Taken</div></div></div></div>",
+      "index": 15,
+      "navIndex": 16,
+      "navText": "Darkness",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/deadly",
+      "extractedAt": "2025-08-26T19:42:55.730Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"47\">Deadly</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">90,000</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> more Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 16,
+      "navIndex": 17,
+      "navText": "Deadly",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/divine_essence",
+      "extractedAt": "2025-08-26T19:42:56.458Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-29\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"32\">Divine Essence</div><div class=\"ailment-description\">Increases Healing and Armor, and reduces damage over time taken</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> increased Armor</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> Increased Healing Effectiveness</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> reduced Damage Over Time Taken</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 17,
+      "navIndex": 18,
+      "navText": "Divine Essence",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/dusk_shroud",
+      "extractedAt": "2025-08-26T19:42:57.183Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-66\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"82\">Dusk Shroud</div><div class=\"ailment-description\">Adds Glancing Blow chance and Dodge Rating</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Chance to receive a Glancing Blow when hit</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">50</span></span> Dodge Rating</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 18,
+      "navIndex": 19,
+      "navText": "Dusk Shroud",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/enrage",
+      "extractedAt": "2025-08-26T19:42:57.893Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-60\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"76\">Enrage</div><div class=\"ailment-description\">Increases attack, cast and move speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">60%</span></span> increased Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">60%</span></span> increased Cast Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">35%</span></span> increased Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 19,
+      "navIndex": 20,
+      "navText": "Enrage",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/ferocity",
+      "extractedAt": "2025-08-26T19:42:58.634Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-39\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"67\">Ferocity</div><div class=\"ailment-description\">Increases physical damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">50%</span></span> increased Physical Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 20,
+      "navIndex": 21,
+      "navText": "Ferocity",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/frenzy",
+      "extractedAt": "2025-08-26T19:42:59.358Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-31\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"34\">Frenzy</div><div class=\"ailment-description\">Increases attack and cast speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">1</span> second</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> increased Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> increased Cast Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 21,
+      "navIndex": 22,
+      "navText": "Frenzy",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/haste",
+      "extractedAt": "2025-08-26T19:43:00.081Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-30\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"33\">Haste</div><div class=\"ailment-description\">Increases movement speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> increased Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 22,
+      "navIndex": 23,
+      "navText": "Haste",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/healing_hands_heal_over_time",
+      "extractedAt": "2025-08-26T19:43:00.795Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-121\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"128\">Healing Hands Lingering Warmth</div><div class=\"ailment-description\">Heals over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 23,
+      "navIndex": 24,
+      "navText": "Healing Hands Lingering Warmth",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/inspiration",
+      "extractedAt": "2025-08-26T19:43:01.508Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-37\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"45\">Inspiration</div><div class=\"ailment-description\">Increases cooldown recovery speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> Increased Cooldown Recovery Speed</div></div></div></div>",
+      "index": 24,
+      "navIndex": 25,
+      "navText": "Inspiration",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/mirage_form",
+      "extractedAt": "2025-08-26T19:43:02.236Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-64\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"80\">Mirage Form</div><div class=\"ailment-description\">Increased bleed chance and dodge rating</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 25,
+      "navIndex": 26,
+      "navText": "Mirage Form",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/molten_infusion",
+      "extractedAt": "2025-08-26T19:43:02.965Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-75\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"91\">Molten Infusion</div><div class=\"ailment-description\">Added melee fire damage and ignite chance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">15</span></span> Fire Melee Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> Chance to apply Ignite on Hit</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 26,
+      "navIndex": 27,
+      "navText": "Molten Infusion",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shrine_reflect",
+      "extractedAt": "2025-08-26T19:43:03.719Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-49\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"62\">Reflective Shrine</div><div class=\"ailment-description\">Reflects 300% of Damage Taken</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">300%</span></span> of Damage Reflected</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 27,
+      "navIndex": 28,
+      "navText": "Reflective Shrine",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/revolution",
+      "extractedAt": "2025-08-26T19:43:04.433Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-102\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"116\">Revolution</div><div class=\"ailment-description\">Grants 13% increased cast speed and added spell damage based on 20% of the caster's maximum mana</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">13</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 28,
+      "navIndex": 29,
+      "navText": "Revolution",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/runeword_avalanche",
+      "extractedAt": "2025-08-26T19:43:05.158Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-97\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"110\">Runeword Avalanche</div><div class=\"ailment-description\">+10 Spell Cold Damage\n+2 Endurance Threshold per Ignite on the Attacker </div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10</span></span> Cold Spell Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">2</span></span> Endurance Threshold per stack of Ignite on the Attacker</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 29,
+      "navIndex": 30,
+      "navText": "Runeword Avalanche",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/runeword_cataclysm",
+      "extractedAt": "2025-08-26T19:43:05.874Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-95\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"108\">Runeword Cataclysm</div><div class=\"ailment-description\">Deal more damage to low health enemies (multiplicative with other modifiers)</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> more Damage to Low Health Enemies</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 30,
+      "navIndex": 31,
+      "navText": "Runeword Cataclysm",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/runeword_hurricane",
+      "extractedAt": "2025-08-26T19:43:06.589Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-96\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"109\">Runeword Hurricane</div><div class=\"ailment-description\">+10 Spell Lightning Damage\n+90% Freeze Rate Multiplier</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10</span></span> Lightning Spell Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">90%</span></span> Freeze Rate Multiplier</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 31,
+      "navIndex": 32,
+      "navText": "Runeword Hurricane",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/runeword_inferno",
+      "extractedAt": "2025-08-26T19:43:07.301Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-98\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"111\">Runeword Inferno</div><div class=\"ailment-description\">+10 Spell Fire Damage\n+3% More Armor Per Shock On Enemy</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10</span></span> Lightning Spell Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">3%</span></span> more Armor per stack of Shock on the Attacker<br><span class=\"item-description-part alt\">multiplicative with other modifiers</span></div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 32,
+      "navIndex": 33,
+      "navText": "Runeword Inferno",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/sciurine_rage",
+      "extractedAt": "2025-08-26T19:43:08.029Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-79\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"95\">Sciurine Rage</div><div class=\"ailment-description\">40% increased movement and melee attack speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">40%</span></span> increased Movement Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">40%</span></span> increased Melee Attack Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 33,
+      "navIndex": 34,
+      "navText": "Sciurine Rage",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shapeshifter",
+      "extractedAt": "2025-08-26T19:43:08.754Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-53\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"66\">Shapeshifter</div><div class=\"ailment-description\">Increases armor and damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">50%</span></span> increased Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">50%</span></span> increased Armor</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 34,
+      "navIndex": 35,
+      "navText": "Shapeshifter",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/sharpshooter",
+      "extractedAt": "2025-08-26T19:43:09.492Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-70\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"86\">Sharpshooter</div><div class=\"ailment-description\">Increases bow damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">25%</span></span> increased Bow Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 35,
+      "navIndex": 36,
+      "navText": "Sharpshooter",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shrine_experience_buff",
+      "extractedAt": "2025-08-26T19:43:10.218Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-71\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"87\">Shrine Experience Buff</div><div class=\"ailment-description\">Increases experience gained on kill</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">50%</span></span> Increased Experience</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 36,
+      "navIndex": 37,
+      "navText": "Shrine Experience Buff",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shrine_haste",
+      "extractedAt": "2025-08-26T19:43:10.927Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-47\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"60\">Shrine Haste</div><div class=\"ailment-description\">Increases movement speed, attack speed, and cast speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> increased Movement Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> increased Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> increased Cast Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 37,
+      "navIndex": 38,
+      "navText": "Shrine Haste",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/silver_shroud",
+      "extractedAt": "2025-08-26T19:43:11.644Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-65\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"81\">Silver Shroud</div><div class=\"ailment-description\">Dodge your next hit and gain ward per stack</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 38,
+      "navIndex": 39,
+      "navText": "Silver Shroud",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/smoke_blades",
+      "extractedAt": "2025-08-26T19:43:12.360Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-63\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"84\">Smoke Blades</div><div class=\"ailment-description\">Increases melee and throwing damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">4</span></span> Melee Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">4</span></span> Throwing Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 39,
+      "navIndex": 40,
+      "navText": "Smoke Blades",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/spirit_kindling",
+      "extractedAt": "2025-08-26T19:43:13.087Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-100\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"114\">Spirit Kindling</div><div class=\"ailment-description\">Drains 1% of current health every second, but grants 12% increased movement speed, 5% increased melee attack speed, and ignite chance equal to 30% of caster's ignite chance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">100</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> increased Movement Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> increased Melee Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">2%</span></span> of Current Health Drained per Second</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 40,
+      "navIndex": 41,
+      "navText": "Spirit Kindling",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/stalwart",
+      "extractedAt": "2025-08-26T19:43:13.826Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-36\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"44\">Stalwart</div><div class=\"ailment-description\">Increases armor</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> increased Armor</div></div></div></div>",
+      "index": 41,
+      "navIndex": 42,
+      "navText": "Stalwart",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/lightning_infusion",
+      "extractedAt": "2025-08-26T19:43:14.540Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-61\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"77\">Storm Infusion</div><div class=\"ailment-description\">Added Lightning Damage from Storm Totem</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">21</span></span> Lightning Spell Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">21</span></span> Lightning Melee Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">21</span></span> Lightning Bow Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">21</span></span> Lightning Throwing Damage</div></div></div></div>",
+      "index": 42,
+      "navIndex": 43,
+      "navText": "Storm Infusion",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shrine_stun",
+      "extractedAt": "2025-08-26T19:43:15.269Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-50\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"63\">Stunning Shrine</div><div class=\"ailment-description\">200% increased stun chance and stun duration</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">200%</span></span> Increased Stun Chance</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">200%</span></span> Increased Stun Duration</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 43,
+      "navIndex": 44,
+      "navText": "Stunning Shrine",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/swiftness",
+      "extractedAt": "2025-08-26T19:43:16.004Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"35\">Swiftness</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">30</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">1%</span></span> increased Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 44,
+      "navIndex": 45,
+      "navText": "Swiftness",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/talon_blades",
+      "extractedAt": "2025-08-26T19:43:16.719Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-117\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"127\">Talon Blades</div><div class=\"ailment-description\">Increases crit chance and crit multiplier</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">18</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">6%</span></span> increased Critical Strike Chance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">3%</span></span> Critical Strike Multiplier</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 45,
+      "navIndex": 46,
+      "navText": "Talon Blades",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/tempest_paws",
+      "extractedAt": "2025-08-26T19:43:17.446Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-86\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"104\">Tempest Paws</div><div class=\"ailment-description\">adds melee lightning damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 46,
+      "navIndex": 47,
+      "navText": "Tempest Paws",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/tempests_might",
+      "extractedAt": "2025-08-26T19:43:18.166Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"38\">Tempest's Might</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">3</span></span> Cold Melee Damage</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">3</span></span> Lightning Melee Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 47,
+      "navIndex": 48,
+      "navText": "Tempest's Might",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/totem_armor",
+      "extractedAt": "2025-08-26T19:43:18.881Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-78\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"94\">Totem Armor</div><div class=\"ailment-description\">80% increased armor and 15% more damage</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">4</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">80%</span></span> increased Armor</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> more Damage</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 48,
+      "navIndex": 49,
+      "navText": "Totem Armor",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/void_barrier_visuals",
+      "extractedAt": "2025-08-26T19:43:19.606Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-82\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"99\">Void Barrier</div><div class=\"ailment-description\">5% less damage taken per stack</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">999,999</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">6</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 49,
+      "navIndex": 50,
+      "navText": "Void Barrier",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/void_essence",
+      "extractedAt": "2025-08-26T19:43:20.337Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-25\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"26\">Void Essence</div><div class=\"ailment-description\">Grants more void damage and more melee damage, and reduces received stun duration</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">3%</span></span> more Void Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">3%</span></span> more Melee Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> reduced Duration of Stuns Received</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 50,
+      "navIndex": 51,
+      "navText": "Void Essence",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shrine_manatee",
+      "extractedAt": "2025-08-26T19:43:21.056Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container positive\"><div class=\"icons icons-r-52\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"65\">Water Shrine</div><div class=\"ailment-description\">100% increased mana regen and cooldown recovery speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">45</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> increased Mana Regen</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> Increased Cooldown Recovery Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 51,
+      "navIndex": 52,
+      "navText": "Water Shrine",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aterroth_time_rot",
+      "extractedAt": "2025-08-26T19:43:21.792Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-8\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"133\">Aberroth's Time Rot</div><div class=\"ailment-description\">Deals void damage and shreds void resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">1000</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> Negative Void Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Void Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 52,
+      "navIndex": 53,
+      "navText": "Aberroth's Time Rot",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/abyssal_decay",
+      "extractedAt": "2025-08-26T19:43:22.506Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-11\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"12\">Abyssal Decay</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">100</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Applies all remaining damage when hit</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Void Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 53,
+      "navIndex": 54,
+      "navText": "Abyssal Decay",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/stacking_abyssal_decay",
+      "extractedAt": "2025-08-26T19:43:23.222Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"13\">Abyssal Decay</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">30</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Applies all remaining damage when hit</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Void Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 54,
+      "navIndex": 55,
+      "navText": "Abyssal Decay",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/acid_skin",
+      "extractedAt": "2025-08-26T19:43:23.948Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-110\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"120\">Acid Skin</div><div class=\"ailment-description\">A Curse that deals poison damage over time and increases the chance to be crit by 20%.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">80</span> Poison (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> Chance to Receive a Critical Strike</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Poison Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 55,
+      "navIndex": 56,
+      "navText": "Acid Skin",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/anguish",
+      "extractedAt": "2025-08-26T19:43:24.681Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-119\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"121\">Anguish</div><div class=\"ailment-description\">A Curse that causes the target to deal less damage over time and deals necrotic damage to all enemies afflicted with it whenever you kill an enemy.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">40</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> less Damage Over Time</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 56,
+      "navIndex": 57,
+      "navText": "Anguish",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/arcane_mark",
+      "extractedAt": "2025-08-26T19:43:25.393Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-41\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"53\">Arcane Mark</div><div class=\"ailment-description\">Grants a chance to poison on hit and increases damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">500</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 57,
+      "navIndex": 58,
+      "navText": "Arcane Mark",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/avalanche_stack_for_fissure",
+      "extractedAt": "2025-08-26T19:43:26.106Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"37\">Avalanche Fissure Proc Ailment</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-33\"></div></div><a href=\"/skills/avalanche_fissure\" class=\"ability-link\" ability_id=\"ailment_fs47re_5\" section_ability_id=\"avalanche_fissure\" aria-expanded=\"false\">Fissure</a></div> when <span class=\"mod-value\">5</span> stacks are reached</div></div></div>",
+      "index": 58,
+      "navIndex": 59,
+      "navText": "Avalanche Fissure Proc Ailment",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/bleed",
+      "extractedAt": "2025-08-26T19:43:26.831Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-2\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"2\">Bleed</div><div class=\"ailment-description\">Deals physical damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">53</span> Physical (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Physical Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 59,
+      "navIndex": 60,
+      "navText": "Bleed",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/blind",
+      "extractedAt": "2025-08-26T19:43:27.560Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-13\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"14\">Blind</div><div class=\"ailment-description\">Blinded enemies cannot critically strike</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> less Critical Strike Chance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Blinds target</div></div></div>",
+      "index": 60,
+      "navIndex": 61,
+      "navText": "Blind",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/bone_curse",
+      "extractedAt": "2025-08-26T19:43:28.287Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-45\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"58\">Bone Curse</div><div class=\"ailment-description\">A Curse that causes affected targets to take spell physical damage when hit</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">4</span> Physical (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Physical Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 61,
+      "navIndex": 62,
+      "navText": "Bone Curse",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/necrotic_bone_curse",
+      "extractedAt": "2025-08-26T19:43:29.013Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-55\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"69\">Bone Curse</div><div class=\"ailment-description\">You take physical damage when hit.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">4</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 62,
+      "navIndex": 63,
+      "navText": "Bone Curse",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/brand_of_deception",
+      "extractedAt": "2025-08-26T19:43:29.746Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-94\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"107\">Brand of Deception</div><div class=\"ailment-description\">Deals significant lightning damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">400</span> Lightning (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Lightning Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 63,
+      "navIndex": 64,
+      "navText": "Brand of Deception",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/brand_of_subjugation",
+      "extractedAt": "2025-08-26T19:43:30.461Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-91\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"106\">Brand of Subjugation</div><div class=\"ailment-description\">Deals significant cold damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">400</span> Cold (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Cold Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 64,
+      "navIndex": 65,
+      "navText": "Brand of Subjugation",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/brand_of_trespass",
+      "extractedAt": "2025-08-26T19:43:31.176Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-87\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"105\">Brand of Trespass</div><div class=\"ailment-description\">Deals significant fire damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">400</span> Fire (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Fire Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 65,
+      "navIndex": 66,
+      "navText": "Brand of Trespass",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/chained",
+      "extractedAt": "2025-08-26T19:43:31.893Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-112\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"123\">Chained</div><div class=\"ailment-description\">Immobilizes and deals necrotic damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">2</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">40</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Immobilizes target</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 66,
+      "navIndex": 67,
+      "navText": "Chained",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/chill",
+      "extractedAt": "2025-08-26T19:43:32.620Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-3\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"3\">Chill</div><div class=\"ailment-description\">Reduces movement speed, attack speed, and cast speed.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> less Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> less Cast Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> less Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">50%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">50%</span> less effect against bosses</div></div></div>",
+      "index": 67,
+      "navIndex": 68,
+      "navText": "Chill",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aterroth_chill",
+      "extractedAt": "2025-08-26T19:43:33.348Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-3\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"131\">Chill of Aberroth</div><div class=\"ailment-description\">Reduces movement speed, attack speed, and cast speed.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> less Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> less Cast Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> less Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">50%</span> less effect against players</div></div></div>",
+      "index": 68,
+      "navIndex": 69,
+      "navText": "Chill of Aberroth",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/critical_vulnerability",
+      "extractedAt": "2025-08-26T19:43:34.074Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-69\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"85\">Critical Vulnerability</div><div class=\"ailment-description\">Increased chance to be critically hit</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">2%</span></span> Chance to Receive a Critical Strike</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">-10%</span></span> Critical Strike Avoidance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 69,
+      "navIndex": 70,
+      "navText": "Critical Vulnerability",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aterroth_curse",
+      "extractedAt": "2025-08-26T19:43:34.798Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-122\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"132\">Curse of Aberroth</div><div class=\"ailment-description\">Reduces All Resistances by 10%. Cannot be cleansed.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">1,000,000</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Necrotic Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Fire Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Cold Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Void Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Poison Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Physical Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> Negative Lightning Resistance</div></div></div></div>",
+      "index": 70,
+      "navIndex": 71,
+      "navText": "Curse of Aberroth",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/damned",
+      "extractedAt": "2025-08-26T19:43:35.512Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-34\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"39\">Damned</div><div class=\"ailment-description\">Deals necrotic damage over time and reduces health regen</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">2.5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">35</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> reduced Health Regen</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 71,
+      "navIndex": 72,
+      "navText": "Damned",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/decrepify",
+      "extractedAt": "2025-08-26T19:43:36.255Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-99\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"113\">Decrepify</div><div class=\"ailment-description\">A Curse that deals spell physical damage over time, and causes the target to take more damage over time (multiplicative with other modifiers). Deals more damage based on the caster's missing health.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">200</span> Physical (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">15%</span></span> more Damage Over Time Taken</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Physical Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 72,
+      "navIndex": 73,
+      "navText": "Decrepify",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/disintegrate_stack_for_explosion",
+      "extractedAt": "2025-08-26T19:43:36.978Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"41\">Disintegrate Explosion Proc Ailment</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-24\"></div></div><a href=\"/skills/fireball_aoe\" class=\"ability-link\" ability_id=\"ailment_6\" section_ability_id=\"fireball_aoe\" aria-expanded=\"false\">Flame Burst</a></div> when <span class=\"mod-value\">20</span> stacks are reached</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect decreases stacks required for proc by 1 per 100% of Increased Effect</div></div></div>",
+      "index": 73,
+      "navIndex": 74,
+      "navText": "Disintegrate Explosion Proc Ailment",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/doom",
+      "extractedAt": "2025-08-26T19:43:37.688Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-74\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"90\">Doom</div><div class=\"ailment-description\">Deals void damage over time and increases melee damage taken</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">4</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">400</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">4%</span></span> increased Melee Damage Taken</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Void Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 74,
+      "navIndex": 75,
+      "navText": "Doom",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/doom_brand",
+      "extractedAt": "2025-08-26T19:43:38.417Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"68\">Doom Brand</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">99,999</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-54\"></div></div><a href=\"#\" class=\"ability-link\" ability_id=\"ailment_8\" aria-expanded=\"false\">Doom Brand</a></div> when ailment expires or target dies</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect increases Proc Damage</div></div></div>",
+      "index": 75,
+      "navIndex": 76,
+      "navText": "Doom Brand",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/efficacious_toxin",
+      "extractedAt": "2025-08-26T19:43:39.151Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-62\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"78\">Efficacious Toxin</div><div class=\"ailment-description\">You take 12% increased damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">12%</span></span> increased Damage Over Time Taken</div></div></div></div>",
+      "index": 76,
+      "navIndex": 77,
+      "navText": "Efficacious Toxin",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/electrify",
+      "extractedAt": "2025-08-26T19:43:39.882Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-77\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"93\">Electrify</div><div class=\"ailment-description\">Deals lightning damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">2.5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">44</span> Lightning (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Lightning Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 77,
+      "navIndex": 78,
+      "navText": "Electrify",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/exposed_flesh",
+      "extractedAt": "2025-08-26T19:43:40.594Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-126\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"137\">Exposed Flesh</div><div class=\"ailment-description\">A Curse that reduces armor and cold resistance, and increases chance to be frozen</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">-15%</span></span> Cold Resistance</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">30%</span></span> Increased Chance To Be Frozen</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 78,
+      "navIndex": 79,
+      "navText": "Exposed Flesh",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/falcon_mark",
+      "extractedAt": "2025-08-26T19:43:41.306Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-113\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"125\">Falconer's Mark</div><div class=\"ailment-description\">Takes more damage from your next hit.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 79,
+      "navIndex": 80,
+      "navText": "Falconer's Mark",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/fear",
+      "extractedAt": "2025-08-26T19:43:42.015Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-20\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"21\">Fear</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div></div>",
+      "index": 80,
+      "navIndex": 81,
+      "navText": "Fear",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/fireball_stack_for_explosion",
+      "extractedAt": "2025-08-26T19:43:42.731Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"25\">Fireball Explosion Proc Ailment</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-24\"></div></div><a href=\"/skills/fireball_explosion\" class=\"ability-link\" ability_id=\"ailment_2\" section_ability_id=\"fireball_explosion\" aria-expanded=\"false\">Flame Burst</a></div> when <span class=\"mod-value\">5</span> stacks are reached</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect decreases stacks required for proc by 1 per 100% of Increased Effect</div></div></div>",
+      "index": 81,
+      "navIndex": 82,
+      "navText": "Fireball Explosion Proc Ailment",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/frailty",
+      "extractedAt": "2025-08-26T19:43:43.460Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-15\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"16\">Frailty</div><div class=\"ailment-description\">You deal 6% less damage (multiplicative with other modifiers)</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">6%</span></span> less Damage</div></div></div></div>",
+      "index": 82,
+      "navIndex": 83,
+      "navText": "Frailty",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aterroth_frailty",
+      "extractedAt": "2025-08-26T19:43:44.187Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-15\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"129\">Frailty of Aberroth</div><div class=\"ailment-description\">You deal 5% less damage (multiplicative with other modifiers). Your health leech, ward retention, and health regen are reduced by 10%, and your healing effectiveness is reduced by 50%.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> less Damage</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> less Damage Leeched as Health</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> less Ward Retention</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> less Health Regen</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">-50%</span></span> Increased Healing Effectiveness</div></div></div></div>",
+      "index": 83,
+      "navIndex": 84,
+      "navText": "Frailty of Aberroth",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/frostbite",
+      "extractedAt": "2025-08-26T19:43:44.915Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-22\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"23\">Frostbite</div><div class=\"ailment-description\">Deals cold damage over time. The first 15 stacks each increase chance to be frozen by 20%.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">50</span> Cold (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"stat-extra\">Only the first <span class=\"mod-value\">15</span> stacks apply buffs</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> Increased Chance To Be Frozen</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Cold Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 84,
+      "navIndex": 85,
+      "navText": "Frostbite",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/future_attack",
+      "extractedAt": "2025-08-26T19:43:45.644Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-9\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"10\">Future Strike</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">60</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Deals all damage at the end</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Void Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 85,
+      "navIndex": 86,
+      "navText": "Future Strike",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/holy_aura_stack_for_flam_burst",
+      "extractedAt": "2025-08-26T19:43:46.355Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"27\">Holy Aura Flame Burst Proc Ailment</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">30</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-24\"></div></div><a href=\"/skills/holy_flame_burst\" class=\"ability-link\" ability_id=\"ailment_3\" section_ability_id=\"holy_flame_burst\" aria-expanded=\"false\">Holy Flame Burst</a></div> when <span class=\"mod-value\">60</span> stacks are reached</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect decreases stacks required for proc by 1 per 100% of Increased Effect</div></div></div>",
+      "index": 86,
+      "navIndex": 87,
+      "navText": "Holy Aura Flame Burst Proc Ailment",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/ignite",
+      "extractedAt": "2025-08-26T19:43:47.082Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-1\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"1\">Ignite</div><div class=\"ailment-description\">Deals fire damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">2.5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">40</span> Fire (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Fire Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 87,
+      "navIndex": 88,
+      "navText": "Ignite",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/immobilized",
+      "extractedAt": "2025-08-26T19:43:47.790Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-19\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"54\">Immobilize</div><div class=\"ailment-description\">Locks you in place.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">1</span> second</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Immobilizes target</div></div></div>",
+      "index": 88,
+      "navIndex": 89,
+      "navText": "Immobilize",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/laceration",
+      "extractedAt": "2025-08-26T19:43:48.514Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-10\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"11\">Laceration</div><div class=\"ailment-description\">Deals melee damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">1</span> Physical (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Physical Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Melee</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 89,
+      "navIndex": 90,
+      "navText": "Laceration",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/marked_for_death",
+      "extractedAt": "2025-08-26T19:43:49.224Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-16\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"17\">Marked For Death</div><div class=\"ailment-description\">Your resistances are 25% lower</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">-25%</span></span> to All Resistances</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 90,
+      "navIndex": 91,
+      "navText": "Marked For Death",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/melee_def_shred",
+      "extractedAt": "2025-08-26T19:43:49.951Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"43\">Melee Defense Shred</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> more Melee Damage Taken</div></div></div></div>",
+      "index": 91,
+      "navIndex": 92,
+      "navText": "Melee Defense Shred",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/mimic_feast",
+      "extractedAt": "2025-08-26T19:43:50.662Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-81\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"98\">Mimic Feast</div><div class=\"ailment-description\">Deals void damage over time and prevents Void Barrier Generation and Health Leech</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">15</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">12</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">200</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> less Damage Leeched as Health</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 92,
+      "navIndex": 93,
+      "navText": "Mimic Feast",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/netted",
+      "extractedAt": "2025-08-26T19:43:51.375Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-120\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"126\">Netted</div><div class=\"ailment-description\">Immobilized or snared by a net</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">35%</span></span> less Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 93,
+      "navIndex": 94,
+      "navText": "Netted",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/penance",
+      "extractedAt": "2025-08-26T19:43:52.115Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-105\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"117\">Penance</div><div class=\"ailment-description\">A Curse that causes affected targets to take Fire damage when they hit a target. Cannot trigger on the affected target more than once every 0.35 seconds.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">15</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">20</span> Fire (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 94,
+      "navIndex": 95,
+      "navText": "Penance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/pestilence",
+      "extractedAt": "2025-08-26T19:43:52.842Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"40\">Pestilence</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">0.5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">2</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">30</span> Poison (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 95,
+      "navIndex": 96,
+      "navText": "Pestilence",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/plague",
+      "extractedAt": "2025-08-26T19:43:53.568Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-18\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"18\">Plague</div><div class=\"ailment-description\">Deals poison damage over time and spreads between enemies</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">150</span> Poison (over time)</span></div><div class=\"ailment-params with-divider\"><div>Spreads:</div><div class=\"ailment-param-group\"><div>Spread Range: <span class=\"stat-value\"><span class=\"mod-value\">6</span> meters</span></div><div>Spread Delay: <span class=\"stat-value\"><span class=\"mod-value\">0.6</span> seconds</span></div><div>Max targets: <span class=\"mod-value\">Unlimited</span></div><div>Spreads if enemy dies before delay</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Poison Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 96,
+      "navIndex": 97,
+      "navText": "Plague",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/poison",
+      "extractedAt": "2025-08-26T19:43:54.277Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-6\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"7\">Poison</div><div class=\"ailment-description\">Deals poison damage over time and reduces poison resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">28</span> Poison (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"stat-extra\">Only the first <span class=\"mod-value\">30</span> stacks apply buffs</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Poison Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Poison Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 97,
+      "navIndex": 98,
+      "navText": "Poison",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/poison_stack_for_explosion",
+      "extractedAt": "2025-08-26T19:43:55.005Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"36\">Poison Explosion Proc Ailment</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-32\"></div></div><a href=\"/skills/poison_nova\" class=\"ability-link\" ability_id=\"ailment_pn32_4\" section_ability_id=\"poison_nova\" aria-expanded=\"false\">Poison Nova</a></div> when <span class=\"mod-value\">5</span> stacks are reached</div></div></div>",
+      "index": 98,
+      "navIndex": 99,
+      "navText": "Poison Explosion Proc Ailment",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/possess",
+      "extractedAt": "2025-08-26T19:43:55.718Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"4\">Possess</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">1.5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">20</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 99,
+      "navIndex": 100,
+      "navText": "Possess",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/ravage",
+      "extractedAt": "2025-08-26T19:43:56.433Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"19\">Ravage</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">6</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">135</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 100,
+      "navIndex": 101,
+      "navText": "Ravage",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/root",
+      "extractedAt": "2025-08-26T19:43:57.146Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-19\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"20\">Root</div><div class=\"ailment-description\">93% less movement speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">0.7</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">93%</span></span> less Movement Speed</div></div></div></div>",
+      "index": 101,
+      "navIndex": 102,
+      "navText": "Root",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/serpent_venom",
+      "extractedAt": "2025-08-26T19:43:57.863Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-14\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"15\">Serpent Venom</div><div class=\"ailment-description\">Deals poison damage over time and prevents critical strikes</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">400</span> Poison (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">100%</span></span> less Critical Strike Chance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Poison Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 102,
+      "navIndex": 103,
+      "navText": "Serpent Venom",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shadow_daggers",
+      "extractedAt": "2025-08-26T19:43:58.590Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-63\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"79\">Shadow Daggers</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">60</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-63\"></div></div><a href=\"/skills/shadow_daggers_finisher\" class=\"ability-link\" ability_id=\"ailment_9\" section_ability_id=\"shadow_daggers_finisher\" aria-expanded=\"false\">Shadow Daggers</a></div> when <span class=\"mod-value\">4</span> stacks are reached</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect increases Proc Damage</div></div></div>",
+      "index": 103,
+      "navIndex": 104,
+      "navText": "Shadow Daggers",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/shock",
+      "extractedAt": "2025-08-26T19:43:59.303Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-4\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"5\">Shock</div><div class=\"ailment-description\">Reduces lightning resistance\n\nIncreases chance to be stunned</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> Increased Chance To Be Stunned</div><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Lightning Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 104,
+      "navIndex": 105,
+      "navText": "Shock",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/aterroth_shock",
+      "extractedAt": "2025-08-26T19:44:00.019Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-4\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"130\">Shock of Aberroth</div><div class=\"ailment-description\">You take 5% increased damage.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">8</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> increased Damage Taken</div></div></div></div>",
+      "index": 105,
+      "navIndex": 106,
+      "navText": "Shock of Aberroth",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/armour_shred",
+      "extractedAt": "2025-08-26T19:44:00.733Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-7\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"8\">Shred Armor</div><div class=\"ailment-description\">Reduces armor, increasing damage taken from hits.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">100</span></span> Negative Armor</div></div></div></div>",
+      "index": 106,
+      "navIndex": 107,
+      "navText": "Shred Armor",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/cold_res_shred",
+      "extractedAt": "2025-08-26T19:44:01.456Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-58\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"74\">Shred Cold Resistance</div><div class=\"ailment-description\">Reduces Cold Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Cold Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 107,
+      "navIndex": 108,
+      "navText": "Shred Cold Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/fire_res_shred",
+      "extractedAt": "2025-08-26T19:44:02.187Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-35\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"42\">Shred Fire Resistance</div><div class=\"ailment-description\">Reduces Fire Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Fire Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 108,
+      "navIndex": 109,
+      "navText": "Shred Fire Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/lightning_res_shred",
+      "extractedAt": "2025-08-26T19:44:02.904Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-59\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"75\">Shred Lightning Resistance</div><div class=\"ailment-description\">Reduces Lightning Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Lightning Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 109,
+      "navIndex": 110,
+      "navText": "Shred Lightning Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/necrotic_res_shred",
+      "extractedAt": "2025-08-26T19:44:03.615Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-27\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"29\">Shred Necrotic Resistance</div><div class=\"ailment-description\">Reduces Necrotic Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Necrotic Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 110,
+      "navIndex": 111,
+      "navText": "Shred Necrotic Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/physical_res_shred",
+      "extractedAt": "2025-08-26T19:44:04.335Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-57\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"73\">Shred Physical Resistance</div><div class=\"ailment-description\">Reduces Physical Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Physical Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 111,
+      "navIndex": 112,
+      "navText": "Shred Physical Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/poison_res_shred",
+      "extractedAt": "2025-08-26T19:44:05.060Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-26\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"28\">Shred Poison Resistance</div><div class=\"ailment-description\">Reduces Poison Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Poison Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 112,
+      "navIndex": 113,
+      "navText": "Shred Poison Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/void_res_shred",
+      "extractedAt": "2025-08-26T19:44:05.772Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-28\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"30\">Shred Void Resistance</div><div class=\"ailment-description\">Reduces Void Resistance</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Negative Void Resistance</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 113,
+      "navIndex": 114,
+      "navText": "Shred Void Resistance",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/silk_ailment",
+      "extractedAt": "2025-08-26T19:44:06.489Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-123\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"134\">Silk</div><div class=\"ailment-description\">You are slowed. At five stacks, lose all stacks of Silk and become rooted.</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">7</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">5</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> reduced Attack Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> reduced Movement Speed</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> reduced Cast Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"ability-icon-none\"></div></div><a href=\"#\" class=\"ability-link\" ability_id=\"ailment_td46_12\" aria-expanded=\"false\">Thicket Slash</a></div> when <span class=\"mod-value\">5</span> stacks are reached</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect increases Proc Damage</div></div></div>",
+      "index": 114,
+      "navIndex": 115,
+      "navText": "Silk",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/slow",
+      "extractedAt": "2025-08-26T19:44:07.204Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-5\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"6\">Slow</div><div class=\"ailment-description\">Reduces movement speed</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">3</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> less Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">50%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">50%</span> less effect against bosses</div></div></div>",
+      "index": 115,
+      "navIndex": 116,
+      "navText": "Slow",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/snake_infection",
+      "extractedAt": "2025-08-26T19:44:07.921Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-84\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"101\">Snake Infection</div><div class=\"ailment-description\">Deals poison damage over time and lasts for 12 seconds</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">12</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">300</span> Poison (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">6%</span> less effect against bosses</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 116,
+      "navIndex": 117,
+      "navText": "Snake Infection",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/spark_charge",
+      "extractedAt": "2025-08-26T19:44:08.632Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"55\">Spark Charge</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">1</span> second</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-42\"></div></div><a href=\"/skills/spark_charge_explosion\" class=\"ability-link\" ability_id=\"ailment_ln24_7\" section_ability_id=\"spark_charge_explosion\" aria-expanded=\"false\">Spark Charge</a></div> when ailment expires or target dies</div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect increases Proc Damage</div></div></div>",
+      "index": 117,
+      "navIndex": 118,
+      "navText": "Spark Charge",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/spiders",
+      "extractedAt": "2025-08-26T19:44:09.357Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-125\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"136\">Spiders</div><div class=\"ailment-description\">Increased chance to be critically hit</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">4</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\">+<span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> Chance to Receive a Critical Strike</div></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 118,
+      "navIndex": 119,
+      "navText": "Spiders",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/spirit_plague",
+      "extractedAt": "2025-08-26T19:44:10.081Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-46\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"59\">Spirit Plague</div><div class=\"ailment-description\">A Curse that deals spell necrotic damage over time and spreads to another enemy on death if it hasn't expired</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">90</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div>Spreads:</div><div class=\"ailment-param-group\"><div>Spread Range: <span class=\"stat-value\"><span class=\"mod-value\">9</span> meters</span></div><div>Spread Delay: <span class=\"stat-value\"><span class=\"mod-value\">99,999</span> seconds</span></div><div>Max targets: <span class=\"mod-value\">1</span></div><div>Spreads if enemy dies before delay</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 119,
+      "navIndex": 120,
+      "navText": "Spirit Plague",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/spreading_flames",
+      "extractedAt": "2025-08-26T19:44:10.797Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-23\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"24\">Spreading Flames</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">4</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">200</span> Fire (over time)</span></div><div class=\"ailment-params with-divider\"><div>Spreads:</div><div class=\"ailment-param-group\"><div>Spread Range: <span class=\"stat-value\"><span class=\"mod-value\">5</span> meters</span></div><div>Spread Delay: <span class=\"stat-value\"><span class=\"mod-value\">0.6</span> seconds</span></div><div>Max targets: <span class=\"mod-value\">Unlimited</span></div><div>Spreads if enemy dies before delay</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Fire Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 120,
+      "navIndex": 121,
+      "navText": "Spreading Flames",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/stagger",
+      "extractedAt": "2025-08-26T19:44:11.523Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"ailment-icon-none\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"31\">Stagger</div><div class=\"ailment-description\"></div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">-100</span></span> Armor</div><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> increased Damage Taken</div></div></div></div>",
+      "index": 121,
+      "navIndex": 122,
+      "navText": "Stagger",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/stone_stare",
+      "extractedAt": "2025-08-26T19:44:12.240Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-76\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"92\">Stone Stare</div><div class=\"ailment-description\">You are being turned to stone by Majasa</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">5</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">Unlimited</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">20%</span></span> less Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\">Procs <div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-63\"></div></div><a href=\"#\" class=\"ability-link\" ability_id=\"ailment_10\" aria-expanded=\"false\">Shadow Daggers</a></div> when <span class=\"mod-value\">4</span> stacks are reached</div></div></div>",
+      "index": 122,
+      "navIndex": 123,
+      "navText": "Stone Stare",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/the_gate",
+      "extractedAt": "2025-08-26T19:44:12.955Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-118\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"124\">The Gate</div><div class=\"ailment-description\">Gained the Damned, Ignite, Bleed, and Frostbite chance of the Warlock that hit it</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">10</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 123,
+      "navIndex": 124,
+      "navText": "The Gate",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/time_rot",
+      "extractedAt": "2025-08-26T19:44:13.669Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-8\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"9\">Time Rot</div><div class=\"ailment-description\">Deals void damage over time and increases received stun duration</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">12</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">60</span> Void (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">5%</span></span> increased Duration of Stuns Received</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Void Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 124,
+      "navIndex": 125,
+      "navText": "Time Rot",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/torment",
+      "extractedAt": "2025-08-26T19:44:14.385Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-107\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"118\">Torment</div><div class=\"ailment-description\">A Curse that deals spell necrotic damage over time and reduces movement speed (multiplicative with other modifiers)</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">120</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">18%</span></span> less Movement Speed</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-extra\">Increased Effect applies additional Necrotic Penetration</div></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Spell</span> <span class=\"ailment-tag\">Damage Over Time</span> <span class=\"ailment-tag\">Curse</span></div></div></div>",
+      "index": 125,
+      "navIndex": 126,
+      "navText": "Torment",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/witchfire",
+      "extractedAt": "2025-08-26T19:44:15.097Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-111\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"122\">Witchfire</div><div class=\"ailment-description\">Deals fire and necrotic damage over time</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">12</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">1</span></div></div><div class=\"ailment-params with-divider\">Base Damage: <span class=\"stat-value\"><span class=\"mod-value\">600</span> Fire, <span class=\"mod-value\">600</span> Necrotic (over time)</span></div><div class=\"ailment-params with-divider\"><div class=\"ailment-tags\"><span class=\"ailment-tag\">Damage Over Time</span></div></div></div>",
+      "index": 126,
+      "navIndex": 127,
+      "navText": "Witchfire",
+      "cardIndex": 0
+    },
+    {
+      "type": "ailment",
+      "url": "https://www.lastepochtools.com/ailments/withering",
+      "extractedAt": "2025-08-26T19:44:15.824Z",
+      "rawHtml": "<div class=\"top-block\"><div class=\"ailment-bitmap-container negative\"><div class=\"icons icons-r-101\"></div></div><div class=\"ailment-description-block\"><div class=\"ailment-name\" ailment_id=\"115\">Withering</div><div class=\"ailment-description\">Causes affected targets to take increased damage from Curses</div></div></div><div class=\"middle-block\"><div class=\"ailment-params with-divider\"><div>Duration: <span class=\"stat-value\"><span class=\"mod-value\">3</span> seconds</span></div><div>Max stacks: <span class=\"mod-value\">10</span></div></div><div class=\"ailment-params with-divider\"><div>Effects:</div><div class=\"ailment-param-group\"><div class=\"buff\"><span class=\"mod-value-wrap\"><span class=\"mod-value\">10%</span></span> increased Curse Damage Taken</div></div></div><div class=\"ailment-params with-divider\"><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against players</div><div class=\"stat-text\"><span class=\"mod-value\">60%</span> less effect against bosses</div></div></div>",
+      "index": 127,
+      "navIndex": 128,
+      "navText": "Withering",
+      "cardIndex": 0
+    }
+  ]
+}
