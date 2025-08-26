@@ -21,14 +21,9 @@ class LELootFilterGen {
     this.menuItems = [
       { key: '1', name: 'Build Database', desc: 'Parse templates and build game database', action: 'buildDatabase' },
       { key: '2', name: 'Force Rebuild Database', desc: 'Clean rebuild database (overwrites all)', action: 'forceBuildDatabase' },
-      { key: '3', name: 'Database Info', desc: 'View database statistics and completion', action: 'databaseInfo' },
-      { key: '4', name: 'Generate Affix Templates', desc: 'Create affix ID templates for testing', action: 'generateAffixTemplates' },
-      { key: '5', name: 'Generate Unique Templates', desc: 'Create unique item templates for testing', action: 'generateUniqueTemplates' },
-      { key: '6', name: 'Generate Set Templates', desc: 'Create set item templates for testing', action: 'generateSetTemplates' },
-      { key: '7', name: 'Analyze Template Structure', desc: 'Analyze unique/set structure in master template', action: 'analyzeStructure' },
-      { key: '8', name: 'Generate Filter', desc: 'Create custom loot filter (interactive)', action: 'generateFilter' },
-      { key: '9', name: 'Open Override Files', desc: 'Open Data/overrides directory for manual editing', action: 'openOverrides' },
-      { key: '0', name: 'Help & Documentation', desc: 'View help and documentation links', action: 'showHelp' },
+      { key: '3', name: 'Generate Templates', desc: 'Create test templates (affixes, uniques, sets)', action: 'generateTemplates' },
+      { key: '4', name: 'Web Data Scraper', desc: 'Scrape game data from web sources', action: 'webScraper' },
+      { key: '5', name: 'Generate Filter', desc: 'Create custom loot filter (interactive)', action: 'generateFilter' },
       { key: 'q', name: 'Quit', desc: 'Exit the application', action: 'quit' }
     ];
   }
@@ -72,8 +67,9 @@ class LELootFilterGen {
     
     const overrideFiles = ['affixes.json', 'uniques.json', 'sets.json'];
     let overrideCount = 0;
+    const overridesDir = path.join(__dirname, 'Overrides');
     for (const file of overrideFiles) {
-      const filePath = path.join(dataDir, 'overrides', file);
+      const filePath = path.join(overridesDir, file);
       if (await fs.pathExists(filePath)) {
         try {
           const data = await fs.readJson(filePath);
@@ -138,42 +134,12 @@ class LELootFilterGen {
           }
           break;
           
-        case 'databaseInfo':
-          await this.runScript('node scripts/database-info.js');
+        case 'generateTemplates':
+          await this.showTemplateGenerationMenu();
           break;
           
-        case 'generateAffixTemplates':
-          console.log('⚠️  This will generate/overwrite affix templates.');
-          const confirmAffix = await this.prompt('Continue? (y/N): ');
-          if (confirmAffix.toLowerCase() === 'y') {
-            const force = await this.prompt('Force overwrite existing templates? (y/N): ');
-            const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
-            await this.runScript(`node scripts/generate-affix-templates.js${forceFlag}`);
-          }
-          break;
-          
-        case 'generateUniqueTemplates':
-          console.log('⚠️  This will generate/overwrite unique item templates.');
-          const confirmUnique = await this.prompt('Continue? (y/N): ');
-          if (confirmUnique.toLowerCase() === 'y') {
-            const force = await this.prompt('Force overwrite existing templates? (y/N): ');
-            const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
-            await this.runScript(`node scripts/generate-unique-templates.js${forceFlag}`);
-          }
-          break;
-          
-        case 'generateSetTemplates':
-          console.log('⚠️  This will generate/overwrite set item templates.');
-          const confirmSet = await this.prompt('Continue? (y/N): ');
-          if (confirmSet.toLowerCase() === 'y') {
-            const force = await this.prompt('Force overwrite existing templates? (y/N): ');
-            const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
-            await this.runScript(`node scripts/generate-set-templates.js${forceFlag}`);
-          }
-          break;
-          
-        case 'analyzeStructure':
-          await this.runScript('node scripts/analyze-unique-set-structure.js');
+        case 'webScraper':
+          await this.showWebScraperMenu();
           break;
           
         case 'generateFilter':
@@ -181,13 +147,6 @@ class LELootFilterGen {
           console.log('For now, use the database and create filters manually.');
           break;
           
-        case 'openOverrides':
-          await this.openOverridesDirectory();
-          break;
-          
-        case 'showHelp':
-          await this.showHelp();
-          break;
           
         case 'quit':
           console.log('👋 Thanks for using LELootFilterGen!');
@@ -241,84 +200,188 @@ class LELootFilterGen {
     });
   }
 
+
   /**
-   * Open overrides directory
+   * Show template generation submenu
    */
-  async openOverridesDirectory() {
-    const overridesDir = path.join(__dirname, 'Data', 'overrides');
+  async showTemplateGenerationMenu() {
+    console.log('');
+    console.log('┌─ Template Generation ────────────────────────────────────────┐');
+    console.log('│                                                              │');
+    console.log('│ [1] Generate Affix Templates      Create affix ID templates  │');
+    console.log('│ [2] Generate Unique Templates     Create unique item temps   │');
+    console.log('│ [3] Generate Set Templates        Create set item templates  │');
+    console.log('│ [4] Generate Subtype Templates    Create subtype templates   │');
+    console.log('│ [5] Generate All Templates        Create all template types  │');
+    console.log('│ [6] Analyze Template Structure    Analyze master template    │');
+    console.log('│ [B] Back to Main Menu             Return to main menu        │');
+    console.log('│                                                              │');
+    console.log('└──────────────────────────────────────────────────────────────┘');
+    console.log('');
+
+    const choice = await this.prompt('Select template option: ');
     
-    try {
-      await fs.ensureDir(overridesDir);
-      
-      // Try to open in file explorer
-      const platform = process.platform;
-      let command;
-      
-      if (platform === 'win32') {
-        command = `explorer "${overridesDir}"`;
-      } else if (platform === 'darwin') {
-        command = `open "${overridesDir}"`;
-      } else {
-        command = `xdg-open "${overridesDir}"`;
-      }
-      
-      exec(command, (error) => {
-        if (error) {
-          console.log('❌ Could not open file explorer');
-          console.log(`📁 Manual overrides directory: ${overridesDir}`);
-          console.log('');
-          console.log('Edit these files to add discovered item data:');
-          console.log('  • affixes.json - Affix names and properties');
-          console.log('  • uniques.json - Unique item names and properties');  
-          console.log('  • sets.json - Set item names and properties');
-        } else {
-          console.log('✅ Opened overrides directory in file explorer');
-          console.log(`📁 Location: ${overridesDir}`);
-        }
-      });
-      
-    } catch (error) {
-      console.error('❌ Error accessing overrides directory:', error.message);
+    switch (choice.toLowerCase()) {
+      case '1':
+        await this.generateAffixTemplates();
+        break;
+      case '2':
+        await this.generateUniqueTemplates();
+        break;
+      case '3':
+        await this.generateSetTemplates();
+        break;
+      case '4':
+        await this.generateSubtypeTemplates();
+        break;
+      case '5':
+        await this.generateAllTemplates();
+        break;
+      case '6':
+        await this.runScript('node scripts/analyze-unique-set-structure.js');
+        break;
+      case 'b':
+      case 'back':
+        return; // Return to main menu
+      default:
+        console.log('❌ Invalid option. Please try again.');
+        await this.waitForKey();
+        await this.showTemplateGenerationMenu();
     }
   }
 
   /**
-   * Show help and documentation
+   * Generate affix templates
    */
-  async showHelp() {
-    console.log('📖 Help & Documentation');
-    console.log('═'.repeat(60));
-    console.log('');
-    console.log('🎯 Quick Start:');
-    console.log('  1. Run "Build Database" to create the initial database');
-    console.log('  2. Generate templates for the data you want to collect');
-    console.log('  3. Load templates in Last Epoch to identify items');
-    console.log('  4. Add discovered data to override files (option 9)');
-    console.log('  5. Rebuild database to include your discoveries');
-    console.log('');
-    console.log('📂 Important Directories:');
-    console.log('  • TemplateFilters/ - Template XML files for game testing');
-    console.log('  • Data/overrides/ - Manual data entry (JSON files)');
-    console.log('  • Data/ - Generated database and logs');
-    console.log('  • docs/ - Detailed documentation');
-    console.log('');
-    console.log('🔧 Advanced Operations:');
-    console.log('  • Force rebuild: Cleans all generated data');
-    console.log('  • Template generation: Creates XML for in-game testing');
-    console.log('  • Override files: Add discovered item names and data');
-    console.log('');
-    console.log('📚 Documentation Files:');
-    console.log('  • README.md - Project overview and commands');
-    console.log('  • docs/database-builder-guide.md - Database system guide');
-    console.log('  • docs/template-creation-procedure.md - Template procedures');
-    console.log('  • Data/overrides/README.md - Override file format');
-    console.log('');
-    console.log('⚠️  Important Notes:');
-    console.log('  • Last Epoch filters are limited to 75 rules maximum');
-    console.log('  • Templates are generated, not hand-edited');  
-    console.log('  • Manual data goes in Data/overrides/*.json files');
-    console.log('  • Database rebuilds preserve override data');
+  async generateAffixTemplates() {
+    console.log('⚠️  This will generate/overwrite affix templates.');
+    const confirm = await this.prompt('Continue? (y/N): ');
+    if (confirm.toLowerCase() === 'y') {
+      const force = await this.prompt('Force overwrite existing templates? (y/N): ');
+      const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
+      await this.runScript(`node scripts/generate-affix-templates.js${forceFlag}`);
+    } else {
+      console.log('❌ Operation cancelled.');
+    }
   }
+
+  /**
+   * Generate unique templates
+   */
+  async generateUniqueTemplates() {
+    console.log('⚠️  This will generate/overwrite unique item templates.');
+    const confirm = await this.prompt('Continue? (y/N): ');
+    if (confirm.toLowerCase() === 'y') {
+      const force = await this.prompt('Force overwrite existing templates? (y/N): ');
+      const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
+      await this.runScript(`node scripts/generate-unique-templates.js${forceFlag}`);
+    } else {
+      console.log('❌ Operation cancelled.');
+    }
+  }
+
+  /**
+   * Generate set templates
+   */
+  async generateSetTemplates() {
+    console.log('⚠️  This will generate/overwrite set item templates.');
+    const confirm = await this.prompt('Continue? (y/N): ');
+    if (confirm.toLowerCase() === 'y') {
+      const force = await this.prompt('Force overwrite existing templates? (y/N): ');
+      const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
+      await this.runScript(`node scripts/generate-set-templates.js${forceFlag}`);
+    } else {
+      console.log('❌ Operation cancelled.');
+    }
+  }
+
+  /**
+   * Generate subtype templates
+   */
+  async generateSubtypeTemplates() {
+    console.log('⚠️  This will generate/overwrite subtype templates.');
+    const confirm = await this.prompt('Continue? (y/N): ');
+    if (confirm.toLowerCase() === 'y') {
+      const force = await this.prompt('Force overwrite existing templates? (y/N): ');
+      const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
+      await this.runScript(`node scripts/generate-subtype-templates.js${forceFlag}`);
+    } else {
+      console.log('❌ Operation cancelled.');
+    }
+  }
+
+  /**
+   * Generate all template types
+   */
+  async generateAllTemplates() {
+    console.log('⚠️  This will generate/overwrite ALL template types (affixes, uniques, sets, subtypes).');
+    const confirm = await this.prompt('Continue? (y/N): ');
+    if (confirm.toLowerCase() === 'y') {
+      const force = await this.prompt('Force overwrite existing templates? (y/N): ');
+      const forceFlag = force.toLowerCase() === 'y' ? ' --force' : '';
+      
+      console.log('🚀 Generating affix templates...');
+      await this.runScript(`node scripts/generate-affix-templates.js${forceFlag}`);
+      
+      console.log('🚀 Generating unique templates...');
+      await this.runScript(`node scripts/generate-unique-templates.js${forceFlag}`);
+      
+      console.log('🚀 Generating set templates...');
+      await this.runScript(`node scripts/generate-set-templates.js${forceFlag}`);
+      
+      console.log('🚀 Generating subtype templates...');
+      await this.runScript(`node scripts/generate-subtype-templates.js${forceFlag}`);
+      
+      console.log('✅ All template types generated successfully!');
+    } else {
+      console.log('❌ Operation cancelled.');
+    }
+  }
+
+  /**
+   * Show web scraper submenu
+   */
+  async showWebScraperMenu() {
+    console.log('');
+    console.log('┌─ Web Data Scraper ───────────────────────────────────────────┐');
+    console.log('│                                                              │');
+    console.log('│ [1] Scrape Data                Normal scrape (uses cache)    │');
+    console.log('│ [2] Force Scrape               Force refresh (ignores cache) │');
+    console.log('│ [3] Set Game Version           Update version (e.g. version140) │');
+    console.log('│ [4] Scraping Statistics        View cache stats & files      │');
+    console.log('│ [B] Back to Main Menu          Return to main menu          │');
+    console.log('│                                                              │');
+    console.log('└──────────────────────────────────────────────────────────────┘');
+    console.log('');
+
+    const choice = await this.prompt('Select scraper option: ');
+    
+    switch (choice.toLowerCase()) {
+      case '1':
+        await this.runScript('node scripts/scraper.js scrape');
+        break;
+      case '2':
+        await this.runScript('node scripts/scraper.js scrape --force');
+        break;
+      case '3':
+        await this.setGameVersion();
+        break;
+      case '4':
+        await this.runScript('node scripts/scraper.js stats');
+        break;
+      case 'b':
+      case 'back':
+        return; // Return to main menu
+      default:
+        console.log('❌ Invalid option. Please try again.');
+        await this.waitForKey();
+        await this.showWebScraperMenu();
+    }
+  }
+
+
+
+
 
   /**
    * Prompt for user input
@@ -331,6 +394,27 @@ class LELootFilterGen {
     });
   }
 
+  /**
+   * Handle game version setting
+   */
+  async setGameVersion() {
+    console.log('');
+    console.log('🎮 Set Game Version');
+    console.log('─'.repeat(30));
+    console.log('');
+    console.log('Current version can be checked with: node scripts/scraper.js version');
+    console.log('Common versions: version130, version140, etc.');
+    console.log('');
+    
+    const version = await this.prompt('Enter new game version (or press Enter to check current): ');
+    
+    if (version.trim()) {
+      await this.runScript(`node scripts/scraper.js version ${version.trim()}`);
+    } else {
+      await this.runScript('node scripts/scraper.js version');
+    }
+  }
+  
   /**
    * Wait for user to press any key
    */
@@ -377,7 +461,20 @@ async function handleDirectCall() {
       const force = flags.includes('--force');
       return `node scripts/generate-set-templates.js${force ? ' --force' : ''}`;
     },
-    'analyze': () => 'node scripts/analyze-unique-set-structure.js'
+    'analyze': () => 'node scripts/analyze-unique-set-structure.js',
+    'scrape': () => {
+      const force = flags.includes('--force');
+      let cmd = 'node scripts/scraper.js scrape';
+      if (force) cmd += ' --force';
+      return cmd;
+    },
+    'version': () => {
+      const version = flags[0];
+      let cmd = 'node scripts/scraper.js version';
+      if (version) cmd += ` ${version}`;
+      return cmd;
+    },
+    'scrape-stats': () => 'node scripts/scraper.js stats'
   };
   
   if (commands[command]) {
@@ -402,6 +499,9 @@ async function handleDirectCall() {
     console.log('  generate-uniques [--force]'); 
     console.log('  generate-sets [--force]');
     console.log('  analyze');
+    console.log('  scrape [--force]');
+    console.log('  version [version]');
+    console.log('  scrape-stats');
     console.log('');
     console.log('Or run with no arguments for interactive menu.');
     process.exit(1);

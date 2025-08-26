@@ -14,6 +14,7 @@ LELootFilterGen is a Node.js suite to generate and edit loot filter XML files fo
 
 - **⚠️ CRITICAL: Last Epoch loot filters have a maximum of 75 rules total** - This applies to ALL XML files
 - **⚠️ CRITICAL: NEVER manually edit XML files - ALWAYS use generation scripts** - All XML files are generated, not hand-edited
+- **⚠️ CRITICAL: Data folder is OFF-LIMITS except for database generation** - Only the database build process may write to `Data/`. All scraped data goes to `WebData/`
 - Template XML files may change with game updates, requiring re-parsing
 - Manual overrides in intermediate data must persist through re-generation
 - All generated template files and loot filters must respect the 75-rule limit
@@ -29,21 +30,6 @@ npm run build-database        # Build/rebuild intermediate database
 npm run lint                  # Run ESLint
 npm run test                  # Run tests
 ```
-
-## Architecture
-
-### Directory Structure
-- `src/` - Main application source code
-- `Data/` - Intermediate database files and processed game data
-- `TemplateFilters/` - Template XML files with game data to be parsed
-- `SampleFilters/` - Example loot filter files for learning/reference
-- `generated/` - Generated loot filter output files
-
-### Core Components
-- **Template Parser**: Parses XML templates to extract game data
-- **Database Builder**: Creates intermediate database with manual override support
-- **Filter Generator**: Creates custom loot filters using AI assistance
-- **XML Processor**: Handles XML parsing and generation
 
 ## Template System
 
@@ -68,3 +54,12 @@ Sample filters in `SampleFilters/` serve as learning examples, each documented w
 - Build archetype they serve
 - Filter strategy and reasoning
 - Rule prioritization approach
+
+## Additional Documentation
+
+- **Architecture**: See `ARCHITECTURE.md` for an overview of the project architecture and how it works
+- **Class Build Definition**: See `CLASS_BUILD_DEFINITION.md` for a detailed description of class builds and how they are structured
+- **Constraints**: See `CONSTRAINTS.md` for constraints on the project in general
+- **Defensive Strategies**: See `DEFENSIVE_STRATEGIES.md` for a detailed description of defensive strategies in the game
+- - **Filter Design**: See `FILTER_DESIGN.md` for details on how filters are designed and an overview on the process of designing a filter
+- **Game Rules**: See `GAME_RULES.md` for a detailed description of all basic rules of the game

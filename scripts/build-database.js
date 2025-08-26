@@ -19,7 +19,8 @@ const { parseStringPromise } = require('xml2js');
 
 const TEMPLATE_DIR = path.join(__dirname, '..', 'TemplateFilters');
 const DATA_DIR = path.join(__dirname, '..', 'Data');
-const OVERRIDES_DIR = path.join(DATA_DIR, 'overrides');
+const OVERRIDES_DIR = path.join(__dirname, '..', 'Overrides');
+const WEB_DATA_DIR = path.join(__dirname, '..', 'WebData');
 const OUTPUT_FILE = path.join(DATA_DIR, 'game-database.jsonl');
 const VERSION_FILE = path.join(DATA_DIR, 'database-version.json');
 const LOG_FILE = path.join(DATA_DIR, 'build.log');
@@ -38,10 +39,12 @@ class DatabaseBuilder {
       colors: new Map(),
       sounds: new Map(),
       beams: new Map(),
+      subtypes: new Map(),
       statistics: {
         totalAffixes: 0,
         totalUniques: 0,
         totalSets: 0,
+        totalSubtypes: 0,
         parsedFiles: 0,
         overridesApplied: 0,
         duplicatesFound: 0,
@@ -49,6 +52,9 @@ class DatabaseBuilder {
         errors: []
       }
     };
+    
+    this.idolAffixIds = new Set();
+    this.itemAffixIds = new Set();
     
     this.logger = new BuildLogger(LOG_FILE);
     this.validator = new DataValidator(this.logger);
@@ -88,8 +94,14 @@ class DatabaseBuilder {
       console.log('\n📚 Parsing reference templates...');
       await this.parseReferenceTemplates();
       
+      console.log('🏷️  Parsing affix type mappings...');
+      await this.parseAffixTypeMappings();
+      
       console.log('🗂️  Parsing data templates...');
       await this.parseDataTemplates();
+      
+      console.log('🌐 Processing scraped web data...');
+      await this.processScrapedWebData();
       
       console.log('🔧 Loading manual overrides...');
       await this.applyManualOverrides();
@@ -191,30 +203,17 @@ class DatabaseBuilder {
   }
 
   /**
-   * Clean Data folder while preserving overrides
+   * Clean Data folder (generated database only)
    */
   async cleanDataFolder() {
     if (!await fs.pathExists(DATA_DIR)) return;
     
-    // Backup overrides directory outside of Data folder
-    const overridesBackup = path.join(__dirname, '..', '.overrides-backup');
-    
-    if (await fs.pathExists(OVERRIDES_DIR)) {
-      await fs.copy(OVERRIDES_DIR, overridesBackup);
-      this.logger.info('Backed up overrides directory');
-    }
-    
-    // Remove Data directory completely
+    // Remove Data directory completely (overrides are now separate)
     await fs.remove(DATA_DIR);
     this.logger.info('Cleaned Data directory');
     
-    // Recreate Data directory and restore overrides
+    // Recreate Data directory
     await fs.ensureDir(DATA_DIR);
-    
-    if (await fs.pathExists(overridesBackup)) {
-      await fs.move(overridesBackup, OVERRIDES_DIR);
-      this.logger.info('Restored overrides directory');
-    }
   }
 
   /**
@@ -277,6 +276,80 @@ class DatabaseBuilder {
       
     } catch (error) {
       const errorMsg = `Error parsing ${filePath}: ${error.message}`;
+      this.logger.error(errorMsg);
+      console.error(`❌ ${errorMsg}`);
+      this.gameData.statistics.errors.push(errorMsg);
+    }
+  }
+
+  /**
+   * Parse affix type mappings from MasterTemplate1.xml
+   */
+  async parseAffixTypeMappings() {
+    const masterTemplatePath = path.join(TEMPLATE_DIR, 'MasterTemplate1.xml');
+    
+    if (!await fs.pathExists(masterTemplatePath)) {
+      this.logger.warn('MasterTemplate1.xml not found - affix type detection will be limited');
+      return;
+    }
+    
+    try {
+      const xmlContent = await fs.readFile(masterTemplatePath, 'utf8');
+      const parsed = await parseStringPromise(xmlContent);
+      
+      if (!parsed.ItemFilter?.rules?.[0]?.Rule) {
+        throw new Error('Invalid XML structure in MasterTemplate1.xml');
+      }
+      
+      const rules = parsed.ItemFilter.rules[0].Rule;
+      
+      for (const rule of rules) {
+        const nameOverride = rule.nameOverride?.[0];
+        
+        if (nameOverride === 'All Affixes for Idols') {
+          // Extract idol affix IDs
+          const affixCondition = rule.conditions?.[0]?.Condition?.[0];
+          if (affixCondition?.affixes?.[0]?.int) {
+            for (const affixIdStr of affixCondition.affixes[0].int) {
+              const affixId = parseInt(affixIdStr);
+              this.idolAffixIds.add(affixId);
+            }
+          }
+        } else if (nameOverride === 'All Affixes for Items') {
+          // Extract item affix IDs
+          const affixCondition = rule.conditions?.[0]?.Condition?.[0];
+          if (affixCondition?.affixes?.[0]?.int) {
+            for (const affixIdStr of affixCondition.affixes[0].int) {
+              const affixId = parseInt(affixIdStr);
+              this.itemAffixIds.add(affixId);
+            }
+          }
+        } else if (nameOverride && nameOverride.includes('Subtypes')) {
+          // Extract subtype information
+          const condition = rule.conditions?.[0]?.Condition?.[0];
+          
+          if (condition?.$?.['i:type'] === 'SubTypeCondition') {
+            const equipmentType = condition.type?.[0]?.EquipmentType?.[0];
+            const order = parseInt(rule.Order?.[0] || 0);
+            
+            if (equipmentType) {
+              this.gameData.subtypes.set(equipmentType, {
+                name: nameOverride,
+                displayName: nameOverride.replace('All ', '').replace(' Subtypes', ''),
+                equipmentType: equipmentType,
+                order: order
+              });
+              this.gameData.statistics.totalSubtypes++;
+            }
+          }
+        }
+      }
+      
+      this.logger.info(`Loaded ${this.idolAffixIds.size} idol affix IDs, ${this.itemAffixIds.size} item affix IDs, and ${this.gameData.subtypes.size} subtypes`);
+      console.log(`✅ Loaded ${this.idolAffixIds.size} idol affix IDs, ${this.itemAffixIds.size} item affix IDs, and ${this.gameData.subtypes.size} subtypes`);
+      
+    } catch (error) {
+      const errorMsg = `Error parsing affix type mappings: ${error.message}`;
       this.logger.error(errorMsg);
       console.error(`❌ ${errorMsg}`);
       this.gameData.statistics.errors.push(errorMsg);
@@ -358,6 +431,7 @@ class DatabaseBuilder {
           } else {
             // This is a filled template with actual item name
             let id = null;
+            let isIdolAffix = false;
             
             // Extract ID from the rule conditions based on type
             if (type === 'affixes') {
@@ -378,8 +452,16 @@ class DatabaseBuilder {
                 name: nameOverride
               };
               
+              // For affixes, check if this is an idol affix by looking for affix type hints
+              if (type === 'affixes') {
+                // Check if name suggests it's an idol affix or if we can determine it from context
+                isIdolAffix = this.isLikelyIdolAffix(nameOverride, id);
+                itemData.isIdolAffix = isIdolAffix;
+              }
+              
               dataMap.set(id, itemData);
-              this.logger.info(`Discovered ${type} ID ${id}: "${nameOverride}" in ${fileName}`);
+              const affixType = type === 'affixes' && isIdolAffix ? 'idol affix' : type.slice(0, -1);
+              this.logger.info(`Discovered ${affixType} ID ${id}: "${nameOverride}" in ${fileName}`);
             }
           }
         }
@@ -393,6 +475,256 @@ class DatabaseBuilder {
       console.error(`❌ ${errorMsg}`);
       this.gameData.statistics.errors.push(errorMsg);
     }
+  }
+
+  /**
+   * Determine if an affix is for idols based on ID and name patterns
+   */
+  isLikelyIdolAffix(affixName, affixId) {
+    // First check the ID mappings from MasterTemplate1.xml
+    if (this.idolAffixIds.has(affixId)) {
+      return true;
+    }
+    
+    if (this.itemAffixIds.has(affixId)) {
+      return false;
+    }
+    
+    // Fallback to heuristics if ID not found in mappings
+    const idolKeywords = ['idol', 'blessing', 'passive', 'summon', 'minion', 'companion'];
+    const nameForMatch = affixName.toLowerCase();
+    
+    // Check if the affix name contains idol-specific keywords
+    return idolKeywords.some(keyword => nameForMatch.includes(keyword));
+  }
+
+  /**
+   * Process scraped web data if available
+   */
+  async processScrapedWebData() {
+    const webDataProcessedDir = path.join(WEB_DATA_DIR, 'processed');
+    const webDataScrapedDir = path.join(WEB_DATA_DIR, 'scraped');
+    
+    // Check if we have scraped data to process
+    if (!await fs.pathExists(webDataScrapedDir) && !await fs.pathExists(webDataProcessedDir)) {
+      this.logger.info('No scraped web data found - skipping web data processing');
+      return;
+    }
+
+    try {
+      // Try to parse any cached JavaScript data
+      await this.parseJavaScriptData();
+    } catch (error) {
+      this.logger.warn(`Web data processing failed: ${error.message}`);
+      console.log(`⚠️  Web data processing failed: ${error.message}`);
+    }
+  }
+
+  /**
+   * Parse JavaScript data from scraped sources
+   */
+  async parseJavaScriptData() {
+    const { JsDataParser } = require('./js-data-parser.js');
+    const parser = new JsDataParser();
+
+    // Try to parse item database to extract both unique items AND subtypes
+    try {
+      const itemDbData = await parser.loadItemDbData();
+      
+      if (itemDbData) {
+        // Extract subtypes from web data
+        await this.extractSubtypesFromWebData(itemDbData);
+        
+        // Parse unique items
+        const uniqueItems = await parser.parseUniqueItemsFromJs();
+        
+        if (uniqueItems && uniqueItems.length > 0) {
+          this.logger.info(`Parsed ${uniqueItems.length} unique items from web data`);
+          console.log(`✅ Parsed ${uniqueItems.length} unique items from web data`);
+          
+          // Save unique items to Data/UniqueItems directory
+          await this.saveUniqueItemsToFiles(uniqueItems);
+          
+          // Integrate web data into our game database
+          for (const uniqueItem of uniqueItems) {
+            if (uniqueItem.uniqueId && uniqueItem.name) {
+              const existingEntry = this.gameData.uniques.get(uniqueItem.uniqueId);
+              
+              if (!existingEntry || existingEntry === null) {
+                // Add new unique item from web data
+                this.gameData.uniques.set(uniqueItem.uniqueId, {
+                  name: uniqueItem.name,
+                  desc: uniqueItem.loreText,
+                  props: {
+                    baseType: uniqueItem.baseType,
+                    levelRequirement: uniqueItem.levelRequirement,
+                    isSetUnique: uniqueItem.isSetUnique,
+                    isLegendary: uniqueItem.isLegendary,
+                    isFractureUnique: uniqueItem.isFractureUnique
+                  },
+                  notes: 'Discovered from web data'
+                });
+              } else if (typeof existingEntry === 'object' && !existingEntry.name) {
+                // Enhance existing unfilled template
+                existingEntry.name = uniqueItem.name;
+                existingEntry.desc = uniqueItem.loreText;
+                existingEntry.props = {
+                  ...existingEntry.props,
+                  baseType: uniqueItem.baseType,
+                  levelRequirement: uniqueItem.levelRequirement,
+                  isSetUnique: uniqueItem.isSetUnique,
+                  isLegendary: uniqueItem.isLegendary,
+                  isFractureUnique: uniqueItem.isFractureUnique
+                };
+                existingEntry.notes = (existingEntry.notes || '') + ' Enhanced with web data';
+              }
+            }
+          }
+        }
+      }
+    } catch (error) {
+      this.logger.warn(`Failed to parse item database from web data: ${error.message}`);
+    }
+
+    // TODO: Parse skills data when needed
+    // const skills = await parser.parseSkillsFromJs();
+  }
+  
+  /**
+   * Extract individual subtype IDs from web data
+   */
+  async extractSubtypesFromWebData(itemDbData) {
+    if (!itemDbData.itemList || !itemDbData.itemList.equippable) {
+      this.logger.warn('No equippable items found in web data for subtype extraction');
+      return;
+    }
+    
+    let extractedSubtypes = 0;
+    
+    // Iterate through each equipment type
+    for (const [equipTypeId, equipType] of Object.entries(itemDbData.itemList.equippable)) {
+      if (!equipType.subItems) continue;
+      
+      const equipTypeName = this.mapEquipTypeIdToName(equipTypeId);
+      
+      // Extract individual subtype IDs for this equipment type
+      for (const [subTypeId, subItem] of Object.entries(equipType.subItems)) {
+        const subtypeIdNum = parseInt(subTypeId);
+        
+        if (!isNaN(subtypeIdNum)) {
+          // Check if we already have this subtype from template parsing
+          if (!this.gameData.subtypes.has(subtypeIdNum)) {
+            this.gameData.subtypes.set(subtypeIdNum, {
+              name: subItem.displayNameKey || `Subtype ${subtypeIdNum}`,
+              displayName: subItem.displayNameKey?.replace(/^Type_/, '') || `Subtype ${subtypeIdNum}`,
+              equipmentType: equipTypeName,
+              equipTypeId: parseInt(equipTypeId),
+              order: 0,
+              notes: 'Extracted from web data'
+            });
+            extractedSubtypes++;
+          } else {
+            // Enhance existing subtype with web data
+            const existing = this.gameData.subtypes.get(subtypeIdNum);
+            if (existing && subItem.displayNameKey) {
+              existing.webDisplayName = subItem.displayNameKey;
+              existing.notes = (existing.notes || '') + ' Enhanced with web data';
+            }
+          }
+        }
+      }
+    }
+    
+    this.logger.info(`Extracted ${extractedSubtypes} individual subtypes from web data`);
+    console.log(`✅ Extracted ${extractedSubtypes} individual subtypes from web data`);
+    this.gameData.statistics.totalSubtypes += extractedSubtypes;
+  }
+  
+  /**
+   * Map equipment type ID to readable name
+   */
+  mapEquipTypeIdToName(equipTypeId) {
+    const typeMapping = {
+      '0': 'ONE_HANDED_AXE',
+      '1': 'ONE_HANDED_MACE',
+      '2': 'ONE_HANDED_SCEPTRE',
+      '3': 'ONE_HANDED_SWORD',
+      '4': 'WAND',
+      '5': 'ONE_HANDED_DAGGER',
+      '6': 'TWO_HANDED_AXE',
+      '7': 'TWO_HANDED_MACE',
+      '8': 'TWO_HANDED_SPEAR',
+      '9': 'TWO_HANDED_STAFF',
+      '10': 'TWO_HANDED_SWORD',
+      '11': 'BOW',
+      '12': 'CATALYST',
+      '13': 'SHIELD',
+      '14': 'QUIVER',
+      '15': 'HELMET',
+      '16': 'BODY_ARMOR',
+      '17': 'BELT',
+      '18': 'BOOTS',
+      '19': 'GLOVES',
+      '20': 'AMULET',
+      '21': 'RING',
+      '22': 'RELIC'
+    };
+    
+    return typeMapping[equipTypeId] || `UNKNOWN_TYPE_${equipTypeId}`;
+  }
+  
+  /**
+   * Save unique items to individual JSON files in Data/UniqueItems
+   */
+  async saveUniqueItemsToFiles(uniqueItems) {
+    const uniqueItemsDir = path.join(DATA_DIR, 'UniqueItems');
+    await fs.ensureDir(uniqueItemsDir);
+    
+    let savedCount = 0;
+    
+    for (const uniqueItem of uniqueItems) {
+      try {
+        // Create a clean filename from the item name
+        const cleanName = uniqueItem.name
+          .replace(/[^a-zA-Z0-9\s-]/g, '') // Remove special chars
+          .replace(/\s+/g, '_') // Replace spaces with underscores
+          .toLowerCase();
+        
+        const filename = `${cleanName}_${uniqueItem.uniqueId}.json`;
+        const filePath = path.join(uniqueItemsDir, filename);
+        
+        // Extract relevant power-related information
+        const relevantData = {
+          id: uniqueItem.uniqueId,
+          name: uniqueItem.name,
+          baseType: uniqueItem.baseType,
+          levelRequirement: uniqueItem.levelRequirement,
+          isLegendary: uniqueItem.isLegendary,
+          isSetUnique: uniqueItem.isSetUnique,
+          isFractureUnique: uniqueItem.isFractureUnique,
+          setId: uniqueItem.setId,
+          loreText: uniqueItem.loreText,
+          basicMods: uniqueItem.basicMods,
+          descriptionParts: uniqueItem.descriptionParts,
+          baseItemInfo: {
+            levelRequirement: uniqueItem.baseItemInfo?.levelRequirement,
+            itemTags: uniqueItem.baseItemInfo?.itemTags,
+            implicits: uniqueItem.baseItemInfo?.implicits,
+            classRequirement: uniqueItem.baseItemInfo?.classRequirement
+          },
+          extractedAt: new Date().toISOString()
+        };
+        
+        await fs.writeJson(filePath, relevantData, { spaces: 2 });
+        savedCount++;
+        
+      } catch (error) {
+        this.logger.warn(`Failed to save unique item ${uniqueItem.name}: ${error.message}`);
+      }
+    }
+    
+    this.logger.info(`Saved ${savedCount} unique items to Data/UniqueItems/`);
+    console.log(`✅ Saved ${savedCount} unique items to Data/UniqueItems/`);
   }
 
   /**
@@ -440,6 +772,7 @@ class DatabaseBuilder {
         affixes: this.gameData.affixes.size,
         uniques: this.gameData.uniques.size,
         sets: this.gameData.sets.size,
+        subtypes: this.gameData.subtypes.size,
         overrides: this.gameData.statistics.overridesApplied,
         discovered: this.countDiscoveredItems()
       }
@@ -466,11 +799,19 @@ class DatabaseBuilder {
     const gameDataTypes = [
       { prefix: 'affix', data: this.gameData.affixes, typeName: 'affixes' },
       { prefix: 'unique', data: this.gameData.uniques, typeName: 'uniques' },
-      { prefix: 'set', data: this.gameData.sets, typeName: 'sets' }
+      { prefix: 'set', data: this.gameData.sets, typeName: 'sets' },
+      { prefix: 'subtype', data: this.gameData.subtypes, typeName: 'subtypes', sortBy: 'order' }
     ];
     
-    for (const { prefix, data, typeName } of gameDataTypes) {
-      const sortedEntries = Array.from(data.entries()).sort(([a], [b]) => a - b);
+    for (const { prefix, data, typeName, sortBy } of gameDataTypes) {
+      let sortedEntries;
+      if (sortBy === 'order') {
+        // Sort subtypes by order (descending to match game order)
+        sortedEntries = Array.from(data.entries()).sort(([,a], [,b]) => (b.order || 0) - (a.order || 0));
+      } else {
+        // Sort by ID (numeric)
+        sortedEntries = Array.from(data.entries()).sort(([a], [b]) => a - b);
+      }
       
       // Add section header comment
       lines.push(`// ${typeName.charAt(0).toUpperCase() + typeName.slice(1)} data`);
@@ -491,6 +832,12 @@ class DatabaseBuilder {
           if (entry.desc) compactEntry.desc = entry.desc;
           if (entry.props && Object.keys(entry.props).length > 0) compactEntry.props = entry.props;
           if (entry.notes) compactEntry.notes = entry.notes;
+          if (typeName === 'affixes' && entry.isIdolAffix !== undefined) compactEntry.isIdolAffix = entry.isIdolAffix;
+          if (typeName === 'subtypes') {
+            if (entry.displayName) compactEntry.displayName = entry.displayName;
+            if (entry.equipmentType) compactEntry.equipmentType = entry.equipmentType;
+            if (entry.order !== undefined) compactEntry.order = entry.order;
+          }
           
           lines.push(JSON.stringify(compactEntry));
         }
@@ -523,6 +870,7 @@ class DatabaseBuilder {
       `  Affixes: ${this.gameData.affixes.size}`,
       `  Unique Items: ${this.gameData.uniques.size}`,
       `  Set Items: ${this.gameData.sets.size}`,
+      `  Subtypes: ${this.gameData.subtypes.size}`,
       `  Colors: ${this.gameData.colors.size}`,
       `  Sounds: ${this.gameData.sounds.size}`,
       `  Beams: ${this.gameData.beams.size}`,
@@ -581,6 +929,7 @@ class DatabaseBuilder {
     console.log(`   Total Affixes: ${this.gameData.affixes.size}`);
     console.log(`   Total Uniques: ${this.gameData.uniques.size}`);
     console.log(`   Total Sets: ${this.gameData.sets.size}`);
+    console.log(`   Total Subtypes: ${this.gameData.subtypes.size}`);
     console.log(`   Colors: ${this.gameData.colors.size}`);
     console.log(`   Sounds: ${this.gameData.sounds.size}`);
     console.log(`   Beams: ${this.gameData.beams.size}`);
@@ -710,14 +1059,30 @@ class DataValidator {
     // Check for duplicate names with different IDs
     for (const [id, data] of dataMap) {
       if (data && typeof data === 'object' && data.name) {
-        if (nameMap.has(data.name)) {
-          const existingId = nameMap.get(data.name);
-          const warning = `Duplicate ${type} name "${data.name}" found: ID ${existingId} and ID ${id}`;
-          issues.warnings.push(warning);
-          issues.duplicates++;
-          this.logger.warn(warning);
+        
+        // For affixes, create separate namespaces for idol vs item affixes
+        let nameKey = data.name;
+        if (type === 'affixes' && data.isIdolAffix !== undefined) {
+          nameKey = `${data.name}#${data.isIdolAffix ? 'idol' : 'item'}`;
+        }
+        
+        if (nameMap.has(nameKey)) {
+          const existingEntry = nameMap.get(nameKey);
+          
+          // For affixes, only warn if it's truly a duplicate (same type)
+          if (type === 'affixes' && data.isIdolAffix !== undefined) {
+            const warning = `Duplicate ${type} name "${data.name}" found for ${data.isIdolAffix ? 'idols' : 'items'}: ID ${existingEntry.id} and ID ${id}`;
+            issues.warnings.push(warning);
+            issues.duplicates++;
+            this.logger.warn(warning);
+          } else {
+            const warning = `Duplicate ${type} name "${data.name}" found: ID ${existingEntry.id} and ID ${id}`;
+            issues.warnings.push(warning);
+            issues.duplicates++;
+            this.logger.warn(warning);
+          }
         } else {
-          nameMap.set(data.name, id);
+          nameMap.set(nameKey, { id, isIdolAffix: data.isIdolAffix });
         }
       }
     }
