@@ -1,6 +1,12 @@
 
 # Last Epoch Game Rules
 
+## General Game Concepts
+
+- "Elemental" generally applies to Fire, Lightning and Cold Damage and Resistances
+
+---
+
 ## Character Power Systems
 
 Character power is driven by five interconnected systems:

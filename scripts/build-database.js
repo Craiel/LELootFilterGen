@@ -512,8 +512,8 @@ class DatabaseBuilder {
     }
 
     try {
-      // Try to parse any cached JavaScript data
-      await this.parseJavaScriptData();
+      // Try to parse HTML data from manual download
+      await this.parseHtmlData();
     } catch (error) {
       this.logger.warn(`Web data processing failed: ${error.message}`);
       console.log(`⚠️  Web data processing failed: ${error.message}`);
@@ -521,9 +521,77 @@ class DatabaseBuilder {
   }
 
   /**
-   * Parse JavaScript data from scraped sources
+   * Parse HTML data from manual download (replaced JavaScript parsing)
    */
-  async parseJavaScriptData() {
+  async parseHtmlData() {
+    const { HTMLItemParser } = require('./html-item-parser.js');
+    const parser = new HTMLItemParser();
+
+    try {
+      this.logger.info('Starting HTML data parsing from manual download...');
+      
+      // Parse HTML data
+      const parsedData = await parser.parseItems();
+      
+      if (parsedData.uniqueItems && parsedData.uniqueItems.length > 0) {
+        this.logger.info(`Parsed ${parsedData.uniqueItems.length} unique items from HTML data`);
+        console.log(`✅ Parsed ${parsedData.uniqueItems.length} unique items from HTML data`);
+        
+        // Save unique items to Data/UniqueItems directory
+        await this.saveHtmlUniqueItemsToFiles(parsedData.uniqueItems);
+        
+        // Extract subtypes from HTML data
+        await this.extractSubtypesFromHtmlData(parsedData.subtypes);
+        
+        // Integrate HTML data into our game database
+        for (const uniqueItem of parsedData.uniqueItems) {
+          if (uniqueItem.id && uniqueItem.name) {
+            const existingEntry = this.gameData.uniques.get(uniqueItem.id);
+            
+            if (!existingEntry || existingEntry === null) {
+              // Add new unique item from HTML data
+              this.gameData.uniques.set(uniqueItem.id, {
+                name: uniqueItem.name,
+                desc: uniqueItem.lore || '',
+                props: {
+                  baseType: uniqueItem.baseType,
+                  category: uniqueItem.category,
+                  rarity: uniqueItem.rarity,
+                  levelRequirement: uniqueItem.levelRequirement,
+                  classRequirement: uniqueItem.classRequirement,
+                  implicits: uniqueItem.implicits,
+                  modifiers: uniqueItem.modifiers
+                },
+                notes: 'Discovered from HTML data'
+              });
+            } else if (typeof existingEntry === 'object' && !existingEntry.name) {
+              // Enhance existing unfilled template
+              existingEntry.name = uniqueItem.name;
+              existingEntry.desc = uniqueItem.lore || existingEntry.desc;
+              existingEntry.props = {
+                ...existingEntry.props,
+                baseType: uniqueItem.baseType,
+                category: uniqueItem.category,
+                rarity: uniqueItem.rarity,
+                levelRequirement: uniqueItem.levelRequirement,
+                classRequirement: uniqueItem.classRequirement,
+                implicits: uniqueItem.implicits,
+                modifiers: uniqueItem.modifiers
+              };
+              existingEntry.notes = `Template enhanced with HTML data`;
+            }
+          }
+        }
+      } else {
+        this.logger.info('No unique items found in HTML data');
+      }
+      
+    } catch (error) {
+      this.logger.error(`Failed to parse HTML data: ${error.message}`);
+      console.log(`❌ HTML parsing failed: ${error.message}`);
+    }
+    
+    /*
     const { JsDataParser } = require('./js-data-parser.js');
     const parser = new JsDataParser();
 
@@ -588,6 +656,7 @@ class DatabaseBuilder {
 
     // TODO: Parse skills data when needed
     // const skills = await parser.parseSkillsFromJs();
+    */
   }
   
   /**
@@ -690,7 +759,7 @@ class DatabaseBuilder {
           .replace(/\s+/g, '_') // Replace spaces with underscores
           .toLowerCase();
         
-        const filename = `${cleanName}_${uniqueItem.uniqueId}.json`;
+        const filename = `${cleanName}.json`;
         const filePath = path.join(uniqueItemsDir, filename);
         
         // Extract relevant power-related information
@@ -997,6 +1066,66 @@ class DatabaseBuilder {
     }
     
     return total;
+  }
+
+  /**
+   * Save unique items from HTML parsing to files
+   */
+  async saveHtmlUniqueItemsToFiles(uniqueItems) {
+    const uniqueItemsDir = path.join(DATA_DIR, 'UniqueItems');
+    await fs.ensureDir(uniqueItemsDir);
+    
+    let savedCount = 0;
+    
+    for (const uniqueItem of uniqueItems) {
+      try {
+        // Create a clean filename from the item name
+        const cleanName = uniqueItem.name
+          .replace(/[^a-zA-Z0-9\s-]/g, '') // Remove special chars
+          .replace(/\s+/g, '_') // Replace spaces with underscores
+          .toLowerCase();
+        
+        const filename = `${cleanName}.json`;
+        const filePath = path.join(uniqueItemsDir, filename);
+        
+        await fs.writeJson(filePath, uniqueItem, { spaces: 2 });
+        savedCount++;
+        
+      } catch (error) {
+        this.logger.warn(`Failed to save unique item ${uniqueItem.name}: ${error.message}`);
+      }
+    }
+    
+    this.logger.info(`Saved ${savedCount} unique items to Data/UniqueItems/`);
+    console.log(`✅ Saved ${savedCount} unique items to Data/UniqueItems/`);
+  }
+
+  /**
+   * Extract subtypes from HTML parsed data
+   */
+  async extractSubtypesFromHtmlData(subtypes) {
+    if (!subtypes || subtypes.length === 0) {
+      this.logger.warn('No subtypes found in HTML data');
+      return;
+    }
+    
+    let extractedSubtypes = 0;
+    
+    for (const subtype of subtypes) {
+      // Generate a subtype ID (simplified approach)
+      const subtypeId = extractedSubtypes + 1000; // Start from 1000 to avoid conflicts
+      
+      if (!this.gameData.subtypes.has(subtypeId)) {
+        this.gameData.subtypes.set(subtypeId, {
+          name: subtype,
+          source: 'html_data'
+        });
+        extractedSubtypes++;
+      }
+    }
+    
+    this.logger.info(`✅ Extracted ${extractedSubtypes} individual subtypes from HTML data`);
+    console.log(`✅ Extracted ${extractedSubtypes} individual subtypes from HTML data`);
   }
 }
 

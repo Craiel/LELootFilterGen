@@ -175,8 +175,11 @@ class JsDataParser {
         throw new Error('Empty JavaScript content after cleanup');
       }
       
+      // Ensure we have a complete JavaScript object by checking brace balance
+      const completeJsStr = this.ensureCompleteJavaScriptObject(jsonStr);
+      
       // Try to parse the JavaScript object
-      const itemDbData = this.parseJavaScriptObject(jsonStr);
+      const itemDbData = this.parseJavaScriptObject(completeJsStr);
       
       return itemDbData;
       
@@ -263,27 +266,34 @@ class JsDataParser {
    * Clean JavaScript string for parsing
    */
   cleanJavaScriptString(jsStr) {
-    // Remove line breaks that split properties mid-way
-    // This fixes cases where properties like "implicitVal...\nimplicitValue:14" get split
-    jsStr = jsStr.replace(/,\s*\n\s*/g, ',');
-    jsStr = jsStr.replace(/:\s*\n\s*/g, ':');
-    jsStr = jsStr.replace(/\{\s*\n\s*/g, '{');
-    jsStr = jsStr.replace(/\[\s*\n\s*/g, '[');
+    this.logger.info('Cleaning minified JavaScript with embedded newlines...');
     
-    // Remove trailing semicolons
+    // The main issue is that the minified JavaScript has newlines that break the syntax
+    // We need to remove newlines while preserving the JavaScript structure
+    
+    // Step 1: Remove all newlines and normalize whitespace
+    // This is critical for minified JavaScript that got broken across lines
+    jsStr = jsStr.replace(/\r\n/g, ' ').replace(/\n/g, ' ').replace(/\r/g, ' ');
+    
+    // Step 2: Normalize multiple spaces to single spaces
+    jsStr = jsStr.replace(/\s+/g, ' ');
+    
+    // Step 3: Remove trailing semicolons that might interfere with parsing
     jsStr = jsStr.replace(/;+\s*$/, '');
     
-    // Remove any trailing code after the main object
-    // Look for common patterns that indicate end of the main object
+    // Step 4: Remove any trailing code after the main object
+    // Look for patterns that indicate end of the main itemDB object
     const endMarkers = [
+      ';window.itemDB.',
+      ' window.itemDB.',
       ';window.',
-      '\nwindow.',
+      ' window.',
       ';var ',
-      '\nvar ',
+      ' var ',
       ';(function',
-      '\n(function',
+      ' (function',
       ';if(',
-      '\nif(',
+      ' if(',
       '</script>',
       '<script>'
     ];
@@ -291,20 +301,64 @@ class JsDataParser {
     for (const marker of endMarkers) {
       const endIndex = jsStr.indexOf(marker);
       if (endIndex !== -1) {
+        this.logger.info(`Trimming JavaScript at marker: ${marker}`);
         jsStr = jsStr.substring(0, endIndex);
         break;
       }
     }
     
-    // Trim whitespace
+    // Step 5: Final cleanup
     jsStr = jsStr.trim();
     
-    // Additional cleanup for common issues
-    // Remove trailing commas before closing braces
+    // Step 6: Remove trailing commas that might cause parsing issues
     jsStr = jsStr.replace(/,\s*}/g, '}');
     jsStr = jsStr.replace(/,\s*]/g, ']');
     
+    // Step 7: Ensure proper spacing around JavaScript operators (but not too aggressive)
+    // Only fix obvious spacing issues without breaking minified code
+    jsStr = jsStr.replace(/\s*{\s*/g, '{');
+    jsStr = jsStr.replace(/\s*}\s*/g, '}');
+    jsStr = jsStr.replace(/\s*\[\s*/g, '[');
+    jsStr = jsStr.replace(/\s*\]\s*/g, ']');
+    
+    this.logger.info(`Cleaned JavaScript: ${jsStr.length} characters`);
     return jsStr;
+  }
+  
+  /**
+   * Ensure JavaScript object is complete by finding the matching closing brace
+   */
+  ensureCompleteJavaScriptObject(jsStr) {
+    this.logger.info('Ensuring JavaScript object is complete...');
+    
+    let braceCount = 0;
+    let completeObjectEnd = -1;
+    
+    // Find the position where all braces are balanced
+    for (let i = 0; i < jsStr.length; i++) {
+      const char = jsStr[i];
+      
+      if (char === '{') {
+        braceCount++;
+      } else if (char === '}') {
+        braceCount--;
+        
+        // When braces are balanced, we've found the complete object
+        if (braceCount === 0) {
+          completeObjectEnd = i;
+          break;
+        }
+      }
+    }
+    
+    if (completeObjectEnd === -1) {
+      throw new Error(`JavaScript object is incomplete: ${braceCount} unclosed braces`);
+    }
+    
+    const completeObject = jsStr.substring(0, completeObjectEnd + 1);
+    this.logger.info(`Found complete JavaScript object: ${completeObject.length} characters (${braceCount === 0 ? 'balanced' : 'unbalanced'})`);
+    
+    return completeObject;
   }
   
   /**
@@ -313,25 +367,40 @@ class JsDataParser {
    */
   parseJavaScriptObject(jsObjectStr) {
     try {
-      // First attempt: try as JSON (faster and safer)
-      try {
-        return JSON.parse(jsObjectStr);
-      } catch (jsonError) {
-        // Not valid JSON, try JavaScript eval
-        this.logger.warn(`JSON parse failed, trying JavaScript eval: ${jsonError.message}`);
-      }
+      // This is minified JavaScript, not JSON, so we need to use eval
+      // The format includes JavaScript boolean literals (!0, !1) and other JS-specific syntax
       
-      // Second attempt: eval as JavaScript
+      // Create a safe execution context
       const safeEval = (code) => {
+        // Use Function constructor for safer eval
         return Function('"use strict"; return (' + code + ')')();
       };
       
-      return safeEval(jsObjectStr);
+      this.logger.info('Parsing minified JavaScript object (this may take a moment)...');
+      const result = safeEval(jsObjectStr);
+      this.logger.info('✅ Successfully parsed JavaScript object');
+      
+      return result;
       
     } catch (error) {
-      // Log the problematic string for debugging (first 500 chars)
-      const preview = jsObjectStr.substring(0, 500);
+      // Enhanced error reporting
+      const preview = jsObjectStr.substring(0, 1000);
       this.logger.error(`Failed to parse JavaScript object. Preview: ${preview}...`);
+      
+      // Try to identify the specific issue
+      if (error.message.includes('Unexpected token')) {
+        this.logger.error('This appears to be a syntax error in the JavaScript');
+        
+        // Look for common issues in minified JS
+        if (jsObjectStr.includes('\n')) {
+          this.logger.error('JavaScript contains newlines that may be breaking minified syntax');
+        }
+        
+        if (jsObjectStr.includes('!0') || jsObjectStr.includes('!1')) {
+          this.logger.info('JavaScript uses minified boolean format (!0 = true, !1 = false)');
+        }
+      }
+      
       throw new Error(`Failed to parse JavaScript object: ${error.message}`);
     }
   }
@@ -351,7 +420,10 @@ class JsDataParser {
     
     // Iterate through each equipment type
     for (const [equipTypeId, equipType] of Object.entries(itemDbData.itemList.equippable)) {
-      if (!equipType.subItems) continue;
+      if (!equipType.subItems) {
+          this.logger.warn("No sub-items found for equipment type: " + equipTypeId);
+          continue;
+      }
       
       // Iterate through each sub-item type
       for (const [subTypeId, subItem] of Object.entries(equipType.subItems)) {

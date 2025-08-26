@@ -122,6 +122,22 @@ Last Epoch has **7 resistance types** total:
 
 ## Tertiary Defense (Optional)
 
+## Critical Strike Mitigation (highly recommended)
+
+- Need to have at least one of the two ways to mitigate crits to some degree
+- Ideally 100% mitigation, but if not get as close as possible without sacrificing too much in other areas
+
+### Critical Strike Avoidance
+
+- Critical Strike avoidance gives a chance to downgrade an enemy crit on you to a regular hit
+- can get to 100% and exceed it but does nothing above 100%
+
+### Reduced bonus Damage from Crits
+
+- Reduces the bonus damage from crits by a percentage
+- Crits do 200% damage, so 100% Reduction results in a normal hit
+- can get to 100% and exceed it but does nothing above 100%
+
 ## Endurance System
 
 ### Mechanics
