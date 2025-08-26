@@ -1,4 +1,8 @@
-## Architecture
+# Architecture Guide
+
+This document describes the core architecture and components of the LELootFilterGen project.
+
+## Directory Structure
 
 ### Directory Structure
 - `src/` - Main application source code (unused currently)

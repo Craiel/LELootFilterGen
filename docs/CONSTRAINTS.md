@@ -1,5 +1,7 @@
 # Project Constraints
 
+This document outlines the critical technical and design constraints for the LELootFilterGen project.
+
 ## ⚠️ CRITICAL: Last Epoch 75-Rule Limit
 
 **This is the most important constraint in the entire project.**

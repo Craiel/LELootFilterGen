@@ -1,8 +1,10 @@
-# Last Epoch Loot Filter Design Guide
+# Filter Design Guide
+
+This document describes the principles and processes for designing effective loot filters for Last Epoch.
 
 ## Core Filter Philosophy
 
-Effective loot filters translate build priorities into focused item acquisition strategies while respecting the game's technical constraints and rule evaluation mechanics.
+Effective loot filters translate build priorities into focused item acquisition strategies while respecting technical constraints and rule evaluation mechanics.
 
 ---
 

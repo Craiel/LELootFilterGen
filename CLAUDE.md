@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+For general Claude best practices and guidelines that apply across all projects, see [Claude Best Practices](D:\Dev\CLAUDE_BEST_PRACTICES.md).
+
 ## Project Overview
 
 LELootFilterGen is a Node.js suite to generate and edit loot filter XML files for Last Epoch. The project follows a multi-stage approach:
@@ -57,9 +59,14 @@ Sample filters in `SampleFilters/` serve as learning examples, each documented w
 
 ## Additional Documentation
 
-- **Architecture**: See `ARCHITECTURE.md` for an overview of the project architecture and how it works
-- **Class Build Definition**: See `CLASS_BUILD_DEFINITION.md` for a detailed description of class builds and how they are structured
-- **Constraints**: See `CONSTRAINTS.md` for constraints on the project in general
-- **Defensive Strategies**: See `DEFENSIVE_STRATEGIES.md` for a detailed description of defensive strategies in the game
-- - **Filter Design**: See `FILTER_DESIGN.md` for details on how filters are designed and an overview on the process of designing a filter
-- **Game Rules**: See `GAME_RULES.md` for a detailed description of all basic rules of the game
+### Game Knowledge
+- **Game Systems**: See `docs/game/GAME_SYSTEMS.md` for comprehensive game mechanics, defensive strategies, and class build requirements
+
+### Design & Process  
+- **Filter Design**: See `docs/FILTER_DESIGN.md` for filter design principles and methodologies
+- **Constraints**: See `docs/CONSTRAINTS.md` for project constraints and technical limitations
+
+### Technical Implementation
+- **Architecture**: See `docs/technical/ARCHITECTURE.md` for project architecture and component overview
+- **Database Builder**: See `docs/technical/database-builder-guide.md` for database generation system
+- **Skill Analysis**: See `docs/technical/SKILL_DATA_ANALYSIS.md` for skill data file analysis

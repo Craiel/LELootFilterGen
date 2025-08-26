@@ -1,6 +1,6 @@
 # Skill Data Analysis
 
-Based on analysis of the scraped skill data files, here's what each file contains and their limitations for our purposes:
+This document analyzes the scraped skill data files and describes their contents and limitations for filter generation purposes.
 
 ## File Overview
 

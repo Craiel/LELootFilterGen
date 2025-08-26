@@ -1,6 +1,6 @@
 # Database Builder Guide
 
-This guide covers the enhanced database builder system for LELootFilterGen.
+This document covers the enhanced database builder system for LELootFilterGen.
 
 ## Overview
 
