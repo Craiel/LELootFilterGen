@@ -1,0 +1,2628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Unique Template 397-449</name>
+    <filterIcon>0</filterIcon>
+    <filterIconColor>0</filterIconColor>
+    <description>Template for identifying unique item IDs (53 items, excluding set items)</description>
+    <lastModifiedInVersion>1.3.0.4</lastModifiedInVersion>
+    <lootFilterVersion>5</lootFilterVersion>
+    <rules>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>397</UniqueId>
+                        <Rolls />
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Cocooned Amulet</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>52</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>398</UniqueId>
+                        <Rolls />
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Cocooned Gloves</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>51</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>399</UniqueId>
+                        <Rolls />
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Cocooned Belt</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>50</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>400</UniqueId>
+                        <Rolls />
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Cocooned Boots</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>49</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>401</UniqueId>
+                        <Rolls />
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Cocooned Helmet</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>48</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>402</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Elecoe's Innovation</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>47</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>403</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Soul of the Mountain</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>46</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>404</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Orian's Descent</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>45</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>405</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Orb Weaver's Fang</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>44</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>406</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Nest of Nightmares</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>43</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>407</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Essence Weaver</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>42</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>408</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Weaver's Gift</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>41</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>409</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Inheritance of the Erased</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>40</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>410</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Unearthed Memories</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>39</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>411</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Countenance of Majasa</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>38</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>412</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Dominance of the Tundra</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>37</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>413</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Shattered Worlds</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>36</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>414</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Downfall of the Righteous</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>35</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>415</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Immortal Vise</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>34</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>416</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Brewmaster's Buckle</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>33</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>417</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Clotho's Needle</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>32</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>418</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Scissor of Atropos</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>31</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>419</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Blight of Lachesis</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>30</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>420</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Executioner's Tithe</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>29</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>421</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>The Land Before</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>28</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>422</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Lightning in a Bottle</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>27</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>423</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Legends Entwined</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>26</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>424</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Tyrant's Skull</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>25</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>425</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>6</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Wildfire Embers</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>24</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>426</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Thicket of Blinding Light</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>23</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>427</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Harmony of the First</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>22</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>428</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Onslaught of Cerata</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>21</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>429</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Blossom of Immortal Stone</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>20</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>430</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Chorus of the Anurok</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>19</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>431</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Carrion of Creation</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>18</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>432</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Horn of the Bone Wisp</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>17</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>433</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Reliquary Nest</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>16</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>434</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Mask of Indifference</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>15</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>435</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Permanence of Primal Knowledge</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>14</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>436</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Wings of Discord</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>13</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>437</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Primal Cadence</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>12</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>438</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Whetstone Gavel</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>11</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>439</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Truesight Glass</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>10</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>440</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>6</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Bluefeather Band</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>9</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>441</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Hydra Arc</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>8</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>442</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Velocyn's Jaw</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>7</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>443</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Army of Skin</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>6</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>444</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Evolution's End</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>5</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>445</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>6</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Spirit Xylem</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>4</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>446</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>6</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Fangs of the Berserker</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>3</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>447</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Bones of the Ancestral Pack</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>2</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>448</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>3</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>4</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>5</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>Architects of Astral Blood</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>1</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="UniqueModifiersCondition">
+                    <Uniques>
+                        <UniqueId>449</UniqueId>
+                        <Rolls>
+                            <UniqueModifierWithRollId>
+                                <RollId>0</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>1</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                            <UniqueModifierWithRollId>
+                                <RollId>2</RollId>
+                                <Modifier>
+                                    <LessIsBetter>false</LessIsBetter>
+                                    <MinRoll i:nil="true" />
+                                    <MaxRoll i:nil="true" />
+                                </Modifier>
+                            </UniqueModifierWithRollId>
+                        </Rolls>
+                    </Uniques>
+                </Condition>
+            </conditions>
+            <color>3</color>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>true</emphasized>
+            <nameOverride>The Butcher's Crown</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+    </rules>
+</ItemFilter>
