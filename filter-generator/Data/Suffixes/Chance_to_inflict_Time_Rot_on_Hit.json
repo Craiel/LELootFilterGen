@@ -1,0 +1,11 @@
+{
+  "id": "chance_to_inflict_ti",
+  "name": "Chance to inflict Time Rot on Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

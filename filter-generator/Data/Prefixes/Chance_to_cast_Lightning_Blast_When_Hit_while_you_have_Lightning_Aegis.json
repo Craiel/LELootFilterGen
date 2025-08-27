@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_light",
+  "name": "Chance to cast Lightning Blast When Hit while you have Lightning Aegis",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Lightning Blast When Hit while you have Lightning Aegis": [
+      "9% to 19%"
+    ]
+  },
+  "isIdolAffix": false
+}

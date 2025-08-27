@@ -1,0 +1,11 @@
+{
+  "id": "increased_crit_chanc",
+  "name": "Increased crit chance with a catalyst and Critcal Strike Multiplier with a catalyst",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

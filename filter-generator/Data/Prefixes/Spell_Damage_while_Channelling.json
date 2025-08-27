@@ -1,0 +1,27 @@
+{
+  "id": "spell_damage_while_c",
+  "name": "Spell Damage while Channelling",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Spell Damage While Channelling": [
+      "6",
+      "7",
+      "8",
+      "9 to 10",
+      "11 to 13",
+      "17 to 21",
+      "22 to 26",
+      "42 to 52"
+    ]
+  },
+  "isIdolAffix": false
+}

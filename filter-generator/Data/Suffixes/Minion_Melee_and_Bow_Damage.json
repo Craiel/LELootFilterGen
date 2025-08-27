@@ -1,0 +1,11 @@
+{
+  "id": "minion_melee_and_bow",
+  "name": "Minion Melee and Bow Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

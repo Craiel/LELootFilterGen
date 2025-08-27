@@ -1,0 +1,27 @@
+{
+  "id": "spell_damage",
+  "name": "Spell Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Spell Damage": [
+      "3 to 5",
+      "6 to 8",
+      "9 to 11",
+      "12 to 14",
+      "15 to 24",
+      "32 to 40",
+      "41 to 50",
+      "70 to 80"
+    ]
+  },
+  "isIdolAffix": false
+}

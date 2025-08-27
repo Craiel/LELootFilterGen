@@ -1,0 +1,13 @@
+{
+  "id": "increased_elemental_",
+  "name": "Increased Elemental Nova Area",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Area with Elemental Nova": [
+      "7% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

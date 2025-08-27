@@ -1,0 +1,16 @@
+{
+  "id": "melee_physical_damag",
+  "name": "Melee Physical Damage For Swarm Strike and Locusts",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Physical Damage with Swarm Strike": [
+      "3 to 8"
+    ],
+    "Melee Physical Damage for Locusts": [
+      "2 to 4"
+    ]
+  },
+  "isIdolAffix": false
+}

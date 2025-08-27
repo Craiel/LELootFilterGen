@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_ignite_on_",
+  "name": "Chance to Ignite on Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Ignite on Hit": [
+      "13% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

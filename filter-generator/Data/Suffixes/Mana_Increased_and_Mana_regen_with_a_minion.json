@@ -1,0 +1,11 @@
+{
+  "id": "mana_increased_and_m",
+  "name": "Mana Increased and Mana regen with a minion",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

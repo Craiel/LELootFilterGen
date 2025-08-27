@@ -1,0 +1,13 @@
+{
+  "id": "mana_efficiency_with",
+  "name": "Mana Efficiency With Void Spells",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Void Spell Mana Efficiency": [
+      "9% to 25%"
+    ]
+  },
+  "isIdolAffix": false
+}

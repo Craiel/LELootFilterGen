@@ -1,0 +1,27 @@
+{
+  "id": "block_effectiveness",
+  "name": "Block Effectiveness",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Block Effectiveness": [
+      "40 to 80",
+      "81 to 150",
+      "151 to 240",
+      "241 to 350",
+      "351 to 500",
+      "700 to 1000",
+      "1001 to 1400",
+      "2240 to 2800"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -13,7 +13,7 @@ const { JSDOM } = require('jsdom');
 class HTMLSuffixParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'Suffixes.html');
-    this.outputDir = path.join(__dirname, '..', 'Data');
+    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
   }
 
@@ -181,22 +181,13 @@ class HTMLSuffixParser {
       await fs.writeJson(filePath, suffix, { spaces: 2 });
     }
 
-    // Save summary
-    const summary = {
-      parseDate: new Date().toISOString(),
+    this.logger.log(`✅ Saved ${data.suffixes.length} suffixes to ${suffixesDir}`);
+
+    return {
       totalSuffixes: data.suffixes.length,
       idolSuffixes: data.suffixes.filter(s => s.isIdolAffix).length,
-      itemSuffixes: data.suffixes.filter(s => !s.isIdolAffix).length,
-      tieredSuffixes: data.suffixes.filter(s => s.tier !== null).length
+      itemSuffixes: data.suffixes.filter(s => !s.isIdolAffix).length
     };
-
-    const summaryFile = path.join(this.outputDir, 'html_suffixes_parse_summary.json');
-    await fs.writeJson(summaryFile, summary, { spaces: 2 });
-
-    this.logger.log(`✅ Saved ${data.suffixes.length} suffixes to ${suffixesDir}`);
-    this.logger.log(`📊 Parse summary saved to ${summaryFile}`);
-
-    return summary;
   }
 
   /**
@@ -213,7 +204,6 @@ class HTMLSuffixParser {
       this.logger.log(`   Total Suffixes: ${summary.totalSuffixes}`);
       this.logger.log(`   Idol Suffixes: ${summary.idolSuffixes}`);
       this.logger.log(`   Item Suffixes: ${summary.itemSuffixes}`);
-      this.logger.log(`   Tiered Suffixes: ${summary.tieredSuffixes}`);
       
       this.logger.log('\n🎉 HTML suffix parsing complete!');
       return summary;

@@ -1,0 +1,16 @@
+{
+  "id": "fire_penetration_and",
+  "name": "Fire Penetration and Minion Fire Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Fire Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

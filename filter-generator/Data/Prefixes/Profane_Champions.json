@@ -1,0 +1,37 @@
+{
+  "id": "profane_champions",
+  "name": "Profane Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Critical Strike Chance": [
+      "24% to 29%",
+      "30% to 37%",
+      "38% to 46%",
+      "47% to 55%",
+      "56% to 70%",
+      "80% to 109%",
+      "110% to 140%",
+      "224% to 280%"
+    ],
+    "Maximum Skeletons": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+    ]
+  },
+  "isIdolAffix": false
+}

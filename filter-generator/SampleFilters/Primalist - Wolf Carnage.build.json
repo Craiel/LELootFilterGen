@@ -1,0 +1,8 @@
+{
+  "name": "Wolf Carnage",
+  "class": "Primalist",
+  "mastery": "Beastmaster",
+  "primarySkill": "Summon Wolf",
+  "secondarySkills": ["Maul", "Swipe"],
+  "defense": "armor"
+}

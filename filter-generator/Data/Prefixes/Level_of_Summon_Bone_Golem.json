@@ -1,0 +1,37 @@
+{
+  "id": "level_of_summon_bone",
+  "name": "Level of Summon Bone Golem",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Summon Bone Golem": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Minion Armor": [
+      "10 to 30",
+      "31 to 80",
+      "81 to 160",
+      "161 to 320",
+      "321 to 500",
+      "800 to 1200",
+      "1201 to 2000",
+      "3200 to 4000"
+    ]
+  },
+  "isIdolAffix": true
+}

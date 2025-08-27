@@ -1,0 +1,11 @@
+{
+  "id": "critical_strike_chan",
+  "name": "Critical Strike Chance For You And Your Minions",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

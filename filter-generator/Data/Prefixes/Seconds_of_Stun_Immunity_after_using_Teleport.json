@@ -1,0 +1,13 @@
+{
+  "id": "seconds_of_stun_immu",
+  "name": "Seconds of Stun Immunity after using Teleport",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Seconds of Stun Immunity after using Teleport": [
+      "2 to 3"
+    ]
+  },
+  "isIdolAffix": false
+}

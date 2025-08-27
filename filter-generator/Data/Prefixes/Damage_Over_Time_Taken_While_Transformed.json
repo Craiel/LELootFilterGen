@@ -1,0 +1,13 @@
+{
+  "id": "damage_over_time_tak",
+  "name": "Damage Over Time Taken While Transformed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Over Time Taken While Transformed": [
+      "-3% to -8%"
+    ]
+  },
+  "isIdolAffix": false
+}

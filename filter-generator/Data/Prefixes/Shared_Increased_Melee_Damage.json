@@ -1,0 +1,37 @@
+{
+  "id": "shared_increased_mel",
+  "name": "Shared Increased Melee Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Melee Damage": [
+      "25% to 27%",
+      "28% to 30%",
+      "31% to 33%",
+      "34% to 36%",
+      "37% to 50%",
+      "60% to 75%",
+      "76% to 100%",
+      "160% to 200%"
+    ],
+    "Minion Melee Damage": [
+      "25% to 27%",
+      "28% to 30%",
+      "31% to 33%",
+      "34% to 36%",
+      "37% to 50%",
+      "60% to 75%",
+      "76% to 100%",
+      "160% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

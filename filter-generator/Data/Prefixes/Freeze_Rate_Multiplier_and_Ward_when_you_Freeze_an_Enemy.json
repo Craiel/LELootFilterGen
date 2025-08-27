@@ -1,0 +1,16 @@
+{
+  "id": "freeze_rate_multipli",
+  "name": "Freeze Rate Multiplier and Ward when you Freeze an Enemy",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Freeze Rate Multiplier": [
+      "16% to 25%"
+    ],
+    "Ward Gain on Freeze": [
+      "2 to 4"
+    ]
+  },
+  "isIdolAffix": false
+}

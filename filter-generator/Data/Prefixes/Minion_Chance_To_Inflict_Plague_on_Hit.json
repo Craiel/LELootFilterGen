@@ -1,0 +1,13 @@
+{
+  "id": "minion_chance_to_inf",
+  "name": "Minion Chance To Inflict Plague on Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to inflict Plague on Minion Hit": [
+      "3% to 7%"
+    ]
+  },
+  "isIdolAffix": true
+}

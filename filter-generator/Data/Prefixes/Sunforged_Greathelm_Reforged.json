@@ -1,0 +1,37 @@
+{
+  "id": "sunforged_greathelm_",
+  "name": "Sunforged Greathelm Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Armor per Forged Weapon": [
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6%",
+      "8% to 9%",
+      "10% to 12%",
+      "19% to 24%"
+    ],
+    "Health Regen per Forged Weapon": [
+      "1",
+      "1",
+      "2",
+      "2",
+      "3",
+      "5",
+      "6",
+      "9"
+    ]
+  },
+  "isIdolAffix": false
+}

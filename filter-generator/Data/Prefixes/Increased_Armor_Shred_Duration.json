@@ -1,0 +1,27 @@
+{
+  "id": "increased_armor_shre",
+  "name": "Increased Armor Shred Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Shred Armor Duration": [
+      "50% to 60%",
+      "61% to 72%",
+      "73% to 85%",
+      "86% to 100%",
+      "101% to 120%",
+      "150% to 190%",
+      "191% to 240%",
+      "384% to 480%"
+    ]
+  },
+  "isIdolAffix": false
+}

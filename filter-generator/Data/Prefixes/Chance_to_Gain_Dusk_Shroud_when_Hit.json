@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_gain_dusk_",
+  "name": "Chance to Gain Dusk Shroud when Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to gain Dusk Shroud when Hit": [
+      "12% to 16%",
+      "17% to 21%",
+      "22% to 26%",
+      "27% to 32%",
+      "33% to 40%",
+      "50% to 60%",
+      "61% to 80%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

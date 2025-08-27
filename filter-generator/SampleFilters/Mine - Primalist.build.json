@@ -1,0 +1,40 @@
+{
+  "name": "Primalist Dual Build",
+  "builds": [
+    {
+      "name": "Beastmaster Summoner",
+      "class": "Primalist",
+      "mastery": "Beastmaster",
+      "primarySkill": "Summon Bear",
+      "secondarySkills": ["Swipe", "Earthquake", "Warcry", "Maelstrom"],
+      "uniqueItems": ["Mantle of the Pale Ox", "Naal's Tooth"],
+      "defense": "armor",
+      "variants": [
+        {
+          "name": "Bear Build",
+          "primarySkill": "Summon Bear"
+        },
+        {
+          "name": "Raptor Build",
+          "primarySkill": "Summon Raptor",
+          "enabledBy": "Naal's Tooth"
+        },
+        {
+          "name": "Frog Build",
+          "primarySkill": "Summon Frog",
+          "enabledBy": "Chorus of the Aurok"
+        }
+      ]
+    },
+    {
+      "name": "Druid Thorns",
+      "class": "Primalist", 
+      "mastery": "Druid",
+      "primarySkill": "Spriggan Form",
+      "secondarySkills": ["Werebear Form", "Summon Spriggan", "Eterra's Blessing"],
+      "uniqueItems": ["Thicket of Blinding Light", "Thornshell", "Tears of the Forest"],
+      "defense": "block",
+      "scalingType": "damage_reflection"
+    }
+  ]
+}

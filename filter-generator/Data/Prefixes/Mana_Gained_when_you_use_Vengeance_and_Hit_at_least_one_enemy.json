@@ -1,0 +1,27 @@
+{
+  "id": "mana_gained_when_you",
+  "name": "Mana Gained when you use Vengeance and Hit at least one enemy",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana Gained when you use Vengeance and hit at least one enemy": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7 to 8",
+      "9 to 11",
+      "12 to 15",
+      "19 to 23"
+    ]
+  },
+  "isIdolAffix": false
+}

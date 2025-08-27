@@ -1,0 +1,11 @@
+{
+  "id": "chance_to_slow_on_hi",
+  "name": "Chance to Slow on Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

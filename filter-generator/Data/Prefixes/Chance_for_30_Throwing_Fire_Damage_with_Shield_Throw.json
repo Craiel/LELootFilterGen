@@ -1,0 +1,13 @@
+{
+  "id": "chance_for_30_throwi",
+  "name": "Chance for +30 Throwing Fire Damage with Shield Throw",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance for +30 Throwing Fire Damage with Shield Throw": [
+      "10% to 27%"
+    ]
+  },
+  "isIdolAffix": false
+}

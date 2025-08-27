@@ -1,0 +1,27 @@
+{
+  "id": "bow_attack_speed",
+  "name": "Bow Attack Speed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Bow Attack Speed": [
+      "4% to 5%",
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "12% to 15%",
+      "18% to 23%",
+      "24% to 30%",
+      "46% to 53%"
+    ]
+  },
+  "isIdolAffix": false
+}

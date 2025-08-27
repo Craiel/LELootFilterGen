@@ -115,6 +115,8 @@ class DatabaseBuilder {
       await this.buildDatabase();
       
       await this.saveVersionInfo();
+      await this.copyClaudeGuide();
+      await this.generateIndexes();
       
       this.printSummary();
       await this.logger.finish();
@@ -828,6 +830,7 @@ class DatabaseBuilder {
       // Parse prefix data
       this.logger.info('Starting HTML prefix data parsing...');
       const prefixParser = new HTMLPrefixParser();
+      const prefixSummary = await prefixParser.parse();
       const prefixData = await prefixParser.parsePrefixes();
       
       if (prefixData.prefixes && prefixData.prefixes.length > 0) {
@@ -847,6 +850,7 @@ class DatabaseBuilder {
       // Parse suffix data
       this.logger.info('Starting HTML suffix data parsing...');
       const suffixParser = new HTMLSuffixParser();
+      const suffixSummary = await suffixParser.parse();
       const suffixData = await suffixParser.parseSuffixes();
       
       if (suffixData.suffixes && suffixData.suffixes.length > 0) {
@@ -902,30 +906,25 @@ class DatabaseBuilder {
         
         if (templateId !== null) {
           if (!existingEntry || existingEntry === null) {
-            // Fill unfilled template with HTML data
-            this.gameData.affixes.set(templateId, {
+            // Fill unfilled template with HTML data - only include properties we have reliable data for
+            const affixData = {
               name: affix.name,
-              desc: affix.description || '',
-              props: {
-                type: type,
-                tier: affix.tier,
-                itemTypes: affix.itemTypes,
-                minValue: affix.minValue,
-                maxValue: affix.maxValue
-              },
+              modificationColumns: affix.modificationColumns || [],
               isIdolAffix: affix.isIdolAffix
-            });
-          } else if (typeof existingEntry === 'object' && existingEntry.name) {
-            // Enhance existing template with additional data
-            existingEntry.desc = affix.description || existingEntry.desc;
-            existingEntry.props = {
-              ...existingEntry.props,
-              type: type,
-              tier: affix.tier,
-              itemTypes: affix.itemTypes,
-              minValue: affix.minValue,
-              maxValue: affix.maxValue
             };
+
+            // Only add description if we have content
+            if (affix.description && affix.description.trim().length > 0) {
+              affixData.desc = affix.description.trim();
+            }
+
+            this.gameData.affixes.set(templateId, affixData);
+          } else if (typeof existingEntry === 'object' && existingEntry.name) {
+            // Enhance existing template with additional data - only include reliable properties
+            if (affix.description && affix.description.trim().length > 0) {
+              existingEntry.desc = affix.description.trim();
+            }
+            existingEntry.modificationColumns = affix.modificationColumns || existingEntry.modificationColumns || [];
             if (affix.isIdolAffix !== undefined) {
               existingEntry.isIdolAffix = affix.isIdolAffix;
             }
@@ -1390,6 +1389,43 @@ class DatabaseBuilder {
     };
     
     await fs.writeJson(VERSION_FILE, versionInfo, { spaces: 2 });
+  }
+
+  /**
+   * Copy Claude data lookup guide to Data folder
+   */
+  async copyClaudeGuide() {
+    const sourceFile = path.join(__dirname, '..', 'CLAUDE_DATA_LOOKUP.md');
+    const destFile = path.join(DATA_DIR, 'CLAUDE_DATA_LOOKUP.md');
+    
+    try {
+      if (await fs.pathExists(sourceFile)) {
+        await fs.copy(sourceFile, destFile);
+        this.logger.info('📋 Copied Claude data lookup guide to Data folder');
+        console.log('📋 Copied Claude data lookup guide to Data folder');
+      } else {
+        this.logger.warn('⚠️  Claude data lookup guide not found, skipping copy');
+      }
+    } catch (error) {
+      this.logger.warn('⚠️  Failed to copy Claude data lookup guide:', error.message);
+    }
+  }
+
+  /**
+   * Generate database indexes for fast access
+   */
+  async generateIndexes() {
+    try {
+      console.log('🔍 Generating database indexes...');
+      const IndexGenerator = require('./generate-indexes');
+      const generator = new IndexGenerator();
+      await generator.generate();
+      this.logger.info('🔍 Generated database indexes successfully');
+    } catch (error) {
+      this.logger.error('❌ Failed to generate indexes:', error.message);
+      // Don't fail the entire build if index generation fails
+      console.warn('⚠️  Index generation failed but continuing build:', error.message);
+    }
   }
 
   /**

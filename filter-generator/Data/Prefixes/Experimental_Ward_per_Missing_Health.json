@@ -1,0 +1,37 @@
+{
+  "id": "experimental_ward_pe",
+  "name": "Experimental Ward per Missing Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Current Health Lost per second": [
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 12%",
+      "14% to 16%",
+      "17% to 20%",
+      "25% to 30%"
+    ],
+    "Missing Health gained as Ward per second": [
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 12%",
+      "14% to 16%",
+      "17% to 20%",
+      "25% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

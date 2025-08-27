@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_gain_inspi",
+  "name": "Chance To Gain Inspiration On Kills With Void Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to gain Inspiration when you kill an enemy with a void skill": [
+      "8% to 23%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -13,7 +13,7 @@ const { JSDOM } = require('jsdom');
 class HTMLSetParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'Sets.html');
-    this.outputDir = path.join(__dirname, '..', 'Data');
+    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
   }
 

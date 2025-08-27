@@ -1,0 +1,13 @@
+{
+  "id": "mana_gained_when_tra",
+  "name": "Mana Gained When Transforming Back To Human Form",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Mana gained when auto transforming back to human form": [
+      "3 to 10"
+    ]
+  },
+  "isIdolAffix": false
+}

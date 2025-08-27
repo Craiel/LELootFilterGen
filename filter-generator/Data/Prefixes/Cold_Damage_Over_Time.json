@@ -1,0 +1,27 @@
+{
+  "id": "cold_damage_over_tim",
+  "name": "Cold Damage Over Time",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Cold Damage Over Time": [
+      "40% to 45%",
+      "46% to 51%",
+      "52% to 57%",
+      "58% to 63%",
+      "64% to 75%",
+      "90% to 110%",
+      "111% to 140%",
+      "224% to 280%"
+    ]
+  },
+  "isIdolAffix": false
+}

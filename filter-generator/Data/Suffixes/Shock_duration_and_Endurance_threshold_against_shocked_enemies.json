@@ -1,0 +1,11 @@
+{
+  "id": "shock_duration_and_e",
+  "name": "Shock duration and Endurance threshold against shocked enemies",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

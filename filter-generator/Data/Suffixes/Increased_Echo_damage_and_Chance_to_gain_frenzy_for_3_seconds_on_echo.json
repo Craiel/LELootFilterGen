@@ -1,0 +1,11 @@
+{
+  "id": "increased_echo_damag",
+  "name": "Increased Echo damage and Chance to gain frenzy for 3 seconds on echo",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

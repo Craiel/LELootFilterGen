@@ -9,23 +9,27 @@ Sample filters serve as:
 - **Reference Material**: Patterns and strategies for filter generation
 - **Quality Benchmarks**: Comparison standards for generated filters
 
-## Documentation Structure
+## Documentation Structure ✅ IMPLEMENTED
 
-Each sample filter should be accompanied by documentation that includes:
-- **Build Archetype**: What class/build this filter serves
-- **Filter Strategy**: Overall approach to item prioritization
-- **Rule Breakdown**: Explanation of key filtering decisions
-- **Priority Logic**: How rules are ordered and why
+Each sample filter now has three files organized together:
 
-## Documentation Options
+### File Organization (Current Implementation)
+- **`FilterName.xml`** - The actual loot filter file
+- **`FilterName.analysis.md`** - Detailed technical analysis including:
+  - Build archetype and strategy
+  - Rule-by-rule breakdown
+  - Technical implementation patterns
+  - Strengths, limitations, and learning insights
+- **`FilterName.build.json`** - Meta build file in the proposed JSON format for generation system testing
 
-Choose one of these documentation approaches:
+### Example File Set
+```
+Acolyte - Necromancer - Arcane Servants.xml
+Acolyte - Necromancer - Arcane Servants.analysis.md
+Acolyte - Necromancer - Arcane Servants.build.json
+```
 
-### Option 1: Single README (Current)
-Document all filters in this README file with sections for each filter.
-
-### Option 2: Individual Markdown Files
-Create separate `.md` files for each filter (e.g., `necromancer-summoner.md` for `necromancer-summoner.xml`).
+This organization keeps all related files together for easy cross-reference and maintains clear separation between the actual filter, its analysis, and its meta build representation.
 
 ## Sample Filter Categories
 

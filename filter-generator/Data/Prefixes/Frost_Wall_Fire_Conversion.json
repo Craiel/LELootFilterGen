@@ -1,0 +1,16 @@
+{
+  "id": "frost_wall_fire_conv",
+  "name": "Frost Wall Fire Conversion",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Frost Wall Damage converted to Fire": [
+      "100%"
+    ],
+    "Ignite Chance per Second with Frost Wall": [
+      "33% to 87%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chance_on_hit_to_sum",
+  "name": "Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds)": [
+      "8% to 20%"
+    ]
+  },
+  "isIdolAffix": true
+}

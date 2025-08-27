@@ -1,0 +1,37 @@
+{
+  "id": "hirishs",
+  "name": "Hirish's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana Regen": [
+      "12%",
+      "13%",
+      "14%",
+      "15%",
+      "16% to 18%",
+      "22% to 26%",
+      "27% to 32%",
+      "51% to 64%"
+    ],
+    "Damage Dealt to Mana Before Health": [
+      "12%",
+      "13%",
+      "14%",
+      "15%",
+      "16% to 18%",
+      "22% to 26%",
+      "27% to 32%",
+      "51% to 64%"
+    ]
+  },
+  "isIdolAffix": false
+}

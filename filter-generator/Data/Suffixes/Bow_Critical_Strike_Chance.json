@@ -1,0 +1,11 @@
+{
+  "id": "bow_critical_strike_",
+  "name": "Bow Critical Strike Chance",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

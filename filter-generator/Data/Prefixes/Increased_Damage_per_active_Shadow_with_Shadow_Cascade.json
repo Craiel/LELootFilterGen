@@ -1,0 +1,27 @@
+{
+  "id": "increased_damage_per",
+  "name": "Increased damage per active Shadow with Shadow Cascade",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Damage with Shadow Cascade per Active Shadow": [
+      "12% to 14%",
+      "15% to 17%",
+      "18% to 20%",
+      "21% to 23%",
+      "24% to 30%",
+      "38% to 46%",
+      "47% to 60%",
+      "96% to 120%"
+    ]
+  },
+  "isIdolAffix": false
+}

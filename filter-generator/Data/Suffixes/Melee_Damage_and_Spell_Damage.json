@@ -1,0 +1,11 @@
+{
+  "id": "melee_damage_and_spe",
+  "name": "Melee Damage and Spell Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

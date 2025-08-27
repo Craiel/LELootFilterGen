@@ -1,0 +1,37 @@
+{
+  "id": "damage_and_area_with",
+  "name": "Damage and Area with Dive Bomb",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Damage with Dive Bomb": [
+      "25% to 27%",
+      "28% to 30%",
+      "31% to 33%",
+      "34% to 36%",
+      "37% to 50%",
+      "60% to 75%",
+      "76% to 100%",
+      "160% to 200%"
+    ],
+    "Increased Area with Dive Bomb": [
+      "9% to 13%",
+      "14% to 17%",
+      "18% to 21%",
+      "22% to 23%",
+      "24% to 27%",
+      "28% to 39%",
+      "40% to 52%",
+      "83% to 104%"
+    ]
+  },
+  "isIdolAffix": false
+}

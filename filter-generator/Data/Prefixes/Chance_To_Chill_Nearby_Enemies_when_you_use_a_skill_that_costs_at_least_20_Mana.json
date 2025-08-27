@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_chill_near",
+  "name": "Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana": [
+      "10% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

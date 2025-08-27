@@ -1,0 +1,27 @@
+{
+  "id": "increased_echo_damag",
+  "name": "Increased Echo Damage When A Skill Echoes",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Echo Damage when a skill is Echoed": [
+      "60% to 72%",
+      "73% to 85%",
+      "86% to 98%",
+      "99% to 110%",
+      "111% to 125%",
+      "150% to 180%",
+      "181% to 220%",
+      "352% to 440%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "increased_projectile",
+  "name": "Increased Projectile Speed With Marrow Shards And Bone Nova",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Projectile Speed with Marrow Shards": [
+      "18% to 20%",
+      "21% to 22%",
+      "24% to 26%",
+      "27% to 29%",
+      "30% to 38%",
+      "45% to 54%",
+      "55% to 69%",
+      "111% to 138%"
+    ],
+    "Increased Projectile Speed with Bone Nova": [
+      "18% to 20%",
+      "21% to 22%",
+      "24% to 26%",
+      "27% to 29%",
+      "30% to 38%",
+      "45% to 54%",
+      "55% to 69%",
+      "111% to 138%"
+    ]
+  },
+  "isIdolAffix": false
+}

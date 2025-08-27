@@ -14,7 +14,7 @@ class HTMLSkillParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'SkillOverview.html');
     this.skillDataFile = path.join(__dirname, '..', 'WebData', 'SkillData.json');
-    this.outputDir = path.join(__dirname, '..', 'Data');
+    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
     this.scrapedSkillData = null;
     this.globalTags = new Set(); // Track all unique tags

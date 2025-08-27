@@ -1,0 +1,13 @@
+{
+  "id": "cold_damage_taken_as",
+  "name": "Cold Damage Taken as Physical",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Cold Damage Taken as Physical": [
+      "5% to 13%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ward_per_second_duri",
+  "name": "Ward per Second during Profane Veil",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward per Second during Profane Veil": [
+      "45 to 139"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_blind_with",
+  "name": "Chance To Blind With Spells",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Blind on Spell Hit": [
+      "12% to 33%"
+    ]
+  },
+  "isIdolAffix": false
+}

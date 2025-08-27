@@ -1,0 +1,13 @@
+{
+  "id": "necrotic_spell_damag",
+  "name": "Necrotic Spell Damage per Skeletal Mage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Necrotic Spell Damage per Skeletal Mage": [
+      "1 to 2"
+    ]
+  },
+  "isIdolAffix": false
+}

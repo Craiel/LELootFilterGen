@@ -1,0 +1,37 @@
+{
+  "id": "ucenuis",
+  "name": "Ucenui's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Cold Penetration": [
+      "7%",
+      "8%",
+      "9%",
+      "10%",
+      "11% to 12%",
+      "15% to 17%",
+      "18% to 20%",
+      "32% to 40%"
+    ],
+    "Lightning Penetration": [
+      "7%",
+      "8%",
+      "9%",
+      "10%",
+      "11% to 12%",
+      "15% to 17%",
+      "18% to 20%",
+      "32% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

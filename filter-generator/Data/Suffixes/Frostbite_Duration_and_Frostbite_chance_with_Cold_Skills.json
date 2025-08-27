@@ -1,0 +1,11 @@
+{
+  "id": "frostbite_duration_a",
+  "name": "Frostbite Duration and Frostbite chance with Cold Skills",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

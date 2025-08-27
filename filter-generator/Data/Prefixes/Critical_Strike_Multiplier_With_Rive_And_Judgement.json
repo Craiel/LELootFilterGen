@@ -1,0 +1,16 @@
+{
+  "id": "critical_strike_mult",
+  "name": "Critical Strike Multiplier With Rive And Judgement",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Multiplier with Judgement": [
+      "17% to 45%"
+    ],
+    "Critical Strike Multiplier with Rive": [
+      "17% to 45%"
+    ]
+  },
+  "isIdolAffix": false
+}

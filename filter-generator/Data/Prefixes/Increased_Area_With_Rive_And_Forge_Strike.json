@@ -1,0 +1,16 @@
+{
+  "id": "increased_area_with_",
+  "name": "Increased Area With Rive And Forge Strike",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased area with Rive": [
+      "11% to 30%"
+    ],
+    "Increased Area with Forge Strike": [
+      "11% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

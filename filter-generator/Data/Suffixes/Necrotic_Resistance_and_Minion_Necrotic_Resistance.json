@@ -1,0 +1,11 @@
+{
+  "id": "necrotic_resistance_",
+  "name": "Necrotic Resistance and Minion Necrotic Resistance",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

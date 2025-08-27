@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_cast_fire_",
+  "name": "Chance To Cast Fire Aura On Kill Fire Skills (1 second cooldown",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to cast Fire Aura on Kill with Fire Skills (1 second cooldown)": [
+      "4% to 5%",
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "12% to 14%",
+      "18% to 22%",
+      "23% to 28%",
+      "45% to 53%"
+    ]
+  },
+  "isIdolAffix": false
+}

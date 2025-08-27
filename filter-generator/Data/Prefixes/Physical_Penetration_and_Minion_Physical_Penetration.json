@@ -1,0 +1,16 @@
+{
+  "id": "physical_penetration",
+  "name": "Physical Penetration and Minion Physical Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Physical Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Physical Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

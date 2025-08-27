@@ -1,0 +1,13 @@
+{
+  "id": "increased_damage_for",
+  "name": "Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased damage if you have cast Devouring Orb recently": [
+      "22% to 60%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "shield_throw_base_da",
+  "name": "Shield Throw Base Damage Converted to Void",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Shield Throw Base Damage Converted to Void": [
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

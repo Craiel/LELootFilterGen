@@ -1,0 +1,11 @@
+{
+  "id": "throwing_damage",
+  "name": "Throwing Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

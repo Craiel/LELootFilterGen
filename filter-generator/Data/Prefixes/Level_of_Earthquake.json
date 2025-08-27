@@ -1,0 +1,37 @@
+{
+  "id": "level_of_earthquake",
+  "name": "Level of Earthquake",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Earthquake": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Increased Stun Duration": [
+      "3% to 5%",
+      "6% to 8%",
+      "9% to 12%",
+      "13% to 16%",
+      "17% to 22%",
+      "25% to 30%",
+      "31% to 40%",
+      "64% to 80%"
+    ]
+  },
+  "isIdolAffix": false
+}

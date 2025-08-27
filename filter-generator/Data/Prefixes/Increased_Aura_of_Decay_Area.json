@@ -1,0 +1,13 @@
+{
+  "id": "increased_aura_of_de",
+  "name": "Increased Aura of Decay Area",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Aura of Decay Area": [
+      "10% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

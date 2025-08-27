@@ -1,0 +1,16 @@
+{
+  "id": "endurance_threshold_",
+  "name": "Endurance Threshold and Increased Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Endurance Threshold": [
+      "7 to 16"
+    ],
+    "Health": [
+      "3% to 9%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ward_decay_threshold",
+  "name": "Ward decay threshold and Ward per second",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

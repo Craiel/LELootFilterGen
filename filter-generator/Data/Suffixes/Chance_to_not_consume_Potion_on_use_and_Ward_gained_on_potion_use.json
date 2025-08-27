@@ -1,0 +1,11 @@
+{
+  "id": "chance_to_not_consum",
+  "name": "Chance to not consume Potion on use and Ward gained on potion use",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

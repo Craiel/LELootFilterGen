@@ -1,0 +1,11 @@
+{
+  "id": "fire_penetration_and",
+  "name": "Fire Penetration and Minion Fire Penetration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

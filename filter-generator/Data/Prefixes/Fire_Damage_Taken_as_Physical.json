@@ -1,0 +1,13 @@
+{
+  "id": "fire_damage_taken_as",
+  "name": "Fire Damage Taken as Physical",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Damage Taken as Physical": [
+      "8% to 19%"
+    ]
+  },
+  "isIdolAffix": false
+}

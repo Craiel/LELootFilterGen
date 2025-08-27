@@ -1,0 +1,13 @@
+{
+  "id": "critical_strike_chan",
+  "name": "Critical Strike Chance for Totems",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Chance for Totems": [
+      "2% to 4%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "the_invokers_static_",
+  "name": "The Invoker's Static Touch Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Lightning Spell Damage": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "9 to 11",
+      "12 to 15",
+      "20 to 25"
+    ],
+    "Chance to apply Shock on Spell Hit": [
+      "10% to 13%",
+      "14% to 17%",
+      "18% to 22%",
+      "23% to 28%",
+      "29% to 35%",
+      "40% to 49%",
+      "50% to 75%",
+      "120% to 150%"
+    ]
+  },
+  "isIdolAffix": false
+}

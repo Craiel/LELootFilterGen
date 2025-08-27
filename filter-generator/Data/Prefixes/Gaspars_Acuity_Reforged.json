@@ -1,0 +1,37 @@
+{
+  "id": "gaspars_acuity_refor",
+  "name": "Gaspar's Acuity Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Lightning Cast Speed": [
+      "3%",
+      "4%",
+      "5%",
+      "6%",
+      "7%",
+      "8% to 11%",
+      "12% to 16%",
+      "24% to 28%"
+    ],
+    "Chance to cast Decimate when you directly use a Lightning Spell (4 second cooldown)": [
+      "50% to 59%",
+      "60% to 69%",
+      "70% to 79%",
+      "80% to 89%",
+      "90% to 100%",
+      "100%",
+      "100%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chance_to_shock_on_h",
+  "name": "Chance to Shock on Hit and Increased Shock Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to apply Shock on Hit": [
+      "20% to 30%"
+    ],
+    "Increased Shock Duration": [
+      "10% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

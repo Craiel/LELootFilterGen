@@ -1,0 +1,37 @@
+{
+  "id": "black_arrows_dropped",
+  "name": "Black Arrows dropped by Dark Quiver and Increased Bow Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Black Arrows Dropped by Dark Quiver": [
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "Bow Damage": [
+      "8% to 11%",
+      "12% to 17%",
+      "18% to 23%",
+      "24% to 30%",
+      "31% to 40%",
+      "50% to 65%",
+      "66% to 90%",
+      "144% to 180%"
+    ]
+  },
+  "isIdolAffix": false
+}

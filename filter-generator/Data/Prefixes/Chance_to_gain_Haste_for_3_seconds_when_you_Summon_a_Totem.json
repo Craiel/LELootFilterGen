@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_gain_haste",
+  "name": "Chance to gain Haste for 3 seconds when you Summon a Totem",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to gain Haste for 3 seconds when you Summon a Totem": [
+      "11% to 34%"
+    ]
+  },
+  "isIdolAffix": true
+}

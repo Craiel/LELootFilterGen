@@ -1,0 +1,13 @@
+{
+  "id": "healing_effectivenes",
+  "name": "Healing Effectiveness",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Healing Effectiveness": [
+      "28% to 44%"
+    ]
+  },
+  "isIdolAffix": false
+}

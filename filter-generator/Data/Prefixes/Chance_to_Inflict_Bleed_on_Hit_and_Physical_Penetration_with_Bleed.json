@@ -1,0 +1,16 @@
+{
+  "id": "chance_to_inflict_bl",
+  "name": "Chance to Inflict Bleed on Hit and Physical Penetration with Bleed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to inflict Bleed on Hit": [
+      "15% to 20%"
+    ],
+    "Physical Penetration with Bleed": [
+      "1% to 2%"
+    ]
+  },
+  "isIdolAffix": false
+}

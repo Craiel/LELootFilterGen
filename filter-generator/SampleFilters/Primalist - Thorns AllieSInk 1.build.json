@@ -1,0 +1,9 @@
+{
+  "name": "Thorns AllieSInk",
+  "class": "Primalist", 
+  "mastery": "Druid",
+  "primarySkill": "Spriggan Form",
+  "secondarySkills": ["Werebear Form", "Summon Spriggan", "Eterra's Blessing"],
+  "defense": "block",
+  "scalingType": "damage_reflection"
+}

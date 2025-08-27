@@ -1,0 +1,13 @@
+{
+  "id": "minion_fire_damage",
+  "name": "Minion Fire Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Minion Fire Damage": [
+      "26% to 72%"
+    ]
+  },
+  "isIdolAffix": true
+}

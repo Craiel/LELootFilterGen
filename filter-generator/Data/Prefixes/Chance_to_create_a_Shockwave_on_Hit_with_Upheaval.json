@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_create_a_s",
+  "name": "Chance to create a Shockwave on Hit with Upheaval",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to create a Shockwave on hit with Upheaval": [
+      "14% to 19%",
+      "20% to 25%",
+      "26% to 32%",
+      "33% to 39%",
+      "40% to 60%",
+      "76% to 87%",
+      "88% to 100%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

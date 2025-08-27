@@ -1,0 +1,13 @@
+{
+  "id": "increased_area_with_",
+  "name": "Increased Area with Cinder Strike's First Attack",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased area with the first attack of Cinder Strike": [
+      "7% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

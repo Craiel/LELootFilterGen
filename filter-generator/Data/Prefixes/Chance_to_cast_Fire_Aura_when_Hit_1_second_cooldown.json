@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_cast_fire_",
+  "name": "Chance to cast Fire Aura when Hit (1 second cooldown)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to cast Fire Aura when Hit (1 second cooldown)": [
+      "6%",
+      "7%",
+      "8%",
+      "9% to 10%",
+      "11% to 13%",
+      "16% to 20%",
+      "21% to 26%",
+      "42% to 50%"
+    ]
+  },
+  "isIdolAffix": false
+}

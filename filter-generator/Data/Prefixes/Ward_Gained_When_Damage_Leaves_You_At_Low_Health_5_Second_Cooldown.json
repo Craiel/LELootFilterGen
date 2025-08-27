@@ -1,0 +1,13 @@
+{
+  "id": "ward_gained_when_dam",
+  "name": "Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward gained when damage leaves you at low health": [
+      "33 to 95"
+    ]
+  },
+  "isIdolAffix": false
+}

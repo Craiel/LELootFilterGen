@@ -1,0 +1,16 @@
+{
+  "id": "increased_critical_s",
+  "name": "Increased Critical Strike Chance and Critical Strike Multiplier",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Chance": [
+      "22% to 30%"
+    ],
+    "Critical Strike Multiplier": [
+      "3% to 6%"
+    ]
+  },
+  "isIdolAffix": false
+}

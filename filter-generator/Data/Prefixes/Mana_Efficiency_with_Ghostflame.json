@@ -1,0 +1,13 @@
+{
+  "id": "mana_efficiency_with",
+  "name": "Mana Efficiency with Ghostflame",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Mana Efficiency with Ghostflame": [
+      "6% to 14%"
+    ]
+  },
+  "isIdolAffix": false
+}

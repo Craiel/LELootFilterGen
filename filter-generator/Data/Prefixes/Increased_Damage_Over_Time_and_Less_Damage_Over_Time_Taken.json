@@ -1,0 +1,16 @@
+{
+  "id": "increased_damage_ove",
+  "name": "Increased Damage Over Time and Less Damage Over Time Taken",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Over Time": [
+      "11% to 15%"
+    ],
+    "Damage Over Time Taken": [
+      "-1%"
+    ]
+  },
+  "isIdolAffix": false
+}

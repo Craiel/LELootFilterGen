@@ -1,0 +1,37 @@
+{
+  "id": "experimental_ward_on",
+  "name": "Experimental Ward on Potion Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward Decay Threshold": [
+      "40 to 50",
+      "51 to 67",
+      "68 to 90",
+      "91 to 120",
+      "121 to 160",
+      "200 to 245",
+      "246 to 310",
+      "496 to 620"
+    ],
+    "Ward Gained on Potion Use per 10 Intelligence": [
+      "8 to 9",
+      "11 to 13",
+      "14 to 16",
+      "17 to 19",
+      "20 to 25",
+      "28 to 34",
+      "35 to 45",
+      "55 to 68"
+    ]
+  },
+  "isIdolAffix": false
+}

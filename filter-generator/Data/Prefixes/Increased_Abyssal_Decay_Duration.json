@@ -1,0 +1,27 @@
+{
+  "id": "increased_abyssal_de",
+  "name": "Increased Abyssal Decay Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Abyssal Decay Duration": [
+      "12% to 17%",
+      "18% to 23%",
+      "24% to 29%",
+      "30% to 34%",
+      "35% to 45%",
+      "55% to 65%",
+      "66% to 85%",
+      "136% to 170%"
+    ]
+  },
+  "isIdolAffix": false
+}

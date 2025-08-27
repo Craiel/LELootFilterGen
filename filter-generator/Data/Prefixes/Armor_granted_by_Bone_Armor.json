@@ -1,0 +1,13 @@
+{
+  "id": "armor_granted_by_bon",
+  "name": "Armor granted by Bone Armor",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Armor granted by Bone Armor": [
+      "40 to 134"
+    ]
+  },
+  "isIdolAffix": false
+}

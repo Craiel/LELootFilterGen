@@ -1,0 +1,37 @@
+{
+  "id": "volcano_champions",
+  "name": "Volcano Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Elemental Critical Strike Chance": [
+      "14% to 18%",
+      "19% to 23%",
+      "24% to 28%",
+      "29% to 33%",
+      "34% to 40%",
+      "50% to 59%",
+      "60% to 70%",
+      "112% to 140%"
+    ],
+    "Chance to cast Fire Aura on Crit (1 second cooldown)": [
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "14% to 17%",
+      "18% to 22%",
+      "35% to 44%"
+    ]
+  },
+  "isIdolAffix": false
+}

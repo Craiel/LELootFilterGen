@@ -1,0 +1,11 @@
+{
+  "id": "ward_gained_on_use_w",
+  "name": "Ward Gained on use with Shift",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "shared_critical_stri",
+  "name": "Shared Critical Strike Multiplier",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Multiplier": [
+      "10% to 25%"
+    ],
+    "Minion Critical Strike Multiplier": [
+      "10% to 25%"
+    ]
+  },
+  "isIdolAffix": false
+}

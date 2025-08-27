@@ -1,0 +1,13 @@
+{
+  "id": "health_regeneration",
+  "name": "Health Regeneration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health Regen": [
+      "25% to 68%"
+    ]
+  },
+  "isIdolAffix": false
+}

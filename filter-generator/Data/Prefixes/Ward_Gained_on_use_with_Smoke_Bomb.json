@@ -1,0 +1,27 @@
+{
+  "id": "ward_gained_on_use_w",
+  "name": "Ward gained on use with Smoke Bomb",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward gained when you use Smoke Bomb": [
+      "25 to 29",
+      "30 to 35",
+      "36 to 45",
+      "46 to 55",
+      "56 to 70",
+      "90 to 110",
+      "111 to 145",
+      "232 to 290"
+    ]
+  },
+  "isIdolAffix": false
+}

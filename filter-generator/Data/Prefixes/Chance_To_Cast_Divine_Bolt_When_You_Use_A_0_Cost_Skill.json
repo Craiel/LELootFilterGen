@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_divin",
+  "name": "Chance To Cast Divine Bolt When You Use A 0 Cost Skill",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Divine Bolt when you use a 0 mana cost skill": [
+      "4% to 13%"
+    ]
+  },
+  "isIdolAffix": false
+}

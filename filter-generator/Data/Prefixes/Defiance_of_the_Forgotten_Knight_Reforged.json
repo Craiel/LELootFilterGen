@@ -1,0 +1,37 @@
+{
+  "id": "defiance_of_the_forg",
+  "name": "Defiance of the Forgotten Knight Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Void Damage": [
+      "30% to 33%",
+      "34% to 38%",
+      "39% to 44%",
+      "45% to 51%",
+      "52% to 60%",
+      "80% to 99%",
+      "100% to 120%",
+      "192% to 240%"
+    ],
+    "Void Damage Taken on Block": [
+      "-5% to -6%",
+      "-7% to -9%",
+      "-10% to -13%",
+      "-14% to -18%",
+      "-19% to -25%",
+      "-30% to -39%",
+      "-40% to -50%",
+      "-60% to -75%"
+    ]
+  },
+  "isIdolAffix": false
+}

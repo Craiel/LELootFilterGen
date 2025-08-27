@@ -1,0 +1,27 @@
+{
+  "id": "increased_area_for_a",
+  "name": "Increased Area for Area Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Area for Area Skills": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 12%",
+      "13% to 15%",
+      "16% to 20%",
+      "25% to 29%",
+      "30% to 34%",
+      "54% to 60%"
+    ]
+  },
+  "isIdolAffix": false
+}

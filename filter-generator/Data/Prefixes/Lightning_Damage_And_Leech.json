@@ -1,0 +1,37 @@
+{
+  "id": "lightning_damage_and",
+  "name": "Lightning Damage And Leech",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Lightning Spell Damage": [
+      "3 to 4",
+      "5 to 6",
+      "7 to 8",
+      "9 to 11",
+      "12 to 15",
+      "19 to 24",
+      "25 to 30",
+      "41 to 45"
+    ],
+    "Lightning Damage Leeched as Health": [
+      "0.3% to 0.4%",
+      "0.5% to 0.6%",
+      "0.7% to 0.8%",
+      "0.9% to 1.1%",
+      "1.2% to 1.5%",
+      "1.8% to 2.3%",
+      "2.4% to 3%",
+      "4.8% to 6%"
+    ]
+  },
+  "isIdolAffix": false
+}

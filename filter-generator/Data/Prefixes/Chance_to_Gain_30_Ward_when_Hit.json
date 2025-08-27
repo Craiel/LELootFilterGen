@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_gain_30_wa",
+  "name": "Chance to Gain 30 Ward when Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Gain 30 Ward when Hit": [
+      "15% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "increased_time_rot_d",
+  "name": "Increased Time Rot Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Time Rot Duration": [
+      "15% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

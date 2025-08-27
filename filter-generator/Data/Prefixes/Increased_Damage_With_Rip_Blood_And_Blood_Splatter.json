@@ -1,0 +1,37 @@
+{
+  "id": "increased_damage_wit",
+  "name": "Increased Damage With Rip Blood And Blood Splatter",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased damage with Rip Blood": [
+      "30% to 34%",
+      "35% to 42%",
+      "43% to 50%",
+      "51% to 59%",
+      "60% to 75%",
+      "90% to 110%",
+      "111% to 140%",
+      "224% to 280%"
+    ],
+    "Increased damage with Blood Splatter": [
+      "30% to 34%",
+      "35% to 42%",
+      "43% to 50%",
+      "51% to 59%",
+      "60% to 75%",
+      "90% to 110%",
+      "111% to 140%",
+      "224% to 280%"
+    ]
+  },
+  "isIdolAffix": false
+}

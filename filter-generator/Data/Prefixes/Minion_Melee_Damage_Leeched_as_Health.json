@@ -1,0 +1,27 @@
+{
+  "id": "minion_melee_damage_",
+  "name": "Minion Melee Damage Leeched As Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Damage Leeched as Health on Melee Hit": [
+      "4% to 4.9%",
+      "5% to 5.9%",
+      "6% to 6.9%",
+      "7% to 7.9%",
+      "8% to 11%",
+      "13.5% to 16%",
+      "16.1% to 21%",
+      "33.6% to 42%"
+    ]
+  },
+  "isIdolAffix": true
+}

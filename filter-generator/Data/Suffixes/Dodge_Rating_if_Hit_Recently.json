@@ -1,0 +1,11 @@
+{
+  "id": "dodge_rating_if_hit_",
+  "name": "Dodge Rating if Hit Recently",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

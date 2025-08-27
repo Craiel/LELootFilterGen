@@ -1,0 +1,37 @@
+{
+  "id": "whirlpool_champions",
+  "name": "Whirlpool Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward Decay Threshold": [
+      "35 to 43",
+      "44 to 65",
+      "66 to 90",
+      "91 to 135",
+      "136 to 200",
+      "240 to 300",
+      "301 to 400",
+      "640 to 800"
+    ],
+    "Ward per second per Active Maelstrom": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6 to 8"
+    ]
+  },
+  "isIdolAffix": false
+}

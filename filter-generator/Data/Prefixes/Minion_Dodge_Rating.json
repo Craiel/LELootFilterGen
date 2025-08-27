@@ -1,0 +1,27 @@
+{
+  "id": "minion_dodge_rating",
+  "name": "Minion Dodge Rating",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Dodge Rating": [
+      "35 to 65",
+      "66 to 100",
+      "101 to 160",
+      "161 to 250",
+      "251 to 400",
+      "500 to 650",
+      "651 to 1000",
+      "1600 to 2000"
+    ]
+  },
+  "isIdolAffix": true
+}

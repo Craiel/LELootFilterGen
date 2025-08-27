@@ -1,0 +1,1489 @@
+{
+  "type": "ailments",
+  "parsedAt": "2025-08-27T13:32:39.574Z",
+  "totalCount": 127,
+  "ailments": [
+    {
+      "name": "Ambusher",
+      "type": "ailment",
+      "description": "Increases attack, cast and move speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "30% less Damage Taken",
+        "30% increased Movement Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Ancient Flight",
+      "type": "ailment",
+      "description": "Increases movement speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+2 Arrows with Flurry while using a BowAdditional arrows cannot hit the same target as the first",
+        "+2 Arrows with Multishot",
+        "100% increased Critical Strike Chance",
+        "+100% Critical Strike Avoidance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Apocalypse",
+      "type": "ailment",
+      "description": "Increased void damage and melee critical strike multiplier",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "70% increased Void Damage",
+        "+70% Melee Critical Strike Multiplier"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Arcane Ascendance",
+      "type": "ailment",
+      "description": "Accelerating mana drain. Additional spell mana cost. Increased spell damage and increased cast speed. Deals lightning damage to nearby enemies.",
+      "category": "positive",
+      "maxStacks": "1"
+    },
+    {
+      "name": "Aspect of the Crow",
+      "type": "ailment",
+      "description": "Grants +3 melee lightning damage and +3 spell lightning damage.",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+3 Lightning Melee Damage",
+        "+3 Lightning Spell Damage"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Aspect of the Spider",
+      "type": "ailment",
+      "description": "Slow on hit and deal more damage to slowed enemies (multiplicative with other modifiers)",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+100% Chance to apply Slow on Hit",
+        "15% more Damage to Slowed Enemies"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Chosen of the Chosen",
+      "type": "ailment",
+      "description": "",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+15 Necrotic Damage",
+        "70% increased Movement Speed",
+        "50% increased Attack Speed",
+        "30% less Damage Taken"
+      ]
+    },
+    {
+      "name": "Contempt",
+      "type": "ailment",
+      "description": "10% more armor and +10% to all resistances",
+      "category": "positive",
+      "maxStacks": "5",
+      "effects": [
+        "+10% to All Resistances",
+        "10% more Armor"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Corrupted Heraldry",
+      "type": "ailment",
+      "description": "5% increased movement speed and mana regen\n\n+5 Spell Void Damage",
+      "category": "positive",
+      "maxStacks": "12",
+      "effects": [
+        "5% increased Movement Speed",
+        "5% increased Mana Regen",
+        "+5 Void Spell Damage"
+      ]
+    },
+    {
+      "name": "Crimson Shroud",
+      "type": "ailment",
+      "description": "Additional bleed chance and less damage taken over time",
+      "category": "positive",
+      "maxStacks": "3",
+      "effects": [
+        "+50% Chance to apply Bleed on Hit",
+        "5% less Damage Over Time Taken"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Critical Effluence",
+      "type": "ailment",
+      "description": "Increases Critical Strike Chance with Spells",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "100% increased Spell Critical Strike Chance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Critical Shrine",
+      "type": "ailment",
+      "description": "Your hits always crit",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+100% Critical Strike Chance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Damage Boost",
+      "type": "ailment",
+      "description": "10% increased damage per stack",
+      "category": "positive",
+      "maxStacks": "10",
+      "effects": [
+        "10% increased Damage"
+      ]
+    },
+    {
+      "name": "Damage Immunity",
+      "type": "ailment",
+      "description": "Prevents All Damage",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "100% less Damage Taken"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Darkness",
+      "type": "ailment",
+      "description": "Massively Increases damage and reduces damage taken while in Darkness",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "100% more Damage",
+        "90% less Damage Taken"
+      ]
+    },
+    {
+      "name": "Deadly",
+      "type": "ailment",
+      "description": "",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "100% more Damage"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Divine Essence",
+      "type": "ailment",
+      "description": "Increases Healing and Armor, and reduces damage over time taken",
+      "category": "positive",
+      "maxStacks": "3",
+      "effects": [
+        "15% increased Armor",
+        "15% Increased Healing Effectiveness",
+        "5% reduced Damage Over Time Taken"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Dusk Shroud",
+      "type": "ailment",
+      "description": "Adds Glancing Blow chance and Dodge Rating",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "5% Chance to receive a Glancing Blow when hit",
+        "+50 Dodge Rating"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Enrage",
+      "type": "ailment",
+      "description": "Increases attack, cast and move speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "60% increased Attack Speed",
+        "60% increased Cast Speed",
+        "35% increased Movement Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Ferocity",
+      "type": "ailment",
+      "description": "Increases physical damage",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "50% increased Physical Damage"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Frenzy",
+      "type": "ailment",
+      "description": "Increases attack and cast speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "20% increased Attack Speed",
+        "20% increased Cast Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Haste",
+      "type": "ailment",
+      "description": "Increases movement speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "30% increased Movement Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Healing Hands Lingering Warmth",
+      "type": "ailment",
+      "description": "Heals over time",
+      "category": "positive",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Inspiration",
+      "type": "ailment",
+      "description": "Increases cooldown recovery speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "20% Increased Cooldown Recovery Speed"
+      ]
+    },
+    {
+      "name": "Mirage Form",
+      "type": "ailment",
+      "description": "Increased bleed chance and dodge rating",
+      "category": "positive",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Molten Infusion",
+      "type": "ailment",
+      "description": "Added melee fire damage and ignite chance",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+15 Fire Melee Damage",
+        "+30% Chance to apply Ignite on Hit"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Reflective Shrine",
+      "type": "ailment",
+      "description": "Reflects 300% of Damage Taken",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "300% of Damage Reflected"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Revolution",
+      "type": "ailment",
+      "description": "Grants 13% increased cast speed and added spell damage based on 20% of the caster's maximum mana",
+      "category": "positive",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Runeword Avalanche",
+      "type": "ailment",
+      "description": "+10 Spell Cold Damage\n+2 Endurance Threshold per Ignite on the Attacker",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+10 Cold Spell Damage",
+        "+2 Endurance Threshold per stack of Ignite on the Attacker"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Runeword Cataclysm",
+      "type": "ailment",
+      "description": "Deal more damage to low health enemies (multiplicative with other modifiers)",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "15% more Damage to Low Health Enemies"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Runeword Hurricane",
+      "type": "ailment",
+      "description": "+10 Spell Lightning Damage\n+90% Freeze Rate Multiplier",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+10 Lightning Spell Damage",
+        "+90% Freeze Rate Multiplier"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Runeword Inferno",
+      "type": "ailment",
+      "description": "+10 Spell Fire Damage\n+3% More Armor Per Shock On Enemy",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+10 Lightning Spell Damage",
+        "3% more Armor per stack of Shock on the Attackermultiplicative with other modifiers"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Sciurine Rage",
+      "type": "ailment",
+      "description": "40% increased movement and melee attack speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "40% increased Movement Speed",
+        "40% increased Melee Attack Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Shapeshifter",
+      "type": "ailment",
+      "description": "Increases armor and damage",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "50% increased Damage",
+        "50% increased Armor"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Sharpshooter",
+      "type": "ailment",
+      "description": "Increases bow damage",
+      "category": "positive",
+      "maxStacks": "10",
+      "effects": [
+        "25% increased Bow Damage"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Shrine Experience Buff",
+      "type": "ailment",
+      "description": "Increases experience gained on kill",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "50% Increased Experience"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Shrine Haste",
+      "type": "ailment",
+      "description": "Increases movement speed, attack speed, and cast speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "30% increased Movement Speed",
+        "30% increased Attack Speed",
+        "30% increased Cast Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Silver Shroud",
+      "type": "ailment",
+      "description": "Dodge your next hit and gain ward per stack",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Smoke Blades",
+      "type": "ailment",
+      "description": "Increases melee and throwing damage",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+4 Melee Damage",
+        "+4 Throwing Damage"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Spirit Kindling",
+      "type": "ailment",
+      "description": "Drains 1% of current health every second, but grants 12% increased movement speed, 5% increased melee attack speed, and ignite chance equal to 30% of caster's ignite chance",
+      "category": "positive",
+      "maxStacks": "100",
+      "effects": [
+        "20% increased Movement Speed",
+        "10% increased Melee Attack Speed",
+        "2% of Current Health Drained per Second"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Stalwart",
+      "type": "ailment",
+      "description": "Increases armor",
+      "category": "positive",
+      "maxStacks": "10",
+      "effects": [
+        "10% increased Armor"
+      ]
+    },
+    {
+      "name": "Storm Infusion",
+      "type": "ailment",
+      "description": "Added Lightning Damage from Storm Totem",
+      "category": "positive",
+      "maxStacks": "3",
+      "effects": [
+        "+21 Lightning Spell Damage",
+        "+21 Lightning Melee Damage",
+        "+21 Lightning Bow Damage",
+        "+21 Lightning Throwing Damage"
+      ]
+    },
+    {
+      "name": "Stunning Shrine",
+      "type": "ailment",
+      "description": "200% increased stun chance and stun duration",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "200% Increased Stun Chance",
+        "200% Increased Stun Duration"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Swiftness",
+      "type": "ailment",
+      "description": "",
+      "category": "positive",
+      "maxStacks": "10",
+      "effects": [
+        "1% increased Movement Speed"
+      ],
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Talon Blades",
+      "type": "ailment",
+      "description": "Increases crit chance and crit multiplier",
+      "category": "positive",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "6% increased Critical Strike Chance",
+        "+3% Critical Strike Multiplier"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Tempest Paws",
+      "type": "ailment",
+      "description": "adds melee lightning damage",
+      "category": "positive",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Tempest's Might",
+      "type": "ailment",
+      "description": "",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "+3 Cold Melee Damage",
+        "+3 Lightning Melee Damage"
+      ],
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Totem Armor",
+      "type": "ailment",
+      "description": "80% increased armor and 15% more damage",
+      "category": "positive",
+      "maxStacks": "4",
+      "effects": [
+        "80% increased Armor",
+        "15% more Damage"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Void Barrier",
+      "type": "ailment",
+      "description": "5% less damage taken per stack",
+      "category": "positive",
+      "maxStacks": "6",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Void Essence",
+      "type": "ailment",
+      "description": "Grants more void damage and more melee damage, and reduces received stun duration",
+      "category": "positive",
+      "maxStacks": "3",
+      "effects": [
+        "3% more Void Damage",
+        "3% more Melee Damage",
+        "15% reduced Duration of Stuns Received"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Water Shrine",
+      "type": "ailment",
+      "description": "100% increased mana regen and cooldown recovery speed",
+      "category": "positive",
+      "maxStacks": "1",
+      "effects": [
+        "100% increased Mana Regen",
+        "100% Increased Cooldown Recovery Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Aberroth's Time Rot",
+      "type": "ailment",
+      "description": "Deals void damage and shreds void resistance",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+15% Negative Void Resistance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Abyssal Decay",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Abyssal Decay",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Acid Skin",
+      "type": "ailment",
+      "description": "A Curse that deals poison damage over time and increases the chance to be crit by 20%.",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "+20% Chance to Receive a Critical Strike"
+      ],
+      "tags": [
+        "Damage Over Time",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Anguish",
+      "type": "ailment",
+      "description": "A Curse that causes the target to deal less damage over time and deals necrotic damage to all enemies afflicted with it whenever you kill an enemy.",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "15% less Damage Over Time"
+      ],
+      "tags": [
+        "Spell",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Arcane Mark",
+      "type": "ailment",
+      "description": "Grants a chance to poison on hit and increases damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Avalanche Fissure Proc Ailment",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Bleed",
+      "type": "ailment",
+      "description": "Deals physical damage over time",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Blind",
+      "type": "ailment",
+      "description": "Blinded enemies cannot critically strike",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "100% less Critical Strike Chance"
+      ]
+    },
+    {
+      "name": "Bone Curse",
+      "type": "ailment",
+      "description": "A Curse that causes affected targets to take spell physical damage when hit",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Bone Curse",
+      "type": "ailment",
+      "description": "You take physical damage when hit.",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Brand of Deception",
+      "type": "ailment",
+      "description": "Deals significant lightning damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Brand of Subjugation",
+      "type": "ailment",
+      "description": "Deals significant cold damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Brand of Trespass",
+      "type": "ailment",
+      "description": "Deals significant fire damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Chained",
+      "type": "ailment",
+      "description": "Immobilizes and deals necrotic damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Chill",
+      "type": "ailment",
+      "description": "Reduces movement speed, attack speed, and cast speed.",
+      "category": "negative",
+      "maxStacks": "3",
+      "effects": [
+        "12% less Attack Speed",
+        "12% less Cast Speed",
+        "12% less Movement Speed"
+      ]
+    },
+    {
+      "name": "Chill of Aberroth",
+      "type": "ailment",
+      "description": "Reduces movement speed, attack speed, and cast speed.",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "12% less Attack Speed",
+        "12% less Cast Speed",
+        "12% less Movement Speed"
+      ]
+    },
+    {
+      "name": "Critical Vulnerability",
+      "type": "ailment",
+      "description": "Increased chance to be critically hit",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+2% Chance to Receive a Critical Strike",
+        "-10% Critical Strike Avoidance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Curse of Aberroth",
+      "type": "ailment",
+      "description": "Reduces All Resistances by 10%. Cannot be cleansed.",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+10% Negative Necrotic Resistance",
+        "+10% Negative Fire Resistance",
+        "+10% Negative Cold Resistance",
+        "+10% Negative Void Resistance",
+        "+10% Negative Poison Resistance",
+        "+10% Negative Physical Resistance",
+        "+10% Negative Lightning Resistance"
+      ]
+    },
+    {
+      "name": "Damned",
+      "type": "ailment",
+      "description": "Deals necrotic damage over time and reduces health regen",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "20% reduced Health Regen"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Decrepify",
+      "type": "ailment",
+      "description": "A Curse that deals spell physical damage over time, and causes the target to take more damage over time (multiplicative with other modifiers). Deals more damage based on the caster's missing health.",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "15% more Damage Over Time Taken"
+      ],
+      "tags": [
+        "Spell",
+        "Damage Over Time",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Disintegrate Explosion Proc Ailment",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Doom",
+      "type": "ailment",
+      "description": "Deals void damage over time and increases melee damage taken",
+      "category": "negative",
+      "maxStacks": "4",
+      "effects": [
+        "4% increased Melee Damage Taken"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Doom Brand",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "1"
+    },
+    {
+      "name": "Efficacious Toxin",
+      "type": "ailment",
+      "description": "You take 12% increased damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "12% increased Damage Over Time Taken"
+      ]
+    },
+    {
+      "name": "Electrify",
+      "type": "ailment",
+      "description": "Deals lightning damage over time",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Exposed Flesh",
+      "type": "ailment",
+      "description": "A Curse that reduces armor and cold resistance, and increases chance to be frozen",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "-15% Cold Resistance",
+        "+30% Increased Chance To Be Frozen"
+      ],
+      "tags": [
+        "Damage Over Time",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Falconer's Mark",
+      "type": "ailment",
+      "description": "Takes more damage from your next hit.",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Fear",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Fireball Explosion Proc Ailment",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Frailty",
+      "type": "ailment",
+      "description": "You deal 6% less damage (multiplicative with other modifiers)",
+      "category": "negative",
+      "maxStacks": "3",
+      "effects": [
+        "6% less Damage"
+      ]
+    },
+    {
+      "name": "Frailty of Aberroth",
+      "type": "ailment",
+      "description": "You deal 5% less damage (multiplicative with other modifiers). Your health leech, ward retention, and health regen are reduced by 10%, and your healing effectiveness is reduced by 50%.",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "5% less Damage",
+        "10% less Damage Leeched as Health",
+        "10% less Ward Retention",
+        "10% less Health Regen",
+        "-50% Increased Healing Effectiveness"
+      ]
+    },
+    {
+      "name": "Frostbite",
+      "type": "ailment",
+      "description": "Deals cold damage over time. The first 15 stacks each increase chance to be frozen by 20%.",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+20% Increased Chance To Be Frozen"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Future Strike",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Holy Aura Flame Burst Proc Ailment",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Ignite",
+      "type": "ailment",
+      "description": "Deals fire damage over time",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Immobilize",
+      "type": "ailment",
+      "description": "Locks you in place.",
+      "category": "negative",
+      "maxStacks": "1"
+    },
+    {
+      "name": "Laceration",
+      "type": "ailment",
+      "description": "Deals melee damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Melee",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Marked For Death",
+      "type": "ailment",
+      "description": "Your resistances are 25% lower",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "-25% to All Resistances"
+      ],
+      "tags": [
+        "Curse"
+      ]
+    },
+    {
+      "name": "Melee Defense Shred",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "10% more Melee Damage Taken"
+      ]
+    },
+    {
+      "name": "Mimic Feast",
+      "type": "ailment",
+      "description": "Deals void damage over time and prevents Void Barrier Generation and Health Leech",
+      "category": "negative",
+      "maxStacks": "12",
+      "effects": [
+        "100% less Damage Leeched as Health"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Netted",
+      "type": "ailment",
+      "description": "Immobilized or snared by a net",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "35% less Movement Speed"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Penance",
+      "type": "ailment",
+      "description": "A Curse that causes affected targets to take Fire damage when they hit a target. Cannot trigger on the affected target more than once every 0.35 seconds.",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Pestilence",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "2",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Plague",
+      "type": "ailment",
+      "description": "Deals poison damage over time and spreads between enemies",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Poison",
+      "type": "ailment",
+      "description": "Deals poison damage over time and reduces poison resistance",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+5% Negative Poison Resistance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Poison Explosion Proc Ailment",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Possess",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Ravage",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Root",
+      "type": "ailment",
+      "description": "93% less movement speed",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "93% less Movement Speed"
+      ]
+    },
+    {
+      "name": "Serpent Venom",
+      "type": "ailment",
+      "description": "Deals poison damage over time and prevents critical strikes",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "100% less Critical Strike Chance"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Shadow Daggers",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Shock",
+      "type": "ailment",
+      "description": "Reduces lightning resistance\n\nIncreases chance to be stunned",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+20% Increased Chance To Be Stunned",
+        "+5% Negative Lightning Resistance"
+      ]
+    },
+    {
+      "name": "Shock of Aberroth",
+      "type": "ailment",
+      "description": "You take 5% increased damage.",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "5% increased Damage Taken"
+      ]
+    },
+    {
+      "name": "Shred Armor",
+      "type": "ailment",
+      "description": "Reduces armor, increasing damage taken from hits.",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "+100 Negative Armor"
+      ]
+    },
+    {
+      "name": "Shred Cold Resistance",
+      "type": "ailment",
+      "description": "Reduces Cold Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Cold Resistance"
+      ]
+    },
+    {
+      "name": "Shred Fire Resistance",
+      "type": "ailment",
+      "description": "Reduces Fire Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Fire Resistance"
+      ]
+    },
+    {
+      "name": "Shred Lightning Resistance",
+      "type": "ailment",
+      "description": "Reduces Lightning Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Lightning Resistance"
+      ]
+    },
+    {
+      "name": "Shred Necrotic Resistance",
+      "type": "ailment",
+      "description": "Reduces Necrotic Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Necrotic Resistance"
+      ]
+    },
+    {
+      "name": "Shred Physical Resistance",
+      "type": "ailment",
+      "description": "Reduces Physical Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Physical Resistance"
+      ]
+    },
+    {
+      "name": "Shred Poison Resistance",
+      "type": "ailment",
+      "description": "Reduces Poison Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Poison Resistance"
+      ]
+    },
+    {
+      "name": "Shred Void Resistance",
+      "type": "ailment",
+      "description": "Reduces Void Resistance",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "+5% Negative Void Resistance"
+      ]
+    },
+    {
+      "name": "Silk",
+      "type": "ailment",
+      "description": "You are slowed. At five stacks, lose all stacks of Silk and become rooted.",
+      "category": "negative",
+      "maxStacks": "5",
+      "effects": [
+        "5% reduced Attack Speed",
+        "5% reduced Movement Speed",
+        "5% reduced Cast Speed"
+      ]
+    },
+    {
+      "name": "Slow",
+      "type": "ailment",
+      "description": "Reduces movement speed",
+      "category": "negative",
+      "maxStacks": "3",
+      "effects": [
+        "20% less Movement Speed"
+      ]
+    },
+    {
+      "name": "Snake Infection",
+      "type": "ailment",
+      "description": "Deals poison damage over time and lasts for 12 seconds",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Spark Charge",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "Unlimited"
+    },
+    {
+      "name": "Spiders",
+      "type": "ailment",
+      "description": "Increased chance to be critically hit",
+      "category": "negative",
+      "maxStacks": "4",
+      "effects": [
+        "+5% Chance to Receive a Critical Strike"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Spirit Plague",
+      "type": "ailment",
+      "description": "A Curse that deals spell necrotic damage over time and spreads to another enemy on death if it hasn't expired",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Spell",
+        "Damage Over Time",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Spreading Flames",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Stagger",
+      "type": "ailment",
+      "description": "",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "-100 Armor",
+        "10% increased Damage Taken"
+      ]
+    },
+    {
+      "name": "Stone Stare",
+      "type": "ailment",
+      "description": "You are being turned to stone by Majasa",
+      "category": "negative",
+      "maxStacks": "Unlimited",
+      "effects": [
+        "20% less Movement Speed"
+      ]
+    },
+    {
+      "name": "The Gate",
+      "type": "ailment",
+      "description": "Gained the Damned, Ignite, Bleed, and Frostbite chance of the Warlock that hit it",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Time Rot",
+      "type": "ailment",
+      "description": "Deals void damage over time and increases received stun duration",
+      "category": "negative",
+      "maxStacks": "12",
+      "effects": [
+        "5% increased Duration of Stuns Received"
+      ],
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Torment",
+      "type": "ailment",
+      "description": "A Curse that deals spell necrotic damage over time and reduces movement speed (multiplicative with other modifiers)",
+      "category": "negative",
+      "maxStacks": "1",
+      "effects": [
+        "18% less Movement Speed"
+      ],
+      "tags": [
+        "Spell",
+        "Damage Over Time",
+        "Curse"
+      ]
+    },
+    {
+      "name": "Witchfire",
+      "type": "ailment",
+      "description": "Deals fire and necrotic damage over time",
+      "category": "negative",
+      "maxStacks": "1",
+      "tags": [
+        "Damage Over Time"
+      ]
+    },
+    {
+      "name": "Withering",
+      "type": "ailment",
+      "description": "Causes affected targets to take increased damage from Curses",
+      "category": "negative",
+      "maxStacks": "10",
+      "effects": [
+        "10% increased Curse Damage Taken"
+      ]
+    }
+  ]
+}

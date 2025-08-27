@@ -1,0 +1,27 @@
+{
+  "id": "increased_spell_crit",
+  "name": "Increased Spell Crit (Doubled if you have over 300 Max Mana)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased spell critical strike chance. This effect is doubled if you have 300 or more maximum mana.": [
+      "30% to 33%",
+      "34% to 37%",
+      "38% to 42%",
+      "43% to 47%",
+      "48% to 58%",
+      "70% to 85%",
+      "86% to 105%",
+      "168% to 210%"
+    ]
+  },
+  "isIdolAffix": false
+}

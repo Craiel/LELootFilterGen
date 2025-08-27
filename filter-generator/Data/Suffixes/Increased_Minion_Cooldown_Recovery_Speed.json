@@ -1,0 +1,11 @@
+{
+  "id": "increased_minion_coo",
+  "name": "Increased Minion Cooldown Recovery Speed",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

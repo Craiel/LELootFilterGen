@@ -1,0 +1,37 @@
+{
+  "id": "max_ballista_and_inc",
+  "name": "Max Ballista and Increased Ballista Attack Speed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Maximum Ballistae": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "3"
+    ],
+    "Increased Ballista Attack Speed": [
+      "8% to 11%",
+      "12% to 15%",
+      "16% to 19%",
+      "21% to 24%",
+      "25% to 30%",
+      "35% to 40%",
+      "41% to 48%",
+      "75% to 84%"
+    ]
+  },
+  "isIdolAffix": false
+}

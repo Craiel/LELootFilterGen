@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_fire_",
+  "name": "Chance to Cast Fire Aura on Kill with Fire Skills (1 Second Cooldown)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Fire Aura on Kill with Fire Skills (1 second cooldown)": [
+      "5% to 13%"
+    ]
+  },
+  "isIdolAffix": false
+}

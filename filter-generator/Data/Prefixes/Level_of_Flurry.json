@@ -1,0 +1,37 @@
+{
+  "id": "level_of_flurry",
+  "name": "Level of Flurry",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Flurry": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Dodge Rating": [
+      "5 to 12",
+      "13 to 19",
+      "20 to 27",
+      "28 to 37",
+      "38 to 50",
+      "60 to 70",
+      "71 to 85",
+      "136 to 170"
+    ]
+  },
+  "isIdolAffix": false
+}

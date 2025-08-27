@@ -1,0 +1,27 @@
+{
+  "id": "physical_spell_criti",
+  "name": "Physical Spell Critical Strike Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Physical Spell Critical Strike Chance": [
+      "45% to 51%",
+      "52% to 58%",
+      "59% to 65%",
+      "66% to 72%",
+      "73% to 95%",
+      "115% to 140%",
+      "141% to 180%",
+      "288% to 360%"
+    ]
+  },
+  "isIdolAffix": false
+}

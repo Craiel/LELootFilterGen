@@ -1,0 +1,11 @@
+{
+  "id": "added_spell_damage_w",
+  "name": "Added spell damage with a shield and Added spell damage with a 2h axe",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

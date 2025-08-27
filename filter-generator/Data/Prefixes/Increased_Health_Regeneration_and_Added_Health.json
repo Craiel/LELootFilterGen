@@ -1,0 +1,16 @@
+{
+  "id": "increased_health_reg",
+  "name": "Increased Health Regeneration and Added Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health Regen": [
+      "5% to 8%"
+    ],
+    "Health": [
+      "14 to 18"
+    ]
+  },
+  "isIdolAffix": false
+}

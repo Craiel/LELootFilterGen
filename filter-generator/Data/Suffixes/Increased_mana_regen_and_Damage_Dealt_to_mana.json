@@ -1,0 +1,11 @@
+{
+  "id": "increased_mana_regen",
+  "name": "Increased mana regen and Damage Dealt to mana",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

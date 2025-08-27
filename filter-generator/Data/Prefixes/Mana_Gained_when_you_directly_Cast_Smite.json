@@ -1,0 +1,27 @@
+{
+  "id": "mana_gained_when_you",
+  "name": "Mana Gained when you directly Cast Smite",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana Gained When you directly cast Smite": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8 to 10",
+      "12 to 14",
+      "15 to 18",
+      "23 to 27"
+    ]
+  },
+  "isIdolAffix": false
+}

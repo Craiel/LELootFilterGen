@@ -1,0 +1,16 @@
+{
+  "id": "explosive_trap_maxim",
+  "name": "Explosive Trap Maximum and Throwing Speed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Max Traps with Explosive Trap": [
+      "1"
+    ],
+    "Throwing Attack Speed": [
+      "5% to 15%"
+    ]
+  },
+  "isIdolAffix": false
+}

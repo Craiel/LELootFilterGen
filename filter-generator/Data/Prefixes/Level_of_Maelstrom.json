@@ -1,0 +1,37 @@
+{
+  "id": "level_of_maelstrom",
+  "name": "Level of Maelstrom",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Maelstrom": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Spell Damage": [
+      "8% to 15%",
+      "16% to 30%",
+      "31% to 45%",
+      "46% to 60%",
+      "61% to 90%",
+      "106% to 120%",
+      "121% to 150%",
+      "240% to 300%"
+    ]
+  },
+  "isIdolAffix": false
+}

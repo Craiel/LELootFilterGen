@@ -1,0 +1,11 @@
+{
+  "id": "chance_to_apply_frai",
+  "name": "Chance to apply Frailty on Melee Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

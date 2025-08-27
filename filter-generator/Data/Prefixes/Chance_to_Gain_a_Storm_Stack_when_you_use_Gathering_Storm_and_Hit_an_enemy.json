@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_gain_a_sto",
+  "name": "Chance to Gain a Storm Stack when you use Gathering Storm and Hit an enemy",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to gain a Storm Stack when you use Gathering Storm and hit an enemy": [
+      "7% to 12%",
+      "13% to 18%",
+      "19% to 24%",
+      "25% to 30%",
+      "31% to 36%",
+      "37% to 49%",
+      "51% to 70%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

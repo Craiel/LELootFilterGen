@@ -1,0 +1,13 @@
+{
+  "id": "chance_for_summon_wr",
+  "name": "Chance for Summon Wraith to summon a Putrid Wraith instead",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance for Summon Wraith to summon a Putrid Wraith instead": [
+      "24% to 57%"
+    ]
+  },
+  "isIdolAffix": true
+}

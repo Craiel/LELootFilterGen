@@ -1,0 +1,11 @@
+{
+  "id": "freeze_rate_multipli",
+  "name": "Freeze Rate Multiplier",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

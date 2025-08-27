@@ -1,0 +1,37 @@
+{
+  "id": "zerricks_ambition_re",
+  "name": "Zerrick's Ambition Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Leech Rate": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "12% to 13%",
+      "14% to 15%",
+      "25% to 29%",
+      "30% to 35%",
+      "56% to 70%"
+    ],
+    "Movement Speed": [
+      "4%",
+      "5%",
+      "6%",
+      "7%",
+      "8%",
+      "12% to 13%",
+      "14% to 16%",
+      "23% to 26%"
+    ]
+  },
+  "isIdolAffix": false
+}

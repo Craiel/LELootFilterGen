@@ -13,7 +13,7 @@ const { JSDOM } = require('jsdom');
 class HTMLAilmentParser {
   constructor() {
     this.ailmentDataFile = path.join(__dirname, '..', 'WebData', 'Ailments.json');
-    this.outputDir = path.join(__dirname, '..', 'Data');
+    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
     this.globalTags = new Set(); // Track all unique tags
   }

@@ -1,0 +1,11 @@
+{
+  "id": "armor",
+  "name": "Armor",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

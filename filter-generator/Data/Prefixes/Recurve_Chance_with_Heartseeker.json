@@ -1,0 +1,27 @@
+{
+  "id": "recurve_chance_with_",
+  "name": "Recurve Chance with Heartseeker",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Recurve Chance with Heartseeker": [
+      "5% to 6%",
+      "7% to 8%",
+      "9% to 11%",
+      "12% to 15%",
+      "16% to 20%",
+      "28% to 33%",
+      "34% to 40%",
+      "64% to 80%"
+    ]
+  },
+  "isIdolAffix": false
+}

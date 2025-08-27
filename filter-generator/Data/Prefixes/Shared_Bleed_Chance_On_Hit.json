@@ -1,0 +1,37 @@
+{
+  "id": "shared_bleed_chance_",
+  "name": "Shared Bleed Chance On Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to inflict Bleed on Hit": [
+      "20% to 23%",
+      "24% to 27%",
+      "28% to 31%",
+      "32% to 35%",
+      "36% to 45%",
+      "55% to 65%",
+      "66% to 85%",
+      "136% to 170%"
+    ],
+    "Chance to inflict Bleed on Minion Hit": [
+      "20% to 23%",
+      "24% to 27%",
+      "28% to 31%",
+      "32% to 35%",
+      "36% to 45%",
+      "55% to 65%",
+      "66% to 85%",
+      "136% to 170%"
+    ]
+  },
+  "isIdolAffix": false
+}

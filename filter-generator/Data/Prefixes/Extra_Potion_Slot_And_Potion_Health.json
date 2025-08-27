@@ -1,0 +1,37 @@
+{
+  "id": "extra_potion_slot_an",
+  "name": "Extra Potion Slot And Potion Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Potion Slots": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "Health Gained on Potion Use": [
+      "15 to 30",
+      "31 to 52",
+      "53 to 75",
+      "76 to 104",
+      "105 to 150",
+      "190 to 240",
+      "241 to 300",
+      "480 to 600"
+    ]
+  },
+  "isIdolAffix": false
+}

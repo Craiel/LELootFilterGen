@@ -1,0 +1,11 @@
+{
+  "id": "poison_duration_and_",
+  "name": "Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown)",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

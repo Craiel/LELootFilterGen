@@ -1,4 +1,4 @@
-{"version":"1.3.0.4","buildDate":"2025-08-27T02:28:44.255Z","stats":{"affixes":946,"uniques":403,"sets":47,"subtypes":0,"globalTags":29,"overrides":0,"discovered":1396}}
+{"version":"1.3.0.4","buildDate":"2025-08-27T13:32:06.190Z","stats":{"affixes":946,"uniques":403,"sets":47,"subtypes":0,"globalTags":29,"overrides":0,"discovered":1396}}
 {
   "colors": {
     "0": "White",
@@ -79,117 +79,117 @@
 }
 // Affixes data
 // Discovered: 946, Missing: 0, Total: 946
-{"affix":0,"name":"Void Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":0,"name":"Void Penetration","isIdolAffix":false}
 {"affix":1,"name":"Increased Armor","isIdolAffix":false}
-{"affix":2,"name":"Melee Attack Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":3,"name":"Block Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":4,"name":"Cast Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":5,"name":"Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":6,"name":"Critical Strike Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":7,"name":"Void Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":2,"name":"Melee Attack Speed","isIdolAffix":false}
+{"affix":3,"name":"Block Chance","isIdolAffix":false}
+{"affix":4,"name":"Cast Speed","isIdolAffix":false}
+{"affix":5,"name":"Critical Strike Chance","isIdolAffix":false}
+{"affix":6,"name":"Critical Strike Multiplier","isIdolAffix":false}
+{"affix":7,"name":"Void Resistance","isIdolAffix":false}
 {"affix":8,"name":"Added Dodge Rating","isIdolAffix":false}
-{"affix":9,"name":"Elemental Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":10,"name":"Necrotic Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":11,"name":"Freeze Rate Multiplier","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":12,"name":"Fire Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":13,"name":"Fire Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":14,"name":"Freeze Rate Multiplier and Cold Resistance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":15,"name":"Void Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":16,"name":"Cold Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":17,"name":"Cold Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":18,"name":"Necrotic Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":19,"name":"Poison Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":20,"name":"Health On Kill","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":21,"name":"Spell Damage with Tempest Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":22,"name":"Health Regeneration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":23,"name":"Lightning Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":24,"name":"Lightning Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":9,"name":"Elemental Damage","isIdolAffix":false}
+{"affix":10,"name":"Necrotic Resistance","isIdolAffix":false}
+{"affix":11,"name":"Freeze Rate Multiplier","isIdolAffix":false}
+{"affix":12,"name":"Fire Damage","isIdolAffix":false}
+{"affix":13,"name":"Fire Resistance","isIdolAffix":false}
+{"affix":14,"name":"Freeze Rate Multiplier and Cold Resistance","isIdolAffix":false}
+{"affix":15,"name":"Void Damage","isIdolAffix":false}
+{"affix":16,"name":"Cold Damage","isIdolAffix":false}
+{"affix":17,"name":"Cold Resistance","isIdolAffix":false}
+{"affix":18,"name":"Necrotic Damage","isIdolAffix":false}
+{"affix":19,"name":"Poison Resistance","isIdolAffix":false}
+{"affix":20,"name":"Health On Kill","isIdolAffix":false}
+{"affix":21,"name":"Spell Damage with Tempest Strike","isIdolAffix":false}
+{"affix":22,"name":"Health Regeneration","isIdolAffix":false}
+{"affix":23,"name":"Lightning Damage","isIdolAffix":false}
+{"affix":24,"name":"Lightning Resistance","isIdolAffix":false}
 {"affix":25,"name":"Added Health","isIdolAffix":false}
-{"affix":26,"name":"Minion Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":27,"name":"Increased Cooldown Recovery Speed","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":28,"name":"Movement Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":29,"name":"Health and Stun Avoidance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":30,"name":"Physical Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":26,"name":"Minion Damage","isIdolAffix":true}
+{"affix":27,"name":"Increased Cooldown Recovery Speed","isIdolAffix":false}
+{"affix":28,"name":"Movement Speed","isIdolAffix":false}
+{"affix":29,"name":"Health and Stun Avoidance","isIdolAffix":false}
+{"affix":30,"name":"Physical Damage","isIdolAffix":false}
 {"affix":31,"name":"Added Armor","isIdolAffix":false}
-{"affix":32,"name":"Fire Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":33,"name":"Physical Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":34,"name":"Mana","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":35,"name":"Cold Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":36,"name":"Hybrid Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":37,"name":"Poison Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":38,"name":"Spell Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":39,"name":"Lightning Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":40,"name":"Increased Leech Rate","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":41,"name":"Health Gained on Block","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":42,"name":"Lightning Damage And Leech","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":43,"name":"Increased Healing Effectiveness","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":44,"name":"Health On Melee Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":45,"name":"Physical Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":46,"name":"All Resistances","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":47,"name":"Chance to Chill Attackers","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":48,"name":"Chance to Slow Attackers","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":32,"name":"Fire Penetration","isIdolAffix":false}
+{"affix":33,"name":"Physical Penetration","isIdolAffix":false}
+{"affix":34,"name":"Mana","isIdolAffix":false}
+{"affix":35,"name":"Cold Penetration","isIdolAffix":false}
+{"affix":36,"name":"Hybrid Health","isIdolAffix":false}
+{"affix":37,"name":"Poison Penetration","isIdolAffix":false}
+{"affix":38,"name":"Spell Damage","isIdolAffix":false}
+{"affix":39,"name":"Lightning Penetration","isIdolAffix":false}
+{"affix":40,"name":"Increased Leech Rate","isIdolAffix":false}
+{"affix":41,"name":"Health Gained on Block","isIdolAffix":false}
+{"affix":42,"name":"Lightning Damage And Leech","isIdolAffix":false}
+{"affix":43,"name":"Increased Healing Effectiveness","isIdolAffix":false}
+{"affix":44,"name":"Health On Melee Hit","isIdolAffix":false}
+{"affix":45,"name":"Physical Resistance","isIdolAffix":false}
+{"affix":46,"name":"All Resistances","isIdolAffix":false}
+{"affix":47,"name":"Chance to Chill Attackers","isIdolAffix":false}
+{"affix":48,"name":"Chance to Slow Attackers","isIdolAffix":false}
 {"affix":49,"name":"Spell Damage","isIdolAffix":false}
-{"affix":50,"name":"All Attributes","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":51,"name":"Stun Avoidance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":50,"name":"All Attributes","isIdolAffix":false}
+{"affix":51,"name":"Stun Avoidance","isIdolAffix":false}
 {"affix":52,"name":"Increased Health","isIdolAffix":false}
-{"affix":53,"name":"Damage Dealt to Mana Before Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":54,"name":"Chance to Poison on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":55,"name":"Chance to Ignite on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":56,"name":"Chance to Chill on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":57,"name":"Chance to Slow on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":58,"name":"Increased Stun Chance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":53,"name":"Damage Dealt to Mana Before Health","isIdolAffix":false}
+{"affix":54,"name":"Chance to Poison on Hit","isIdolAffix":false}
+{"affix":55,"name":"Chance to Ignite on Hit","isIdolAffix":false}
+{"affix":56,"name":"Chance to Chill on Hit","isIdolAffix":false}
+{"affix":57,"name":"Chance to Slow on Hit","isIdolAffix":false}
+{"affix":58,"name":"Increased Stun Chance","isIdolAffix":false}
 {"affix":59,"name":"Increased Dodge Rating","isIdolAffix":false}
-{"affix":60,"name":"Chance to Blind on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":61,"name":"Poison Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":62,"name":"Melee Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":63,"name":"Melee Physical Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":64,"name":"Minion Melee and Bow Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":65,"name":"Increased Chance to Find Potions","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":66,"name":"Ward Gained on Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":67,"name":"Freeze Rate and Freezing Concoction on Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":68,"name":"Chance to Inflict Bleed On Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":69,"name":"Melee Damage Leeched as Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":70,"name":"Minion Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":71,"name":"Minion Dodge Rating","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":60,"name":"Chance to Blind on Hit","isIdolAffix":false}
+{"affix":61,"name":"Poison Damage","isIdolAffix":false}
+{"affix":62,"name":"Melee Critical Strike Chance","isIdolAffix":false}
+{"affix":63,"name":"Melee Physical Damage","isIdolAffix":false}
+{"affix":64,"name":"Minion Melee and Bow Damage","isIdolAffix":true}
+{"affix":65,"name":"Increased Chance to Find Potions","isIdolAffix":false}
+{"affix":66,"name":"Ward Gained on Potion Use","isIdolAffix":false}
+{"affix":67,"name":"Freeze Rate and Freezing Concoction on Potion Use","isIdolAffix":false}
+{"affix":68,"name":"Chance to Inflict Bleed On Hit","isIdolAffix":false}
+{"affix":69,"name":"Melee Damage Leeched as Health","isIdolAffix":false}
+{"affix":70,"name":"Minion Health","isIdolAffix":true}
+{"affix":71,"name":"Minion Dodge Rating","isIdolAffix":true}
 {"affix":72,"name":"Damage Over TIme","isIdolAffix":false}
-{"affix":73,"name":"Minion Health Regen","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":74,"name":"Damage Taken on Block","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":75,"name":"Ward and Ailment Cleansing on Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":76,"name":"Melee Void Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":77,"name":"Melee Fire Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":78,"name":"Melee Cold Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":79,"name":"Melee Lightning Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":80,"name":"Elemental Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":81,"name":"Block Effectiveness","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":73,"name":"Minion Health Regen","isIdolAffix":true}
+{"affix":74,"name":"Damage Taken on Block","isIdolAffix":false}
+{"affix":75,"name":"Ward and Ailment Cleansing on Potion Use","isIdolAffix":false}
+{"affix":76,"name":"Melee Void Damage","isIdolAffix":false}
+{"affix":77,"name":"Melee Fire Damage","isIdolAffix":false}
+{"affix":78,"name":"Melee Cold Damage","isIdolAffix":false}
+{"affix":79,"name":"Melee Lightning Damage","isIdolAffix":false}
+{"affix":80,"name":"Elemental Resistance","isIdolAffix":false}
+{"affix":81,"name":"Block Effectiveness","isIdolAffix":false}
 {"affix":82,"name":"Extra Potion Slot and Potion Health","isIdolAffix":false}
-{"affix":83,"name":"Potion Health Converted to Ward","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":84,"name":"Spell Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":85,"name":"Chance to Shock on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":86,"name":"Chance to Shred Armor on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":87,"name":"Throwing Attack Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":88,"name":"Throwing Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":89,"name":"Melee Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":90,"name":"Health Regen per Second","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":91,"name":"Increased Stun Chance with Melee Attacks","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":92,"name":"Endurance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":93,"name":"Necrotic Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":94,"name":"Chance to Shock Attackers","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":95,"name":"Damage Reflected to Attackers","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":83,"name":"Potion Health Converted to Ward","isIdolAffix":false}
+{"affix":84,"name":"Spell Critical Strike Chance","isIdolAffix":false}
+{"affix":85,"name":"Chance to Shock on Hit","isIdolAffix":false}
+{"affix":86,"name":"Chance to Shred Armor on Hit","isIdolAffix":false}
+{"affix":87,"name":"Throwing Attack Speed","isIdolAffix":false}
+{"affix":88,"name":"Throwing Damage","isIdolAffix":false}
+{"affix":89,"name":"Melee Damage","isIdolAffix":false}
+{"affix":90,"name":"Health Regen per Second","isIdolAffix":false}
+{"affix":91,"name":"Increased Stun Chance with Melee Attacks","isIdolAffix":false}
+{"affix":92,"name":"Endurance","isIdolAffix":false}
+{"affix":93,"name":"Necrotic Penetration","isIdolAffix":false}
+{"affix":94,"name":"Chance to Shock Attackers","isIdolAffix":false}
+{"affix":95,"name":"Damage Reflected to Attackers","isIdolAffix":false}
 {"affix":96,"name":"Percent Damage Reflected","isIdolAffix":false}
-{"affix":97,"name":"Critical Strike Avoidance and Added Dodge Rating","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":98,"name":"Damage Over Time for Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":99,"name":"Ward Gained on Kill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":100,"name":"Elemental Damage Over Time","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":101,"name":"Increased Area for Area Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":102,"name":"Minion Spell and Bow Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":97,"name":"Critical Strike Avoidance and Added Dodge Rating","isIdolAffix":false}
+{"affix":98,"name":"Damage Over Time for Minions","isIdolAffix":true}
+{"affix":99,"name":"Ward Gained on Kill","isIdolAffix":false}
+{"affix":100,"name":"Elemental Damage Over Time","isIdolAffix":false}
+{"affix":101,"name":"Increased Area for Area Skills","isIdolAffix":false}
+{"affix":102,"name":"Minion Spell and Bow Damage","isIdolAffix":true}
 {"affix":103,"name":"Damage while Channeling","isIdolAffix":false}
 {"affix":104,"name":"All Resistances while Channeling","isIdolAffix":false}
-{"affix":105,"name":"Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":106,"name":"Health on Kill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":105,"name":"Health","isIdolAffix":false}
+{"affix":106,"name":"Health on Kill","isIdolAffix":false}
 {"affix":107,"name":"Health","isIdolAffix":true}
 {"affix":108,"name":"Health Regeneration","isIdolAffix":true}
 {"affix":109,"name":"Mana","isIdolAffix":true}
-{"affix":110,"name":"Armor","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":110,"name":"Armor","isIdolAffix":false}
 {"affix":111,"name":"Fire Resistance","isIdolAffix":true}
 {"affix":112,"name":"Cold Resistance","isIdolAffix":true}
 {"affix":113,"name":"Lighting Resistance","isIdolAffix":true}
@@ -197,22 +197,22 @@
 {"affix":115,"name":"Void Resistance","isIdolAffix":true}
 {"affix":116,"name":"Poison Resistance","isIdolAffix":true}
 {"affix":117,"name":"Elemental Resistance","isIdolAffix":true}
-{"affix":118,"name":"Dodge Rating","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":119,"name":"Damage Over Time","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":120,"name":"Chance to Gain 30 Ward when Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":118,"name":"Dodge Rating","isIdolAffix":false}
+{"affix":119,"name":"Damage Over Time","isIdolAffix":false}
+{"affix":120,"name":"Chance to Gain 30 Ward when Hit","isIdolAffix":false}
 {"affix":121,"name":"Increased Stun Chance","isIdolAffix":true}
-{"affix":122,"name":"Ward On Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":122,"name":"Ward On Potion Use","isIdolAffix":false}
 {"affix":123,"name":"Potion Health Converted to Ward","isIdolAffix":true}
-{"affix":124,"name":"Vitality","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":125,"name":"Elemental Resistance While Transformed","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":126,"name":"Chance to Inflict Bleed On Cold Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":127,"name":"Fire Damage Over Time","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":128,"name":"Increased Bleed Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":129,"name":"Mana And Armor","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":130,"name":"Totem Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":131,"name":"Totem Armor","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":132,"name":"Health Regen While Transformed","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":133,"name":"Totem Elemental Resistance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":124,"name":"Vitality","isIdolAffix":false}
+{"affix":125,"name":"Elemental Resistance While Transformed","isIdolAffix":false}
+{"affix":126,"name":"Chance to Inflict Bleed On Cold Hit","isIdolAffix":false}
+{"affix":127,"name":"Fire Damage Over Time","isIdolAffix":false}
+{"affix":128,"name":"Increased Bleed Duration","isIdolAffix":false}
+{"affix":129,"name":"Mana And Armor","isIdolAffix":false}
+{"affix":130,"name":"Totem Health","isIdolAffix":false}
+{"affix":131,"name":"Totem Armor","isIdolAffix":false}
+{"affix":132,"name":"Health Regen While Transformed","isIdolAffix":false}
+{"affix":133,"name":"Totem Elemental Resistance","isIdolAffix":false}
 {"affix":134,"name":"Critical Strike Chance","isIdolAffix":true}
 {"affix":135,"name":"Increased Healing Effectiveness","isIdolAffix":true}
 {"affix":136,"name":"Stun Avoidance","isIdolAffix":true}
@@ -221,727 +221,727 @@
 {"affix":139,"name":"Chance to Ignite on Hit","isIdolAffix":true}
 {"affix":140,"name":"Chance to Poison on Hit","isIdolAffix":true}
 {"affix":141,"name":"Chance to Shock on Hit","isIdolAffix":true}
-{"affix":142,"name":"Ward Retention","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":143,"name":"Increased Stun Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":144,"name":"Cast Speed for Totems","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":142,"name":"Ward Retention","isIdolAffix":false}
+{"affix":143,"name":"Increased Stun Duration","isIdolAffix":false}
+{"affix":144,"name":"Cast Speed for Totems","isIdolAffix":false}
 {"affix":145,"name":"Minon Dodge Rating","isIdolAffix":true}
-{"affix":146,"name":"Minion Melee Damage Leeched as Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":147,"name":"Minion Melee Attack Speed","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":148,"name":"Increased Minion Cooldown Recovery Speed","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":149,"name":"Minion Increased Healing Effectiveness","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":150,"name":"Increased Minion Melee Stun Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":151,"name":"Minion Critical Strike Chance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":152,"name":"Minion Chance to Inflict Bleed On Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":153,"name":"Minion Chance To Poison On Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":154,"name":"Minion Melee Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":146,"name":"Minion Melee Damage Leeched as Health","isIdolAffix":true}
+{"affix":147,"name":"Minion Melee Attack Speed","isIdolAffix":true}
+{"affix":148,"name":"Increased Minion Cooldown Recovery Speed","isIdolAffix":true}
+{"affix":149,"name":"Minion Increased Healing Effectiveness","isIdolAffix":true}
+{"affix":150,"name":"Increased Minion Melee Stun Chance","isIdolAffix":true}
+{"affix":151,"name":"Minion Critical Strike Chance","isIdolAffix":true}
+{"affix":152,"name":"Minion Chance to Inflict Bleed On Hit","isIdolAffix":true}
+{"affix":153,"name":"Minion Chance To Poison On Hit","isIdolAffix":true}
+{"affix":154,"name":"Minion Melee Critical Strike Chance","isIdolAffix":true}
 {"affix":155,"name":"Spell Damage Leeched While Channeling","isIdolAffix":true}
-{"affix":156,"name":"Melee Damage while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":157,"name":"Spell Damage while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":158,"name":"Damage Over Time while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":159,"name":"Critical Strike Multiplier while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":160,"name":"Chance to Inflict Bleed on Melee Hit for You and Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":161,"name":"Bleed Duration For You And Your Minions","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":162,"name":"Critical Strike Avoidance for You and Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":163,"name":"Chance to apply Frostbite on Hit with Cold Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":156,"name":"Melee Damage while Transformed","isIdolAffix":false}
+{"affix":157,"name":"Spell Damage while Transformed","isIdolAffix":false}
+{"affix":158,"name":"Damage Over Time while Transformed","isIdolAffix":false}
+{"affix":159,"name":"Critical Strike Multiplier while Transformed","isIdolAffix":false}
+{"affix":160,"name":"Chance to Inflict Bleed on Melee Hit for You and Your Minions","isIdolAffix":true}
+{"affix":161,"name":"Bleed Duration For You And Your Minions","isIdolAffix":true}
+{"affix":162,"name":"Critical Strike Avoidance for You and Your Minions","isIdolAffix":true}
+{"affix":163,"name":"Chance to apply Frostbite on Hit with Cold Skills","isIdolAffix":false}
 {"affix":164,"name":"Critical Strike Chance For Totems","isIdolAffix":true}
 {"affix":165,"name":"Damage Over Time Taken While Channeling","isIdolAffix":true}
-{"affix":166,"name":"Chance To Apply Frostbite With Cold Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":167,"name":"Ignite And Spreading Flames Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":168,"name":"Critical Strike Chance with Lightning Skills for You and Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":169,"name":"Cold and Lightning Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":170,"name":"Spell Damage For You And Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":171,"name":"Melee Damage For You And Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":166,"name":"Chance To Apply Frostbite With Cold Skills","isIdolAffix":false}
+{"affix":167,"name":"Ignite And Spreading Flames Duration","isIdolAffix":false}
+{"affix":168,"name":"Critical Strike Chance with Lightning Skills for You and Your Minions","isIdolAffix":true}
+{"affix":169,"name":"Cold and Lightning Damage","isIdolAffix":false}
+{"affix":170,"name":"Spell Damage For You And Your Minions","isIdolAffix":true}
+{"affix":171,"name":"Melee Damage For You And Your Minions","isIdolAffix":true}
 {"affix":172,"name":"Physical and Poison Damage","isIdolAffix":true}
-{"affix":173,"name":"Damage Over Time For You And Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":174,"name":"Frostbite Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":175,"name":"Chance to Gain 20 Ward on Melee Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":176,"name":"Cold Damage Over Time","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":173,"name":"Damage Over Time For You And Your Minions","isIdolAffix":true}
+{"affix":174,"name":"Frostbite Duration","isIdolAffix":false}
+{"affix":175,"name":"Chance to Gain 20 Ward on Melee Hit","isIdolAffix":false}
+{"affix":176,"name":"Cold Damage Over Time","isIdolAffix":false}
 {"affix":177,"name":"Fire Damage Over Time","isIdolAffix":true}
-{"affix":178,"name":"Ward Per Second","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":179,"name":"Melee Elemental Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":180,"name":"Chance to Ignite on Fire Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":181,"name":"Chance To Shock With Lightning Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":182,"name":"Fire Penetration with Ignite","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":183,"name":"Cold Penetration with Frostbite","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":184,"name":"Increased Shock Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":185,"name":"Critical Strike Chance With Lightning Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":178,"name":"Ward Per Second","isIdolAffix":false}
+{"affix":179,"name":"Melee Elemental Damage","isIdolAffix":false}
+{"affix":180,"name":"Chance to Ignite on Fire Hit","isIdolAffix":false}
+{"affix":181,"name":"Chance To Shock With Lightning Skills","isIdolAffix":false}
+{"affix":182,"name":"Fire Penetration with Ignite","isIdolAffix":false}
+{"affix":183,"name":"Cold Penetration with Frostbite","isIdolAffix":false}
+{"affix":184,"name":"Increased Shock Duration","isIdolAffix":false}
+{"affix":185,"name":"Critical Strike Chance With Lightning Skills","isIdolAffix":false}
 {"affix":186,"name":"Melee Fire Damage","isIdolAffix":true}
 {"affix":187,"name":"Melee Lightning Damage","isIdolAffix":true}
 {"affix":188,"name":"Melee Cold Damage","isIdolAffix":true}
-{"affix":189,"name":"Spell Fire Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":190,"name":"Spell Lightning Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":191,"name":"Spell Cold Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":192,"name":"+1 Skeleton and Increased Skeleton Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":193,"name":"Physical Damage Over Time","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":194,"name":"Chance To Blind With Spells","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":195,"name":"Mana Efficiency With Void Spells","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":189,"name":"Spell Fire Damage","isIdolAffix":false}
+{"affix":190,"name":"Spell Lightning Damage","isIdolAffix":false}
+{"affix":191,"name":"Spell Cold Damage","isIdolAffix":false}
+{"affix":192,"name":"+1 Skeleton and Increased Skeleton Damage","isIdolAffix":false}
+{"affix":193,"name":"Physical Damage Over Time","isIdolAffix":false}
+{"affix":194,"name":"Chance To Blind With Spells","isIdolAffix":false}
+{"affix":195,"name":"Mana Efficiency With Void Spells","isIdolAffix":false}
 {"affix":196,"name":"Armor","isIdolAffix":true}
 {"affix":197,"name":"Block Effectiveness","isIdolAffix":true}
 {"affix":198,"name":"Chance To Shred Armor On Hit","isIdolAffix":true}
-{"affix":199,"name":"Throwing Attack Critical Strike Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":200,"name":"Increased Stun Chance With Throwing Attacks","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":201,"name":"Increased Time Rot Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":202,"name":"Fire Damage Taken as Physical","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":203,"name":"Lightning Damage Taken as Physical","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":204,"name":"Cold Damage Taken as Physical","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":205,"name":"Fire Penetration With Melee Attacks","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":206,"name":"Chance To Shred Armor on Hit With Fire Skills","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":207,"name":"Chance To Slow With Void Skills","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":208,"name":"Chance to Inflict Bleed while at High Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":209,"name":"Chance To Ignite While At High Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":210,"name":"Damage Reflected For You And Your Minions","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":211,"name":"Chance To Shred Armor on Melee Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":212,"name":"Chance To Shred Armor on Hit with Throwing Attacks","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":213,"name":"Chance to gain Haste for 3 seconds when you Summon a Totem","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":214,"name":"Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":215,"name":"Chance On Kill To Refresh Random Companion Ability","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":216,"name":"Bees Per 10 Seconds","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":217,"name":"Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":218,"name":"Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":219,"name":"Mana Gained When Transforming Back To Human Form","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":220,"name":"Increased Frequency of expending Storm Stacks","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":221,"name":"Chance to cast Maelstrom every 3 seconds","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":222,"name":"Chance to cast Healing Nova when hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":223,"name":"Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":199,"name":"Throwing Attack Critical Strike Multiplier","isIdolAffix":false}
+{"affix":200,"name":"Increased Stun Chance With Throwing Attacks","isIdolAffix":false}
+{"affix":201,"name":"Increased Time Rot Duration","isIdolAffix":false}
+{"affix":202,"name":"Fire Damage Taken as Physical","isIdolAffix":false}
+{"affix":203,"name":"Lightning Damage Taken as Physical","isIdolAffix":false}
+{"affix":204,"name":"Cold Damage Taken as Physical","isIdolAffix":false}
+{"affix":205,"name":"Fire Penetration With Melee Attacks","isIdolAffix":false}
+{"affix":206,"name":"Chance To Shred Armor on Hit With Fire Skills","isIdolAffix":false}
+{"affix":207,"name":"Chance To Slow With Void Skills","isIdolAffix":false}
+{"affix":208,"name":"Chance to Inflict Bleed while at High Health","isIdolAffix":false}
+{"affix":209,"name":"Chance To Ignite While At High Health","isIdolAffix":false}
+{"affix":210,"name":"Damage Reflected For You And Your Minions","isIdolAffix":true}
+{"affix":211,"name":"Chance To Shred Armor on Melee Hit","isIdolAffix":false}
+{"affix":212,"name":"Chance To Shred Armor on Hit with Throwing Attacks","isIdolAffix":false}
+{"affix":213,"name":"Chance to gain Haste for 3 seconds when you Summon a Totem","isIdolAffix":true}
+{"affix":214,"name":"Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy","isIdolAffix":false}
+{"affix":215,"name":"Chance On Kill To Refresh Random Companion Ability","isIdolAffix":true}
+{"affix":216,"name":"Bees Per 10 Seconds","isIdolAffix":false}
+{"affix":217,"name":"Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana","isIdolAffix":false}
+{"affix":218,"name":"Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds)","isIdolAffix":true}
+{"affix":219,"name":"Mana Gained When Transforming Back To Human Form","isIdolAffix":false}
+{"affix":220,"name":"Increased Frequency of expending Storm Stacks","isIdolAffix":false}
+{"affix":221,"name":"Chance to cast Maelstrom every 3 seconds","isIdolAffix":false}
+{"affix":222,"name":"Chance to cast Healing Nova when hit","isIdolAffix":false}
+{"affix":223,"name":"Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack","isIdolAffix":false}
 {"affix":224,"name":"Chance to Cast An Avalanche Boulder At a Nearby Enemy On Spell Cast (up to 3 times per second)","isIdolAffix":true}
 {"affix":225,"name":"Chance To Cast An Avalanche Boulder At a Nearby Enemy On Melee attack (up to 3 times per second)","isIdolAffix":true}
-{"affix":226,"name":"Increased Aspect of the Shark Effect","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":227,"name":"Increased Aspect of the Shark Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":228,"name":"Increased Aspect of the Boar Effect","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":229,"name":"Increased Aspect of the Boar Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":226,"name":"Increased Aspect of the Shark Effect","isIdolAffix":false}
+{"affix":227,"name":"Increased Aspect of the Shark Duration","isIdolAffix":false}
+{"affix":228,"name":"Increased Aspect of the Boar Effect","isIdolAffix":false}
+{"affix":229,"name":"Increased Aspect of the Boar Duration","isIdolAffix":false}
 {"affix":230,"name":"Increased Aspect of the Virper Effect","isIdolAffix":true}
-{"affix":231,"name":"Increased Aspect of the Viper Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":232,"name":"Increased Aspect of the Lynx Effect","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":233,"name":"Increased Aspect of the Lynx Duration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":231,"name":"Increased Aspect of the Viper Duration","isIdolAffix":false}
+{"affix":232,"name":"Increased Aspect of the Lynx Effect","isIdolAffix":false}
+{"affix":233,"name":"Increased Aspect of the Lynx Duration","isIdolAffix":false}
 {"affix":234,"name":"Increased Spell Damage If you have an active Totem","isIdolAffix":true}
-{"affix":235,"name":"Increased Cold Damage per active Totem","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":236,"name":"Chance on Melee Kill to heal a Random Minion to Full Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":237,"name":"Seconds of Stun Immunity after using Teleport","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":238,"name":"Chance to Cast Fire Aura on Critical Strike (1 Second Cooldown)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":235,"name":"Increased Cold Damage per active Totem","isIdolAffix":false}
+{"affix":236,"name":"Chance on Melee Kill to heal a Random Minion to Full Health","isIdolAffix":true}
+{"affix":237,"name":"Seconds of Stun Immunity after using Teleport","isIdolAffix":false}
+{"affix":238,"name":"Chance to Cast Fire Aura on Critical Strike (1 Second Cooldown)","isIdolAffix":false}
 {"affix":239,"name":"Increasd Elemental Nova Area","isIdolAffix":true}
-{"affix":240,"name":"Increased Fire Aura Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":241,"name":"Static Charges Generated per Second","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":242,"name":"Increased Cast Speed while you have Lightning Aegis","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":243,"name":"Chance to Gain Lightning Aegis when Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":244,"name":"Ward Granted When Casting Flame Ward","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":245,"name":"Chance to cast Elemental Nova when Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":246,"name":"Increased Volcanic Orb Damage And Reduced Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":247,"name":"Chance to Cast Fire Aura when Hit (1 Second Cooldown)","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":240,"name":"Increased Fire Aura Damage","isIdolAffix":false}
+{"affix":241,"name":"Static Charges Generated per Second","isIdolAffix":false}
+{"affix":242,"name":"Increased Cast Speed while you have Lightning Aegis","isIdolAffix":false}
+{"affix":243,"name":"Chance to Gain Lightning Aegis when Hit","isIdolAffix":false}
+{"affix":244,"name":"Ward Granted When Casting Flame Ward","isIdolAffix":false}
+{"affix":245,"name":"Chance to cast Elemental Nova when Hit","isIdolAffix":false}
+{"affix":246,"name":"Increased Volcanic Orb Damage And Reduced Speed","isIdolAffix":false}
+{"affix":247,"name":"Chance to Cast Fire Aura when Hit (1 Second Cooldown)","isIdolAffix":false}
 {"affix":248,"name":"Increased fire Aura Area","isIdolAffix":true}
-{"affix":249,"name":"Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":250,"name":"Damage Reflected while you have Lightning Aegis","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":251,"name":"Chance to cast Lightning Blast When Hit while you have Lightning Aegis","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":252,"name":"Increased Lightning Damage while you have Lightning Aegis","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":253,"name":"Chance to Cast Fire Aura on Kill with Fire Skills (1 Second Cooldown)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":254,"name":"Increased Lightning Damage (Doubled If You Have Over 300 Max Mana)","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":255,"name":"Increased Cold Damage (Doubled If You Have Over 300 Max Mana)","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":256,"name":"Increased Fire Damage (Doubled If You Have Over 300 Max Mana)","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":257,"name":"Endurance Threshold and Increased Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":258,"name":"Poison Chance While At Low Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":259,"name":"Damage Over Time while at Low Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":260,"name":"Chance to apply Damned on Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":261,"name":"Damage While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":262,"name":"Damage Over Time Taken While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":263,"name":"Damage Leeched as Health while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":264,"name":"Reduced Health Cost of Spells","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":249,"name":"Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown)","isIdolAffix":false}
+{"affix":250,"name":"Damage Reflected while you have Lightning Aegis","isIdolAffix":false}
+{"affix":251,"name":"Chance to cast Lightning Blast When Hit while you have Lightning Aegis","isIdolAffix":false}
+{"affix":252,"name":"Increased Lightning Damage while you have Lightning Aegis","isIdolAffix":false}
+{"affix":253,"name":"Chance to Cast Fire Aura on Kill with Fire Skills (1 Second Cooldown)","isIdolAffix":false}
+{"affix":254,"name":"Increased Lightning Damage (Doubled If You Have Over 300 Max Mana)","isIdolAffix":false}
+{"affix":255,"name":"Increased Cold Damage (Doubled If You Have Over 300 Max Mana)","isIdolAffix":false}
+{"affix":256,"name":"Increased Fire Damage (Doubled If You Have Over 300 Max Mana)","isIdolAffix":false}
+{"affix":257,"name":"Endurance Threshold and Increased Health","isIdolAffix":false}
+{"affix":258,"name":"Poison Chance While At Low Health","isIdolAffix":false}
+{"affix":259,"name":"Damage Over Time while at Low Health","isIdolAffix":false}
+{"affix":260,"name":"Chance to apply Damned on Hit","isIdolAffix":false}
+{"affix":261,"name":"Damage While Transformed","isIdolAffix":false}
+{"affix":262,"name":"Damage Over Time Taken While Transformed","isIdolAffix":false}
+{"affix":263,"name":"Damage Leeched as Health while Transformed","isIdolAffix":false}
+{"affix":264,"name":"Reduced Health Cost of Spells","isIdolAffix":false}
 {"affix":265,"name":"Chance to Chill With Necrotic Skills","isIdolAffix":true}
-{"affix":266,"name":"Increased Aura of Decay Area","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":267,"name":"Health Regen And Damage Taken Over Time","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":268,"name":"Armor granted by Bone Armor","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":269,"name":"Healing Effectiveness","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":270,"name":"Increased Warpath Area","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":271,"name":"Chance to inflict Time Rot on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":272,"name":"Chance to cast Void Rift on Kill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":273,"name":"Chance to create a Void Essence on Kill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":274,"name":"Increased Area of Void Cleave","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":275,"name":"Chance To Cast Divine Bolt When You Use A 0 Cost Skill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":276,"name":"Chance To Cast Smite When You Hit With Throwing Attacks (up to 10 times per 2 seconds)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":277,"name":"Health gained when stunned","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":278,"name":"Increased Echo Damage when a Skill Echoes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":279,"name":"Increased Void Damage For 4 Seconds When a Skill Echoes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":280,"name":"Increased Melee Damage For 4 Seconds When a Skill Echoes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":281,"name":"Chance To Gain Inspiration On Kills With Void Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":282,"name":"Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":283,"name":"Abyssal Decay Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":284,"name":"Chance to Fear on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":266,"name":"Increased Aura of Decay Area","isIdolAffix":false}
+{"affix":267,"name":"Health Regen And Damage Taken Over Time","isIdolAffix":false}
+{"affix":268,"name":"Armor granted by Bone Armor","isIdolAffix":false}
+{"affix":269,"name":"Healing Effectiveness","isIdolAffix":false}
+{"affix":270,"name":"Increased Warpath Area","isIdolAffix":false}
+{"affix":271,"name":"Chance to inflict Time Rot on Hit","isIdolAffix":false}
+{"affix":272,"name":"Chance to cast Void Rift on Kill","isIdolAffix":false}
+{"affix":273,"name":"Chance to create a Void Essence on Kill","isIdolAffix":false}
+{"affix":274,"name":"Increased Area of Void Cleave","isIdolAffix":false}
+{"affix":275,"name":"Chance To Cast Divine Bolt When You Use A 0 Cost Skill","isIdolAffix":false}
+{"affix":276,"name":"Chance To Cast Smite When You Hit With Throwing Attacks (up to 10 times per 2 seconds)","isIdolAffix":false}
+{"affix":277,"name":"Health gained when stunned","isIdolAffix":false}
+{"affix":278,"name":"Increased Echo Damage when a Skill Echoes","isIdolAffix":false}
+{"affix":279,"name":"Increased Void Damage For 4 Seconds When a Skill Echoes","isIdolAffix":false}
+{"affix":280,"name":"Increased Melee Damage For 4 Seconds When a Skill Echoes","isIdolAffix":false}
+{"affix":281,"name":"Chance To Gain Inspiration On Kills With Void Skills","isIdolAffix":false}
+{"affix":282,"name":"Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently","isIdolAffix":false}
+{"affix":283,"name":"Abyssal Decay Duration","isIdolAffix":false}
+{"affix":284,"name":"Chance to Fear on Hit","isIdolAffix":false}
 {"affix":285,"name":"Ward Retention","isIdolAffix":true}
 {"affix":286,"name":"Increased Minion Cooldown Recovery Speed","isIdolAffix":true}
 {"affix":287,"name":"Minion Chance to apply mark for death on hit","isIdolAffix":true}
 {"affix":288,"name":"Minion Chance to Inflict Plague on hit","isIdolAffix":true}
 {"affix":289,"name":"Damage Over TIme Taken","isIdolAffix":true}
 {"affix":290,"name":"Chance to Inflict Bleed On Physical Spell Hit","isIdolAffix":true}
-{"affix":291,"name":"Plague Chance On Hit And Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":291,"name":"Plague Chance On Hit And Penetration","isIdolAffix":false}
 {"affix":292,"name":"Sell Damage while at Love Health","isIdolAffix":true}
-{"affix":293,"name":"Minion Fire Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":294,"name":"Minion Cold Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":295,"name":"Physical Spell Critical Strike Chance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":296,"name":"Poison Chance On Spell Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":293,"name":"Minion Fire Damage","isIdolAffix":true}
+{"affix":294,"name":"Minion Cold Damage","isIdolAffix":true}
+{"affix":295,"name":"Physical Spell Critical Strike Chance","isIdolAffix":false}
+{"affix":296,"name":"Poison Chance On Spell Hit","isIdolAffix":false}
 {"affix":297,"name":"Critical Strike Chance for You and your minions","isIdolAffix":true}
 {"affix":298,"name":"Symbol Duration and Gain Rate","isIdolAffix":true}
-{"affix":299,"name":"Chance for +30 Throwing Fire Damage with Shield Throw","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":300,"name":"Shield Throw Base Damage Converted to Void","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":301,"name":"Lightning Damage with Hammer Throw","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":302,"name":"Increased Projectile Speed With Marrow Shards And Bone Nova","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":299,"name":"Chance for +30 Throwing Fire Damage with Shield Throw","isIdolAffix":false}
+{"affix":300,"name":"Shield Throw Base Damage Converted to Void","isIdolAffix":false}
+{"affix":301,"name":"Lightning Damage with Hammer Throw","isIdolAffix":false}
+{"affix":302,"name":"Increased Projectile Speed With Marrow Shards And Bone Nova","isIdolAffix":false}
 {"affix":303,"name":"Chance to cast Poison Nove when hit","isIdolAffix":true}
-{"affix":304,"name":"Chance for Hungering Souls to fire 6 Additional Projectiles","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":305,"name":"Critical Strike Multiplier With Rive And Judgement","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":306,"name":"Increased Area With Rive And Forge Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":307,"name":"Increased Damage With Vengeance And Smite","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":308,"name":"Increased Cooldown Recovery Speed With Transplant","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":309,"name":"Necrotic Spell Damage per Skeletal Mage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":310,"name":"Ward Gained On Kill","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":311,"name":"Chance to Gain 20 Ward on Kill with Hungering Souls","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":312,"name":"Increased Damage With Rip Blood And Blood Splatter","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":304,"name":"Chance for Hungering Souls to fire 6 Additional Projectiles","isIdolAffix":false}
+{"affix":305,"name":"Critical Strike Multiplier With Rive And Judgement","isIdolAffix":false}
+{"affix":306,"name":"Increased Area With Rive And Forge Strike","isIdolAffix":false}
+{"affix":307,"name":"Increased Damage With Vengeance And Smite","isIdolAffix":false}
+{"affix":308,"name":"Increased Cooldown Recovery Speed With Transplant","isIdolAffix":false}
+{"affix":309,"name":"Necrotic Spell Damage per Skeletal Mage","isIdolAffix":false}
+{"affix":310,"name":"Ward Gained On Kill","isIdolAffix":false}
+{"affix":311,"name":"Chance to Gain 20 Ward on Kill with Hungering Souls","isIdolAffix":false}
+{"affix":312,"name":"Increased Damage With Rip Blood And Blood Splatter","isIdolAffix":false}
 {"affix":313,"name":"Critical Strike Chance For Skeletons and Skeletal Mages","isIdolAffix":true}
-{"affix":314,"name":"Damage Reflected For Skeletons And Skeletal Mages","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":315,"name":"Chance for Summon Wraith to summon a Putrid Wraith instead","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":316,"name":"Chance for Summon Wraith to summon a Flame Wraith instead","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":317,"name":"Chance to Cast Marrow Shards when you Cast Transplant","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":318,"name":"Increased Poison Damage while Aura of Decay is active","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":319,"name":"Shared Physical Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":320,"name":"Shared Lightning Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":321,"name":"Shared Cold Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":322,"name":"Shared Fire Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":323,"name":"Shared Void Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":324,"name":"Shared Necrotic Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":325,"name":"Shared Poison Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":314,"name":"Damage Reflected For Skeletons And Skeletal Mages","isIdolAffix":false}
+{"affix":315,"name":"Chance for Summon Wraith to summon a Putrid Wraith instead","isIdolAffix":true}
+{"affix":316,"name":"Chance for Summon Wraith to summon a Flame Wraith instead","isIdolAffix":true}
+{"affix":317,"name":"Chance to Cast Marrow Shards when you Cast Transplant","isIdolAffix":false}
+{"affix":318,"name":"Increased Poison Damage while Aura of Decay is active","isIdolAffix":false}
+{"affix":319,"name":"Shared Physical Damage","isIdolAffix":false}
+{"affix":320,"name":"Shared Lightning Damage","isIdolAffix":false}
+{"affix":321,"name":"Shared Cold Damage","isIdolAffix":false}
+{"affix":322,"name":"Shared Fire Damage","isIdolAffix":false}
+{"affix":323,"name":"Shared Void Damage","isIdolAffix":false}
+{"affix":324,"name":"Shared Necrotic Damage","isIdolAffix":false}
+{"affix":325,"name":"Shared Poison Damage","isIdolAffix":false}
 {"affix":326,"name":"Melee Void Damage","isIdolAffix":true}
-{"affix":327,"name":"Chance to apply a Spark Charge on Melee Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":328,"name":"Mana Spent Gained as Ward","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":329,"name":"Totem Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":330,"name":"Mana Regeneration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":327,"name":"Chance to apply a Spark Charge on Melee Hit","isIdolAffix":false}
+{"affix":328,"name":"Mana Spent Gained as Ward","isIdolAffix":false}
+{"affix":329,"name":"Totem Damage","isIdolAffix":false}
+{"affix":330,"name":"Mana Regeneration","isIdolAffix":false}
 {"affix":331,"name":"Increased Mana","isIdolAffix":false}
 {"affix":332,"name":"Armor and Minion Armor","isIdolAffix":false}
 {"affix":333,"name":"Shared Lightning Damage","isIdolAffix":false}
-{"affix":334,"name":"Spell Damage for Totems","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":335,"name":"Increased Cooldown Recovery Speed while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":336,"name":"Minion Critical Strike Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":337,"name":"Minion Spell Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":338,"name":"Critical Strike Multiplier While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":334,"name":"Spell Damage for Totems","isIdolAffix":false}
+{"affix":335,"name":"Increased Cooldown Recovery Speed while Transformed","isIdolAffix":false}
+{"affix":336,"name":"Minion Critical Strike Multiplier","isIdolAffix":true}
+{"affix":337,"name":"Minion Spell Critical Strike Chance","isIdolAffix":true}
+{"affix":338,"name":"Critical Strike Multiplier While Transformed","isIdolAffix":false}
 {"affix":339,"name":"Cold Penetration with Frostbite","isIdolAffix":false}
 {"affix":340,"name":"Shared Cold Damage","isIdolAffix":false}
-{"affix":341,"name":"Freeze Rate per stack of Chill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":341,"name":"Freeze Rate per stack of Chill","isIdolAffix":false}
 {"affix":342,"name":"Cast Speed for Totems","isIdolAffix":false}
-{"affix":343,"name":"Shared Bleed Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":344,"name":"Shared Increased Spell Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":345,"name":"Shared Increased Melee Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":346,"name":"Minion Melee Damage Leeched As Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":347,"name":"Minion Chance to Inflict Bleed on Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":348,"name":"Added Minion Melee Crit Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":349,"name":"Melee Damage While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":350,"name":"Spell Damage While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":351,"name":"Damage Over Time While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":352,"name":"Totem Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":343,"name":"Shared Bleed Duration","isIdolAffix":false}
+{"affix":344,"name":"Shared Increased Spell Damage","isIdolAffix":false}
+{"affix":345,"name":"Shared Increased Melee Damage","isIdolAffix":false}
+{"affix":346,"name":"Minion Melee Damage Leeched As Health","isIdolAffix":true}
+{"affix":347,"name":"Minion Chance to Inflict Bleed on Hit","isIdolAffix":true}
+{"affix":348,"name":"Added Minion Melee Crit Chance","isIdolAffix":true}
+{"affix":349,"name":"Melee Damage While Transformed","isIdolAffix":false}
+{"affix":350,"name":"Spell Damage While Transformed","isIdolAffix":false}
+{"affix":351,"name":"Damage Over Time While Transformed","isIdolAffix":false}
+{"affix":352,"name":"Totem Critical Strike Chance","isIdolAffix":false}
 {"affix":353,"name":"Increased Aspect of the Shark effect","isIdolAffix":false}
 {"affix":354,"name":"Increased Aspect of the Boar duration","isIdolAffix":false}
-{"affix":355,"name":"Increased Aspect of the Viper Effect","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":355,"name":"Increased Aspect of the Viper Effect","isIdolAffix":false}
 {"affix":356,"name":"Increased Aspct of the Lynx Effect","isIdolAffix":false}
 {"affix":357,"name":"Totem Damage","isIdolAffix":false}
-{"affix":358,"name":"Physical Penetration with Bleed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":359,"name":"Melee Physical Damage if wielding a Sword","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":358,"name":"Physical Penetration with Bleed","isIdolAffix":false}
+{"affix":359,"name":"Melee Physical Damage if wielding a Sword","isIdolAffix":false}
 {"affix":360,"name":"Increased Physical Damage and Bleed Duration","isIdolAffix":false}
 {"affix":361,"name":"Increased Fire Damage and Ignite Duration","isIdolAffix":false}
-{"affix":362,"name":"Increased Void Damage And Added Spell Void Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":363,"name":"Chance to Inflict Bleed if Wielding an Axe","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":364,"name":"Melee Physical Damage if wielding a Mace","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":365,"name":"Void Damage Taken as Physical","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":366,"name":"Necrotic Damage Taken as Physical","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":367,"name":"Poison Damage Taken as Physical","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":368,"name":"Throwing Attack Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":369,"name":"Channel Cost","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":370,"name":"Increased Armor Shred Effect","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":362,"name":"Increased Void Damage And Added Spell Void Damage","isIdolAffix":false}
+{"affix":363,"name":"Chance to Inflict Bleed if Wielding an Axe","isIdolAffix":false}
+{"affix":364,"name":"Melee Physical Damage if wielding a Mace","isIdolAffix":false}
+{"affix":365,"name":"Void Damage Taken as Physical","isIdolAffix":false}
+{"affix":366,"name":"Necrotic Damage Taken as Physical","isIdolAffix":false}
+{"affix":367,"name":"Poison Damage Taken as Physical","isIdolAffix":false}
+{"affix":368,"name":"Throwing Attack Critical Strike Chance","isIdolAffix":false}
+{"affix":369,"name":"Channel Cost","isIdolAffix":false}
+{"affix":370,"name":"Increased Armor Shred Effect","isIdolAffix":false}
 {"affix":371,"name":"Fire Damage Over Time","isIdolAffix":false}
-{"affix":372,"name":"Void Damage Over Time","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":373,"name":"Increased Echo Damage When A Skill Echoes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":374,"name":"Increased Abyssal Decay Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":375,"name":"Mana Gained when you use Vengeance and Hit at least one enemy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":376,"name":"Mana Gained when you use Rive and Hit at least one enemy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":377,"name":"Mana Gained when you directly Cast Smite","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":378,"name":"Increased Hammer Throw Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":379,"name":"Increased Shield Throw Critical Strike Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":380,"name":"Increased Smelters Wrath Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":381,"name":"Increased Spell Crit (Doubled if you have over 300 Max Mana)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":382,"name":"Ward per Second","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":372,"name":"Void Damage Over Time","isIdolAffix":false}
+{"affix":373,"name":"Increased Echo Damage When A Skill Echoes","isIdolAffix":false}
+{"affix":374,"name":"Increased Abyssal Decay Duration","isIdolAffix":false}
+{"affix":375,"name":"Mana Gained when you use Vengeance and Hit at least one enemy","isIdolAffix":false}
+{"affix":376,"name":"Mana Gained when you use Rive and Hit at least one enemy","isIdolAffix":false}
+{"affix":377,"name":"Mana Gained when you directly Cast Smite","isIdolAffix":false}
+{"affix":378,"name":"Increased Hammer Throw Damage","isIdolAffix":false}
+{"affix":379,"name":"Increased Shield Throw Critical Strike Chance","isIdolAffix":false}
+{"affix":380,"name":"Increased Smelters Wrath Damage","isIdolAffix":false}
+{"affix":381,"name":"Increased Spell Crit (Doubled if you have over 300 Max Mana)","isIdolAffix":false}
+{"affix":382,"name":"Ward per Second","isIdolAffix":false}
 {"affix":383,"name":"Spell Damage while Channeling","isIdolAffix":false}
-{"affix":384,"name":"Minion Freeze Rate Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":385,"name":"Lightning Critical Strike Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":384,"name":"Minion Freeze Rate Multiplier","isIdolAffix":true}
+{"affix":385,"name":"Lightning Critical Strike Multiplier","isIdolAffix":false}
 {"affix":386,"name":"Spell Damage Leeched as Health while Channeling","isIdolAffix":false}
 {"affix":387,"name":"Chance to Apply Frostbite On Hit With Cold Skills","isIdolAffix":false}
 {"affix":388,"name":"Cold Damage Over Time","isIdolAffix":false}
 {"affix":389,"name":"Fire Damage Over Time","isIdolAffix":false}
 {"affix":390,"name":"Melee Elemental Damage","isIdolAffix":false}
 {"affix":391,"name":"Chance to Ignite on Fire Hit","isIdolAffix":false}
-{"affix":392,"name":"Chance to Shock on Hit with Lightning Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":392,"name":"Chance to Shock on Hit with Lightning Skills","isIdolAffix":false}
 {"affix":393,"name":"Chance to Cast Fire Aura on Critical Strike (1 second cooldown)","isIdolAffix":false}
 {"affix":394,"name":"Increased Fire Aura Damage","isIdolAffix":false}
 {"affix":395,"name":"Chance to Gain Lightning Aegis when Hit","isIdolAffix":false}
-{"affix":396,"name":"Chance to cast Fire Aura when Hit (1 second cooldown)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":397,"name":"Flame Ward Charge and Added Ward","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":396,"name":"Chance to cast Fire Aura when Hit (1 second cooldown)","isIdolAffix":false}
+{"affix":397,"name":"Flame Ward Charge and Added Ward","isIdolAffix":false}
 {"affix":398,"name":"Chance To Cast Fire Aura On Kill Fire Skills (1 second cooldown)","isIdolAffix":false}
 {"affix":399,"name":"Chance to apply a Spark Charge on Melee Hit","isIdolAffix":false}
 {"affix":400,"name":"Mana Spent Gained as Ward","isIdolAffix":false}
-{"affix":401,"name":"Physical Damage while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":402,"name":"Necrotic Damage while Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":401,"name":"Physical Damage while Transformed","isIdolAffix":false}
+{"affix":402,"name":"Necrotic Damage while Transformed","isIdolAffix":false}
 {"affix":403,"name":"Void Damage Over Time","isIdolAffix":true}
-{"affix":404,"name":"Shared Increased Fire Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":405,"name":"Shared Increased Necrotic Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":406,"name":"Shared Bleed Chance On Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":404,"name":"Shared Increased Fire Damage","isIdolAffix":false}
+{"affix":405,"name":"Shared Increased Necrotic Damage","isIdolAffix":false}
+{"affix":406,"name":"Shared Bleed Chance On Hit","isIdolAffix":false}
 {"affix":407,"name":"Shared increased Bleed Duration","isIdolAffix":false}
 {"affix":408,"name":"Shared Physical Penetration with Bleed","isIdolAffix":false}
-{"affix":409,"name":"Shared Physical Damage Leeched As Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":410,"name":"Increased Skeletal Mage Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":411,"name":"Mana Gained on Harvest Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":412,"name":"Harvest Damage Leeched as Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":413,"name":"Damage to Minions Reflected to Attackers","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":409,"name":"Shared Physical Damage Leeched As Health","isIdolAffix":false}
+{"affix":410,"name":"Increased Skeletal Mage Damage","isIdolAffix":false}
+{"affix":411,"name":"Mana Gained on Harvest Use","isIdolAffix":false}
+{"affix":412,"name":"Harvest Damage Leeched as Health","isIdolAffix":false}
+{"affix":413,"name":"Damage to Minions Reflected to Attackers","isIdolAffix":true}
 {"affix":414,"name":"Poison Damage and Poison Resistance","isIdolAffix":false}
 {"affix":415,"name":"Chance to Gain 20 Ward on Kill with Hungering Souls","isIdolAffix":false}
 {"affix":416,"name":"Increased Critical Strike Chance For You and Your Minions","isIdolAffix":false}
 {"affix":417,"name":"Increased Projectile Speed With Marrow Shards And Bone Nova","isIdolAffix":false}
 {"affix":418,"name":"Increased Damage With Rip Blood And Blood Splatter","isIdolAffix":false}
-{"affix":419,"name":"Critical Strike Chance For Skeletons And Skeletal Mages","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":420,"name":"Increased Spell Damage per Skeletal Mage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":419,"name":"Critical Strike Chance For Skeletons And Skeletal Mages","isIdolAffix":false}
+{"affix":420,"name":"Increased Spell Damage per Skeletal Mage","isIdolAffix":false}
 {"affix":421,"name":"Chance to apply Damned on Hit","isIdolAffix":false}
-{"affix":422,"name":"Damage Leeched as Health While Transformed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":422,"name":"Damage Leeched as Health While Transformed","isIdolAffix":false}
 {"affix":423,"name":"Reduced Health Cost of Spells","isIdolAffix":false}
 {"affix":424,"name":"Physical Spell Critical Strike Chance","isIdolAffix":false}
-{"affix":425,"name":"Endurance Threshold","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":426,"name":"Block Chance and Effectiveness","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":427,"name":"Reduced Bonus Damage Taken from Critical Strikes","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":428,"name":"Chance to apply Frailty on Melee Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":429,"name":"Chance to apply Frailty on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":425,"name":"Endurance Threshold","isIdolAffix":false}
+{"affix":426,"name":"Block Chance and Effectiveness","isIdolAffix":false}
+{"affix":427,"name":"Reduced Bonus Damage Taken from Critical Strikes","isIdolAffix":false}
+{"affix":428,"name":"Chance to apply Frailty on Melee Hit","isIdolAffix":false}
+{"affix":429,"name":"Chance to apply Frailty on Hit","isIdolAffix":false}
 {"affix":430,"name":"Physical Resistance","isIdolAffix":true}
-{"affix":431,"name":"Bow Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":432,"name":"Bow Attack Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":433,"name":"Bow Physical Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":434,"name":"Bow Fire Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":435,"name":"Chance to cast Marrow Shards when you cast Transplant","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":431,"name":"Bow Damage","isIdolAffix":false}
+{"affix":432,"name":"Bow Attack Speed","isIdolAffix":false}
+{"affix":433,"name":"Bow Physical Damage","isIdolAffix":false}
+{"affix":434,"name":"Bow Fire Damage","isIdolAffix":false}
+{"affix":435,"name":"Chance to cast Marrow Shards when you cast Transplant","isIdolAffix":false}
 {"affix":436,"name":"Ward Gained when you create a shadow","isIdolAffix":true}
 {"affix":437,"name":"Ward Gained when you create a shadow","isIdolAffix":false}
-{"affix":438,"name":"Increased Damage of Skills use by Shadows","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":438,"name":"Increased Damage of Skills use by Shadows","isIdolAffix":false}
 {"affix":439,"name":"Increased Damage of Skills use by Shadows","isIdolAffix":false}
-{"affix":440,"name":"Health Gained on Glancing Blow","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":441,"name":"Dodge Rating if Hit Recently","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":440,"name":"Health Gained on Glancing Blow","isIdolAffix":false}
+{"affix":441,"name":"Dodge Rating if Hit Recently","isIdolAffix":false}
 {"affix":442,"name":"Dodge Rating if Hit Recently","isIdolAffix":false}
-{"affix":443,"name":"Chance to Gain Crimson Shroud when you use a Melee Attack that Hits","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":444,"name":"Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown)","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":445,"name":"Increased Critical Strike Chance per Equipped Sword","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":443,"name":"Chance to Gain Crimson Shroud when you use a Melee Attack that Hits","isIdolAffix":false}
+{"affix":444,"name":"Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown)","isIdolAffix":false}
+{"affix":445,"name":"Increased Critical Strike Chance per Equipped Sword","isIdolAffix":false}
 {"affix":446,"name":"Increased Critical Strike Chance per Equipped Sword","isIdolAffix":false}
-{"affix":447,"name":"Increased Critical Strike Chance per Equipped Dagger","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":447,"name":"Increased Critical Strike Chance per Equipped Dagger","isIdolAffix":false}
 {"affix":448,"name":"Increased Critical Strike Chance per Equipped Dagger","isIdolAffix":false}
-{"affix":449,"name":"Chance to Gain Dusk Shroud when Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":449,"name":"Chance to Gain Dusk Shroud when Hit","isIdolAffix":false}
 {"affix":450,"name":"Bleed Chance per equipped sword","isIdolAffix":true}
 {"affix":451,"name":"Bleed Chance per equipped sword","isIdolAffix":false}
-{"affix":452,"name":"Poison Chance per Equipped Dagger","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":452,"name":"Poison Chance per Equipped Dagger","isIdolAffix":false}
 {"affix":453,"name":"Poison Chance per Equipped Dagger","isIdolAffix":false}
-{"affix":454,"name":"Chance to Gain Dusk Shroud when you use a Melee Attack that Hits","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":455,"name":"Health Gained on Dodge","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":456,"name":"Critical Strike Multiplier while Dual Wielding","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":457,"name":"Added Physical Throwing Damage while Dual Wielding","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":458,"name":"Increased Damage while wielding a Sword","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":454,"name":"Chance to Gain Dusk Shroud when you use a Melee Attack that Hits","isIdolAffix":false}
+{"affix":455,"name":"Health Gained on Dodge","isIdolAffix":false}
+{"affix":456,"name":"Critical Strike Multiplier while Dual Wielding","isIdolAffix":false}
+{"affix":457,"name":"Added Physical Throwing Damage while Dual Wielding","isIdolAffix":false}
+{"affix":458,"name":"Increased Damage while wielding a Sword","isIdolAffix":false}
 {"affix":459,"name":"Increased Damage while wielding a Sword","isIdolAffix":false}
-{"affix":460,"name":"Increased Damage while wielding a Dagger","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":460,"name":"Increased Damage while wielding a Dagger","isIdolAffix":false}
 {"affix":461,"name":"Increased Damage while wielding a Dagger","isIdolAffix":false}
-{"affix":462,"name":"Increased Damage while wielding a Bow","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":462,"name":"Increased Damage while wielding a Bow","isIdolAffix":false}
 {"affix":463,"name":"Increased Damage while wielding a Bow","isIdolAffix":false}
-{"affix":464,"name":"Physical Penetration while wielding a Dagger","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":465,"name":"Fire Penetration while wielding a Dagger","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":464,"name":"Physical Penetration while wielding a Dagger","isIdolAffix":false}
+{"affix":465,"name":"Fire Penetration while wielding a Dagger","isIdolAffix":false}
 {"affix":466,"name":"Physical Damage Over Time","isIdolAffix":true}
 {"affix":467,"name":"Fire Penetration with Ignite","isIdolAffix":true}
 {"affix":468,"name":"Fire Penetration with Ignite","isIdolAffix":false}
 {"affix":469,"name":"Increased Poison Damage","isIdolAffix":false}
-{"affix":470,"name":"Throwing Physical Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":470,"name":"Throwing Physical Damage","isIdolAffix":false}
 {"affix":471,"name":"Throwing Physical Damage","isIdolAffix":false}
 {"affix":472,"name":"Chance to Shred Armor on Throwing hit","isIdolAffix":true}
 {"affix":473,"name":"Chance to Shred Armor on Throwing hit","isIdolAffix":false}
-{"affix":474,"name":"Chance to Shred Armor on Melee Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":474,"name":"Chance to Shred Armor on Melee Hit","isIdolAffix":false}
 {"affix":475,"name":"Chance to Shred Armor on Melee Hit","isIdolAffix":false}
-{"affix":476,"name":"Chance to Shred Armor on Bow Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":476,"name":"Chance to Shred Armor on Bow Hit","isIdolAffix":false}
 {"affix":477,"name":"Chance to Shred Armor on Bow Hit","isIdolAffix":false}
 {"affix":478,"name":"Increased Armor Shred Effect","isIdolAffix":true}
 {"affix":479,"name":"Increased Armor Shred Effect","isIdolAffix":false}
-{"affix":480,"name":"Increased Armor Shred Duration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":480,"name":"Increased Armor Shred Duration","isIdolAffix":false}
 {"affix":481,"name":"Increased Armor Shred Duration","isIdolAffix":false}
-{"affix":482,"name":"Chance to Ignite on Bow Hit","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":482,"name":"Chance to Ignite on Bow Hit","isIdolAffix":false}
 {"affix":483,"name":"Chance to Ignite on Bow Hit","isIdolAffix":false}
-{"affix":484,"name":"Chance to Slow on Bow Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":484,"name":"Chance to Slow on Bow Hit","isIdolAffix":false}
 {"affix":485,"name":"Chance to Slow on Bow Hit","isIdolAffix":false}
-{"affix":486,"name":"Physical Penetration with Shadow Daggers","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":486,"name":"Physical Penetration with Shadow Daggers","isIdolAffix":false}
 {"affix":487,"name":"Physical Penetration with Shadow Daggers","isIdolAffix":false}
-{"affix":488,"name":"Bow Elemental Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":488,"name":"Bow Elemental Damage","isIdolAffix":false}
 {"affix":489,"name":"Bow Elemental Damage","isIdolAffix":false}
 {"affix":490,"name":"Throwing Damage","isIdolAffix":true}
 {"affix":491,"name":"Bow Damage","isIdolAffix":true}
-{"affix":492,"name":"Bow Critical Strike Chance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":493,"name":"Chance to Inflict Bleed On Bow Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":492,"name":"Bow Critical Strike Chance","isIdolAffix":false}
+{"affix":493,"name":"Chance to Inflict Bleed On Bow Hit","isIdolAffix":false}
 {"affix":494,"name":"Chance to Inflict Bleed On Bow Hit","isIdolAffix":false}
-{"affix":495,"name":"Increased Area with Cinder Strike's First Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":495,"name":"Increased Area with Cinder Strike's First Strike","isIdolAffix":false}
 {"affix":496,"name":"Increased Area with Cinder Strike's First Strike","isIdolAffix":false}
-{"affix":497,"name":"Increased crit chance with Flurry","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":497,"name":"Increased crit chance with Flurry","isIdolAffix":false}
 {"affix":498,"name":"Increased crit chance with Flurry","isIdolAffix":false}
-{"affix":499,"name":"Physical Penetration with Puncture","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":499,"name":"Physical Penetration with Puncture","isIdolAffix":false}
 {"affix":500,"name":"Physical Penetration with Puncture","isIdolAffix":false}
-{"affix":501,"name":"Strength","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":502,"name":"Intelligence","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":503,"name":"Dexterity","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":504,"name":"Attunement","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":501,"name":"Strength","isIdolAffix":false}
+{"affix":502,"name":"Intelligence","isIdolAffix":false}
+{"affix":503,"name":"Dexterity","isIdolAffix":false}
+{"affix":504,"name":"Attunement","isIdolAffix":false}
 {"affix":505,"name":"Vitality","isIdolAffix":false}
-{"affix":506,"name":"Spell Damage and Reduced Mana Cost","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":507,"name":"Throwing Damage and Reduced Mana Cost","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":508,"name":"Increased Area with Detonating Arrow","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":506,"name":"Spell Damage and Reduced Mana Cost","isIdolAffix":false}
+{"affix":507,"name":"Throwing Damage and Reduced Mana Cost","isIdolAffix":false}
+{"affix":508,"name":"Increased Area with Detonating Arrow","isIdolAffix":false}
 {"affix":509,"name":"Increased Area with Detonating Arrow","isIdolAffix":false}
-{"affix":510,"name":"Increased Damage per arrow with Multishot","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":510,"name":"Increased Damage per arrow with Multishot","isIdolAffix":false}
 {"affix":511,"name":"Increased Damage per arrow with Multishot","isIdolAffix":false}
-{"affix":512,"name":"Increased duration with Hail of Arrows","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":513,"name":"Increased Hail of Arrows Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":514,"name":"Increased Damage per active Shadow with Shadow Cascade","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":512,"name":"Increased duration with Hail of Arrows","isIdolAffix":false}
+{"affix":513,"name":"Increased Hail of Arrows Duration","isIdolAffix":false}
+{"affix":514,"name":"Increased Damage per active Shadow with Shadow Cascade","isIdolAffix":false}
 {"affix":515,"name":"Increased Damage per active Shadow with Shadow Cascade","isIdolAffix":false}
-{"affix":516,"name":"Chance to Inflict Bleed on Hit with Shurikens","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":516,"name":"Chance to Inflict Bleed on Hit with Shurikens","isIdolAffix":false}
 {"affix":517,"name":"Chance to Inflict Bleed on Hit with Shurikens","isIdolAffix":false}
-{"affix":518,"name":"Lightning Damage with Shurikens","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":518,"name":"Lightning Damage with Shurikens","isIdolAffix":false}
 {"affix":519,"name":"Lightning Damage with Shurikens","isIdolAffix":false}
-{"affix":520,"name":"Increased Area with Acid Flask","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":520,"name":"Increased Area with Acid Flask","isIdolAffix":false}
 {"affix":521,"name":"Increased Area with Acid Flask","isIdolAffix":false}
-{"affix":522,"name":"Chance to Summon a Bee with Acid Flask","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":523,"name":"Increased Area with Dancing Strikes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":522,"name":"Chance to Summon a Bee with Acid Flask","isIdolAffix":true}
+{"affix":523,"name":"Increased Area with Dancing Strikes","isIdolAffix":false}
 {"affix":524,"name":"Increased Area with Dancing Strikes","isIdolAffix":false}
 {"affix":525,"name":"Mana efficiency with Synchronized Strike","isIdolAffix":true}
 {"affix":526,"name":"Mana efficiency with Synchronized Strike","isIdolAffix":false}
-{"affix":527,"name":"Mana efficiency with Decoy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":527,"name":"Mana efficiency with Decoy","isIdolAffix":false}
 {"affix":528,"name":"Mana efficiency with Decoy","isIdolAffix":false}
-{"affix":529,"name":"Ward gained on use with Smoke Bomb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":529,"name":"Ward gained on use with Smoke Bomb","isIdolAffix":false}
 {"affix":530,"name":"Ward gained on use with Smoke Bomb","isIdolAffix":false}
-{"affix":531,"name":"Ward gained on use with Shift","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":531,"name":"Ward gained on use with Shift","isIdolAffix":false}
 {"affix":532,"name":"Ward gained on use with Shift","isIdolAffix":false}
-{"affix":533,"name":"Black Arrows dropped by Dark Quiver and Increased Bow Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":533,"name":"Black Arrows dropped by Dark Quiver and Increased Bow Damage","isIdolAffix":false}
 {"affix":534,"name":"Black Arrows dropped by Dark Quiver and Increased Bow Damage","isIdolAffix":false}
 {"affix":535,"name":"Bow Physical Damage for Ballista","isIdolAffix":true}
-{"affix":536,"name":"Max Ballista and Increased Ballista Attack Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":537,"name":"Mirages and Mana Efficiency with Lethal Mirage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":538,"name":"Increased Area of mirage attacks with Lethal Mirage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":539,"name":"Level of Swipe","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":540,"name":"Level of Summon Wolf","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":541,"name":"Level of Tornado","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":542,"name":"Level of Fury Leap","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":543,"name":"Level of Summon Thorn Totem","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":544,"name":"Level of Summon Spriggan","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":545,"name":"Level of Summon Frenzy Totem","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":546,"name":"Level of Elemental Nova","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":547,"name":"Level of Mana Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":548,"name":"Fireball Pierce Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":549,"name":"Level of Fireball","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":550,"name":"Level of Glacier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":551,"name":"Level of Meteor","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":552,"name":"Level of Teleport","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":553,"name":"Level of Volcanic Orb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":554,"name":"Level of Black Hole","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":555,"name":"Level of Summon Bear","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":556,"name":"Level of Static Orb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":557,"name":"Level of Lightning Blast","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":558,"name":"Level of Serpent Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":559,"name":"Level of Entangling Roots","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":560,"name":"Level of Anomaly","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":561,"name":"Level of Warpath","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":562,"name":"Level of Devouring Orb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":563,"name":"Level of Rive","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":564,"name":"Level of Hammer Throw","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":565,"name":"Level of Shield Rush","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":566,"name":"Level of Volatile Reversal","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":567,"name":"Level of Abyssal Echoes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":568,"name":"Level of Erasing Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":569,"name":"Level of Vengeance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":570,"name":"Level of Shield Throw","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":571,"name":"Level of Dread Shade","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":572,"name":"Level of Summon Skeleton","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":536,"name":"Max Ballista and Increased Ballista Attack Speed","isIdolAffix":false}
+{"affix":537,"name":"Mirages and Mana Efficiency with Lethal Mirage","isIdolAffix":false}
+{"affix":538,"name":"Increased Area of mirage attacks with Lethal Mirage","isIdolAffix":false}
+{"affix":539,"name":"Level of Swipe","isIdolAffix":false}
+{"affix":540,"name":"Level of Summon Wolf","isIdolAffix":true}
+{"affix":541,"name":"Level of Tornado","isIdolAffix":false}
+{"affix":542,"name":"Level of Fury Leap","isIdolAffix":false}
+{"affix":543,"name":"Level of Summon Thorn Totem","isIdolAffix":true}
+{"affix":544,"name":"Level of Summon Spriggan","isIdolAffix":true}
+{"affix":545,"name":"Level of Summon Frenzy Totem","isIdolAffix":true}
+{"affix":546,"name":"Level of Elemental Nova","isIdolAffix":false}
+{"affix":547,"name":"Level of Mana Strike","isIdolAffix":false}
+{"affix":548,"name":"Fireball Pierce Chance","isIdolAffix":false}
+{"affix":549,"name":"Level of Fireball","isIdolAffix":false}
+{"affix":550,"name":"Level of Glacier","isIdolAffix":false}
+{"affix":551,"name":"Level of Meteor","isIdolAffix":false}
+{"affix":552,"name":"Level of Teleport","isIdolAffix":false}
+{"affix":553,"name":"Level of Volcanic Orb","isIdolAffix":false}
+{"affix":554,"name":"Level of Black Hole","isIdolAffix":false}
+{"affix":555,"name":"Level of Summon Bear","isIdolAffix":true}
+{"affix":556,"name":"Level of Static Orb","isIdolAffix":false}
+{"affix":557,"name":"Level of Lightning Blast","isIdolAffix":false}
+{"affix":558,"name":"Level of Serpent Strike","isIdolAffix":false}
+{"affix":559,"name":"Level of Entangling Roots","isIdolAffix":false}
+{"affix":560,"name":"Level of Anomaly","isIdolAffix":false}
+{"affix":561,"name":"Level of Warpath","isIdolAffix":false}
+{"affix":562,"name":"Level of Devouring Orb","isIdolAffix":false}
+{"affix":563,"name":"Level of Rive","isIdolAffix":false}
+{"affix":564,"name":"Level of Hammer Throw","isIdolAffix":false}
+{"affix":565,"name":"Level of Shield Rush","isIdolAffix":false}
+{"affix":566,"name":"Level of Volatile Reversal","isIdolAffix":false}
+{"affix":567,"name":"Level of Abyssal Echoes","isIdolAffix":false}
+{"affix":568,"name":"Level of Erasing Strike","isIdolAffix":false}
+{"affix":569,"name":"Level of Vengeance","isIdolAffix":false}
+{"affix":570,"name":"Level of Shield Throw","isIdolAffix":false}
+{"affix":571,"name":"Level of Dread Shade","isIdolAffix":false}
+{"affix":572,"name":"Level of Summon Skeleton","isIdolAffix":true}
 {"affix":573,"name":"Level of Infernal Strike","isIdolAffix":false}
-{"affix":574,"name":"Level of Sacrifice","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":575,"name":"Level of Focus","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":576,"name":"Level of Aura Of Decay","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":577,"name":"Level of Hungering Souls","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":578,"name":"Level of Rip Blood","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":579,"name":"Level of Summon Wraith","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":580,"name":"Level of Summon Bone Golem","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":581,"name":"Level of Wandering Spirits","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":582,"name":"Level of Marrow Shards","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":583,"name":"Level of Transplant","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":584,"name":"Level of Flame Reave","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":585,"name":"Level of Summon Storm Totem","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":586,"name":"Level of Soul Feast","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":587,"name":"Level of Snap Freeze","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":588,"name":"Level of Lunge","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":589,"name":"Level of Rebuke","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":590,"name":"Level of Summon Sabertooth","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":591,"name":"Level of Summon Scorpion","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":574,"name":"Level of Sacrifice","isIdolAffix":false}
+{"affix":575,"name":"Level of Focus","isIdolAffix":false}
+{"affix":576,"name":"Level of Aura Of Decay","isIdolAffix":false}
+{"affix":577,"name":"Level of Hungering Souls","isIdolAffix":false}
+{"affix":578,"name":"Level of Rip Blood","isIdolAffix":false}
+{"affix":579,"name":"Level of Summon Wraith","isIdolAffix":true}
+{"affix":580,"name":"Level of Summon Bone Golem","isIdolAffix":true}
+{"affix":581,"name":"Level of Wandering Spirits","isIdolAffix":false}
+{"affix":582,"name":"Level of Marrow Shards","isIdolAffix":false}
+{"affix":583,"name":"Level of Transplant","isIdolAffix":false}
+{"affix":584,"name":"Level of Flame Reave","isIdolAffix":false}
+{"affix":585,"name":"Level of Summon Storm Totem","isIdolAffix":true}
+{"affix":586,"name":"Level of Soul Feast","isIdolAffix":false}
+{"affix":587,"name":"Level of Snap Freeze","isIdolAffix":false}
+{"affix":588,"name":"Level of Lunge","isIdolAffix":false}
+{"affix":589,"name":"Level of Rebuke","isIdolAffix":false}
+{"affix":590,"name":"Level of Summon Sabertooth","isIdolAffix":true}
+{"affix":591,"name":"Level of Summon Scorpion","isIdolAffix":true}
 {"affix":592,"name":"Level of Ring of Shields","isIdolAffix":false}
-{"affix":593,"name":"Level of Firebrand","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":594,"name":"Level of Harvest","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":595,"name":"Level of Eterra's Blessing","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":596,"name":"Level of Judgement","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":597,"name":"Level of Shatter Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":598,"name":"Level of Enchant Weapon","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":599,"name":"Level of Avalanche","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":600,"name":"Level of Symbols Of Hope","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":601,"name":"Level of Holy Aura","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":602,"name":"Level of Werebear Form","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":603,"name":"Level of Smite","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":604,"name":"Level of Manifest Armor","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":605,"name":"Level of Forge Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":606,"name":"Level of Spriggan Form","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":607,"name":"Level of Reaper Form","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":608,"name":"Level of Acid Flask","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":609,"name":"Level of Shadow Cascade","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":610,"name":"Level of Flurry","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":611,"name":"Level of Shurikens","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":612,"name":"Level of Dancing Strikes","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":613,"name":"Level of Multishot","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":614,"name":"Level of Puncture","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":615,"name":"Level of Decoy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":616,"name":"Level of Cinder Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":617,"name":"Level of Detonating Arrow","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":618,"name":"Level of Hail of Arrows","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":619,"name":"Level of Shift","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":620,"name":"Level of Synchronized Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":621,"name":"Level of Tempest Strike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":622,"name":"Level of Gathering Storm","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":623,"name":"Level of Summon Skeletal Mage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":624,"name":"Level of Static","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":625,"name":"Level of Disintegrate","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":626,"name":"Level of Maelstrom","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":627,"name":"Level of Summon Raptor","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":628,"name":"Level of Flame Ward","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":629,"name":"Level of Earthquake","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":593,"name":"Level of Firebrand","isIdolAffix":false}
+{"affix":594,"name":"Level of Harvest","isIdolAffix":false}
+{"affix":595,"name":"Level of Eterra's Blessing","isIdolAffix":true}
+{"affix":596,"name":"Level of Judgement","isIdolAffix":false}
+{"affix":597,"name":"Level of Shatter Strike","isIdolAffix":false}
+{"affix":598,"name":"Level of Enchant Weapon","isIdolAffix":false}
+{"affix":599,"name":"Level of Avalanche","isIdolAffix":false}
+{"affix":600,"name":"Level of Symbols Of Hope","isIdolAffix":false}
+{"affix":601,"name":"Level of Holy Aura","isIdolAffix":false}
+{"affix":602,"name":"Level of Werebear Form","isIdolAffix":false}
+{"affix":603,"name":"Level of Smite","isIdolAffix":false}
+{"affix":604,"name":"Level of Manifest Armor","isIdolAffix":false}
+{"affix":605,"name":"Level of Forge Strike","isIdolAffix":false}
+{"affix":606,"name":"Level of Spriggan Form","isIdolAffix":false}
+{"affix":607,"name":"Level of Reaper Form","isIdolAffix":false}
+{"affix":608,"name":"Level of Acid Flask","isIdolAffix":false}
+{"affix":609,"name":"Level of Shadow Cascade","isIdolAffix":false}
+{"affix":610,"name":"Level of Flurry","isIdolAffix":false}
+{"affix":611,"name":"Level of Shurikens","isIdolAffix":false}
+{"affix":612,"name":"Level of Dancing Strikes","isIdolAffix":false}
+{"affix":613,"name":"Level of Multishot","isIdolAffix":false}
+{"affix":614,"name":"Level of Puncture","isIdolAffix":false}
+{"affix":615,"name":"Level of Decoy","isIdolAffix":false}
+{"affix":616,"name":"Level of Cinder Strike","isIdolAffix":false}
+{"affix":617,"name":"Level of Detonating Arrow","isIdolAffix":false}
+{"affix":618,"name":"Level of Hail of Arrows","isIdolAffix":false}
+{"affix":619,"name":"Level of Shift","isIdolAffix":false}
+{"affix":620,"name":"Level of Synchronized Strike","isIdolAffix":false}
+{"affix":621,"name":"Level of Tempest Strike","isIdolAffix":false}
+{"affix":622,"name":"Level of Gathering Storm","isIdolAffix":false}
+{"affix":623,"name":"Level of Summon Skeletal Mage","isIdolAffix":true}
+{"affix":624,"name":"Level of Static","isIdolAffix":false}
+{"affix":625,"name":"Level of Disintegrate","isIdolAffix":false}
+{"affix":626,"name":"Level of Maelstrom","isIdolAffix":false}
+{"affix":627,"name":"Level of Summon Raptor","isIdolAffix":true}
+{"affix":628,"name":"Level of Flame Ward","isIdolAffix":false}
+{"affix":629,"name":"Level of Earthquake","isIdolAffix":false}
 {"affix":630,"name":"Level of Arcane Ascendence","isIdolAffix":false}
-{"affix":631,"name":"Level of Smelter's Wrath","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":632,"name":"Level of Drain Life","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":633,"name":"Level of Assemble Abomination","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":634,"name":"Level of Spirit Plague","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":635,"name":"Level of Bone Curse","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":636,"name":"Level of Death Seal","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":637,"name":"Level of Ice Barrage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":638,"name":"Level of Dark Quiver","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":639,"name":"Level of Shield Bash","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":640,"name":"Level of Ballista","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":641,"name":"Level of Lethal Mirage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":642,"name":"Level of Smoke Bomb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":643,"name":"Minion Melee and Spell Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":644,"name":"Level of Warcry","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":645,"name":"Level of Surge","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":646,"name":"Level of Summon Storm Crow","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":647,"name":"Level of Summon Volatile Zombie","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":648,"name":"Spell Damage for Storm Crows","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":649,"name":"Volatile Zombie Speed and Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":650,"name":"Volatile Zombie Damage and Explosion Area","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":651,"name":"Increased Cooldown Recovery Speed for Surge","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":652,"name":"Level of Multistrike","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":653,"name":"Level of Void Cleave","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":654,"name":"Level of Javelin","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":655,"name":"Added Javelin Lightning Throwing Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":631,"name":"Level of Smelter's Wrath","isIdolAffix":false}
+{"affix":632,"name":"Level of Drain Life","isIdolAffix":false}
+{"affix":633,"name":"Level of Assemble Abomination","isIdolAffix":false}
+{"affix":634,"name":"Level of Spirit Plague","isIdolAffix":false}
+{"affix":635,"name":"Level of Bone Curse","isIdolAffix":false}
+{"affix":636,"name":"Level of Death Seal","isIdolAffix":false}
+{"affix":637,"name":"Level of Ice Barrage","isIdolAffix":false}
+{"affix":638,"name":"Level of Dark Quiver","isIdolAffix":false}
+{"affix":639,"name":"Level of Shield Bash","isIdolAffix":false}
+{"affix":640,"name":"Level of Ballista","isIdolAffix":false}
+{"affix":641,"name":"Level of Lethal Mirage","isIdolAffix":false}
+{"affix":642,"name":"Level of Smoke Bomb","isIdolAffix":false}
+{"affix":643,"name":"Minion Melee and Spell Damage","isIdolAffix":true}
+{"affix":644,"name":"Level of Warcry","isIdolAffix":false}
+{"affix":645,"name":"Level of Surge","isIdolAffix":false}
+{"affix":646,"name":"Level of Summon Storm Crow","isIdolAffix":true}
+{"affix":647,"name":"Level of Summon Volatile Zombie","isIdolAffix":true}
+{"affix":648,"name":"Spell Damage for Storm Crows","isIdolAffix":false}
+{"affix":649,"name":"Volatile Zombie Speed and Damage","isIdolAffix":false}
+{"affix":650,"name":"Volatile Zombie Damage and Explosion Area","isIdolAffix":false}
+{"affix":651,"name":"Increased Cooldown Recovery Speed for Surge","isIdolAffix":false}
+{"affix":652,"name":"Level of Multistrike","isIdolAffix":false}
+{"affix":653,"name":"Level of Void Cleave","isIdolAffix":false}
+{"affix":654,"name":"Level of Javelin","isIdolAffix":false}
+{"affix":655,"name":"Added Javelin Lightning Throwing Damage","isIdolAffix":false}
 {"affix":656,"name":"Endurance while Channeling Warpath","isIdolAffix":false}
-{"affix":657,"name":"Added Static Orb Tendrils","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":657,"name":"Added Static Orb Tendrils","isIdolAffix":false}
 {"affix":658,"name":"Percent Missing Health Restored on Lunge","isIdolAffix":true}
 {"affix":659,"name":"Chance for Additional Multistrike Swords","isIdolAffix":true}
-{"affix":660,"name":"Level of Swarmblade Form","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":661,"name":"Level of Upheaval","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":662,"name":"Level of Umbral Blades","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":663,"name":"Armor Shred Chance for Locusts","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":664,"name":"Melee Physical Damage For Swarm Strike and Locusts","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":665,"name":"Chance to create a Shockwave on Hit with Upheaval","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":666,"name":"Increased Attack and Cast Speed for Summoned Vines","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":667,"name":"Critical Strike Chance with Rampage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":668,"name":"Increased Damage with Umbral Blades per stack of Dusk Shroud","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":669,"name":"Bow Lightning Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":670,"name":"Bow Cold Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":671,"name":"Increased Area for Melee Area Skills","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":672,"name":"Crit Chance and Bow Attack Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":673,"name":"Experimental Ward on Kill","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":674,"name":"Experimental Dodge Rating and Endurance Threshold","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":675,"name":"Experimental Ward per Missing Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":676,"name":"Experimental Haste Effect","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":677,"name":"Experimental Frenzy Effect","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":678,"name":"Experimental Ward Gained on Traversal","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":679,"name":"Experimental Minions Transported with Traversal Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":680,"name":"Level of Flame Rush","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":681,"name":"Level of Runebolt","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":682,"name":"Level of Runic Invocation","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":683,"name":"Level of Frostwall","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":684,"name":"Level of Glyph of Dominion","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":660,"name":"Level of Swarmblade Form","isIdolAffix":false}
+{"affix":661,"name":"Level of Upheaval","isIdolAffix":false}
+{"affix":662,"name":"Level of Umbral Blades","isIdolAffix":false}
+{"affix":663,"name":"Armor Shred Chance for Locusts","isIdolAffix":false}
+{"affix":664,"name":"Melee Physical Damage For Swarm Strike and Locusts","isIdolAffix":false}
+{"affix":665,"name":"Chance to create a Shockwave on Hit with Upheaval","isIdolAffix":false}
+{"affix":666,"name":"Increased Attack and Cast Speed for Summoned Vines","isIdolAffix":true}
+{"affix":667,"name":"Critical Strike Chance with Rampage","isIdolAffix":false}
+{"affix":668,"name":"Increased Damage with Umbral Blades per stack of Dusk Shroud","isIdolAffix":false}
+{"affix":669,"name":"Bow Lightning Damage","isIdolAffix":false}
+{"affix":670,"name":"Bow Cold Damage","isIdolAffix":false}
+{"affix":671,"name":"Increased Area for Melee Area Skills","isIdolAffix":false}
+{"affix":672,"name":"Crit Chance and Bow Attack Speed","isIdolAffix":false}
+{"affix":673,"name":"Experimental Ward on Kill","isIdolAffix":false}
+{"affix":674,"name":"Experimental Dodge Rating and Endurance Threshold","isIdolAffix":false}
+{"affix":675,"name":"Experimental Ward per Missing Health","isIdolAffix":false}
+{"affix":676,"name":"Experimental Haste Effect","isIdolAffix":false}
+{"affix":677,"name":"Experimental Frenzy Effect","isIdolAffix":false}
+{"affix":678,"name":"Experimental Ward Gained on Traversal","isIdolAffix":false}
+{"affix":679,"name":"Experimental Minions Transported with Traversal Skills","isIdolAffix":true}
+{"affix":680,"name":"Level of Flame Rush","isIdolAffix":false}
+{"affix":681,"name":"Level of Runebolt","isIdolAffix":false}
+{"affix":682,"name":"Level of Runic Invocation","isIdolAffix":false}
+{"affix":683,"name":"Level of Frostwall","isIdolAffix":false}
+{"affix":684,"name":"Level of Glyph of Dominion","isIdolAffix":true}
 {"affix":685,"name":"Elemental Bees per 10 seconds","isIdolAffix":true}
-{"affix":686,"name":"Ward per Second for you or your allies while standing on your Glyph of Dominion","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":686,"name":"Ward per Second for you or your allies while standing on your Glyph of Dominion","isIdolAffix":true}
 {"affix":687,"name":"Ward per Second for you or your allies while standing on your Glyph of Dominion","isIdolAffix":false}
-{"affix":688,"name":"Increased Speed and Distance with Flame Rush","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":689,"name":"Increased area for Elemental Area Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":690,"name":"Chance to Gain 20 Mana when you directly Cast Runebolt or Fireball","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":691,"name":"Ward Gained per Rune consumed with Runic Invocation","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":692,"name":"Ward gained per Rune consumed with Runic Invocation","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":693,"name":"Penetration with Fire Invocations","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":694,"name":"Penetration with Cold Invocations","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":695,"name":"Frost Wall Duration and Frostbite Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":696,"name":"Penetration with Lightning Invocations","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":697,"name":"Frost Wall Fire Conversion","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":698,"name":"Julra's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":688,"name":"Increased Speed and Distance with Flame Rush","isIdolAffix":false}
+{"affix":689,"name":"Increased area for Elemental Area Skills","isIdolAffix":false}
+{"affix":690,"name":"Chance to Gain 20 Mana when you directly Cast Runebolt or Fireball","isIdolAffix":false}
+{"affix":691,"name":"Ward Gained per Rune consumed with Runic Invocation","isIdolAffix":false}
+{"affix":692,"name":"Ward gained per Rune consumed with Runic Invocation","isIdolAffix":false}
+{"affix":693,"name":"Penetration with Fire Invocations","isIdolAffix":false}
+{"affix":694,"name":"Penetration with Cold Invocations","isIdolAffix":false}
+{"affix":695,"name":"Frost Wall Duration and Frostbite Chance","isIdolAffix":false}
+{"affix":696,"name":"Penetration with Lightning Invocations","isIdolAffix":false}
+{"affix":697,"name":"Frost Wall Fire Conversion","isIdolAffix":false}
+{"affix":698,"name":"Julra's","isIdolAffix":false}
 {"affix":699,"name":"of the Timelost Outcast","isIdolAffix":false}
-{"affix":700,"name":"Cave Druid's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":701,"name":"Ward gained when damage leaves you at low health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":702,"name":"Solar Deserter's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":703,"name":"Bloom Tender's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":704,"name":"Orian's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":705,"name":"Ucenui's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":706,"name":"Hirish's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":700,"name":"Cave Druid's","isIdolAffix":false}
+{"affix":701,"name":"Ward gained when damage leaves you at low health","isIdolAffix":false}
+{"affix":702,"name":"Solar Deserter's","isIdolAffix":false}
+{"affix":703,"name":"Bloom Tender's","isIdolAffix":false}
+{"affix":704,"name":"Orian's","isIdolAffix":false}
+{"affix":705,"name":"Ucenui's","isIdolAffix":false}
+{"affix":706,"name":"Hirish's","isIdolAffix":false}
 {"affix":707,"name":"of the Last Hermit","isIdolAffix":false}
 {"affix":708,"name":"Andinal's","isIdolAffix":false}
-{"affix":709,"name":"Level of Frost Claw","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":710,"name":"Experimental Armor applies to Damage over Time","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":709,"name":"Level of Frost Claw","isIdolAffix":false}
+{"affix":710,"name":"Experimental Armor applies to Damage over Time","isIdolAffix":false}
 {"affix":711,"name":"Experimental Ward on Potion use","isIdolAffix":false}
 {"affix":712,"name":"Experimental Mana on Potion use","isIdolAffix":false}
-{"affix":713,"name":"Experimental Traversal Cooldown Recovery on Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":714,"name":"Experimental Bee on Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":715,"name":"Armor and Reduced Bonus Damage from Crits","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":716,"name":"Frost Claw Mana Efficiency and Elemental Penetration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":717,"name":"Parry Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":718,"name":"Mana and Mana Regen","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":719,"name":"Physical Penetration and Minion Physical Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":720,"name":"Fire Penetration and Minion Fire Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":721,"name":"Cold Penetration and Minion Cold Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":722,"name":"Lightning Penetration and Minion Lightning Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":723,"name":"Void Penetration and Minion Void Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":724,"name":"Necrotic Penetration and Minion Necrotic Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":725,"name":"Poison Penetration and Minion Poison Penetration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":726,"name":"Level of Healing Hands","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":727,"name":"Level of Falconry","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":728,"name":"Level of Dive Bomb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":729,"name":"Level of Explosive Trap","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":730,"name":"Level of Aerial Assault","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":731,"name":"Level of Net","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":732,"name":"Level of Profane Veil","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":733,"name":"Level of Chthonic Fissure","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":734,"name":"Level of Chaos Bolts","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":735,"name":"Level of Ghostflame","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":713,"name":"Experimental Traversal Cooldown Recovery on Potion Use","isIdolAffix":false}
+{"affix":714,"name":"Experimental Bee on Potion Use","isIdolAffix":false}
+{"affix":715,"name":"Armor and Reduced Bonus Damage from Crits","isIdolAffix":false}
+{"affix":716,"name":"Frost Claw Mana Efficiency and Elemental Penetration","isIdolAffix":false}
+{"affix":717,"name":"Parry Chance","isIdolAffix":false}
+{"affix":718,"name":"Mana and Mana Regen","isIdolAffix":false}
+{"affix":719,"name":"Physical Penetration and Minion Physical Penetration","isIdolAffix":true}
+{"affix":720,"name":"Fire Penetration and Minion Fire Penetration","isIdolAffix":true}
+{"affix":721,"name":"Cold Penetration and Minion Cold Penetration","isIdolAffix":true}
+{"affix":722,"name":"Lightning Penetration and Minion Lightning Penetration","isIdolAffix":true}
+{"affix":723,"name":"Void Penetration and Minion Void Penetration","isIdolAffix":true}
+{"affix":724,"name":"Necrotic Penetration and Minion Necrotic Penetration","isIdolAffix":true}
+{"affix":725,"name":"Poison Penetration and Minion Poison Penetration","isIdolAffix":true}
+{"affix":726,"name":"Level of Healing Hands","isIdolAffix":false}
+{"affix":727,"name":"Level of Falconry","isIdolAffix":false}
+{"affix":728,"name":"Level of Dive Bomb","isIdolAffix":false}
+{"affix":729,"name":"Level of Explosive Trap","isIdolAffix":false}
+{"affix":730,"name":"Level of Aerial Assault","isIdolAffix":false}
+{"affix":731,"name":"Level of Net","isIdolAffix":false}
+{"affix":732,"name":"Level of Profane Veil","isIdolAffix":false}
+{"affix":733,"name":"Level of Chthonic Fissure","isIdolAffix":false}
+{"affix":734,"name":"Level of Chaos Bolts","isIdolAffix":false}
+{"affix":735,"name":"Level of Ghostflame","isIdolAffix":false}
 {"affix":736,"name":"Less frequency of Storm Stacks and Added Damage with Storm Bolt","isIdolAffix":true}
-{"affix":737,"name":"Chance to Gain a Storm Stack when you use Gathering Storm and Hit an enemy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":738,"name":"Throwing Damage with Caltrops","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":739,"name":"Damage and Area with Dive Bomb","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":737,"name":"Chance to Gain a Storm Stack when you use Gathering Storm and Hit an enemy","isIdolAffix":false}
+{"affix":738,"name":"Throwing Damage with Caltrops","isIdolAffix":false}
+{"affix":739,"name":"Damage and Area with Dive Bomb","isIdolAffix":false}
 {"affix":740,"name":"Rogue Falcon Poison Bleed Chance","isIdolAffix":true}
-{"affix":741,"name":"Rogue Caltrops Area and Armor Shred","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":742,"name":"Chance to apply Critical Vulnerability on hit with Caltrops","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":743,"name":"Shared Critical Strike Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":741,"name":"Rogue Caltrops Area and Armor Shred","isIdolAffix":false}
+{"affix":742,"name":"Chance to apply Critical Vulnerability on hit with Caltrops","isIdolAffix":false}
+{"affix":743,"name":"Shared Critical Strike Multiplier","isIdolAffix":false}
 {"affix":744,"name":"chance to deal Double Damage with Falcon Strikes","isIdolAffix":true}
-{"affix":745,"name":"Explosive Trap Maximum and Throwing Speed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":746,"name":"Increased area for Throwing Area Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":747,"name":"Chance for 3 additional projectiles when you directly cast Chaos Bolts","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":748,"name":"Increased Spirit Frequency with Chthonic Fissure","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":749,"name":"Spell Damage for Curses","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":745,"name":"Explosive Trap Maximum and Throwing Speed","isIdolAffix":false}
+{"affix":746,"name":"Increased area for Throwing Area Skills","isIdolAffix":false}
+{"affix":747,"name":"Chance for 3 additional projectiles when you directly cast Chaos Bolts","isIdolAffix":false}
+{"affix":748,"name":"Increased Spirit Frequency with Chthonic Fissure","isIdolAffix":false}
+{"affix":749,"name":"Spell Damage for Curses","isIdolAffix":false}
 {"affix":750,"name":"Spell Damage for Curses","isIdolAffix":true}
-{"affix":751,"name":"Ward per Second while channeling Ghostflame","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":752,"name":"Mana Efficiency with Ghostflame","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":753,"name":"Mana Efficiency and Wither Chance with Soul Feast","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":754,"name":"Increased Duration for Profane Veil","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":755,"name":"Ward per Second during Profane Veil","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":756,"name":"Increased Cast Speed while Cursed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":757,"name":"Increased Damage Over Time while you have an Ailment Overload","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":758,"name":"Cursed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":759,"name":"Mana and Mana Spent Gained as Ward","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":760,"name":"Dodge while Evading and Increased Dodge Rating","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":761,"name":"Level of Heartseeker","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":762,"name":"Recurve Chance with Heartseeker","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":763,"name":"Rogue Recurve Chance and Bow Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":751,"name":"Ward per Second while channeling Ghostflame","isIdolAffix":false}
+{"affix":752,"name":"Mana Efficiency with Ghostflame","isIdolAffix":false}
+{"affix":753,"name":"Mana Efficiency and Wither Chance with Soul Feast","isIdolAffix":false}
+{"affix":754,"name":"Increased Duration for Profane Veil","isIdolAffix":false}
+{"affix":755,"name":"Ward per Second during Profane Veil","isIdolAffix":false}
+{"affix":756,"name":"Increased Cast Speed while Cursed","isIdolAffix":false}
+{"affix":757,"name":"Increased Damage Over Time while you have an Ailment Overload","isIdolAffix":false}
+{"affix":758,"name":"Cursed","isIdolAffix":false}
+{"affix":759,"name":"Mana and Mana Spent Gained as Ward","isIdolAffix":false}
+{"affix":760,"name":"Dodge while Evading and Increased Dodge Rating","isIdolAffix":false}
+{"affix":761,"name":"Level of Heartseeker","isIdolAffix":false}
+{"affix":762,"name":"Recurve Chance with Heartseeker","isIdolAffix":false}
+{"affix":763,"name":"Rogue Recurve Chance and Bow Damage","isIdolAffix":false}
 {"affix":764,"name":"Chancve to Electrify with Lightning Skills","isIdolAffix":false}
-{"affix":765,"name":"Chance To Inflict Time Rot on hit with Void Skills","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":766,"name":"Death Grip Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":767,"name":"Mirage Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":768,"name":"Spark Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":769,"name":"Infernal Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":770,"name":"Whirlpool Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":771,"name":"Volcano Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":772,"name":"Carnage Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":773,"name":"Abyssal Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":774,"name":"Profane Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":775,"name":"Venomous Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":776,"name":"Meteor Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":777,"name":"River Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":778,"name":"Storm Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":779,"name":"Portal Champion's","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":780,"name":"Boardman's Fallacy Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":781,"name":"Boardman's Legacy Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":782,"name":"Boardman's Plank Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":783,"name":"Corsair's Blood Cowl Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":784,"name":"Corsair's Boarding Shield Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":785,"name":"Ferebor's Persistence Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":786,"name":"Ferebor's Chisel Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":787,"name":"Blade of the Forgotten Knight Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":788,"name":"Defiance of the Forgotten Knight Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":789,"name":"Locket of the Forgotten Knight Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":790,"name":"Gaspar's Acuity Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":791,"name":"Gaspar's Insight Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":792,"name":"Gaspar's Will Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":793,"name":"Halvar's Pledge Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":794,"name":"Halvar's Stand Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":795,"name":"Last Gift of the Mountain Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":796,"name":"The Invoker's Frozen Heart Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":797,"name":"The Invoker's Scorching Grasp Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":798,"name":"The Invoker's Static Touch Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":799,"name":"Isadora's Revenge Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":800,"name":"Isadora's Gravechill Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":801,"name":"Isadora's Tomb Binding Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":802,"name":"The Last Bear's Lament Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":803,"name":"The Last Bear's Scorn Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":804,"name":"The Last Bear's Fury Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":805,"name":"Lich's Envy Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":806,"name":"Lich's Scorn Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":807,"name":"Pebbles' Bitemarked Sash Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":808,"name":"Pebbles' Femur Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":809,"name":"Pebbles' Collar Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":810,"name":"Ruby Fang Cleaver Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":811,"name":"Ruby Fang Aegis Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":812,"name":"Shard of the Shattered Lance Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":813,"name":"Fragments of the Shattered Lance Reforged","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":814,"name":"Sinathia's Dying Breath Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":815,"name":"Sinathia's Resurrection Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":816,"name":"Sunforged Greathelm Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":817,"name":"Sunforged Cuirass Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":818,"name":"Sunforged Hammer Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":819,"name":"Vilatria's Downfall Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":820,"name":"Vilatria's Storm Crown Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":821,"name":"Zerrick's Guile Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":822,"name":"Zerrick's Greed Reforged","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":765,"name":"Chance To Inflict Time Rot on hit with Void Skills","isIdolAffix":false}
+{"affix":766,"name":"Death Grip Champion's","isIdolAffix":false}
+{"affix":767,"name":"Mirage Champion's","isIdolAffix":false}
+{"affix":768,"name":"Spark Champion's","isIdolAffix":false}
+{"affix":769,"name":"Infernal Champion's","isIdolAffix":false}
+{"affix":770,"name":"Whirlpool Champion's","isIdolAffix":false}
+{"affix":771,"name":"Volcano Champion's","isIdolAffix":false}
+{"affix":772,"name":"Carnage Champion's","isIdolAffix":false}
+{"affix":773,"name":"Abyssal Champion's","isIdolAffix":false}
+{"affix":774,"name":"Profane Champion's","isIdolAffix":false}
+{"affix":775,"name":"Venomous Champion's","isIdolAffix":false}
+{"affix":776,"name":"Meteor Champion's","isIdolAffix":false}
+{"affix":777,"name":"River Champion's","isIdolAffix":false}
+{"affix":778,"name":"Storm Champion's","isIdolAffix":false}
+{"affix":779,"name":"Portal Champion's","isIdolAffix":false}
+{"affix":780,"name":"Boardman's Fallacy Reforged","isIdolAffix":false}
+{"affix":781,"name":"Boardman's Legacy Reforged","isIdolAffix":false}
+{"affix":782,"name":"Boardman's Plank Reforged","isIdolAffix":false}
+{"affix":783,"name":"Corsair's Blood Cowl Reforged","isIdolAffix":false}
+{"affix":784,"name":"Corsair's Boarding Shield Reforged","isIdolAffix":false}
+{"affix":785,"name":"Ferebor's Persistence Reforged","isIdolAffix":false}
+{"affix":786,"name":"Ferebor's Chisel Reforged","isIdolAffix":false}
+{"affix":787,"name":"Blade of the Forgotten Knight Reforged","isIdolAffix":false}
+{"affix":788,"name":"Defiance of the Forgotten Knight Reforged","isIdolAffix":false}
+{"affix":789,"name":"Locket of the Forgotten Knight Reforged","isIdolAffix":false}
+{"affix":790,"name":"Gaspar's Acuity Reforged","isIdolAffix":false}
+{"affix":791,"name":"Gaspar's Insight Reforged","isIdolAffix":false}
+{"affix":792,"name":"Gaspar's Will Reforged","isIdolAffix":false}
+{"affix":793,"name":"Halvar's Pledge Reforged","isIdolAffix":false}
+{"affix":794,"name":"Halvar's Stand Reforged","isIdolAffix":false}
+{"affix":795,"name":"Last Gift of the Mountain Reforged","isIdolAffix":false}
+{"affix":796,"name":"The Invoker's Frozen Heart Reforged","isIdolAffix":false}
+{"affix":797,"name":"The Invoker's Scorching Grasp Reforged","isIdolAffix":false}
+{"affix":798,"name":"The Invoker's Static Touch Reforged","isIdolAffix":false}
+{"affix":799,"name":"Isadora's Revenge Reforged","isIdolAffix":false}
+{"affix":800,"name":"Isadora's Gravechill Reforged","isIdolAffix":false}
+{"affix":801,"name":"Isadora's Tomb Binding Reforged","isIdolAffix":false}
+{"affix":802,"name":"The Last Bear's Lament Reforged","isIdolAffix":false}
+{"affix":803,"name":"The Last Bear's Scorn Reforged","isIdolAffix":false}
+{"affix":804,"name":"The Last Bear's Fury Reforged","isIdolAffix":false}
+{"affix":805,"name":"Lich's Envy Reforged","isIdolAffix":false}
+{"affix":806,"name":"Lich's Scorn Reforged","isIdolAffix":false}
+{"affix":807,"name":"Pebbles' Bitemarked Sash Reforged","isIdolAffix":false}
+{"affix":808,"name":"Pebbles' Femur Reforged","isIdolAffix":false}
+{"affix":809,"name":"Pebbles' Collar Reforged","isIdolAffix":false}
+{"affix":810,"name":"Ruby Fang Cleaver Reforged","isIdolAffix":false}
+{"affix":811,"name":"Ruby Fang Aegis Reforged","isIdolAffix":false}
+{"affix":812,"name":"Shard of the Shattered Lance Reforged","isIdolAffix":false}
+{"affix":813,"name":"Fragments of the Shattered Lance Reforged","isIdolAffix":false}
+{"affix":814,"name":"Sinathia's Dying Breath Reforged","isIdolAffix":false}
+{"affix":815,"name":"Sinathia's Resurrection Reforged","isIdolAffix":false}
+{"affix":816,"name":"Sunforged Greathelm Reforged","isIdolAffix":false}
+{"affix":817,"name":"Sunforged Cuirass Reforged","isIdolAffix":false}
+{"affix":818,"name":"Sunforged Hammer Reforged","isIdolAffix":false}
+{"affix":819,"name":"Vilatria's Downfall Reforged","isIdolAffix":false}
+{"affix":820,"name":"Vilatria's Storm Crown Reforged","isIdolAffix":false}
+{"affix":821,"name":"Zerrick's Guile Reforged","isIdolAffix":false}
+{"affix":822,"name":"Zerrick's Greed Reforged","isIdolAffix":false}
 {"affix":823,"name":"Zerrick's Amibition Reforged","isIdolAffix":false}
-{"affix":824,"name":"Ward Per Second and Ward Decay Threshold","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":825,"name":"Added Health and Added Health Regeneration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":826,"name":"Increased Damage Over Time and Less Damage Over Time Taken","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":827,"name":"Dodge Rating and Increased Dodge Rating","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":828,"name":"Increased Health Regeneration and Added Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":829,"name":"Increased Healing Effectiveness and Added Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":830,"name":"Increased Stun Chance and Added Stun Avoidance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":824,"name":"Ward Per Second and Ward Decay Threshold","isIdolAffix":false}
+{"affix":825,"name":"Added Health and Added Health Regeneration","isIdolAffix":false}
+{"affix":826,"name":"Increased Damage Over Time and Less Damage Over Time Taken","isIdolAffix":false}
+{"affix":827,"name":"Dodge Rating and Increased Dodge Rating","isIdolAffix":false}
+{"affix":828,"name":"Increased Health Regeneration and Added Health","isIdolAffix":false}
+{"affix":829,"name":"Increased Healing Effectiveness and Added Health","isIdolAffix":false}
+{"affix":830,"name":"Increased Stun Chance and Added Stun Avoidance","isIdolAffix":false}
 {"affix":831,"name":"Void Penetration and Minion Void Penetration","isIdolAffix":true}
 {"affix":832,"name":"Poison Penetration and Minion Poison Penetration","isIdolAffix":true}
 {"affix":833,"name":"Physical Penetration and Minion Physical Penetration","isIdolAffix":true}
-{"affix":834,"name":"Necrotic Resistance and Minion Necrotic Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":835,"name":"Void Resistance and Minion Void Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":836,"name":"Poison Resistance and Minion Poison Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":837,"name":"Physical Resistance and Minion Physical Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":834,"name":"Necrotic Resistance and Minion Necrotic Resistance","isIdolAffix":true}
+{"affix":835,"name":"Void Resistance and Minion Void Resistance","isIdolAffix":true}
+{"affix":836,"name":"Poison Resistance and Minion Poison Resistance","isIdolAffix":true}
+{"affix":837,"name":"Physical Resistance and Minion Physical Resistance","isIdolAffix":true}
 {"affix":838,"name":"Necrotic Resistance and Minion Necrotic Resistance","isIdolAffix":true}
-{"affix":839,"name":"Damage Reflected and Damage Dealt to Attackers","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":839,"name":"Damage Reflected and Damage Dealt to Attackers","isIdolAffix":false}
 {"affix":840,"name":"Critical Strike Avoidance and Increased Critical Strike Chance","isIdolAffix":true}
-{"affix":841,"name":"Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":842,"name":"Armor and Increased Armor","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":843,"name":"Mana and Increased Mana Regen","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":844,"name":"Added Stun Avoidance and Increased Stun Immunity Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":845,"name":"Ward and Ward Decay Threshold on Potion Use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":846,"name":"Ward Retention and Ward Per Second","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":841,"name":"Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance","isIdolAffix":false}
+{"affix":842,"name":"Armor and Increased Armor","isIdolAffix":false}
+{"affix":843,"name":"Mana and Increased Mana Regen","isIdolAffix":false}
+{"affix":844,"name":"Added Stun Avoidance and Increased Stun Immunity Duration","isIdolAffix":false}
+{"affix":845,"name":"Ward and Ward Decay Threshold on Potion Use","isIdolAffix":false}
+{"affix":846,"name":"Ward Retention and Ward Per Second","isIdolAffix":false}
 {"affix":847,"name":"Cold Penetration and Minion Cold Penetration","isIdolAffix":true}
 {"affix":848,"name":"Fire Penetration and Minion Fire Penetration","isIdolAffix":true}
 {"affix":849,"name":"Lightning Penetration and Minion Lightning Penetration","isIdolAffix":true}
-{"affix":850,"name":"Cold Resistance and Minion Cold Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":851,"name":"Elemental Resistance and Minion Elemental Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":852,"name":"Fire Resistance and Minion Fire Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":853,"name":"Health and Added Health Regeneration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":854,"name":"Health and Mana","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":855,"name":"Lightning Resistance and Minion Lightning Resistance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":856,"name":"Endurance and Endurance Threshold","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":857,"name":"Increased Chance to Find Potions and Health Gained on Potion Use","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":858,"name":"Chance to Inflict Bleed on Hit and Physical Penetration with Bleed","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":859,"name":"Chance to Poison on Hit and Poison Penetration with Poison","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":860,"name":"Health on Kill and Added Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":861,"name":"Increased Stun Duration and Increased Stun Chance","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":862,"name":"Vitality and Added Health Regen","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":850,"name":"Cold Resistance and Minion Cold Resistance","isIdolAffix":true}
+{"affix":851,"name":"Elemental Resistance and Minion Elemental Resistance","isIdolAffix":true}
+{"affix":852,"name":"Fire Resistance and Minion Fire Resistance","isIdolAffix":true}
+{"affix":853,"name":"Health and Added Health Regeneration","isIdolAffix":false}
+{"affix":854,"name":"Health and Mana","isIdolAffix":false}
+{"affix":855,"name":"Lightning Resistance and Minion Lightning Resistance","isIdolAffix":true}
+{"affix":856,"name":"Endurance and Endurance Threshold","isIdolAffix":false}
+{"affix":857,"name":"Increased Chance to Find Potions and Health Gained on Potion Use","isIdolAffix":false}
+{"affix":858,"name":"Chance to Inflict Bleed on Hit and Physical Penetration with Bleed","isIdolAffix":false}
+{"affix":859,"name":"Chance to Poison on Hit and Poison Penetration with Poison","isIdolAffix":false}
+{"affix":860,"name":"Health on Kill and Added Health","isIdolAffix":false}
+{"affix":861,"name":"Increased Stun Duration and Increased Stun Chance","isIdolAffix":false}
+{"affix":862,"name":"Vitality and Added Health Regen","isIdolAffix":false}
 {"affix":863,"name":"Necrotic Penetration and Minion Necrotic Penetration","isIdolAffix":true}
 {"affix":864,"name":"Void Penetration and Minion Void Penetration","isIdolAffix":true}
 {"affix":865,"name":"Poison Penetration and Minion Poison Penetration","isIdolAffix":true}
@@ -950,17 +950,17 @@
 {"affix":868,"name":"Void Resistance and Minion Void Resistance","isIdolAffix":true}
 {"affix":869,"name":"Poison Resistance and Minion Poison Resistance","isIdolAffix":true}
 {"affix":870,"name":"Physical Resistance and Minion Physical Resistance","isIdolAffix":true}
-{"affix":871,"name":"Added Bow Damage and Increased Bow Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":872,"name":"Added Melee Damage and Increased Melee Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":873,"name":"Added Throwing Damage and Increased Throwing Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":874,"name":"Added Spell Damage and Increased Spell Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":875,"name":"Chance to Gain 30 Ward When Hit and Ward Decay Threshold","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":876,"name":"Chance to Ignite on Hit and Fire Penetration with Ignite","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":877,"name":"Chance to Shock on Hit and Increased Shock Duration","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":878,"name":"Increased Critical Strike Chance and Critical Strike Multiplier","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":879,"name":"Freeze Rate Multiplier and Ward when you Freeze an Enemy","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":880,"name":"Health on Kill and Increased Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":881,"name":"Potion Health Converted to Ward and Ward Gained on Potion use","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":871,"name":"Added Bow Damage and Increased Bow Damage","isIdolAffix":false}
+{"affix":872,"name":"Added Melee Damage and Increased Melee Damage","isIdolAffix":false}
+{"affix":873,"name":"Added Throwing Damage and Increased Throwing Damage","isIdolAffix":false}
+{"affix":874,"name":"Added Spell Damage and Increased Spell Damage","isIdolAffix":false}
+{"affix":875,"name":"Chance to Gain 30 Ward When Hit and Ward Decay Threshold","isIdolAffix":false}
+{"affix":876,"name":"Chance to Ignite on Hit and Fire Penetration with Ignite","isIdolAffix":false}
+{"affix":877,"name":"Chance to Shock on Hit and Increased Shock Duration","isIdolAffix":false}
+{"affix":878,"name":"Increased Critical Strike Chance and Critical Strike Multiplier","isIdolAffix":false}
+{"affix":879,"name":"Freeze Rate Multiplier and Ward when you Freeze an Enemy","isIdolAffix":false}
+{"affix":880,"name":"Health on Kill and Increased Health","isIdolAffix":false}
+{"affix":881,"name":"Potion Health Converted to Ward and Ward Gained on Potion use","isIdolAffix":false}
 {"affix":882,"name":"Cold Penetration and Minion Cold Penetration","isIdolAffix":true}
 {"affix":883,"name":"Fire Penetration and Minion Fire Penetration","isIdolAffix":true}
 {"affix":884,"name":"Lightning Penetration and Minion Lightning Penetration","isIdolAffix":true}
@@ -968,63 +968,63 @@
 {"affix":886,"name":"Elemental Resistance and Minion Elemental Resistance","isIdolAffix":true}
 {"affix":887,"name":"Fire Resistance and Minion Fire Resistance","isIdolAffix":true}
 {"affix":888,"name":"Lightning Resistance and Minion Lightning Resistance","isIdolAffix":true}
-{"affix":889,"name":"Added Block Effectiveness and Health Gained on Block","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":890,"name":"Ward Per Second and Ward Retention","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":891,"name":"Increased Damage Over Time and Chance to Apply Frailty on Hit","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":892,"name":"Increased Critical Strike Chance and Added Critical Strike Multiplier","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":893,"name":"Increased Cooldown Recovery Speed and Increased Mana Regeneration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":894,"name":"Increased Movement Speed and Increased Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":895,"name":"Increased Armor and Reduced bonus damage taken from critical hits","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":896,"name":"Added Dodge rating if you have been hit recently and Critical Strike Avoidance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":897,"name":"Ward decay threshold and Ward per second","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":898,"name":"Chance to not consume Potion on use and Ward gained on potion use","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":899,"name":"Increased damage over time and Endurance","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":900,"name":"Added Spell Damage while wielding a Staff Ward per second while wielding a Staff","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":901,"name":"Frostbite Duration and Frostbite chance with Cold Skills","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":902,"name":"Elemental Damage over Time and Increased Fire Aura Area","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":903,"name":"Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":904,"name":"Ward Gained when you use Enchant Weapon and Increased Melee Elemental Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":905,"name":"Increased mana regen and Damage Dealt to mana","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":906,"name":"Ward Decay Threshold and Ward Gained on Evade","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":889,"name":"Added Block Effectiveness and Health Gained on Block","isIdolAffix":false}
+{"affix":890,"name":"Ward Per Second and Ward Retention","isIdolAffix":false}
+{"affix":891,"name":"Increased Damage Over Time and Chance to Apply Frailty on Hit","isIdolAffix":false}
+{"affix":892,"name":"Increased Critical Strike Chance and Added Critical Strike Multiplier","isIdolAffix":false}
+{"affix":893,"name":"Increased Cooldown Recovery Speed and Increased Mana Regeneration","isIdolAffix":false}
+{"affix":894,"name":"Increased Movement Speed and Increased Damage","isIdolAffix":false}
+{"affix":895,"name":"Increased Armor and Reduced bonus damage taken from critical hits","isIdolAffix":false}
+{"affix":896,"name":"Added Dodge rating if you have been hit recently and Critical Strike Avoidance","isIdolAffix":false}
+{"affix":897,"name":"Ward decay threshold and Ward per second","isIdolAffix":false}
+{"affix":898,"name":"Chance to not consume Potion on use and Ward gained on potion use","isIdolAffix":false}
+{"affix":899,"name":"Increased damage over time and Endurance","isIdolAffix":false}
+{"affix":900,"name":"Added Spell Damage while wielding a Staff Ward per second while wielding a Staff","isIdolAffix":false}
+{"affix":901,"name":"Frostbite Duration and Frostbite chance with Cold Skills","isIdolAffix":false}
+{"affix":902,"name":"Elemental Damage over Time and Increased Fire Aura Area","isIdolAffix":false}
+{"affix":903,"name":"Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area","isIdolAffix":false}
+{"affix":904,"name":"Ward Gained when you use Enchant Weapon and Increased Melee Elemental Damage","isIdolAffix":false}
+{"affix":905,"name":"Increased mana regen and Damage Dealt to mana","isIdolAffix":false}
+{"affix":906,"name":"Ward Decay Threshold and Ward Gained on Evade","isIdolAffix":false}
 {"affix":907,"name":"Increased crit chance with a catalyst and Critical Strike Multiplier with a catalyst","isIdolAffix":true}
-{"affix":908,"name":"Frenzy Effect and Increased Melee damage while you have frenzy","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":909,"name":"Companion Revive Speed and Increased Minion Health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":910,"name":"Increased Totem Damage and Totem Teleportation on Traversal","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":911,"name":"Increased Movement Speed while transformed and Haste after you transform","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":912,"name":"Melee Damage and Spell Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":913,"name":"Shock duration and Endurance threshold against shocked enemies","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":908,"name":"Frenzy Effect and Increased Melee damage while you have frenzy","isIdolAffix":false}
+{"affix":909,"name":"Companion Revive Speed and Increased Minion Health","isIdolAffix":true}
+{"affix":910,"name":"Increased Totem Damage and Totem Teleportation on Traversal","isIdolAffix":false}
+{"affix":911,"name":"Increased Movement Speed while transformed and Haste after you transform","isIdolAffix":false}
+{"affix":912,"name":"Melee Damage and Spell Damage","isIdolAffix":false}
+{"affix":913,"name":"Shock duration and Endurance threshold against shocked enemies","isIdolAffix":false}
 {"affix":914,"name":"Armor while transformed and Rage Gained per Second while Transformed","isIdolAffix":true}
-{"affix":915,"name":"Mana Increased and Mana regen with a minion","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":915,"name":"Mana Increased and Mana regen with a minion","isIdolAffix":true}
 {"affix":916,"name":"Chance to Inflict Time Rot on hit with Void Skills and Increased Void Damage","isIdolAffix":true}
-{"affix":917,"name":"Chance to apply Electrify on hit with Lightning Skills and Lightning Pen with Electrify","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":918,"name":"Electrify Duration and Leech with elemental damage over time","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":919,"name":"Increased Healing Effectiveness and Added health","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":920,"name":"Increased Echo damage and Chance to gain frenzy for 3 seconds on echo","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":921,"name":"Increased Armor and Armor Applies to DoTs","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":922,"name":"Added spell damage with a shield and Added spell damage with a 2h axe","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":923,"name":"Less damage over time taken while using a shield and Health gained on block","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":924,"name":"Increased Poison Duration and Seconds of Frenzy When you gain Poison Overload","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":925,"name":"Minion Melee Attack Speed and Added Minion Melee Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":926,"name":"Minion Cast Speed and Added Minion Spell Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":927,"name":"Minion Bow Attack Speed and Added Minion Bow Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":928,"name":"Minion Throwing Attack Speed and Added Minion Throwing Damage","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":929,"name":"Minion Leech and Added Minion Regen","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
-{"affix":930,"name":"Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":931,"name":"Crimson Shroud duration and additional bleed chance per crimson shroud","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":932,"name":"Silver Shroud duration and Ward granted per silver shroud","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":933,"name":"Glancing Blow chance and Increased Dodge Rating","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":934,"name":"Increased Throwing Damage and Increased Damage while Dual Wielding","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":935,"name":"Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":936,"name":"Haste Effect and Haste duration on Evade","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":937,"name":"Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown)","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":938,"name":"Physical Resistance and Bleed Duration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":939,"name":"Fire Resistance and Ignite Duration","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":940,"name":"Chance to not Consume Silver Shrouds when hit and Ward granted per silver shroud","props":{"type":"suffix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":941,"name":"Ward Per Second and Increased Health","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
+{"affix":917,"name":"Chance to apply Electrify on hit with Lightning Skills and Lightning Pen with Electrify","isIdolAffix":false}
+{"affix":918,"name":"Electrify Duration and Leech with elemental damage over time","isIdolAffix":false}
+{"affix":919,"name":"Increased Healing Effectiveness and Added health","isIdolAffix":false}
+{"affix":920,"name":"Increased Echo damage and Chance to gain frenzy for 3 seconds on echo","isIdolAffix":false}
+{"affix":921,"name":"Increased Armor and Armor Applies to DoTs","isIdolAffix":false}
+{"affix":922,"name":"Added spell damage with a shield and Added spell damage with a 2h axe","isIdolAffix":false}
+{"affix":923,"name":"Less damage over time taken while using a shield and Health gained on block","isIdolAffix":false}
+{"affix":924,"name":"Increased Poison Duration and Seconds of Frenzy When you gain Poison Overload","isIdolAffix":false}
+{"affix":925,"name":"Minion Melee Attack Speed and Added Minion Melee Damage","isIdolAffix":true}
+{"affix":926,"name":"Minion Cast Speed and Added Minion Spell Damage","isIdolAffix":true}
+{"affix":927,"name":"Minion Bow Attack Speed and Added Minion Bow Damage","isIdolAffix":true}
+{"affix":928,"name":"Minion Throwing Attack Speed and Added Minion Throwing Damage","isIdolAffix":true}
+{"affix":929,"name":"Minion Leech and Added Minion Regen","isIdolAffix":true}
+{"affix":930,"name":"Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap","isIdolAffix":false}
+{"affix":931,"name":"Crimson Shroud duration and additional bleed chance per crimson shroud","isIdolAffix":false}
+{"affix":932,"name":"Silver Shroud duration and Ward granted per silver shroud","isIdolAffix":false}
+{"affix":933,"name":"Glancing Blow chance and Increased Dodge Rating","isIdolAffix":false}
+{"affix":934,"name":"Increased Throwing Damage and Increased Damage while Dual Wielding","isIdolAffix":false}
+{"affix":935,"name":"Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks","isIdolAffix":false}
+{"affix":936,"name":"Haste Effect and Haste duration on Evade","isIdolAffix":false}
+{"affix":937,"name":"Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown)","isIdolAffix":false}
+{"affix":938,"name":"Physical Resistance and Bleed Duration","isIdolAffix":false}
+{"affix":939,"name":"Fire Resistance and Ignite Duration","isIdolAffix":false}
+{"affix":940,"name":"Chance to not Consume Silver Shrouds when hit and Ward granted per silver shroud","isIdolAffix":false}
+{"affix":941,"name":"Ward Per Second and Increased Health","isIdolAffix":false}
 {"affix":942,"name":"Rating and Increased Health","isIdolAffix":true}
-{"affix":943,"name":"Added Melee And Spell Necrotic Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":944,"name":"Level of Flay","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":false}
-{"affix":945,"name":"Minion Area and Damage","props":{"type":"prefix","tier":null,"itemTypes":[],"minValue":null,"maxValue":null},"isIdolAffix":true}
+{"affix":943,"name":"Added Melee And Spell Necrotic Damage","isIdolAffix":false}
+{"affix":944,"name":"Level of Flay","isIdolAffix":false}
+{"affix":945,"name":"Minion Area and Damage","isIdolAffix":true}
 
 // Uniques data
 // Discovered: 403, Missing: 0, Total: 403

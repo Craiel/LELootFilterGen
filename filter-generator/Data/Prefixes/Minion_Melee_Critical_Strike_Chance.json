@@ -1,0 +1,13 @@
+{
+  "id": "minion_melee_critica",
+  "name": "Minion Melee Critical Strike Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Minion Melee Critical Strike Chance": [
+      "1% to 2%"
+    ]
+  },
+  "isIdolAffix": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "void_penetration_and",
+  "name": "Void Penetration and Minion Void Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Void Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Void Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

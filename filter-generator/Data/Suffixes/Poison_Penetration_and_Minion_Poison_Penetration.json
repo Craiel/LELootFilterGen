@@ -1,0 +1,11 @@
+{
+  "id": "poison_penetration_a",
+  "name": "Poison Penetration and Minion Poison Penetration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

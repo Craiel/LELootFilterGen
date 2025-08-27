@@ -1,0 +1,13 @@
+{
+  "id": "increased_area_of_mi",
+  "name": "Increased Area of mirage attacks with Lethal Mirage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Area of mirage attacks with Lethal Mirage": [
+      "13% to 33%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "damage_reflected_and",
+  "name": "Damage Reflected and Damage Dealt to Attackers",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

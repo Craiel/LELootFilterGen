@@ -1,0 +1,37 @@
+{
+  "id": "level_of_rebuke",
+  "name": "Level of Rebuke",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Rebuke": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Armor": [
+      "3% to 5%",
+      "6% to 10%",
+      "11% to 15%",
+      "16% to 20%",
+      "21% to 28%",
+      "30% to 34%",
+      "35% to 40%",
+      "64% to 80%"
+    ]
+  },
+  "isIdolAffix": false
+}

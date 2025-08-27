@@ -1,0 +1,11 @@
+{
+  "id": "spell_fire_damage",
+  "name": "Spell Fire Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

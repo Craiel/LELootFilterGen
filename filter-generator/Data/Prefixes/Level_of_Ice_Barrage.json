@@ -1,0 +1,37 @@
+{
+  "id": "level_of_ice_barrage",
+  "name": "Level of Ice Barrage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Ice Barrage": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Freeze Rate Multiplier": [
+      "15% to 25%",
+      "26% to 40%",
+      "41% to 65%",
+      "66% to 100%",
+      "101% to 140%",
+      "150% to 200%",
+      "201% to 260%",
+      "416% to 520%"
+    ]
+  },
+  "isIdolAffix": false
+}

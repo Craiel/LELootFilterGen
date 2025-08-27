@@ -1,0 +1,13 @@
+{
+  "id": "damage_reflected_whi",
+  "name": "Damage Reflected while you have Lightning Aegis",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Reflected while you have Lightning Aegis": [
+      "28% to 95%"
+    ]
+  },
+  "isIdolAffix": false
+}

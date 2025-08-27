@@ -1,0 +1,13 @@
+{
+  "id": "freeze_rate_multipli",
+  "name": "Freeze Rate Multiplier",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Freeze Rate Multiplier": [
+      "15% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

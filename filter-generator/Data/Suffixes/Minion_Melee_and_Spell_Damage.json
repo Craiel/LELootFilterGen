@@ -1,0 +1,11 @@
+{
+  "id": "minion_melee_and_spe",
+  "name": "Minion Melee and Spell Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

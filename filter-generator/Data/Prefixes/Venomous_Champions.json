@@ -1,0 +1,37 @@
+{
+  "id": "venomous_champions",
+  "name": "Venomous Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to apply Poison on Hit": [
+      "10% to 11%",
+      "12% to 14%",
+      "15% to 17%",
+      "18% to 21%",
+      "22% to 27%",
+      "35% to 44%",
+      "45% to 55%",
+      "88% to 110%"
+    ],
+    "Enemies Pierced with Multishot": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "5"
+    ]
+  },
+  "isIdolAffix": false
+}

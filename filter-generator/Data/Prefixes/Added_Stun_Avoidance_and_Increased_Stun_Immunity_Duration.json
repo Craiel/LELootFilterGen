@@ -1,0 +1,16 @@
+{
+  "id": "added_stun_avoidance",
+  "name": "Added Stun Avoidance and Increased Stun Immunity Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Stun Avoidance": [
+      "78 to 100"
+    ],
+    "Increased Stun Immunity Duration": [
+      "5% to 10%"
+    ]
+  },
+  "isIdolAffix": false
+}

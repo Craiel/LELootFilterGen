@@ -1,0 +1,37 @@
+{
+  "id": "shared_physical_pene",
+  "name": "Shared Physical Penetration With Bleed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Physical Penetration with Bleed": [
+      "12% to 13%",
+      "14% to 15%",
+      "16% to 17%",
+      "18% to 19%",
+      "20% to 23%",
+      "28% to 34%",
+      "35% to 42%",
+      "67% to 84%"
+    ],
+    "Physical Penetration with Bleed inflicted by Minions": [
+      "12% to 13%",
+      "14% to 15%",
+      "16% to 17%",
+      "18% to 19%",
+      "20% to 23%",
+      "28% to 34%",
+      "35% to 42%",
+      "67% to 84%"
+    ]
+  },
+  "isIdolAffix": false
+}

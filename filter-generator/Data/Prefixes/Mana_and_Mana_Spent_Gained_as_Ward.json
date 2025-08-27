@@ -1,0 +1,37 @@
+{
+  "id": "mana_and_mana_spent_",
+  "name": "Mana and Mana Spent Gained as Ward",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana": [
+      "6 to 10",
+      "10 to 14",
+      "15 to 19",
+      "20 to 26",
+      "26 to 34",
+      "43 to 51",
+      "52 to 69",
+      "110 to 137"
+    ],
+    "Mana Spent Gained as Ward": [
+      "6% to 8%",
+      "9% to 11%",
+      "12% to 15%",
+      "16% to 20%",
+      "21% to 29%",
+      "37% to 46%",
+      "46% to 57%",
+      "91% to 114%"
+    ]
+  },
+  "isIdolAffix": false
+}

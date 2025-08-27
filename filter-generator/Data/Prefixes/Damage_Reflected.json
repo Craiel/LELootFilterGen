@@ -1,0 +1,27 @@
+{
+  "id": "damage_reflected",
+  "name": "Damage Reflected",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Damage Reflected": [
+      "5% to 10%",
+      "11% to 19%",
+      "20% to 28%",
+      "29% to 38%",
+      "39% to 50%",
+      "70% to 80%",
+      "81% to 100%",
+      "160% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

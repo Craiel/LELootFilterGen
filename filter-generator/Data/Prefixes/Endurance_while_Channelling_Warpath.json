@@ -1,0 +1,27 @@
+{
+  "id": "endurance_while_chan",
+  "name": "Endurance while Channelling Warpath",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Endurance while channelling Warpath": [
+      "7% to 10%",
+      "11% to 14%",
+      "15% to 18%",
+      "19% to 23%",
+      "24% to 30%",
+      "33% to 36%",
+      "37% to 40%",
+      "65% to 80%"
+    ]
+  },
+  "isIdolAffix": false
+}

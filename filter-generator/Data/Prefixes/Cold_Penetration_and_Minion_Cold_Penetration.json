@@ -1,0 +1,16 @@
+{
+  "id": "cold_penetration_and",
+  "name": "Cold Penetration and Minion Cold Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Cold Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Cold Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

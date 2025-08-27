@@ -1,0 +1,13 @@
+{
+  "id": "increased_warpath_ar",
+  "name": "Increased Warpath Area",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Warpath Area": [
+      "7% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

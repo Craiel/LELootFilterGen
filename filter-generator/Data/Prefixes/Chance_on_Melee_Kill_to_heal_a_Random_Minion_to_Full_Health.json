@@ -1,0 +1,13 @@
+{
+  "id": "chance_on_melee_kill",
+  "name": "Chance on Melee Kill to heal a Random Minion to Full Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance on Melee Kill to heal a Random Minion to Full Health": [
+      "4% to 10%"
+    ]
+  },
+  "isIdolAffix": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "increased_damage_whi",
+  "name": "Increased Damage while wielding a Sword",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

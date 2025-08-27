@@ -1,0 +1,16 @@
+{
+  "id": "ignite_and_spreading",
+  "name": "Ignite And Spreading Flames Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Ignite Duration": [
+      "7% to 25%"
+    ],
+    "Increased Spreading Flames Duration": [
+      "7% to 25%"
+    ]
+  },
+  "isIdolAffix": false
+}

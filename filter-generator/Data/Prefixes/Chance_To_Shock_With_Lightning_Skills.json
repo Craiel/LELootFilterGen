@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_shock_with",
+  "name": "Chance To Shock With Lightning Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Shock on Lightning Hit": [
+      "30% to 80%"
+    ]
+  },
+  "isIdolAffix": false
+}

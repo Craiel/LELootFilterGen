@@ -1,0 +1,11 @@
+{
+  "id": "lightning_penetratio",
+  "name": "Lightning Penetration and Minion Lightning Penetration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

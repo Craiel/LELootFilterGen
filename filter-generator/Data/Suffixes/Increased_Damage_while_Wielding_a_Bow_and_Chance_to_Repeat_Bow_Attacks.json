@@ -1,0 +1,11 @@
+{
+  "id": "increased_damage_whi",
+  "name": "Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

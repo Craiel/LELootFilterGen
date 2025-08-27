@@ -1,0 +1,37 @@
+{
+  "id": "ward_and_ailment_cle",
+  "name": "Ward and Ailment Cleansing on Potion Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward Gained on Potion Use": [
+      "20 to 30",
+      "31 to 40",
+      "51 to 60",
+      "61 to 75",
+      "76 to 100",
+      "130 to 170",
+      "171 to 220",
+      "440 to 500"
+    ],
+    "Chance to Cleanse All Ailments on Potion Use": [
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

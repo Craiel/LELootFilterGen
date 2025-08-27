@@ -1,0 +1,11 @@
+{
+  "id": "health_on_kill",
+  "name": "Health On Kill",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "poison_chance_while_",
+  "name": "Poison Chance While At Low Health",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

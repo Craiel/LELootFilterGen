@@ -1,0 +1,37 @@
+{
+  "id": "experimental_armor_a",
+  "name": "Experimental Armor applies to Damage over Time",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Armor Mitigation also applies to Damage over Time": [
+      "9%",
+      "10% to 11%",
+      "12% to 13%",
+      "14% to 15%",
+      "16% to 18%",
+      "21% to 25%",
+      "26% to 30%",
+      "45% to 50%"
+    ],
+    "Armor": [
+      "30 to 39",
+      "40 to 50",
+      "51 to 63",
+      "64 to 79",
+      "80 to 100",
+      "135 to 174",
+      "175 to 225",
+      "360 to 450"
+    ]
+  },
+  "isIdolAffix": false
+}

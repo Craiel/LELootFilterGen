@@ -1,0 +1,16 @@
+{
+  "id": "damage_reflected_for",
+  "name": "Damage Reflected For Skeletons And Skeletal Mages",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Reflected for Skeletons": [
+      "7% to 18%"
+    ],
+    "Damage Reflected for Skeletal Mages": [
+      "7% to 18%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ward_granted_when_ca",
+  "name": "Ward Granted When Casting Flame Ward",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward gained when you cast Flame Ward": [
+      "28 to 64"
+    ]
+  },
+  "isIdolAffix": false
+}

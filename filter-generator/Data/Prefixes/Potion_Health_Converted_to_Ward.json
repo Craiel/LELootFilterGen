@@ -1,0 +1,27 @@
+{
+  "id": "potion_health_conver",
+  "name": "Potion Health Converted to Ward",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Potion Health Converted to Ward": [
+      "10% to 14%",
+      "15% to 19%",
+      "20% to 24%",
+      "25% to 29%",
+      "30% to 35%",
+      "50% to 70%",
+      "71% to 100%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

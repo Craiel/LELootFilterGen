@@ -1,0 +1,27 @@
+{
+  "id": "armor_shred_chance_f",
+  "name": "Armor Shred Chance for Locusts",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Armor Shred Chance for Locusts": [
+      "14% to 19%",
+      "20% to 27%",
+      "28% to 35%",
+      "36% to 45%",
+      "46% to 60%",
+      "75% to 90%",
+      "91% to 120%",
+      "192% to 240%"
+    ]
+  },
+  "isIdolAffix": false
+}

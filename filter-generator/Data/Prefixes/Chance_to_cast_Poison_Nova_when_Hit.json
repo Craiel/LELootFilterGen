@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_poiso",
+  "name": "Chance to cast Poison Nova when Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Poison Nova when Hit": [
+      "4% to 10%"
+    ]
+  },
+  "isIdolAffix": false
+}

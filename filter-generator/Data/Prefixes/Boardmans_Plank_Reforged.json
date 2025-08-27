@@ -1,0 +1,37 @@
+{
+  "id": "boardmans_plank_refo",
+  "name": "Boardman's Plank Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Seconds of Enrage granted to companions hit by your Storm Totem": [
+      "1 to 2",
+      "3 to 4",
+      "5 to 6",
+      "7 to 8",
+      "9 to 10",
+      "12 to 15",
+      "16 to 21",
+      "30 to 36"
+    ],
+    "Chance to summon a Storm Totem on hit with Tempest Strike": [
+      "10% to 12%",
+      "13% to 15%",
+      "16% to 18%",
+      "19% to 21%",
+      "22% to 25%",
+      "30% to 39%",
+      "40% to 50%",
+      "80% to 100%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "static_charges_gener",
+  "name": "Static Charges Generated per Second",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Static Charges Generated per Second": [
+      "2 to 5"
+    ]
+  },
+  "isIdolAffix": false
+}

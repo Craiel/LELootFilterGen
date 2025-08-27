@@ -1,0 +1,27 @@
+{
+  "id": "increased_critical_s",
+  "name": "Increased Critical Strike Chance per Equipped Sword",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Crit Chance per Equipped Sword": [
+      "46% to 52%",
+      "54% to 60%",
+      "62% to 68%",
+      "69% to 75%",
+      "76% to 90%",
+      "112% to 142%",
+      "144% to 180%",
+      "288% to 360%"
+    ]
+  },
+  "isIdolAffix": false
+}

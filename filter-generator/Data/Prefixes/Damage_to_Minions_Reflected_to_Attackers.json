@@ -1,0 +1,27 @@
+{
+  "id": "damage_to_minions_re",
+  "name": "Damage to Minions Reflected to Attackers",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Damage Reflected": [
+      "5%",
+      "6%",
+      "7%",
+      "8%",
+      "9% to 11%",
+      "14% to 17%",
+      "18% to 22%",
+      "35% to 44%"
+    ]
+  },
+  "isIdolAffix": true
+}

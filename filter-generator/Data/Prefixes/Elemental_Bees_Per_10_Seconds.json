@@ -1,0 +1,13 @@
+{
+  "id": "elemental_bees_per_1",
+  "name": "Elemental Bees Per 10 Seconds",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Elemental Bees Per 10 Seconds": [
+      "3 to 7"
+    ]
+  },
+  "isIdolAffix": false
+}

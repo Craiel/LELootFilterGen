@@ -1,0 +1,27 @@
+{
+  "id": "minion_chance_to_inf",
+  "name": "Minion Chance to Inflict Bleed on Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to inflict Bleed on Minion Hit": [
+      "30% to 34%",
+      "35% to 39%",
+      "40% to 44%",
+      "45% to 51%",
+      "52% to 62%",
+      "75% to 90%",
+      "91% to 110%",
+      "176% to 220%"
+    ]
+  },
+  "isIdolAffix": true
+}

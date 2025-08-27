@@ -1,0 +1,13 @@
+{
+  "id": "increased_void_damag",
+  "name": "Increased Void Damage For 4 Seconds When a Skill Echoes",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased void damage if Echoed recently": [
+      "28% to 76%"
+    ]
+  },
+  "isIdolAffix": false
+}

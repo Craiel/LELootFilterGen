@@ -1,0 +1,37 @@
+{
+  "id": "last_gift_of_the_mou",
+  "name": "Last Gift of the Mountain Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased cold spell damage if you have directly cast a physical spell recently": [
+      "15% to 16%",
+      "17% to 19%",
+      "20% to 23%",
+      "24% to 28%",
+      "29% to 35%",
+      "50% to 59%",
+      "60% to 70%",
+      "112% to 140%"
+    ],
+    "Chance to apply Shred Armor on Spell Hit": [
+      "20% to 23%",
+      "24% to 28%",
+      "29% to 34%",
+      "35% to 41%",
+      "42% to 50%",
+      "70% to 84%",
+      "85% to 100%",
+      "160% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

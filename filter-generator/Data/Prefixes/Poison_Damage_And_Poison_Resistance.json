@@ -1,0 +1,37 @@
+{
+  "id": "poison_damage_and_po",
+  "name": "Poison Damage And Poison Resistance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Poison Damage": [
+      "25% to 27%",
+      "28% to 30%",
+      "31% to 33%",
+      "34% to 36%",
+      "37% to 50%",
+      "60% to 75%",
+      "76% to 100%",
+      "160% to 200%"
+    ],
+    "Poison Resistance": [
+      "10% to 11%",
+      "12% to 14%",
+      "15% to 17%",
+      "18% to 20%",
+      "21% to 25%",
+      "28% to 32%",
+      "33% to 40%",
+      "64% to 80%"
+    ]
+  },
+  "isIdolAffix": false
+}

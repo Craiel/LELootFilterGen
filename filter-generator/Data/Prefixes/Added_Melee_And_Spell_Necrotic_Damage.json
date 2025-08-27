@@ -1,0 +1,37 @@
+{
+  "id": "added_melee_and_spel",
+  "name": "Added Melee And Spell Necrotic Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Necrotic Melee Damage": [
+      "2 to 3",
+      "3 to 5",
+      "6 to 8",
+      "9 to 11",
+      "11 to 14",
+      "21 to 26",
+      "27 to 34",
+      "57 to 69"
+    ],
+    "Necrotic Spell Damage": [
+      "2",
+      "3 to 4",
+      "5 to 6",
+      "6 to 7",
+      "8 to 12",
+      "16 to 19",
+      "19 to 23",
+      "38 to 46"
+    ]
+  },
+  "isIdolAffix": false
+}

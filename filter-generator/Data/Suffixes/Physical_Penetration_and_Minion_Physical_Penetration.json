@@ -1,0 +1,11 @@
+{
+  "id": "physical_penetration",
+  "name": "Physical Penetration and Minion Physical Penetration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

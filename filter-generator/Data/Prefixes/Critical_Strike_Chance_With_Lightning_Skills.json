@@ -1,0 +1,13 @@
+{
+  "id": "critical_strike_chan",
+  "name": "Critical Strike Chance With Lightning Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Critical Strike Chance": [
+      "15% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

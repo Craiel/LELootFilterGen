@@ -1,0 +1,13 @@
+{
+  "id": "damage_while_transfo",
+  "name": "Damage While Transformed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage While Transformed": [
+      "26% to 70%"
+    ]
+  },
+  "isIdolAffix": false
+}

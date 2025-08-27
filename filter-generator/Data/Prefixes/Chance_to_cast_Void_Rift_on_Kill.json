@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_void_",
+  "name": "Chance to cast Void Rift on Kill",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Void Rift on Kill": [
+      "3% to 7%"
+    ]
+  },
+  "isIdolAffix": false
+}

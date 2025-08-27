@@ -1,0 +1,13 @@
+{
+  "id": "increased_aspect_of_",
+  "name": "Increased Aspect of the Shark Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Aspect of the Shark Duration": [
+      "7% to 24%"
+    ]
+  },
+  "isIdolAffix": false
+}

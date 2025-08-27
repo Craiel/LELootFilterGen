@@ -1,0 +1,13 @@
+{
+  "id": "increased_damage_wit",
+  "name": "Increased Damage with Umbral Blades per stack of Dusk Shroud",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Damage with Umbral Blades per stack of Dusk Shroud": [
+      "4% to 8%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mana_efficiency_and_",
+  "name": "Mana Efficiency and Wither Chance with Soul Feast",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Mana Efficiency with Soul Feast": [
+      "7% to 19%"
+    ],
+    "Chance to Wither on Hit with Soul Feast": [
+      "21% to 55%"
+    ]
+  },
+  "isIdolAffix": false
+}

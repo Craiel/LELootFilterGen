@@ -1,0 +1,16 @@
+{
+  "id": "potion_health_conver",
+  "name": "Potion Health Converted to Ward and Ward Gained on Potion use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Potion Health Converted to Ward": [
+      "22% to 25%"
+    ],
+    "Ward Gained on Potion Use": [
+      "30 to 40"
+    ]
+  },
+  "isIdolAffix": false
+}

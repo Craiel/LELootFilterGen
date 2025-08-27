@@ -1,0 +1,13 @@
+{
+  "id": "bow_physical_damage_",
+  "name": "Bow Physical Damage for Ballistae",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Bow Physical Damage for Ballistae": [
+      "4 to 10"
+    ]
+  },
+  "isIdolAffix": false
+}

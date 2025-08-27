@@ -1,0 +1,27 @@
+{
+  "id": "throwing_physical_da",
+  "name": "Throwing Physical Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Throwing Physical Damage": [
+      "26% to 30%",
+      "31% to 35%",
+      "36% to 40%",
+      "41% to 47%",
+      "48% to 60%",
+      "75% to 95%",
+      "96% to 120%",
+      "192% to 240%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mana",
+  "name": "Mana",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana": [
+      "4%",
+      "5%",
+      "6%",
+      "7%",
+      "8% to 10%",
+      "12% to 15%",
+      "16% to 20%",
+      "32% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

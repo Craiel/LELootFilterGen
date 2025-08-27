@@ -1,0 +1,27 @@
+{
+  "id": "lightning_critical_s",
+  "name": "Lightning Critical Strike Multiplier",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Lightning Critical Strike Multiplier": [
+      "16% to 17%",
+      "18% to 19%",
+      "20% to 21%",
+      "22% to 23%",
+      "24% to 29%",
+      "34% to 40%",
+      "41% to 50%",
+      "80% to 100%"
+    ]
+  },
+  "isIdolAffix": false
+}

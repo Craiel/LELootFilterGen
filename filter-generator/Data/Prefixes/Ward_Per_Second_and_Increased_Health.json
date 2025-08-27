@@ -1,0 +1,16 @@
+{
+  "id": "ward_per_second_and_",
+  "name": "Ward Per Second and Increased Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward per Second": [
+      "3 to 6"
+    ],
+    "Health": [
+      "3% to 9%"
+    ]
+  },
+  "isIdolAffix": false
+}

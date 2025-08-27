@@ -1,0 +1,13 @@
+{
+  "id": "increased_area_for_t",
+  "name": "Increased area for Throwing Area Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased area for Throwing Area Skills": [
+      "6% to 19%"
+    ]
+  },
+  "isIdolAffix": false
+}

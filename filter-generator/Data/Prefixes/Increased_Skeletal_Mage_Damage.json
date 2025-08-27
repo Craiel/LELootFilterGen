@@ -1,0 +1,27 @@
+{
+  "id": "increased_skeletal_m",
+  "name": "Increased Skeletal Mage Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Skeletal Mage Damage": [
+      "25% to 38%",
+      "39% to 52%",
+      "53% to 66%",
+      "67% to 80%",
+      "81% to 95%",
+      "115% to 140%",
+      "141% to 180%",
+      "288% to 360%"
+    ]
+  },
+  "isIdolAffix": false
+}

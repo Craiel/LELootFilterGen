@@ -1,0 +1,13 @@
+{
+  "id": "added_static_orb_ten",
+  "name": "Added Static Orb Tendrils",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Tendrils with Static Orb": [
+      "1 to 3"
+    ]
+  },
+  "isIdolAffix": false
+}

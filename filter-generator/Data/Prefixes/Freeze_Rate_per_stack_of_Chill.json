@@ -1,0 +1,27 @@
+{
+  "id": "freeze_rate_per_stac",
+  "name": "Freeze Rate per stack of Chill",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Freeze Rate per stack of Chill": [
+      "14% to 16%",
+      "17% to 20%",
+      "21% to 25%",
+      "26% to 31%",
+      "32% to 37%",
+      "40% to 50%",
+      "51% to 65%",
+      "104% to 130%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "critical_strike_mult",
+  "name": "Critical Strike Multiplier while Dual Wielding",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Multiplier while Dual Wielding": [
+      "8% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

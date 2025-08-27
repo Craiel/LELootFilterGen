@@ -1,0 +1,37 @@
+{
+  "id": "halvars_stand_reforg",
+  "name": "Halvar's Stand Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased physical spell damage if you have directly cast a cold spell recently": [
+      "15% to 16%",
+      "17% to 19%",
+      "20% to 23%",
+      "24% to 28%",
+      "29% to 35%",
+      "50% to 59%",
+      "60% to 70%",
+      "112% to 140%"
+    ],
+    "Chance to gain Haste when you kill an enemy with a spell": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "12% to 13%",
+      "14% to 15%",
+      "20% to 24%",
+      "25% to 30%",
+      "48% to 60%"
+    ]
+  },
+  "isIdolAffix": false
+}

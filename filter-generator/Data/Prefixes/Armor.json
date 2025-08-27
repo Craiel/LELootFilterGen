@@ -1,0 +1,13 @@
+{
+  "id": "armor",
+  "name": "Armor",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Armor": [
+      "58 to 156"
+    ]
+  },
+  "isIdolAffix": false
+}

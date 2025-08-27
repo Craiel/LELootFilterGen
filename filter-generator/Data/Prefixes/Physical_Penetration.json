@@ -1,0 +1,27 @@
+{
+  "id": "physical_penetration",
+  "name": "Physical Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Physical Penetration": [
+      "4%",
+      "5%",
+      "6%",
+      "7%",
+      "8% to 9%",
+      "11% to 12%",
+      "13% to 15%",
+      "24% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

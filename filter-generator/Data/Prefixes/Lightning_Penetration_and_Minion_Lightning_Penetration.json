@@ -1,0 +1,16 @@
+{
+  "id": "lightning_penetratio",
+  "name": "Lightning Penetration and Minion Lightning Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Lightning Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

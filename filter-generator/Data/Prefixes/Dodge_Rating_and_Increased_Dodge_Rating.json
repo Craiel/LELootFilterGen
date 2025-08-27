@@ -1,0 +1,14 @@
+{
+  "id": "dodge_rating_and_inc",
+  "name": "Dodge Rating and Increased Dodge Rating",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Dodge Rating": [
+      "13 to 25",
+      "2% to 5%"
+    ]
+  },
+  "isIdolAffix": false
+}

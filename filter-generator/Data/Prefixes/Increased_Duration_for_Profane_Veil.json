@@ -1,0 +1,13 @@
+{
+  "id": "increased_duration_f",
+  "name": "Increased Duration for Profane Veil",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Duration for Profane Veil": [
+      "12% to 31%"
+    ]
+  },
+  "isIdolAffix": false
+}

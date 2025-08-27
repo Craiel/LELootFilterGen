@@ -1,0 +1,37 @@
+{
+  "id": "penetration_with_lig",
+  "name": "Penetration with Lightning Invocations",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Lightning Penetration with Lightning Invocations": [
+      "8% to 10%",
+      "11% to 13%",
+      "14% to 17%",
+      "18% to 21%",
+      "22% to 27%",
+      "30% to 35%",
+      "36% to 42%",
+      "67% to 84%"
+    ],
+    "Ward per Second per Gon Rune": [
+      "12 to 16",
+      "17 to 21",
+      "22 to 27",
+      "28 to 33",
+      "34 to 40",
+      "45 to 52",
+      "53 to 63",
+      "101 to 126"
+    ]
+  },
+  "isIdolAffix": false
+}

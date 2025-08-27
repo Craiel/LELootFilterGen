@@ -1,0 +1,11 @@
+{
+  "id": "mana_spent_gained_as",
+  "name": "Mana Spent Gained as Ward",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

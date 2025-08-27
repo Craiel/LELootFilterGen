@@ -1,0 +1,16 @@
+{
+  "id": "rogue_falcon_poison_",
+  "name": "Rogue Falcon Poison and Bleed Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Your Bleed Chance granted to your Falcon": [
+      "14% to 24%"
+    ],
+    "Your Poison Chance granted to your Falcon": [
+      "14% to 24%"
+    ]
+  },
+  "isIdolAffix": false
+}

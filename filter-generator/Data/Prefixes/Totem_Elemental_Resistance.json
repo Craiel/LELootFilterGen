@@ -1,0 +1,13 @@
+{
+  "id": "totem_elemental_resi",
+  "name": "Totem Elemental Resistance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Elemental Resistance for Totems": [
+      "10% to 27%"
+    ]
+  },
+  "isIdolAffix": false
+}

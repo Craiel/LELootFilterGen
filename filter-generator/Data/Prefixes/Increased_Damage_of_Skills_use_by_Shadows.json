@@ -1,0 +1,27 @@
+{
+  "id": "increased_damage_of_",
+  "name": "Increased Damage of Skills use by Shadows",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Damage for skills used by Shadows": [
+      "41% to 50%",
+      "51% to 60%",
+      "61% to 70%",
+      "71% to 80%",
+      "81% to 100%",
+      "135% to 180%",
+      "181% to 240%",
+      "384% to 480%"
+    ]
+  },
+  "isIdolAffix": false
+}

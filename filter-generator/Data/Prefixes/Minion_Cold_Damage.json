@@ -1,0 +1,13 @@
+{
+  "id": "minion_cold_damage",
+  "name": "Minion Cold Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Minion Cold Damage": [
+      "26% to 72%"
+    ]
+  },
+  "isIdolAffix": true
+}

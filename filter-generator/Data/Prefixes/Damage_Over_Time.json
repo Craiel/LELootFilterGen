@@ -1,0 +1,13 @@
+{
+  "id": "damage_over_time",
+  "name": "Damage Over Time",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Over Time": [
+      "22% to 60%"
+    ]
+  },
+  "isIdolAffix": false
+}

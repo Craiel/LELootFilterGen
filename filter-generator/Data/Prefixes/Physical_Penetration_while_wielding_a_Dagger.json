@@ -1,0 +1,13 @@
+{
+  "id": "physical_penetration",
+  "name": "Physical Penetration while wielding a Dagger",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Physical Penetration while wielding a Dagger": [
+      "4% to 9%"
+    ]
+  },
+  "isIdolAffix": false
+}

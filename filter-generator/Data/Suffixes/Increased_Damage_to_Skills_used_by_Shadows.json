@@ -1,0 +1,11 @@
+{
+  "id": "increased_damage_to_",
+  "name": "Increased Damage to Skills used by Shadows",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

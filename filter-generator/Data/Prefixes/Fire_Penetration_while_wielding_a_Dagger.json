@@ -1,0 +1,13 @@
+{
+  "id": "fire_penetration_whi",
+  "name": "Fire Penetration while wielding a Dagger",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Penetration while wielding a Dagger": [
+      "4% to 9%"
+    ]
+  },
+  "isIdolAffix": false
+}

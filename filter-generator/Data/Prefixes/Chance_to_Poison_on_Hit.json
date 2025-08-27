@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_poison_on_",
+  "name": "Chance to Poison on Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Poison on Hit": [
+      "11% to 30%"
+    ]
+  },
+  "isIdolAffix": false
+}

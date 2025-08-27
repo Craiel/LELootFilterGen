@@ -1,0 +1,37 @@
+{
+  "id": "infernal_champions",
+  "name": "Infernal Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Damage": [
+      "5% to 10%",
+      "11% to 16%",
+      "22% to 27%",
+      "28% to 39%",
+      "40% to 55%",
+      "70% to 89%",
+      "90% to 110%",
+      "176% to 220%"
+    ],
+    "Minions teleported around you after you use a Traversal Skill": [
+      "2",
+      "3",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8",
+      "13 to 16"
+    ]
+  },
+  "isIdolAffix": false
+}

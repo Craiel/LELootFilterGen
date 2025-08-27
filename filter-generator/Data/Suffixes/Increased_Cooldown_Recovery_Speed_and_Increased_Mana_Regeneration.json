@@ -1,0 +1,11 @@
+{
+  "id": "increased_cooldown_r",
+  "name": "Increased Cooldown Recovery Speed and Increased Mana Regeneration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

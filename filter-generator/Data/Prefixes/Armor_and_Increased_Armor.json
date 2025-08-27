@@ -1,0 +1,14 @@
+{
+  "id": "armor_and_increased_",
+  "name": "Armor and Increased Armor",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Armor": [
+      "28 to 40",
+      "2% to 5%"
+    ]
+  },
+  "isIdolAffix": false
+}

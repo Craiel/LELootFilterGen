@@ -1,0 +1,37 @@
+{
+  "id": "armor_and_minion_arm",
+  "name": "Armor And Minion Armor",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Armor": [
+      "40 to 59",
+      "60 to 79",
+      "80 to 99",
+      "100 to 119",
+      "120 to 150",
+      "190 to 230",
+      "231 to 300",
+      "480 to 600"
+    ],
+    "Minion Armor": [
+      "40 to 59",
+      "60 to 79",
+      "80 to 99",
+      "100 to 119",
+      "120 to 150",
+      "190 to 230",
+      "231 to 300",
+      "480 to 600"
+    ]
+  },
+  "isIdolAffix": true
+}

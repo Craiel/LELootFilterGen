@@ -1,0 +1,37 @@
+{
+  "id": "vilatrias_downfall_r",
+  "name": "Vilatria's Downfall Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Meteor Base Damage Converted to Lightning": [
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%"
+    ],
+    "Increased Shock Duration per Intelligence": [
+      "0.1%",
+      "0.2%",
+      "0.3%",
+      "0.4%",
+      "0.5%",
+      "0.6% to 0.7%",
+      "0.8% to 1%",
+      "2% to 2%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ward_per_second_whil",
+  "name": "Ward per Second while channeling Ghostflame",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward per Second while channeling Ghostflame": [
+      "33 to 113"
+    ]
+  },
+  "isIdolAffix": false
+}

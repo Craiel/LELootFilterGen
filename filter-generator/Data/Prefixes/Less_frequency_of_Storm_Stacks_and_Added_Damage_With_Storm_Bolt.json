@@ -1,0 +1,16 @@
+{
+  "id": "less_frequency_of_st",
+  "name": "Less frequency of Storm Stacks and Added Damage With Storm Bolt",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Less Frequency of expending Storm Stacks": [
+      "12% to 30%"
+    ],
+    "Spell Damage for Storm Bolt": [
+      "6 to 18"
+    ]
+  },
+  "isIdolAffix": false
+}

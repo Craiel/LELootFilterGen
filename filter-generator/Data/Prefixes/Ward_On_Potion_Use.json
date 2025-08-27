@@ -1,0 +1,13 @@
+{
+  "id": "ward_on_potion_use",
+  "name": "Ward On Potion Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward Gained on Potion Use": [
+      "30 to 80"
+    ]
+  },
+  "isIdolAffix": false
+}

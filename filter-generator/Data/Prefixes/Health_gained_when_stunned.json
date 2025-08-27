@@ -1,0 +1,13 @@
+{
+  "id": "health_gained_when_s",
+  "name": "Health gained when stunned",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health gained when stunned": [
+      "56 to 150"
+    ]
+  },
+  "isIdolAffix": false
+}

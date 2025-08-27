@@ -1,0 +1,13 @@
+{
+  "id": "increased_shock_dura",
+  "name": "Increased Shock Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Shock Duration": [
+      "4% to 10%"
+    ]
+  },
+  "isIdolAffix": false
+}

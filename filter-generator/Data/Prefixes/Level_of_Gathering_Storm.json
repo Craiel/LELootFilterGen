@@ -1,0 +1,37 @@
+{
+  "id": "level_of_gathering_s",
+  "name": "Level of Gathering Storm",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Gathering Storm": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Increased Area for Area Skills": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 12%",
+      "13% to 15%",
+      "16% to 20%",
+      "25% to 29%",
+      "30% to 34%",
+      "54% to 68%"
+    ]
+  },
+  "isIdolAffix": false
+}

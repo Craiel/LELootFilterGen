@@ -1,0 +1,27 @@
+{
+  "id": "melee_damage",
+  "name": "Melee Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Melee Damage": [
+      "6% to 11%",
+      "11% to 17%",
+      "18% to 25%",
+      "26% to 33%",
+      "34% to 49%",
+      "57% to 79%",
+      "80% to 103%",
+      "165% to 206%"
+    ]
+  },
+  "isIdolAffix": false
+}

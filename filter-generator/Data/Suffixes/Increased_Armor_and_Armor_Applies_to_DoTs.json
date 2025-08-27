@@ -1,0 +1,11 @@
+{
+  "id": "increased_armor_and_",
+  "name": "Increased Armor and Armor Applies to DoTs",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

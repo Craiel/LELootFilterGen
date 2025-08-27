@@ -1,0 +1,11 @@
+{
+  "id": "minion_spell_and_bow",
+  "name": "Minion Spell and Bow Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

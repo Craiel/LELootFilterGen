@@ -1,0 +1,37 @@
+{
+  "id": "abyssal_champions",
+  "name": "Abyssal Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Melee Damage": [
+      "4 to 8",
+      "9 to 13",
+      "14 to 18",
+      "19 to 24",
+      "25 to 32",
+      "43 to 57",
+      "58 to 75",
+      "100 to 125"
+    ],
+    "Charge for Void Cleave": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+    ]
+  },
+  "isIdolAffix": false
+}

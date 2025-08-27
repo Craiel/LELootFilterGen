@@ -1,0 +1,11 @@
+{
+  "id": "minion_chance_to_poi",
+  "name": "Minion Chance To Poison On Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

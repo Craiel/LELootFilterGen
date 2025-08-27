@@ -1,0 +1,16 @@
+{
+  "id": "volatile_zombie_dama",
+  "name": "Volatile Zombie Damage and Explosion Area",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Volatile Zombie Damage": [
+      "15% to 35%"
+    ],
+    "Increased Volatile Zombie Explosion Area": [
+      "15% to 35%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endurance",
+  "name": "Endurance",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

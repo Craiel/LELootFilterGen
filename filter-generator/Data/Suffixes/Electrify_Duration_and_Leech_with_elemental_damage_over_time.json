@@ -1,0 +1,11 @@
+{
+  "id": "electrify_duration_a",
+  "name": "Electrify Duration and Leech with elemental damage over time",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

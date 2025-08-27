@@ -1,0 +1,27 @@
+{
+  "id": "physical_penetration",
+  "name": "Physical Penetration with Shadow Daggers",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Physical Penetration with Shadow Daggers": [
+      "13% to 17%",
+      "18% to 22%",
+      "23% to 27%",
+      "28% to 32%",
+      "33% to 45%",
+      "60% to 77%",
+      "78% to 100%",
+      "160% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

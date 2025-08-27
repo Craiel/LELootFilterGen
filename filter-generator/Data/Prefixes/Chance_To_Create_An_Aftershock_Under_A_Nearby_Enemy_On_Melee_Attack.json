@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_create_an_",
+  "name": "Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to create an Earthquake Aftershock at a nearby enemy on melee attack (up to 10 times per 2 seconds)": [
+      "19% to 38%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "increased_area_with_",
+  "name": "Increased Area with Dancing Strikes",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Area with Dancing Strikes": [
+      "12% to 15%",
+      "16% to 19%",
+      "20% to 23%",
+      "24% to 27%",
+      "28% to 35%",
+      "44% to 55%",
+      "56% to 70%",
+      "112% to 140%"
+    ]
+  },
+  "isIdolAffix": false
+}

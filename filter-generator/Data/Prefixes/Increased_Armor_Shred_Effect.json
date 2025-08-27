@@ -1,0 +1,27 @@
+{
+  "id": "increased_armor_shre",
+  "name": "Increased Armor Shred Effect",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Shred Armor Effect": [
+      "45% to 51%",
+      "52% to 58%",
+      "59% to 65%",
+      "66% to 72%",
+      "73% to 95%",
+      "120% to 150%",
+      "151% to 190%",
+      "304% to 380%"
+    ]
+  },
+  "isIdolAffix": false
+}

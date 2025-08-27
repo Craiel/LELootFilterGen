@@ -1,0 +1,13 @@
+{
+  "id": "increased_melee_dama",
+  "name": "Increased Melee Damage For 4 Seconds When a Skill Echoes",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased melee damage if Echoed recently": [
+      "24% to 62%"
+    ]
+  },
+  "isIdolAffix": false
+}

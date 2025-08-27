@@ -1,0 +1,27 @@
+{
+  "id": "spell_damage_for_cur",
+  "name": "Spell Damage for Curses",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Curse Spell Damage": [
+      "2 to 5",
+      "6 to 9",
+      "10 to 14",
+      "15 to 18",
+      "19 to 24",
+      "25 to 36",
+      "37 to 48",
+      "77 to 96"
+    ]
+  },
+  "isIdolAffix": false
+}

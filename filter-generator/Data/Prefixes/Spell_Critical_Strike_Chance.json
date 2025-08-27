@@ -1,0 +1,27 @@
+{
+  "id": "spell_critical_strik",
+  "name": "Spell Critical Strike Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Spell Critical Strike Chance": [
+      "20% to 25%",
+      "26% to 34%",
+      "35% to 43%",
+      "44% to 54%",
+      "55% to 75%",
+      "95% to 115%",
+      "116% to 150%",
+      "240% to 300%"
+    ]
+  },
+  "isIdolAffix": false
+}

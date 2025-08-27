@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_summon_a_b",
+  "name": "Chance to Summon a Bee with Acid Flask",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Summon a Bee with Acid Flask": [
+      "10% to 28%"
+    ]
+  },
+  "isIdolAffix": true
+}

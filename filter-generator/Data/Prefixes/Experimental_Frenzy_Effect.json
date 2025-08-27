@@ -1,0 +1,37 @@
+{
+  "id": "experimental_frenzy_",
+  "name": "Experimental Frenzy Effect",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Seconds of Frenzy after you use a Traversal Skill": [
+      "1.2 to 1.3",
+      "1.4 to 1.5",
+      "1.6 to 1.7",
+      "1.8 to 2",
+      "2.1 to 2.5",
+      "3 to 3.4",
+      "3.5 to 4",
+      "5 to 6"
+    ],
+    "Effect of Frenzy on You": [
+      "3% to 5%",
+      "6% to 10%",
+      "11% to 17%",
+      "18% to 25%",
+      "26% to 35%",
+      "40% to 49%",
+      "50% to 60%",
+      "90% to 100%"
+    ]
+  },
+  "isIdolAffix": false
+}

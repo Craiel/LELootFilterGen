@@ -1,0 +1,13 @@
+{
+  "id": "increased_duration_w",
+  "name": "Increased duration with Hail of Arrows",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Hail of Arrows Duration": [
+      "7% to 15%"
+    ]
+  },
+  "isIdolAffix": false
+}

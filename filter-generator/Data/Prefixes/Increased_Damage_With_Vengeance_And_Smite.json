@@ -1,0 +1,16 @@
+{
+  "id": "increased_damage_wit",
+  "name": "Increased Damage With Vengeance And Smite",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased damage with Vengeance": [
+      "20% to 54%"
+    ],
+    "Increased Damage with Smite": [
+      "20% to 54%"
+    ]
+  },
+  "isIdolAffix": false
+}

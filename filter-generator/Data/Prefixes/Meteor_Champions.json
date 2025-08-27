@@ -1,0 +1,37 @@
+{
+  "id": "meteor_champions",
+  "name": "Meteor Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Fire Damage Over Time": [
+      "15% to 29%",
+      "30% to 50%",
+      "51% to 74%",
+      "75% to 105%",
+      "106% to 150%",
+      "200% to 260%",
+      "261% to 350%",
+      "560% to 700%"
+    ],
+    "Bleed Chance Converted to Ignite Chance": [
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

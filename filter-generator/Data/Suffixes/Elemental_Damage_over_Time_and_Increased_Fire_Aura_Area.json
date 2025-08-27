@@ -1,0 +1,11 @@
+{
+  "id": "elemental_damage_ove",
+  "name": "Elemental Damage over Time and Increased Fire Aura Area",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_eleme",
+  "name": "Chance to cast Elemental Nova when Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Elemental Nova when Hit": [
+      "4% to 10%"
+    ]
+  },
+  "isIdolAffix": false
+}

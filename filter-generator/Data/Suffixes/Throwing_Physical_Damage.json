@@ -1,0 +1,11 @@
+{
+  "id": "throwing_physical_da",
+  "name": "Throwing Physical Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "lightning_damage_tak",
+  "name": "Lightning Damage Taken as Physical",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Damage Taken as Physical": [
+      "8% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

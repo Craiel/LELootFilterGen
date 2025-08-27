@@ -1,0 +1,11 @@
+{
+  "id": "cold_penetration_and",
+  "name": "Cold Penetration and Minion Cold Penetration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

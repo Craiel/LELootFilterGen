@@ -1,0 +1,11 @@
+{
+  "id": "added_bow_damage_and",
+  "name": "Added Bow Damage and Increased Bow Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "increased_critical_s",
+  "name": "Increased Critical Strike Chance and Added Critical Strike Multiplier",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

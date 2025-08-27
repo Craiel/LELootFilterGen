@@ -1,0 +1,27 @@
+{
+  "id": "spell_damage_leeched",
+  "name": "Spell Damage Leeched as Health while Channelling",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Spell Damage Leeched as Health While Channelling": [
+      "2% to 2.6%",
+      "2.7% to 3.3%",
+      "3.4% to 4%",
+      "4.1% to 4.7%",
+      "4.8% to 5.7%",
+      "7% to 8.5%",
+      "8.6% to 10.5%",
+      "16.8% to 21%"
+    ]
+  },
+  "isIdolAffix": false
+}

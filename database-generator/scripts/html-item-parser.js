@@ -13,7 +13,7 @@ const { JSDOM } = require('jsdom');
 class HTMLItemParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'ItemList.html');
-    this.outputDir = path.join(__dirname, '..', 'Data');
+    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
   }
 

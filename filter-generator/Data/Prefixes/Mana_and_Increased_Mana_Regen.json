@@ -1,0 +1,16 @@
+{
+  "id": "mana_and_increased_m",
+  "name": "Mana and Increased Mana Regen",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Mana": [
+      "8 to 12"
+    ],
+    "Mana Regen": [
+      "2% to 5%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_cast_marro",
+  "name": "Chance to cast Marrow Shards when you cast Transplant",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to cast Marrow Shards when you cast Transplant": [
+      "5% to 7%",
+      "8% to 15%",
+      "16% to 25%",
+      "26% to 30%",
+      "31% to 40%",
+      "55% to 75%",
+      "76% to 100%",
+      "100%"
+    ]
+  },
+  "isIdolAffix": false
+}

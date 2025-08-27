@@ -1,0 +1,16 @@
+{
+  "id": "chance_to_poison_on_",
+  "name": "Chance to Poison on Hit and Poison Penetration with Poison",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to apply Poison on Hit": [
+      "15% to 20%"
+    ],
+    "Poison Penetration with Poison": [
+      "1% to 2%"
+    ]
+  },
+  "isIdolAffix": false
+}

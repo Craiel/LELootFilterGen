@@ -1,0 +1,11 @@
+{
+  "id": "health_gained_on_dod",
+  "name": "Health Gained on Dodge",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

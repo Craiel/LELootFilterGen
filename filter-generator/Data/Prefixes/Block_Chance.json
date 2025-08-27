@@ -1,0 +1,27 @@
+{
+  "id": "block_chance",
+  "name": "Block Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Block Chance": [
+      "2% to 3%",
+      "4% to 5%",
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 12%",
+      "15% to 20%",
+      "21% to 26%",
+      "33% to 39%"
+    ]
+  },
+  "isIdolAffix": false
+}

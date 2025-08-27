@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_shock_on_h",
+  "name": "Chance to Shock on Hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Shock on Hit": [
+      "19% to 50%"
+    ]
+  },
+  "isIdolAffix": false
+}

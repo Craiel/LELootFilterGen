@@ -1,0 +1,13 @@
+{
+  "id": "damage_over_time_whi",
+  "name": "Damage Over Time while at Low Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Over Time while at Low Health": [
+      "25% to 66%"
+    ]
+  },
+  "isIdolAffix": false
+}

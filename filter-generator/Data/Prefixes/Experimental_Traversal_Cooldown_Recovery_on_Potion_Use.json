@@ -1,0 +1,37 @@
+{
+  "id": "experimental_travers",
+  "name": "Experimental Traversal Cooldown Recovery on Potion Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Seconds of Traversal Skill Cooldowns Recovered on Potion Use": [
+      "0.5",
+      "0.6",
+      "0.7",
+      "0.8 to 0.9",
+      "1.1 to 1.2",
+      "1.4 to 1.5",
+      "1.6 to 1.8",
+      "2.2 to 2.7"
+    ],
+    "Increased Chance To Find Potions": [
+      "16% to 20%",
+      "21% to 25%",
+      "26% to 32%",
+      "33% to 40%",
+      "41% to 50%",
+      "70% to 79%",
+      "80% to 100%",
+      "160% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

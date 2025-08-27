@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_smite",
+  "name": "Chance To Cast Smite When You Hit With Throwing Attacks (up to 10 times per 2 seconds)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Smite on hit with throwing attacks (up to 10 times per 2 seconds)": [
+      "10% to 25%"
+    ]
+  },
+  "isIdolAffix": false
+}

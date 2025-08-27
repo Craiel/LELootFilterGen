@@ -1,0 +1,13 @@
+{
+  "id": "increased_damage_ove",
+  "name": "Increased Damage Over Time while you have an Ailment Overload",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Damage Over Time while you have an Ailment Overload": [
+      "29% to 88%"
+    ]
+  },
+  "isIdolAffix": false
+}

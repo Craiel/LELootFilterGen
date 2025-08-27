@@ -1,0 +1,27 @@
+{
+  "id": "melee_physical_damag",
+  "name": "Melee Physical Damage if wielding a Mace",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Melee Physical Damage if wielding a Mace": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14 to 17",
+      "21 to 26",
+      "27 to 32",
+      "51 to 64"
+    ]
+  },
+  "isIdolAffix": false
+}

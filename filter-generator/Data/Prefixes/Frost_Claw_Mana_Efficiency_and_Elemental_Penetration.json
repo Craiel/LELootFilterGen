@@ -1,0 +1,16 @@
+{
+  "id": "frost_claw_mana_effi",
+  "name": "Frost Claw Mana Efficiency and Elemental Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Mana Efficiency with Frost Claw": [
+      "6% to 14%"
+    ],
+    "Elemental Penetration with Frost Claw": [
+      "6% to 14%"
+    ]
+  },
+  "isIdolAffix": false
+}

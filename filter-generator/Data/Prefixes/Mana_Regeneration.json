@@ -1,0 +1,27 @@
+{
+  "id": "mana_regeneration",
+  "name": "Mana Regeneration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana Regen": [
+      "10% to 14%",
+      "15% to 19%",
+      "20% to 24%",
+      "25% to 29%",
+      "30% to 38%",
+      "40% to 49%",
+      "50% to 60%",
+      "94% to 110%"
+    ]
+  },
+  "isIdolAffix": false
+}

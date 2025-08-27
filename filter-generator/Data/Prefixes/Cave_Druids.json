@@ -1,0 +1,37 @@
+{
+  "id": "cave_druids",
+  "name": "Cave Druid's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Physical Skills": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+    ],
+    "Physical Spell Damage": [
+      "6 to 7",
+      "8 to 9",
+      "10 to 12",
+      "13 to 15",
+      "16 to 18",
+      "24 to 27",
+      "28 to 32",
+      "51 to 64"
+    ]
+  },
+  "isIdolAffix": false
+}

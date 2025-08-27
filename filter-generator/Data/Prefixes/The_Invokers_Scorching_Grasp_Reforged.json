@@ -1,0 +1,37 @@
+{
+  "id": "the_invokers_scorchi",
+  "name": "The Invoker's Scorching Grasp Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Fire Damage Over Time": [
+      "10% to 13%",
+      "14% to 17%",
+      "18% to 22%",
+      "23% to 28%",
+      "29% to 35%",
+      "40% to 49%",
+      "50% to 75%",
+      "120% to 150%"
+    ],
+    "Chance to apply Ignite on Hit": [
+      "6% to 7%",
+      "8% to 100%",
+      "11% to 14%",
+      "15% to 19%",
+      "20% to 25%",
+      "30% to 39%",
+      "40% to 50%",
+      "80% to 100%"
+    ]
+  },
+  "isIdolAffix": false
+}

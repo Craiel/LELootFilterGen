@@ -1,0 +1,16 @@
+{
+  "id": "bleed_duration_for_y",
+  "name": "Bleed Duration For You And Your Minions",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Bleed Duration": [
+      "7% to 24%"
+    ],
+    "Increased Minion Bleed Duration": [
+      "7% to 19%"
+    ]
+  },
+  "isIdolAffix": true
+}

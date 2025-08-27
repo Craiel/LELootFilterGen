@@ -1,0 +1,13 @@
+{
+  "id": "health",
+  "name": "Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health": [
+      "2% to 4%"
+    ]
+  },
+  "isIdolAffix": false
+}

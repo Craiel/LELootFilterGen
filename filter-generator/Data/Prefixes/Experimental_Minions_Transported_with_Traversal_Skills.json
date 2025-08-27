@@ -1,0 +1,37 @@
+{
+  "id": "experimental_minions",
+  "name": "Experimental Minions Transported with Traversal Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Damage": [
+      "16% to 23%",
+      "24% to 31%",
+      "32% to 39%",
+      "40% to 49%",
+      "50% to 70%",
+      "80% to 105%",
+      "106% to 140%",
+      "224% to 280%"
+    ],
+    "Minions teleported around you after you use a Traversal Skill": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6 to 7",
+      "8 to 9",
+      "10 to 12",
+      "19 to 24"
+    ]
+  },
+  "isIdolAffix": true
+}

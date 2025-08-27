@@ -1,0 +1,13 @@
+{
+  "id": "chance_on_kill_to_re",
+  "name": "Chance On Kill To Refresh Random Companion Ability",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance on kill to refresh the cooldown of a random companion activatable ability": [
+      "3% to 8%"
+    ]
+  },
+  "isIdolAffix": true
+}

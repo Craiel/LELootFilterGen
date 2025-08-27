@@ -1,0 +1,11 @@
+{
+  "id": "armor_while_transfor",
+  "name": "Armor while transformed and Rage Gained per Second While Transformed",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "necrotic_penetration",
+  "name": "Necrotic Penetration and Minion Necrotic Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Necrotic Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Necrotic Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

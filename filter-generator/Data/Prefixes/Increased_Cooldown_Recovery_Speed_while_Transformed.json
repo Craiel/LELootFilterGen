@@ -1,0 +1,27 @@
+{
+  "id": "increased_cooldown_r",
+  "name": "Increased Cooldown Recovery Speed while Transformed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Cooldown Recovery Speed While Transformed": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "12% to 13%",
+      "14% to 16%",
+      "19% to 21%",
+      "22% to 25%",
+      "36% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

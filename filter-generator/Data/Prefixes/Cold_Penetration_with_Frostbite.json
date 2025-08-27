@@ -1,0 +1,27 @@
+{
+  "id": "cold_penetration_wit",
+  "name": "Cold Penetration with Frostbite",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Cold Penetration with Frostbite": [
+      "20% to 21%",
+      "22% to 23%",
+      "24% to 25%",
+      "26% to 28%",
+      "29% to 40%",
+      "50% to 60%",
+      "61% to 80%",
+      "128% to 160%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_heali",
+  "name": "Chance to cast Healing Nova when hit",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Healing Nova when hit": [
+      "3% to 8%"
+    ]
+  },
+  "isIdolAffix": false
+}

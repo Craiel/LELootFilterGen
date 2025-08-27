@@ -1,0 +1,16 @@
+{
+  "id": "increased_healing_ef",
+  "name": "Increased Healing Effectiveness and Added Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Healing Effectiveness": [
+      "5% to 10%"
+    ],
+    "Health": [
+      "14 to 18"
+    ]
+  },
+  "isIdolAffix": false
+}

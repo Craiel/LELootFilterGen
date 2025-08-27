@@ -13,7 +13,7 @@ const { JSDOM } = require('jsdom');
 class HTMLPrefixParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'Prefixes.html');
-    this.outputDir = path.join(__dirname, '..', 'Data');
+    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
   }
 
@@ -91,56 +91,226 @@ class HTMLPrefixParser {
       }
     }
 
-    // Get tier information if available
-    let tier = null;
-    const tierSelectors = ['.affix-tier', '.tier', '.affix-level'];
-    
-    for (const selector of tierSelectors) {
-      const tierElement = card.querySelector(selector);
-      if (tierElement) {
-        const tierMatch = tierElement.textContent.match(/(\d+)/);
-        if (tierMatch) {
-          tier = parseInt(tierMatch[1]);
-        }
-        break;
-      }
-    }
+    // Get detailed modification columns (the key enhancement)
+    const modificationColumns = this.extractModificationColumns(card);
 
-    // Get applicable item types
-    const itemTypes = [];
-    const itemTypeSelectors = ['.affix-item-types', '.applicable-types', '.item-types'];
-    
-    for (const selector of itemTypeSelectors) {
-      const typeElement = card.querySelector(selector);
-      if (typeElement) {
-        const types = typeElement.textContent.split(',').map(t => t.trim()).filter(t => t);
-        itemTypes.push(...types);
-        break;
-      }
-    }
-
-    // Get minimum and maximum values if available
-    let minValue = null;
-    let maxValue = null;
-    
-    const valueMatch = description.match(/(\d+(?:\.\d+)?)\s*(?:-|to)\s*(\d+(?:\.\d+)?)/);
-    if (valueMatch) {
-      minValue = parseFloat(valueMatch[1]);
-      maxValue = parseFloat(valueMatch[2]);
-    }
-
-    return {
+    // Only include properties we have reliable data for
+    const result = {
       id: affixId || this.generateId(affixName),
       name: affixName,
-      description: description,
-      type: 'prefix',
-      tier: tier,
-      itemTypes: itemTypes,
-      minValue: minValue,
-      maxValue: maxValue,
+      modificationColumns: modificationColumns,
       isIdolAffix: this.isLikelyIdolAffix(affixName, description)
     };
+
+    // Only add description if we actually have content
+    if (description && description.trim().length > 0) {
+      result.description = description.trim();
+    }
+
+    return result;
   }
+
+  /**
+   * Extract detailed modification columns from affix card
+   * Returns column-based structure with tier names and values for each column
+   */
+  extractModificationColumns(card) {
+    try {
+      // Try the new tier-table structure first
+      const tierTable = card.querySelector('.tier-table');
+      if (tierTable) {
+        const result = this.extractFromTierTable(tierTable);
+        if (Object.keys(result).length > 0) {
+          return result;
+        }
+      }
+
+      // Fallback: Try to convert old headers/rows format to column format
+      const oldFormat = this.extractOldFormat(card);
+      if (oldFormat.headers && oldFormat.headers.length > 0) {
+        return this.convertToColumnFormat(oldFormat);
+      }
+
+      return {};
+      
+    } catch (error) {
+      this.logger.warn(`Failed to extract modification columns: ${error.message}`);
+      return {};
+    }
+  }
+
+  /**
+   * Extract from the new tier-table HTML structure
+   */
+  extractFromTierTable(tierTable) {
+    // Find the header row to get column names
+    const tierHeader = tierTable.querySelector('.tier-header, .affix.tier-header');
+    if (!tierHeader) {
+      return {};
+    }
+
+    // Extract column headers from tier-header
+    const headerElements = tierHeader.querySelectorAll('.affix-tier-range');
+    const columnNames = [];
+    
+    for (const headerElement of headerElements) {
+      // Get the text before <br> or <span class="mod-type">
+      const headerText = headerElement.childNodes[0]?.textContent?.trim();
+      if (headerText) {
+        columnNames.push(headerText);
+      }
+    }
+
+    if (columnNames.length === 0) {
+      return {};
+    }
+
+    // Initialize the result object with Tier column first
+    const result = {
+      'Tier': []
+    };
+
+    // Initialize other columns
+    for (const columnName of columnNames) {
+      result[columnName] = [];
+    }
+
+    // Extract data from each tier row
+    const tierRows = tierTable.querySelectorAll('.affix[tier]');
+    
+    for (const tierRow of tierRows) {
+      // Get tier name
+      const tierNameElement = tierRow.querySelector('.affix-tier-name');
+      const tierName = tierNameElement?.textContent?.trim();
+      
+      if (tierName) {
+        result['Tier'].push(tierName);
+      }
+
+      // Get values for each column
+      const valueElements = tierRow.querySelectorAll('.affix-tier-range');
+      
+      for (let i = 0; i < columnNames.length; i++) {
+        const columnName = columnNames[i];
+        const valueElement = valueElements[i];
+        
+        if (valueElement) {
+          // Extract mod-value spans or fallback to text content
+          const modValues = valueElement.querySelectorAll('.mod-value');
+          let value = '';
+          
+          if (modValues.length === 1) {
+            // Single value
+            value = modValues[0].textContent.trim();
+          } else if (modValues.length === 2) {
+            // Range value
+            value = `${modValues[0].textContent.trim()} to ${modValues[1].textContent.trim()}`;
+          } else {
+            // Fallback to text content
+            value = valueElement.textContent.trim();
+          }
+          
+          result[columnName].push(value);
+        } else {
+          // No value for this column in this tier
+          result[columnName].push('');
+        }
+      }
+    }
+
+    return result;
+  }
+
+  /**
+   * Extract using old method for compatibility
+   */
+  extractOldFormat(card) {
+    // Look for mod-type and affix-tier-range patterns
+    const modTypeElements = card.querySelectorAll('.mod-type');
+    const tierRangeElements = card.querySelectorAll('.affix-tier-range');
+    
+    const headers = [];
+    const rows = [];
+    
+    // Extract headers
+    for (let i = 0; i < Math.min(modTypeElements.length, tierRangeElements.length); i++) {
+      const tierRange = tierRangeElements[i];
+      if (tierRange) {
+        // Get the text before <br> or <span class="mod-type">
+        let headerText = tierRange.childNodes[0]?.textContent?.trim();
+        if (headerText && !headers.includes(headerText)) {
+          headers.push(headerText);
+        }
+      }
+    }
+
+    // Extract values - look for all mod-value elements in the card
+    const allModValues = card.querySelectorAll('.mod-value');
+    const values = [];
+    
+    for (const modValue of allModValues) {
+      const value = modValue.textContent.trim();
+      if (value && value.length > 0) {
+        values.push(value);
+      }
+    }
+
+    // Try to organize values into rows
+    if (values.length > 0) {
+      for (const value of values) {
+        rows.push([value]);
+      }
+    }
+
+    return { headers, rows };
+  }
+
+  /**
+   * Convert old headers/rows format to column format
+   */
+  convertToColumnFormat(oldFormat) {
+    const { headers, rows } = oldFormat;
+    
+    if (!headers || headers.length === 0) {
+      return {};
+    }
+
+    const result = {};
+    
+    // Add headers as columns
+    for (const header of headers) {
+      result[header] = [];
+    }
+
+    // If we have rows, try to organize them
+    if (rows && rows.length > 0) {
+      // For single column case
+      if (headers.length === 1) {
+        const headerName = headers[0];
+        for (const row of rows) {
+          if (row && row.length > 0) {
+            result[headerName].push(row[0]);
+          }
+        }
+      } else {
+        // For multiple columns, try to distribute values evenly
+        let valueIndex = 0;
+        for (const row of rows) {
+          for (let i = 0; i < headers.length && valueIndex < row.length; i++) {
+            const headerName = headers[i];
+            if (row[valueIndex]) {
+              result[headerName].push(row[valueIndex]);
+            }
+            valueIndex++;
+          }
+        }
+      }
+    }
+
+    return result;
+  }
+
+
 
   /**
    * Determine if an affix is likely for idols
@@ -181,22 +351,13 @@ class HTMLPrefixParser {
       await fs.writeJson(filePath, prefix, { spaces: 2 });
     }
 
-    // Save summary
-    const summary = {
-      parseDate: new Date().toISOString(),
+    this.logger.log(`✅ Saved ${data.prefixes.length} prefixes to ${prefixesDir}`);
+
+    return {
       totalPrefixes: data.prefixes.length,
       idolPrefixes: data.prefixes.filter(p => p.isIdolAffix).length,
-      itemPrefixes: data.prefixes.filter(p => !p.isIdolAffix).length,
-      tieredPrefixes: data.prefixes.filter(p => p.tier !== null).length
+      itemPrefixes: data.prefixes.filter(p => !p.isIdolAffix).length
     };
-
-    const summaryFile = path.join(this.outputDir, 'html_prefixes_parse_summary.json');
-    await fs.writeJson(summaryFile, summary, { spaces: 2 });
-
-    this.logger.log(`✅ Saved ${data.prefixes.length} prefixes to ${prefixesDir}`);
-    this.logger.log(`📊 Parse summary saved to ${summaryFile}`);
-
-    return summary;
   }
 
   /**
@@ -213,7 +374,6 @@ class HTMLPrefixParser {
       this.logger.log(`   Total Prefixes: ${summary.totalPrefixes}`);
       this.logger.log(`   Idol Prefixes: ${summary.idolPrefixes}`);
       this.logger.log(`   Item Prefixes: ${summary.itemPrefixes}`);
-      this.logger.log(`   Tiered Prefixes: ${summary.tieredPrefixes}`);
       
       this.logger.log('\n🎉 HTML prefix parsing complete!');
       return summary;

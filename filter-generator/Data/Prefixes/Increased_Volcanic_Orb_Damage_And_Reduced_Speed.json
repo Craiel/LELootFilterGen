@@ -1,0 +1,16 @@
+{
+  "id": "increased_volcanic_o",
+  "name": "Increased Volcanic Orb Damage And Reduced Speed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Volcanic Orb Damage": [
+      "20% to 55%"
+    ],
+    "Reduced Volcanic Orb Speed": [
+      "20% to 55%"
+    ]
+  },
+  "isIdolAffix": false
+}

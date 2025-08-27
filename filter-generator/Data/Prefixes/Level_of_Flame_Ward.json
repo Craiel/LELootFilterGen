@@ -1,0 +1,37 @@
+{
+  "id": "level_of_flame_ward",
+  "name": "Level of Flame Ward",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Flame Ward": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Ward Retention": [
+      "5% to 10%",
+      "11% to 16%",
+      "17% to 23%",
+      "24% to 31%",
+      "32% to 40%",
+      "50% to 60%",
+      "61% to 75%",
+      "110% to 130%"
+    ]
+  },
+  "isIdolAffix": false
+}

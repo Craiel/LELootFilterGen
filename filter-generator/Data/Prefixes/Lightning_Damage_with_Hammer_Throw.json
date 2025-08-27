@@ -1,0 +1,13 @@
+{
+  "id": "lightning_damage_wit",
+  "name": "Lightning Damage with Hammer Throw",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Damage with Hammer Throw": [
+      "3 to 8"
+    ]
+  },
+  "isIdolAffix": false
+}

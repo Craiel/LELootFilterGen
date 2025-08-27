@@ -1,0 +1,11 @@
+{
+  "id": "minion_cast_speed_an",
+  "name": "Minion Cast Speed and Added Minion Spell Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

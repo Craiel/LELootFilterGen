@@ -1,0 +1,27 @@
+{
+  "id": "ward_gained_on_use_w",
+  "name": "Ward gained on use with Shift",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward gained when you use Shift": [
+      "16 to 20",
+      "21 to 25",
+      "26 to 30",
+      "31 to 40",
+      "41 to 50",
+      "65 to 80",
+      "81 to 100",
+      "160 to 200"
+    ]
+  },
+  "isIdolAffix": false
+}

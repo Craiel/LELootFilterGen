@@ -1,0 +1,11 @@
+{
+  "id": "less_damage_over_tim",
+  "name": "Less damage over time taken while using a shield and Health gained on block",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

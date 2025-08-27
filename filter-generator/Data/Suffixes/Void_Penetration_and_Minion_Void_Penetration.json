@@ -1,0 +1,11 @@
+{
+  "id": "void_penetration_and",
+  "name": "Void Penetration and Minion Void Penetration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

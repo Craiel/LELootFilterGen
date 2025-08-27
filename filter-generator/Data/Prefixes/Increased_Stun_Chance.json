@@ -1,0 +1,13 @@
+{
+  "id": "increased_stun_chanc",
+  "name": "Increased Stun Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Stun Chance": [
+      "44% to 120%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chance_for_hungering",
+  "name": "Chance for Hungering Souls to fire 6 Additional Projectiles",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance for Hungering Souls to fire 6 Additional Projectiles": [
+      "8% to 25%"
+    ]
+  },
+  "isIdolAffix": false
+}

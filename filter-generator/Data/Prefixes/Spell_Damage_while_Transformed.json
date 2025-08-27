@@ -1,0 +1,27 @@
+{
+  "id": "spell_damage_while_t",
+  "name": "Spell Damage While Transformed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Spell Damage While Transformed": [
+      "30% to 33%",
+      "34% to 37%",
+      "38% to 42%",
+      "43% to 47%",
+      "48% to 57%",
+      "70% to 85%",
+      "86% to 105%",
+      "168% to 210%"
+    ]
+  },
+  "isIdolAffix": false
+}

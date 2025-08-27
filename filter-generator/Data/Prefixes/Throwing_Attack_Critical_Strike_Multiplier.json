@@ -1,0 +1,13 @@
+{
+  "id": "throwing_attack_crit",
+  "name": "Throwing Attack Critical Strike Multiplier",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Throwing Critical Strike Multiplier": [
+      "9% to 23%"
+    ]
+  },
+  "isIdolAffix": false
+}

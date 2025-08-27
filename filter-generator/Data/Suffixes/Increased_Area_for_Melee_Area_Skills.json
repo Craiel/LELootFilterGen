@@ -1,0 +1,11 @@
+{
+  "id": "increased_area_for_m",
+  "name": "Increased Area for Melee Area Skills",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

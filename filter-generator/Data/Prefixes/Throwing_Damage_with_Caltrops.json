@@ -1,0 +1,13 @@
+{
+  "id": "throwing_damage_with",
+  "name": "Throwing Damage with Caltrops",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Throwing Damage with Caltrops": [
+      "3 to 7"
+    ]
+  },
+  "isIdolAffix": false
+}

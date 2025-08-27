@@ -1,0 +1,13 @@
+{
+  "id": "increased_poison_dam",
+  "name": "Increased Poison Damage while Aura of Decay is active",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Poison Damage while Aura of Decay is active": [
+      "60% to 100%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "increased_bow_attack",
+  "name": "Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown)": [
+      "7% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

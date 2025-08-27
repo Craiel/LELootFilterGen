@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_an_av",
+  "name": "Chance To Cast An Avalanche Boulder At a Nearby Enemy On Melee Attack (up to 3 times per second)",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance for an Avalanche Boulder to drop at a nearby enemy on melee attack (up to 3 times per second)": [
+      "10% to 28%"
+    ]
+  },
+  "isIdolAffix": false
+}

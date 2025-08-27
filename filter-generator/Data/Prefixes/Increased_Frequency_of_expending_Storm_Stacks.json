@@ -1,0 +1,13 @@
+{
+  "id": "increased_frequency_",
+  "name": "Increased Frequency of expending Storm Stacks",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Frequency of expending Storm Stacks": [
+      "8% to 21%"
+    ]
+  },
+  "isIdolAffix": false
+}

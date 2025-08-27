@@ -1,0 +1,13 @@
+{
+  "id": "increased_cast_speed",
+  "name": "Increased Cast Speed while you have Lightning Aegis",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Cast Speed while you have Lightning Aegis": [
+      "7% to 19%"
+    ]
+  },
+  "isIdolAffix": false
+}

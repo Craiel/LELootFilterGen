@@ -1,0 +1,13 @@
+{
+  "id": "chance_on_10_or_more",
+  "name": "Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Cast Lightning Strike when you use a skill that costs at least 10 Mana": [
+      "17% to 48%"
+    ]
+  },
+  "isIdolAffix": false
+}

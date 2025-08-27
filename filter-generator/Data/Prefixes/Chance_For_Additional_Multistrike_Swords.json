@@ -1,0 +1,13 @@
+{
+  "id": "chance_for_additiona",
+  "name": "Chance For Additional Multistrike Swords",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance for an additional sword with Multistrike at maximum Armament Stacks": [
+      "15% to 50%"
+    ]
+  },
+  "isIdolAffix": false
+}

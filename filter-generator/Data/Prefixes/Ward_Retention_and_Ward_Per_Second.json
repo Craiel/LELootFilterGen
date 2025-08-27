@@ -1,0 +1,16 @@
+{
+  "id": "ward_retention_and_w",
+  "name": "Ward Retention and Ward Per Second",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward Retention": [
+      "5% to 7%"
+    ],
+    "Ward per Second": [
+      "5 to 8"
+    ]
+  },
+  "isIdolAffix": false
+}

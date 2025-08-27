@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_cast_maels",
+  "name": "Chance to cast Maelstrom every 3 seconds",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Maelstrom every 3 seconds": [
+      "6% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

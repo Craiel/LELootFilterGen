@@ -1,0 +1,13 @@
+{
+  "id": "increased_stun_chanc",
+  "name": "Increased Stun Chance With Throwing Attacks",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Throwing Stun Chance": [
+      "56% to 150%"
+    ]
+  },
+  "isIdolAffix": false
+}

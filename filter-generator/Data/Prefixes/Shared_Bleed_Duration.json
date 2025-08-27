@@ -1,0 +1,37 @@
+{
+  "id": "shared_bleed_duratio",
+  "name": "Shared Bleed Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Bleed Duration": [
+      "18% to 19%",
+      "20% to 21%",
+      "22% to 23%",
+      "24% to 25%",
+      "26% to 35%",
+      "44% to 55%",
+      "56% to 70%",
+      "112% to 140%"
+    ],
+    "Increased Minion Bleed Duration": [
+      "18% to 19%",
+      "20% to 21%",
+      "22% to 23%",
+      "24% to 25%",
+      "26% to 35%",
+      "44% to 55%",
+      "56% to 70%",
+      "112% to 140%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "necrotic_damage_take",
+  "name": "Necrotic Damage Taken as Physical",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Necrotic Damage Taken as Physical": [
+      "18% to 19%",
+      "20% to 21%",
+      "22% to 23%",
+      "24% to 25%",
+      "26% to 30%",
+      "36% to 44%",
+      "45% to 55%",
+      "88% to 100%"
+    ]
+  },
+  "isIdolAffix": false
+}

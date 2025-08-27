@@ -1,0 +1,16 @@
+{
+  "id": "plague_chance_on_hit",
+  "name": "Plague Chance On Hit And Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to apply Plague on Hit": [
+      "6% to 17%"
+    ],
+    "Poison Penetration with Plague": [
+      "6% to 17%"
+    ]
+  },
+  "isIdolAffix": false
+}

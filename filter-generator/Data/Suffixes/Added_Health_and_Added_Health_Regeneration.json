@@ -1,0 +1,11 @@
+{
+  "id": "added_health_and_add",
+  "name": "Added Health and Added Health Regeneration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

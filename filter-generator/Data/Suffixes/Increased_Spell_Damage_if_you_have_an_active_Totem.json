@@ -1,0 +1,11 @@
+{
+  "id": "increased_spell_dama",
+  "name": "Increased Spell Damage if you have an active Totem",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

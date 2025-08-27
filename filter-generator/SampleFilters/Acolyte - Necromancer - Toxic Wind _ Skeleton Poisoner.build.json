@@ -1,0 +1,8 @@
+{
+  "name": "Toxic Wind Skeleton Poisoner",
+  "class": "Acolyte",
+  "mastery": "Necromancer",
+  "primarySkill": "Toxic Wind", 
+  "secondarySkills": ["Summon Skeleton"],
+  "defense": "armor"
+}

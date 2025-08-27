@@ -1,0 +1,27 @@
+{
+  "id": "ward_gained_on_kill",
+  "name": "Ward Gained on Kill",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward Gain on Kill": [
+      "3 to 5",
+      "6 to 8",
+      "9 to 11",
+      "12 to 14",
+      "15 to 19",
+      "24 to 30",
+      "31 to 38",
+      "61 to 76"
+    ]
+  },
+  "isIdolAffix": false
+}

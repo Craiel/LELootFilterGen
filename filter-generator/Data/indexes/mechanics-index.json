@@ -1,0 +1,48 @@
+{
+  "byMechanic": {},
+  "affixToMechanics": {},
+  "mechanicHierarchy": {
+    "Fire": {
+      "parent": "Elemental",
+      "children": [
+        "Fire"
+      ]
+    },
+    "Cold": {
+      "parent": "Elemental",
+      "children": [
+        "Cold"
+      ]
+    },
+    "Lightning": {
+      "parent": "Elemental",
+      "children": [
+        "Lightning"
+      ]
+    },
+    "Physical": {
+      "parent": null,
+      "children": [
+        "Physical"
+      ]
+    },
+    "Void": {
+      "parent": null,
+      "children": [
+        "Void"
+      ]
+    },
+    "Necrotic": {
+      "parent": null,
+      "children": [
+        "Necrotic"
+      ]
+    },
+    "Poison": {
+      "parent": "Damage Over Time",
+      "children": [
+        "Poison"
+      ]
+    }
+  }
+}

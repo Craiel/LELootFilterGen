@@ -1,0 +1,11 @@
+{
+  "id": "increased_lightning_",
+  "name": "Increased Lightning Damage (Doubled If You Have Over 300 Max Mana)",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

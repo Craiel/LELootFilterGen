@@ -1,0 +1,13 @@
+{
+  "id": "health_on_kill",
+  "name": "Health on Kill",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health Gain on Kill": [
+      "10 to 20"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "health_on_kill_and_i",
+  "name": "Health on Kill and Increased Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health Gain on Kill": [
+      "9 to 20"
+    ],
+    "Health": [
+      "5% to 6%"
+    ]
+  },
+  "isIdolAffix": false
+}

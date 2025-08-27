@@ -1,0 +1,11 @@
+{
+  "id": "health_regeneration",
+  "name": "Health Regeneration",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

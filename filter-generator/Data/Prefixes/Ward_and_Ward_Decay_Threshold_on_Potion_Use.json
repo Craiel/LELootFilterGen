@@ -1,0 +1,16 @@
+{
+  "id": "ward_and_ward_decay_",
+  "name": "Ward and Ward Decay Threshold on Potion Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward Gained on Potion Use": [
+      "15 to 25"
+    ],
+    "Ward Decay Threshold for 4 seconds when you use a Potion": [
+      "35 to 60"
+    ]
+  },
+  "isIdolAffix": false
+}

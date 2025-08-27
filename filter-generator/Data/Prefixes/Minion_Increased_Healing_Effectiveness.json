@@ -1,0 +1,13 @@
+{
+  "id": "minion_increased_hea",
+  "name": "Minion Increased Healing Effectiveness",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Minion Increased Healing Effectiveness": [
+      "37% to 100%"
+    ]
+  },
+  "isIdolAffix": true
+}

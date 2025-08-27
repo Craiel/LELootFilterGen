@@ -1,0 +1,16 @@
+{
+  "id": "symbol_duration_and_",
+  "name": "Symbol Duration And Gain Rate",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Symbols of Hope Active Duration": [
+      "8% to 20%"
+    ],
+    "Increased Symbol Gain Rate": [
+      "10% to 28%"
+    ]
+  },
+  "isIdolAffix": false
+}

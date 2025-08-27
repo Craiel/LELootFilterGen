@@ -1,0 +1,37 @@
+{
+  "id": "experimental_mana_on",
+  "name": "Experimental Mana on Potion Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana Gained on Potion Use": [
+      "8 to 9",
+      "10 to 11",
+      "12 to 13",
+      "14 to 16",
+      "17 to 20",
+      "25 to 29",
+      "30 to 35",
+      "56 to 70"
+    ],
+    "Mana Regen for 4 seconds when you use a Potion": [
+      "10% to 15%",
+      "16% to 22%",
+      "23% to 30%",
+      "31% to 39%",
+      "40% to 50%",
+      "65% to 80%",
+      "81% to 100%",
+      "160% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

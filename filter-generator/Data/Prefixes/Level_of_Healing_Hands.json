@@ -1,0 +1,37 @@
+{
+  "id": "level_of_healing_han",
+  "name": "Level of Healing Hands",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Healing Hands": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Increased Healing Effectiveness": [
+      "10% to 15%",
+      "16% to 21%",
+      "22% to 28%",
+      "29% to 38%",
+      "39% to 60%",
+      "80% to 95%",
+      "96% to 120%",
+      "170% to 200%"
+    ]
+  },
+  "isIdolAffix": false
+}

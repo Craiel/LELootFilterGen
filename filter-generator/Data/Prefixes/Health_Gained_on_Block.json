@@ -1,0 +1,27 @@
+{
+  "id": "health_gained_on_blo",
+  "name": "Health Gained on Block",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Health Gain on Block": [
+      "3 to 5",
+      "6 to 9",
+      "10 to 14",
+      "15 to 19",
+      "20 to 30",
+      "35 to 49",
+      "50 to 75",
+      "120 to 150"
+    ]
+  },
+  "isIdolAffix": false
+}

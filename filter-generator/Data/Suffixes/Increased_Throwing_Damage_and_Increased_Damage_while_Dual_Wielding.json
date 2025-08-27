@@ -1,0 +1,11 @@
+{
+  "id": "increased_throwing_d",
+  "name": "Increased Throwing Damage and Increased Damage while Dual Wielding",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

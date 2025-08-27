@@ -1,0 +1,13 @@
+{
+  "id": "increased_area_for_e",
+  "name": "Increased area for Elemental Area Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased area for Elemental Area Skills": [
+      "10% to 26%"
+    ]
+  },
+  "isIdolAffix": false
+}

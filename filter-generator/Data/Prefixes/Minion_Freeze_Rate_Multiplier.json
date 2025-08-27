@@ -1,0 +1,27 @@
+{
+  "id": "minion_freeze_rate_m",
+  "name": "Minion Freeze Rate Multiplier",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Freeze Rate Multiplier": [
+      "50% to 69%",
+      "70% to 89%",
+      "90% to 109%",
+      "110% to 139%",
+      "140% to 190%",
+      "240% to 300%",
+      "301% to 380%",
+      "608% to 760%"
+    ]
+  },
+  "isIdolAffix": true
+}

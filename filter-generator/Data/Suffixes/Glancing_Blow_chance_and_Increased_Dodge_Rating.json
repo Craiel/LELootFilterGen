@@ -1,0 +1,11 @@
+{
+  "id": "glancing_blow_chance",
+  "name": "Glancing Blow chance and Increased Dodge Rating",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

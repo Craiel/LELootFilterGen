@@ -1,0 +1,13 @@
+{
+  "id": "totem_armor",
+  "name": "Totem Armor",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Armor for Totems": [
+      "119 to 322"
+    ]
+  },
+  "isIdolAffix": false
+}

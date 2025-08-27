@@ -1,0 +1,11 @@
+{
+  "id": "stun_avoidance",
+  "name": "Stun Avoidance",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

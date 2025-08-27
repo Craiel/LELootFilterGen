@@ -1,0 +1,11 @@
+{
+  "id": "spark_charge_chance_",
+  "name": "Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

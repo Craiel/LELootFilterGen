@@ -1,0 +1,37 @@
+{
+  "id": "sinathias_resurrecti",
+  "name": "Sinathia's Resurrection Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Health": [
+      "19% to 29%",
+      "30% to 40%",
+      "41% to 52%",
+      "53% to 65%",
+      "66% to 79%",
+      "133% to 146%",
+      "147% to 167%",
+      "254% to 301%"
+    ],
+    "Chance when one of your Skeletons dies to resummon a new one after 3 seconds": [
+      "5% to 6%",
+      "7% to 8%",
+      "9% to 11%",
+      "12% to 15%",
+      "16% to 20%",
+      "29% to 36%",
+      "37% to 47%",
+      "75% to 94%"
+    ]
+  },
+  "isIdolAffix": false
+}

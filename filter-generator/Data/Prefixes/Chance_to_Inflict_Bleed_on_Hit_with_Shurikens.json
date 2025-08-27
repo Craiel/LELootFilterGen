@@ -1,0 +1,27 @@
+{
+  "id": "chance_to_inflict_bl",
+  "name": "Chance to Inflict Bleed on Hit with Shurikens",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to Inflict Bleed on Hit with Shurikens": [
+      "15% to 17%",
+      "19% to 22%",
+      "23% to 27%",
+      "28% to 32%",
+      "33% to 40%",
+      "50% to 60%",
+      "61% to 80%",
+      "128% to 160%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "poison_penetration_a",
+  "name": "Poison Penetration and Minion Poison Penetration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Poison Penetration": [
+      "3% to 4%"
+    ],
+    "Minion Poison Penetration": [
+      "3% to 4%"
+    ]
+  },
+  "isIdolAffix": true
+}

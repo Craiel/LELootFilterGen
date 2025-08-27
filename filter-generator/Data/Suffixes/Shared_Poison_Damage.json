@@ -1,0 +1,11 @@
+{
+  "id": "shared_poison_damage",
+  "name": "Shared Poison Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

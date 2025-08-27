@@ -1,0 +1,11 @@
+{
+  "id": "increased_damage_ove",
+  "name": "Increased Damage Over Time and Chance to Apply Frailty on Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

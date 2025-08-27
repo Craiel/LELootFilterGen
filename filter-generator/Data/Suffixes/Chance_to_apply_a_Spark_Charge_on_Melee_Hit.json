@@ -1,0 +1,11 @@
+{
+  "id": "chance_to_apply_a_sp",
+  "name": "Chance to apply a Spark Charge on Melee Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

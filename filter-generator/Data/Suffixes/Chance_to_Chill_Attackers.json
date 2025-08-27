@@ -1,0 +1,11 @@
+{
+  "id": "chance_to_chill_atta",
+  "name": "Chance to Chill Attackers",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

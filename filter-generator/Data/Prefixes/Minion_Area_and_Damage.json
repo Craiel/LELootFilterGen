@@ -1,0 +1,37 @@
+{
+  "id": "minion_area_and_dama",
+  "name": "Minion Area and Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Area for Minion Area Skills": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 12%",
+      "13% to 15%",
+      "16% to 18%",
+      "23% to 27%",
+      "28% to 33%",
+      "55% to 65%"
+    ],
+    "Minion Damage": [
+      "5% to 10%",
+      "11% to 18%",
+      "20% to 27%",
+      "28% to 35%",
+      "36% to 50%",
+      "65% to 80%",
+      "81% to 105%",
+      "175% to 210%"
+    ]
+  },
+  "isIdolAffix": true
+}

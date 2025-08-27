@@ -1,0 +1,11 @@
+{
+  "id": "critical_strike_chan",
+  "name": "Critical Strike Chance with Lightning Skills for You and Your Minions",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

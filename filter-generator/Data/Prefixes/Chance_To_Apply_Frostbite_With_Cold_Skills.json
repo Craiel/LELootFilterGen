@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_apply_fros",
+  "name": "Chance To Apply Frostbite With Cold Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to apply Frostbite on Cold Hit": [
+      "24% to 57%"
+    ]
+  },
+  "isIdolAffix": false
+}

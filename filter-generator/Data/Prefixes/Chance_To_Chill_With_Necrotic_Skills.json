@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_chill_with",
+  "name": "Chance To Chill With Necrotic Skills",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Chill on Necrotic Hit": [
+      "11% to 28%"
+    ]
+  },
+  "isIdolAffix": false
+}

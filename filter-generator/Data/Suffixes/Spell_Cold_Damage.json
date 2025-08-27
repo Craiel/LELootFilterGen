@@ -1,0 +1,11 @@
+{
+  "id": "spell_cold_damage",
+  "name": "Spell Cold Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

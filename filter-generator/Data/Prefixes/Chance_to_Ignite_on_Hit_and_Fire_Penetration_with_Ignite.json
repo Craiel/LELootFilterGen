@@ -1,0 +1,16 @@
+{
+  "id": "chance_to_ignite_on_",
+  "name": "Chance to Ignite on Hit and Fire Penetration with Ignite",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to apply Ignite on Hit": [
+      "15% to 20%"
+    ],
+    "Fire Penetration with Ignite": [
+      "1% to 2%"
+    ]
+  },
+  "isIdolAffix": false
+}

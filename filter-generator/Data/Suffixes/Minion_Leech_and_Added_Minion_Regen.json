@@ -1,0 +1,11 @@
+{
+  "id": "minion_leech_and_add",
+  "name": "Minion Leech and Added Minion Regen",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": true
+}

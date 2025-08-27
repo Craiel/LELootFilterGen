@@ -1,0 +1,16 @@
+{
+  "id": "vitality_and_added_h",
+  "name": "Vitality and Added Health Regen",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Vitality": [
+      "4 to 5"
+    ],
+    "Health Regen": [
+      "2 to 4"
+    ]
+  },
+  "isIdolAffix": false
+}

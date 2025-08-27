@@ -1,0 +1,11 @@
+{
+  "id": "increased_armor_and_",
+  "name": "Increased Armor and Reduced bonus damage taken from critical hits",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

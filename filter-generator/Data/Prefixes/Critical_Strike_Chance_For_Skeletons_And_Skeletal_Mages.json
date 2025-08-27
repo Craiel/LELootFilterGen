@@ -1,0 +1,37 @@
+{
+  "id": "critical_strike_chan",
+  "name": "Critical Strike Chance For Skeletons And Skeletal Mages",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Critical Strike Chance for Skeletons": [
+      "1%",
+      "2%",
+      "3%",
+      "3%",
+      "4% to 5%",
+      "7% to 8%",
+      "9% to 10%",
+      "16% to 18%"
+    ],
+    "Critical Strike Chance for Skeletal Mages": [
+      "1%",
+      "2%",
+      "2%",
+      "3%",
+      "4% to 5%",
+      "7% to 8%",
+      "9% to 10%",
+      "16% to 18%"
+    ]
+  },
+  "isIdolAffix": false
+}

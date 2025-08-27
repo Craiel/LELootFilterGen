@@ -1,0 +1,27 @@
+{
+  "id": "channel_cost",
+  "name": "Channel Cost",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Channel Cost": [
+      "-12% to -15%",
+      "-16% to -19%",
+      "-20% to -23%",
+      "-24% to -27%",
+      "-28% to -32%",
+      "-36% to -40%",
+      "-41% to -45%",
+      "-60% to -68%"
+    ]
+  },
+  "isIdolAffix": false
+}

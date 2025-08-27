@@ -1,0 +1,13 @@
+{
+  "id": "increased_area_of_vo",
+  "name": "Increased Area of Void Cleave",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased area with Void Cleave": [
+      "18% to 40%"
+    ]
+  },
+  "isIdolAffix": false
+}

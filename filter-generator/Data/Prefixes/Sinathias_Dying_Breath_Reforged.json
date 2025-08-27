@@ -1,0 +1,35 @@
+{
+  "id": "sinathias_dying_brea",
+  "name": "Sinathia's Dying Breath Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Curse Damage": [
+      "9 to 15",
+      "29% to 39%",
+      "16 to 23",
+      "40% to 51%",
+      "23 to 32",
+      "52% to 65%",
+      "33 to 42",
+      "66% to 80%",
+      "43 to 53",
+      "81% to 106%",
+      "75 to 89",
+      "141% to 169%",
+      "90 to 107",
+      "170% to 213%",
+      "171 to 214",
+      "341% to 426%"
+    ]
+  },
+  "isIdolAffix": false
+}

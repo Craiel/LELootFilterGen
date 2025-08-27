@@ -1,0 +1,13 @@
+{
+  "id": "increased_bleed_dura",
+  "name": "Increased Bleed Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Bleed Duration": [
+      "7% to 27%"
+    ]
+  },
+  "isIdolAffix": false
+}

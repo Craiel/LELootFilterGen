@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_deal_doubl",
+  "name": "Chance to deal Double Damage with Falcon Strikes",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to deal Double Damage with Falcon Strikes": [
+      "5% to 11%"
+    ]
+  },
+  "isIdolAffix": false
+}

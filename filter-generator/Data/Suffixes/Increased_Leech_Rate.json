@@ -1,0 +1,11 @@
+{
+  "id": "increased_leech_rate",
+  "name": "Increased Leech Rate",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

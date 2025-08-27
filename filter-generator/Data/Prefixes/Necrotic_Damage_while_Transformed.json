@@ -1,0 +1,27 @@
+{
+  "id": "necrotic_damage_whil",
+  "name": "Necrotic Damage while Transformed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Necrotic Damage While Transformed": [
+      "45% to 51%",
+      "52% to 58%",
+      "59% to 65%",
+      "66% to 72%",
+      "73% to 90%",
+      "110% to 130%",
+      "131% to 160%",
+      "256% to 320%"
+    ]
+  },
+  "isIdolAffix": false
+}

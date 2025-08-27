@@ -1,0 +1,13 @@
+{
+  "id": "stun_avoidance",
+  "name": "Stun Avoidance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Stun Avoidance": [
+      "200 to 450"
+    ]
+  },
+  "isIdolAffix": false
+}

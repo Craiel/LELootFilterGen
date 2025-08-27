@@ -1,0 +1,11 @@
+{
+  "id": "block_effectiveness",
+  "name": "Block Effectiveness",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

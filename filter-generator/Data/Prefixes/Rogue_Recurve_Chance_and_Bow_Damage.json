@@ -1,0 +1,16 @@
+{
+  "id": "rogue_recurve_chance",
+  "name": "Rogue Recurve Chance and Bow Damage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Recurve Chance with Heartseeker": [
+      "10% to 20%"
+    ],
+    "Increased Damage while wielding a Bow": [
+      "5% to 20%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "cursed",
+  "name": "Cursed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "To 75% less Damage depending on Area Level for You and your Minions": [
+      "0.5",
+      "0.51",
+      "0.52",
+      "0.53",
+      "0.54",
+      "0.59",
+      "0.6",
+      "0.96 to 1.2"
+    ],
+    "To 200% more Damage Taken depending on Area Level for You and your Minions": [
+      "1",
+      "1.05",
+      "1.1",
+      "1.15",
+      "1.2",
+      "1.5",
+      "1.6",
+      "2.56 to 3.2"
+    ]
+  },
+  "isIdolAffix": false
+}

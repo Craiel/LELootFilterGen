@@ -1,0 +1,37 @@
+{
+  "id": "lichs_scorn_reforged",
+  "name": "Lich's Scorn Reforged",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Dread Shade Damage and Effects Converted to Cold": [
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%"
+    ],
+    "Cold Damage with Spells and Attacks per Attached Infernal Shade for Minions affected by Dread Shade": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "9 to 11",
+      "12 to 15",
+      "24 to 30"
+    ]
+  },
+  "isIdolAffix": false
+}

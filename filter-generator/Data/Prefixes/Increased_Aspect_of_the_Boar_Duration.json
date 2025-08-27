@@ -1,0 +1,27 @@
+{
+  "id": "increased_aspect_of_",
+  "name": "Increased Aspect of the Boar Duration",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Aspect of the Boar Duration": [
+      "25% to 27%",
+      "28% to 30%",
+      "31% to 33%",
+      "34% to 36%",
+      "37% to 45%",
+      "55% to 65%",
+      "66% to 85%",
+      "136% to 170%"
+    ]
+  },
+  "isIdolAffix": false
+}

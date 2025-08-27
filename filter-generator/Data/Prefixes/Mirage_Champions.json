@@ -1,0 +1,37 @@
+{
+  "id": "mirage_champions",
+  "name": "Mirage Champion's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Dodge Rating": [
+      "25 to 35",
+      "36 to 52",
+      "53 to 70",
+      "71 to 90",
+      "91 to 115",
+      "135 to 160",
+      "161 to 200",
+      "320 to 400"
+    ],
+    "Maximum Shadows": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+    ]
+  },
+  "isIdolAffix": false
+}

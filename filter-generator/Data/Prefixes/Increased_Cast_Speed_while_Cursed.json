@@ -1,0 +1,13 @@
+{
+  "id": "increased_cast_speed",
+  "name": "Increased Cast Speed while Cursed",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Cast Speed while Cursed": [
+      "13% to 33%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mana_gained_on_harve",
+  "name": "Mana Gained on Harvest Use",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mana Gained when you use Harvest": [
+      "5 to 6",
+      "7 to 8",
+      "9 to 10",
+      "11 to 12",
+      "13 to 15",
+      "19 to 23",
+      "24 to 28",
+      "35 to 42"
+    ]
+  },
+  "isIdolAffix": false
+}

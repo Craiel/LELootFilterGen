@@ -1,0 +1,11 @@
+{
+  "id": "health",
+  "name": "Health",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

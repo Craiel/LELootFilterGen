@@ -1,0 +1,13 @@
+{
+  "id": "dodge_rating",
+  "name": "Dodge Rating",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Dodge Rating": [
+      "26 to 70"
+    ]
+  },
+  "isIdolAffix": false
+}

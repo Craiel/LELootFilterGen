@@ -1,0 +1,27 @@
+{
+  "id": "minion_health",
+  "name": "Minion Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Minion Health": [
+      "15% to 35%",
+      "36% to 55%",
+      "56% to 75%",
+      "76% to 100%",
+      "101% to 150%",
+      "190% to 230%",
+      "231% to 300%",
+      "500% to 600%"
+    ]
+  },
+  "isIdolAffix": true
+}

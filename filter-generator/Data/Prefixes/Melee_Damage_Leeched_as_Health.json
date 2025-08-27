@@ -1,0 +1,27 @@
+{
+  "id": "melee_damage_leeched",
+  "name": "Melee Damage Leeched as Health",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Melee Damage Leeched as Health": [
+      "2.3% to 2.9%",
+      "3% to 3.6%",
+      "3.7% to 4.3%",
+      "4.4% to 5%",
+      "5.1% to 6.3%",
+      "7.5% to 9.5%",
+      "9.6% to 12.5%",
+      "20% to 25%"
+    ]
+  },
+  "isIdolAffix": false
+}

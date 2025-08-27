@@ -1,0 +1,37 @@
+{
+  "id": "increased_critical_s",
+  "name": "Increased Critical Strike Chance For You And Your Minions",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Critical Strike Chance": [
+      "40% to 45%",
+      "46% to 51%",
+      "52% to 57%",
+      "58% to 63%",
+      "64% to 80%",
+      "100% to 120%",
+      "121% to 150%",
+      "240% to 300%"
+    ],
+    "Minion Critical Strike Chance": [
+      "40% to 45%",
+      "46% to 51%",
+      "52% to 57%",
+      "58% to 63%",
+      "64% to 80%",
+      "100% to 120%",
+      "121% to 150%",
+      "240% to 300%"
+    ]
+  },
+  "isIdolAffix": true
+}

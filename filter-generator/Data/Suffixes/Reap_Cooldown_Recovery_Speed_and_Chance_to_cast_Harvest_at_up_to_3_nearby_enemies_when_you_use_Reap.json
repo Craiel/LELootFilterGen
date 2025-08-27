@@ -1,0 +1,11 @@
+{
+  "id": "reap_cooldown_recove",
+  "name": "Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

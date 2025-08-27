@@ -1,0 +1,13 @@
+{
+  "id": "critical_strike_chan",
+  "name": "Critical Strike Chance",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Chance": [
+      "20% to 55%"
+    ]
+  },
+  "isIdolAffix": false
+}

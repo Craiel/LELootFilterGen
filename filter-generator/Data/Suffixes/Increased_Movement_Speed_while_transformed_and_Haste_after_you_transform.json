@@ -1,0 +1,11 @@
+{
+  "id": "increased_movement_s",
+  "name": "Increased Movement Speed while transformed and Haste after you transform",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

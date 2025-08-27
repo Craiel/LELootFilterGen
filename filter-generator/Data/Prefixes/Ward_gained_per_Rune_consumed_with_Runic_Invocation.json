@@ -1,0 +1,27 @@
+{
+  "id": "ward_gained_per_rune",
+  "name": "Ward Gained per Rune consumed with Runic Invocation",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Ward gained per Rune consumed with Runic Invocation": [
+      "14 to 19",
+      "20 to 26",
+      "27 to 35",
+      "36 to 45",
+      "46 to 60",
+      "75 to 90",
+      "91 to 115",
+      "184 to 230"
+    ]
+  },
+  "isIdolAffix": false
+}

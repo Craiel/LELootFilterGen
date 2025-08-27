@@ -1,0 +1,11 @@
+{
+  "id": "health_regen_per_sec",
+  "name": "Health Regen per Second",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

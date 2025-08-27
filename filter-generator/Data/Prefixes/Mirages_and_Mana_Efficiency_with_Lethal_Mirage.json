@@ -1,0 +1,37 @@
+{
+  "id": "mirages_and_mana_eff",
+  "name": "Mirages and Mana Efficiency with Lethal Mirage",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Mirages created by Lethal Mirage": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "3"
+    ],
+    "Mana Efficiency with Lethal Mirage": [
+      "10% to 13%",
+      "14% to 17%",
+      "18% to 21%",
+      "22% to 25%",
+      "26% to 30%",
+      "38% to 46%",
+      "47% to 60%",
+      "96% to 120%"
+    ]
+  },
+  "isIdolAffix": false
+}

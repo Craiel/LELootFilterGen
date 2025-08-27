@@ -1,0 +1,13 @@
+{
+  "id": "increased_lightning_",
+  "name": "Increased Lightning Damage while you have Lightning Aegis",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Lightning Damage while you have Lightning Aegis": [
+      "23% to 66%"
+    ]
+  },
+  "isIdolAffix": false
+}

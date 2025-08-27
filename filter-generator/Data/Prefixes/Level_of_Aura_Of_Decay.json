@@ -1,0 +1,37 @@
+{
+  "id": "level_of_aura_of_dec",
+  "name": "Level of Aura Of Decay",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Level of Aura Of Decay": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "Poison Resistance": [
+      "3% to 6%",
+      "7% to 11%",
+      "12% to 17%",
+      "18% to 23%",
+      "24% to 30%",
+      "40% to 50%",
+      "51% to 60%",
+      "96% to 120%"
+    ]
+  },
+  "isIdolAffix": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "increased_totem_dama",
+  "name": "Increased Totem Damage and Totem Teleportation on Traversal",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

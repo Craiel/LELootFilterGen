@@ -1,0 +1,37 @@
+{
+  "id": "bloom_tenders",
+  "name": "Bloom Tender's",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Movement Speed": [
+      "4%",
+      "5%",
+      "6%",
+      "7%",
+      "8%",
+      "10% to 12%",
+      "13% to 15%",
+      "21% to 24%"
+    ],
+    "Poison Resistance": [
+      "20% to 23%",
+      "24% to 27%",
+      "28% to 31%",
+      "32% to 35%",
+      "36% to 42%",
+      "50% to 60%",
+      "61% to 75%",
+      "120% to 150%"
+    ]
+  },
+  "isIdolAffix": false
+}

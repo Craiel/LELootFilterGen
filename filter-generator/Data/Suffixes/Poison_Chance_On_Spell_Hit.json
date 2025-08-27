@@ -1,0 +1,11 @@
+{
+  "id": "poison_chance_on_spe",
+  "name": "Poison Chance On Spell Hit",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

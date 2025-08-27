@@ -1,0 +1,11 @@
+{
+  "id": "spell_lightning_dama",
+  "name": "Spell Lightning Damage",
+  "description": "",
+  "type": "suffix",
+  "tier": null,
+  "itemTypes": [],
+  "minValue": null,
+  "maxValue": null,
+  "isIdolAffix": false
+}

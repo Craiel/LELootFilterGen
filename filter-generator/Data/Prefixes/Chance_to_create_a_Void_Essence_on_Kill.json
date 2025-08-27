@@ -1,0 +1,13 @@
+{
+  "id": "chance_to_create_a_v",
+  "name": "Chance to create a Void Essence on Kill",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to create a Void Essence on Kill": [
+      "4% to 10%"
+    ]
+  },
+  "isIdolAffix": false
+}

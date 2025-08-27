@@ -1,0 +1,27 @@
+{
+  "id": "increased_crit_chanc",
+  "name": "Increased crit chance with Flurry",
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Critical Strike chance with Flurry": [
+      "36% to 40%",
+      "41% to 45%",
+      "46% to 55%",
+      "56% to 65%",
+      "66% to 80%",
+      "100% to 125%",
+      "126% to 160%",
+      "256% to 320%"
+    ]
+  },
+  "isIdolAffix": false
+}
