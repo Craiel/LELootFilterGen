@@ -1,11 +1,13 @@
 {
   "id": "spell_lightning_dama",
   "name": "Spell Lightning Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Spell Lightning Damage": [
+      "2 to 4"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "health_gained_on_dod",
   "name": "Health Gained on Dodge",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health gained when you Dodge": [
+      "5 to 12"
+    ]
+  },
   "isIdolAffix": false
 }

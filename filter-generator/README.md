@@ -56,13 +56,15 @@ npm run sample-analysis
 
 The filter generator reads the game database:
 ```javascript
-// Reads: ../database-generator/Data/game-database.jsonl
+// Reads: Data/game-database.jsonl (and indexed files)
 ```
 
 This provides access to:
-- 946 affixes with properties and item types
-- 403 unique items with full specifications  
+- 946 affixes with complete T1-T8 tier data
+- 440 unique items with full specifications  
 - 47 set items with bonus information
+- 136 skills organized by class
+- Optimized indexes for O(1) lookups
 - Reference data (colors, sounds, beams)
 
 ## Sample Filter Learning

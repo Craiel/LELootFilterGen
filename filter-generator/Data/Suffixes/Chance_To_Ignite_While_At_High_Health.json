@@ -1,11 +1,13 @@
 {
   "id": "chance_to_ignite_whi",
   "name": "Chance To Ignite While At High Health",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Ignite on Hit while at High Health": [
+      "15% to 40%"
+    ]
+  },
   "isIdolAffix": false
 }

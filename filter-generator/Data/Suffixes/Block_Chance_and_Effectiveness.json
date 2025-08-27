@@ -1,11 +1,37 @@
 {
   "id": "block_chance_and_eff",
   "name": "Block Chance and Effectiveness",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Block Chance": [
+      "1%",
+      "2%",
+      "2%",
+      "2%",
+      "3%",
+      "4%",
+      "4%",
+      "6%"
+    ],
+    "Block Effectiveness": [
+      "30 to 50",
+      "51 to 80",
+      "81 to 110",
+      "111 to 150",
+      "151 to 220",
+      "270 to 350",
+      "450 to 600",
+      "1000 to 1300"
+    ]
+  },
   "isIdolAffix": false
 }

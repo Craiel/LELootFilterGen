@@ -1,11 +1,13 @@
 {
   "id": "poison_chance_while_",
   "name": "Poison Chance While At Low Health",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Poison on Hit while at Low Health": [
+      "15% to 40%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "lightning_resistance",
   "name": "Lightning Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Resistance": [
+      "20% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

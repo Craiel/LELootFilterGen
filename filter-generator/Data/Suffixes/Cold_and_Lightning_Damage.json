@@ -1,11 +1,16 @@
 {
   "id": "cold_and_lightning_d",
   "name": "Cold and Lightning Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Cold Damage": [
+      "18% to 48%"
+    ],
+    "Lightning Damage": [
+      "18% to 48%"
+    ]
+  },
   "isIdolAffix": false
 }

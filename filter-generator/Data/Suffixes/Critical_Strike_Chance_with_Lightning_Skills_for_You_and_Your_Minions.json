@@ -1,11 +1,16 @@
 {
   "id": "critical_strike_chan",
   "name": "Critical Strike Chance with Lightning Skills for You and Your Minions",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Critical Strike Chance": [
+      "19% to 50%"
+    ],
+    "Minion Lightning Critical Strike Chance": [
+      "19% to 50%"
+    ]
+  },
   "isIdolAffix": true
 }

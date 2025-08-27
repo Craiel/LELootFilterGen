@@ -1,11 +1,13 @@
 {
   "id": "spell_damage_while_a",
   "name": "Spell Damage while at Low Health",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Spell Damage while at Low Health": [
+      "20% to 75%"
+    ]
+  },
   "isIdolAffix": false
 }

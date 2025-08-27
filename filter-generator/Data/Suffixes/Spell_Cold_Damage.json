@@ -1,11 +1,13 @@
 {
   "id": "spell_cold_damage",
   "name": "Spell Cold Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Spell Cold Damage": [
+      "2 to 4"
+    ]
+  },
   "isIdolAffix": false
 }

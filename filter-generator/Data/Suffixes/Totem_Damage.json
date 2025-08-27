@@ -1,11 +1,13 @@
 {
   "id": "totem_damage",
   "name": "Totem Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage for Totems": [
+      "30% to 80%"
+    ]
+  },
   "isIdolAffix": false
 }

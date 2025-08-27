@@ -1,11 +1,13 @@
 {
   "id": "bow_damage",
   "name": "Bow Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Bow Damage": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

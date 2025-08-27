@@ -1,11 +1,16 @@
 {
   "id": "health_regen_and_dam",
   "name": "Health Regen And Damage Taken Over Time",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health Regen": [
+      "-4% to -10%"
+    ],
+    "Damage Over Time Taken": [
+      "-4% to -10%"
+    ]
+  },
   "isIdolAffix": false
 }

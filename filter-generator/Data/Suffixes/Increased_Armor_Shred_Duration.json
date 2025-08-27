@@ -1,11 +1,13 @@
 {
   "id": "increased_armor_shre",
   "name": "Increased Armor Shred Duration",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Shred Armor Duration": [
+      "40% to 100%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "endurance_and_endura",
   "name": "Endurance and Endurance Threshold",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Endurance": [
+      "1% to 2%"
+    ],
+    "Endurance Threshold": [
+      "10 to 25"
+    ]
+  },
   "isIdolAffix": false
 }

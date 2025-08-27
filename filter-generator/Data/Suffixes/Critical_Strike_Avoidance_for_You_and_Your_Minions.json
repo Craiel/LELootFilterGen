@@ -1,11 +1,16 @@
 {
   "id": "critical_strike_avoi",
   "name": "Critical Strike Avoidance for You and Your Minions",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Avoidance": [
+      "15% to 40%"
+    ],
+    "Minion Critical Strike Avoidance": [
+      "15% to 40%"
+    ]
+  },
   "isIdolAffix": true
 }

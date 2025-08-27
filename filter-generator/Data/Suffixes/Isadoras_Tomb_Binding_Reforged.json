@@ -1,11 +1,37 @@
 {
   "id": "isadoras_tomb_bindin",
   "name": "Isadora's Tomb Binding Reforged",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Armor": [
+      "6% to 7%",
+      "8% to 9%",
+      "10% to 11%",
+      "12% to 13%",
+      "14% to 15%",
+      "18% to 24%",
+      "25% to 35%",
+      "56% to 70%"
+    ],
+    "Increased Necrotic Damage if you have been Hit Recently": [
+      "11% to 14%",
+      "15% to 19%",
+      "20% to 25%",
+      "26% to 32%",
+      "33% to 40%",
+      "50% to 63%",
+      "64% to 80%",
+      "128% to 160%"
+    ]
+  },
   "isIdolAffix": false
 }

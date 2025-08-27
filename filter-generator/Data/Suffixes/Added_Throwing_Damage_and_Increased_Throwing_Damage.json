@@ -1,11 +1,14 @@
 {
   "id": "added_throwing_damag",
   "name": "Added Throwing Damage and Increased Throwing Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Throwing Damage": [
+      "1 to 3",
+      "10% to 20%"
+    ]
+  },
   "isIdolAffix": false
 }

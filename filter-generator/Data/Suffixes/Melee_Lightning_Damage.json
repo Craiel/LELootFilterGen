@@ -1,11 +1,13 @@
 {
   "id": "melee_lightning_dama",
   "name": "Melee Lightning Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Lightning Damage": [
+      "2 to 4"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "damage_over_time_tak",
   "name": "Damage Over Time Taken",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Over Time Taken": [
+      "-4% to -9%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,27 @@
 {
   "id": "chance_to_shred_armo",
   "name": "Chance to Shred Armor on Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to Shred Armor on Hit": [
+      "20% to 30%",
+      "31% to 40%",
+      "41% to 55%",
+      "56% to 70%",
+      "71% to 100%",
+      "125% to 150%",
+      "151% to 200%",
+      "320% to 400%"
+    ]
+  },
   "isIdolAffix": false
 }

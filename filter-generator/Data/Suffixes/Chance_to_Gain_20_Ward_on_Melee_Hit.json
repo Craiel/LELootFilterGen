@@ -1,11 +1,13 @@
 {
   "id": "chance_to_gain_20_wa",
   "name": "Chance to Gain 20 Ward on Melee Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Gain 20 Ward on Melee Hit": [
+      "10% to 22%"
+    ]
+  },
   "isIdolAffix": false
 }

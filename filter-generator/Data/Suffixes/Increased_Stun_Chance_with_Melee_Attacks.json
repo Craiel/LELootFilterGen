@@ -1,11 +1,27 @@
 {
   "id": "increased_stun_chanc",
   "name": "Increased Stun Chance with Melee Attacks",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Melee Stun Chance": [
+      "23% to 31%",
+      "32% to 43%",
+      "43% to 54%",
+      "55% to 66%",
+      "66% to 80%",
+      "103% to 126%",
+      "126% to 160%",
+      "256% to 320%"
+    ]
+  },
   "isIdolAffix": false
 }

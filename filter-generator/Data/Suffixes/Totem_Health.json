@@ -1,11 +1,13 @@
 {
   "id": "totem_health",
   "name": "Totem Health",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health for Totems": [
+      "61% to 165%"
+    ]
+  },
   "isIdolAffix": false
 }

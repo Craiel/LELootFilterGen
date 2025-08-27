@@ -1,11 +1,13 @@
 {
   "id": "increased_armor_shre",
   "name": "Increased Armor Shred Effect",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Shred Armor Effect": [
+      "30% to 90%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "ward_per_second_and_",
   "name": "Ward Per Second and Ward Retention",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward per Second": [
+      "12 to 16"
+    ],
+    "Ward Retention": [
+      "8% to 14%"
+    ]
+  },
   "isIdolAffix": false
 }

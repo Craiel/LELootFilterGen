@@ -1,11 +1,13 @@
 {
   "id": "increased_aspect_of_",
   "name": "Increased Aspect of the Boar Effect",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Aspect of the Boar Effect": [
+      "5% to 12%"
+    ]
+  },
   "isIdolAffix": false
 }

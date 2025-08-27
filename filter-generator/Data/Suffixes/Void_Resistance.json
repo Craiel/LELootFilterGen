@@ -1,11 +1,27 @@
 {
   "id": "void_resistance",
   "name": "Void Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Void Resistance": [
+      "5% to 9%",
+      "10% to 14%",
+      "15% to 21%",
+      "22% to 29%",
+      "30% to 45%",
+      "50% to 60%",
+      "61% to 75%",
+      "120% to 150%"
+    ]
+  },
   "isIdolAffix": false
 }

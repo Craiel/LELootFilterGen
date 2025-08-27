@@ -1,11 +1,16 @@
 {
   "id": "fire_resistance_and_",
   "name": "Fire Resistance and Minion Fire Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Fire Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

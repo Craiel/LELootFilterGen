@@ -1,11 +1,16 @@
 {
   "id": "reduced_bonus_damage",
   "name": "Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Reduced Bonus Damage Taken from Critical Strikes": [
+      "2% to 4%"
+    ],
+    "Critical Strike Chance": [
+      "5% to 15%"
+    ]
+  },
   "isIdolAffix": false
 }

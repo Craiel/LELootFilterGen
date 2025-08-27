@@ -1,11 +1,16 @@
 {
   "id": "health_and_mana",
   "name": "Health and Mana",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health": [
+      "14 to 18"
+    ],
+    "Mana": [
+      "5 to 8"
+    ]
+  },
   "isIdolAffix": false
 }

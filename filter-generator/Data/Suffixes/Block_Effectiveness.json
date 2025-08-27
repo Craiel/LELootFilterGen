@@ -1,11 +1,13 @@
 {
   "id": "block_effectiveness",
   "name": "Block Effectiveness",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Block Effectiveness": [
+      "185 to 400"
+    ]
+  },
   "isIdolAffix": false
 }

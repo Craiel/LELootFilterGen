@@ -1,11 +1,13 @@
 {
   "id": "minion_critical_stri",
   "name": "Minion Critical Strike Chance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Minion Critical Strike Chance": [
+      "22% to 60%"
+    ]
+  },
   "isIdolAffix": true
 }

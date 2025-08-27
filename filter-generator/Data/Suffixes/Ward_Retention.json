@@ -1,11 +1,13 @@
 {
   "id": "ward_retention",
   "name": "Ward Retention",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward Retention": [
+      "13% to 30%"
+    ]
+  },
   "isIdolAffix": false
 }

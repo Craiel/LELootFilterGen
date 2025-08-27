@@ -1,11 +1,34 @@
 {
   "id": "increased_armor_and_",
   "name": "Increased Armor and Reduced bonus damage taken from critical hits",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7"
+    ],
+    "Armor": [
+      "1%",
+      "1%",
+      "2%",
+      "2%",
+      "3%",
+      "4%",
+      "5% to 6%"
+    ],
+    "Reduced Bonus Damage Taken from Critical Strikes": [
+      "1%",
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 10%"
+    ]
+  },
   "isIdolAffix": false
 }

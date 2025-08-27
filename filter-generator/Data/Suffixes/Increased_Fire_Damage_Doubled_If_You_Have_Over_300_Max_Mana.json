@@ -1,11 +1,13 @@
 {
   "id": "increased_fire_damag",
   "name": "Increased Fire Damage (Doubled If You Have Over 300 Max Mana)",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased fire damage. This effect is doubled if you have 300 or more maximum mana.": [
+      "16% to 40%"
+    ]
+  },
   "isIdolAffix": false
 }

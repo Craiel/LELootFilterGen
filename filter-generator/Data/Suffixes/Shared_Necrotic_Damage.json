@@ -1,11 +1,16 @@
 {
   "id": "shared_necrotic_dama",
   "name": "Shared Necrotic Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Necrotic Damage": [
+      "17% to 45%"
+    ],
+    "Minion Necrotic Damage": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

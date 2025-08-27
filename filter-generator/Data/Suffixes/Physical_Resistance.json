@@ -1,11 +1,13 @@
 {
   "id": "physical_resistance",
   "name": "Physical Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Physical Resistance": [
+      "20% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

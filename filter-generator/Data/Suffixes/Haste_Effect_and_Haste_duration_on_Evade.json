@@ -1,11 +1,34 @@
 {
   "id": "haste_effect_and_has",
   "name": "Haste Effect and Haste duration on Evade",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7"
+    ],
+    "Effect of Haste on You": [
+      "1%",
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 10%"
+    ],
+    "Seconds of Haste after you use Evade": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1.9",
+      "2.8",
+      "3.8"
+    ]
+  },
   "isIdolAffix": false
 }

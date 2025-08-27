@@ -1,11 +1,13 @@
 {
   "id": "health_regen_while_t",
   "name": "Health Regen While Transformed",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Health Regen While Transformed": [
+      "35% to 100%"
+    ]
+  },
   "isIdolAffix": false
 }

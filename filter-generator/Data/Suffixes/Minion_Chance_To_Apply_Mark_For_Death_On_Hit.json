@@ -1,11 +1,13 @@
 {
   "id": "minion_chance_to_app",
   "name": "Minion Chance To Apply Mark For Death On Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Marked For Death on Minion Hit": [
+      "4% to 10%"
+    ]
+  },
   "isIdolAffix": true
 }

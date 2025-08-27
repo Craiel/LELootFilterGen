@@ -1,11 +1,13 @@
 {
   "id": "fire_damage_over_tim",
   "name": "Fire Damage Over Time",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Damage Over Time": [
+      "22% to 60%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "dodge_rating_if_hit_",
   "name": "Dodge Rating if Hit Recently",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Dodge Rating if you have been hit recently": [
+      "50 to 120"
+    ]
+  },
   "isIdolAffix": false
 }

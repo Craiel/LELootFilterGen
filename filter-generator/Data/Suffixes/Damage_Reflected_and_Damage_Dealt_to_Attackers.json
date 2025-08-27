@@ -1,11 +1,16 @@
 {
   "id": "damage_reflected_and",
   "name": "Damage Reflected and Damage Dealt to Attackers",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Reflected": [
+      "5% to 15%"
+    ],
+    "Damage Reflected to Attackers": [
+      "50 to 150"
+    ]
+  },
   "isIdolAffix": false
 }

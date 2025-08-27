@@ -1,11 +1,37 @@
 {
   "id": "critical_strike_avoi",
   "name": "Critical Strike Avoidance and Added Dodge Rating",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Critical Strike Avoidance": [
+      "5% to 9%",
+      "10% to 14%",
+      "15% to 19%",
+      "20% to 24%",
+      "25% to 37%",
+      "46% to 60%",
+      "61% to 75%",
+      "100%"
+    ],
+    "Dodge Rating": [
+      "15 to 24",
+      "25 to 35",
+      "36 to 48",
+      "49 to 61",
+      "62 to 80",
+      "95 to 125",
+      "126 to 170",
+      "300 to 360"
+    ]
+  },
   "isIdolAffix": false
 }

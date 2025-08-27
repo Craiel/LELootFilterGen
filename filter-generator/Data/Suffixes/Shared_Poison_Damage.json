@@ -1,11 +1,16 @@
 {
   "id": "shared_poison_damage",
   "name": "Shared Poison Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Poison Damage": [
+      "17% to 45%"
+    ],
+    "Minion Poison Damage": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

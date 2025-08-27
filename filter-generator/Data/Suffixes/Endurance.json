@@ -1,11 +1,27 @@
 {
   "id": "endurance",
   "name": "Endurance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Endurance": [
+      "3% to 4%",
+      "5% to 6%",
+      "7% to 8%",
+      "9% to 10%",
+      "11% to 15%",
+      "20% to 26%",
+      "27% to 35%",
+      "56% to 70%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "physical_spell_criti",
   "name": "Physical Spell Critical Strike Chance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Physical Spell Critical Strike Chance": [
+      "24% to 65%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -59,7 +59,7 @@ npm run validate
 
 The filter generator sub-project reads the generated database:
 ```javascript
-// Filter generator accesses: ../database-generator/Data/game-database.jsonl
+// Filter generator accesses: filter-generator/Data/game-database.jsonl (and indexes)
 ```
 
 ## Critical Constraints

@@ -1,11 +1,13 @@
 {
   "id": "melee_cold_damage",
   "name": "Melee Cold Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Cold Damage": [
+      "2 to 4"
+    ]
+  },
   "isIdolAffix": false
 }

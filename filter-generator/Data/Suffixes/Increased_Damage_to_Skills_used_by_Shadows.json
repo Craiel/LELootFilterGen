@@ -1,11 +1,13 @@
 {
   "id": "increased_damage_to_",
   "name": "Increased Damage to Skills used by Shadows",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Damage for skills used by Shadows": [
+      "25% to 60%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "minion_melee_attack_",
   "name": "Minion Melee Attack Speed",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Minion Melee Attack Speed": [
+      "9% to 24%"
+    ]
+  },
   "isIdolAffix": true
 }

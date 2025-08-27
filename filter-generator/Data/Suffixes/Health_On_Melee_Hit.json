@@ -1,11 +1,27 @@
 {
   "id": "health_on_melee_hit",
   "name": "Health On Melee Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Health Gain on Melee Hit": [
+      "1 to 2",
+      "2 to 3",
+      "4 to 5",
+      "6 to 7",
+      "7 to 9",
+      "12 to 17",
+      "17 to 23",
+      "37 to 46"
+    ]
+  },
   "isIdolAffix": false
 }

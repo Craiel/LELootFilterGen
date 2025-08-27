@@ -63,7 +63,7 @@ The `MasterTemplate1.xml` provides key data points but lacks detailed game infor
 ## Data Flow
 
 ```
-database-generator/TemplateFilters/ → database-generator/scripts/ → database-generator/Data/game-database.jsonl → filter-generator/src/
+database-generator/TemplateFilters/ → database-generator/scripts/ → filter-generator/Data/ → filter-generator/src/
 ```
 
 ## Sub-Project Workflows
@@ -72,10 +72,10 @@ database-generator/TemplateFilters/ → database-generator/scripts/ → database
 1. Parse template files and web data
 2. Apply manual overrides from `database-generator/Overrides/`
 3. Validate data integrity and log issues
-4. Generate `database-generator/Data/game-database.jsonl`
+4. Generate structured database in `filter-generator/Data/` with indexes
 
 ### Filter Generator Workflow  
-1. Read database from `../database-generator/Data/game-database.jsonl`
+1. Read database from `filter-generator/Data/game-database.jsonl` (and optimized indexes)
 2. Accept class/gameplay description input
 3. Use AI assistance to determine appropriate rules
 4. Generate XML filter with general rules, affix rules, and unique item rules

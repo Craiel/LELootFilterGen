@@ -1,11 +1,13 @@
 {
   "id": "increased_damage_whi",
   "name": "Increased Damage while wielding a Bow",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Damage while wielding a Bow": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

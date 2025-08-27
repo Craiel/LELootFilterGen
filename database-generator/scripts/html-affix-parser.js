@@ -5,27 +5,28 @@ const path = require('path');
 const { JSDOM } = require('jsdom');
 
 /**
- * HTML Prefix Data Parser
+ * HTML Affix Data Parser
  * 
- * Parses the manually downloaded HTML file from Last Epoch Tools
- * to extract prefix affix information.
+ * Unified parser for both prefix and suffix affix data from Last Epoch Tools.
+ * Parses manually downloaded HTML files to extract affix information.
  */
-class HTMLPrefixParser {
-  constructor() {
-    this.htmlFile = path.join(__dirname, '..', 'WebData', 'Prefixes.html');
+class HTMLAffixParser {
+  constructor(type = 'prefixes') {
+    this.type = type.toLowerCase();
+    this.htmlFile = path.join(__dirname, '..', 'WebData', `${this.type.charAt(0).toUpperCase() + this.type.slice(1)}.html`);
     this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
     this.logger = console;
   }
 
   /**
-   * Parse the HTML file and extract prefix data
+   * Parse the HTML file and extract affix data
    */
-  async parsePrefixes() {
+  async parseAffixes() {
     if (!await fs.pathExists(this.htmlFile)) {
       throw new Error(`HTML file not found: ${this.htmlFile}`);
     }
 
-    this.logger.log('📄 Loading Prefixes HTML file...');
+    this.logger.log(`📄 Loading ${this.type.charAt(0).toUpperCase() + this.type.slice(1)} HTML file...`);
     const htmlContent = await fs.readFile(this.htmlFile, 'utf8');
     
     this.logger.log('🔍 Parsing HTML structure...');
@@ -33,36 +34,36 @@ class HTMLPrefixParser {
     const document = dom.window.document;
 
     // Find all affix cards - could be .affix-card, .item-card, or similar
-    const affixCards = document.querySelectorAll('.affix-card, .item-card, .prefix-card');
-    this.logger.log(`📊 Found ${affixCards.length} prefix cards`);
+    const affixCards = document.querySelectorAll('.affix-card, .item-card, .prefix-card, .suffix-card');
+    this.logger.log(`📊 Found ${affixCards.length} ${this.type} cards`);
 
-    const prefixes = [];
+    const affixes = [];
 
     for (const card of affixCards) {
       try {
-        const affix = this.parsePrefixCard(card);
+        const affix = this.parseAffixCard(card);
         if (affix) {
-          prefixes.push(affix);
+          affixes.push(affix);
         }
       } catch (error) {
-        this.logger.warn(`⚠️  Failed to parse prefix card: ${error.message}`);
+        this.logger.warn(`⚠️  Failed to parse ${this.type.slice(0, -1)} card: ${error.message}`);
       }
     }
 
-    this.logger.log(`✅ Parsed ${prefixes.length} prefixes`);
+    this.logger.log(`✅ Parsed ${affixes.length} ${this.type}`);
 
     return {
-      prefixes
+      [this.type]: affixes
     };
   }
 
   /**
-   * Parse individual prefix card
+   * Parse individual affix card
    */
-  parsePrefixCard(card) {
+  parseAffixCard(card) {
     // Get affix name - could be in various elements
     let affixName = '';
-    const nameSelectors = ['.affix-name', '.item-name', '.prefix-name', 'h3', 'h4'];
+    const nameSelectors = ['.affix-name', '.item-name', '.prefix-name', '.suffix-name', 'h3', 'h4'];
     
     for (const selector of nameSelectors) {
       const nameElement = card.querySelector(selector);
@@ -310,8 +311,6 @@ class HTMLPrefixParser {
     return result;
   }
 
-
-
   /**
    * Determine if an affix is likely for idols
    */
@@ -338,25 +337,26 @@ class HTMLPrefixParser {
   async saveData(data) {
     await fs.ensureDir(this.outputDir);
     
-    // Save prefixes
-    const prefixesDir = path.join(this.outputDir, 'Prefixes');
-    await fs.ensureDir(prefixesDir);
+    // Save affixes to individual files
+    const affixesDir = path.join(this.outputDir, this.type.charAt(0).toUpperCase() + this.type.slice(1));
+    await fs.ensureDir(affixesDir);
     
-    this.logger.log('💾 Saving prefixes...');
+    this.logger.log(`💾 Saving ${this.type}...`);
     
-    for (const prefix of data.prefixes) {
-      const fileName = `${prefix.name.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_')}.json`;
-      const filePath = path.join(prefixesDir, fileName);
+    const affixes = data[this.type] || [];
+    for (const affix of affixes) {
+      const fileName = `${affix.name.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_')}.json`;
+      const filePath = path.join(affixesDir, fileName);
       
-      await fs.writeJson(filePath, prefix, { spaces: 2 });
+      await fs.writeJson(filePath, affix, { spaces: 2 });
     }
 
-    this.logger.log(`✅ Saved ${data.prefixes.length} prefixes to ${prefixesDir}`);
+    this.logger.log(`✅ Saved ${affixes.length} ${this.type} to ${affixesDir}`);
 
     return {
-      totalPrefixes: data.prefixes.length,
-      idolPrefixes: data.prefixes.filter(p => p.isIdolAffix).length,
-      itemPrefixes: data.prefixes.filter(p => !p.isIdolAffix).length
+      [`total${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]: affixes.length,
+      [`idol${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]: affixes.filter(a => a.isIdolAffix).length,
+      [`item${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]: affixes.filter(a => !a.isIdolAffix).length
     };
   }
 
@@ -365,21 +365,21 @@ class HTMLPrefixParser {
    */
   async parse() {
     try {
-      this.logger.log('🚀 Starting HTML prefix parsing...');
+      this.logger.log(`🚀 Starting HTML ${this.type} parsing...`);
       
-      const data = await this.parsePrefixes();
+      const data = await this.parseAffixes();
       const summary = await this.saveData(data);
       
-      this.logger.log('\n📊 HTML Prefix Parsing Summary:');
-      this.logger.log(`   Total Prefixes: ${summary.totalPrefixes}`);
-      this.logger.log(`   Idol Prefixes: ${summary.idolPrefixes}`);
-      this.logger.log(`   Item Prefixes: ${summary.itemPrefixes}`);
+      this.logger.log(`\n📊 HTML ${this.type.charAt(0).toUpperCase() + this.type.slice(1)} Parsing Summary:`);
+      this.logger.log(`   Total ${this.type.charAt(0).toUpperCase() + this.type.slice(1)}: ${summary[`total${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]}`);
+      this.logger.log(`   Idol ${this.type.charAt(0).toUpperCase() + this.type.slice(1)}: ${summary[`idol${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]}`);
+      this.logger.log(`   Item ${this.type.charAt(0).toUpperCase() + this.type.slice(1)}: ${summary[`item${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]}`);
       
-      this.logger.log('\n🎉 HTML prefix parsing complete!');
+      this.logger.log(`\n🎉 HTML ${this.type} parsing complete!`);
       return summary;
       
     } catch (error) {
-      this.logger.error('❌ HTML prefix parsing failed:', error.message);
+      this.logger.error(`❌ HTML ${this.type} parsing failed:`, error.message);
       throw error;
     }
   }
@@ -388,10 +388,16 @@ class HTMLPrefixParser {
 // CLI interface
 async function main() {
   try {
-    const parser = new HTMLPrefixParser();
+    const type = process.argv[2] || 'prefixes';
+    if (!['prefixes', 'suffixes'].includes(type.toLowerCase())) {
+      console.error('Usage: node html-affix-parser.js [prefixes|suffixes]');
+      process.exit(1);
+    }
+    
+    const parser = new HTMLAffixParser(type);
     await parser.parse();
   } catch (error) {
-    console.error('\n💥 Prefix parsing failed:', error.message);
+    console.error(`\n💥 ${process.argv[2] || 'Affix'} parsing failed:`, error.message);
     process.exit(1);
   }
 }
@@ -400,4 +406,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { HTMLPrefixParser };
+module.exports = { HTMLAffixParser };

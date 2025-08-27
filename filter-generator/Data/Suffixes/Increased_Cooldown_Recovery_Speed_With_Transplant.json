@@ -1,11 +1,13 @@
 {
   "id": "increased_cooldown_r",
   "name": "Increased Cooldown Recovery Speed With Transplant",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Cooldown Recovery Speed for Transplant": [
+      "7% to 15%"
+    ]
+  },
   "isIdolAffix": false
 }

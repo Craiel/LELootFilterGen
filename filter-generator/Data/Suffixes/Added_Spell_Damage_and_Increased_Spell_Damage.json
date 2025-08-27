@@ -1,11 +1,14 @@
 {
   "id": "added_spell_damage_a",
   "name": "Added Spell Damage and Increased Spell Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Spell Damage": [
+      "2 to 4",
+      "10% to 20%"
+    ]
+  },
   "isIdolAffix": false
 }

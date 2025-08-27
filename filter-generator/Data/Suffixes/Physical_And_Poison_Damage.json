@@ -1,11 +1,16 @@
 {
   "id": "physical_and_poison_",
   "name": "Physical And Poison Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Physical Damage": [
+      "18% to 48%"
+    ],
+    "Poison Damage": [
+      "18% to 48%"
+    ]
+  },
   "isIdolAffix": false
 }

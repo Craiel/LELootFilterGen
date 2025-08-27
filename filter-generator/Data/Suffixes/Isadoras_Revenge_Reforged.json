@@ -1,11 +1,37 @@
 {
   "id": "isadoras_revenge_ref",
   "name": "Isadora's Revenge Reforged",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Necrotic Penetration": [
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6%",
+      "8% to 9%",
+      "10% to 12%",
+      "19% to 24%"
+    ],
+    "Stun Avoidance": [
+      "50 to 65",
+      "66 to 82",
+      "83 to 100",
+      "101 to 119",
+      "120 to 150",
+      "200 to 239",
+      "240 to 300",
+      "480 to 600"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,14 @@
 {
   "id": "added_melee_damage_a",
   "name": "Added Melee Damage and Increased Melee Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Damage": [
+      "3 to 6",
+      "10% to 20%"
+    ]
+  },
   "isIdolAffix": false
 }

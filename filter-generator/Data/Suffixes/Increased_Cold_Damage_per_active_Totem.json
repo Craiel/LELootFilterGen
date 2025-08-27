@@ -1,11 +1,13 @@
 {
   "id": "increased_cold_damag",
   "name": "Increased Cold Damage per active Totem",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Cold Damage per active Totem": [
+      "7% to 22%"
+    ]
+  },
   "isIdolAffix": false
 }

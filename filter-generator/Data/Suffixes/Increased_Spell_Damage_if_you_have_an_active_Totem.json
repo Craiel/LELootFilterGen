@@ -1,11 +1,13 @@
 {
   "id": "increased_spell_dama",
   "name": "Increased Spell Damage if you have an active Totem",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Spell Damage if you have an active Totem": [
+      "25% to 60%"
+    ]
+  },
   "isIdolAffix": false
 }

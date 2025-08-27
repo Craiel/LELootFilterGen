@@ -1,11 +1,16 @@
 {
   "id": "added_block_effectiv",
   "name": "Added Block Effectiveness and Health Gained on Block",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Block Effectiveness": [
+      "40 to 80"
+    ],
+    "Health Gain on Block": [
+      "5 to 12"
+    ]
+  },
   "isIdolAffix": false
 }

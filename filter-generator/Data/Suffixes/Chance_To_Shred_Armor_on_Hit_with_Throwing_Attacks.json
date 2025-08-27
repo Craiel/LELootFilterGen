@@ -1,11 +1,13 @@
 {
   "id": "chance_to_shred_armo",
   "name": "Chance To Shred Armor on Hit with Throwing Attacks",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Shred Armor on Throwing Hit": [
+      "30% to 80%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,27 @@
 {
   "id": "reduced_bonus_damage",
   "name": "Reduced Bonus Damage Taken from Critical Strikes",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Reduced Bonus Damage Taken from Critical Strikes": [
+      "35% to 43%",
+      "44% to 53%",
+      "54% to 66%",
+      "67% to 80%",
+      "81% to 100%",
+      "100%",
+      "100%",
+      "100%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "physical_resistance_",
   "name": "Physical Resistance and Minion Physical Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Physical Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Physical Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

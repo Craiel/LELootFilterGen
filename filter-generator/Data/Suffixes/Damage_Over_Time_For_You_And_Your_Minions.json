@@ -1,11 +1,16 @@
 {
   "id": "damage_over_time_for",
   "name": "Damage Over Time For You And Your Minions",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Over Time": [
+      "18% to 48%"
+    ],
+    "Minion Damage Over Time": [
+      "18% to 48%"
+    ]
+  },
   "isIdolAffix": true
 }

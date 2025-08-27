@@ -1,11 +1,27 @@
 {
   "id": "endurance_threshold",
   "name": "Endurance Threshold",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Endurance Threshold": [
+      "20 to 26",
+      "27 to 35",
+      "36 to 45",
+      "46 to 59",
+      "60 to 80",
+      "110 to 150",
+      "151 to 200",
+      "320 to 400"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,27 @@
 {
   "id": "elemental_resistance",
   "name": "Elemental Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Elemental Resistance": [
+      "4% to 5%",
+      "6% to 8%",
+      "9% to 11%",
+      "12% to 15%",
+      "16% to 20%",
+      "24% to 30%",
+      "31% to 40%",
+      "64% to 75%"
+    ]
+  },
   "isIdolAffix": false
 }

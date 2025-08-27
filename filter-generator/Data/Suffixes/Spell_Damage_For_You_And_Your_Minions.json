@@ -1,11 +1,16 @@
 {
   "id": "spell_damage_for_you",
   "name": "Spell Damage For You And Your Minions",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Spell Damage": [
+      "18% to 48%"
+    ],
+    "Minion Spell Damage": [
+      "18% to 48%"
+    ]
+  },
   "isIdolAffix": true
 }

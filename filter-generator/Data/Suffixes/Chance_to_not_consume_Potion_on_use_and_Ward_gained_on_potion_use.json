@@ -1,11 +1,34 @@
 {
   "id": "chance_to_not_consum",
   "name": "Chance to not consume Potion on use and Ward gained on potion use",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7"
+    ],
+    "Chance to not consume a Potion on Potion use": [
+      "1%",
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 10%"
+    ],
+    "Ward Gained on Potion Use": [
+      "2 to 4",
+      "5 to 7",
+      "8 to 10",
+      "11 to 15",
+      "16 to 22",
+      "25 to 35",
+      "36 to 50"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,27 @@
 {
   "id": "health_regeneration",
   "name": "Health Regeneration",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Health Regen": [
+      "6% to 17%",
+      "18% to 29%",
+      "30% to 41%",
+      "42% to 53%",
+      "54% to 82%",
+      "100% to 129%",
+      "130% to 162%",
+      "260% to 325%"
+    ]
+  },
   "isIdolAffix": false
 }

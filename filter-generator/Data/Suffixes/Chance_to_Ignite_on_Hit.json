@@ -1,11 +1,27 @@
 {
   "id": "chance_to_ignite_on_",
   "name": "Chance to Ignite on Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Chance to Ignite on Hit": [
+      "10% to 12%",
+      "13% to 16%",
+      "17% to 20%",
+      "20% to 23%",
+      "24% to 30%",
+      "40% to 49%",
+      "50% to 65%",
+      "104% to 130%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "shared_void_damage",
   "name": "Shared Void Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Void Damage": [
+      "17% to 45%"
+    ],
+    "Minion Void Damage": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

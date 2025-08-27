@@ -1,11 +1,37 @@
 {
   "id": "health_and_stun_avoi",
   "name": "Health and Stun Avoidance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Health": [
+      "12 to 17",
+      "18 to 26",
+      "27 to 35",
+      "36 to 44",
+      "45 to 60",
+      "75 to 99",
+      "100 to 130",
+      "198 to 234"
+    ],
+    "Stun Avoidance": [
+      "40 to 65",
+      "66 to 100",
+      "101 to 180",
+      "181 to 250",
+      "251 to 350",
+      "450 to 550",
+      "551 to 750",
+      "1200 to 1500"
+    ]
+  },
   "isIdolAffix": false
 }

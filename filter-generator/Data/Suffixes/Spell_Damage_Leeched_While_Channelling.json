@@ -1,11 +1,13 @@
 {
   "id": "spell_damage_leeched",
   "name": "Spell Damage Leeched While Channelling",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Spell Damage Leeched as Health While Channelling": [
+      "1% to 3%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -820,8 +820,7 @@ class DatabaseBuilder {
    * Parse affix data from HTML files
    */
   async parseAffixData() {
-    const { HTMLPrefixParser } = require('./html-prefix-parser.js');
-    const { HTMLSuffixParser } = require('./html-suffix-parser.js');
+    const { HTMLAffixParser } = require('./html-affix-parser.js');
     
     let totalPrefixes = 0;
     let totalSuffixes = 0;
@@ -829,9 +828,9 @@ class DatabaseBuilder {
     try {
       // Parse prefix data
       this.logger.info('Starting HTML prefix data parsing...');
-      const prefixParser = new HTMLPrefixParser();
+      const prefixParser = new HTMLAffixParser('prefixes');
       const prefixSummary = await prefixParser.parse();
-      const prefixData = await prefixParser.parsePrefixes();
+      const prefixData = await prefixParser.parseAffixes();
       
       if (prefixData.prefixes && prefixData.prefixes.length > 0) {
         totalPrefixes = prefixData.prefixes.length;
@@ -849,9 +848,9 @@ class DatabaseBuilder {
     try {
       // Parse suffix data
       this.logger.info('Starting HTML suffix data parsing...');
-      const suffixParser = new HTMLSuffixParser();
+      const suffixParser = new HTMLAffixParser('suffixes');
       const suffixSummary = await suffixParser.parse();
-      const suffixData = await suffixParser.parseSuffixes();
+      const suffixData = await suffixParser.parseAffixes();
       
       if (suffixData.suffixes && suffixData.suffixes.length > 0) {
         totalSuffixes = suffixData.suffixes.length;

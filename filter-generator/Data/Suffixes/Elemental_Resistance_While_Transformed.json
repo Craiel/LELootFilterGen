@@ -1,11 +1,13 @@
 {
   "id": "elemental_resistance",
   "name": "Elemental Resistance While Transformed",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Elemental Resistance While Transformed": [
+      "13% to 30%"
+    ]
+  },
   "isIdolAffix": false
 }

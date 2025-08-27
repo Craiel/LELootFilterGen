@@ -1,11 +1,27 @@
 {
   "id": "increased_cooldown_r",
   "name": "Increased Cooldown Recovery Speed",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Increased Cooldown Recovery Speed": [
+      "5% to 6%",
+      "7% to 9%",
+      "10% to 12%",
+      "13% to 15%",
+      "16% to 20%",
+      "24% to 27%",
+      "28% to 32%",
+      "45% to 50%"
+    ]
+  },
   "isIdolAffix": false
 }

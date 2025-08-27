@@ -1,11 +1,13 @@
 {
   "id": "ward_gained_on_kill",
   "name": "Ward Gained On Kill",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward Gain on Kill": [
+      "5 to 13"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "melee_fire_damage",
   "name": "Melee Fire Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Fire Damage": [
+      "2 to 4"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,13 @@
 {
   "id": "percent_missing_heal",
   "name": "Percent Missing Health Restored On Lunge",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Missing Health Restored on Lunge": [
+      "5% to 12%"
+    ]
+  },
   "isIdolAffix": false
 }

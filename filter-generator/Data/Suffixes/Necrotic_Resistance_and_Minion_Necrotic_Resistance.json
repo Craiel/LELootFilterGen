@@ -1,11 +1,16 @@
 {
   "id": "necrotic_resistance_",
   "name": "Necrotic Resistance and Minion Necrotic Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Necrotic Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Necrotic Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

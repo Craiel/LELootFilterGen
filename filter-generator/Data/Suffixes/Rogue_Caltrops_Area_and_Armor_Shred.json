@@ -1,11 +1,16 @@
 {
   "id": "rogue_caltrops_area_",
   "name": "Rogue Caltrops Area and Armor Shred",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Area with Caltrops": [
+      "9% to 25%"
+    ],
+    "Chance to shred Armor on hit with Caltrops": [
+      "10% to 28%"
+    ]
+  },
   "isIdolAffix": false
 }

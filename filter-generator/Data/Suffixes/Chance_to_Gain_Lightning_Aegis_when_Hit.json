@@ -1,11 +1,13 @@
 {
   "id": "chance_to_gain_light",
   "name": "Chance to Gain Lightning Aegis when Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to gain Lightning Aegis when hit": [
+      "4% to 10%"
+    ]
+  },
   "isIdolAffix": false
 }

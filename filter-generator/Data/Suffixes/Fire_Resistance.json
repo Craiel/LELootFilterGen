@@ -1,11 +1,13 @@
 {
   "id": "fire_resistance",
   "name": "Fire Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Resistance": [
+      "20% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

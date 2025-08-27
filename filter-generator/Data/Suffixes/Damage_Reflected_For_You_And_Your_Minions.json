@@ -1,11 +1,16 @@
 {
   "id": "damage_reflected_for",
   "name": "Damage Reflected For You And Your Minions",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Damage Reflected": [
+      "10% to 35%"
+    ],
+    "Minion Damage Reflected": [
+      "10% to 35%"
+    ]
+  },
   "isIdolAffix": true
 }

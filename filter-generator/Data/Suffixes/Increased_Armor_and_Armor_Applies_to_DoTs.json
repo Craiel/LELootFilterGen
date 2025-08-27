@@ -1,11 +1,34 @@
 {
   "id": "increased_armor_and_",
   "name": "Increased Armor and Armor Applies to DoTs",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7"
+    ],
+    "Armor": [
+      "1%",
+      "1%",
+      "3%",
+      "4%",
+      "6%",
+      "7% to 9%",
+      "10% to 12%"
+    ],
+    "Armor Mitigation also applies to Damage over Time": [
+      "1%",
+      "1%",
+      "1%",
+      "1%",
+      "3%",
+      "4%",
+      "6%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "void_resistance_and_",
   "name": "Void Resistance and Minion Void Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Void Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Void Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

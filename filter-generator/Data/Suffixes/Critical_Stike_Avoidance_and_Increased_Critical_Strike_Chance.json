@@ -1,11 +1,16 @@
 {
   "id": "critical_stike_avoid",
   "name": "Critical Stike Avoidance and Increased Critical Strike Chance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Critical Strike Avoidance": [
+      "2% to 4%"
+    ],
+    "Critical Strike Chance": [
+      "5% to 15%"
+    ]
+  },
   "isIdolAffix": false
 }

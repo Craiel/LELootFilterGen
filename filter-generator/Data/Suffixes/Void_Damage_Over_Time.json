@@ -1,11 +1,13 @@
 {
   "id": "void_damage_over_tim",
   "name": "Void Damage Over Time",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Void Damage Over Time": [
+      "33% to 90%"
+    ]
+  },
   "isIdolAffix": false
 }

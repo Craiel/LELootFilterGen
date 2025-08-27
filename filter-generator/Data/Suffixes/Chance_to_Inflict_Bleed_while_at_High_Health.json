@@ -1,11 +1,13 @@
 {
   "id": "chance_to_inflict_bl",
   "name": "Chance to Inflict Bleed while at High Health",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to inflict Bleed on Hit while at High Health": [
+      "15% to 40%"
+    ]
+  },
   "isIdolAffix": false
 }

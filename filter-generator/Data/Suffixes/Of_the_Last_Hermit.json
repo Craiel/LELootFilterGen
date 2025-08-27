@@ -1,11 +1,37 @@
 {
   "id": "of_the_last_hermit",
   "name": "Of the Last Hermit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Health Gained on Potion Use": [
+      "15 to 20",
+      "20 to 29",
+      "30 to 45",
+      "46 to 65",
+      "66 to 100",
+      "200 to 245",
+      "246 to 350",
+      "560 to 700"
+    ],
+    "Potion Health Converted to Ward": [
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "100%",
+      "160% to 200%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "increased_chance_to_",
   "name": "Increased Chance to Find Potions and Health Gained on Potion Use",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Increased Chance To Find Potions": [
+      "5% to 10%"
+    ],
+    "Health Gained on Potion Use": [
+      "20 to 40"
+    ]
+  },
   "isIdolAffix": false
 }

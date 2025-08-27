@@ -1,11 +1,37 @@
 {
   "id": "ruby_fang_cleaver_re",
   "name": "Ruby Fang Cleaver Reforged",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Melee Attack Speed": [
+      "1%",
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6% to 7%",
+      "8% to 10%",
+      "15% to 18%"
+    ],
+    "Chance to apply Poison on Melee Hit": [
+      "5% to 90%",
+      "10% to 15%",
+      "16% to 21%",
+      "22% to 27%",
+      "28% to 35%",
+      "45% to 59%",
+      "60% to 75%",
+      "120% to 150%"
+    ]
+  },
   "isIdolAffix": false
 }

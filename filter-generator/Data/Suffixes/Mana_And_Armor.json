@@ -1,11 +1,16 @@
 {
   "id": "mana_and_armor",
   "name": "Mana And Armor",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Armor": [
+      "5% to 12%"
+    ],
+    "Mana": [
+      "5% to 12%"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "melee_damage_for_you",
   "name": "Melee Damage For You And Your Minions",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Damage": [
+      "18% to 48%"
+    ],
+    "Minion Melee Damage": [
+      "18% to 48%"
+    ]
+  },
   "isIdolAffix": true
 }

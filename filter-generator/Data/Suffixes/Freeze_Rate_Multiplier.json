@@ -1,11 +1,27 @@
 {
   "id": "freeze_rate_multipli",
   "name": "Freeze Rate Multiplier",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Freeze Rate Multiplier": [
+      "20% to 35%",
+      "36% to 60%",
+      "61% to 90%",
+      "91% to 130%",
+      "131% to 180%",
+      "230% to 300%",
+      "301% to 400%",
+      "640% to 800%"
+    ]
+  },
   "isIdolAffix": false
 }

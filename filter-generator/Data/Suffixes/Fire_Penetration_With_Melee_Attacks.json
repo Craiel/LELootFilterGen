@@ -1,11 +1,13 @@
 {
   "id": "fire_penetration_wit",
   "name": "Fire Penetration With Melee Attacks",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Melee Penetration": [
+      "7% to 15%"
+    ]
+  },
   "isIdolAffix": false
 }

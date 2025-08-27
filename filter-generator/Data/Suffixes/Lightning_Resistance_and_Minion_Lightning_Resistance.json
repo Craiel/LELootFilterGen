@@ -1,11 +1,16 @@
 {
   "id": "lightning_resistance",
   "name": "Lightning Resistance and Minion Lightning Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Lightning Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Lightning Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

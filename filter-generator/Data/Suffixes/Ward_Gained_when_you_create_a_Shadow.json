@@ -1,11 +1,13 @@
 {
   "id": "ward_gained_when_you",
   "name": "Ward Gained when you create a Shadow",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Ward Gained on Shadow Creation": [
+      "5 to 15"
+    ]
+  },
   "isIdolAffix": false
 }

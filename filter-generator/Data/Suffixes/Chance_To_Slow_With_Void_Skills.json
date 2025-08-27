@@ -1,11 +1,13 @@
 {
   "id": "chance_to_slow_with_",
   "name": "Chance To Slow With Void Skills",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to Slow on Void Hit": [
+      "25% to 60%"
+    ]
+  },
   "isIdolAffix": false
 }

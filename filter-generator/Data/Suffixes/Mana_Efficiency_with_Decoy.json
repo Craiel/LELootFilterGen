@@ -1,11 +1,13 @@
 {
   "id": "mana_efficiency_with",
   "name": "Mana Efficiency with Decoy",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Mana efficiency for Decoy": [
+      "8% to 16%"
+    ]
+  },
   "isIdolAffix": false
 }

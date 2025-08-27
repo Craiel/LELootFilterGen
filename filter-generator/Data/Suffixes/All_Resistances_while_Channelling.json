@@ -1,11 +1,27 @@
 {
   "id": "all_resistances_whil",
   "name": "All Resistances while Channelling",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "All Resistances While Channelling": [
+      "5% to 6%",
+      "7% to 8%",
+      "9% to 12%",
+      "13% to 16%",
+      "17% to 22%",
+      "28% to 36%",
+      "37% to 48%",
+      "75% to 95%"
+    ]
+  },
   "isIdolAffix": false
 }

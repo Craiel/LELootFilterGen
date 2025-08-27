@@ -1,11 +1,16 @@
 {
   "id": "poison_resistance_an",
   "name": "Poison Resistance and Minion Poison Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Poison Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Poison Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

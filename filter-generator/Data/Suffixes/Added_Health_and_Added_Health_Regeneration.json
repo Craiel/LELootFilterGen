@@ -1,11 +1,37 @@
 {
   "id": "added_health_and_add",
   "name": "Added Health and Added Health Regeneration",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Health": [
+      "14 to 21",
+      "22 to 29",
+      "30 to 37",
+      "38 to 45",
+      "46 to 68",
+      "85 to 105",
+      "106 to 135",
+      "205 to 243"
+    ],
+    "Health Regen": [
+      "1 to 2",
+      "3 to 4",
+      "5 to 6",
+      "7 to 9",
+      "10 to 12",
+      "15 to 19",
+      "20 to 25",
+      "40 to 50"
+    ]
+  },
   "isIdolAffix": false
 }

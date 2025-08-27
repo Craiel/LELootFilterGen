@@ -1,11 +1,27 @@
 {
   "id": "dodge_rating",
   "name": "Dodge Rating",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Dodge Rating": [
+      "10% to 14%",
+      "15% to 19%",
+      "20% to 24%",
+      "25% to 29%",
+      "30% to 38%",
+      "55% to 65%",
+      "66% to 80%",
+      "130% to 160%"
+    ]
+  },
   "isIdolAffix": false
 }

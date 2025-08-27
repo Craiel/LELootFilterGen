@@ -1,11 +1,13 @@
 {
   "id": "melee_void_damage",
   "name": "Melee Void Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Melee Void Damage": [
+      "33% to 90%"
+    ]
+  },
   "isIdolAffix": false
 }

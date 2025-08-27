@@ -1,11 +1,13 @@
 {
   "id": "throwing_damage",
   "name": "Throwing Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Throwing Damage": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

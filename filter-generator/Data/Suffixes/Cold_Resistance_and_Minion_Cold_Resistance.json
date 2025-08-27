@@ -1,11 +1,16 @@
 {
   "id": "cold_resistance_and_",
   "name": "Cold Resistance and Minion Cold Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Cold Resistance": [
+      "18% to 23%"
+    ],
+    "Minion Cold Resistance": [
+      "18% to 23%"
+    ]
+  },
   "isIdolAffix": true
 }

@@ -1,11 +1,13 @@
 {
   "id": "chance_to_cast_fire_",
   "name": "Chance to Cast Fire Aura when Hit (1 Second Cooldown)",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to cast Fire Aura when Hit (1 second cooldown)": [
+      "2% to 5%"
+    ]
+  },
   "isIdolAffix": false
 }

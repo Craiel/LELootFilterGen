@@ -1,11 +1,13 @@
 {
   "id": "bow_critical_strike_",
   "name": "Bow Critical Strike Chance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Bow Critical Strike Chance": [
+      "24% to 65%"
+    ]
+  },
   "isIdolAffix": false
 }

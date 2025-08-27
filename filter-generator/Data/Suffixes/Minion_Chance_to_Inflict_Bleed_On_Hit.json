@@ -1,11 +1,13 @@
 {
   "id": "minion_chance_to_inf",
   "name": "Minion Chance to Inflict Bleed On Hit",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Chance to inflict Bleed on Minion Hit": [
+      "19% to 52%"
+    ]
+  },
   "isIdolAffix": true
 }

@@ -1,11 +1,27 @@
 {
   "id": "stun_avoidance",
   "name": "Stun Avoidance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3",
+      "Tier 4",
+      "Tier 5",
+      "Tier 6",
+      "Tier 7",
+      "Tier 8"
+    ],
+    "Stun Avoidance": [
+      "45 to 75",
+      "76 to 135",
+      "136 to 210",
+      "211 to 300",
+      "301 to 400",
+      "550 to 700",
+      "701 to 900",
+      "1440 to 1800"
+    ]
+  },
   "isIdolAffix": false
 }

@@ -1,11 +1,16 @@
 {
   "id": "shared_fire_damage",
   "name": "Shared Fire Damage",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Fire Damage": [
+      "17% to 45%"
+    ],
+    "Minion Fire Damage": [
+      "17% to 45%"
+    ]
+  },
   "isIdolAffix": false
 }

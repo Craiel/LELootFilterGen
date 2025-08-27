@@ -1,11 +1,13 @@
 {
   "id": "cold_damage_over_tim",
   "name": "Cold Damage Over Time",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Cold Damage Over Time": [
+      "30% to 75%"
+    ]
+  },
   "isIdolAffix": false
 }

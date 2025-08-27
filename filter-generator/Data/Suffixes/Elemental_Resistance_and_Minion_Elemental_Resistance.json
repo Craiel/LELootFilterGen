@@ -1,11 +1,16 @@
 {
   "id": "elemental_resistance",
   "name": "Elemental Resistance and Minion Elemental Resistance",
-  "description": "",
-  "type": "suffix",
-  "tier": null,
-  "itemTypes": [],
-  "minValue": null,
-  "maxValue": null,
+  "modificationColumns": {
+    "Tier": [
+      "Tier 1"
+    ],
+    "Elemental Resistance": [
+      "9% to 12%"
+    ],
+    "Minion Elemental Resistance": [
+      "9% to 12%"
+    ]
+  },
   "isIdolAffix": true
 }
