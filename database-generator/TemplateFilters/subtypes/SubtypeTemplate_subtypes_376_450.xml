@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Subtypes 376-450 Template</name>
+    <filterIcon>0</filterIcon>
+    <filterIconColor>0</filterIconColor>
+    <description>Subtype template for subtypes 376-450. Contains 75/75 rules. Generated automatically - do not edit manually.</description>
+    <lastModifiedInVersion>1.3.0.4</lastModifiedInVersion>
+    <lootFilterVersion>5</lootFilterVersion>
+    <rules>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>376</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 376</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>377</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 377</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>378</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 378</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>379</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 379</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>380</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 380</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>381</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 381</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>382</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 382</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>383</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 383</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>384</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 384</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>385</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 385</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>386</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 386</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>387</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 387</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>388</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 388</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>389</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 389</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>390</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 390</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>391</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 391</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>392</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 392</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>393</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 393</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>394</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 394</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>395</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 395</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>396</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 396</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>397</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 397</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>398</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 398</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>399</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 399</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>400</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 400</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>401</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 401</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>402</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 402</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>403</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 403</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>404</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 404</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>405</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 405</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>406</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 406</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>407</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 407</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>408</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 408</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>409</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 409</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>410</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 410</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>411</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 411</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>412</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 412</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>413</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 413</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>414</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 414</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>415</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 415</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>416</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 416</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>417</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 417</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>418</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 418</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>419</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 419</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>420</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 420</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>421</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 421</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>422</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 422</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>423</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 423</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>424</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 424</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>425</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 425</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>426</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 426</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>427</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 427</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>428</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 428</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>429</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 429</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>430</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 430</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>431</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 431</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>432</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 432</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>433</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 433</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>434</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 434</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>435</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 435</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>436</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 436</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>437</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 437</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>438</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 438</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>439</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 439</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>440</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 440</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>441</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 441</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>442</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 442</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>443</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 443</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>444</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 444</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>445</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 445</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>446</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 446</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>447</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 447</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>448</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 448</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>449</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 449</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+        <Rule>
+            <type>SHOW</type>
+            <conditions>
+                <Condition i:type="SubTypeCondition">
+                    <subTypes>
+                        <int>450</int>
+                    </subTypes>
+                </Condition>
+            </conditions>
+            <isEnabled>true</isEnabled>
+            <levelDependent_deprecated>false</levelDependent_deprecated>
+            <minLvl_deprecated>0</minLvl_deprecated>
+            <maxLvl_deprecated>0</maxLvl_deprecated>
+            <emphasized>false</emphasized>
+            <nameOverride>Subtype Subtype ID: 450</nameOverride>
+            <SoundId>0</SoundId>
+            <BeamId>0</BeamId>
+            <Order>0</Order>
+        </Rule>
+    </rules>
+</ItemFilter>

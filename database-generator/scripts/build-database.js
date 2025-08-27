@@ -18,7 +18,7 @@ const { parseStringPromise } = require('xml2js');
  */
 
 const TEMPLATE_DIR = path.join(__dirname, '..', 'TemplateFilters');
-const DATA_DIR = path.join(__dirname, '..', 'Data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
 const OVERRIDES_DIR = path.join(__dirname, '..', 'Overrides');
 const WEB_DATA_DIR = path.join(__dirname, '..', 'WebData');
 const OUTPUT_FILE = path.join(DATA_DIR, 'game-database.jsonl');
@@ -1285,7 +1285,7 @@ class DatabaseBuilder {
   async buildDatabase() {
     const lines = [];
     
-    // Add metadata header (formatted for readability)
+    // Add metadata header (single line for JSONL format)
     lines.push(JSON.stringify({
       version: this.gameData.version,
       buildDate: this.gameData.buildDate,
@@ -1298,7 +1298,7 @@ class DatabaseBuilder {
         overrides: this.gameData.statistics.overridesApplied,
         discovered: this.countDiscoveredItems()
       }
-    }, null, 2));
+    }));
     
     // Add reference data (formatted for readability)
     const colors = {};

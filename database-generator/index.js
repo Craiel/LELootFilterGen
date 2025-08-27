@@ -6,12 +6,12 @@ const { exec, spawn } = require('child_process');
 const readline = require('readline');
 
 /**
- * LELootFilterGen - Main Entry Point
+ * Database Generator - Interactive Menu System
  * 
- * Interactive menu system for all Last Epoch loot filter operations
+ * Handles database building, template generation, and data management
  */
 
-class LELootFilterGen {
+class DatabaseGenerator {
   constructor() {
     this.rl = readline.createInterface({
       input: process.stdin,
@@ -22,8 +22,8 @@ class LELootFilterGen {
       { key: '1', name: 'Build Database', desc: 'Parse templates and build game database', action: 'buildDatabase' },
       { key: '2', name: 'Force Rebuild Database', desc: 'Clean rebuild database (overwrites all)', action: 'forceBuildDatabase' },
       { key: '3', name: 'Generate Templates', desc: 'Create test templates (affixes, uniques, sets)', action: 'generateTemplates' },
-      { key: '4', name: 'Web Data Scraper', desc: 'Scrape game data from web sources', action: 'webScraper' },
-      { key: '5', name: 'Generate Filter', desc: 'Create custom loot filter (interactive)', action: 'generateFilter' },
+      { key: '4', name: 'Database Info', desc: 'Show database statistics and information', action: 'databaseInfo' },
+      { key: '5', name: 'Validate Data', desc: 'Check data integrity and validation', action: 'validateData' },
       { key: 'q', name: 'Quit', desc: 'Exit the application', action: 'quit' }
     ];
   }
@@ -42,13 +42,13 @@ class LELootFilterGen {
   async showWelcome() {
     console.clear();
     console.log('╔══════════════════════════════════════════════════════════════╗');
-    console.log('║                    LELootFilterGen v1.0.0                   ║');
-    console.log('║              Last Epoch Loot Filter Generator               ║');
+    console.log('║                   Database Generator v1.0.0                 ║');
+    console.log('║              Last Epoch Game Data Builder                   ║');
     console.log('╚══════════════════════════════════════════════════════════════╝');
     console.log('');
     
     // Show system status
-    const dataDir = path.join(__dirname, 'Data');
+    const dataDir = path.join(__dirname, '../filter-generator/Data');
     const dbFile = path.join(dataDir, 'game-database.jsonl');
     const dbExists = await fs.pathExists(dbFile);
     
@@ -58,11 +58,14 @@ class LELootFilterGen {
         const version = await fs.readJson(versionFile);
         const buildDate = new Date(version.buildDate).toLocaleDateString();
         console.log(`📊 Database Status: ✅ Built (${buildDate}, ${version.templateCount} templates)`);
+        console.log(`📂 Output Location: ../filter-generator/Data/`);
       } catch {
         console.log('📊 Database Status: ✅ Available');
+        console.log(`📂 Output Location: ../filter-generator/Data/`);
       }
     } else {
       console.log('📊 Database Status: ❌ Not built (run option 1 first)');
+      console.log(`📂 Output Location: ../filter-generator/Data/ (will be created)`);
     }
     
     const overrideFiles = ['affixes.json', 'uniques.json', 'sets.json'];
@@ -79,6 +82,17 @@ class LELootFilterGen {
     }
     console.log(`🔧 Manual Overrides: ${overrideCount > 0 ? `✅ ${overrideCount} entries` : '⚪ None'}`);
     
+    // Check WebData files
+    const webDataDir = path.join(__dirname, 'WebData');
+    const requiredFiles = ['ItemList.html', 'Sets.html', 'Prefixes.html', 'Suffixes.html'];
+    let webDataCount = 0;
+    for (const file of requiredFiles) {
+      if (await fs.pathExists(path.join(webDataDir, file))) {
+        webDataCount++;
+      }
+    }
+    console.log(`🌐 Web Data Files: ${webDataCount}/${requiredFiles.length} available`);
+    
     console.log('');
   }
 
@@ -86,7 +100,7 @@ class LELootFilterGen {
    * Display main menu and handle selection
    */
   async showMainMenu() {
-    console.log('┌─ Main Menu ──────────────────────────────────────────────────┐');
+    console.log('┌─ Database Generator Menu ────────────────────────────────────┐');
     console.log('│                                                              │');
     
     for (const item of this.menuItems) {
@@ -121,14 +135,14 @@ class LELootFilterGen {
     try {
       switch (action) {
         case 'buildDatabase':
-          await this.runScript('node scripts/build-database.js');
+          await this.runScript('npm run build');
           break;
           
         case 'forceBuildDatabase':
           console.log('⚠️  This will completely rebuild the database, preserving overrides.');
           const confirm = await this.prompt('Continue? (y/N): ');
           if (confirm.toLowerCase() === 'y') {
-            await this.runScript('node scripts/build-database.js --force');
+            await this.runScript('npm run build-force');
           } else {
             console.log('❌ Operation cancelled.');
           }
@@ -138,18 +152,16 @@ class LELootFilterGen {
           await this.showTemplateGenerationMenu();
           break;
           
-        case 'webScraper':
-          await this.showWebScraperMenu();
+        case 'databaseInfo':
+          await this.runScript('npm run info');
           break;
           
-        case 'generateFilter':
-          console.log('🚧 Filter generation coming soon!');
-          console.log('For now, use the database and create filters manually.');
+        case 'validateData':
+          await this.runScript('npm run validate');
           break;
-          
           
         case 'quit':
-          console.log('👋 Thanks for using LELootFilterGen!');
+          console.log('👋 Thanks for using Database Generator!');
           this.rl.close();
           process.exit(0);
           
@@ -199,7 +211,6 @@ class LELootFilterGen {
       });
     });
   }
-
 
   /**
    * Show template generation submenu
@@ -339,51 +350,6 @@ class LELootFilterGen {
   }
 
   /**
-   * Show web scraper submenu
-   */
-  async showWebScraperMenu() {
-    console.log('');
-    console.log('┌─ Web Data Scraper ───────────────────────────────────────────┐');
-    console.log('│                                                              │');
-    console.log('│ [1] Scrape Data                Normal scrape (uses cache)    │');
-    console.log('│ [2] Force Scrape               Force refresh (ignores cache) │');
-    console.log('│ [3] Set Game Version           Update version (e.g. version140) │');
-    console.log('│ [4] Scraping Statistics        View cache stats & files      │');
-    console.log('│ [B] Back to Main Menu          Return to main menu          │');
-    console.log('│                                                              │');
-    console.log('└──────────────────────────────────────────────────────────────┘');
-    console.log('');
-
-    const choice = await this.prompt('Select scraper option: ');
-    
-    switch (choice.toLowerCase()) {
-      case '1':
-        await this.runScript('node scripts/scraper.js scrape');
-        break;
-      case '2':
-        await this.runScript('node scripts/scraper.js scrape --force');
-        break;
-      case '3':
-        await this.setGameVersion();
-        break;
-      case '4':
-        await this.runScript('node scripts/scraper.js stats');
-        break;
-      case 'b':
-      case 'back':
-        return; // Return to main menu
-      default:
-        console.log('❌ Invalid option. Please try again.');
-        await this.waitForKey();
-        await this.showWebScraperMenu();
-    }
-  }
-
-
-
-
-
-  /**
    * Prompt for user input
    */
   async prompt(question) {
@@ -392,27 +358,6 @@ class LELootFilterGen {
         resolve(answer.trim());
       });
     });
-  }
-
-  /**
-   * Handle game version setting
-   */
-  async setGameVersion() {
-    console.log('');
-    console.log('🎮 Set Game Version');
-    console.log('─'.repeat(30));
-    console.log('');
-    console.log('Current version can be checked with: node scripts/scraper.js version');
-    console.log('Common versions: version130, version140, etc.');
-    console.log('');
-    
-    const version = await this.prompt('Enter new game version (or press Enter to check current): ');
-    
-    if (version.trim()) {
-      await this.runScript(`node scripts/scraper.js version ${version.trim()}`);
-    } else {
-      await this.runScript('node scripts/scraper.js version');
-    }
   }
   
   /**
@@ -430,7 +375,7 @@ async function handleDirectCall() {
   
   if (args.length === 0) {
     // No arguments - show interactive menu
-    const app = new LELootFilterGen();
+    const app = new DatabaseGenerator();
     await app.run();
     return;
   }
@@ -440,15 +385,12 @@ async function handleDirectCall() {
   const flags = args.slice(1);
   
   const commands = {
-    'build-database': () => {
+    'build': () => {
       const force = flags.includes('--force');
-      const version = flags.find(f => f.startsWith('--version='))?.split('=')[1];
-      let cmd = 'node scripts/build-database.js';
-      if (force) cmd += ' --force';
-      if (version) cmd += ` --version=${version}`;
-      return cmd;
+      return force ? 'npm run build-force' : 'npm run build';
     },
-    'database-info': () => 'node scripts/database-info.js',
+    'info': () => 'npm run info',
+    'validate': () => 'npm run validate',
     'generate-affixes': () => {
       const force = flags.includes('--force');
       return `node scripts/generate-affix-templates.js${force ? ' --force' : ''}`;
@@ -461,20 +403,11 @@ async function handleDirectCall() {
       const force = flags.includes('--force');
       return `node scripts/generate-set-templates.js${force ? ' --force' : ''}`;
     },
-    'analyze': () => 'node scripts/analyze-unique-set-structure.js',
-    'scrape': () => {
+    'generate-subtypes': () => {
       const force = flags.includes('--force');
-      let cmd = 'node scripts/scraper.js scrape';
-      if (force) cmd += ' --force';
-      return cmd;
+      return `node scripts/generate-subtype-templates.js${force ? ' --force' : ''}`;
     },
-    'version': () => {
-      const version = flags[0];
-      let cmd = 'node scripts/scraper.js version';
-      if (version) cmd += ` ${version}`;
-      return cmd;
-    },
-    'scrape-stats': () => 'node scripts/scraper.js stats'
+    'analyze': () => 'node scripts/analyze-unique-set-structure.js'
   };
   
   if (commands[command]) {
@@ -493,15 +426,14 @@ async function handleDirectCall() {
     });
   } else {
     console.log('❌ Unknown command. Available commands:');
-    console.log('  build-database [--force] [--version=x.x.x]');
-    console.log('  database-info');
-    console.log('  generate-affixes [--force]');
-    console.log('  generate-uniques [--force]'); 
-    console.log('  generate-sets [--force]');
-    console.log('  analyze');
-    console.log('  scrape [--force]');
-    console.log('  version [version]');
-    console.log('  scrape-stats');
+    console.log('  build [--force]              - Build game database');
+    console.log('  info                         - Show database information');
+    console.log('  validate                     - Validate data integrity');
+    console.log('  generate-affixes [--force]   - Generate affix templates');
+    console.log('  generate-uniques [--force]   - Generate unique templates'); 
+    console.log('  generate-sets [--force]      - Generate set templates');
+    console.log('  generate-subtypes [--force]  - Generate subtype templates');
+    console.log('  analyze                      - Analyze template structure');
     console.log('');
     console.log('Or run with no arguments for interactive menu.');
     process.exit(1);
@@ -524,4 +456,4 @@ if (require.main === module) {
   handleDirectCall();
 }
 
-module.exports = { LELootFilterGen };
+module.exports = { DatabaseGenerator };

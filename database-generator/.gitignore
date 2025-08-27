@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated database files
+Data/game-database.jsonl
+Data/build.log
+Data/validation-report.txt
+Data/database-version.json
+
+# Generated unique item files (these are recreated on each build)
+Data/UniqueItems/*.json
+
+# Generated skill files (these are recreated on each build)  
+Data/Skills/*.json
+
+# Other generated files
+Data/ailments.json
+Data/monsters.json
+
+# Keep directory structure but ignore contents of generated folders
+Data/UniqueItems/
+!Data/UniqueItems/.gitkeep
+Data/Skills/
+!Data/Skills/.gitkeep
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

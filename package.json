@@ -1,18 +1,19 @@
 {
   "name": "le-loot-filter-gen",
   "version": "1.0.0",
-  "description": "A Node.js suite to generate and edit loot filter XML files for Last Epoch",
-  "main": "src/index.js",
+  "description": "A Node.js suite to generate and edit loot filter XML files for Last Epoch - composed of database generator and filter generator sub-projects",
+  "main": "filter-generator/src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node src/index.js --dev",
-    "parse-templates": "node src/index.js --parse-templates",
-    "generate-filter": "node src/index.js --generate-filter",
-    "build-database": "node scripts/build-database.js",
-    "database-info": "node scripts/database-info.js",
-    "generate-affix-templates": "node scripts/generate-affix-templates.js",
-    "lint": "eslint src/",
-    "test": "jest"
+    "install-all": "npm install && cd database-generator && npm install && cd ../filter-generator && npm install",
+    "build-database": "cd database-generator && npm run build",
+    "build-database-force": "cd database-generator && npm run build-force", 
+    "database-info": "cd database-generator && npm run info",
+    "generate-filter": "cd filter-generator && npm run generate",
+    "start": "cd filter-generator && npm start",
+    "dev": "cd filter-generator && npm run dev",
+    "validate-filter": "cd filter-generator && npm run validate-filter",
+    "lint": "cd database-generator && npm run lint && cd ../filter-generator && npm run lint",
+    "test": "cd filter-generator && npm run test"
   },
   "keywords": [
     "last-epoch",
@@ -22,16 +23,8 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "commander": "^11.0.0",
-    "fs-extra": "^11.1.1",
-    "jsdom": "^26.1.0",
-    "xml2js": "^0.6.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.45.0",
-    "jest": "^29.6.1"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "engines": {
     "node": ">=16.0.0"
   }

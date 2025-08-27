@@ -1,5 +1,5 @@
 @echo off
-title LELootFilterGen - Last Epoch Loot Filter Generator
+title Database Generator - Last Epoch Game Data Builder
 
 REM Check if Node.js is available
 node --version >nul 2>&1
@@ -13,7 +13,7 @@ if errorlevel 1 (
 REM Check if package.json exists
 if not exist "package.json" (
     echo ❌ package.json not found
-    echo Make sure you're running this from the project directory
+    echo Make sure you're running this from the database-generator directory
     pause
     exit /b 1
 )
@@ -29,8 +29,8 @@ if not exist "node_modules" (
     )
 )
 
-REM Launch the application
-echo Starting LELootFilterGen...
+REM Launch the database generator
+echo Starting Database Generator...
 node index.js
 
 REM Keep console open if there was an error

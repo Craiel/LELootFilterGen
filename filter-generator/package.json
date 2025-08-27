@@ -1,0 +1,36 @@
+{
+  "name": "le-filter-generator",
+  "version": "1.0.0",
+  "description": "Loot filter generation system for Last Epoch - creates custom XML filters based on class builds and gameplay descriptions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "info": "node src/index.js info",
+    "generate": "node src/index.js generate-filter",
+    "validate-filter": "node src/index.js validate-filter",
+    "sample-analysis": "node src/index.js sample-analysis",
+    "lint": "eslint src/",
+    "test": "jest"
+  },
+  "keywords": [
+    "last-epoch",
+    "loot-filter",
+    "xml-generation",
+    "game-builds",
+    "filter-optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "jest": "^29.6.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
