@@ -86,6 +86,71 @@ Character power is driven by five interconnected systems:
 - Only one affix of the set is needed to get the bonus, multiple of the same set do not add anything
 - These Affixes can only be crafted onto items and do not Drop naturally in the current game version
 
+### Legendary Potential System
+
+**Function**
+- **Legendary Potential (LP)** allows unique items to be enhanced by "slamming" rare items onto them
+- **Base Type Matching**: Only rare items of the same base type can be slammed (shield → shield, sword → sword)
+- **Affix Transfer**: LP number determines how many affixes transfer from the rare to the unique (1-4 maximum)
+
+**Transfer Mechanics**
+- **Guaranteed Choice**: Player can choose ONE affix to transfer for certain
+- **Random Selection**: Remaining affixes transferred randomly from available pool
+- **Build Enhancement**: Allows unique items to gain critical affixes they normally lack
+- **Slot Optimization**: Enables builds to use build-defining uniques while maintaining affix access
+
+**Strategic Importance**
+- **Under-powered Uniques**: Items with sufficient LP become viable despite weak base stats
+- **Build Flexibility**: Pre-occupied slots can still contribute essential affixes through LP
+- **Filter Priority**: Higher LP values make otherwise ignored uniques valuable
+
+---
+
+## Minion Systems
+
+Minion mechanics vary significantly by class, affecting build strategy and stat priorities:
+
+### Primalist Minions (Companions)
+**Revival Mechanics**
+- **Death State**: Minions become "downed" when health reaches 0
+- **Revival Process**: Player must stand in a circle near the downed minion for several seconds
+- **Revival Time**: Takes significant time, making minion survivability crucial
+- **Combat Impact**: Minion death during combat is highly disruptive
+
+**Strategic Implications**
+- **Health Investment**: Minion survivability more important than damage in many cases
+- **Positioning**: Player must be able to safely reach downed companions
+- **Build Focus**: Defensive minion stats often prioritized over offensive stats
+
+### Acolyte Minions
+**Re-summoning Mechanics**
+- **Death State**: Minions are completely destroyed when health reaches 0
+- **Re-cast Requirement**: Must re-cast the summoning skill entirely
+- **Mana Cost**: Full mana cost paid for each re-summon
+- **Setup Time**: Must rebuild minion army from scratch after losses
+
+**Temporary Minions**
+- **Health Decay**: Some minions continuously lose health over time
+- **Duration Limits**: Minions automatically die after set time periods
+- **Constant Recasting**: Requires frequent re-summoning during extended fights
+
+**Strategic Implications**
+- **Mana Priority**: Higher mana costs make resource management critical
+- **Cast Speed**: Faster summoning reduces vulnerability during rebuilds
+- **Quantity Focus**: Multiple weak minions often preferred over few strong ones
+
+### Minion Scaling Considerations
+
+**High-Survivability Minions** (Bears, Golems)
+- **Base Defense**: High natural armor and health
+- **Scaling Priority**: Damage > Health (already durable)
+- **Investment Focus**: Offensive stats provide better returns
+
+**Low-Survivability Minions** (Skeletons, Wraiths)
+- **Base Defense**: Low natural survivability
+- **Scaling Priority**: Health/Defense > Damage
+- **Investment Focus**: Survivability stats essential for functionality
+
 ---
 
 ## Defensive Systems

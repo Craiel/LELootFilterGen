@@ -7,6 +7,8 @@
     "start": "node src/index.js",
     "info": "node src/index.js info",
     "generate": "node src/index.js generate-filter",
+    "analyze-build": "node src/index.js analyze-build",
+    "create-filter": "node src/index.js create-filter",
     "validate-filter": "node src/index.js validate-filter",
     "sample-analysis": "node src/index.js sample-analysis",
     "lint": "eslint src/",

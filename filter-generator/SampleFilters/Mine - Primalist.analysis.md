@@ -3,7 +3,7 @@
 ## Build Overview
 
 **Build Archetype**: Generic multi-purpose Primalist build with broad coverage
-**Rule Count**: 12/75 rules (very efficient usage - 16% of available rules)
+**Rule Count**: 14/75 rules (very efficient usage - 19% of available rules)
 **Strategy**: Universal catch-all filter for any Primalist playstyle
 **Efficiency**: Ultra-high - minimal rule usage for maximum coverage
 
@@ -14,21 +14,21 @@ This filter implements a **universal Primalist strategy** designed to work acros
 
 ### Key Design Patterns
 
-#### 1. Global Hide Foundation (Rule 1)
-- **Rule 1**: Hide everything by default (no conditions - global hide)
+#### 1. Global Hide Foundation (Rule 14)
+- **Rule 14**: Hide everything by default (no conditions - global hide)
 - **Strategy**: Ultra-strict baseline requiring explicit SHOW rules for all items
 - **Philosophy**: "Nothing shows unless specifically allowed"
 
 #### 2. Progressive Quality Tiers
 **Tier Structure**:
-- **T7+ Affixes** (Rule 4): Premium drop-only affixes with sound notification
-- **T6+ Generally Nice** (Rule 5): Good affixes for any build
-- **T6+ Specialized Stats**: Thorns (Rule 6), Minions (Rule 7), Primalist-specific (Rule 8)
+- **T7+ Affixes** (Rule 10): Premium drop-only affixes with sound notification
+- **T6+ Generally Nice** (Rule 9): Good affixes for any build
+- **T6+ Specialized Stats**: Thorns (Rule 8), Minions (Rule 7), Primalist-specific (Rule 6)
 
 #### 3. Multi-Build Support Architecture
 The filter supports multiple archetypes through specialized affix groups:
-- **General Good Idols** (Rule 2): Universal idol stats for any build
-- **Minion Idols** (Rule 3): Dedicated minion support
+- **General Good Idols** (Rule 12): Universal idol stats for any build
+- **Minion Idols** (Rule 11): Dedicated minion support
 - **Thorns Affixes**: Specialized defensive scaling
 - **Minion Affixes**: Core minion scaling stats
 - **Primalist Affixes**: Class-specific scaling stats
@@ -36,7 +36,7 @@ The filter supports multiple archetypes through specialized affix groups:
 ## Technical Implementation Analysis
 
 ### Rule Efficiency Insights
-**12 Rules for Universal Coverage**: Extremely efficient design
+**14 Rules for Universal Coverage**: Extremely efficient design
 - **Global Hide**: 1 rule eliminates need for multiple hide rules
 - **Consolidated Affixes**: Large affix arrays reduce rule count
 - **Tier-Based Organization**: Clear quality progression with minimal rules
@@ -55,7 +55,7 @@ The filter supports multiple archetypes through specialized affix groups:
 
 ## Affix Analysis
 
-### Massive Affix Coverage (Rule 4 - T7+)
+### Massive Affix Coverage (Rule 10 - T7+)
 **522 different affix IDs** in the T7+ rule - comprehensive coverage including:
 - All damage types and scaling mechanisms
 - Universal defensive stats
@@ -65,17 +65,17 @@ The filter supports multiple archetypes through specialized affix groups:
 
 ### Specialized Affix Categories
 
-#### General Good Idols (Rule 2)
+#### General Good Idols (Rule 12)
 Affixes: 846, 828, 853, 925, 929, 833, 866, 108, 132, 862, 430, 105, 107
 - **Pattern**: Mixed damage types and utility stats
 - **Philosophy**: Stats useful for most builds regardless of archetype
 
-#### Minion Idols (Rule 3)  
+#### Minion Idols (Rule 11)  
 Affixes: 146, 147, 148, 151, 152, 154, 160, 161, 171, 173, 226
 - **Pattern**: Pure minion-focused scaling
 - **Coverage**: All minion damage, health, and utility stats
 
-#### Generally Nice T6+ (Rule 5)
+#### Generally Nice T6+ (Rule 9)
 Core universal stats: 28, 50, 501-504, 25, 52, 36, etc.
 - **Focus**: Health, resistances, movement speed, core defenses
 - **Philosophy**: Stats every character needs regardless of build
@@ -93,7 +93,7 @@ Core universal stats: 28, 50, 501-504, 25, 52, 36, etc.
 3. **All Other Uniques/Sets/Legendaries**: Standard display
 
 ### Equipment Type Filtering
-**Hide Rule 9**: Explicitly hides equipment types not typically used by Primalists:
+**Hide Rule 2**: Explicitly hides equipment types not typically used by Primalists:
 - **Ranged**: Bow, Quiver
 - **Caster**: Catalyst, Wand, Staff
 - **Unsuitable Melee**: Daggers, Sceptres
@@ -148,7 +148,7 @@ Core universal stats: 28, 50, 501-504, 25, 52, 36, etc.
 - **Pattern**: Base build works alone, items enable additional strategies
 
 ### Advanced Filter Architecture Patterns
-**12 Rules Supporting 5+ Build Configurations**:
+**14 Rules Supporting 5+ Build Configurations**:
 - **Global Hide Foundation**: More efficient than multiple specific hide rules
 - **Massive Affix Coverage**: 522 affixes in T7+ rule = universal compatibility
 - **Tier-Based Progression**: T7+/T6+ system works across all build types
@@ -185,7 +185,7 @@ Core universal stats: 28, 50, 501-504, 25, 52, 36, etc.
 ### What This Analysis Got Right ✅
 - **Filter Architecture**: Correctly identified global hide strategy and tier-based progression
 - **Technical Features**: Properly documented audio/visual enhancements and schema version 5
-- **Rule Efficiency**: Accurately noted the exceptional efficiency (12 rules for comprehensive coverage)
+- **Rule Efficiency**: Accurately noted the exceptional efficiency (14 rules for comprehensive coverage)
 - **Equipment Filtering**: Correctly identified hidden weapon types and their implications
 - **Multi-Archetype Recognition**: Properly identified that multiple build types were supported
 
@@ -218,4 +218,32 @@ Core universal stats: 28, 50, 501-504, 25, 52, 36, etc.
 
 This test perfectly demonstrates the complexity gap between filter analysis and actual build understanding, highlighting the importance of user-provided build context and item-dependency recognition in filter generation systems.
 
-This filter demonstrates sophisticated multi-build design principles, efficiently covering two distinct Primalist builds with multiple variants while maintaining exceptional rule efficiency and user-friendly features.
+## Recent Updates
+
+### Additional Filter Rules
+The filter has been expanded from 12 to **14 rules** with the addition of:
+
+#### Rule 1 (Order 1): Hide Non-Primalist Classes  
+- **Function**: Explicitly hides gear for Mage, Sentinel, Acolyte, and Rogue
+- **Impact**: Ensures only Primalist-relevant gear appears
+- **Efficiency**: Prevents clutter from cross-class items in shared content
+
+#### Rule 0 (Order 0): Hide Normal Rarity Items
+- **Function**: Explicitly hides all normal (white) rarity items
+- **Impact**: Cleaner display focused on magic+ quality items
+- **Efficiency**: Reduces visual noise in endgame content
+
+### Rule Order Restructuring
+The rule processing order has been reorganized with the global hide rule moved to the end (Order 13) and more specific filtering rules placed at the beginning. This creates a more logical flow:
+
+1. **Foundation Filters** (Orders 0-2): Remove unwanted item types
+2. **Quality Filters** (Orders 3-5): Handle unique item tiers  
+3. **Affix Filters** (Orders 6-12): Show valuable affixes by category
+4. **Global Hide** (Order 13): Catch-all for remaining items
+
+### Updated Efficiency Metrics
+- **Rule Count**: 14/75 rules (19% utilization)
+- **Coverage**: Still maintains comprehensive multi-build support
+- **Cleanliness**: Improved visual clarity through better filtering
+
+This filter continues to demonstrate sophisticated multi-build design principles, efficiently covering two distinct Primalist builds with multiple variants while maintaining exceptional rule efficiency and enhanced user-friendly features.
