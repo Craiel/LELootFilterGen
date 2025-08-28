@@ -1,13 +1,13 @@
 {
-  "buildDate": "2025-08-27T18:03:55.306Z",
+  "buildDate": "2025-08-28T04:53:10.387Z",
   "stats": {
-    "affixes": 946,
+    "affixes": 749,
     "uniques": 403,
     "sets": 47,
     "skills": 136,
     "ailments": 125,
     "monsters": 76,
-    "totalItems": 1396,
+    "totalItems": 1199,
     "indexedTags": 29
   },
   "indexFiles": {

@@ -108,48 +108,58 @@ class IndexGenerator {
     // Load idol affixes
     if (await fs.pathExists(IDOL_AFFIXES_FILE)) {
       const idolData = await fs.readJson(IDOL_AFFIXES_FILE);
-      for (let i = 0; i < idolData.affixes.length; i++) {
-        const affix = idolData.affixes[i];
-        // Generate a unique ID if one doesn't exist
-        const affixId = affix.id || `idol_affix_${i}`;
-        this.data.affixes.set(affixId, { ...affix, id: affixId, type: 'affix', isIdolAffix: true });
-        totalLoaded++;
+      for (const affix of idolData.affixes) {
+        // Use the actual template file ID from the affix data
+        if (affix.id) {
+          this.data.affixes.set(affix.id, { ...affix, isIdolAffix: true });
+          totalLoaded++;
+        } else {
+          console.warn(`Idol affix missing ID: ${affix.name}`);
+        }
       }
     }
     
     // Load item affixes
     if (await fs.pathExists(ITEM_AFFIXES_FILE)) {
       const itemData = await fs.readJson(ITEM_AFFIXES_FILE);
-      for (let i = 0; i < itemData.affixes.length; i++) {
-        const affix = itemData.affixes[i];
-        // Generate a unique ID if one doesn't exist
-        const affixId = affix.id || `item_affix_${i}`;
-        this.data.affixes.set(affixId, { ...affix, id: affixId, type: 'affix', isIdolAffix: false });
-        totalLoaded++;
+      for (const affix of itemData.affixes) {
+        // Use the actual template file ID from the affix data
+        if (affix.id) {
+          this.data.affixes.set(affix.id, { ...affix, isIdolAffix: false });
+          totalLoaded++;
+        } else {
+          console.warn(`Item affix missing ID: ${affix.name}`);
+        }
       }
     }
     
     // Load unique items overview
     if (await fs.pathExists(UNIQUE_ITEMS_OVERVIEW_FILE)) {
       const uniqueData = await fs.readJson(UNIQUE_ITEMS_OVERVIEW_FILE);
-      for (let i = 0; i < (uniqueData.uniques || []).length; i++) {
-        const unique = uniqueData.uniques[i];
-        // Generate a unique ID if one doesn't exist (use name as fallback)
-        const uniqueId = unique.id || unique.name || `unique_${i}`;
-        this.data.uniques.set(uniqueId, { ...unique, id: uniqueId, type: 'unique' });
-        totalLoaded++;
+      for (const unique of uniqueData.uniques || []) {
+        // Use the actual template file ID or name as fallback for items without template IDs
+        const uniqueId = unique.id || unique.name;
+        if (uniqueId) {
+          this.data.uniques.set(uniqueId, { ...unique });
+          totalLoaded++;
+        } else {
+          console.warn(`Unique item missing both ID and name`);
+        }
       }
     }
     
     // Load set data
     if (await fs.pathExists(SET_DATA_FILE)) {
       const setData = await fs.readJson(SET_DATA_FILE);
-      for (let i = 0; i < (setData.sets || []).length; i++) {
-        const set = setData.sets[i];
-        // Generate a unique ID if one doesn't exist (use name as fallback)
-        const setId = set.id || set.name || `set_${i}`;
-        this.data.sets.set(setId, { ...set, id: setId, type: 'set' });
-        totalLoaded++;
+      for (const set of setData.sets || []) {
+        // Use the actual template file ID or name as fallback for items without template IDs
+        const setId = set.id || set.name;
+        if (setId) {
+          this.data.sets.set(setId, { ...set });
+          totalLoaded++;
+        } else {
+          console.warn(`Set item missing both ID and name`);
+        }
       }
     }
     
@@ -271,63 +281,51 @@ class IndexGenerator {
       monsters: {}
     };
     
-    // Affixes: only id, name, type, isIdolAffix
+    // Affixes: only name and isIdolAffix (id is redundant since it's the key, type is redundant since grouped by type)
     for (const [id, data] of this.data.affixes) {
       this.indexes.idLookup.affixes[id] = {
-        id: data.id,
         name: data.name,
-        type: data.type,
         isIdolAffix: data.isIdolAffix
       };
     }
     
-    // Uniques: only id, name, type, baseType, category, classRequirement
+    // Uniques: only name, baseType, category, classRequirement (id and type are redundant)
     for (const [id, data] of this.data.uniques) {
       this.indexes.idLookup.uniques[id] = {
-        id: data.id,
         name: data.name,
-        type: data.type,
         baseType: data.baseType,
         category: data.category,
         classRequirement: data.classRequirement
       };
     }
     
-    // Sets: only id, name, type
+    // Sets: only name (id and type are redundant)
     for (const [id, data] of this.data.sets) {
       this.indexes.idLookup.sets[id] = {
-        id: data.id,
-        name: data.name,
-        type: data.type
+        name: data.name
       };
     }
     
-    // Skills: only id, name, type, class
+    // Skills: only name and class (id and type are redundant)
     for (const [id, data] of this.data.skills) {
       this.indexes.idLookup.skills[id] = {
-        id: data.id,
         name: data.name,
-        type: data.type,
         class: data.class || data.mastery
       };
     }
     
-    // Ailments: only id, name, type, category
+    // Ailments: only name and category (id and type are redundant)
     for (const [id, data] of this.data.ailments) {
       this.indexes.idLookup.ailments[id] = {
-        id: data.id,
         name: data.name,
-        type: data.type,
         category: data.category
       };
     }
     
-    // Monsters: only id, name, type, minionType
+    // Monsters: only name and minionType (id and type are redundant)
     for (const [id, data] of this.data.monsters) {
       this.indexes.idLookup.monsters[id] = {
-        id: data.id,
         name: data.name,
-        type: data.type,
         minionType: data.type
       };
     }

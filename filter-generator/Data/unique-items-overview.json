@@ -1,141 +1,16 @@
 {
   "uniques": [
     {
+      "id": 0,
       "name": "Calamity",
       "desc": "Set the world ablaze and burn along with it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fractured Crown",
-      "desc": "Few goals have cost more lives than the quest for power.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Snowblind",
-      "desc": "Blind with the snow, never blinded by it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Artor's Legacy",
-      "desc": "The great wolf Artor ran with Heorot in times long forgotten.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Jewelled Circlet",
+      "category": "Helmet",
       "classRequirement": ""
     },
     {
       "name": "Decayed Skuil",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Boneclamor Barbute",
-      "desc": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Kestrel",
-      "desc": "May the dying breaths of your enemies put air beneath your wings.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Doublet of Onos Tull",
-      "desc": "The horns of the Immortal Empire fill the hearts of the living with fear, and the bones of the dead with glory.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Prism Wraps",
-      "desc": "The elements shift like light through a prism. If you control the prism you control the elements.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Urzil's Pride",
-      "desc": "Strength of mind and strength of body are a potent combination.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Exsanguinous",
-      "desc": "Crazed is the mind of a blood starved Lich.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Yrun's Wisdom",
-      "desc": "Yrun was wise in battle, but not in his betrayal of Heorot.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Titan Heart",
-      "desc": "Heart of stone, blood of gravel.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Valeroot",
-      "desc": "The roots of Eterra grow through stone and flesh and time.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Vipertail",
-      "desc": "The bite of the viper brings lethargy and death.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ward Trail",
-      "desc": "Many things are fickle, few more so than life itself.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Chains of Uleros",
-      "desc": "Tether yourself to this mortal realm.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Mourningfrost",
-      "desc": "Spread ice with every step, like frost before sunrise.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Stormtide",
-      "desc": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Eterra's Path",
-      "desc": "Life grows in your footsteps.",
       "baseType": "",
       "category": "",
       "classRequirement": ""
@@ -148,155 +23,8 @@
       "classRequirement": ""
     },
     {
-      "name": "Riverbend Grasp",
-      "desc": "Move with the fluidity of water, relax and you can react without resistance.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fighting Chance",
-      "desc": "Fight for your life.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Boulderfist",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Wing Guards",
-      "desc": "Speed is its own accuracy.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Beast King",
-      "desc": "The King of Beasts leads the charge.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Taste of Blood",
-      "desc": "A bloody fervor clouds the mind.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Undisputed",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Tempest Maw",
-      "desc": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Frozen Ire",
-      "desc": "An alliance of wengari and nomads gathered in the northern tundra, forging weapons of ice and preparing to reclaim Heoborea from the Immortal Empire.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Culnivar's Claim",
-      "desc": "Culnivar, last scion of Liath, was a symbol of hope for the living slaves of Thetima.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Humming Bee",
-      "desc": "Bzzzzzzzzzz",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Eye of Reen",
-      "desc": "Dance through the flames.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Rainbow Edge",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Cinder Song",
-      "desc": "An ode to fires past.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Alchemist's Ladle",
-      "desc": "Infused with countless potions, its effects are unpredictable.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Reach of the Grave",
-      "desc": "The touch of death reaches far beyond the grave.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bone Harvester",
-      "desc": "Some kill without a purpose. Acolytes kill for the harvest.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hammer of Lorent",
-      "desc": "Lorent may be gone, but its memory will remain with you as you grow.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Torch Of The Pontifex",
-      "desc": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Storm Breaker",
-      "desc": "Strike with the power of the storm.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Draalsting",
-      "desc": "Poison the mind, kill the heart.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Morditas' Reach",
-      "desc": "Boundless ambition enshrined in ice.",
       "baseType": "",
       "category": "",
       "classRequirement": ""
@@ -309,139 +37,6 @@
       "classRequirement": ""
     },
     {
-      "name": "The Last Laugh",
-      "desc": "When the headsman's blade falls, Sarno laughs in triumph.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Volcanus",
-      "desc": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Dreamthorn",
-      "desc": "Eater of dreams, weaver of nightmares.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Slab",
-      "desc": "Some slabs mark the dead, this one marks the living.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Close Call",
-      "desc": "Light on your feet, with a foot in the grave.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Soul Bastion",
-      "desc": "The weight of souls is too much for most.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Rahyeh's Light",
-      "desc": "Burn with the fire of the eternal sun.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Strong Mind",
-      "desc": "Stand Fast.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bleeding Heart",
-      "desc": "Drink the blood of the weak.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Chimaera's Essence",
-      "desc": "Shifting, Changing, Striking.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Claw",
-      "desc": "A wolf never hunts alone.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Death Rattle",
-      "desc": "The rattle of the dying is the sound of weakness leaving the world.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Fang",
-      "desc": "A wolf never hunts alone.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Orian's Eye",
-      "desc": "The future burns within the prophetic lense.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ring of the Third Eye",
-      "desc": "Forsee the strikes, imbue them with power.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Arboreal Circuit",
-      "desc": "You can search round and round, but you are seeking an illusion.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hollow Finger",
-      "desc": "Only brittle skin remains.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Tome of Elements",
-      "desc": "The power of the elements is greatest in their most primal state.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Grimoire of Necrotic Elixirs",
-      "desc": "Take a quaff from draught of undeath.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Heirloom of Light",
       "desc": "",
       "baseType": "",
@@ -449,617 +44,8 @@
       "classRequirement": ""
     },
     {
-      "name": "Soulfire",
-      "desc": "The souls of the damned burn with eternal fire.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Valdyr's Chalice",
-      "desc": "The blood within is said to reflect the drinker's true face.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Orchirian's Petals",
-      "desc": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Plague Bearer's Staff",
-      "desc": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ignivar's Head",
-      "desc": "Dying cinders illuminate the empty skull.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Scavenger",
-      "desc": "Gods may fall and empires crumble, but the furtive scavenger lives on.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Liath's Signet",
-      "desc": "For centuries Architect Liath ensured the prosperity of Lagon's realm.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bloodgeon",
-      "desc": "Crush. Maul. Bludgeon.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ucenui's Sphere",
-      "desc": "Ucenui the navigator used his water magic to explore the vast ocean beyond the Isle of Storms. His fate is unknown, but his instrument remains.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Arek's Bones",
-      "desc": "The necromancers were careful to keep Arek's mind intact while they extracted the bones from his flesh.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Maehlin's Hubris",
-      "desc": "Maehlin devoted his life to Rahyeh. Seeking to learn his will he reached into the god's mind. Rahyeh reached back into his and set his blood aflame.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Heirloom of the Last Nomad",
-      "desc": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fiery Dragon Shoes",
-      "desc": "Embers of a dragon's heart still linger in these smoldering scales. Dire hits threaten to stoke a wrath that has long slumbered.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Jungle Queen's Chaps of Holding",
-      "desc": "The lack of a bottom means that there is more material for pockets.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Kermode's Cage",
-      "desc": "The fury of the spirit bear can not be restrained or subdued, even while confined.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Legacy of the Quiet Forest",
-      "desc": "“This branch will protect you, even when I can not.” - the last words Quiet heard from her forest friend.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Suloron's Step",
-      "desc": "The rebel Suloron struck deep into Majasa's territory, but his fervour could not save him from the matrons' blades.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Ashen Crown",
-      "desc": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Shroud of Obscurity",
-      "desc": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Murama's Hilt",
-      "desc": "Xenath broke his father's sword, casting away the cursed blade in resentment of his harsh master, and keeping the hilt as a reminder of his loving parent.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Melvern's Writ",
-      "desc": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Woven Flesh",
-      "desc": "The pinnacle of necromancy is to weave undead flesh into any form you desire.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Strands of Souls",
-      "desc": "It is unseemly to wear the heads of your foes upon your belt like a common witch or wengari, and what is the point if the eyes can no longer see and the brains can no longer think. No, a necromancer should wear the souls of those they have conquered, a repository of sentient energy ready to consume.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ribbons of Blood",
-      "desc": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Frozen Eyes of Formosus",
-      "desc": "The eyes still stare out, transfixed with longing for the power their owner sought.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Last Steps of the Living",
-      "desc": "Step out of the cold, out of the mortal realm, and take your place among the empire.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Atrophy",
-      "desc": "Rust and corrosion stand as monuments to the inevitability of time.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Dark Shroud of Cinders",
-      "desc": "The dying embers of a god swiling around a blackened cloak.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Confluence of Fate",
-      "desc": "The fall of Eterra is inevitable, as it always has been.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bulwark of the Last Abyss",
-      "desc": "Hold steadfast at the edge of light.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Trident of the Last Abyss",
-      "desc": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Coral Aegis",
-      "desc": "As storms scour the land, the sea swells and flourishes.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Alluvion",
-      "desc": "Waves woven into steel.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Symbol of Demise",
-      "desc": "The fate of the world engraved in bone.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Dragonflame Edict",
-      "desc": "Go forth and conquer by force or by fire.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Oceareon",
-      "desc": "Empires rise and fall like the waves, but the ocean's might is eternal.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Mortality's Grasp",
-      "desc": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Gambler's Fallacy",
-      "desc": "Just means you're due for a big one, don't worry.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Avarice",
-      "desc": "Have the wisdom to know what is rightfully yours and the will to seize it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Transient Rest",
-      "desc": "We follow in the footsteps of our ancestors, but our paths no longer end.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Xithara's Conundrum",
-      "desc": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Li'raka's Claws",
-      "desc": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Quicksilver Coil",
-      "desc": "War is about the destination, not the journey.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Smoke Weaver",
-      "desc": "A true assassin must create their own shadows to strike from.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Uethrin's Stand",
-      "desc": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hell Reach",
-      "desc": "As Wyvernfall burned nothing could escape the flames.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Drelkor's Compass",
-      "desc": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Gladiator's Oath",
-      "desc": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Acidfletch",
-      "desc": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Life's Journey",
-      "desc": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Troaka's Teeth",
-      "desc": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Raindance",
-      "desc": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Arrowguard",
-      "desc": "\"Look only west and trust that the sun itself leads our march. \" - Pontixex Aurelus to the auxiliaries of Solarum",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Omnividence",
-      "desc": "Gaze upon all that will never be.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Sunwreath",
-      "desc": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Eulogy of Blood",
-      "desc": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Anchor of Oblivion",
-      "desc": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Wings of Argentus",
-      "desc": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Eye of Storms",
-      "desc": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Horns of Uhkelros",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Reign of Winter",
-      "desc": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Call of the Tundra",
-      "desc": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Faith of the Frozen",
-      "desc": "Found among the frozen corpses in the wake of Morditas' wrath. Runes etched into the handle read \"Heorot protect us\".",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bhuldar's Wrath",
-      "desc": "Shatter! Erupt! This world is only a prison for the immortal flame.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Herkir's Vessel",
-      "desc": "Drink deep of the flame, brothers... Immortality awaits.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Logi's Hunger",
-      "desc": "Rise! Through fire we are reborn.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Serpent's Milk",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Moenia Mentis",
-      "desc": "\"To survive the void we must build unassailable walls, not just around this town, but around our minds. Do not approach the cultists, do not speak to them.\" - Eos Falrein, last Archmage of Vul'Kaur.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ravens' Rise",
-      "desc": "As men and gods fight the ravens rise. As the blood settles the ravens alight.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Flight of the First",
-      "desc": "Those who ventured outside in the Ancient Era lived in constant terror",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Aergon's Refuge",
-      "desc": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Herald of the Scurry",
-      "desc": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Omnis",
-      "desc": "All the stars in the empty sky flicker at once and fade into silence and shadow.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Aurora's Time Glass",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Siphon of Anguish",
-      "desc": "The sorrow of those that remain feeds the hungering void.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Stymied Fate",
-      "desc": "The end comes slowly, then quickly, then it is all that has ever been.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Apathy's Maw",
-      "desc": "Forsake the darkening sky and let the ground swallow your mind.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Shattered Chains",
-      "desc": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Marina's Lost Soul",
-      "desc": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Eye of Orexia",
-      "desc": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Leviathan Carver",
-      "desc": "Forge Master Rupin'Ur sought to create a weapon capable of slaying any beast, but to most it more resembled a hunk of raw steel.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Lethal Concentration",
-      "desc": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Salt the Wound",
-      "desc": "A critical success, a critical failure... It's all in the coin toss.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Azurral's Fury",
-      "desc": "The nagasa of the Scorched Basin always warned merchants to disregard the false oasis on the long road to Keltha, but Azurral had never put much heed in the snake people's superstition and his thirst overcame him. He drew deep from the blood red waters. The next day he awoke to his caravan reduced to ash upon the sand and his sword burning hot in his hand.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Sanguine Hoard",
-      "desc": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Jasper's Searing Pride",
-      "desc": "A Warrior's Life burned to ashes and all that's left is pride.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Devotion",
-      "desc": "Where your limits end, your faith's test begins.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fulgurite Shard",
-      "desc": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury.",
       "baseType": "",
       "category": "",
       "classRequirement": ""
@@ -1086,132 +72,6 @@
       "classRequirement": ""
     },
     {
-      "name": "Bastion of Honour",
-      "desc": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Rule of the Simoon",
-      "desc": "When fire falls in love with the wind, run.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Tongue of the Aberrant Seer",
-      "desc": "Litugy in darkness leads only to despair, poison on the tongue beguiles the soul, truth in unwords reveals salvation.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Battlemage's Endeavour",
-      "desc": "In times of strife the inflexible are doomed to break. A true Battlemage must master all the arts of war.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Stormhide Paws",
-      "desc": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Darkstride",
-      "desc": "Decades after the rest of civilisation hid itself beneath the ground, the last of the void knights still roamed the ruined surface, searching relentlessly for a way to turn the power of the void against itself. Their discoveries remain with them, lost amidst the shadows.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Thorn Slinger",
-      "desc": "After making peace with the nagasa, Lord Berant of Skalnir was impatient to secure his legacy and so turned his eyes to an easier conquest. The Verdant Isle was small and his scouts assured him that its druid inhabitants had no weapons. But when his soldiers returned from the sacred island, they brought back only their thorn pierced fallen and tales of vine strangled ships.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Curse of Perseverance",
-      "desc": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Lessons of the Metropolis",
-      "desc": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Kelthan Blasting Agent",
-      "desc": "Overseer Nicovus had little patience for the traditional mining techniques of his living predecessors. The empire would delve deep and it would delve fast.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ravenous Void",
-      "desc": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Aberrant Call",
-      "desc": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Flayer's Pride",
-      "desc": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Throne of Ambition",
-      "desc": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Eternal Eclipse",
-      "desc": "The triumph of man and osprix culminates upon the altar of Solarum. A frail sun rises behind an illuminable shadow, spreading a corona of half light upon the ruined world beneath. This feeble shadow is no salvation from the end, but only from the hope of what might have been.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Frostbite Shackles",
-      "desc": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Stormcarved Testament",
-      "desc": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Nightbringer",
-      "desc": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Twisted Heart of Uhkelros",
       "desc": "",
       "baseType": "",
@@ -1226,224 +86,7 @@
       "classRequirement": ""
     },
     {
-      "name": "Yulia's Path",
-      "desc": "Between loyalty and opression, hope and tyranny, the path of wisdom must be found.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Trinity of Flames",
-      "desc": "Three souls to nourish an unquenchable flame.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Death's Embrace",
-      "desc": "Everything comes with a price - even death.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Paranoia",
-      "desc": "In the whispering bull rushes and the swaying leaves, in the howling wind and flickering shadows, everywhere enemies hide.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Prismatic Gaze",
-      "desc": "Time collapsing void\nObservation... destruction\nBring her light with you",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Chronostasis",
-      "desc": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Judicator",
-      "desc": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Aurelis",
-      "desc": "The sky's wrath alights in a golden storm.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Tu'rani's Bident",
-      "desc": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Roots of Vithrasil",
-      "desc": "Root yourself into the cold earth and drink deep from Eterra's bounty.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Usurper's Mandate",
-      "desc": "\"Only one with the blood and bones of a king may rule. Fortunately, I have both\" - Venred the Usurper",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Longshot",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hakar's Phoenix",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Snowdrift",
-      "desc": "Let the northwind mold you, cold and howling above the frozen tundra.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hazelroot",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Silvafrond",
-      "desc": "The life of the forest flows through every root and leaf",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Drought's Release",
-      "desc": "\"Our tribulations shall end with prosperity, and theirs with death\" - Grand Alchemist Avello",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Thornshell",
-      "desc": "Driven from their homes, the Meruna of Sur Soreth settled among the swamps and fens around Urix. Despite their unfamiliarity with the shallows and thickets of their new home, they gradually adapted to it, learning to tunnel through the mud and grow thorns from their shells.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Julra's Stardial",
-      "desc": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Somnia",
-      "desc": "The very atmosphere is different here, what once slumbered is now awoken and free.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Julra's Obsession",
-      "desc": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Vessel of Strife",
-      "desc": "The durance of strife is an impossible task. Boiling within, despair's sole fate is to erupt and envelop its vessel.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Shadow String",
-      "desc": "Unseen hands strike hardest",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Dragonsong",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Harthenon's Vow",
-      "desc": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Renegade's Will",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Singularity",
-      "desc": "\"And thus from a singular point of infinite detail did the goddess Eterra weave the fabric of reality\" - Book of Elders, Chapter 1.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Chronicle of the Damned",
-      "desc": "The souls of those whose deaths are inked within these pages are bound to the book itself, forever cursed to serve the reader.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Flesh of Stone",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Diothaen's Bloody Nib",
-      "desc": "\"Some say the pen is mightier than the sword. Sacrificing your blood to write the words, now there’s real power.\" - Archmage Diothaen",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Torkrefin's Hunger",
-      "desc": "The nomads around lake Mawn were optimistic as Grand Matriarch Torkrefin rose to power among the nearby Wengari. She had at first seemed more civilised than the average Wengari, carrying a giant sword instead of a crude axe or club. Nevertheless she proved particularly difficult to reason with on account of her propensity to devour their envoys.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Zeurial's Hunt",
       "desc": "",
       "baseType": "",
       "category": "",
@@ -1457,462 +100,7 @@
       "classRequirement": ""
     },
     {
-      "name": "Foot of the Mountain",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Face of the Mountain",
-      "desc": "The face of the mountain yields no emotion as waves, weather, and time crash upon it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Core of the Mountain",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Peal of the Mountain",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ashes of Mortality",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Immolator's Oblation",
-      "desc": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Pyre of Affliction",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Penumbra",
-      "desc": "Honour has no place in the arena. To defeat the mightiest foes, a champion must dance on the edge of shadows, preparing for the perfect moment to strike.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Omen of Thunder",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Vaion's Chariot",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Soul Gambler's Fallacy",
-      "desc": "When coins run out, you still have your soul to gamble.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Burning Avarice",
-      "desc": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ashes of Orchirian",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bloodkeeper's Nest",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Scales of Lemniscate",
-      "desc": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hive Mind",
-      "desc": "\"Why is that decoy buzzing?\"\n\"That's not a decoy, it's a beecoy!\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Gathering Fury",
-      "desc": "Lightning does strike twice",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Aaron's Will",
-      "desc": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Lament of the Lost Refuge",
-      "desc": "\"I can hear them skitter, scratching at the walls. Their cries echo through these caverns like the wails of those lost outside. Just rats for now, but ‘they’ are lost no longer, they come back to us now, but different - corrupted.\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Branch of Hallows",
-      "desc": "Most druids talk to their woodland kin, rarely do the trees consider their fleshy brethren. Some branches seek a host to commune with, be it a man, beast, or treekin. Madness touches all in different ways.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Unstable Core",
-      "desc": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Liath's Machinations",
-      "desc": "With careful planning and precise instruments, one can bring order even to a flame.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Red Ring of Atlaria",
-      "desc": "One of seven enchanted rings that were all believed to be lost when Atlaria vanished beneath the waves.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Tears of the Forest",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Shadow Beacon",
-      "desc": "Once light fades, only darkness can guide those who remain.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Telf'un's Mirage",
-      "desc": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Vortex Pennant",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Firestarter's Torch",
-      "desc": "\"By Rahyeh's will this town shall burn!\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Rotmind",
-      "desc": "The witches of the Red Marsh learned to cultivate a type of magical fungus within their own skulls. The mycelium grew eagerly into their brains, twisting their minds, but the powers it bestowed were well worth their sanity.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Ghost Maker",
-      "desc": "A precise and expertly crafted tool for cutting a soul from a body",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Jelkhor's Blast Knife",
-      "desc": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fragment of the Enigma",
-      "desc": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Hand of Judgement",
-      "desc": "The light of divinity!",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Harbinger of Stars",
-      "desc": "Above the skies the natural and the arcane are one.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bo's Anarchy",
-      "desc": "The streets of Maj'elka engender no love for authority",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Apostate's Sanctuary",
-      "desc": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Pillager's Gold",
-      "desc": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Apogee of Frozen Light",
-      "desc": "Formosus knew not what cause these warriors had fought for, or what ancient conflict left their bodies frozen upon the outer ice. But, as he felt the rage and power of their lingering souls he knew well what purpose they would now fulfill.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Swaddling of the Erased",
-      "desc": "\"Cities, memories, whole timelines have been erased by the spreading void. There is much work ahead of us.\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Font of the Erased",
-      "desc": "\"For those who have lost everything, The Weaver's bounty knows no end.\"  - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Cradle of the Erased",
-      "desc": "\"Rest now, you are safe here in this cocoon. It's all gone now, but this is not where your thread ends.\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Advent of the Erased",
-      "desc": "\"Those long lost may walk again on woven feet\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Dedication of an Erased Primalist",
-      "desc": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Knowledge of an Erased Mage",
-      "desc": "\"Such insight wasted on a lost timeline. It is for naught now, but it proves thy worth.\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Code of an Erased Sentinel",
-      "desc": "\"Memories of past honour that befits the woven form\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ambitions of an Erased Acolyte",
-      "desc": "\"The context of thy aspirations is long lost, yet they still pervade thy silken form.\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Gambit of an Erased Rogue",
-      "desc": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Howl of the West Wind",
-      "desc": "Dark clouds roll in from the Sea of the Storms",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Cycle of Putrescence",
-      "desc": "\"The cycle of life and death is forever shattered. Our cities shall not crumble and our citizens shall not yield or die at the whims of a winged devil. We shall persist. Our bodies may whither and decay, but even when we fall we return and persist again. Glory to the new cycle. Glory to persistence and decay. Glory to humanity.\" - Thelocus, Imperial Governor of Argentum",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Static Shell",
-      "desc": "The carapace of a meruna storm ogre makes for an impressive trophy, and an effective cuirass.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Reowyn's Fortress",
-      "desc": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Blood of the Exile",
-      "desc": "Fleeing does not stem the flow",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Crest of Unity",
-      "desc": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Abacus Rod",
-      "desc": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Elecoe's Abandon",
-      "desc": "\"I do not need to mend the wounds that a dead foe had not the chance to inflict\" - Elecoe the Alchemist Thief",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Wrongwarp",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Transcriber's Graver",
-      "desc": "Carve the burning nightmares into stone",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Box of Hydrae",
-      "desc": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fundamental Criterion",
-      "desc": "Discard freely the paths not taken. They are only distractions from deeper knowledge.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Cleaver Solution",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Dragorath's Claw",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Apex of Thought",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Frey's Retreat",
-      "desc": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Shattered Cycle",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Merophage",
-      "desc": "Forged by Archmage Drinial for his remaining son, it carries a powerful enchantment to draw out yearning. Now, its wielders unburdened, the sword itself yearns for its shattered kin.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Sierpin's Fractal Tree",
       "desc": "",
       "baseType": "",
       "category": "",
@@ -1926,364 +114,7 @@
       "classRequirement": ""
     },
     {
-      "name": "The Cuckoo",
-      "desc": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Wheel of Torment",
-      "desc": "The torment of consumed souls lingers within their devourer.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Unvar's Rise",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Unvar's Hegemony",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Unvar's Exile",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Communion of the Erased",
-      "desc": "\"Hark, disparate souls, for you have been blessed. Together you shall imbibe the venom of new life.\" - The Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Stygian Coal",
-      "desc": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Sigeon's Reprisal",
-      "desc": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Spine of Malatros",
-      "desc": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Vial of Volatile Ice",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Blood Roost",
-      "desc": "The smell of blood fills the air.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Falcon Fists",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Talons of Valor",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Wraithlord's Harbour",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Naal's Tooth",
-      "desc": "Among the island nomads there was once a legend of a great beastmaster, Gatan Larn, who was so in tune with the paravian kind that he could commune with crows and raptors.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Razorfall",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Sword Catcher",
-      "desc": "\"The wild cannot be protected by unnatural things, by stone walls or iron shields. The flame and steel that would destroy it must be stopped in their tracks and broken by the primal rage of its defenders.\" - Nomad Chief Thulr",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Black Blade of Chaos",
-      "desc": "Forged with shadow iron on an unlit moon to claim Lagon's power over elemental chaos.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Orian's Sun Seal",
-      "desc": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Cruelty",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Traitor's Tongue",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Egg of the Forgotten",
-      "desc": "The lost scion of light dwells no longer among the sun, nor in the resplendent mountains of the east. It lingers only in the minds of the servants of fire, guiding the hands that carve and chisel.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Harbinger's Needle",
-      "desc": "A needle forged by Aberroth in the heart of a black hole. It is designed to be plunged into a powerful foe, to sacrifice them to the dark god of fate.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Bane of Winter",
-      "desc": "Time thaws all winters",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Palarus's Sacred Light",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "The Inevitable",
-      "desc": "All timelines fade and the Harbingers flock like crows to the remains.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Phantom Grip",
-      "desc": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Yrun's Penance",
-      "desc": "Like Yrun himself, the former champion's blade was imprisoned in bark and ice.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
       "name": "Flight of Quetzerl",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Triboelectra",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Plague Dragon's Tongue",
-      "desc": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Nihilis",
-      "desc": "From every void, every lost moment, the will of Orobyss echoes for eternity.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Wall of Nothing",
-      "desc": "Cloaked in the void, Harbingers need fear naught.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Aberroth's Command",
-      "desc": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\"",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Stealth",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Seed of Ekkidrasil",
-      "desc": "From the minds of the devoted grows the roots of the tree of nothing",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Null Portent",
-      "desc": "Gorge on the prophecies of futures lost",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Fingers of the Phantom Mire",
-      "desc": "A drained bog seeks vengeance",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Carcinization of Momentum",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Phase Point",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Grim Constitution",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Monument of Protection",
-      "desc": "A shield dedicated to the great warrior, Arek, who gave his life to repel death from the city's walls.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Event Horizon",
-      "desc": "All must pass beyond the brink",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "World Splitter",
-      "desc": "Sever the chains that bind reality",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Flames of Midnight",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Celestial Doom",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Mana Guide",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Tolmat's Incorrect History of Eterra",
-      "desc": "Written by an esteemed historian, this book chronicles the entire history of Eterra as we understand it. Or, at least, as Sir Tolmat understood it.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Mantle of the Pale Ox",
-      "desc": "Fight with the strength of an ox and the wisdom of a spirit",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Phalanx",
-      "desc": "It was not just Liath's magic and machinery that drove the Wengari threat from Thetima's walls, but the discipline and order her generals instilled in her human soldiers.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Grasp of the Blood Mage",
-      "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
-    },
-    {
-      "name": "Ravager's Dart",
       "desc": "",
       "baseType": "",
       "category": "",
@@ -2311,20 +142,2503 @@
       "classRequirement": ""
     },
     {
+      "id": 1,
+      "name": "Fractured Crown",
+      "desc": "Few goals have cost more lives than the quest for power.",
+      "baseType": "Celestial Helm",
+      "category": "Helmet",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 2,
+      "name": "Snowblind",
+      "desc": "Blind with the snow, never blinded by it.",
+      "baseType": "Gladiator Helmet",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 3,
+      "name": "Artor's Legacy",
+      "desc": "The great wolf Artor ran with Heorot in times long forgotten.",
+      "baseType": "Icewolf Pelt",
+      "category": "Helmet",
+      "classRequirement": "Primalist"
+    },
+    {
+      "id": 6,
+      "name": "Boneclamor Barbute",
+      "desc": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion.",
+      "baseType": "Gladiator Helmet",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 7,
+      "name": "The Kestrel",
+      "desc": "May the dying breaths of your enemies put air beneath your wings.",
+      "baseType": "Refuge Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 8,
+      "name": "Doublet of Onos Tull",
+      "desc": "The horns of the Immortal Empire fill the hearts of the living with fear, and the bones of the dead with glory.",
+      "baseType": "Leather Coat",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 9,
+      "name": "Prism Wraps",
+      "desc": "The elements shift like light through a prism. If you control the prism you control the elements.",
+      "baseType": "Leather Coat",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 10,
+      "name": "Urzil's Pride",
+      "desc": "Strength of mind and strength of body are a potent combination.",
+      "baseType": "Iron Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 11,
+      "name": "Exsanguinous",
+      "desc": "Crazed is the mind of a blood starved Lich.",
+      "baseType": "Noble Raiment",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 12,
+      "name": "Yrun's Wisdom",
+      "desc": "Yrun was wise in battle, but not in his betrayal of Heorot.",
+      "baseType": "Banded Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 13,
+      "name": "Titan Heart",
+      "desc": "Heart of stone, blood of gravel.",
+      "baseType": "Copper Plate",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 14,
+      "name": "Valeroot",
+      "desc": "The roots of Eterra grow through stone and flesh and time.",
+      "baseType": "Forest Cuirass",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 15,
+      "name": "Vipertail",
+      "desc": "The bite of the viper brings lethargy and death.",
+      "baseType": "Sash",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 17,
+      "name": "Ward Trail",
+      "desc": "Many things are fickle, few more so than life itself.",
+      "baseType": "Nomad Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 18,
+      "name": "Chains of Uleros",
+      "desc": "Tether yourself to this mortal realm.",
+      "baseType": "Noble Sash",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 19,
+      "name": "Mourningfrost",
+      "desc": "Spread ice with every step, like frost before sunrise.",
+      "baseType": "Leather Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 20,
+      "name": "Stormtide",
+      "desc": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly.",
+      "baseType": "Iron Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 21,
+      "name": "Eterra's Path",
+      "desc": "Life grows in your footsteps.",
+      "baseType": "Brigandine Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 23,
+      "name": "Riverbend Grasp",
+      "desc": "Move with the fluidity of water, relax and you can react without resistance.",
+      "baseType": "Mail Bracers",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 24,
+      "name": "Fighting Chance",
+      "desc": "Fight for your life.",
+      "baseType": "Mail Bracers",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 27,
+      "name": "Wing Guards",
+      "desc": "Speed is its own accuracy.",
+      "baseType": "Plated Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 28,
+      "name": "Beast King",
+      "desc": "The King of Beasts leads the charge.",
+      "baseType": "Wengari Axe",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 29,
+      "name": "Taste of Blood",
+      "desc": "A bloody fervor clouds the mind.",
+      "baseType": "Rusted Cleaver",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 30,
+      "name": "Undisputed",
+      "desc": "",
+      "baseType": "Dragonbone Axe",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 31,
+      "name": "Tempest Maw",
+      "desc": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena.",
+      "baseType": "Crescent Axe",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 32,
+      "name": "Frozen Ire",
+      "desc": "An alliance of wengari and nomads gathered in the northern tundra, forging weapons of ice and preparing to reclaim Heoborea from the Immortal Empire.",
+      "baseType": "Ice Sceptre",
+      "category": "Sceptre",
+      "classRequirement": ""
+    },
+    {
+      "id": 33,
+      "name": "Culnivar's Claim",
+      "desc": "Culnivar, last scion of Liath, was a symbol of hope for the living slaves of Thetima.",
+      "baseType": "Auric Sceptre",
+      "category": "Sceptre",
+      "classRequirement": ""
+    },
+    {
+      "id": 34,
+      "name": "Humming Bee",
+      "desc": "Bzzzzzzzzzz",
+      "baseType": "Gladius",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 35,
+      "name": "Eye of Reen",
+      "desc": "Dance through the flames.",
+      "baseType": "Katana",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 36,
+      "name": "Rainbow Edge",
+      "desc": "",
+      "baseType": "Falchion",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 37,
+      "name": "Cinder Song",
+      "desc": "An ode to fires past.",
+      "baseType": "Archive Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 38,
+      "name": "Alchemist's Ladle",
+      "desc": "Infused with countless potions, its effects are unpredictable.",
+      "baseType": "Rowan Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 39,
+      "name": "Reach of the Grave",
+      "desc": "The touch of death reaches far beyond the grave.",
+      "baseType": "Archive Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 40,
+      "name": "Bone Harvester",
+      "desc": "Some kill without a purpose. Acolytes kill for the harvest.",
+      "baseType": "Bearded Axe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 41,
+      "name": "Hammer of Lorent",
+      "desc": "Lorent may be gone, but its memory will remain with you as you grow.",
+      "baseType": "Great Mace",
+      "category": "Two-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 42,
+      "name": "Torch Of The Pontifex",
+      "desc": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes.",
+      "baseType": "Maul",
+      "category": "Two-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 43,
+      "name": "Storm Breaker",
+      "desc": "Strike with the power of the storm.",
+      "baseType": "Great Mace",
+      "category": "Two-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 44,
+      "name": "Draalsting",
+      "desc": "Poison the mind, kill the heart.",
+      "baseType": "Glaive",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 45,
+      "name": "Morditas' Reach",
+      "desc": "Boundless ambition enshrined in ice.",
+      "baseType": "Ice Spear",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 47,
+      "name": "The Last Laugh",
+      "desc": "When the headsman's blade falls, Sarno laughs in triumph.",
+      "baseType": "Imperial Warblade",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 48,
+      "name": "Volcanus",
+      "desc": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh.",
+      "baseType": "Flamberge",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 49,
+      "name": "Dreamthorn",
+      "desc": "Eater of dreams, weaver of nightmares.",
+      "baseType": "Split Greatsword",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 50,
+      "name": "The Slab",
+      "desc": "Some slabs mark the dead, this one marks the living.",
+      "baseType": "Ironglass Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 51,
+      "name": "Close Call",
+      "desc": "Light on your feet, with a foot in the grave.",
+      "baseType": "Wooden Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 52,
+      "name": "Soul Bastion",
+      "desc": "The weight of souls is too much for most.",
+      "baseType": "Heater Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 53,
+      "name": "Rahyeh's Light",
+      "desc": "Burn with the fire of the eternal sun.",
+      "baseType": "Dawn Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 54,
+      "name": "Strong Mind",
+      "desc": "Stand Fast.",
+      "baseType": "Copper Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 55,
+      "name": "Bleeding Heart",
+      "desc": "Drink the blood of the weak.",
+      "baseType": "Jade Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 56,
+      "name": "Chimaera's Essence",
+      "desc": "Shifting, Changing, Striking.",
+      "baseType": "Jade Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 58,
+      "name": "The Claw",
+      "desc": "A wolf never hunts alone.",
+      "baseType": "Brass Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 59,
+      "name": "Death Rattle",
+      "desc": "The rattle of the dying is the sound of weakness leaving the world.",
+      "baseType": "Turquoise Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 60,
+      "name": "The Fang",
+      "desc": "A wolf never hunts alone.",
+      "baseType": "Bone Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 61,
+      "name": "Orian's Eye",
+      "desc": "The future burns within the prophetic lense.",
+      "baseType": "Oracle Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 62,
+      "name": "Ring of the Third Eye",
+      "desc": "Forsee the strikes, imbue them with power.",
+      "baseType": "Copper Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 65,
+      "name": "Arboreal Circuit",
+      "desc": "You can search round and round, but you are seeking an illusion.",
+      "baseType": "Silver Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 66,
+      "name": "Hollow Finger",
+      "desc": "Only brittle skin remains.",
+      "baseType": "Turquoise Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 67,
+      "name": "Tome of Elements",
+      "desc": "The power of the elements is greatest in their most primal state.",
+      "baseType": "Reliquary Text",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 68,
+      "name": "Grimoire of Necrotic Elixirs",
+      "desc": "Take a quaff from draught of undeath.",
+      "baseType": "Reliquary Grimoire",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 70,
+      "name": "Soulfire",
+      "desc": "The souls of the damned burn with eternal fire.",
+      "baseType": "Grave Lantern",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 71,
+      "name": "Valdyr's Chalice",
+      "desc": "The blood within is said to reflect the drinker's true face.",
+      "baseType": "Silver Grail",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 72,
+      "name": "Orchirian's Petals",
+      "desc": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun.",
+      "baseType": "Overgrowth Bloom",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 73,
+      "name": "Plague Bearer's Staff",
+      "desc": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake.",
+      "baseType": "Spine Rod",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 74,
+      "name": "Ignivar's Head",
+      "desc": "Dying cinders illuminate the empty skull.",
+      "baseType": "Branded Skull",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 75,
+      "name": "The Scavenger",
+      "desc": "Gods may fall and empires crumble, but the furtive scavenger lives on.",
+      "baseType": "Leather Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 76,
+      "name": "Liath's Signet",
+      "desc": "For centuries Architect Liath ensured the prosperity of Lagon's realm.",
+      "baseType": "Gold Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 80,
+      "name": "Bloodgeon",
+      "desc": "Crush. Maul. Bludgeon.",
+      "baseType": "Flanged Mace",
+      "category": "One-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 81,
+      "name": "Ucenui's Sphere",
+      "desc": "Ucenui the navigator used his water magic to explore the vast ocean beyond the Isle of Storms. His fate is unknown, but his instrument remains.",
+      "baseType": "Navigation Orb",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 82,
+      "name": "Arek's Bones",
+      "desc": "The necromancers were careful to keep Arek's mind intact while they extracted the bones from his flesh.",
+      "baseType": "Ebertusk Club",
+      "category": "One-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 83,
+      "name": "Maehlin's Hubris",
+      "desc": "Maehlin devoted his life to Rahyeh. Seeking to learn his will he reached into the god's mind. Rahyeh reached back into his and set his blood aflame.",
+      "baseType": "Plated Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 84,
+      "name": "Heirloom of the Last Nomad",
+      "desc": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow.",
+      "baseType": "Ruby Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 91,
+      "name": "Fiery Dragon Shoes",
+      "desc": "Embers of a dragon's heart still linger in these smoldering scales. Dire hits threaten to stoke a wrath that has long slumbered.",
+      "baseType": "Solarum Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 92,
+      "name": "Jungle Queen's Chaps of Holding",
+      "desc": "The lack of a bottom means that there is more material for pockets.",
+      "baseType": "Leather Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 93,
+      "name": "Kermode's Cage",
+      "desc": "The fury of the spirit bear can not be restrained or subdued, even while confined.",
+      "baseType": "Beastmail",
+      "category": "Body Armor",
+      "classRequirement": "Primalist"
+    },
+    {
+      "id": 103,
+      "name": "Legacy of the Quiet Forest",
+      "desc": "“This branch will protect you, even when I can not.” - the last words Quiet heard from her forest friend.",
+      "baseType": "Nomad Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 104,
+      "name": "Suloron's Step",
+      "desc": "The rebel Suloron struck deep into Majasa's territory, but his fervour could not save him from the matrons' blades.",
+      "baseType": "Brigandine Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 105,
+      "name": "The Ashen Crown",
+      "desc": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins.",
+      "baseType": "Lunar Helm",
+      "category": "Helmet",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 106,
+      "name": "Shroud of Obscurity",
+      "desc": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic.",
+      "baseType": "Witch Robes",
+      "category": "Body Armor",
+      "classRequirement": "Acolyte"
+    },
+    {
+      "id": 107,
+      "name": "Murama's Hilt",
+      "desc": "Xenath broke his father's sword, casting away the cursed blade in resentment of his harsh master, and keeping the hilt as a reminder of his loving parent.",
+      "baseType": "Broken Hilt",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 108,
+      "name": "Melvern's Writ",
+      "desc": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern",
+      "baseType": "Lost Journal",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 111,
+      "name": "Woven Flesh",
+      "desc": "The pinnacle of necromancy is to weave undead flesh into any form you desire.",
+      "baseType": "Gladiator Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 112,
+      "name": "Strands of Souls",
+      "desc": "It is unseemly to wear the heads of your foes upon your belt like a common witch or wengari, and what is the point if the eyes can no longer see and the brains can no longer think. No, a necromancer should wear the souls of those they have conquered, a repository of sentient energy ready to consume.",
+      "baseType": "Leather Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 113,
+      "name": "Ribbons of Blood",
+      "desc": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon.",
+      "baseType": "Ruby Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 114,
+      "name": "Frozen Eyes of Formosus",
+      "desc": "The eyes still stare out, transfixed with longing for the power their owner sought.",
+      "baseType": "Brass Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 115,
+      "name": "Last Steps of the Living",
+      "desc": "Step out of the cold, out of the mortal realm, and take your place among the empire.",
+      "baseType": "Arcane Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 116,
+      "name": "Atrophy",
+      "desc": "Rust and corrosion stand as monuments to the inevitability of time.",
+      "baseType": "Noble Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 117,
+      "name": "Dark Shroud of Cinders",
+      "desc": "The dying embers of a god swiling around a blackened cloak.",
+      "baseType": "Copper Plate",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 118,
+      "name": "The Confluence of Fate",
+      "desc": "The fall of Eterra is inevitable, as it always has been.",
+      "baseType": "Oracle Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 119,
+      "name": "Bulwark of the Last Abyss",
+      "desc": "Hold steadfast at the edge of light.",
+      "baseType": "Ironglass Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 120,
+      "name": "Trident of the Last Abyss",
+      "desc": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it.",
+      "baseType": "Trident",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 121,
+      "name": "Coral Aegis",
+      "desc": "As storms scour the land, the sea swells and flourishes.",
+      "baseType": "Meruna Shell",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 122,
+      "name": "Alluvion",
+      "desc": "Waves woven into steel.",
+      "baseType": "Flamberge",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 123,
+      "name": "Symbol of Demise",
+      "desc": "The fate of the world engraved in bone.",
+      "baseType": "Rune Stone",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 124,
+      "name": "Dragonflame Edict",
+      "desc": "Go forth and conquer by force or by fire.",
+      "baseType": "Dragon Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 125,
+      "name": "Oceareon",
+      "desc": "Empires rise and fall like the waves, but the ocean's might is eternal.",
+      "baseType": "Sapphire Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 126,
+      "name": "Mortality's Grasp",
+      "desc": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat",
+      "baseType": "Noble Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 130,
+      "name": "Gambler's Fallacy",
+      "desc": "Just means you're due for a big one, don't worry.",
+      "baseType": "Ruby Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 131,
+      "name": "Avarice",
+      "desc": "Have the wisdom to know what is rightfully yours and the will to seize it.",
+      "baseType": "Leather Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 132,
+      "name": "Transient Rest",
+      "desc": "We follow in the footsteps of our ancestors, but our paths no longer end.",
+      "baseType": "Brigandine Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 133,
+      "name": "Xithara's Conundrum",
+      "desc": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade.",
+      "baseType": "Ruby Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 134,
+      "name": "Li'raka's Claws",
+      "desc": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive.",
+      "baseType": "Plated Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 135,
+      "name": "Quicksilver Coil",
+      "desc": "War is about the destination, not the journey.",
+      "baseType": "Silver Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 136,
+      "name": "Smoke Weaver",
+      "desc": "A true assassin must create their own shadows to strike from.",
+      "baseType": "Poignard",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 137,
+      "name": "Uethrin's Stand",
+      "desc": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter.",
+      "baseType": "Birch Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 141,
+      "name": "Hell Reach",
+      "desc": "As Wyvernfall burned nothing could escape the flames.",
+      "baseType": "Shortbow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 142,
+      "name": "Drelkor's Compass",
+      "desc": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes.",
+      "baseType": "Longbow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 143,
+      "name": "Gladiator's Oath",
+      "desc": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood.",
+      "baseType": "Broadsword",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 144,
+      "name": "Acidfletch",
+      "desc": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra.",
+      "baseType": "Serpent Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 145,
+      "name": "Life's Journey",
+      "desc": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust.",
+      "baseType": "Bandit Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 146,
+      "name": "Troaka's Teeth",
+      "desc": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari.",
+      "baseType": "Nomad Quiver",
+      "category": "Quiver",
+      "classRequirement": ""
+    },
+    {
+      "id": 147,
+      "name": "Raindance",
+      "desc": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves.",
+      "baseType": "Shrine Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 148,
+      "name": "Arrowguard",
+      "desc": "\"Look only west and trust that the sun itself leads our march. \" - Pontixex Aurelus to the auxiliaries of Solarum",
+      "baseType": "Heavy Quiver",
+      "category": "Quiver",
+      "classRequirement": ""
+    },
+    {
+      "id": 149,
+      "name": "Omnividence",
+      "desc": "Gaze upon all that will never be.",
+      "baseType": "Abyssal Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 150,
+      "name": "Sunwreath",
+      "desc": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated.",
+      "baseType": "Ruby Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 151,
+      "name": "Eulogy of Blood",
+      "desc": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra.",
+      "baseType": "Soul Harvester",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 152,
+      "name": "Anchor of Oblivion",
+      "desc": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals.",
+      "baseType": "Lost Anchor",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 153,
+      "name": "Wings of Argentus",
+      "desc": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both.",
+      "baseType": "Gladiator Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 154,
+      "name": "Eye of Storms",
+      "desc": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass.",
+      "baseType": "Brass Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 159,
+      "name": "Reign of Winter",
+      "desc": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot.",
+      "baseType": "Longbow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 160,
+      "name": "Call of the Tundra",
+      "desc": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades.",
+      "baseType": "Gladiator Helmet",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 161,
+      "name": "Faith of the Frozen",
+      "desc": "Found among the frozen corpses in the wake of Morditas' wrath. Runes etched into the handle read \"Heorot protect us\".",
+      "baseType": "Frostbound Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 162,
+      "name": "Bhuldar's Wrath",
+      "desc": "Shatter! Erupt! This world is only a prison for the immortal flame.",
+      "baseType": "Titan Femur",
+      "category": "Two-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 163,
+      "name": "Herkir's Vessel",
+      "desc": "Drink deep of the flame, brothers... Immortality awaits.",
+      "baseType": "Copper Chalice",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 164,
+      "name": "Logi's Hunger",
+      "desc": "Rise! Through fire we are reborn.",
+      "baseType": "Bone Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 165,
+      "name": "Serpent's Milk",
+      "desc": "",
+      "baseType": "Jade Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 166,
+      "name": "Moenia Mentis",
+      "desc": "\"To survive the void we must build unassailable walls, not just around this town, but around our minds. Do not approach the cultists, do not speak to them.\" - Eos Falrein, last Archmage of Vul'Kaur.",
+      "baseType": "Heater Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 167,
+      "name": "Ravens' Rise",
+      "desc": "As men and gods fight the ravens rise. As the blood settles the ravens alight.",
+      "baseType": "Outcast Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 168,
+      "name": "Flight of the First",
+      "desc": "Those who ventured outside in the Ancient Era lived in constant terror",
+      "baseType": "Dreadthorn Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 169,
+      "name": "Aergon's Refuge",
+      "desc": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\"",
+      "baseType": "Temple Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 172,
+      "name": "Herald of the Scurry",
+      "desc": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!",
+      "baseType": "Tusked Greathelm",
+      "category": "Helmet",
+      "classRequirement": "Primalist"
+    },
+    {
+      "id": 175,
+      "name": "Omnis",
+      "desc": "All the stars in the empty sky flicker at once and fade into silence and shadow.",
+      "baseType": "Silver Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 176,
+      "name": "Aurora's Time Glass",
+      "desc": "",
+      "baseType": "Ruby Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 177,
+      "name": "Siphon of Anguish",
+      "desc": "The sorrow of those that remain feeds the hungering void.",
+      "baseType": "Gold Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 178,
+      "name": "Stymied Fate",
+      "desc": "The end comes slowly, then quickly, then it is all that has ever been.",
+      "baseType": "Arcane Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 179,
+      "name": "Apathy's Maw",
+      "desc": "Forsake the darkening sky and let the ground swallow your mind.",
+      "baseType": "Obsidian Axe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 180,
+      "name": "Shattered Chains",
+      "desc": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead.",
+      "baseType": "Plated Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 181,
+      "name": "Marina's Lost Soul",
+      "desc": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows.",
+      "baseType": "Profane Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 182,
+      "name": "Eye of Orexia",
+      "desc": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma.",
+      "baseType": "Third Eye",
+      "category": "Relic",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 183,
+      "name": "Leviathan Carver",
+      "desc": "Forge Master Rupin'Ur sought to create a weapon capable of slaying any beast, but to most it more resembled a hunk of raw steel.",
+      "baseType": "Solarum Greatsword",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 184,
+      "name": "Lethal Concentration",
+      "desc": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes",
+      "baseType": "Jadebone Javelin",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 187,
+      "name": "Salt the Wound",
+      "desc": "A critical success, a critical failure... It's all in the coin toss.",
+      "baseType": "Serrated Bracers",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 188,
+      "name": "Azurral's Fury",
+      "desc": "The nagasa of the Scorched Basin always warned merchants to disregard the false oasis on the long road to Keltha, but Azurral had never put much heed in the snake people's superstition and his thirst overcame him. He drew deep from the blood red waters. The next day he awoke to his caravan reduced to ash upon the sand and his sword burning hot in his hand.",
+      "baseType": "Noble Sash",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 189,
+      "name": "Sanguine Hoard",
+      "desc": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\"",
+      "baseType": "Nomad Quiver",
+      "category": "Quiver",
+      "classRequirement": ""
+    },
+    {
+      "id": 190,
+      "name": "Jasper's Searing Pride",
+      "desc": "A Warrior's Life burned to ashes and all that's left is pride.",
+      "baseType": "Bladed Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 191,
+      "name": "Devotion",
+      "desc": "Where your limits end, your faith's test begins.",
+      "baseType": "Gold Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 192,
+      "name": "Fulgurite Shard",
+      "desc": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury.",
+      "baseType": "Obsidian Dagger",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 198,
+      "name": "Bastion of Honour",
+      "desc": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade.",
+      "baseType": "Old Kite Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 199,
+      "name": "Rule of the Simoon",
+      "desc": "When fire falls in love with the wind, run.",
+      "baseType": "Crusader Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 200,
+      "name": "Tongue of the Aberrant Seer",
+      "desc": "Litugy in darkness leads only to despair, poison on the tongue beguiles the soul, truth in unwords reveals salvation.",
+      "baseType": "Jade Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 201,
+      "name": "Battlemage's Endeavour",
+      "desc": "In times of strife the inflexible are doomed to break. A true Battlemage must master all the arts of war.",
+      "baseType": "Claymore",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 202,
+      "name": "Stormhide Paws",
+      "desc": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms.",
+      "baseType": "Leather Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 203,
+      "name": "Darkstride",
+      "desc": "Decades after the rest of civilisation hid itself beneath the ground, the last of the void knights still roamed the ruined surface, searching relentlessly for a way to turn the power of the void against itself. Their discoveries remain with them, lost amidst the shadows.",
+      "baseType": "Iron Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 204,
+      "name": "Thorn Slinger",
+      "desc": "After making peace with the nagasa, Lord Berant of Skalnir was impatient to secure his legacy and so turned his eyes to an easier conquest. The Verdant Isle was small and his scouts assured him that its druid inhabitants had no weapons. But when his soldiers returned from the sacred island, they brought back only their thorn pierced fallen and tales of vine strangled ships.",
+      "baseType": "Leather Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 205,
+      "name": "Curse of Perseverance",
+      "desc": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world.",
+      "baseType": "Imperial Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 206,
+      "name": "Lessons of the Metropolis",
+      "desc": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter.",
+      "baseType": "Hide Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 207,
+      "name": "Kelthan Blasting Agent",
+      "desc": "Overseer Nicovus had little patience for the traditional mining techniques of his living predecessors. The empire would delve deep and it would delve fast.",
+      "baseType": "Oil Vial",
+      "category": "Relic",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 208,
+      "name": "Ravenous Void",
+      "desc": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside.",
+      "baseType": "Gluttonous Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 209,
+      "name": "Aberrant Call",
+      "desc": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment.",
+      "baseType": "Spine Rod",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 210,
+      "name": "Flayer's Pride",
+      "desc": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer.",
+      "baseType": "Rotskin Round Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 211,
+      "name": "Throne of Ambition",
+      "desc": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god.",
+      "baseType": "Adorned Silver Idol",
+      "category": "Adorned Idol",
+      "classRequirement": ""
+    },
+    {
+      "id": 212,
+      "name": "Eternal Eclipse",
+      "desc": "The triumph of man and osprix culminates upon the altar of Solarum. A frail sun rises behind an illuminable shadow, spreading a corona of half light upon the ruined world beneath. This feeble shadow is no salvation from the end, but only from the hope of what might have been.",
+      "baseType": "Khopesh",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 213,
+      "name": "Frostbite Shackles",
+      "desc": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane.",
+      "baseType": "Mail Bracers",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 214,
+      "name": "Stormcarved Testament",
+      "desc": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs.",
+      "baseType": "Stone Tablet",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 215,
+      "name": "Nightbringer",
+      "desc": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek.",
+      "baseType": "Spidersilk Quiver",
+      "category": "Quiver",
+      "classRequirement": ""
+    },
+    {
+      "id": 218,
+      "name": "Yulia's Path",
+      "desc": "Between loyalty and opression, hope and tyranny, the path of wisdom must be found.",
+      "baseType": "Heoborean Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 219,
+      "name": "Trinity of Flames",
+      "desc": "Three souls to nourish an unquenchable flame.",
+      "baseType": "Adorned Volcano Idol",
+      "category": "Adorned Idol",
+      "classRequirement": ""
+    },
+    {
+      "id": 220,
+      "name": "Death's Embrace",
+      "desc": "Everything comes with a price - even death.",
+      "baseType": "Bone Scythe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 221,
+      "name": "Paranoia",
+      "desc": "In the whispering bull rushes and the swaying leaves, in the howling wind and flickering shadows, everywhere enemies hide.",
+      "baseType": "Full Helm",
+      "category": "Helmet",
+      "classRequirement": "Sentinel"
+    },
+    {
+      "id": 222,
+      "name": "Prismatic Gaze",
+      "desc": "Time collapsing void\nObservation... destruction\nBring her light with you",
+      "baseType": "Bronze Casque",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 223,
+      "name": "Chronostasis",
+      "desc": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance.",
+      "baseType": "Dawn Blade",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 224,
+      "name": "The Judicator",
+      "desc": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it.",
+      "baseType": "Dragonslayer Glaive",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 225,
+      "name": "Aurelis",
+      "desc": "The sky's wrath alights in a golden storm.",
+      "baseType": "Longsword",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 226,
+      "name": "Tu'rani's Bident",
+      "desc": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha.",
+      "baseType": "Impaler",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 229,
+      "name": "Roots of Vithrasil",
+      "desc": "Root yourself into the cold earth and drink deep from Eterra's bounty.",
+      "baseType": "Heoborean Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 230,
+      "name": "Usurper's Mandate",
+      "desc": "\"Only one with the blood and bones of a king may rule. Fortunately, I have both\" - Venred the Usurper",
+      "baseType": "Bone Scythe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 231,
+      "name": "Longshot",
+      "desc": "",
+      "baseType": "Imperial Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 232,
+      "name": "Hakar's Phoenix",
+      "desc": "",
+      "baseType": "Eagle Wing",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 233,
+      "name": "Snowdrift",
+      "desc": "Let the northwind mold you, cold and howling above the frozen tundra.",
+      "baseType": "Outcast Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 234,
+      "name": "Hazelroot",
+      "desc": "",
+      "baseType": "Oak Sceptre",
+      "category": "Sceptre",
+      "classRequirement": ""
+    },
+    {
+      "id": 235,
+      "name": "Silvafrond",
+      "desc": "The life of the forest flows through every root and leaf",
+      "baseType": "Turquoise Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 236,
+      "name": "Drought's Release",
+      "desc": "\"Our tribulations shall end with prosperity, and theirs with death\" - Grand Alchemist Avello",
+      "baseType": "Kris",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 237,
+      "name": "Thornshell",
+      "desc": "Driven from their homes, the Meruna of Sur Soreth settled among the swamps and fens around Urix. Despite their unfamiliarity with the shallows and thickets of their new home, they gradually adapted to it, learning to tunnel through the mud and grow thorns from their shells.",
+      "baseType": "Meruna Shell",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 238,
+      "name": "Julra's Stardial",
+      "desc": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\"",
+      "baseType": "Sapphire Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 239,
+      "name": "Somnia",
+      "desc": "The very atmosphere is different here, what once slumbered is now awoken and free.",
+      "baseType": "Gladiator Helmet",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 240,
+      "name": "Julra's Obsession",
+      "desc": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\"",
+      "baseType": "Crusader Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 241,
+      "name": "Vessel of Strife",
+      "desc": "The durance of strife is an impossible task. Boiling within, despair's sole fate is to erupt and envelop its vessel.",
+      "baseType": "Silver Grail",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 242,
+      "name": "Shadow String",
+      "desc": "Unseen hands strike hardest",
+      "baseType": "Birch Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 243,
+      "name": "Dragonsong",
+      "desc": "",
+      "baseType": "Longbow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 244,
+      "name": "Harthenon's Vow",
+      "desc": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle.",
+      "baseType": "Refuge Axe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 245,
+      "name": "Renegade's Will",
+      "desc": "",
+      "baseType": "Pick Hammer",
+      "category": "One-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 246,
+      "name": "Singularity",
+      "desc": "\"And thus from a singular point of infinite detail did the goddess Eterra weave the fabric of reality\" - Book of Elders, Chapter 1.",
+      "baseType": "Small Eterran Idol",
+      "category": "Small Idol",
+      "classRequirement": ""
+    },
+    {
+      "id": 247,
+      "name": "Chronicle of the Damned",
+      "desc": "The souls of those whose deaths are inked within these pages are bound to the book itself, forever cursed to serve the reader.",
+      "baseType": "Leatherbound Tome",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 249,
+      "name": "Diothaen's Bloody Nib",
+      "desc": "\"Some say the pen is mightier than the sword. Sacrificing your blood to write the words, now there’s real power.\" - Archmage Diothaen",
+      "baseType": "Scrivening Quill",
+      "category": "Relic",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 250,
+      "name": "Torkrefin's Hunger",
+      "desc": "The nomads around lake Mawn were optimistic as Grand Matriarch Torkrefin rose to power among the nearby Wengari. She had at first seemed more civilised than the average Wengari, carrying a giant sword instead of a crude axe or club. Nevertheless she proved particularly difficult to reason with on account of her propensity to devour their envoys.",
+      "baseType": "Claymore",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 251,
+      "name": "Zeurial's Hunt",
+      "desc": "",
+      "baseType": "Skalnir Quiver",
+      "category": "Quiver",
+      "classRequirement": ""
+    },
+    {
+      "id": 253,
+      "name": "Foot of the Mountain",
+      "desc": "",
+      "baseType": "Iron Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 254,
+      "name": "Face of the Mountain",
+      "desc": "The face of the mountain yields no emotion as waves, weather, and time crash upon it.",
+      "baseType": "Stone Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 255,
+      "name": "Core of the Mountain",
+      "desc": "",
+      "baseType": "Banded Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 257,
+      "name": "Ashes of Mortality",
+      "desc": "",
+      "baseType": "Ruby Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 258,
+      "name": "Immolator's Oblation",
+      "desc": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic.",
+      "baseType": "Leather Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 259,
+      "name": "Pyre of Affliction",
+      "desc": "",
+      "baseType": "Fire Lich Scythe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 262,
+      "name": "Penumbra",
+      "desc": "Honour has no place in the arena. To defeat the mightiest foes, a champion must dance on the edge of shadows, preparing for the perfect moment to strike.",
+      "baseType": "Silver Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 263,
+      "name": "Omen of Thunder",
+      "desc": "",
+      "baseType": "Nomad Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 264,
+      "name": "Vaion's Chariot",
+      "desc": "",
+      "baseType": "Solarum Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 265,
+      "name": "Soul Gambler's Fallacy",
+      "desc": "When coins run out, you still have your soul to gamble.",
+      "baseType": "Ruby Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 266,
+      "name": "Burning Avarice",
+      "desc": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you.",
+      "baseType": "Noble Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 267,
+      "name": "Ashes of Orchirian",
+      "desc": "",
+      "baseType": "Overgrowth Bloom",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 268,
+      "name": "Bloodkeeper's Nest",
+      "desc": "",
+      "baseType": "Blood Encased Hive",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 269,
+      "name": "Scales of Lemniscate",
+      "desc": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity.",
+      "baseType": "Bone Scythe",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 270,
+      "name": "Hive Mind",
+      "desc": "\"Why is that decoy buzzing?\"\n\"That's not a decoy, it's a beecoy!\"",
+      "baseType": "Leather Mask",
+      "category": "Helmet",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 271,
+      "name": "Gathering Fury",
+      "desc": "Lightning does strike twice",
+      "baseType": "Storm Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 272,
+      "name": "Aaron's Will",
+      "desc": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B",
+      "baseType": "Revenant Plate",
+      "category": "Body Armor",
+      "classRequirement": "Acolyte"
+    },
+    {
+      "id": 273,
+      "name": "Lament of the Lost Refuge",
+      "desc": "\"I can hear them skitter, scratching at the walls. Their cries echo through these caverns like the wails of those lost outside. Just rats for now, but ‘they’ are lost no longer, they come back to us now, but different - corrupted.\"",
+      "baseType": "Rat City Impaler",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 274,
+      "name": "Branch of Hallows",
+      "desc": "Most druids talk to their woodland kin, rarely do the trees consider their fleshy brethren. Some branches seek a host to commune with, be it a man, beast, or treekin. Madness touches all in different ways.",
+      "baseType": "Root Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 275,
+      "name": "Unstable Core",
+      "desc": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash.",
+      "baseType": "Arcane Regalia",
+      "category": "Body Armor",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 276,
+      "name": "Liath's Machinations",
+      "desc": "With careful planning and precise instruments, one can bring order even to a flame.",
+      "baseType": "Noble Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 277,
+      "name": "Red Ring of Atlaria",
+      "desc": "One of seven enchanted rings that were all believed to be lost when Atlaria vanished beneath the waves.",
+      "baseType": "Silver Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 278,
+      "name": "Tears of the Forest",
+      "desc": "",
+      "baseType": "Turquoise Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 279,
+      "name": "Shadow Beacon",
+      "desc": "Once light fades, only darkness can guide those who remain.",
+      "baseType": "Terror Mace",
+      "category": "Two-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 280,
+      "name": "Telf'un's Mirage",
+      "desc": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own.",
+      "baseType": "Arcane Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 281,
+      "name": "Vortex Pennant",
+      "desc": "",
+      "baseType": "Mournful Pennant",
+      "category": "Relic",
+      "classRequirement": "Sentinel"
+    },
+    {
+      "id": 282,
+      "name": "Firestarter's Torch",
+      "desc": "\"By Rahyeh's will this town shall burn!\"",
+      "baseType": "Brass Sceptre",
+      "category": "Sceptre",
+      "classRequirement": ""
+    },
+    {
+      "id": 283,
+      "name": "Rotmind",
+      "desc": "The witches of the Red Marsh learned to cultivate a type of magical fungus within their own skulls. The mycelium grew eagerly into their brains, twisting their minds, but the powers it bestowed were well worth their sanity.",
+      "baseType": "Branded Skull",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 284,
+      "name": "The Ghost Maker",
+      "desc": "A precise and expertly crafted tool for cutting a soul from a body",
+      "baseType": "Rune Dagger",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 285,
+      "name": "Jelkhor's Blast Knife",
+      "desc": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge.",
+      "baseType": "Majasan Dagger",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 286,
+      "name": "Fragment of the Enigma",
+      "desc": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery.",
+      "baseType": "Rune Stone",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 287,
+      "name": "Hand of Judgement",
+      "desc": "The light of divinity!",
+      "baseType": "Crusader Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 288,
+      "name": "Harbinger of Stars",
+      "desc": "Above the skies the natural and the arcane are one.",
+      "baseType": "Noble Sash",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 289,
+      "name": "Bo's Anarchy",
+      "desc": "The streets of Maj'elka engender no love for authority",
+      "baseType": "Quarter Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 290,
+      "name": "Apostate's Sanctuary",
+      "desc": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\"",
+      "baseType": "Bone Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 291,
+      "name": "Pillager's Gold",
+      "desc": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils.",
+      "baseType": "Stolen Tithe",
+      "category": "Relic",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 292,
+      "name": "Apogee of Frozen Light",
+      "desc": "Formosus knew not what cause these warriors had fought for, or what ancient conflict left their bodies frozen upon the outer ice. But, as he felt the rage and power of their lingering souls he knew well what purpose they would now fulfill.",
+      "baseType": "Longsword",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 293,
+      "name": "Swaddling of the Erased",
+      "desc": "\"Cities, memories, whole timelines have been erased by the spreading void. There is much work ahead of us.\" - The Acolyte of Golden Silk",
+      "baseType": "Leather Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 294,
+      "name": "Font of the Erased",
+      "desc": "\"For those who have lost everything, The Weaver's bounty knows no end.\"  - The Acolyte of Golden Silk",
+      "baseType": "Gold Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 295,
+      "name": "Cradle of the Erased",
+      "desc": "\"Rest now, you are safe here in this cocoon. It's all gone now, but this is not where your thread ends.\" - The Acolyte of Golden Silk",
+      "baseType": "Targe",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 296,
+      "name": "Advent of the Erased",
+      "desc": "\"Those long lost may walk again on woven feet\" - The Acolyte of Golden Silk",
+      "baseType": "Iron Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 297,
+      "name": "Dedication of an Erased Primalist",
+      "desc": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk",
+      "baseType": "Dream Catcher",
+      "category": "Relic",
+      "classRequirement": "Primalist"
+    },
+    {
+      "id": 298,
+      "name": "Knowledge of an Erased Mage",
+      "desc": "\"Such insight wasted on a lost timeline. It is for naught now, but it proves thy worth.\" - The Acolyte of Golden Silk",
+      "baseType": "Warding Scroll",
+      "category": "Relic",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 299,
+      "name": "Code of an Erased Sentinel",
+      "desc": "\"Memories of past honour that befits the woven form\" - The Acolyte of Golden Silk",
+      "baseType": "Inscribed Tablet",
+      "category": "Relic",
+      "classRequirement": "Sentinel"
+    },
+    {
+      "id": 300,
+      "name": "Ambitions of an Erased Acolyte",
+      "desc": "\"The context of thy aspirations is long lost, yet they still pervade thy silken form.\" - The Acolyte of Golden Silk",
+      "baseType": "Caged Souls",
+      "category": "Relic",
+      "classRequirement": "Acolyte"
+    },
+    {
+      "id": 301,
+      "name": "Gambit of an Erased Rogue",
+      "desc": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk",
+      "baseType": "Ivory Dice",
+      "category": "Relic",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 302,
+      "name": "Howl of the West Wind",
+      "desc": "Dark clouds roll in from the Sea of the Storms",
+      "baseType": "Wolf Pelt",
+      "category": "Helmet",
+      "classRequirement": "Primalist"
+    },
+    {
+      "id": 303,
+      "name": "Cycle of Putrescence",
+      "desc": "\"The cycle of life and death is forever shattered. Our cities shall not crumble and our citizens shall not yield or die at the whims of a winged devil. We shall persist. Our bodies may whither and decay, but even when we fall we return and persist again. Glory to the new cycle. Glory to persistence and decay. Glory to humanity.\" - Thelocus, Imperial Governor of Argentum",
+      "baseType": "Ivory Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 304,
+      "name": "Static Shell",
+      "desc": "The carapace of a meruna storm ogre makes for an impressive trophy, and an effective cuirass.",
+      "baseType": "Banded Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 305,
+      "name": "Reowyn's Fortress",
+      "desc": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch.",
+      "baseType": "Travelling Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 306,
+      "name": "Blood of the Exile",
+      "desc": "Fleeing does not stem the flow",
+      "baseType": "Iron Greaves",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 307,
+      "name": "Crest of Unity",
+      "desc": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain.",
+      "baseType": "Runed Visage",
+      "category": "Helmet",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 308,
+      "name": "Abacus Rod",
+      "desc": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim.",
+      "baseType": "Archive Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 309,
+      "name": "Elecoe's Abandon",
+      "desc": "\"I do not need to mend the wounds that a dead foe had not the chance to inflict\" - Elecoe the Alchemist Thief",
+      "baseType": "Wyrmhide Coat",
+      "category": "Body Armor",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 310,
+      "name": "Wrongwarp",
+      "desc": "",
+      "baseType": "Crystal Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 311,
+      "name": "Transcriber's Graver",
+      "desc": "Carve the burning nightmares into stone",
+      "baseType": "Dawn Blade",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 312,
+      "name": "Box of Hydrae",
+      "desc": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads.",
+      "baseType": "Runed Box",
+      "category": "Relic",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 313,
+      "name": "Fundamental Criterion",
+      "desc": "Discard freely the paths not taken. They are only distractions from deeper knowledge.",
+      "baseType": "Vul'kaur Regalia",
+      "category": "Body Armor",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 314,
+      "name": "Cleaver Solution",
+      "desc": "",
+      "baseType": "Rusted Cleaver",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 315,
+      "name": "Dragorath's Claw",
+      "desc": "",
+      "baseType": "Rune Dagger",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 316,
+      "name": "Apex of Thought",
+      "desc": "",
+      "baseType": "Runed Visage",
+      "category": "Helmet",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 317,
+      "name": "Frey's Retreat",
+      "desc": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot.",
+      "baseType": "Divine Instrument",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 318,
+      "name": "The Shattered Cycle",
+      "desc": "",
+      "baseType": "Obsidian Sceptre",
+      "category": "Sceptre",
+      "classRequirement": ""
+    },
+    {
+      "id": 319,
+      "name": "Merophage",
+      "desc": "Forged by Archmage Drinial for his remaining son, it carries a powerful enchantment to draw out yearning. Now, its wielders unburdened, the sword itself yearns for its shattered kin.",
+      "baseType": "Winged Blade",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 320,
+      "name": "Sierpin's Fractal Tree",
+      "desc": "",
+      "baseType": "Trident",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 322,
+      "name": "The Cuckoo",
+      "desc": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes.",
+      "baseType": "Avian Puppet",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 323,
+      "name": "Wheel of Torment",
+      "desc": "The torment of consumed souls lingers within their devourer.",
+      "baseType": "Abyssal Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 324,
+      "name": "Unvar's Rise",
+      "desc": "",
+      "baseType": "Large Arcane Idol",
+      "category": "Large Idol",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 325,
+      "name": "Unvar's Hegemony",
+      "desc": "",
+      "baseType": "Adorned Arcane Idol",
+      "category": "Adorned Idol",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 326,
+      "name": "Unvar's Exile",
+      "desc": "",
+      "baseType": "Huge Arcane Idol",
+      "category": "Huge Idol",
+      "classRequirement": "Mage"
+    },
+    {
+      "id": 327,
+      "name": "Communion of the Erased",
+      "desc": "\"Hark, disparate souls, for you have been blessed. Together you shall imbibe the venom of new life.\" - The Acolyte of Golden Silk",
+      "baseType": "Plated Belt",
+      "category": "Belt",
+      "classRequirement": ""
+    },
+    {
+      "id": 328,
+      "name": "Stygian Coal",
+      "desc": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come.",
+      "baseType": "Soulmass",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 329,
+      "name": "Sigeon's Reprisal",
+      "desc": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon",
+      "baseType": "Bandit Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 330,
+      "name": "Spine of Malatros",
+      "desc": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him.",
+      "baseType": "Flamberge",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 331,
+      "name": "Vial of Volatile Ice",
+      "desc": "",
+      "baseType": "Glass Catalyst",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 332,
+      "name": "Blood Roost",
+      "desc": "The smell of blood fills the air.",
+      "baseType": "Serrated Bracers",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 333,
+      "name": "Falcon Fists",
+      "desc": "",
+      "baseType": "Plated Gauntlets",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 334,
+      "name": "Talons of Valor",
+      "desc": "",
+      "baseType": "Longbow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
+    },
+    {
+      "id": 335,
+      "name": "Wraithlord's Harbour",
+      "desc": "",
+      "baseType": "Immortal Crown",
+      "category": "Helmet",
+      "classRequirement": "Acolyte"
+    },
+    {
+      "id": 336,
+      "name": "Naal's Tooth",
+      "desc": "Among the island nomads there was once a legend of a great beastmaster, Gatan Larn, who was so in tune with the paravian kind that he could commune with crows and raptors.",
+      "baseType": "Serrated Tooth",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 337,
+      "name": "Razorfall",
+      "desc": "",
+      "baseType": "Vanguard Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 338,
+      "name": "Sword Catcher",
+      "desc": "\"The wild cannot be protected by unnatural things, by stone walls or iron shields. The flame and steel that would destroy it must be stopped in their tracks and broken by the primal rage of its defenders.\" - Nomad Chief Thulr",
+      "baseType": "Bardiche",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 339,
+      "name": "Black Blade of Chaos",
+      "desc": "Forged with shadow iron on an unlit moon to claim Lagon's power over elemental chaos.",
+      "baseType": "Odachi",
+      "category": "Two-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 340,
+      "name": "Orian's Sun Seal",
+      "desc": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos",
+      "baseType": "Gold Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 341,
+      "name": "Cruelty",
+      "desc": "",
+      "baseType": "Defiled Bones",
+      "category": "Relic",
+      "classRequirement": "Acolyte"
+    },
+    {
+      "id": 342,
+      "name": "Traitor's Tongue",
+      "desc": "",
+      "baseType": "Kris",
+      "category": "Dagger",
+      "classRequirement": ""
+    },
+    {
+      "id": 343,
+      "name": "Egg of the Forgotten",
+      "desc": "The lost scion of light dwells no longer among the sun, nor in the resplendent mountains of the east. It lingers only in the minds of the servants of fire, guiding the hands that carve and chisel.",
+      "baseType": "Stone Egg",
+      "category": "Relic",
+      "classRequirement": ""
+    },
+    {
+      "id": 344,
+      "name": "Harbinger's Needle",
+      "desc": "A needle forged by Aberroth in the heart of a black hole. It is designed to be plunged into a powerful foe, to sacrifice them to the dark god of fate.",
+      "baseType": "Small Orobyss Idol",
+      "category": "Small Idol",
+      "classRequirement": ""
+    },
+    {
+      "id": 345,
+      "name": "Bane of Winter",
+      "desc": "Time thaws all winters",
+      "baseType": "Deicide Lance",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 346,
+      "name": "Palarus's Sacred Light",
+      "desc": "",
+      "baseType": "Broadsword",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 347,
+      "name": "The Inevitable",
+      "desc": "All timelines fade and the Harbingers flock like crows to the remains.",
+      "baseType": "Worn Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 348,
+      "name": "Phantom Grip",
+      "desc": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought.",
+      "baseType": "Copper Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 349,
+      "name": "Yrun's Penance",
+      "desc": "Like Yrun himself, the former champion's blade was imprisoned in bark and ice.",
+      "baseType": "Broadsword",
+      "category": "One-Handed Sword",
+      "classRequirement": ""
+    },
+    {
+      "id": 351,
+      "name": "Triboelectra",
+      "desc": "",
+      "baseType": "Siren Wand",
+      "category": "Wand",
+      "classRequirement": ""
+    },
+    {
+      "id": 352,
+      "name": "Plague Dragon's Tongue",
+      "desc": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power.",
+      "baseType": "Dragonslayer Glaive",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 353,
+      "name": "Nihilis",
+      "desc": "From every void, every lost moment, the will of Orobyss echoes for eternity.",
+      "baseType": "Unbound Locket",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 354,
+      "name": "Wall of Nothing",
+      "desc": "Cloaked in the void, Harbingers need fear naught.",
+      "baseType": "Gladiator Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 355,
+      "name": "Aberroth's Command",
+      "desc": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\"",
+      "baseType": "Obsidian Sceptre",
+      "category": "Sceptre",
+      "classRequirement": ""
+    },
+    {
+      "id": 356,
+      "name": "Stealth",
+      "desc": "",
+      "baseType": "Brigandine Boots",
+      "category": "Boots",
+      "classRequirement": ""
+    },
+    {
+      "id": 357,
+      "name": "Seed of Ekkidrasil",
+      "desc": "From the minds of the devoted grows the roots of the tree of nothing",
+      "baseType": "Gladiator Helmet",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 358,
+      "name": "Null Portent",
+      "desc": "Gorge on the prophecies of futures lost",
+      "baseType": "Gladiator Armor",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 359,
+      "name": "Fingers of the Phantom Mire",
+      "desc": "A drained bog seeks vengeance",
+      "baseType": "Noble Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 360,
+      "name": "Carcinization of Momentum",
+      "desc": "",
+      "baseType": "Coral Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 361,
+      "name": "Phase Point",
+      "desc": "",
+      "baseType": "Heavy Quiver",
+      "category": "Quiver",
+      "classRequirement": ""
+    },
+    {
+      "id": 362,
+      "name": "Grim Constitution",
+      "desc": "",
+      "baseType": "Kite Shield",
+      "category": "Shield",
+      "classRequirement": ""
+    },
+    {
+      "id": 363,
+      "name": "Monument of Protection",
+      "desc": "A shield dedicated to the great warrior, Arek, who gave his life to repel death from the city's walls.",
+      "baseType": "Marble Dedication",
+      "category": "One-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 364,
+      "name": "Event Horizon",
+      "desc": "All must pass beyond the brink",
+      "baseType": "Vault Crusher",
+      "category": "Two-Handed Mace",
+      "classRequirement": ""
+    },
+    {
+      "id": 365,
+      "name": "World Splitter",
+      "desc": "Sever the chains that bind reality",
+      "baseType": "Bardiche",
+      "category": "Two-Handed Axe",
+      "classRequirement": ""
+    },
+    {
+      "id": 366,
+      "name": "Flames of Midnight",
+      "desc": "",
+      "baseType": "Celestial Ring",
+      "category": "Ring",
+      "classRequirement": ""
+    },
+    {
+      "id": 367,
+      "name": "Celestial Doom",
+      "desc": "",
+      "baseType": "Abyssal Staff",
+      "category": "Two-Handed Staff",
+      "classRequirement": ""
+    },
+    {
+      "id": 368,
+      "name": "Mana Guide",
+      "desc": "",
+      "baseType": "Amber Amulet",
+      "category": "Amulet",
+      "classRequirement": ""
+    },
+    {
+      "id": 369,
+      "name": "Tolmat's Incorrect History of Eterra",
+      "desc": "Written by an esteemed historian, this book chronicles the entire history of Eterra as we understand it. Or, at least, as Sir Tolmat understood it.",
+      "baseType": "Leatherbound Tome",
+      "category": "Off-Hand Catalyst",
+      "classRequirement": ""
+    },
+    {
+      "id": 370,
+      "name": "Mantle of the Pale Ox",
+      "desc": "Fight with the strength of an ox and the wisdom of a spirit",
+      "baseType": "Forest Cuirass",
+      "category": "Body Armor",
+      "classRequirement": ""
+    },
+    {
+      "id": 371,
+      "name": "Phalanx",
+      "desc": "It was not just Liath's magic and machinery that drove the Wengari threat from Thetima's walls, but the discipline and order her generals instilled in her human soldiers.",
+      "baseType": "Pike",
+      "category": "Two-Handed Spear",
+      "classRequirement": ""
+    },
+    {
+      "id": 372,
+      "name": "Grasp of the Blood Mage",
+      "desc": "",
+      "baseType": "Ascetic Gloves",
+      "category": "Gloves",
+      "classRequirement": ""
+    },
+    {
+      "id": 373,
+      "name": "Ravager's Dart",
+      "desc": "",
+      "baseType": "Bronze Casque",
+      "category": "Helmet",
+      "classRequirement": ""
+    },
+    {
+      "id": 377,
       "name": "Gordian Prism",
       "desc": "\"What is innovation without the power to prove its worth? If you present me a solution that is outperformed by a raw expression of power then you have brought me nothing!\" -Runemaster Gordian",
-      "baseType": "",
-      "category": "",
+      "baseType": "Glass Catalyst",
+      "category": "Off-Hand Catalyst",
       "classRequirement": ""
     },
     {
+      "id": 378,
       "name": "Crystalwind",
       "desc": "The wind chimes sing within the mines",
-      "baseType": "",
-      "category": "",
+      "baseType": "Steelweave Quiver",
+      "category": "Quiver",
       "classRequirement": ""
     },
     {
+      "id": 379,
       "name": "Cocooned Short Sword",
       "desc": "",
       "baseType": "",
@@ -2332,6 +2646,7 @@
       "classRequirement": ""
     },
     {
+      "id": 380,
       "name": "Cocooned Cleaver",
       "desc": "",
       "baseType": "",
@@ -2339,6 +2654,7 @@
       "classRequirement": ""
     },
     {
+      "id": 381,
       "name": "Cocooned Club",
       "desc": "",
       "baseType": "",
@@ -2346,6 +2662,7 @@
       "classRequirement": ""
     },
     {
+      "id": 382,
       "name": "Cocooned Great Sword",
       "desc": "",
       "baseType": "",
@@ -2353,6 +2670,7 @@
       "classRequirement": ""
     },
     {
+      "id": 383,
       "name": "Cocooned Great Axe",
       "desc": "",
       "baseType": "",
@@ -2360,6 +2678,7 @@
       "classRequirement": ""
     },
     {
+      "id": 384,
       "name": "Cocooned Great Mace",
       "desc": "",
       "baseType": "",
@@ -2367,6 +2686,7 @@
       "classRequirement": ""
     },
     {
+      "id": 385,
       "name": "Cocooned Spear",
       "desc": "",
       "baseType": "",
@@ -2374,6 +2694,7 @@
       "classRequirement": ""
     },
     {
+      "id": 386,
       "name": "Cocooned Staff",
       "desc": "",
       "baseType": "",
@@ -2381,6 +2702,7 @@
       "classRequirement": ""
     },
     {
+      "id": 387,
       "name": "Cocooned Cuirass",
       "desc": "",
       "baseType": "",
@@ -2388,6 +2710,7 @@
       "classRequirement": ""
     },
     {
+      "id": 388,
       "name": "Cocooned Dagger",
       "desc": "",
       "baseType": "",
@@ -2395,6 +2718,7 @@
       "classRequirement": ""
     },
     {
+      "id": 389,
       "name": "Cocooned Sceptre",
       "desc": "",
       "baseType": "",
@@ -2402,6 +2726,7 @@
       "classRequirement": ""
     },
     {
+      "id": 390,
       "name": "Cocooned Wand",
       "desc": "",
       "baseType": "",
@@ -2409,6 +2734,7 @@
       "classRequirement": ""
     },
     {
+      "id": 391,
       "name": "Cocooned Bow",
       "desc": "",
       "baseType": "",
@@ -2416,6 +2742,7 @@
       "classRequirement": ""
     },
     {
+      "id": 392,
       "name": "Cocooned Quiver",
       "desc": "",
       "baseType": "",
@@ -2423,6 +2750,7 @@
       "classRequirement": ""
     },
     {
+      "id": 393,
       "name": "Cocooned Shield",
       "desc": "",
       "baseType": "",
@@ -2430,6 +2758,7 @@
       "classRequirement": ""
     },
     {
+      "id": 394,
       "name": "Cocooned Catalyst",
       "desc": "",
       "baseType": "",
@@ -2437,6 +2766,7 @@
       "classRequirement": ""
     },
     {
+      "id": 395,
       "name": "Cocooned Relic",
       "desc": "",
       "baseType": "",
@@ -2444,6 +2774,7 @@
       "classRequirement": ""
     },
     {
+      "id": 396,
       "name": "Cocooned Ring",
       "desc": "",
       "baseType": "",
@@ -2451,6 +2782,7 @@
       "classRequirement": ""
     },
     {
+      "id": 397,
       "name": "Cocooned Amulet",
       "desc": "",
       "baseType": "",
@@ -2458,6 +2790,7 @@
       "classRequirement": ""
     },
     {
+      "id": 398,
       "name": "Cocooned Gloves",
       "desc": "",
       "baseType": "",
@@ -2465,6 +2798,7 @@
       "classRequirement": ""
     },
     {
+      "id": 399,
       "name": "Cocooned Belt",
       "desc": "",
       "baseType": "",
@@ -2472,6 +2806,7 @@
       "classRequirement": ""
     },
     {
+      "id": 400,
       "name": "Cocooned Boots",
       "desc": "",
       "baseType": "",
@@ -2479,6 +2814,7 @@
       "classRequirement": ""
     },
     {
+      "id": 401,
       "name": "Cocooned Helmet",
       "desc": "",
       "baseType": "",
@@ -2486,339 +2822,387 @@
       "classRequirement": ""
     },
     {
+      "id": 402,
       "name": "Elecoe's Innovation",
       "desc": "Elecoe discovered that with the right ingredients potions could be imbued with the luck of the brewer.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Spidersilk Sash",
+      "category": "Belt",
       "classRequirement": ""
     },
     {
+      "id": 403,
       "name": "Soul of the Mountain",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
+      "baseType": "Living Seed",
+      "category": "Relic",
+      "classRequirement": "Primalist"
     },
     {
+      "id": 404,
       "name": "Orian's Descent",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Plated Belt",
+      "category": "Belt",
       "classRequirement": ""
     },
     {
+      "id": 405,
       "name": "Orb Weaver's Fang",
       "desc": "\"You are the blade that will cut the imperfections from the Weaver's web.\" - Masque, the Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
+      "baseType": "Split Greatsword",
+      "category": "Two-Handed Sword",
       "classRequirement": ""
     },
     {
+      "id": 406,
       "name": "Nest of Nightmares",
       "desc": "\"I was surrounded by golden silk, curious creatures, and Her words filling my very soul.\" - Masque, the Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
+      "baseType": "Doom Star",
+      "category": "One-Handed Mace",
       "classRequirement": ""
     },
     {
+      "id": 407,
       "name": "Essence Weaver",
       "desc": "\"Imagine a world free of pain, chaos, and sorrow. A world free of corruption. A perfect world!\" - Masque, the Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
+      "baseType": "Obsidian Lance",
+      "category": "Two-Handed Spear",
       "classRequirement": ""
     },
     {
+      "id": 408,
       "name": "Weaver's Gift",
       "desc": "\"The Weaver is the greatest artist of all, to grace Her domain is a blessing.\" - Masque, the Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
+      "baseType": "Longsword",
+      "category": "One-Handed Sword",
       "classRequirement": ""
     },
     {
+      "id": 409,
       "name": "Inheritance of the Erased",
       "desc": "\"Our tears for them will be dew upon perfect golden silk.\" - Masque, the Acolyte of Golden Silk",
-      "baseType": "",
-      "category": "",
+      "baseType": "Oracle Amulet",
+      "category": "Amulet",
       "classRequirement": ""
     },
     {
+      "id": 410,
       "name": "Unearthed Memories",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
+      "baseType": "Defiled Bones",
+      "category": "Relic",
+      "classRequirement": "Acolyte"
     },
     {
+      "id": 411,
       "name": "Countenance of Majasa",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Ironglass Shield",
+      "category": "Shield",
       "classRequirement": ""
     },
     {
+      "id": 412,
       "name": "Dominance of the Tundra",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Iron Casque",
+      "category": "Helmet",
       "classRequirement": ""
     },
     {
+      "id": 413,
       "name": "Shattered Worlds",
       "desc": "The unrestrained power of countless shattered timelines, condensed into a vortex of possibility",
-      "baseType": "",
-      "category": "",
+      "baseType": "Void Star",
+      "category": "Relic",
       "classRequirement": ""
     },
     {
+      "id": 414,
       "name": "Downfall of the Righteous",
       "desc": "They told me not to do it, now I know why",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
+      "baseType": "Cursed Bones",
+      "category": "Relic",
+      "classRequirement": "Acolyte"
     },
     {
+      "id": 415,
       "name": "Immortal Vise",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Eternal Gauntlets",
+      "category": "Gloves",
       "classRequirement": ""
     },
     {
+      "id": 416,
       "name": "Brewmaster's Buckle",
       "desc": "They say beer makes you bold\nI say it makes you unbreakable",
-      "baseType": "",
-      "category": "",
+      "baseType": "Coinmail Belt",
+      "category": "Belt",
       "classRequirement": ""
     },
     {
+      "id": 417,
       "name": "Clotho's Needle",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Giant Rapier",
+      "category": "Two-Handed Sword",
       "classRequirement": ""
     },
     {
+      "id": 418,
       "name": "Scissor of Atropos",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Falchion",
+      "category": "One-Handed Sword",
       "classRequirement": ""
     },
     {
+      "id": 419,
       "name": "Blight of Lachesis",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Temple Staff",
+      "category": "Two-Handed Staff",
       "classRequirement": ""
     },
     {
+      "id": 420,
       "name": "Executioner's Tithe",
       "desc": "The Immortal Empire conquered death and brought freedom to humanity. Yet in that freedom, there remained one inevitable certainty... the tax claimed from their very souls.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Soul Harvester",
+      "category": "One-Handed Axe",
       "classRequirement": ""
     },
     {
+      "id": 421,
       "name": "The Land Before",
       "desc": "Before the falling of the temple and the strife of gods, there was peace between the osprix, the wengari, the meruna, and the nagasa.",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
+      "baseType": "Adorned Heorot Idol",
+      "category": "Adorned Idol",
+      "classRequirement": "Primalist"
     },
     {
+      "id": 422,
       "name": "Lightning in a Bottle",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Noble Sash",
+      "category": "Belt",
       "classRequirement": ""
     },
     {
+      "id": 423,
       "name": "Legends Entwined",
       "desc": "All stories grow from the same roots",
-      "baseType": "",
-      "category": "",
+      "baseType": "Opal Ring",
+      "category": "Ring",
       "classRequirement": ""
     },
     {
+      "id": 424,
       "name": "Tyrant's Skull",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Ancient Remains",
+      "category": "Relic",
       "classRequirement": ""
     },
     {
+      "id": 425,
       "name": "Wildfire Embers",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Amber Amulet",
+      "category": "Amulet",
       "classRequirement": ""
     },
     {
+      "id": 426,
       "name": "Thicket of Blinding Light",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Forest Cuirass",
+      "category": "Body Armor",
       "classRequirement": ""
     },
     {
+      "id": 427,
       "name": "Harmony of the First",
       "desc": "The first of osprix, wengari, meruna, and nagasa were united in purpose, under the guidance of the gods and Eterra above them.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Impaler",
+      "category": "Two-Handed Spear",
       "classRequirement": ""
     },
     {
+      "id": 428,
       "name": "Onslaught of Cerata",
       "desc": "Impale upon the horns of primordial might",
-      "baseType": "",
-      "category": "",
+      "baseType": "Mountain Shield",
+      "category": "Shield",
       "classRequirement": ""
     },
     {
+      "id": 429,
       "name": "Blossom of Immortal Stone",
       "desc": "Three petals unwithered by time",
-      "baseType": "",
-      "category": "",
+      "baseType": "Stone Amulet",
+      "category": "Amulet",
       "classRequirement": ""
     },
     {
+      "id": 430,
       "name": "Chorus of the Anurok",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
+      "baseType": "Ancestral Crown",
+      "category": "Helmet",
+      "classRequirement": "Primalist"
     },
     {
+      "id": 431,
       "name": "Carrion of Creation",
       "desc": "\"From blood all is brought forth, and to blood all shall return.\" - Ullur Sandhoof, first neophyte of the Coagulated Titan.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Eternal Gauntlets",
+      "category": "Gloves",
       "classRequirement": ""
     },
     {
+      "id": 432,
       "name": "Horn of the Bone Wisp",
       "desc": "Wisps once took physical form upon the shifting surface of Eterra",
-      "baseType": "",
-      "category": "",
+      "baseType": "Ivory Wand",
+      "category": "Wand",
       "classRequirement": ""
     },
     {
+      "id": 433,
       "name": "Reliquary Nest",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Ancient Remains",
+      "category": "Relic",
       "classRequirement": ""
     },
     {
+      "id": 434,
       "name": "Mask of Indifference",
       "desc": "A visage unweathered by even time itself",
-      "baseType": "",
-      "category": "",
+      "baseType": "Forest Helmet",
+      "category": "Helmet",
       "classRequirement": ""
     },
     {
+      "id": 435,
       "name": "Permanence of Primal Knowledge",
       "desc": "The vines grow with strange symbols, the meaning of which has long been lost to time.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Ascetic Gloves",
+      "category": "Gloves",
       "classRequirement": ""
     },
     {
+      "id": 436,
       "name": "Wings of Discord",
       "desc": "Osprix elders used to tell of the Quetzal Dragons, resplendant with wings of mismatched feathers, who were never seen to roost in the same place twice. The elders speculated that having visited every peak and forest in Eterra, they traveled far over the sea in search of new lands.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Banded Armor",
+      "category": "Body Armor",
       "classRequirement": ""
     },
     {
+      "id": 437,
       "name": "Primal Cadence",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Obsidian Axe",
+      "category": "Two-Handed Axe",
       "classRequirement": ""
     },
     {
+      "id": 438,
       "name": "Whetstone Gavel",
       "desc": "All is judged according to its creation",
-      "baseType": "",
-      "category": "",
+      "baseType": "Rune Hammer",
+      "category": "One-Handed Mace",
       "classRequirement": ""
     },
     {
+      "id": 439,
       "name": "Truesight Glass",
       "desc": "Looking through the right glass can reveal the weaknesses of a foe, the gaps in its armor drawing the eye like resplendant orbs of gold.",
-      "baseType": "",
-      "category": "",
+      "baseType": "Oracle Amulet",
+      "category": "Amulet",
       "classRequirement": ""
     },
     {
+      "id": 440,
       "name": "Bluefeather Band",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Celestial Ring",
+      "category": "Ring",
       "classRequirement": ""
     },
     {
+      "id": 441,
       "name": "Hydra Arc",
       "desc": "",
-      "baseType": "",
-      "category": "",
-      "classRequirement": ""
+      "baseType": "Serpent Bow",
+      "category": "Bow",
+      "classRequirement": "Rogue"
     },
     {
+      "id": 442,
       "name": "Velocyn's Jaw",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Chitin Dagger",
+      "category": "Dagger",
       "classRequirement": ""
     },
     {
+      "id": 443,
       "name": "Army of Skin",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Shrine Boots",
+      "category": "Boots",
       "classRequirement": ""
     },
     {
+      "id": 444,
       "name": "Evolution's End",
       "desc": "A fossil of a lineage forged in time",
-      "baseType": "",
-      "category": "",
+      "baseType": "Fossil Amulet",
+      "category": "Amulet",
       "classRequirement": ""
     },
     {
+      "id": 445,
       "name": "Spirit Xylem",
       "desc": "The crystal wood inside carries spirits to their rightful destination",
-      "baseType": "",
-      "category": "",
+      "baseType": "Crystal Staff",
+      "category": "Two-Handed Staff",
       "classRequirement": ""
     },
     {
+      "id": 446,
       "name": "Fangs of the Berserker",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Nomad Belt",
+      "category": "Belt",
       "classRequirement": ""
     },
     {
+      "id": 447,
       "name": "Bones of the Ancestral Pack",
       "desc": "Ghosts lay the tracks of the living",
-      "baseType": "",
-      "category": "",
+      "baseType": "Divine Instrument",
+      "category": "Off-Hand Catalyst",
       "classRequirement": ""
     },
     {
+      "id": 448,
       "name": "Architects of Astral Blood",
       "desc": "The noblest of ancient beasts wore their hearts in the sky",
-      "baseType": "",
-      "category": "",
+      "baseType": "Banded Armor",
+      "category": "Body Armor",
       "classRequirement": ""
     },
     {
+      "id": 449,
       "name": "The Butcher's Crown",
       "desc": "",
-      "baseType": "",
-      "category": "",
+      "baseType": "Gladiator Helmet",
+      "category": "Helmet",
       "classRequirement": ""
     }
   ]

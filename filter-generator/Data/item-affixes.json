@@ -2,6 +2,7 @@
   "affixes": [
     {
       "name": "Void Penetration",
+      "id": 0,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -29,7 +30,302 @@
       "name": "Increased Armor"
     },
     {
+      "name": "Added Dodge Rating"
+    },
+    {
+      "name": "Added Health"
+    },
+    {
+      "name": "Added Armor"
+    },
+    {
+      "name": "Spell Damage"
+    },
+    {
+      "name": "Increased Health"
+    },
+    {
+      "name": "Increased Dodge Rating"
+    },
+    {
+      "name": "Damage Over TIme"
+    },
+    {
+      "name": "Extra Potion Slot and Potion Health"
+    },
+    {
+      "name": "Percent Damage Reflected"
+    },
+    {
+      "name": "Damage while Channeling"
+    },
+    {
+      "name": "All Resistances while Channeling"
+    },
+    {
+      "name": "Increased Mana"
+    },
+    {
+      "name": "Armor and Minion Armor"
+    },
+    {
+      "name": "Shared Lightning Damage"
+    },
+    {
+      "name": "Cold Penetration with Frostbite"
+    },
+    {
+      "name": "Shared Cold Damage"
+    },
+    {
+      "name": "Cast Speed for Totems"
+    },
+    {
+      "name": "Increased Aspect of the Shark effect"
+    },
+    {
+      "name": "Increased Aspect of the Boar duration"
+    },
+    {
+      "name": "Increased Aspct of the Lynx Effect"
+    },
+    {
+      "name": "Totem Damage"
+    },
+    {
+      "name": "Increased Physical Damage and Bleed Duration"
+    },
+    {
+      "name": "Increased Fire Damage and Ignite Duration"
+    },
+    {
+      "name": "Fire Damage Over Time"
+    },
+    {
+      "name": "Spell Damage while Channeling"
+    },
+    {
+      "name": "Spell Damage Leeched as Health while Channeling"
+    },
+    {
+      "name": "Chance to Apply Frostbite On Hit With Cold Skills"
+    },
+    {
+      "name": "Cold Damage Over Time"
+    },
+    {
+      "name": "Fire Damage Over Time"
+    },
+    {
+      "name": "Melee Elemental Damage"
+    },
+    {
+      "name": "Chance to Ignite on Fire Hit"
+    },
+    {
+      "name": "Chance to Cast Fire Aura on Critical Strike (1 second cooldown)"
+    },
+    {
+      "name": "Increased Fire Aura Damage"
+    },
+    {
+      "name": "Chance to Gain Lightning Aegis when Hit"
+    },
+    {
+      "name": "Chance To Cast Fire Aura On Kill Fire Skills (1 second cooldown)"
+    },
+    {
+      "name": "Chance to apply a Spark Charge on Melee Hit"
+    },
+    {
+      "name": "Mana Spent Gained as Ward"
+    },
+    {
+      "name": "Shared increased Bleed Duration"
+    },
+    {
+      "name": "Shared Physical Penetration with Bleed"
+    },
+    {
+      "name": "Poison Damage and Poison Resistance"
+    },
+    {
+      "name": "Chance to Gain 20 Ward on Kill with Hungering Souls"
+    },
+    {
+      "name": "Increased Critical Strike Chance For You and Your Minions"
+    },
+    {
+      "name": "Increased Projectile Speed With Marrow Shards And Bone Nova"
+    },
+    {
+      "name": "Increased Damage With Rip Blood And Blood Splatter"
+    },
+    {
+      "name": "Chance to apply Damned on Hit"
+    },
+    {
+      "name": "Reduced Health Cost of Spells"
+    },
+    {
+      "name": "Physical Spell Critical Strike Chance"
+    },
+    {
+      "name": "Ward Gained when you create a shadow"
+    },
+    {
+      "name": "Increased Damage of Skills use by Shadows"
+    },
+    {
+      "name": "Dodge Rating if Hit Recently"
+    },
+    {
+      "name": "Increased Critical Strike Chance per Equipped Sword"
+    },
+    {
+      "name": "Increased Critical Strike Chance per Equipped Dagger"
+    },
+    {
+      "name": "Bleed Chance per equipped sword"
+    },
+    {
+      "name": "Poison Chance per Equipped Dagger"
+    },
+    {
+      "name": "Increased Damage while wielding a Sword"
+    },
+    {
+      "name": "Increased Damage while wielding a Dagger"
+    },
+    {
+      "name": "Increased Damage while wielding a Bow"
+    },
+    {
+      "name": "Fire Penetration with Ignite"
+    },
+    {
+      "name": "Increased Poison Damage"
+    },
+    {
+      "name": "Throwing Physical Damage"
+    },
+    {
+      "name": "Chance to Shred Armor on Throwing hit"
+    },
+    {
+      "name": "Chance to Shred Armor on Melee Hit"
+    },
+    {
+      "name": "Chance to Shred Armor on Bow Hit"
+    },
+    {
+      "name": "Increased Armor Shred Effect"
+    },
+    {
+      "name": "Increased Armor Shred Duration"
+    },
+    {
+      "name": "Chance to Ignite on Bow Hit"
+    },
+    {
+      "name": "Chance to Slow on Bow Hit"
+    },
+    {
+      "name": "Physical Penetration with Shadow Daggers"
+    },
+    {
+      "name": "Bow Elemental Damage"
+    },
+    {
+      "name": "Chance to Inflict Bleed On Bow Hit"
+    },
+    {
+      "name": "Increased Area with Cinder Strike's First Strike"
+    },
+    {
+      "name": "Increased crit chance with Flurry"
+    },
+    {
+      "name": "Physical Penetration with Puncture"
+    },
+    {
+      "name": "Vitality"
+    },
+    {
+      "name": "Increased Area with Detonating Arrow"
+    },
+    {
+      "name": "Increased Damage per arrow with Multishot"
+    },
+    {
+      "name": "Increased Damage per active Shadow with Shadow Cascade"
+    },
+    {
+      "name": "Chance to Inflict Bleed on Hit with Shurikens"
+    },
+    {
+      "name": "Lightning Damage with Shurikens"
+    },
+    {
+      "name": "Increased Area with Acid Flask"
+    },
+    {
+      "name": "Increased Area with Dancing Strikes"
+    },
+    {
+      "name": "Mana efficiency with Synchronized Strike"
+    },
+    {
+      "name": "Mana efficiency with Decoy"
+    },
+    {
+      "name": "Ward gained on use with Smoke Bomb"
+    },
+    {
+      "name": "Ward gained on use with Shift"
+    },
+    {
+      "name": "Black Arrows dropped by Dark Quiver and Increased Bow Damage"
+    },
+    {
+      "name": "Level of Infernal Strike"
+    },
+    {
+      "name": "Level of Ring of Shields"
+    },
+    {
+      "name": "Level of Arcane Ascendence"
+    },
+    {
+      "name": "Endurance while Channeling Warpath"
+    },
+    {
+      "name": "Ward per Second for you or your allies while standing on your Glyph of Dominion"
+    },
+    {
+      "name": "of the Timelost Outcast"
+    },
+    {
+      "name": "of the Last Hermit"
+    },
+    {
+      "name": "Andinal's"
+    },
+    {
+      "name": "Experimental Ward on Potion use"
+    },
+    {
+      "name": "Experimental Mana on Potion use"
+    },
+    {
+      "name": "Chancve to Electrify with Lightning Skills"
+    },
+    {
+      "name": "Zerrick's Amibition Reforged"
+    },
+    {
       "name": "Melee Attack Speed",
+      "id": 2,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -55,6 +351,7 @@
     },
     {
       "name": "Block Chance",
+      "id": 3,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -80,6 +377,7 @@
     },
     {
       "name": "Cast Speed",
+      "id": 4,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -105,6 +403,7 @@
     },
     {
       "name": "Critical Strike Chance",
+      "id": 5,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -116,6 +415,7 @@
     },
     {
       "name": "Critical Strike Multiplier",
+      "id": 6,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -141,6 +441,7 @@
     },
     {
       "name": "Void Resistance",
+      "id": 7,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -165,10 +466,8 @@
       }
     },
     {
-      "name": "Added Dodge Rating"
-    },
-    {
       "name": "Elemental Damage",
+      "id": 9,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -194,6 +493,7 @@
     },
     {
       "name": "Necrotic Resistance",
+      "id": 10,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -219,6 +519,7 @@
     },
     {
       "name": "Freeze Rate Multiplier",
+      "id": 11,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -244,6 +545,7 @@
     },
     {
       "name": "Fire Damage",
+      "id": 12,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -269,6 +571,7 @@
     },
     {
       "name": "Fire Resistance",
+      "id": 13,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -280,6 +583,7 @@
     },
     {
       "name": "Freeze Rate Multiplier and Cold Resistance",
+      "id": 14,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -315,6 +619,7 @@
     },
     {
       "name": "Void Damage",
+      "id": 15,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -340,6 +645,7 @@
     },
     {
       "name": "Cold Damage",
+      "id": 16,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -365,6 +671,7 @@
     },
     {
       "name": "Cold Resistance",
+      "id": 17,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -390,6 +697,7 @@
     },
     {
       "name": "Necrotic Damage",
+      "id": 18,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -415,6 +723,7 @@
     },
     {
       "name": "Poison Resistance",
+      "id": 19,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -440,6 +749,7 @@
     },
     {
       "name": "Health On Kill",
+      "id": 20,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -465,6 +775,7 @@
     },
     {
       "name": "Spell Damage with Tempest Strike",
+      "id": 21,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -490,6 +801,7 @@
     },
     {
       "name": "Health Regeneration",
+      "id": 22,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -515,6 +827,7 @@
     },
     {
       "name": "Lightning Damage",
+      "id": 23,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -540,6 +853,7 @@
     },
     {
       "name": "Lightning Resistance",
+      "id": 24,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -550,10 +864,8 @@
       }
     },
     {
-      "name": "Added Health"
-    },
-    {
       "name": "Increased Cooldown Recovery Speed",
+      "id": 27,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -579,6 +891,7 @@
     },
     {
       "name": "Movement Speed",
+      "id": 28,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -604,6 +917,7 @@
     },
     {
       "name": "Health and Stun Avoidance",
+      "id": 29,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -639,6 +953,7 @@
     },
     {
       "name": "Physical Damage",
+      "id": 30,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -663,10 +978,8 @@
       }
     },
     {
-      "name": "Added Armor"
-    },
-    {
       "name": "Fire Penetration",
+      "id": 32,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -692,6 +1005,7 @@
     },
     {
       "name": "Physical Penetration",
+      "id": 33,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -717,6 +1031,7 @@
     },
     {
       "name": "Mana",
+      "id": 34,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -742,6 +1057,7 @@
     },
     {
       "name": "Cold Penetration",
+      "id": 35,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -767,6 +1083,7 @@
     },
     {
       "name": "Hybrid Health",
+      "id": 36,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -800,6 +1117,7 @@
     },
     {
       "name": "Poison Penetration",
+      "id": 37,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -825,6 +1143,7 @@
     },
     {
       "name": "Spell Damage",
+      "id": 38,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -850,6 +1169,7 @@
     },
     {
       "name": "Lightning Penetration",
+      "id": 39,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -875,6 +1195,7 @@
     },
     {
       "name": "Increased Leech Rate",
+      "id": 40,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -900,6 +1221,7 @@
     },
     {
       "name": "Health Gained on Block",
+      "id": 41,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -925,6 +1247,7 @@
     },
     {
       "name": "Lightning Damage And Leech",
+      "id": 42,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -960,6 +1283,7 @@
     },
     {
       "name": "Increased Healing Effectiveness",
+      "id": 43,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -985,6 +1309,7 @@
     },
     {
       "name": "Health On Melee Hit",
+      "id": 44,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1010,6 +1335,7 @@
     },
     {
       "name": "Physical Resistance",
+      "id": 45,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1021,6 +1347,7 @@
     },
     {
       "name": "All Resistances",
+      "id": 46,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1046,6 +1373,7 @@
     },
     {
       "name": "Chance to Chill Attackers",
+      "id": 47,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1071,6 +1399,7 @@
     },
     {
       "name": "Chance to Slow Attackers",
+      "id": 48,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1095,10 +1424,8 @@
       }
     },
     {
-      "name": "Spell Damage"
-    },
-    {
       "name": "All Attributes",
+      "id": 50,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1124,6 +1451,7 @@
     },
     {
       "name": "Stun Avoidance",
+      "id": 51,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1148,10 +1476,8 @@
       }
     },
     {
-      "name": "Increased Health"
-    },
-    {
       "name": "Damage Dealt to Mana Before Health",
+      "id": 53,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1177,6 +1503,7 @@
     },
     {
       "name": "Chance to Poison on Hit",
+      "id": 54,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1202,6 +1529,7 @@
     },
     {
       "name": "Chance to Ignite on Hit",
+      "id": 55,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1227,6 +1555,7 @@
     },
     {
       "name": "Chance to Chill on Hit",
+      "id": 56,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1252,6 +1581,7 @@
     },
     {
       "name": "Chance to Slow on Hit",
+      "id": 57,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1277,6 +1607,7 @@
     },
     {
       "name": "Increased Stun Chance",
+      "id": 58,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1301,10 +1632,8 @@
       }
     },
     {
-      "name": "Increased Dodge Rating"
-    },
-    {
       "name": "Chance to Blind on Hit",
+      "id": 60,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1330,6 +1659,7 @@
     },
     {
       "name": "Poison Damage",
+      "id": 61,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1355,6 +1685,7 @@
     },
     {
       "name": "Melee Critical Strike Chance",
+      "id": 62,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1380,6 +1711,7 @@
     },
     {
       "name": "Melee Physical Damage",
+      "id": 63,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1405,6 +1737,7 @@
     },
     {
       "name": "Increased Chance to Find Potions",
+      "id": 65,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1430,6 +1763,7 @@
     },
     {
       "name": "Ward Gained on Potion Use",
+      "id": 66,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1455,6 +1789,7 @@
     },
     {
       "name": "Freeze Rate and Freezing Concoction on Potion Use",
+      "id": 67,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1490,6 +1825,7 @@
     },
     {
       "name": "Chance to Inflict Bleed On Hit",
+      "id": 68,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1515,6 +1851,7 @@
     },
     {
       "name": "Melee Damage Leeched as Health",
+      "id": 69,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1539,10 +1876,8 @@
       }
     },
     {
-      "name": "Damage Over TIme"
-    },
-    {
       "name": "Damage Taken on Block",
+      "id": 74,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1568,6 +1903,7 @@
     },
     {
       "name": "Ward and Ailment Cleansing on Potion Use",
+      "id": 75,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1603,6 +1939,7 @@
     },
     {
       "name": "Melee Void Damage",
+      "id": 76,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1614,6 +1951,7 @@
     },
     {
       "name": "Melee Fire Damage",
+      "id": 77,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1625,6 +1963,7 @@
     },
     {
       "name": "Melee Cold Damage",
+      "id": 78,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1636,6 +1975,7 @@
     },
     {
       "name": "Melee Lightning Damage",
+      "id": 79,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1647,6 +1987,7 @@
     },
     {
       "name": "Elemental Resistance",
+      "id": 80,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1672,6 +2013,7 @@
     },
     {
       "name": "Block Effectiveness",
+      "id": 81,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1682,10 +2024,8 @@
       }
     },
     {
-      "name": "Extra Potion Slot and Potion Health"
-    },
-    {
       "name": "Potion Health Converted to Ward",
+      "id": 83,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1711,6 +2051,7 @@
     },
     {
       "name": "Spell Critical Strike Chance",
+      "id": 84,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1736,6 +2077,7 @@
     },
     {
       "name": "Chance to Shock on Hit",
+      "id": 85,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1761,6 +2103,7 @@
     },
     {
       "name": "Chance to Shred Armor on Hit",
+      "id": 86,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1786,6 +2129,7 @@
     },
     {
       "name": "Throwing Attack Speed",
+      "id": 87,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1811,6 +2155,7 @@
     },
     {
       "name": "Throwing Damage",
+      "id": 88,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -1822,6 +2167,7 @@
     },
     {
       "name": "Melee Damage",
+      "id": 89,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1847,6 +2193,7 @@
     },
     {
       "name": "Health Regen per Second",
+      "id": 90,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1872,6 +2219,7 @@
     },
     {
       "name": "Increased Stun Chance with Melee Attacks",
+      "id": 91,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1897,6 +2245,7 @@
     },
     {
       "name": "Endurance",
+      "id": 92,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1922,6 +2271,7 @@
     },
     {
       "name": "Necrotic Penetration",
+      "id": 93,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1947,6 +2297,7 @@
     },
     {
       "name": "Chance to Shock Attackers",
+      "id": 94,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1972,6 +2323,7 @@
     },
     {
       "name": "Damage Reflected to Attackers",
+      "id": 95,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -1996,10 +2348,8 @@
       }
     },
     {
-      "name": "Percent Damage Reflected"
-    },
-    {
       "name": "Critical Strike Avoidance and Added Dodge Rating",
+      "id": 97,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2035,6 +2385,7 @@
     },
     {
       "name": "Ward Gained on Kill",
+      "id": 99,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2060,6 +2411,7 @@
     },
     {
       "name": "Elemental Damage Over Time",
+      "id": 100,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2085,6 +2437,7 @@
     },
     {
       "name": "Increased Area for Area Skills",
+      "id": 101,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2109,13 +2462,8 @@
       }
     },
     {
-      "name": "Damage while Channeling"
-    },
-    {
-      "name": "All Resistances while Channeling"
-    },
-    {
       "name": "Health",
+      "id": 105,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2141,6 +2489,7 @@
     },
     {
       "name": "Health on Kill",
+      "id": 106,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2152,6 +2501,7 @@
     },
     {
       "name": "Armor",
+      "id": 110,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2177,6 +2527,7 @@
     },
     {
       "name": "Dodge Rating",
+      "id": 118,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2202,6 +2553,7 @@
     },
     {
       "name": "Damage Over Time",
+      "id": 119,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2213,6 +2565,7 @@
     },
     {
       "name": "Chance to Gain 30 Ward when Hit",
+      "id": 120,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2224,6 +2577,7 @@
     },
     {
       "name": "Ward On Potion Use",
+      "id": 122,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2235,6 +2589,7 @@
     },
     {
       "name": "Vitality",
+      "id": 124,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2260,6 +2615,7 @@
     },
     {
       "name": "Elemental Resistance While Transformed",
+      "id": 125,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2271,6 +2627,7 @@
     },
     {
       "name": "Chance to Inflict Bleed On Cold Hit",
+      "id": 126,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2282,6 +2639,7 @@
     },
     {
       "name": "Fire Damage Over Time",
+      "id": 127,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2293,6 +2651,7 @@
     },
     {
       "name": "Increased Bleed Duration",
+      "id": 128,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2304,6 +2663,7 @@
     },
     {
       "name": "Mana And Armor",
+      "id": 129,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2318,6 +2678,7 @@
     },
     {
       "name": "Totem Health",
+      "id": 130,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2329,6 +2690,7 @@
     },
     {
       "name": "Totem Armor",
+      "id": 131,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2340,6 +2702,7 @@
     },
     {
       "name": "Health Regen While Transformed",
+      "id": 132,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2351,6 +2714,7 @@
     },
     {
       "name": "Totem Elemental Resistance",
+      "id": 133,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2362,6 +2726,7 @@
     },
     {
       "name": "Ward Retention",
+      "id": 142,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2373,6 +2738,7 @@
     },
     {
       "name": "Increased Stun Duration",
+      "id": 143,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2384,6 +2750,7 @@
     },
     {
       "name": "Cast Speed for Totems",
+      "id": 144,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2409,6 +2776,7 @@
     },
     {
       "name": "Melee Damage while Transformed",
+      "id": 156,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2420,6 +2788,7 @@
     },
     {
       "name": "Spell Damage while Transformed",
+      "id": 157,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2431,6 +2800,7 @@
     },
     {
       "name": "Damage Over Time while Transformed",
+      "id": 158,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2442,6 +2812,7 @@
     },
     {
       "name": "Critical Strike Multiplier while Transformed",
+      "id": 159,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2453,6 +2824,7 @@
     },
     {
       "name": "Chance to apply Frostbite on Hit with Cold Skills",
+      "id": 163,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2464,6 +2836,7 @@
     },
     {
       "name": "Chance To Apply Frostbite With Cold Skills",
+      "id": 166,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2475,6 +2848,7 @@
     },
     {
       "name": "Ignite And Spreading Flames Duration",
+      "id": 167,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2489,6 +2863,7 @@
     },
     {
       "name": "Cold and Lightning Damage",
+      "id": 169,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2503,6 +2878,7 @@
     },
     {
       "name": "Frostbite Duration",
+      "id": 174,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2514,6 +2890,7 @@
     },
     {
       "name": "Chance to Gain 20 Ward on Melee Hit",
+      "id": 175,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2525,6 +2902,7 @@
     },
     {
       "name": "Cold Damage Over Time",
+      "id": 176,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2536,6 +2914,7 @@
     },
     {
       "name": "Ward Per Second",
+      "id": 178,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2547,6 +2926,7 @@
     },
     {
       "name": "Melee Elemental Damage",
+      "id": 179,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2572,6 +2952,7 @@
     },
     {
       "name": "Chance to Ignite on Fire Hit",
+      "id": 180,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2597,6 +2978,7 @@
     },
     {
       "name": "Chance To Shock With Lightning Skills",
+      "id": 181,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2608,6 +2990,7 @@
     },
     {
       "name": "Fire Penetration with Ignite",
+      "id": 182,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2633,6 +3016,7 @@
     },
     {
       "name": "Cold Penetration with Frostbite",
+      "id": 183,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2658,6 +3042,7 @@
     },
     {
       "name": "Increased Shock Duration",
+      "id": 184,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2669,6 +3054,7 @@
     },
     {
       "name": "Critical Strike Chance With Lightning Skills",
+      "id": 185,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2680,6 +3066,7 @@
     },
     {
       "name": "Spell Fire Damage",
+      "id": 189,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2691,6 +3078,7 @@
     },
     {
       "name": "Spell Lightning Damage",
+      "id": 190,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2702,6 +3090,7 @@
     },
     {
       "name": "Spell Cold Damage",
+      "id": 191,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2713,6 +3102,7 @@
     },
     {
       "name": "+1 Skeleton and Increased Skeleton Damage",
+      "id": 192,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -2748,6 +3138,7 @@
     },
     {
       "name": "Physical Damage Over Time",
+      "id": 193,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2759,6 +3150,7 @@
     },
     {
       "name": "Chance To Blind With Spells",
+      "id": 194,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2770,6 +3162,7 @@
     },
     {
       "name": "Mana Efficiency With Void Spells",
+      "id": 195,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2781,6 +3174,7 @@
     },
     {
       "name": "Throwing Attack Critical Strike Multiplier",
+      "id": 199,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2792,6 +3186,7 @@
     },
     {
       "name": "Increased Stun Chance With Throwing Attacks",
+      "id": 200,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2803,6 +3198,7 @@
     },
     {
       "name": "Increased Time Rot Duration",
+      "id": 201,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2814,6 +3210,7 @@
     },
     {
       "name": "Fire Damage Taken as Physical",
+      "id": 202,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2825,6 +3222,7 @@
     },
     {
       "name": "Lightning Damage Taken as Physical",
+      "id": 203,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2836,6 +3234,7 @@
     },
     {
       "name": "Cold Damage Taken as Physical",
+      "id": 204,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2847,6 +3246,7 @@
     },
     {
       "name": "Fire Penetration With Melee Attacks",
+      "id": 205,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2858,6 +3258,7 @@
     },
     {
       "name": "Chance To Shred Armor on Hit With Fire Skills",
+      "id": 206,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2869,6 +3270,7 @@
     },
     {
       "name": "Chance To Slow With Void Skills",
+      "id": 207,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2880,6 +3282,7 @@
     },
     {
       "name": "Chance to Inflict Bleed while at High Health",
+      "id": 208,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2891,6 +3294,7 @@
     },
     {
       "name": "Chance To Ignite While At High Health",
+      "id": 209,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2902,6 +3306,7 @@
     },
     {
       "name": "Chance To Shred Armor on Melee Hit",
+      "id": 211,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2913,6 +3318,7 @@
     },
     {
       "name": "Chance To Shred Armor on Hit with Throwing Attacks",
+      "id": 212,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2924,6 +3330,7 @@
     },
     {
       "name": "Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy",
+      "id": 214,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2935,6 +3342,7 @@
     },
     {
       "name": "Bees Per 10 Seconds",
+      "id": 216,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2946,6 +3354,7 @@
     },
     {
       "name": "Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana",
+      "id": 217,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2957,6 +3366,7 @@
     },
     {
       "name": "Mana Gained When Transforming Back To Human Form",
+      "id": 219,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2968,6 +3378,7 @@
     },
     {
       "name": "Increased Frequency of expending Storm Stacks",
+      "id": 220,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2979,6 +3390,7 @@
     },
     {
       "name": "Chance to cast Maelstrom every 3 seconds",
+      "id": 221,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -2990,6 +3402,7 @@
     },
     {
       "name": "Chance to cast Healing Nova when hit",
+      "id": 222,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3001,6 +3414,7 @@
     },
     {
       "name": "Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack",
+      "id": 223,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3012,6 +3426,7 @@
     },
     {
       "name": "Increased Aspect of the Shark Effect",
+      "id": 226,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3023,6 +3438,7 @@
     },
     {
       "name": "Increased Aspect of the Shark Duration",
+      "id": 227,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3034,6 +3450,7 @@
     },
     {
       "name": "Increased Aspect of the Boar Effect",
+      "id": 228,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3045,6 +3462,7 @@
     },
     {
       "name": "Increased Aspect of the Boar Duration",
+      "id": 229,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3070,6 +3488,7 @@
     },
     {
       "name": "Increased Aspect of the Viper Duration",
+      "id": 231,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3081,6 +3500,7 @@
     },
     {
       "name": "Increased Aspect of the Lynx Effect",
+      "id": 232,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3106,6 +3526,7 @@
     },
     {
       "name": "Increased Aspect of the Lynx Duration",
+      "id": 233,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3117,6 +3538,7 @@
     },
     {
       "name": "Increased Cold Damage per active Totem",
+      "id": 235,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3128,6 +3550,7 @@
     },
     {
       "name": "Seconds of Stun Immunity after using Teleport",
+      "id": 237,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3139,6 +3562,7 @@
     },
     {
       "name": "Chance to Cast Fire Aura on Critical Strike (1 Second Cooldown)",
+      "id": 238,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3164,6 +3588,7 @@
     },
     {
       "name": "Increased Fire Aura Damage",
+      "id": 240,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3189,6 +3614,7 @@
     },
     {
       "name": "Static Charges Generated per Second",
+      "id": 241,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3200,6 +3626,7 @@
     },
     {
       "name": "Increased Cast Speed while you have Lightning Aegis",
+      "id": 242,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3211,6 +3638,7 @@
     },
     {
       "name": "Chance to Gain Lightning Aegis when Hit",
+      "id": 243,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3222,6 +3650,7 @@
     },
     {
       "name": "Ward Granted When Casting Flame Ward",
+      "id": 244,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3233,6 +3662,7 @@
     },
     {
       "name": "Chance to cast Elemental Nova when Hit",
+      "id": 245,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3244,6 +3674,7 @@
     },
     {
       "name": "Increased Volcanic Orb Damage And Reduced Speed",
+      "id": 246,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3258,6 +3689,7 @@
     },
     {
       "name": "Chance to Cast Fire Aura when Hit (1 Second Cooldown)",
+      "id": 247,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3269,6 +3701,7 @@
     },
     {
       "name": "Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown)",
+      "id": 249,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3280,6 +3713,7 @@
     },
     {
       "name": "Damage Reflected while you have Lightning Aegis",
+      "id": 250,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3291,6 +3725,7 @@
     },
     {
       "name": "Chance to cast Lightning Blast When Hit while you have Lightning Aegis",
+      "id": 251,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3302,6 +3737,7 @@
     },
     {
       "name": "Increased Lightning Damage while you have Lightning Aegis",
+      "id": 252,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3313,6 +3749,7 @@
     },
     {
       "name": "Chance to Cast Fire Aura on Kill with Fire Skills (1 Second Cooldown)",
+      "id": 253,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3324,6 +3761,7 @@
     },
     {
       "name": "Increased Lightning Damage (Doubled If You Have Over 300 Max Mana)",
+      "id": 254,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3335,6 +3773,7 @@
     },
     {
       "name": "Increased Cold Damage (Doubled If You Have Over 300 Max Mana)",
+      "id": 255,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3346,6 +3785,7 @@
     },
     {
       "name": "Increased Fire Damage (Doubled If You Have Over 300 Max Mana)",
+      "id": 256,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3357,6 +3797,7 @@
     },
     {
       "name": "Endurance Threshold and Increased Health",
+      "id": 257,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3371,6 +3812,7 @@
     },
     {
       "name": "Poison Chance While At Low Health",
+      "id": 258,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3382,6 +3824,7 @@
     },
     {
       "name": "Damage Over Time while at Low Health",
+      "id": 259,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3393,6 +3836,7 @@
     },
     {
       "name": "Chance to apply Damned on Hit",
+      "id": 260,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3418,6 +3862,7 @@
     },
     {
       "name": "Damage While Transformed",
+      "id": 261,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3429,6 +3874,7 @@
     },
     {
       "name": "Damage Over Time Taken While Transformed",
+      "id": 262,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3440,6 +3886,7 @@
     },
     {
       "name": "Damage Leeched as Health while Transformed",
+      "id": 263,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3451,6 +3898,7 @@
     },
     {
       "name": "Reduced Health Cost of Spells",
+      "id": 264,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3476,6 +3924,7 @@
     },
     {
       "name": "Increased Aura of Decay Area",
+      "id": 266,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3487,6 +3936,7 @@
     },
     {
       "name": "Health Regen And Damage Taken Over Time",
+      "id": 267,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3501,6 +3951,7 @@
     },
     {
       "name": "Armor granted by Bone Armor",
+      "id": 268,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3512,6 +3963,7 @@
     },
     {
       "name": "Healing Effectiveness",
+      "id": 269,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3523,6 +3975,7 @@
     },
     {
       "name": "Increased Warpath Area",
+      "id": 270,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3534,6 +3987,7 @@
     },
     {
       "name": "Chance to inflict Time Rot on Hit",
+      "id": 271,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3545,6 +3999,7 @@
     },
     {
       "name": "Chance to cast Void Rift on Kill",
+      "id": 272,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3556,6 +4011,7 @@
     },
     {
       "name": "Chance to create a Void Essence on Kill",
+      "id": 273,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3567,6 +4023,7 @@
     },
     {
       "name": "Increased Area of Void Cleave",
+      "id": 274,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3578,6 +4035,7 @@
     },
     {
       "name": "Chance To Cast Divine Bolt When You Use A 0 Cost Skill",
+      "id": 275,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3589,6 +4047,7 @@
     },
     {
       "name": "Chance To Cast Smite When You Hit With Throwing Attacks (up to 10 times per 2 seconds)",
+      "id": 276,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3600,6 +4059,7 @@
     },
     {
       "name": "Health gained when stunned",
+      "id": 277,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3611,6 +4071,7 @@
     },
     {
       "name": "Increased Echo Damage when a Skill Echoes",
+      "id": 278,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3622,6 +4083,7 @@
     },
     {
       "name": "Increased Void Damage For 4 Seconds When a Skill Echoes",
+      "id": 279,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3633,6 +4095,7 @@
     },
     {
       "name": "Increased Melee Damage For 4 Seconds When a Skill Echoes",
+      "id": 280,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3644,6 +4107,7 @@
     },
     {
       "name": "Chance To Gain Inspiration On Kills With Void Skills",
+      "id": 281,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3655,6 +4119,7 @@
     },
     {
       "name": "Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently",
+      "id": 282,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3666,6 +4131,7 @@
     },
     {
       "name": "Abyssal Decay Duration",
+      "id": 283,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3677,6 +4143,7 @@
     },
     {
       "name": "Chance to Fear on Hit",
+      "id": 284,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3688,6 +4155,7 @@
     },
     {
       "name": "Plague Chance On Hit And Penetration",
+      "id": 291,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3702,6 +4170,7 @@
     },
     {
       "name": "Physical Spell Critical Strike Chance",
+      "id": 295,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3713,6 +4182,7 @@
     },
     {
       "name": "Poison Chance On Spell Hit",
+      "id": 296,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3724,6 +4194,7 @@
     },
     {
       "name": "Chance for +30 Throwing Fire Damage with Shield Throw",
+      "id": 299,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3735,6 +4206,7 @@
     },
     {
       "name": "Shield Throw Base Damage Converted to Void",
+      "id": 300,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3746,6 +4218,7 @@
     },
     {
       "name": "Lightning Damage with Hammer Throw",
+      "id": 301,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3757,6 +4230,7 @@
     },
     {
       "name": "Increased Projectile Speed With Marrow Shards And Bone Nova",
+      "id": 302,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3792,6 +4266,7 @@
     },
     {
       "name": "Chance for Hungering Souls to fire 6 Additional Projectiles",
+      "id": 304,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3803,6 +4278,7 @@
     },
     {
       "name": "Critical Strike Multiplier With Rive And Judgement",
+      "id": 305,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3817,6 +4293,7 @@
     },
     {
       "name": "Increased Area With Rive And Forge Strike",
+      "id": 306,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3831,6 +4308,7 @@
     },
     {
       "name": "Increased Damage With Vengeance And Smite",
+      "id": 307,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3845,6 +4323,7 @@
     },
     {
       "name": "Increased Cooldown Recovery Speed With Transplant",
+      "id": 308,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3856,6 +4335,7 @@
     },
     {
       "name": "Necrotic Spell Damage per Skeletal Mage",
+      "id": 309,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3867,6 +4347,7 @@
     },
     {
       "name": "Ward Gained On Kill",
+      "id": 310,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3878,6 +4359,7 @@
     },
     {
       "name": "Chance to Gain 20 Ward on Kill with Hungering Souls",
+      "id": 311,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3903,6 +4385,7 @@
     },
     {
       "name": "Increased Damage With Rip Blood And Blood Splatter",
+      "id": 312,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -3938,6 +4421,7 @@
     },
     {
       "name": "Damage Reflected For Skeletons And Skeletal Mages",
+      "id": 314,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3952,6 +4436,7 @@
     },
     {
       "name": "Chance to Cast Marrow Shards when you Cast Transplant",
+      "id": 317,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3963,6 +4448,7 @@
     },
     {
       "name": "Increased Poison Damage while Aura of Decay is active",
+      "id": 318,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3974,6 +4460,7 @@
     },
     {
       "name": "Shared Physical Damage",
+      "id": 319,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -3988,6 +4475,7 @@
     },
     {
       "name": "Shared Lightning Damage",
+      "id": 320,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4002,6 +4490,7 @@
     },
     {
       "name": "Shared Cold Damage",
+      "id": 321,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4016,6 +4505,7 @@
     },
     {
       "name": "Shared Fire Damage",
+      "id": 322,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4030,6 +4520,7 @@
     },
     {
       "name": "Shared Void Damage",
+      "id": 323,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4044,6 +4535,7 @@
     },
     {
       "name": "Shared Necrotic Damage",
+      "id": 324,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4058,6 +4550,7 @@
     },
     {
       "name": "Shared Poison Damage",
+      "id": 325,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4072,6 +4565,7 @@
     },
     {
       "name": "Chance to apply a Spark Charge on Melee Hit",
+      "id": 327,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4083,6 +4577,7 @@
     },
     {
       "name": "Mana Spent Gained as Ward",
+      "id": 328,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4094,6 +4589,7 @@
     },
     {
       "name": "Totem Damage",
+      "id": 329,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4105,6 +4601,7 @@
     },
     {
       "name": "Mana Regeneration",
+      "id": 330,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4129,16 +4626,8 @@
       }
     },
     {
-      "name": "Increased Mana"
-    },
-    {
-      "name": "Armor and Minion Armor"
-    },
-    {
-      "name": "Shared Lightning Damage"
-    },
-    {
       "name": "Spell Damage for Totems",
+      "id": 334,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4164,6 +4653,7 @@
     },
     {
       "name": "Increased Cooldown Recovery Speed while Transformed",
+      "id": 335,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4189,6 +4679,7 @@
     },
     {
       "name": "Critical Strike Multiplier While Transformed",
+      "id": 338,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4213,13 +4704,8 @@
       }
     },
     {
-      "name": "Cold Penetration with Frostbite"
-    },
-    {
-      "name": "Shared Cold Damage"
-    },
-    {
       "name": "Freeze Rate per stack of Chill",
+      "id": 341,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4244,10 +4730,8 @@
       }
     },
     {
-      "name": "Cast Speed for Totems"
-    },
-    {
       "name": "Shared Bleed Duration",
+      "id": 343,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4283,6 +4767,7 @@
     },
     {
       "name": "Shared Increased Spell Damage",
+      "id": 344,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4318,6 +4803,7 @@
     },
     {
       "name": "Shared Increased Melee Damage",
+      "id": 345,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4353,6 +4839,7 @@
     },
     {
       "name": "Melee Damage While Transformed",
+      "id": 349,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4378,6 +4865,7 @@
     },
     {
       "name": "Spell Damage While Transformed",
+      "id": 350,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4403,6 +4891,7 @@
     },
     {
       "name": "Damage Over Time While Transformed",
+      "id": 351,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4428,6 +4917,7 @@
     },
     {
       "name": "Totem Critical Strike Chance",
+      "id": 352,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4452,13 +4942,8 @@
       }
     },
     {
-      "name": "Increased Aspect of the Shark effect"
-    },
-    {
-      "name": "Increased Aspect of the Boar duration"
-    },
-    {
       "name": "Increased Aspect of the Viper Effect",
+      "id": 355,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4469,13 +4954,8 @@
       }
     },
     {
-      "name": "Increased Aspct of the Lynx Effect"
-    },
-    {
-      "name": "Totem Damage"
-    },
-    {
       "name": "Physical Penetration with Bleed",
+      "id": 358,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4501,6 +4981,7 @@
     },
     {
       "name": "Melee Physical Damage if wielding a Sword",
+      "id": 359,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4525,13 +5006,8 @@
       }
     },
     {
-      "name": "Increased Physical Damage and Bleed Duration"
-    },
-    {
-      "name": "Increased Fire Damage and Ignite Duration"
-    },
-    {
       "name": "Increased Void Damage And Added Spell Void Damage",
+      "id": 362,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4567,6 +5043,7 @@
     },
     {
       "name": "Chance to Inflict Bleed if Wielding an Axe",
+      "id": 363,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4592,6 +5069,7 @@
     },
     {
       "name": "Melee Physical Damage if wielding a Mace",
+      "id": 364,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4617,6 +5095,7 @@
     },
     {
       "name": "Void Damage Taken as Physical",
+      "id": 365,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4642,6 +5121,7 @@
     },
     {
       "name": "Necrotic Damage Taken as Physical",
+      "id": 366,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4667,6 +5147,7 @@
     },
     {
       "name": "Poison Damage Taken as Physical",
+      "id": 367,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4692,6 +5173,7 @@
     },
     {
       "name": "Throwing Attack Critical Strike Chance",
+      "id": 368,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4717,6 +5199,7 @@
     },
     {
       "name": "Channel Cost",
+      "id": 369,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4742,6 +5225,7 @@
     },
     {
       "name": "Increased Armor Shred Effect",
+      "id": 370,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4752,10 +5236,8 @@
       }
     },
     {
-      "name": "Fire Damage Over Time"
-    },
-    {
       "name": "Void Damage Over Time",
+      "id": 372,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -4767,6 +5249,7 @@
     },
     {
       "name": "Increased Echo Damage When A Skill Echoes",
+      "id": 373,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4792,6 +5275,7 @@
     },
     {
       "name": "Increased Abyssal Decay Duration",
+      "id": 374,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4817,6 +5301,7 @@
     },
     {
       "name": "Mana Gained when you use Vengeance and Hit at least one enemy",
+      "id": 375,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4842,6 +5327,7 @@
     },
     {
       "name": "Mana Gained when you use Rive and Hit at least one enemy",
+      "id": 376,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4867,6 +5353,7 @@
     },
     {
       "name": "Mana Gained when you directly Cast Smite",
+      "id": 377,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4892,6 +5379,7 @@
     },
     {
       "name": "Increased Hammer Throw Damage",
+      "id": 378,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4917,6 +5405,7 @@
     },
     {
       "name": "Increased Shield Throw Critical Strike Chance",
+      "id": 379,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4942,6 +5431,7 @@
     },
     {
       "name": "Increased Smelters Wrath Damage",
+      "id": 380,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4967,6 +5457,7 @@
     },
     {
       "name": "Increased Spell Crit (Doubled if you have over 300 Max Mana)",
+      "id": 381,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -4992,6 +5483,7 @@
     },
     {
       "name": "Ward per Second",
+      "id": 382,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5016,10 +5508,8 @@
       }
     },
     {
-      "name": "Spell Damage while Channeling"
-    },
-    {
       "name": "Lightning Critical Strike Multiplier",
+      "id": 385,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5044,25 +5534,8 @@
       }
     },
     {
-      "name": "Spell Damage Leeched as Health while Channeling"
-    },
-    {
-      "name": "Chance to Apply Frostbite On Hit With Cold Skills"
-    },
-    {
-      "name": "Cold Damage Over Time"
-    },
-    {
-      "name": "Fire Damage Over Time"
-    },
-    {
-      "name": "Melee Elemental Damage"
-    },
-    {
-      "name": "Chance to Ignite on Fire Hit"
-    },
-    {
       "name": "Chance to Shock on Hit with Lightning Skills",
+      "id": 392,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5087,16 +5560,8 @@
       }
     },
     {
-      "name": "Chance to Cast Fire Aura on Critical Strike (1 second cooldown)"
-    },
-    {
-      "name": "Increased Fire Aura Damage"
-    },
-    {
-      "name": "Chance to Gain Lightning Aegis when Hit"
-    },
-    {
       "name": "Chance to cast Fire Aura when Hit (1 second cooldown)",
+      "id": 396,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5122,6 +5587,7 @@
     },
     {
       "name": "Flame Ward Charge and Added Ward",
+      "id": 397,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5156,16 +5622,8 @@
       }
     },
     {
-      "name": "Chance To Cast Fire Aura On Kill Fire Skills (1 second cooldown)"
-    },
-    {
-      "name": "Chance to apply a Spark Charge on Melee Hit"
-    },
-    {
-      "name": "Mana Spent Gained as Ward"
-    },
-    {
       "name": "Physical Damage while Transformed",
+      "id": 401,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5191,6 +5649,7 @@
     },
     {
       "name": "Necrotic Damage while Transformed",
+      "id": 402,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5216,6 +5675,7 @@
     },
     {
       "name": "Shared Increased Fire Damage",
+      "id": 404,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5251,6 +5711,7 @@
     },
     {
       "name": "Shared Increased Necrotic Damage",
+      "id": 405,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5286,6 +5747,7 @@
     },
     {
       "name": "Shared Bleed Chance On Hit",
+      "id": 406,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5320,13 +5782,8 @@
       }
     },
     {
-      "name": "Shared increased Bleed Duration"
-    },
-    {
-      "name": "Shared Physical Penetration with Bleed"
-    },
-    {
       "name": "Shared Physical Damage Leeched As Health",
+      "id": 409,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5362,6 +5819,7 @@
     },
     {
       "name": "Increased Skeletal Mage Damage",
+      "id": 410,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5387,6 +5845,7 @@
     },
     {
       "name": "Mana Gained on Harvest Use",
+      "id": 411,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5412,6 +5871,7 @@
     },
     {
       "name": "Harvest Damage Leeched as Health",
+      "id": 412,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5436,22 +5896,8 @@
       }
     },
     {
-      "name": "Poison Damage and Poison Resistance"
-    },
-    {
-      "name": "Chance to Gain 20 Ward on Kill with Hungering Souls"
-    },
-    {
-      "name": "Increased Critical Strike Chance For You and Your Minions"
-    },
-    {
-      "name": "Increased Projectile Speed With Marrow Shards And Bone Nova"
-    },
-    {
-      "name": "Increased Damage With Rip Blood And Blood Splatter"
-    },
-    {
       "name": "Critical Strike Chance For Skeletons And Skeletal Mages",
+      "id": 419,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5487,6 +5933,7 @@
     },
     {
       "name": "Increased Spell Damage per Skeletal Mage",
+      "id": 420,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5511,10 +5958,8 @@
       }
     },
     {
-      "name": "Chance to apply Damned on Hit"
-    },
-    {
       "name": "Damage Leeched as Health While Transformed",
+      "id": 422,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5539,13 +5984,8 @@
       }
     },
     {
-      "name": "Reduced Health Cost of Spells"
-    },
-    {
-      "name": "Physical Spell Critical Strike Chance"
-    },
-    {
       "name": "Endurance Threshold",
+      "id": 425,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5571,6 +6011,7 @@
     },
     {
       "name": "Block Chance and Effectiveness",
+      "id": 426,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5606,6 +6047,7 @@
     },
     {
       "name": "Reduced Bonus Damage Taken from Critical Strikes",
+      "id": 427,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5631,6 +6073,7 @@
     },
     {
       "name": "Chance to apply Frailty on Melee Hit",
+      "id": 428,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5656,6 +6099,7 @@
     },
     {
       "name": "Chance to apply Frailty on Hit",
+      "id": 429,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5681,6 +6125,7 @@
     },
     {
       "name": "Bow Damage",
+      "id": 431,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -5692,6 +6137,7 @@
     },
     {
       "name": "Bow Attack Speed",
+      "id": 432,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5717,6 +6163,7 @@
     },
     {
       "name": "Bow Physical Damage",
+      "id": 433,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5742,6 +6189,7 @@
     },
     {
       "name": "Bow Fire Damage",
+      "id": 434,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5767,6 +6215,7 @@
     },
     {
       "name": "Chance to cast Marrow Shards when you cast Transplant",
+      "id": 435,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5791,10 +6240,8 @@
       }
     },
     {
-      "name": "Ward Gained when you create a shadow"
-    },
-    {
       "name": "Increased Damage of Skills use by Shadows",
+      "id": 438,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5819,10 +6266,8 @@
       }
     },
     {
-      "name": "Increased Damage of Skills use by Shadows"
-    },
-    {
       "name": "Health Gained on Glancing Blow",
+      "id": 440,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5848,6 +6293,7 @@
     },
     {
       "name": "Dodge Rating if Hit Recently",
+      "id": 441,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -5858,10 +6304,8 @@
       }
     },
     {
-      "name": "Dodge Rating if Hit Recently"
-    },
-    {
       "name": "Chance to Gain Crimson Shroud when you use a Melee Attack that Hits",
+      "id": 443,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5887,6 +6331,7 @@
     },
     {
       "name": "Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown)",
+      "id": 444,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -5898,6 +6343,7 @@
     },
     {
       "name": "Increased Critical Strike Chance per Equipped Sword",
+      "id": 445,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5922,10 +6368,8 @@
       }
     },
     {
-      "name": "Increased Critical Strike Chance per Equipped Sword"
-    },
-    {
       "name": "Increased Critical Strike Chance per Equipped Dagger",
+      "id": 447,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5950,10 +6394,8 @@
       }
     },
     {
-      "name": "Increased Critical Strike Chance per Equipped Dagger"
-    },
-    {
       "name": "Chance to Gain Dusk Shroud when Hit",
+      "id": 449,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -5978,10 +6420,8 @@
       }
     },
     {
-      "name": "Bleed Chance per equipped sword"
-    },
-    {
       "name": "Poison Chance per Equipped Dagger",
+      "id": 452,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6006,10 +6446,8 @@
       }
     },
     {
-      "name": "Poison Chance per Equipped Dagger"
-    },
-    {
       "name": "Chance to Gain Dusk Shroud when you use a Melee Attack that Hits",
+      "id": 454,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6035,6 +6473,7 @@
     },
     {
       "name": "Health Gained on Dodge",
+      "id": 455,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6046,6 +6485,7 @@
     },
     {
       "name": "Critical Strike Multiplier while Dual Wielding",
+      "id": 456,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6057,6 +6497,7 @@
     },
     {
       "name": "Added Physical Throwing Damage while Dual Wielding",
+      "id": 457,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6082,6 +6523,7 @@
     },
     {
       "name": "Increased Damage while wielding a Sword",
+      "id": 458,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6092,10 +6534,8 @@
       }
     },
     {
-      "name": "Increased Damage while wielding a Sword"
-    },
-    {
       "name": "Increased Damage while wielding a Dagger",
+      "id": 460,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6106,10 +6546,8 @@
       }
     },
     {
-      "name": "Increased Damage while wielding a Dagger"
-    },
-    {
       "name": "Increased Damage while wielding a Bow",
+      "id": 462,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6120,10 +6558,8 @@
       }
     },
     {
-      "name": "Increased Damage while wielding a Bow"
-    },
-    {
       "name": "Physical Penetration while wielding a Dagger",
+      "id": 464,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6135,6 +6571,7 @@
     },
     {
       "name": "Fire Penetration while wielding a Dagger",
+      "id": 465,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6145,13 +6582,8 @@
       }
     },
     {
-      "name": "Fire Penetration with Ignite"
-    },
-    {
-      "name": "Increased Poison Damage"
-    },
-    {
       "name": "Throwing Physical Damage",
+      "id": 470,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6162,13 +6594,8 @@
       }
     },
     {
-      "name": "Throwing Physical Damage"
-    },
-    {
-      "name": "Chance to Shred Armor on Throwing hit"
-    },
-    {
       "name": "Chance to Shred Armor on Melee Hit",
+      "id": 474,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6193,10 +6620,8 @@
       }
     },
     {
-      "name": "Chance to Shred Armor on Melee Hit"
-    },
-    {
       "name": "Chance to Shred Armor on Bow Hit",
+      "id": 476,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6221,13 +6646,8 @@
       }
     },
     {
-      "name": "Chance to Shred Armor on Bow Hit"
-    },
-    {
-      "name": "Increased Armor Shred Effect"
-    },
-    {
       "name": "Increased Armor Shred Duration",
+      "id": 480,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6238,10 +6658,8 @@
       }
     },
     {
-      "name": "Increased Armor Shred Duration"
-    },
-    {
       "name": "Chance to Ignite on Bow Hit",
+      "id": 482,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6266,10 +6684,8 @@
       }
     },
     {
-      "name": "Chance to Ignite on Bow Hit"
-    },
-    {
       "name": "Chance to Slow on Bow Hit",
+      "id": 484,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6280,10 +6696,8 @@
       }
     },
     {
-      "name": "Chance to Slow on Bow Hit"
-    },
-    {
       "name": "Physical Penetration with Shadow Daggers",
+      "id": 486,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6308,10 +6722,8 @@
       }
     },
     {
-      "name": "Physical Penetration with Shadow Daggers"
-    },
-    {
       "name": "Bow Elemental Damage",
+      "id": 488,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6336,10 +6748,8 @@
       }
     },
     {
-      "name": "Bow Elemental Damage"
-    },
-    {
       "name": "Bow Critical Strike Chance",
+      "id": 492,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6351,6 +6761,7 @@
     },
     {
       "name": "Chance to Inflict Bleed On Bow Hit",
+      "id": 493,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6361,10 +6772,8 @@
       }
     },
     {
-      "name": "Chance to Inflict Bleed On Bow Hit"
-    },
-    {
       "name": "Increased Area with Cinder Strike's First Strike",
+      "id": 495,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6389,10 +6798,8 @@
       }
     },
     {
-      "name": "Increased Area with Cinder Strike's First Strike"
-    },
-    {
       "name": "Increased crit chance with Flurry",
+      "id": 497,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6417,10 +6824,8 @@
       }
     },
     {
-      "name": "Increased crit chance with Flurry"
-    },
-    {
       "name": "Physical Penetration with Puncture",
+      "id": 499,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6445,10 +6850,8 @@
       }
     },
     {
-      "name": "Physical Penetration with Puncture"
-    },
-    {
       "name": "Strength",
+      "id": 501,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6474,6 +6877,7 @@
     },
     {
       "name": "Intelligence",
+      "id": 502,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6499,6 +6903,7 @@
     },
     {
       "name": "Dexterity",
+      "id": 503,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6524,6 +6929,7 @@
     },
     {
       "name": "Attunement",
+      "id": 504,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6548,10 +6954,8 @@
       }
     },
     {
-      "name": "Vitality"
-    },
-    {
       "name": "Spell Damage and Reduced Mana Cost",
+      "id": 506,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6587,6 +6991,7 @@
     },
     {
       "name": "Throwing Damage and Reduced Mana Cost",
+      "id": 507,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6622,6 +7027,7 @@
     },
     {
       "name": "Increased Area with Detonating Arrow",
+      "id": 508,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6646,10 +7052,8 @@
       }
     },
     {
-      "name": "Increased Area with Detonating Arrow"
-    },
-    {
       "name": "Increased Damage per arrow with Multishot",
+      "id": 510,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6674,10 +7078,8 @@
       }
     },
     {
-      "name": "Increased Damage per arrow with Multishot"
-    },
-    {
       "name": "Increased duration with Hail of Arrows",
+      "id": 512,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6689,6 +7091,7 @@
     },
     {
       "name": "Increased Hail of Arrows Duration",
+      "id": 513,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6714,6 +7117,7 @@
     },
     {
       "name": "Increased Damage per active Shadow with Shadow Cascade",
+      "id": 514,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -6724,10 +7128,8 @@
       }
     },
     {
-      "name": "Increased Damage per active Shadow with Shadow Cascade"
-    },
-    {
       "name": "Chance to Inflict Bleed on Hit with Shurikens",
+      "id": 516,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6752,10 +7154,8 @@
       }
     },
     {
-      "name": "Chance to Inflict Bleed on Hit with Shurikens"
-    },
-    {
       "name": "Lightning Damage with Shurikens",
+      "id": 518,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6790,10 +7190,8 @@
       }
     },
     {
-      "name": "Lightning Damage with Shurikens"
-    },
-    {
       "name": "Increased Area with Acid Flask",
+      "id": 520,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6818,10 +7216,8 @@
       }
     },
     {
-      "name": "Increased Area with Acid Flask"
-    },
-    {
       "name": "Increased Area with Dancing Strikes",
+      "id": 523,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6846,13 +7242,8 @@
       }
     },
     {
-      "name": "Increased Area with Dancing Strikes"
-    },
-    {
-      "name": "Mana efficiency with Synchronized Strike"
-    },
-    {
       "name": "Mana efficiency with Decoy",
+      "id": 527,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6877,10 +7268,8 @@
       }
     },
     {
-      "name": "Mana efficiency with Decoy"
-    },
-    {
       "name": "Ward gained on use with Smoke Bomb",
+      "id": 529,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6905,10 +7294,8 @@
       }
     },
     {
-      "name": "Ward gained on use with Smoke Bomb"
-    },
-    {
       "name": "Ward gained on use with Shift",
+      "id": 531,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6933,10 +7320,8 @@
       }
     },
     {
-      "name": "Ward gained on use with Shift"
-    },
-    {
       "name": "Black Arrows dropped by Dark Quiver and Increased Bow Damage",
+      "id": 533,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -6971,10 +7356,8 @@
       }
     },
     {
-      "name": "Black Arrows dropped by Dark Quiver and Increased Bow Damage"
-    },
-    {
       "name": "Max Ballista and Increased Ballista Attack Speed",
+      "id": 536,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7010,6 +7393,7 @@
     },
     {
       "name": "Mirages and Mana Efficiency with Lethal Mirage",
+      "id": 537,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7045,6 +7429,7 @@
     },
     {
       "name": "Increased Area of mirage attacks with Lethal Mirage",
+      "id": 538,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -7056,6 +7441,7 @@
     },
     {
       "name": "Level of Swipe",
+      "id": 539,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7091,6 +7477,7 @@
     },
     {
       "name": "Level of Tornado",
+      "id": 541,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7126,6 +7513,7 @@
     },
     {
       "name": "Level of Fury Leap",
+      "id": 542,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7161,6 +7549,7 @@
     },
     {
       "name": "Level of Elemental Nova",
+      "id": 546,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7196,6 +7585,7 @@
     },
     {
       "name": "Level of Mana Strike",
+      "id": 547,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7231,6 +7621,7 @@
     },
     {
       "name": "Fireball Pierce Chance",
+      "id": 548,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7266,6 +7657,7 @@
     },
     {
       "name": "Level of Fireball",
+      "id": 549,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7301,6 +7693,7 @@
     },
     {
       "name": "Level of Glacier",
+      "id": 550,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7336,6 +7729,7 @@
     },
     {
       "name": "Level of Meteor",
+      "id": 551,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7371,6 +7765,7 @@
     },
     {
       "name": "Level of Teleport",
+      "id": 552,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7406,6 +7801,7 @@
     },
     {
       "name": "Level of Volcanic Orb",
+      "id": 553,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7441,6 +7837,7 @@
     },
     {
       "name": "Level of Black Hole",
+      "id": 554,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7476,6 +7873,7 @@
     },
     {
       "name": "Level of Static Orb",
+      "id": 556,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7511,6 +7909,7 @@
     },
     {
       "name": "Level of Lightning Blast",
+      "id": 557,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7546,6 +7945,7 @@
     },
     {
       "name": "Level of Serpent Strike",
+      "id": 558,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7581,6 +7981,7 @@
     },
     {
       "name": "Level of Entangling Roots",
+      "id": 559,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7616,6 +8017,7 @@
     },
     {
       "name": "Level of Anomaly",
+      "id": 560,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7651,6 +8053,7 @@
     },
     {
       "name": "Level of Warpath",
+      "id": 561,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7686,6 +8089,7 @@
     },
     {
       "name": "Level of Devouring Orb",
+      "id": 562,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7721,6 +8125,7 @@
     },
     {
       "name": "Level of Rive",
+      "id": 563,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7756,6 +8161,7 @@
     },
     {
       "name": "Level of Hammer Throw",
+      "id": 564,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7791,6 +8197,7 @@
     },
     {
       "name": "Level of Shield Rush",
+      "id": 565,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7826,6 +8233,7 @@
     },
     {
       "name": "Level of Volatile Reversal",
+      "id": 566,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7861,6 +8269,7 @@
     },
     {
       "name": "Level of Abyssal Echoes",
+      "id": 567,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7896,6 +8305,7 @@
     },
     {
       "name": "Level of Erasing Strike",
+      "id": 568,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7931,6 +8341,7 @@
     },
     {
       "name": "Level of Vengeance",
+      "id": 569,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -7966,6 +8377,7 @@
     },
     {
       "name": "Level of Shield Throw",
+      "id": 570,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8001,6 +8413,7 @@
     },
     {
       "name": "Level of Dread Shade",
+      "id": 571,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8035,10 +8448,8 @@
       }
     },
     {
-      "name": "Level of Infernal Strike"
-    },
-    {
       "name": "Level of Sacrifice",
+      "id": 574,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8074,6 +8485,7 @@
     },
     {
       "name": "Level of Focus",
+      "id": 575,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8109,6 +8521,7 @@
     },
     {
       "name": "Level of Aura Of Decay",
+      "id": 576,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8144,6 +8557,7 @@
     },
     {
       "name": "Level of Hungering Souls",
+      "id": 577,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8179,6 +8593,7 @@
     },
     {
       "name": "Level of Rip Blood",
+      "id": 578,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8214,6 +8629,7 @@
     },
     {
       "name": "Level of Wandering Spirits",
+      "id": 581,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8249,6 +8665,7 @@
     },
     {
       "name": "Level of Marrow Shards",
+      "id": 582,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8284,6 +8701,7 @@
     },
     {
       "name": "Level of Transplant",
+      "id": 583,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8319,6 +8737,7 @@
     },
     {
       "name": "Level of Flame Reave",
+      "id": 584,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8354,6 +8773,7 @@
     },
     {
       "name": "Level of Soul Feast",
+      "id": 586,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8389,6 +8809,7 @@
     },
     {
       "name": "Level of Snap Freeze",
+      "id": 587,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8424,6 +8845,7 @@
     },
     {
       "name": "Level of Lunge",
+      "id": 588,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8459,6 +8881,7 @@
     },
     {
       "name": "Level of Rebuke",
+      "id": 589,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8493,10 +8916,8 @@
       }
     },
     {
-      "name": "Level of Ring of Shields"
-    },
-    {
       "name": "Level of Firebrand",
+      "id": 593,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8532,6 +8953,7 @@
     },
     {
       "name": "Level of Harvest",
+      "id": 594,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8567,6 +8989,7 @@
     },
     {
       "name": "Level of Judgement",
+      "id": 596,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8602,6 +9025,7 @@
     },
     {
       "name": "Level of Shatter Strike",
+      "id": 597,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8637,6 +9061,7 @@
     },
     {
       "name": "Level of Enchant Weapon",
+      "id": 598,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8672,6 +9097,7 @@
     },
     {
       "name": "Level of Avalanche",
+      "id": 599,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8707,6 +9133,7 @@
     },
     {
       "name": "Level of Symbols Of Hope",
+      "id": 600,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8742,6 +9169,7 @@
     },
     {
       "name": "Level of Holy Aura",
+      "id": 601,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8777,6 +9205,7 @@
     },
     {
       "name": "Level of Werebear Form",
+      "id": 602,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8812,6 +9241,7 @@
     },
     {
       "name": "Level of Smite",
+      "id": 603,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8847,6 +9277,7 @@
     },
     {
       "name": "Level of Manifest Armor",
+      "id": 604,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8882,6 +9313,7 @@
     },
     {
       "name": "Level of Forge Strike",
+      "id": 605,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8917,6 +9349,7 @@
     },
     {
       "name": "Level of Spriggan Form",
+      "id": 606,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8952,6 +9385,7 @@
     },
     {
       "name": "Level of Reaper Form",
+      "id": 607,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -8987,6 +9421,7 @@
     },
     {
       "name": "Level of Acid Flask",
+      "id": 608,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9022,6 +9457,7 @@
     },
     {
       "name": "Level of Shadow Cascade",
+      "id": 609,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9057,6 +9493,7 @@
     },
     {
       "name": "Level of Flurry",
+      "id": 610,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9092,6 +9529,7 @@
     },
     {
       "name": "Level of Shurikens",
+      "id": 611,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9127,6 +9565,7 @@
     },
     {
       "name": "Level of Dancing Strikes",
+      "id": 612,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9162,6 +9601,7 @@
     },
     {
       "name": "Level of Multishot",
+      "id": 613,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9197,6 +9637,7 @@
     },
     {
       "name": "Level of Puncture",
+      "id": 614,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9232,6 +9673,7 @@
     },
     {
       "name": "Level of Decoy",
+      "id": 615,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9267,6 +9709,7 @@
     },
     {
       "name": "Level of Cinder Strike",
+      "id": 616,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9302,6 +9745,7 @@
     },
     {
       "name": "Level of Detonating Arrow",
+      "id": 617,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9337,6 +9781,7 @@
     },
     {
       "name": "Level of Hail of Arrows",
+      "id": 618,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9372,6 +9817,7 @@
     },
     {
       "name": "Level of Shift",
+      "id": 619,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9407,6 +9853,7 @@
     },
     {
       "name": "Level of Synchronized Strike",
+      "id": 620,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9442,6 +9889,7 @@
     },
     {
       "name": "Level of Tempest Strike",
+      "id": 621,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9477,6 +9925,7 @@
     },
     {
       "name": "Level of Gathering Storm",
+      "id": 622,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9512,6 +9961,7 @@
     },
     {
       "name": "Level of Static",
+      "id": 624,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9547,6 +9997,7 @@
     },
     {
       "name": "Level of Disintegrate",
+      "id": 625,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9582,6 +10033,7 @@
     },
     {
       "name": "Level of Maelstrom",
+      "id": 626,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9617,6 +10069,7 @@
     },
     {
       "name": "Level of Flame Ward",
+      "id": 628,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9652,6 +10105,7 @@
     },
     {
       "name": "Level of Earthquake",
+      "id": 629,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9686,10 +10140,8 @@
       }
     },
     {
-      "name": "Level of Arcane Ascendence"
-    },
-    {
       "name": "Level of Smelter's Wrath",
+      "id": 631,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9725,6 +10177,7 @@
     },
     {
       "name": "Level of Drain Life",
+      "id": 632,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9760,6 +10213,7 @@
     },
     {
       "name": "Level of Assemble Abomination",
+      "id": 633,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9795,6 +10249,7 @@
     },
     {
       "name": "Level of Spirit Plague",
+      "id": 634,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9830,6 +10285,7 @@
     },
     {
       "name": "Level of Bone Curse",
+      "id": 635,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9865,6 +10321,7 @@
     },
     {
       "name": "Level of Death Seal",
+      "id": 636,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9900,6 +10357,7 @@
     },
     {
       "name": "Level of Ice Barrage",
+      "id": 637,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9935,6 +10393,7 @@
     },
     {
       "name": "Level of Dark Quiver",
+      "id": 638,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -9970,6 +10429,7 @@
     },
     {
       "name": "Level of Shield Bash",
+      "id": 639,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10005,6 +10465,7 @@
     },
     {
       "name": "Level of Ballista",
+      "id": 640,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10040,6 +10501,7 @@
     },
     {
       "name": "Level of Lethal Mirage",
+      "id": 641,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10075,6 +10537,7 @@
     },
     {
       "name": "Level of Smoke Bomb",
+      "id": 642,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10110,6 +10573,7 @@
     },
     {
       "name": "Level of Warcry",
+      "id": 644,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10145,6 +10609,7 @@
     },
     {
       "name": "Level of Surge",
+      "id": 645,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10180,6 +10645,7 @@
     },
     {
       "name": "Spell Damage for Storm Crows",
+      "id": 648,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10205,6 +10671,7 @@
     },
     {
       "name": "Volatile Zombie Speed and Damage",
+      "id": 649,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10240,6 +10707,7 @@
     },
     {
       "name": "Volatile Zombie Damage and Explosion Area",
+      "id": 650,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -10254,6 +10722,7 @@
     },
     {
       "name": "Increased Cooldown Recovery Speed for Surge",
+      "id": 651,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -10265,6 +10734,7 @@
     },
     {
       "name": "Level of Multistrike",
+      "id": 652,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10300,6 +10770,7 @@
     },
     {
       "name": "Level of Void Cleave",
+      "id": 653,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10335,6 +10806,7 @@
     },
     {
       "name": "Level of Javelin",
+      "id": 654,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10370,6 +10842,7 @@
     },
     {
       "name": "Added Javelin Lightning Throwing Damage",
+      "id": 655,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10394,10 +10867,8 @@
       }
     },
     {
-      "name": "Endurance while Channeling Warpath"
-    },
-    {
       "name": "Added Static Orb Tendrils",
+      "id": 657,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -10409,6 +10880,7 @@
     },
     {
       "name": "Level of Swarmblade Form",
+      "id": 660,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10444,6 +10916,7 @@
     },
     {
       "name": "Level of Upheaval",
+      "id": 661,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10479,6 +10952,7 @@
     },
     {
       "name": "Level of Umbral Blades",
+      "id": 662,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10514,6 +10988,7 @@
     },
     {
       "name": "Armor Shred Chance for Locusts",
+      "id": 663,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10539,6 +11014,7 @@
     },
     {
       "name": "Melee Physical Damage For Swarm Strike and Locusts",
+      "id": 664,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -10553,6 +11029,7 @@
     },
     {
       "name": "Chance to create a Shockwave on Hit with Upheaval",
+      "id": 665,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10578,6 +11055,7 @@
     },
     {
       "name": "Critical Strike Chance with Rampage",
+      "id": 667,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10603,6 +11081,7 @@
     },
     {
       "name": "Increased Damage with Umbral Blades per stack of Dusk Shroud",
+      "id": 668,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -10614,6 +11093,7 @@
     },
     {
       "name": "Bow Lightning Damage",
+      "id": 669,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10639,6 +11119,7 @@
     },
     {
       "name": "Bow Cold Damage",
+      "id": 670,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10664,6 +11145,7 @@
     },
     {
       "name": "Increased Area for Melee Area Skills",
+      "id": 671,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10689,6 +11171,7 @@
     },
     {
       "name": "Crit Chance and Bow Attack Speed",
+      "id": 672,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10724,6 +11207,7 @@
     },
     {
       "name": "Experimental Ward on Kill",
+      "id": 673,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10759,6 +11243,7 @@
     },
     {
       "name": "Experimental Dodge Rating and Endurance Threshold",
+      "id": 674,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10794,6 +11279,7 @@
     },
     {
       "name": "Experimental Ward per Missing Health",
+      "id": 675,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10829,6 +11315,7 @@
     },
     {
       "name": "Experimental Haste Effect",
+      "id": 676,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10864,6 +11351,7 @@
     },
     {
       "name": "Experimental Frenzy Effect",
+      "id": 677,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10899,6 +11387,7 @@
     },
     {
       "name": "Experimental Ward Gained on Traversal",
+      "id": 678,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10934,6 +11423,7 @@
     },
     {
       "name": "Level of Flame Rush",
+      "id": 680,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -10969,6 +11459,7 @@
     },
     {
       "name": "Level of Runebolt",
+      "id": 681,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11004,6 +11495,7 @@
     },
     {
       "name": "Level of Runic Invocation",
+      "id": 682,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11039,6 +11531,7 @@
     },
     {
       "name": "Level of Frostwall",
+      "id": 683,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11073,10 +11566,8 @@
       }
     },
     {
-      "name": "Ward per Second for you or your allies while standing on your Glyph of Dominion"
-    },
-    {
       "name": "Increased Speed and Distance with Flame Rush",
+      "id": 688,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11102,6 +11593,7 @@
     },
     {
       "name": "Increased area for Elemental Area Skills",
+      "id": 689,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -11113,6 +11605,7 @@
     },
     {
       "name": "Chance to Gain 20 Mana when you directly Cast Runebolt or Fireball",
+      "id": 690,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11138,6 +11631,7 @@
     },
     {
       "name": "Ward Gained per Rune consumed with Runic Invocation",
+      "id": 691,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11163,6 +11657,7 @@
     },
     {
       "name": "Ward gained per Rune consumed with Runic Invocation",
+      "id": 692,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -11174,6 +11669,7 @@
     },
     {
       "name": "Penetration with Fire Invocations",
+      "id": 693,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11209,6 +11705,7 @@
     },
     {
       "name": "Penetration with Cold Invocations",
+      "id": 694,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11244,6 +11741,7 @@
     },
     {
       "name": "Frost Wall Duration and Frostbite Chance",
+      "id": 695,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11279,6 +11777,7 @@
     },
     {
       "name": "Penetration with Lightning Invocations",
+      "id": 696,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11314,6 +11813,7 @@
     },
     {
       "name": "Frost Wall Fire Conversion",
+      "id": 697,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -11328,6 +11828,7 @@
     },
     {
       "name": "Julra's",
+      "id": 698,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11362,10 +11863,8 @@
       }
     },
     {
-      "name": "of the Timelost Outcast"
-    },
-    {
       "name": "Cave Druid's",
+      "id": 700,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11401,6 +11900,7 @@
     },
     {
       "name": "Ward gained when damage leaves you at low health",
+      "id": 701,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11426,6 +11926,7 @@
     },
     {
       "name": "Solar Deserter's",
+      "id": 702,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11461,6 +11962,7 @@
     },
     {
       "name": "Bloom Tender's",
+      "id": 703,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11496,6 +11998,7 @@
     },
     {
       "name": "Orian's",
+      "id": 704,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11531,6 +12034,7 @@
     },
     {
       "name": "Ucenui's",
+      "id": 705,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11566,6 +12070,7 @@
     },
     {
       "name": "Hirish's",
+      "id": 706,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11600,13 +12105,8 @@
       }
     },
     {
-      "name": "of the Last Hermit"
-    },
-    {
-      "name": "Andinal's"
-    },
-    {
       "name": "Level of Frost Claw",
+      "id": 709,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11642,6 +12142,7 @@
     },
     {
       "name": "Experimental Armor applies to Damage over Time",
+      "id": 710,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11676,13 +12177,8 @@
       }
     },
     {
-      "name": "Experimental Ward on Potion use"
-    },
-    {
-      "name": "Experimental Mana on Potion use"
-    },
-    {
       "name": "Experimental Traversal Cooldown Recovery on Potion Use",
+      "id": 713,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11718,6 +12214,7 @@
     },
     {
       "name": "Experimental Bee on Potion Use",
+      "id": 714,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11753,6 +12250,7 @@
     },
     {
       "name": "Armor and Reduced Bonus Damage from Crits",
+      "id": 715,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11788,6 +12286,7 @@
     },
     {
       "name": "Frost Claw Mana Efficiency and Elemental Penetration",
+      "id": 716,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -11802,6 +12301,7 @@
     },
     {
       "name": "Parry Chance",
+      "id": 717,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11827,6 +12327,7 @@
     },
     {
       "name": "Mana and Mana Regen",
+      "id": 718,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11862,6 +12363,7 @@
     },
     {
       "name": "Level of Healing Hands",
+      "id": 726,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11897,6 +12399,7 @@
     },
     {
       "name": "Level of Falconry",
+      "id": 727,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11932,6 +12435,7 @@
     },
     {
       "name": "Level of Dive Bomb",
+      "id": 728,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -11967,6 +12471,7 @@
     },
     {
       "name": "Level of Explosive Trap",
+      "id": 729,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12002,6 +12507,7 @@
     },
     {
       "name": "Level of Aerial Assault",
+      "id": 730,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12037,6 +12543,7 @@
     },
     {
       "name": "Level of Net",
+      "id": 731,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12072,6 +12579,7 @@
     },
     {
       "name": "Level of Profane Veil",
+      "id": 732,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12107,6 +12615,7 @@
     },
     {
       "name": "Level of Chthonic Fissure",
+      "id": 733,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12142,6 +12651,7 @@
     },
     {
       "name": "Level of Chaos Bolts",
+      "id": 734,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12177,6 +12687,7 @@
     },
     {
       "name": "Level of Ghostflame",
+      "id": 735,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12212,6 +12723,7 @@
     },
     {
       "name": "Chance to Gain a Storm Stack when you use Gathering Storm and Hit an enemy",
+      "id": 737,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12237,6 +12749,7 @@
     },
     {
       "name": "Throwing Damage with Caltrops",
+      "id": 738,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12248,6 +12761,7 @@
     },
     {
       "name": "Damage and Area with Dive Bomb",
+      "id": 739,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12283,6 +12797,7 @@
     },
     {
       "name": "Rogue Caltrops Area and Armor Shred",
+      "id": 741,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12297,6 +12812,7 @@
     },
     {
       "name": "Chance to apply Critical Vulnerability on hit with Caltrops",
+      "id": 742,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12308,6 +12824,7 @@
     },
     {
       "name": "Shared Critical Strike Multiplier",
+      "id": 743,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12322,6 +12839,7 @@
     },
     {
       "name": "Explosive Trap Maximum and Throwing Speed",
+      "id": 745,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12336,6 +12854,7 @@
     },
     {
       "name": "Increased area for Throwing Area Skills",
+      "id": 746,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12347,6 +12866,7 @@
     },
     {
       "name": "Chance for 3 additional projectiles when you directly cast Chaos Bolts",
+      "id": 747,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12372,6 +12892,7 @@
     },
     {
       "name": "Increased Spirit Frequency with Chthonic Fissure",
+      "id": 748,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12397,6 +12918,7 @@
     },
     {
       "name": "Spell Damage for Curses",
+      "id": 749,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12422,6 +12944,7 @@
     },
     {
       "name": "Ward per Second while channeling Ghostflame",
+      "id": 751,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12433,6 +12956,7 @@
     },
     {
       "name": "Mana Efficiency with Ghostflame",
+      "id": 752,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12444,6 +12968,7 @@
     },
     {
       "name": "Mana Efficiency and Wither Chance with Soul Feast",
+      "id": 753,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12458,6 +12983,7 @@
     },
     {
       "name": "Increased Duration for Profane Veil",
+      "id": 754,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12469,6 +12995,7 @@
     },
     {
       "name": "Ward per Second during Profane Veil",
+      "id": 755,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12480,6 +13007,7 @@
     },
     {
       "name": "Increased Cast Speed while Cursed",
+      "id": 756,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12491,6 +13019,7 @@
     },
     {
       "name": "Increased Damage Over Time while you have an Ailment Overload",
+      "id": 757,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12502,6 +13031,7 @@
     },
     {
       "name": "Cursed",
+      "id": 758,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12537,6 +13067,7 @@
     },
     {
       "name": "Mana and Mana Spent Gained as Ward",
+      "id": 759,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12572,6 +13103,7 @@
     },
     {
       "name": "Dodge while Evading and Increased Dodge Rating",
+      "id": 760,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12607,6 +13139,7 @@
     },
     {
       "name": "Level of Heartseeker",
+      "id": 761,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12642,6 +13175,7 @@
     },
     {
       "name": "Recurve Chance with Heartseeker",
+      "id": 762,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12667,6 +13201,7 @@
     },
     {
       "name": "Rogue Recurve Chance and Bow Damage",
+      "id": 763,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -12680,10 +13215,8 @@
       }
     },
     {
-      "name": "Chancve to Electrify with Lightning Skills"
-    },
-    {
       "name": "Chance To Inflict Time Rot on hit with Void Skills",
+      "id": 765,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12709,6 +13242,7 @@
     },
     {
       "name": "Death Grip Champion's",
+      "id": 766,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12744,6 +13278,7 @@
     },
     {
       "name": "Mirage Champion's",
+      "id": 767,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12779,6 +13314,7 @@
     },
     {
       "name": "Spark Champion's",
+      "id": 768,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12814,6 +13350,7 @@
     },
     {
       "name": "Infernal Champion's",
+      "id": 769,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12849,6 +13386,7 @@
     },
     {
       "name": "Whirlpool Champion's",
+      "id": 770,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12884,6 +13422,7 @@
     },
     {
       "name": "Volcano Champion's",
+      "id": 771,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12919,6 +13458,7 @@
     },
     {
       "name": "Carnage Champion's",
+      "id": 772,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12954,6 +13494,7 @@
     },
     {
       "name": "Abyssal Champion's",
+      "id": 773,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -12989,6 +13530,7 @@
     },
     {
       "name": "Profane Champion's",
+      "id": 774,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13024,6 +13566,7 @@
     },
     {
       "name": "Venomous Champion's",
+      "id": 775,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13059,6 +13602,7 @@
     },
     {
       "name": "Meteor Champion's",
+      "id": 776,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13094,6 +13638,7 @@
     },
     {
       "name": "River Champion's",
+      "id": 777,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13129,6 +13674,7 @@
     },
     {
       "name": "Storm Champion's",
+      "id": 778,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13164,6 +13710,7 @@
     },
     {
       "name": "Portal Champion's",
+      "id": 779,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13199,6 +13746,7 @@
     },
     {
       "name": "Boardman's Fallacy Reforged",
+      "id": 780,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13234,6 +13782,7 @@
     },
     {
       "name": "Boardman's Legacy Reforged",
+      "id": 781,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13269,6 +13818,7 @@
     },
     {
       "name": "Boardman's Plank Reforged",
+      "id": 782,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13304,6 +13854,7 @@
     },
     {
       "name": "Corsair's Blood Cowl Reforged",
+      "id": 783,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13339,6 +13890,7 @@
     },
     {
       "name": "Corsair's Boarding Shield Reforged",
+      "id": 784,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13374,6 +13926,7 @@
     },
     {
       "name": "Ferebor's Persistence Reforged",
+      "id": 785,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13409,6 +13962,7 @@
     },
     {
       "name": "Ferebor's Chisel Reforged",
+      "id": 786,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13444,6 +13998,7 @@
     },
     {
       "name": "Blade of the Forgotten Knight Reforged",
+      "id": 787,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13479,6 +14034,7 @@
     },
     {
       "name": "Defiance of the Forgotten Knight Reforged",
+      "id": 788,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13514,6 +14070,7 @@
     },
     {
       "name": "Locket of the Forgotten Knight Reforged",
+      "id": 789,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13549,6 +14106,7 @@
     },
     {
       "name": "Gaspar's Acuity Reforged",
+      "id": 790,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13584,6 +14142,7 @@
     },
     {
       "name": "Gaspar's Insight Reforged",
+      "id": 791,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13619,6 +14178,7 @@
     },
     {
       "name": "Gaspar's Will Reforged",
+      "id": 792,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13654,6 +14214,7 @@
     },
     {
       "name": "Halvar's Pledge Reforged",
+      "id": 793,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13689,6 +14250,7 @@
     },
     {
       "name": "Halvar's Stand Reforged",
+      "id": 794,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13724,6 +14286,7 @@
     },
     {
       "name": "Last Gift of the Mountain Reforged",
+      "id": 795,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13759,6 +14322,7 @@
     },
     {
       "name": "The Invoker's Frozen Heart Reforged",
+      "id": 796,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13794,6 +14358,7 @@
     },
     {
       "name": "The Invoker's Scorching Grasp Reforged",
+      "id": 797,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13829,6 +14394,7 @@
     },
     {
       "name": "The Invoker's Static Touch Reforged",
+      "id": 798,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13864,6 +14430,7 @@
     },
     {
       "name": "Isadora's Revenge Reforged",
+      "id": 799,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13899,6 +14466,7 @@
     },
     {
       "name": "Isadora's Gravechill Reforged",
+      "id": 800,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13934,6 +14502,7 @@
     },
     {
       "name": "Isadora's Tomb Binding Reforged",
+      "id": 801,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -13969,6 +14538,7 @@
     },
     {
       "name": "The Last Bear's Lament Reforged",
+      "id": 802,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14004,6 +14574,7 @@
     },
     {
       "name": "The Last Bear's Scorn Reforged",
+      "id": 803,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14039,6 +14610,7 @@
     },
     {
       "name": "The Last Bear's Fury Reforged",
+      "id": 804,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14074,6 +14646,7 @@
     },
     {
       "name": "Lich's Envy Reforged",
+      "id": 805,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14109,6 +14682,7 @@
     },
     {
       "name": "Lich's Scorn Reforged",
+      "id": 806,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14144,6 +14718,7 @@
     },
     {
       "name": "Pebbles' Bitemarked Sash Reforged",
+      "id": 807,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14179,6 +14754,7 @@
     },
     {
       "name": "Pebbles' Femur Reforged",
+      "id": 808,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14214,6 +14790,7 @@
     },
     {
       "name": "Pebbles' Collar Reforged",
+      "id": 809,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14249,6 +14826,7 @@
     },
     {
       "name": "Ruby Fang Cleaver Reforged",
+      "id": 810,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14284,6 +14862,7 @@
     },
     {
       "name": "Ruby Fang Aegis Reforged",
+      "id": 811,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14319,6 +14898,7 @@
     },
     {
       "name": "Shard of the Shattered Lance Reforged",
+      "id": 812,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14354,6 +14934,7 @@
     },
     {
       "name": "Fragments of the Shattered Lance Reforged",
+      "id": 813,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14389,6 +14970,7 @@
     },
     {
       "name": "Sinathia's Dying Breath Reforged",
+      "id": 814,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14422,6 +15004,7 @@
     },
     {
       "name": "Sinathia's Resurrection Reforged",
+      "id": 815,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14457,6 +15040,7 @@
     },
     {
       "name": "Sunforged Greathelm Reforged",
+      "id": 816,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14492,6 +15076,7 @@
     },
     {
       "name": "Sunforged Cuirass Reforged",
+      "id": 817,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14527,6 +15112,7 @@
     },
     {
       "name": "Sunforged Hammer Reforged",
+      "id": 818,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14562,6 +15148,7 @@
     },
     {
       "name": "Vilatria's Downfall Reforged",
+      "id": 819,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14597,6 +15184,7 @@
     },
     {
       "name": "Vilatria's Storm Crown Reforged",
+      "id": 820,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14632,6 +15220,7 @@
     },
     {
       "name": "Zerrick's Guile Reforged",
+      "id": 821,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14667,6 +15256,7 @@
     },
     {
       "name": "Zerrick's Greed Reforged",
+      "id": 822,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14701,10 +15291,8 @@
       }
     },
     {
-      "name": "Zerrick's Amibition Reforged"
-    },
-    {
       "name": "Ward Per Second and Ward Decay Threshold",
+      "id": 824,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14740,6 +15328,7 @@
     },
     {
       "name": "Added Health and Added Health Regeneration",
+      "id": 825,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -14775,6 +15364,7 @@
     },
     {
       "name": "Increased Damage Over Time and Less Damage Over Time Taken",
+      "id": 826,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14789,6 +15379,7 @@
     },
     {
       "name": "Dodge Rating and Increased Dodge Rating",
+      "id": 827,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14801,6 +15392,7 @@
     },
     {
       "name": "Increased Health Regeneration and Added Health",
+      "id": 828,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14815,6 +15407,7 @@
     },
     {
       "name": "Increased Healing Effectiveness and Added Health",
+      "id": 829,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14829,6 +15422,7 @@
     },
     {
       "name": "Increased Stun Chance and Added Stun Avoidance",
+      "id": 830,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14843,6 +15437,7 @@
     },
     {
       "name": "Damage Reflected and Damage Dealt to Attackers",
+      "id": 839,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14857,6 +15452,7 @@
     },
     {
       "name": "Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance",
+      "id": 841,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14871,6 +15467,7 @@
     },
     {
       "name": "Armor and Increased Armor",
+      "id": 842,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14883,6 +15480,7 @@
     },
     {
       "name": "Mana and Increased Mana Regen",
+      "id": 843,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14897,6 +15495,7 @@
     },
     {
       "name": "Added Stun Avoidance and Increased Stun Immunity Duration",
+      "id": 844,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14911,6 +15510,7 @@
     },
     {
       "name": "Ward and Ward Decay Threshold on Potion Use",
+      "id": 845,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14925,6 +15525,7 @@
     },
     {
       "name": "Ward Retention and Ward Per Second",
+      "id": 846,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14939,6 +15540,7 @@
     },
     {
       "name": "Health and Added Health Regeneration",
+      "id": 853,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14953,6 +15555,7 @@
     },
     {
       "name": "Health and Mana",
+      "id": 854,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14967,6 +15570,7 @@
     },
     {
       "name": "Endurance and Endurance Threshold",
+      "id": 856,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14981,6 +15585,7 @@
     },
     {
       "name": "Increased Chance to Find Potions and Health Gained on Potion Use",
+      "id": 857,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -14995,6 +15600,7 @@
     },
     {
       "name": "Chance to Inflict Bleed on Hit and Physical Penetration with Bleed",
+      "id": 858,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15009,6 +15615,7 @@
     },
     {
       "name": "Chance to Poison on Hit and Poison Penetration with Poison",
+      "id": 859,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15023,6 +15630,7 @@
     },
     {
       "name": "Health on Kill and Added Health",
+      "id": 860,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15037,6 +15645,7 @@
     },
     {
       "name": "Increased Stun Duration and Increased Stun Chance",
+      "id": 861,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15051,6 +15660,7 @@
     },
     {
       "name": "Vitality and Added Health Regen",
+      "id": 862,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15065,6 +15675,7 @@
     },
     {
       "name": "Added Bow Damage and Increased Bow Damage",
+      "id": 871,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15077,6 +15688,7 @@
     },
     {
       "name": "Added Melee Damage and Increased Melee Damage",
+      "id": 872,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15089,6 +15701,7 @@
     },
     {
       "name": "Added Throwing Damage and Increased Throwing Damage",
+      "id": 873,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15101,6 +15714,7 @@
     },
     {
       "name": "Added Spell Damage and Increased Spell Damage",
+      "id": 874,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15113,6 +15727,7 @@
     },
     {
       "name": "Chance to Gain 30 Ward When Hit and Ward Decay Threshold",
+      "id": 875,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15127,6 +15742,7 @@
     },
     {
       "name": "Chance to Ignite on Hit and Fire Penetration with Ignite",
+      "id": 876,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15141,6 +15757,7 @@
     },
     {
       "name": "Chance to Shock on Hit and Increased Shock Duration",
+      "id": 877,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15155,6 +15772,7 @@
     },
     {
       "name": "Increased Critical Strike Chance and Critical Strike Multiplier",
+      "id": 878,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15169,6 +15787,7 @@
     },
     {
       "name": "Freeze Rate Multiplier and Ward when you Freeze an Enemy",
+      "id": 879,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15183,6 +15802,7 @@
     },
     {
       "name": "Health on Kill and Increased Health",
+      "id": 880,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15197,6 +15817,7 @@
     },
     {
       "name": "Potion Health Converted to Ward and Ward Gained on Potion use",
+      "id": 881,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15211,6 +15832,7 @@
     },
     {
       "name": "Added Block Effectiveness and Health Gained on Block",
+      "id": 889,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15225,6 +15847,7 @@
     },
     {
       "name": "Ward Per Second and Ward Retention",
+      "id": 890,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15239,6 +15862,7 @@
     },
     {
       "name": "Increased Damage Over Time and Chance to Apply Frailty on Hit",
+      "id": 891,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -15253,6 +15877,7 @@
     },
     {
       "name": "Increased Critical Strike Chance and Added Critical Strike Multiplier",
+      "id": 892,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15285,6 +15910,7 @@
     },
     {
       "name": "Increased Cooldown Recovery Speed and Increased Mana Regeneration",
+      "id": 893,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15317,6 +15943,7 @@
     },
     {
       "name": "Increased Movement Speed and Increased Damage",
+      "id": 894,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15349,6 +15976,7 @@
     },
     {
       "name": "Increased Armor and Reduced bonus damage taken from critical hits",
+      "id": 895,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15381,6 +16009,7 @@
     },
     {
       "name": "Added Dodge rating if you have been hit recently and Critical Strike Avoidance",
+      "id": 896,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15413,6 +16042,7 @@
     },
     {
       "name": "Ward decay threshold and Ward per second",
+      "id": 897,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15445,6 +16075,7 @@
     },
     {
       "name": "Chance to not consume Potion on use and Ward gained on potion use",
+      "id": 898,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15477,6 +16108,7 @@
     },
     {
       "name": "Increased damage over time and Endurance",
+      "id": 899,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15509,6 +16141,7 @@
     },
     {
       "name": "Added Spell Damage while wielding a Staff Ward per second while wielding a Staff",
+      "id": 900,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15541,6 +16174,7 @@
     },
     {
       "name": "Frostbite Duration and Frostbite chance with Cold Skills",
+      "id": 901,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15573,6 +16207,7 @@
     },
     {
       "name": "Elemental Damage over Time and Increased Fire Aura Area",
+      "id": 902,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15605,6 +16240,7 @@
     },
     {
       "name": "Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area",
+      "id": 903,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15637,6 +16273,7 @@
     },
     {
       "name": "Ward Gained when you use Enchant Weapon and Increased Melee Elemental Damage",
+      "id": 904,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15669,6 +16306,7 @@
     },
     {
       "name": "Increased mana regen and Damage Dealt to mana",
+      "id": 905,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15701,6 +16339,7 @@
     },
     {
       "name": "Ward Decay Threshold and Ward Gained on Evade",
+      "id": 906,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15733,6 +16372,7 @@
     },
     {
       "name": "Frenzy Effect and Increased Melee damage while you have frenzy",
+      "id": 908,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15765,6 +16405,7 @@
     },
     {
       "name": "Increased Totem Damage and Totem Teleportation on Traversal",
+      "id": 910,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15797,6 +16438,7 @@
     },
     {
       "name": "Increased Movement Speed while transformed and Haste after you transform",
+      "id": 911,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15829,6 +16471,7 @@
     },
     {
       "name": "Melee Damage and Spell Damage",
+      "id": 912,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15861,6 +16504,7 @@
     },
     {
       "name": "Shock duration and Endurance threshold against shocked enemies",
+      "id": 913,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15893,6 +16537,7 @@
     },
     {
       "name": "Chance to apply Electrify on hit with Lightning Skills and Lightning Pen with Electrify",
+      "id": 917,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15925,6 +16570,7 @@
     },
     {
       "name": "Electrify Duration and Leech with elemental damage over time",
+      "id": 918,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15957,6 +16603,7 @@
     },
     {
       "name": "Increased Healing Effectiveness and Added health",
+      "id": 919,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -15989,6 +16636,7 @@
     },
     {
       "name": "Increased Echo damage and Chance to gain frenzy for 3 seconds on echo",
+      "id": 920,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16021,6 +16669,7 @@
     },
     {
       "name": "Increased Armor and Armor Applies to DoTs",
+      "id": 921,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16053,6 +16702,7 @@
     },
     {
       "name": "Added spell damage with a shield and Added spell damage with a 2h axe",
+      "id": 922,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16085,6 +16735,7 @@
     },
     {
       "name": "Less damage over time taken while using a shield and Health gained on block",
+      "id": 923,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16117,6 +16768,7 @@
     },
     {
       "name": "Increased Poison Duration and Seconds of Frenzy When you gain Poison Overload",
+      "id": 924,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16149,6 +16801,7 @@
     },
     {
       "name": "Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap",
+      "id": 930,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16181,6 +16834,7 @@
     },
     {
       "name": "Crimson Shroud duration and additional bleed chance per crimson shroud",
+      "id": 931,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16213,6 +16867,7 @@
     },
     {
       "name": "Silver Shroud duration and Ward granted per silver shroud",
+      "id": 932,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16245,6 +16900,7 @@
     },
     {
       "name": "Glancing Blow chance and Increased Dodge Rating",
+      "id": 933,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16277,6 +16933,7 @@
     },
     {
       "name": "Increased Throwing Damage and Increased Damage while Dual Wielding",
+      "id": 934,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16309,6 +16966,7 @@
     },
     {
       "name": "Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks",
+      "id": 935,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16341,6 +16999,7 @@
     },
     {
       "name": "Haste Effect and Haste duration on Evade",
+      "id": 936,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16373,6 +17032,7 @@
     },
     {
       "name": "Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown)",
+      "id": 937,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16405,6 +17065,7 @@
     },
     {
       "name": "Physical Resistance and Bleed Duration",
+      "id": 938,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16437,6 +17098,7 @@
     },
     {
       "name": "Fire Resistance and Ignite Duration",
+      "id": 939,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16469,6 +17131,7 @@
     },
     {
       "name": "Chance to not Consume Silver Shrouds when hit and Ward granted per silver shroud",
+      "id": 940,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16501,6 +17164,7 @@
     },
     {
       "name": "Ward Per Second and Increased Health",
+      "id": 941,
       "modificationColumns": {
         "Tier": [
           "Tier 1"
@@ -16515,6 +17179,7 @@
     },
     {
       "name": "Added Melee And Spell Necrotic Damage",
+      "id": 943,
       "modificationColumns": {
         "Tier": [
           "Tier 1",
@@ -16550,6 +17215,7 @@
     },
     {
       "name": "Level of Flay",
+      "id": 944,
       "modificationColumns": {
         "Tier": [
           "Tier 1",

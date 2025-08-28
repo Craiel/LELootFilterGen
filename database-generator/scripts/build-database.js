@@ -626,6 +626,7 @@ class DatabaseBuilder {
               if (!existingEntry || existingEntry === null) {
                 // Fill unfilled template with HTML data
                 this.gameData.uniques.set(templateId, {
+                  id: templateId,
                   name: uniqueItem.name,
                   desc: uniqueItem.lore || '',
                   props: {
@@ -639,6 +640,7 @@ class DatabaseBuilder {
                 });
               } else if (typeof existingEntry === 'object' && existingEntry.name) {
                 // Enhance existing template with additional data
+                existingEntry.id = templateId; // Ensure ID is set
                 existingEntry.desc = uniqueItem.lore || existingEntry.desc;
                 existingEntry.props = {
                   ...existingEntry.props,
@@ -783,6 +785,7 @@ class DatabaseBuilder {
               if (!existingEntry || existingEntry === null) {
                 // Fill unfilled template with HTML data
                 this.gameData.sets.set(templateId, {
+                  id: templateId,
                   name: setItem.name,
                   desc: setItem.lore || '',
                   props: {
@@ -798,6 +801,7 @@ class DatabaseBuilder {
                 });
               } else if (typeof existingEntry === 'object' && existingEntry.name) {
                 // Enhance existing template with additional data
+                existingEntry.id = templateId; // Ensure ID is set
                 existingEntry.desc = setItem.lore || existingEntry.desc;
                 existingEntry.props = {
                   ...existingEntry.props,
@@ -918,6 +922,7 @@ class DatabaseBuilder {
           if (!existingEntry || existingEntry === null) {
             // Fill unfilled template with HTML data - only include properties we have reliable data for
             const affixData = {
+              id: templateId,
               name: affix.name,
               modificationColumns: affix.modificationColumns || [],
               isIdolAffix: affix.isIdolAffix
@@ -931,6 +936,7 @@ class DatabaseBuilder {
             this.gameData.affixes.set(templateId, affixData);
           } else if (typeof existingEntry === 'object' && existingEntry.name) {
             // Enhance existing template with additional data - only include reliable properties
+            existingEntry.id = templateId; // Ensure ID is set
             if (affix.description && affix.description.trim().length > 0) {
               existingEntry.desc = affix.description.trim();
             }
@@ -1392,9 +1398,9 @@ class DatabaseBuilder {
         id: unique.id,
         name: unique.name,
         desc: unique.desc || '',
-        baseType: unique.baseType || '',
-        category: unique.category || '',
-        classRequirement: unique.classRequirement || ''
+        baseType: unique.props?.baseType || '',
+        category: unique.props?.category || '',
+        classRequirement: unique.props?.classRequirement || ''
       });
     }
     
@@ -1582,7 +1588,9 @@ class DatabaseBuilder {
         const filename = `${cleanName}.json`;
         const filePath = path.join(uniqueItemsDir, filename);
         
-        await fs.writeJson(filePath, uniqueItem, { spaces: 2 });
+        // Remove web-source hash ID and save clean unique item data
+        const { id, ...cleanUniqueItem } = uniqueItem;
+        await fs.writeJson(filePath, cleanUniqueItem, { spaces: 2 });
         savedCount++;
         
       } catch (error) {
