@@ -427,24 +427,27 @@ This analysis reveals that successful filter generation for advanced players req
 #### Organized File Structure
 ```
 Data/
-├── game-database.jsonl          # Main database (legacy)
-├── Prefixes/                    # 683 individual affix files with tier data
-├── Suffixes/                    # 263 individual affix files  
-├── UniqueItems/                 # 440 unique item files
+├── Prefixes/                    # 683+ individual affix files with tier data
+├── Suffixes/                    # 263+ individual affix files  
 ├── Skills/                      # Class-organized skill files
-├── indexes/                     # O(1) lookup indexes ✅ NEW
+├── indexes/                     # O(1) lookup indexes ✅ AVAILABLE
 │   ├── id-lookup.json          # Fast ID-based lookups
 │   ├── tags-index.json         # Tag-based filtering  
 │   └── mechanics-index.json    # Game mechanics relationships
+├── ailments.json                # Game ailment data
+├── colors-sounds-beams.json     # UI appearance data  
+├── monsters.json                # Monster/enemy data
+├── set-data.json                # Set item information
+├── unique-items-overview.json   # Unique item summary
 └── database-index.json         # Master index with stats
 ```
 
 ### Efficient Data Access Patterns
 
 #### For Analysis Tasks
-**Old Method** (inefficient):
+**Old Method** (no longer available):
 ```bash
-grep '"id":28,' game-database.jsonl  # Slow text search
+grep '"id":28,' game-database.jsonl  # ❌ File no longer exists
 ```
 
 **New Method** (optimized):

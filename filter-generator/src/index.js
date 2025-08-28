@@ -45,32 +45,34 @@ program
     console.log('⚡ Generating loot filter...');
     
     try {
-      // Check if database exists
-      const databasePath = path.join(__dirname, '../Data/game-database.jsonl');
-      if (!await fs.pathExists(databasePath)) {
+      // Check if database exists (new structure)
+      const dataDir = path.join(__dirname, '../Data');
+      const databaseIndexPath = path.join(dataDir, 'database-index.json');
+      const prefixesDir = path.join(dataDir, 'Prefixes');
+      const suffixesDir = path.join(dataDir, 'Suffixes');
+      
+      if (!await fs.pathExists(databaseIndexPath) || !await fs.pathExists(prefixesDir) || !await fs.pathExists(suffixesDir)) {
         console.error('❌ Database not found. Please build it first:');
         console.error('   cd ../database-generator && npm run build');
         process.exit(1);
       }
 
-      // Read database header to show available data
-      const databaseContent = await fs.readFile(databasePath, 'utf8');
-      const firstLine = databaseContent.split('\n')[0].trim();
+      // Read database metadata
+      const databaseIndex = JSON.parse(await fs.readFile(databaseIndexPath, 'utf8'));
+      const versionFile = path.join(dataDir, 'database-version.json');
+      let versionInfo = { gameVersion: 'unknown', buildDate: 'unknown' };
       
-      if (!firstLine || firstLine === '{') {
-        console.error('❌ Database file appears incomplete or corrupted.');
-        console.error('   Please rebuild it: cd ../database-generator && npm run build');
-        process.exit(1);
+      if (await fs.pathExists(versionFile)) {
+        versionInfo = JSON.parse(await fs.readFile(versionFile, 'utf8'));
       }
       
-      const metadata = JSON.parse(firstLine);
-      
-      console.log('✅ Database found:', metadata.version);
+      console.log('✅ Database found:', versionInfo.gameVersion);
       console.log('📊 Available data:', {
-        affixes: metadata.stats.affixes,
-        uniqueItems: metadata.stats.uniqueItems,
-        setItems: metadata.stats.setItems,
-        skills: metadata.stats.skills
+        prefixes: databaseIndex.prefixes || 0,
+        suffixes: databaseIndex.suffixes || 0,
+        uniqueItems: databaseIndex.uniqueItems || 0,
+        skills: databaseIndex.skills || 0,
+        buildDate: versionInfo.buildDate
       });
       
       console.log('');
@@ -194,24 +196,31 @@ program
       console.log(`   ${exists ? '✅' : '❌'} ${displayName}`);
     }
     
-    // Check if database exists
-    const databaseFile = 'Data/game-database.jsonl';
-    const dbExists = await fs.pathExists(databaseFile);
-    console.log(`   ${dbExists ? '✅' : '❌'} Database file (game-database.jsonl)`);
+    // Check if database exists (new structure)
+    const databaseIndexFile = 'Data/database-index.json';
+    const prefixesDir = 'Data/Prefixes';
+    const suffixesDir = 'Data/Suffixes';
+    const dbIndexExists = await fs.pathExists(databaseIndexFile);
+    const prefixesDirExists = await fs.pathExists(prefixesDir);
+    const suffixesDirExists = await fs.pathExists(suffixesDir);
+    
+    const dbExists = dbIndexExists && prefixesDirExists && suffixesDirExists;
+    console.log(`   ${dbExists ? '✅' : '❌'} Database (structured format)`);
     
     if (dbExists) {
       try {
-        const content = await fs.readFile(databaseFile, 'utf8');
-        const firstLine = content.split('\n')[0].trim();
+        const databaseIndex = JSON.parse(await fs.readFile(databaseIndexFile, 'utf8'));
+        const versionFile = 'Data/database-version.json';
+        let versionInfo = { gameVersion: 'unknown' };
         
-        if (!firstLine || firstLine === '{') {
-          console.log('   ⚠️ Database file appears incomplete - please rebuild it');
-        } else {
-          const metadata = JSON.parse(firstLine);
-          console.log(`   📊 Database version: ${metadata.version} (${metadata.stats.affixes + metadata.stats.uniques + metadata.stats.sets} items)`);
+        if (await fs.pathExists(versionFile)) {
+          versionInfo = JSON.parse(await fs.readFile(versionFile, 'utf8'));
         }
+        
+        const totalItems = (databaseIndex.prefixes || 0) + (databaseIndex.suffixes || 0) + (databaseIndex.uniqueItems || 0);
+        console.log(`   📊 Database version: ${versionInfo.gameVersion} (${totalItems} items)`);
       } catch (error) {
-        console.log('   ⚠️ Database file exists but could not read metadata');
+        console.log('   ⚠️ Database exists but could not read metadata');
       }
     }
     

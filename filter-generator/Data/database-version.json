@@ -1,7 +1,14 @@
 {
   "gameVersion": "1.3.0.4",
-  "buildDate": "2025-08-27T16:01:16.153Z",
+  "buildDate": "2025-08-27T17:45:02.206Z",
   "templateCount": 24,
-  "databaseFile": "game-database.jsonl",
-  "format": "jsonl"
+  "specializedFiles": [
+    "colors-sounds-beams.json",
+    "global-tags.json",
+    "idol-affixes.json",
+    "item-affixes.json",
+    "unique-items-overview.json",
+    "set-data.json"
+  ],
+  "format": "specialized-json"
 }

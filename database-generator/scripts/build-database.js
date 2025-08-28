@@ -21,7 +21,6 @@ const TEMPLATE_DIR = path.join(__dirname, '..', 'TemplateFilters');
 const DATA_DIR = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
 const OVERRIDES_DIR = path.join(__dirname, '..', 'Overrides');
 const WEB_DATA_DIR = path.join(__dirname, '..', 'WebData');
-const OUTPUT_FILE = path.join(DATA_DIR, 'game-database.jsonl');
 const VERSION_FILE = path.join(DATA_DIR, 'database-version.json');
 const LOG_FILE = path.join(DATA_DIR, 'build.log');
 const VALIDATION_REPORT_FILE = path.join(DATA_DIR, 'validation-report.txt');
@@ -137,18 +136,30 @@ class DatabaseBuilder {
   async shouldSkipBuild() {
     try {
       const versionInfo = await fs.readJson(VERSION_FILE);
-      const dbExists = await fs.pathExists(OUTPUT_FILE);
+      // Check if any of the core specialized files exist
+      const specializedFiles = [
+        path.join(DATA_DIR, 'colors-sounds-beams.json'),
+        path.join(DATA_DIR, 'global-tags.json'),
+        path.join(DATA_DIR, 'idol-affixes.json'),
+        path.join(DATA_DIR, 'item-affixes.json'),
+        path.join(DATA_DIR, 'unique-items-overview.json'),
+        path.join(DATA_DIR, 'set-data.json')
+      ];
       
-      if (!dbExists) return false;
+      const allFilesExist = await Promise.all(
+        specializedFiles.map(file => fs.pathExists(file))
+      );
       
-      // Check if template files or overrides are newer than database
-      const dbStats = await fs.stat(OUTPUT_FILE);
+      if (!allFilesExist.every(exists => exists)) return false;
+      
+      // Check if template files or overrides are newer than the version file
+      const versionStats = await fs.stat(VERSION_FILE);
       const templateTime = await this.getNewestTemplateTime();
       const overrideTime = await this.getNewestOverrideTime();
       
       const newestSourceTime = new Date(Math.max(templateTime.getTime(), overrideTime.getTime()));
       
-      return newestSourceTime <= dbStats.mtime;
+      return newestSourceTime <= versionStats.mtime;
     } catch {
       return false; // Rebuild if version info is missing or corrupted
     }
@@ -1278,31 +1289,24 @@ class DatabaseBuilder {
   }
 
   /**
-   * Build final database in condensed, git-friendly format
+   * Build final database in multiple specialized files for better performance
    */
   async buildDatabase() {
-    const lines = [];
-    
-    // Add metadata header (single line for JSONL format)
-    lines.push(JSON.stringify({
-      version: this.gameData.version,
-      buildDate: this.gameData.buildDate,
-      stats: {
-        affixes: this.gameData.affixes.size,
-        uniques: this.gameData.uniques.size,
-        sets: this.gameData.sets.size,
-        subtypes: this.gameData.subtypes.size,
-        globalTags: this.gameData.globalTags.size,
-        overrides: this.gameData.statistics.overridesApplied,
-        discovered: this.countDiscoveredItems()
-      }
-    }));
-    
-    // Add reference data (formatted for readability)
+    // Create separate files for different data types
+    await this.createColorsReferenceData();
+    await this.createGlobalTagsData();
+    await this.createAffixData();
+    await this.createUniqueItemsOverview();
+    await this.createSetData();
+  }
+
+  /**
+   * Create colors, sounds, and beams reference file
+   */
+  async createColorsReferenceData() {
     const colors = {};
     const sounds = {};
     const beams = {};
-    const globalTags = Array.from(this.gameData.globalTags).sort();
     
     for (const [id, name] of this.gameData.colors) {
       colors[id] = name;
@@ -1314,65 +1318,114 @@ class DatabaseBuilder {
       beams[id] = name;
     }
     
-    lines.push(JSON.stringify({ colors, sounds, beams, globalTags }, null, 2));
+    const referenceData = { colors, sounds, beams };
+    const filePath = path.join(DATA_DIR, 'colors-sounds-beams.json');
+    await fs.writeJson(filePath, referenceData, { spaces: 2 });
+    this.logger.info(`💾 Saved reference data to: ${filePath}`);
+  }
+
+  /**
+   * Create global tags file
+   */
+  async createGlobalTagsData() {
+    const globalTags = Array.from(this.gameData.globalTags).sort();
+    const filePath = path.join(DATA_DIR, 'global-tags.json');
+    await fs.writeJson(filePath, { globalTags }, { spaces: 2 });
+    this.logger.info(`💾 Saved global tags to: ${filePath}`);
+  }
+
+  /**
+   * Create separate affix files for idols vs items
+   */
+  async createAffixData() {
+    const idolAffixes = [];
+    const itemAffixes = [];
     
-    // Add game data (sorted by ID for consistent diffs)
-    const gameDataTypes = [
-      { prefix: 'affix', data: this.gameData.affixes, typeName: 'affixes' },
-      { prefix: 'unique', data: this.gameData.uniques, typeName: 'uniques' },
-      { prefix: 'set', data: this.gameData.sets, typeName: 'sets' },
-      { prefix: 'subtype', data: this.gameData.subtypes, typeName: 'subtypes', sortBy: 'order' }
-    ];
+    // Sort affixes by ID for consistent output
+    const sortedAffixes = Array.from(this.gameData.affixes.values())
+      .sort((a, b) => {
+        const aId = parseInt(a.id) || 0;
+        const bId = parseInt(b.id) || 0;
+        return aId - bId;
+      });
     
-    for (const { prefix, data, typeName, sortBy } of gameDataTypes) {
-      let sortedEntries;
-      if (sortBy === 'order') {
-        // Sort subtypes by order (descending to match game order)
-        sortedEntries = Array.from(data.entries()).sort(([,a], [,b]) => (b.order || 0) - (a.order || 0));
+    // Split affixes by type and remove isIdolAffix property
+    for (const affix of sortedAffixes) {
+      const cleanAffix = { ...affix };
+      delete cleanAffix.isIdolAffix; // Remove property since we're splitting by files
+      
+      if (affix.isIdolAffix) {
+        idolAffixes.push(cleanAffix);
       } else {
-        // Sort by ID (numeric)
-        sortedEntries = Array.from(data.entries()).sort(([a], [b]) => a - b);
+        itemAffixes.push(cleanAffix);
       }
-      
-      // Add section header comment
-      lines.push(`// ${typeName.charAt(0).toUpperCase() + typeName.slice(1)} data`);
-      
-      const discoveredCount = sortedEntries.filter(([, entry]) => entry && typeof entry === 'object' && entry.name).length;
-      const missingCount = sortedEntries.filter(([, entry]) => entry === null).length;
-      
-      lines.push(`// Discovered: ${discoveredCount}, Missing: ${missingCount}, Total: ${sortedEntries.length}`);
-      
-      for (const [id, entry] of sortedEntries) {
-        if (entry === null) {
-          // Include missing entries for visibility
-          lines.push(JSON.stringify({ [prefix]: id, missing: true }));
-        } else if (typeof entry === 'object') {
-          // Clean up the entry - remove empty/undefined fields
-          const compactEntry = { [prefix]: id };
-          if (entry.name) compactEntry.name = entry.name;
-          if (entry.desc) compactEntry.desc = entry.desc;
-          if (entry.props && Object.keys(entry.props).length > 0) compactEntry.props = entry.props;
-          if (typeName === 'affixes' && entry.isIdolAffix !== undefined) compactEntry.isIdolAffix = entry.isIdolAffix;
-          if (typeName === 'subtypes') {
-            if (entry.displayName) compactEntry.displayName = entry.displayName;
-            if (entry.equipmentType) compactEntry.equipmentType = entry.equipmentType;
-            if (entry.order !== undefined) compactEntry.order = entry.order;
-          }
-          
-          lines.push(JSON.stringify(compactEntry));
-        }
-      }
-      
-      lines.push(''); // Add blank line between sections
     }
     
-    // Write as JSONL (JSON Lines) format for git-friendly diffs
-    await fs.writeFile(OUTPUT_FILE, lines.join('\n'));
+    // Save idol affixes
+    const idolFilePath = path.join(DATA_DIR, 'idol-affixes.json');
+    await fs.writeJson(idolFilePath, { affixes: idolAffixes }, { spaces: 2 });
+    this.logger.info(`💾 Saved ${idolAffixes.length} idol affixes to: ${idolFilePath}`);
     
-    this.logger.info(`💾 Database saved to: ${OUTPUT_FILE}`);
-    console.log(`💾 Database saved to: ${OUTPUT_FILE}`);
-    
+    // Save item affixes
+    const itemFilePath = path.join(DATA_DIR, 'item-affixes.json');
+    await fs.writeJson(itemFilePath, { affixes: itemAffixes }, { spaces: 2 });
+    this.logger.info(`💾 Saved ${itemAffixes.length} item affixes to: ${itemFilePath}`);
   }
+
+  /**
+   * Create unique items overview with minimal data
+   */
+  async createUniqueItemsOverview() {
+    const uniqueItems = [];
+    
+    // Sort by ID for consistent output
+    const sortedUniques = Array.from(this.gameData.uniques.values())
+      .sort((a, b) => {
+        const aId = parseInt(a.id) || 0;
+        const bId = parseInt(b.id) || 0;
+        return aId - bId;
+      });
+    
+    // Extract only essential data
+    for (const unique of sortedUniques) {
+      uniqueItems.push({
+        id: unique.id,
+        name: unique.name,
+        desc: unique.desc || '',
+        baseType: unique.baseType || '',
+        category: unique.category || '',
+        classRequirement: unique.classRequirement || ''
+      });
+    }
+    
+    const filePath = path.join(DATA_DIR, 'unique-items-overview.json');
+    await fs.writeJson(filePath, { uniques: uniqueItems }, { spaces: 2 });
+    this.logger.info(`💾 Saved ${uniqueItems.length} unique items overview to: ${filePath}`);
+  }
+
+  /**
+   * Create set data file
+   */
+  async createSetData() {
+    const sets = [];
+    
+    // Sort by ID for consistent output
+    const sortedSets = Array.from(this.gameData.sets.values())
+      .sort((a, b) => {
+        const aId = parseInt(a.id) || 0;
+        const bId = parseInt(b.id) || 0;
+        return aId - bId;
+      });
+    
+    for (const set of sortedSets) {
+      sets.push(set);
+    }
+    
+    const filePath = path.join(DATA_DIR, 'set-data.json');
+    await fs.writeJson(filePath, { sets }, { spaces: 2 });
+    this.logger.info(`💾 Saved ${sets.length} sets to: ${filePath}`);
+  }
+
 
 
   /**
@@ -1383,8 +1436,8 @@ class DatabaseBuilder {
       gameVersion: this.gameData.version,
       buildDate: this.gameData.buildDate,
       templateCount: this.gameData.statistics.parsedFiles,
-      databaseFile: path.basename(OUTPUT_FILE),
-      format: 'jsonl'
+      specializedFiles: ['colors-sounds-beams.json', 'global-tags.json', 'idol-affixes.json', 'item-affixes.json', 'unique-items-overview.json', 'set-data.json'],
+      format: 'specialized-json'
     };
     
     await fs.writeJson(VERSION_FILE, versionInfo, { spaces: 2 });

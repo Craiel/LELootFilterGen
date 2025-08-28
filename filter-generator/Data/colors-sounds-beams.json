@@ -1,0 +1,47 @@
+{
+  "colors": {
+    "0": "White",
+    "1": "Grey",
+    "2": "Lime",
+    "3": "Yellow",
+    "4": "Light Orange",
+    "5": "Orange",
+    "6": "Light Red",
+    "7": "Red",
+    "8": "Pink",
+    "9": "Hot Pink",
+    "10": "Purple",
+    "11": "Light Purple",
+    "12": "Blue",
+    "13": "Light Blue",
+    "14": "Cyan",
+    "15": "Aqua",
+    "16": "Green",
+    "17": "Dark Green"
+  },
+  "sounds": {
+    "0": "Default",
+    "1": "None",
+    "2": "Shing",
+    "3": "Shaker",
+    "4": "Zap",
+    "5": "Drum",
+    "6": "Begin",
+    "7": "Fight",
+    "8": "Discovery",
+    "9": "Inspiration",
+    "10": "Anvil"
+  },
+  "beams": {
+    "0": "Default",
+    "1": "None",
+    "2": "Rare",
+    "3": "Unique",
+    "4": "Set",
+    "5": "Legendary",
+    "6": "Key",
+    "7": "Exalted",
+    "8": "Golden",
+    "9": "Obsidian"
+  }
+}

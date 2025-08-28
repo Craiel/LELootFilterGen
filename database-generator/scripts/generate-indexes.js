@@ -16,7 +16,13 @@ const readline = require('readline');
 
 const DATA_DIR = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
 const INDEXES_DIR = path.join(DATA_DIR, 'indexes');
-const DATABASE_FILE = path.join(DATA_DIR, 'game-database.jsonl');
+// Specialized database files
+const IDOL_AFFIXES_FILE = path.join(DATA_DIR, 'idol-affixes.json');
+const ITEM_AFFIXES_FILE = path.join(DATA_DIR, 'item-affixes.json');
+const UNIQUE_ITEMS_OVERVIEW_FILE = path.join(DATA_DIR, 'unique-items-overview.json');
+const SET_DATA_FILE = path.join(DATA_DIR, 'set-data.json');
+const COLORS_SOUNDS_BEAMS_FILE = path.join(DATA_DIR, 'colors-sounds-beams.json');
+const GLOBAL_TAGS_FILE = path.join(DATA_DIR, 'global-tags.json');
 const UNIQUE_ITEMS_DIR = path.join(DATA_DIR, 'UniqueItems');
 const SKILLS_DIR = path.join(DATA_DIR, 'Skills');
 const AILMENTS_FILE = path.join(DATA_DIR, 'ailments.json');
@@ -60,8 +66,8 @@ class IndexGenerator {
       console.log('\n📚 Loading database data...');
       await this.loadDatabaseData();
       
-      console.log('🔍 Loading unique items...');
-      await this.loadUniqueItems();
+      console.log('🔍 Loading detailed unique items data...');
+      await this.loadDetailedUniqueItems();
       
       console.log('🎯 Loading skills...');
       await this.loadSkills();
@@ -94,98 +100,97 @@ class IndexGenerator {
   }
 
   /**
-   * Load main database file (JSONL format)
+   * Load database data from specialized JSON files
    */
   async loadDatabaseData() {
-    const content = await fs.readFile(DATABASE_FILE, 'utf8');
-    const lines = content.split('\n');
+    let totalLoaded = 0;
     
-    let objectCount = 0;
-    let inMultiLineObject = false;
-    let currentJson = '';
-    
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
-      
-      if (!line) continue;
-      
-      // Check if this line is a complete JSON object (single line)
-      if (line.startsWith('{') && line.endsWith('}')) {
-        try {
-          const data = JSON.parse(line);
-          this.processDataObject(data, objectCount);
-          objectCount++;
-        } catch (error) {
-          console.warn(`⚠️  Failed to parse single-line JSON: ${error.message}`);
-        }
-      }
-      // Start of multi-line JSON object
-      else if (line.startsWith('{') && !line.endsWith('}')) {
-        inMultiLineObject = true;
-        currentJson = line;
-      }
-      // End of multi-line JSON object
-      else if (inMultiLineObject && line.endsWith('}')) {
-        currentJson += line;
-        
-        try {
-          const data = JSON.parse(currentJson);
-          this.processDataObject(data, objectCount);
-          objectCount++;
-        } catch (error) {
-          console.warn(`⚠️  Failed to parse multi-line JSON: ${error.message}`);
-        }
-        
-        inMultiLineObject = false;
-        currentJson = '';
-      }
-      // Middle lines of multi-line JSON object
-      else if (inMultiLineObject) {
-        currentJson += line;
+    // Load idol affixes
+    if (await fs.pathExists(IDOL_AFFIXES_FILE)) {
+      const idolData = await fs.readJson(IDOL_AFFIXES_FILE);
+      for (let i = 0; i < idolData.affixes.length; i++) {
+        const affix = idolData.affixes[i];
+        // Generate a unique ID if one doesn't exist
+        const affixId = affix.id || `idol_affix_${i}`;
+        this.data.affixes.set(affixId, { ...affix, id: affixId, type: 'affix', isIdolAffix: true });
+        totalLoaded++;
       }
     }
     
-    console.log(`   ✅ Loaded ${this.data.affixes.size} affixes and ${this.data.sets.size} sets`);
+    // Load item affixes
+    if (await fs.pathExists(ITEM_AFFIXES_FILE)) {
+      const itemData = await fs.readJson(ITEM_AFFIXES_FILE);
+      for (let i = 0; i < itemData.affixes.length; i++) {
+        const affix = itemData.affixes[i];
+        // Generate a unique ID if one doesn't exist
+        const affixId = affix.id || `item_affix_${i}`;
+        this.data.affixes.set(affixId, { ...affix, id: affixId, type: 'affix', isIdolAffix: false });
+        totalLoaded++;
+      }
+    }
+    
+    // Load unique items overview
+    if (await fs.pathExists(UNIQUE_ITEMS_OVERVIEW_FILE)) {
+      const uniqueData = await fs.readJson(UNIQUE_ITEMS_OVERVIEW_FILE);
+      for (let i = 0; i < (uniqueData.uniques || []).length; i++) {
+        const unique = uniqueData.uniques[i];
+        // Generate a unique ID if one doesn't exist (use name as fallback)
+        const uniqueId = unique.id || unique.name || `unique_${i}`;
+        this.data.uniques.set(uniqueId, { ...unique, id: uniqueId, type: 'unique' });
+        totalLoaded++;
+      }
+    }
+    
+    // Load set data
+    if (await fs.pathExists(SET_DATA_FILE)) {
+      const setData = await fs.readJson(SET_DATA_FILE);
+      for (let i = 0; i < (setData.sets || []).length; i++) {
+        const set = setData.sets[i];
+        // Generate a unique ID if one doesn't exist (use name as fallback)
+        const setId = set.id || set.name || `set_${i}`;
+        this.data.sets.set(setId, { ...set, id: setId, type: 'set' });
+        totalLoaded++;
+      }
+    }
+    
+    // Load colors, sounds, beams
+    if (await fs.pathExists(COLORS_SOUNDS_BEAMS_FILE)) {
+      const refData = await fs.readJson(COLORS_SOUNDS_BEAMS_FILE);
+      this.data.colors = refData.colors;
+      this.data.sounds = refData.sounds;
+      this.data.beams = refData.beams;
+    }
+    
+    // Load global tags
+    if (await fs.pathExists(GLOBAL_TAGS_FILE)) {
+      const tagsData = await fs.readJson(GLOBAL_TAGS_FILE);
+      this.data.globalTags = tagsData.globalTags;
+    }
+    
+    console.log(`   ✅ Loaded ${this.data.affixes.size} affixes, ${this.data.uniques.size} uniques, and ${this.data.sets.size} sets`);
   }
 
-  processDataObject(data, objectCount) {
-    // First object contains metadata
-    if (objectCount === 0) {
-      this.data.version = data.version;
-      this.data.buildDate = data.buildDate;
-      this.data.stats = data.stats;
-    }
-    // Second object contains colors, sounds, beams, globalTags
-    else if (objectCount === 1) {
-      this.data.colors = data.colors || {};
-      this.data.sounds = data.sounds || {};
-      this.data.beams = data.beams || {};  
-      this.data.globalTags = data.globalTags || [];
-    }
-    // Subsequent objects contain affixes and sets
-    else {
-      if (data.affix !== undefined) {
-        this.data.affixes.set(data.affix.toString(), data);
-      } else if (data.set !== undefined) {
-        this.data.sets.set(data.set.toString(), data);
-      }
-    }
-  }
 
   /**
-   * Load all unique items
+   * Load detailed unique items data (if needed for indexing)
    */
-  async loadUniqueItems() {
+  async loadDetailedUniqueItems() {
+    // This loads full details from individual files if needed for detailed indexing
+    // The overview data loaded in loadDatabaseData() has basic info for most use cases
     const files = await fs.readdir(UNIQUE_ITEMS_DIR);
     const jsonFiles = files.filter(f => f.endsWith('.json'));
     
     for (const file of jsonFiles) {
       const filePath = path.join(UNIQUE_ITEMS_DIR, file);
       const data = await fs.readJson(filePath);
-      this.data.uniques.set(data.id, data);
+      // Enhance existing overview data with detailed data
+      if (this.data.uniques.has(data.id)) {
+        const existing = this.data.uniques.get(data.id);
+        this.data.uniques.set(data.id, { ...existing, ...data, type: 'unique' });
+      }
     }
     
-    console.log(`   ✅ Loaded ${this.data.uniques.size} unique items`);
+    console.log(`   ✅ Enhanced ${this.data.uniques.size} unique items with detailed data`);
   }
 
   /**
@@ -253,7 +258,8 @@ class IndexGenerator {
   }
 
   /**
-   * Generate ID-based lookup index for O(1) access
+   * Generate lightweight ID-based lookup index for O(1) access
+   * Only includes essential metadata: id, name, type, and key identifiers
    */
   async generateIdLookupIndex() {
     this.indexes.idLookup = {
@@ -265,29 +271,65 @@ class IndexGenerator {
       monsters: {}
     };
     
-    // Convert Maps to objects for JSON serialization
+    // Affixes: only id, name, type, isIdolAffix
     for (const [id, data] of this.data.affixes) {
-      this.indexes.idLookup.affixes[id] = data;
+      this.indexes.idLookup.affixes[id] = {
+        id: data.id,
+        name: data.name,
+        type: data.type,
+        isIdolAffix: data.isIdolAffix
+      };
     }
     
+    // Uniques: only id, name, type, baseType, category, classRequirement
     for (const [id, data] of this.data.uniques) {
-      this.indexes.idLookup.uniques[id] = data;
+      this.indexes.idLookup.uniques[id] = {
+        id: data.id,
+        name: data.name,
+        type: data.type,
+        baseType: data.baseType,
+        category: data.category,
+        classRequirement: data.classRequirement
+      };
     }
     
+    // Sets: only id, name, type
     for (const [id, data] of this.data.sets) {
-      this.indexes.idLookup.sets[id] = data;
+      this.indexes.idLookup.sets[id] = {
+        id: data.id,
+        name: data.name,
+        type: data.type
+      };
     }
     
+    // Skills: only id, name, type, class
     for (const [id, data] of this.data.skills) {
-      this.indexes.idLookup.skills[id] = data;
+      this.indexes.idLookup.skills[id] = {
+        id: data.id,
+        name: data.name,
+        type: data.type,
+        class: data.class || data.mastery
+      };
     }
     
+    // Ailments: only id, name, type, category
     for (const [id, data] of this.data.ailments) {
-      this.indexes.idLookup.ailments[id] = data;
+      this.indexes.idLookup.ailments[id] = {
+        id: data.id,
+        name: data.name,
+        type: data.type,
+        category: data.category
+      };
     }
     
+    // Monsters: only id, name, type, minionType
     for (const [id, data] of this.data.monsters) {
-      this.indexes.idLookup.monsters[id] = data;
+      this.indexes.idLookup.monsters[id] = {
+        id: data.id,
+        name: data.name,
+        type: data.type,
+        minionType: data.type
+      };
     }
     
     // Save to file

@@ -2,7 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-For general Claude best practices and guidelines that apply across all projects, see [Claude Best Practices](D:\Dev\CLAUDE_BEST_PRACTICES.md).
+## Claude Instructions
+
+**CRITICAL: Read and follow [Claude Best Practices](..\..\Claude\CLAUDE_BEST_PRACTICES.md) for all interactions. These are mandatory guidelines that apply to every task unless
+explicitly overridden below.**
 
 ## Project Overview
 
@@ -75,7 +78,7 @@ database-generator/TemplateFilters/ → database-generator/scripts/ → filter-g
 4. Generate structured database in `filter-generator/Data/` with indexes
 
 ### Filter Generator Workflow  
-1. Read database from `filter-generator/Data/game-database.jsonl` (and optimized indexes)
+1. Read database from structured files in `filter-generator/Data/` (individual JSON files and optimized indexes)
 2. Accept class/gameplay description input
 3. Use AI assistance to determine appropriate rules
 4. Generate XML filter with general rules, affix rules, and unique item rules

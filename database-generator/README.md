@@ -42,7 +42,12 @@ npm run validate
 - `Overrides/` - Manual corrections and additions
 
 ### Output
-- `Data/game-database.jsonl` - Complete game database in JSONL format
+- `Data/` directory with structured database files:
+  - `Prefixes/` - Individual prefix affix JSON files
+  - `Suffixes/` - Individual suffix affix JSON files  
+  - `indexes/` - Optimized lookup index files
+  - `database-index.json` - Master database index
+  - `database-version.json` - Build metadata
 - `Data/validation-report.txt` - Data validation results
 - `Data/build.log` - Detailed build process log
 
@@ -53,13 +58,13 @@ npm run validate
 3. **Parse Web Data** - Process HTML files for additional item information
 4. **Apply Overrides** - Merge manual corrections and additions
 5. **Validate Data** - Check for inconsistencies and missing information
-6. **Build Database** - Generate final JSONL database file
+6. **Build Database** - Generate structured database files and indexes
 
 ## Usage by Filter Generator
 
 The filter generator sub-project reads the generated database:
 ```javascript
-// Filter generator accesses: filter-generator/Data/game-database.jsonl (and indexes)
+// Filter generator accesses: filter-generator/Data/ (structured files and indexes)
 ```
 
 ## Critical Constraints

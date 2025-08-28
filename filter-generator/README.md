@@ -56,7 +56,7 @@ npm run sample-analysis
 
 The filter generator reads the game database:
 ```javascript
-// Reads: Data/game-database.jsonl (and indexed files)
+// Reads: Structured files in Data/ (Prefixes/, Suffixes/, indexes/, etc.)
 ```
 
 This provides access to:

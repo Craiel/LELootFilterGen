@@ -47,22 +47,28 @@ class FilterGenerator {
     console.log('╚══════════════════════════════════════════════════════════════╝');
     console.log('');
     
-    // Show system status
-    const dbFile = path.join(__dirname, 'Data/game-database.jsonl');
-    const dbExists = await fs.pathExists(dbFile);
+    // Show system status - check new database structure
+    const dataDir = path.join(__dirname, 'Data');
+    const databaseIndexFile = path.join(dataDir, 'database-index.json');
+    const prefixesDir = path.join(dataDir, 'Prefixes');
+    const suffixesDir = path.join(dataDir, 'Suffixes');
+    const versionFile = path.join(dataDir, 'database-version.json');
+    
+    const dbExists = await fs.pathExists(databaseIndexFile) && 
+                     await fs.pathExists(prefixesDir) && 
+                     await fs.pathExists(suffixesDir);
     
     if (dbExists) {
       try {
-        const content = await fs.readFile(dbFile, 'utf8');
-        const firstLine = content.split('\n')[0].trim();
+        const databaseIndex = JSON.parse(await fs.readFile(databaseIndexFile, 'utf8'));
+        let versionInfo = { gameVersion: 'unknown' };
         
-        if (!firstLine || firstLine === '{') {
-          console.log('📊 Database Status: ⚠️ Incomplete - needs rebuilding');
-        } else {
-          const metadata = JSON.parse(firstLine);
-          const totalItems = metadata.stats.affixes + metadata.stats.uniques + metadata.stats.sets;
-          console.log(`📊 Database Status: ✅ Ready (${metadata.version}, ${totalItems} items)`);
+        if (await fs.pathExists(versionFile)) {
+          versionInfo = JSON.parse(await fs.readFile(versionFile, 'utf8'));
         }
+        
+        const totalItems = (databaseIndex.prefixes || 0) + (databaseIndex.suffixes || 0) + (databaseIndex.uniqueItems || 0);
+        console.log(`📊 Database Status: ✅ Ready (${versionInfo.gameVersion}, ${totalItems} items)`);
       } catch {
         console.log('📊 Database Status: ⚠️ Available but unreadable');
       }

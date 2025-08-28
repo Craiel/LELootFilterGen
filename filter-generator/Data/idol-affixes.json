@@ -1,0 +1,2292 @@
+{
+  "affixes": [
+    {
+      "name": "Minion Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Damage": [
+          "6% to 12%",
+          "13% to 21%",
+          "22% to 30%",
+          "31% to 39%",
+          "40% to 60%",
+          "75% to 95%",
+          "96% to 120%",
+          "192% to 240%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Melee and Bow Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Melee Damage": [
+          "2",
+          "3",
+          "4 to 5",
+          "6 to 7",
+          "7 to 10",
+          "12 to 14",
+          "15 to 18",
+          "26 to 32"
+        ],
+        "Minion Bow Damage": [
+          "2",
+          "3",
+          "4 to 5",
+          "6 to 7",
+          "7 to 10",
+          "12 to 14",
+          "15 to 18",
+          "26 to 32"
+        ]
+      }
+    },
+    {
+      "name": "Minion Health",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Health": [
+          "15% to 35%",
+          "36% to 55%",
+          "56% to 75%",
+          "76% to 100%",
+          "101% to 150%",
+          "190% to 230%",
+          "231% to 300%",
+          "500% to 600%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Dodge Rating",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Dodge Rating": [
+          "89 to 240"
+        ]
+      }
+    },
+    {
+      "name": "Minion Health Regen",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Health Regen": [
+          "6 to 10",
+          "11 to 20",
+          "21 to 35",
+          "36 to 60",
+          "61 to 90",
+          "120 to 150",
+          "151 to 200",
+          "320 to 400"
+        ]
+      }
+    },
+    {
+      "name": "Damage Over Time for Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Damage Over Time": [
+          "10% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 50%",
+          "51% to 70%",
+          "90% to 110%",
+          "111% to 140%",
+          "224% to 280%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Spell and Bow Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Spell Damage": [
+          "2",
+          "3",
+          "4 to 5",
+          "6 to 7",
+          "7 to 10",
+          "12 to 14",
+          "15 to 18",
+          "26 to 32"
+        ],
+        "Minion Bow Damage": [
+          "2",
+          "3",
+          "4 to 5",
+          "6 to 7",
+          "7 to 10",
+          "12 to 14",
+          "15 to 18",
+          "26 to 32"
+        ]
+      }
+    },
+    {
+      "name": "Health"
+    },
+    {
+      "name": "Health Regeneration"
+    },
+    {
+      "name": "Mana"
+    },
+    {
+      "name": "Fire Resistance"
+    },
+    {
+      "name": "Cold Resistance"
+    },
+    {
+      "name": "Lighting Resistance"
+    },
+    {
+      "name": "Necrotic Resistance"
+    },
+    {
+      "name": "Void Resistance"
+    },
+    {
+      "name": "Poison Resistance"
+    },
+    {
+      "name": "Elemental Resistance"
+    },
+    {
+      "name": "Increased Stun Chance"
+    },
+    {
+      "name": "Potion Health Converted to Ward"
+    },
+    {
+      "name": "Critical Strike Chance"
+    },
+    {
+      "name": "Increased Healing Effectiveness"
+    },
+    {
+      "name": "Stun Avoidance"
+    },
+    {
+      "name": "Freeze Rate Multiplier"
+    },
+    {
+      "name": "Chance to Inflict Bleed On Hit"
+    },
+    {
+      "name": "Chance to Ignite on Hit"
+    },
+    {
+      "name": "Chance to Poison on Hit"
+    },
+    {
+      "name": "Chance to Shock on Hit"
+    },
+    {
+      "name": "Minon Dodge Rating"
+    },
+    {
+      "name": "Minion Melee Damage Leeched as Health",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Damage Leeched as Health on Melee Hit": [
+          "1% to 3%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Melee Attack Speed",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Melee Attack Speed": [
+          "9% to 24%"
+        ]
+      }
+    },
+    {
+      "name": "Increased Minion Cooldown Recovery Speed",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Increased Minion Cooldown Recovery Speed": [
+          "12% to 35%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Increased Healing Effectiveness",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Increased Healing Effectiveness": [
+          "37% to 100%"
+        ]
+      }
+    },
+    {
+      "name": "Increased Minion Melee Stun Chance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Increased Minion Melee Stun Chance": [
+          "46% to 125%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Critical Strike Chance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Critical Strike Chance": [
+          "22% to 60%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Chance to Inflict Bleed On Hit",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance to inflict Bleed on Minion Hit": [
+          "19% to 52%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Chance To Poison On Hit",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance to Poison on Minion Hit": [
+          "11% to 30%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Melee Critical Strike Chance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Melee Critical Strike Chance": [
+          "1% to 2%"
+        ]
+      }
+    },
+    {
+      "name": "Spell Damage Leeched While Channeling"
+    },
+    {
+      "name": "Chance to Inflict Bleed on Melee Hit for You and Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance to inflict Bleed on Melee Hit": [
+          "15% to 40%"
+        ],
+        "Chance to inflict Bleed on Minion Melee Hit": [
+          "15% to 40%"
+        ]
+      }
+    },
+    {
+      "name": "Bleed Duration For You And Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Increased Bleed Duration": [
+          "7% to 24%"
+        ],
+        "Increased Minion Bleed Duration": [
+          "7% to 19%"
+        ]
+      }
+    },
+    {
+      "name": "Critical Strike Avoidance for You and Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Critical Strike Avoidance": [
+          "15% to 40%"
+        ],
+        "Minion Critical Strike Avoidance": [
+          "15% to 40%"
+        ]
+      }
+    },
+    {
+      "name": "Critical Strike Chance For Totems"
+    },
+    {
+      "name": "Damage Over Time Taken While Channeling"
+    },
+    {
+      "name": "Critical Strike Chance with Lightning Skills for You and Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Lightning Critical Strike Chance": [
+          "19% to 50%"
+        ],
+        "Minion Lightning Critical Strike Chance": [
+          "19% to 50%"
+        ]
+      }
+    },
+    {
+      "name": "Spell Damage For You And Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Spell Damage": [
+          "18% to 48%"
+        ],
+        "Minion Spell Damage": [
+          "18% to 48%"
+        ]
+      }
+    },
+    {
+      "name": "Melee Damage For You And Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Melee Damage": [
+          "18% to 48%"
+        ],
+        "Minion Melee Damage": [
+          "18% to 48%"
+        ]
+      }
+    },
+    {
+      "name": "Physical and Poison Damage"
+    },
+    {
+      "name": "Damage Over Time For You And Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Damage Over Time": [
+          "18% to 48%"
+        ],
+        "Minion Damage Over Time": [
+          "18% to 48%"
+        ]
+      }
+    },
+    {
+      "name": "Fire Damage Over Time"
+    },
+    {
+      "name": "Melee Fire Damage"
+    },
+    {
+      "name": "Melee Lightning Damage"
+    },
+    {
+      "name": "Melee Cold Damage"
+    },
+    {
+      "name": "Armor"
+    },
+    {
+      "name": "Block Effectiveness"
+    },
+    {
+      "name": "Chance To Shred Armor On Hit"
+    },
+    {
+      "name": "Damage Reflected For You And Your Minions",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Damage Reflected": [
+          "10% to 35%"
+        ],
+        "Minion Damage Reflected": [
+          "10% to 35%"
+        ]
+      }
+    },
+    {
+      "name": "Chance to gain Haste for 3 seconds when you Summon a Totem",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance to gain Haste for 3 seconds when you Summon a Totem": [
+          "11% to 34%"
+        ]
+      }
+    },
+    {
+      "name": "Chance On Kill To Refresh Random Companion Ability",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance on kill to refresh the cooldown of a random companion activatable ability": [
+          "3% to 8%"
+        ]
+      }
+    },
+    {
+      "name": "Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds)",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds)": [
+          "8% to 20%"
+        ]
+      }
+    },
+    {
+      "name": "Chance to Cast An Avalanche Boulder At a Nearby Enemy On Spell Cast (up to 3 times per second)"
+    },
+    {
+      "name": "Chance To Cast An Avalanche Boulder At a Nearby Enemy On Melee attack (up to 3 times per second)"
+    },
+    {
+      "name": "Increased Aspect of the Virper Effect"
+    },
+    {
+      "name": "Increased Spell Damage If you have an active Totem"
+    },
+    {
+      "name": "Chance on Melee Kill to heal a Random Minion to Full Health",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance on Melee Kill to heal a Random Minion to Full Health": [
+          "4% to 10%"
+        ]
+      }
+    },
+    {
+      "name": "Increasd Elemental Nova Area"
+    },
+    {
+      "name": "Increased fire Aura Area"
+    },
+    {
+      "name": "Chance to Chill With Necrotic Skills"
+    },
+    {
+      "name": "Ward Retention"
+    },
+    {
+      "name": "Increased Minion Cooldown Recovery Speed"
+    },
+    {
+      "name": "Minion Chance to apply mark for death on hit"
+    },
+    {
+      "name": "Minion Chance to Inflict Plague on hit"
+    },
+    {
+      "name": "Damage Over TIme Taken"
+    },
+    {
+      "name": "Chance to Inflict Bleed On Physical Spell Hit"
+    },
+    {
+      "name": "Sell Damage while at Love Health"
+    },
+    {
+      "name": "Minion Fire Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Fire Damage": [
+          "26% to 72%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Cold Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Minion Cold Damage": [
+          "26% to 72%"
+        ]
+      }
+    },
+    {
+      "name": "Critical Strike Chance for You and your minions"
+    },
+    {
+      "name": "Symbol Duration and Gain Rate"
+    },
+    {
+      "name": "Chance to cast Poison Nove when hit"
+    },
+    {
+      "name": "Critical Strike Chance For Skeletons and Skeletal Mages"
+    },
+    {
+      "name": "Chance for Summon Wraith to summon a Putrid Wraith instead",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance for Summon Wraith to summon a Putrid Wraith instead": [
+          "24% to 57%"
+        ]
+      }
+    },
+    {
+      "name": "Chance for Summon Wraith to summon a Flame Wraith instead",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance for Summon Wraith to summon a Flame Wraith instead": [
+          "24% to 57%"
+        ]
+      }
+    },
+    {
+      "name": "Melee Void Damage"
+    },
+    {
+      "name": "Minion Critical Strike Multiplier",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Critical Strike Multiplier": [
+          "15%",
+          "16% to 17%",
+          "18% to 20%",
+          "21% to 23%",
+          "24% to 29%",
+          "36% to 44%",
+          "45% to 55%",
+          "88% to 110%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Spell Critical Strike Chance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Spell Critical Strike Chance": [
+          "30% to 33%",
+          "34% to 37%",
+          "38% to 42%",
+          "43% to 47%",
+          "48% to 57%",
+          "70% to 85%",
+          "86% to 105%",
+          "168% to 210%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Melee Damage Leeched As Health",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Damage Leeched as Health on Melee Hit": [
+          "4% to 4.9%",
+          "5% to 5.9%",
+          "6% to 6.9%",
+          "7% to 7.9%",
+          "8% to 11%",
+          "13.5% to 16%",
+          "16.1% to 21%",
+          "33.6% to 42%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Chance to Inflict Bleed on Hit",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Chance to inflict Bleed on Minion Hit": [
+          "30% to 34%",
+          "35% to 39%",
+          "40% to 44%",
+          "45% to 51%",
+          "52% to 62%",
+          "75% to 90%",
+          "91% to 110%",
+          "176% to 220%"
+        ]
+      }
+    },
+    {
+      "name": "Added Minion Melee Crit Chance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Melee Critical Strike Chance": [
+          "3%",
+          "4%",
+          "5%",
+          "6%",
+          "7% to 8%",
+          "10% to 12%",
+          "13% to 15%",
+          "24% to 30%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Freeze Rate Multiplier",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Freeze Rate Multiplier": [
+          "50% to 69%",
+          "70% to 89%",
+          "90% to 109%",
+          "110% to 139%",
+          "140% to 190%",
+          "240% to 300%",
+          "301% to 380%",
+          "608% to 760%"
+        ]
+      }
+    },
+    {
+      "name": "Void Damage Over Time"
+    },
+    {
+      "name": "Damage to Minions Reflected to Attackers",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Damage Reflected": [
+          "5%",
+          "6%",
+          "7%",
+          "8%",
+          "9% to 11%",
+          "14% to 17%",
+          "18% to 22%",
+          "35% to 44%"
+        ]
+      }
+    },
+    {
+      "name": "Physical Resistance"
+    },
+    {
+      "name": "Ward Gained when you create a shadow"
+    },
+    {
+      "name": "Bleed Chance per equipped sword"
+    },
+    {
+      "name": "Physical Damage Over Time"
+    },
+    {
+      "name": "Fire Penetration with Ignite"
+    },
+    {
+      "name": "Chance to Shred Armor on Throwing hit"
+    },
+    {
+      "name": "Increased Armor Shred Effect"
+    },
+    {
+      "name": "Throwing Damage"
+    },
+    {
+      "name": "Bow Damage"
+    },
+    {
+      "name": "Chance to Summon a Bee with Acid Flask",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Chance to Summon a Bee with Acid Flask": [
+          "10% to 28%"
+        ]
+      }
+    },
+    {
+      "name": "Mana efficiency with Synchronized Strike"
+    },
+    {
+      "name": "Bow Physical Damage for Ballista"
+    },
+    {
+      "name": "Level of Summon Wolf",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Wolf": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Thorn Totem",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Thorn Totem": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Damage for Totems": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Spriggan",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Spriggan": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Frenzy Totem",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Frenzy Totem": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Health": [
+          "10% to 20%",
+          "21% to 40%",
+          "41% to 60%",
+          "61% to 80%",
+          "81% to 120%",
+          "142% to 160%",
+          "161% to 200%",
+          "350% to 400%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Bear",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Bear": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Skeleton",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Skeleton": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "8% to 15%",
+          "16% to 30%",
+          "31% to 45%",
+          "46% to 60%",
+          "61% to 90%",
+          "106% to 120%",
+          "121% to 150%",
+          "240% to 300%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Wraith",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Wraith": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "8% to 15%",
+          "16% to 30%",
+          "31% to 45%",
+          "46% to 60%",
+          "61% to 90%",
+          "106% to 120%",
+          "121% to 150%",
+          "240% to 300%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Bone Golem",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Bone Golem": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Armor": [
+          "10 to 30",
+          "31 to 80",
+          "81 to 160",
+          "161 to 320",
+          "321 to 500",
+          "800 to 1200",
+          "1201 to 2000",
+          "3200 to 4000"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Storm Totem",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Storm Totem": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Damage for Totems": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Sabertooth",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Sabertooth": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Scorpion",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Scorpion": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Eterra's Blessing",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Eterra's Blessing": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Mana": [
+          "8 to 12",
+          "13 to 18",
+          "19 to 24",
+          "25 to 30",
+          "31 to 38",
+          "45 to 51",
+          "52 to 60",
+          "96 to 120"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Skeletal Mage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Skeletal Mage": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Raptor",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Raptor": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "8% to 15%",
+          "16% to 30%",
+          "31% to 45%",
+          "46% to 60%",
+          "61% to 90%",
+          "106% to 120%",
+          "121% to 150%",
+          "240% to 300%"
+        ]
+      }
+    },
+    {
+      "name": "Minion Melee and Spell Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Melee Damage": [
+          "2",
+          "3",
+          "4 to 5",
+          "6 to 7",
+          "7 to 10",
+          "12 to 14",
+          "15 to 18",
+          "26 to 32"
+        ],
+        "Minion Spell Damage": [
+          "2",
+          "3",
+          "4 to 5",
+          "6 to 7",
+          "7 to 10",
+          "12 to 14",
+          "15 to 18",
+          "26 to 32"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Storm Crow",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Summon Storm Crows": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "8% to 15%",
+          "16% to 30%",
+          "31% to 45%",
+          "46% to 60%",
+          "61% to 90%",
+          "106% to 120%",
+          "121% to 150%",
+          "240% to 300%"
+        ]
+      }
+    },
+    {
+      "name": "Level of Summon Volatile Zombie",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Summon Volatile Zombie": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Percent Missing Health Restored on Lunge"
+    },
+    {
+      "name": "Chance for Additional Multistrike Swords"
+    },
+    {
+      "name": "Increased Attack and Cast Speed for Summoned Vines",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Increased Attack and Cast Speed for Summoned Vines": [
+          "7% to 9%",
+          "10% to 12%",
+          "13% to 16%",
+          "17% to 20%",
+          "21% to 26%",
+          "33% to 39%",
+          "40% to 50%",
+          "77% to 90%"
+        ]
+      }
+    },
+    {
+      "name": "Experimental Minions Transported with Traversal Skills",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Minion Damage": [
+          "16% to 23%",
+          "24% to 31%",
+          "32% to 39%",
+          "40% to 49%",
+          "50% to 70%",
+          "80% to 105%",
+          "106% to 140%",
+          "224% to 280%"
+        ],
+        "Minions teleported around you after you use a Traversal Skill": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6 to 7",
+          "8 to 9",
+          "10 to 12",
+          "19 to 24"
+        ]
+      }
+    },
+    {
+      "name": "Level of Glyph of Dominion",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Level of Glyph of Dominion": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "Spell Damage": [
+          "5% to 10%",
+          "11% to 20%",
+          "21% to 30%",
+          "31% to 40%",
+          "41% to 60%",
+          "71% to 80%",
+          "81% to 100%",
+          "160% to 200%"
+        ]
+      }
+    },
+    {
+      "name": "Elemental Bees per 10 seconds"
+    },
+    {
+      "name": "Ward per Second for you or your allies while standing on your Glyph of Dominion",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Ward per Second for you or your allies while standing on your Glyph of Dominion": [
+          "14 to 20",
+          "21 to 29",
+          "30 to 42",
+          "43 to 60",
+          "61 to 85",
+          "105 to 130",
+          "131 to 170",
+          "272 to 340"
+        ]
+      }
+    },
+    {
+      "name": "Physical Penetration and Minion Physical Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Physical Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Physical Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Fire Penetration and Minion Fire Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Fire Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Fire Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Cold Penetration and Minion Cold Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Cold Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Cold Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Lightning Penetration and Minion Lightning Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Lightning Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Lightning Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Void Penetration and Minion Void Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Void Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Void Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Necrotic Penetration and Minion Necrotic Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Necrotic Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Necrotic Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Poison Penetration and Minion Poison Penetration",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Poison Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ],
+        "Minion Poison Penetration": [
+          "2%",
+          "2%",
+          "3%",
+          "4% to 5%",
+          "5% to 7%",
+          "9% to 10%",
+          "11% to 13%",
+          "20% to 25%"
+        ]
+      }
+    },
+    {
+      "name": "Less frequency of Storm Stacks and Added Damage with Storm Bolt"
+    },
+    {
+      "name": "Rogue Falcon Poison Bleed Chance"
+    },
+    {
+      "name": "chance to deal Double Damage with Falcon Strikes"
+    },
+    {
+      "name": "Spell Damage for Curses"
+    },
+    {
+      "name": "Void Penetration and Minion Void Penetration"
+    },
+    {
+      "name": "Poison Penetration and Minion Poison Penetration"
+    },
+    {
+      "name": "Physical Penetration and Minion Physical Penetration"
+    },
+    {
+      "name": "Necrotic Resistance and Minion Necrotic Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Necrotic Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Necrotic Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Void Resistance and Minion Void Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Void Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Void Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Poison Resistance and Minion Poison Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Poison Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Poison Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Physical Resistance and Minion Physical Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Physical Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Physical Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Necrotic Resistance and Minion Necrotic Resistance"
+    },
+    {
+      "name": "Critical Strike Avoidance and Increased Critical Strike Chance"
+    },
+    {
+      "name": "Cold Penetration and Minion Cold Penetration"
+    },
+    {
+      "name": "Fire Penetration and Minion Fire Penetration"
+    },
+    {
+      "name": "Lightning Penetration and Minion Lightning Penetration"
+    },
+    {
+      "name": "Cold Resistance and Minion Cold Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Cold Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Cold Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Elemental Resistance and Minion Elemental Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Elemental Resistance": [
+          "9% to 12%"
+        ],
+        "Minion Elemental Resistance": [
+          "9% to 12%"
+        ]
+      }
+    },
+    {
+      "name": "Fire Resistance and Minion Fire Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Fire Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Fire Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Lightning Resistance and Minion Lightning Resistance",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1"
+        ],
+        "Lightning Resistance": [
+          "18% to 23%"
+        ],
+        "Minion Lightning Resistance": [
+          "18% to 23%"
+        ]
+      }
+    },
+    {
+      "name": "Necrotic Penetration and Minion Necrotic Penetration"
+    },
+    {
+      "name": "Void Penetration and Minion Void Penetration"
+    },
+    {
+      "name": "Poison Penetration and Minion Poison Penetration"
+    },
+    {
+      "name": "Physical Penetration and Minion Physical Penetration"
+    },
+    {
+      "name": "Necrotic Resistance and Minion Necrotic Resistancen"
+    },
+    {
+      "name": "Void Resistance and Minion Void Resistance"
+    },
+    {
+      "name": "Poison Resistance and Minion Poison Resistance"
+    },
+    {
+      "name": "Physical Resistance and Minion Physical Resistance"
+    },
+    {
+      "name": "Cold Penetration and Minion Cold Penetration"
+    },
+    {
+      "name": "Fire Penetration and Minion Fire Penetration"
+    },
+    {
+      "name": "Lightning Penetration and Minion Lightning Penetration"
+    },
+    {
+      "name": "Cold Resistance and Minion Cold Resistance"
+    },
+    {
+      "name": "Elemental Resistance and Minion Elemental Resistance"
+    },
+    {
+      "name": "Fire Resistance and Minion Fire Resistance"
+    },
+    {
+      "name": "Lightning Resistance and Minion Lightning Resistance"
+    },
+    {
+      "name": "Increased crit chance with a catalyst and Critical Strike Multiplier with a catalyst"
+    },
+    {
+      "name": "Companion Revive Speed and Increased Minion Health",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Increased Companion Revive Speed": [
+          "1% to 2%",
+          "3% to 4%",
+          "5% to 6%",
+          "7% to 8%",
+          "9% to 10%",
+          "11% to 14%",
+          "15% to 19%"
+        ],
+        "Minion Health": [
+          "2% to 4%",
+          "5% to 7%",
+          "8% to 10%",
+          "10% to 13%",
+          "14% to 19%",
+          "24% to 29%",
+          "30% to 38%"
+        ]
+      }
+    },
+    {
+      "name": "Armor while transformed and Rage Gained per Second while Transformed"
+    },
+    {
+      "name": "Mana Increased and Mana regen with a minion",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Mana": [
+          "1 to 2",
+          "3 to 4",
+          "5 to 6",
+          "7 to 8",
+          "9 to 10",
+          "11 to 14",
+          "15 to 19"
+        ],
+        "Increased Mana regeneration while you control a minion": [
+          "1% to 2%",
+          "3% to 4%",
+          "5% to 6%",
+          "7% to 8%",
+          "9% to 10%",
+          "11% to 14%",
+          "15% to 19%"
+        ]
+      }
+    },
+    {
+      "name": "Chance to Inflict Time Rot on hit with Void Skills and Increased Void Damage"
+    },
+    {
+      "name": "Minion Melee Attack Speed and Added Minion Melee Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Minion Melee Attack Speed": [
+          "1%",
+          "1%",
+          "2%",
+          "3%",
+          "4%",
+          "5% to 6%",
+          "7% to 8%"
+        ],
+        "Minion Melee Damage": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8 to 9",
+          "10 to 12"
+        ]
+      }
+    },
+    {
+      "name": "Minion Cast Speed and Added Minion Spell Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Minion Cast Speed": [
+          "1%",
+          "1%",
+          "2%",
+          "3%",
+          "4%",
+          "5% to 6%",
+          "7% to 8%"
+        ],
+        "Minion Spell Damage": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6 to 7",
+          "8 to 10"
+        ]
+      }
+    },
+    {
+      "name": "Minion Bow Attack Speed and Added Minion Bow Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Minion Bow Attack Speed": [
+          "1%",
+          "1%",
+          "2%",
+          "3%",
+          "4%",
+          "5% to 6%",
+          "7% to 8%"
+        ],
+        "Minion Bow Damage": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6 to 7",
+          "8 to 10"
+        ]
+      }
+    },
+    {
+      "name": "Minion Throwing Attack Speed and Added Minion Throwing Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Minion Throwing Attack Speed": [
+          "1%",
+          "1%",
+          "2%",
+          "3%",
+          "4%",
+          "5% to 6%",
+          "7% to 8%"
+        ],
+        "Minion Throwing Damage": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6 to 7",
+          "8 to 10"
+        ]
+      }
+    },
+    {
+      "name": "Minion Leech and Added Minion Regen",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7"
+        ],
+        "Minion Damage Leeched as Health": [
+          "0.1%",
+          "0.1%",
+          "0.1%",
+          "0.1%",
+          "0.1%",
+          "0.2%",
+          "0.3%"
+        ],
+        "Minion Health Regen": [
+          "1 to 3",
+          "4 to 5",
+          "6 to 8",
+          "9 to 10",
+          "11 to 14",
+          "19 to 23",
+          "24 to 28"
+        ]
+      }
+    },
+    {
+      "name": "Rating and Increased Health"
+    },
+    {
+      "name": "Minion Area and Damage",
+      "modificationColumns": {
+        "Tier": [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4",
+          "Tier 5",
+          "Tier 6",
+          "Tier 7",
+          "Tier 8"
+        ],
+        "Increased Area for Minion Area Skills": [
+          "6% to 7%",
+          "8% to 9%",
+          "10% to 12%",
+          "13% to 15%",
+          "16% to 18%",
+          "23% to 27%",
+          "28% to 33%",
+          "55% to 65%"
+        ],
+        "Minion Damage": [
+          "5% to 10%",
+          "11% to 18%",
+          "20% to 27%",
+          "28% to 35%",
+          "36% to 50%",
+          "65% to 80%",
+          "81% to 105%",
+          "175% to 210%"
+        ]
+      }
+    }
+  ]
+}
