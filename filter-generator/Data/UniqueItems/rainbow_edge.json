@@ -15,5 +15,6 @@
     "+7 Cold Melee Damage",
     "+(25 to 75)% chance to Shock Ignite and Chill on Hit"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

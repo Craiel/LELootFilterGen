@@ -16,5 +16,6 @@
     "+(13 to 18) Void Spell Damage",
     "(3% to 9%) increased Void Damage Taken on Hit"
   ],
-  "lore": "The fall of Eterra is inevitable, as it always has been."
+  "lore": "The fall of Eterra is inevitable, as it always has been.",
+  "dropRarity": null
 }

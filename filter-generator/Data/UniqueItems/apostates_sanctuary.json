@@ -18,5 +18,6 @@
     "+8 Ward per Second per 1% uncapped Physical Resistance while channelling Rebuke",
     "(6% to 14%) more Damage to Bosses and Rare Enemies"
   ],
-  "lore": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\""
+  "lore": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\"",
+  "dropRarity": "Rare"
 }

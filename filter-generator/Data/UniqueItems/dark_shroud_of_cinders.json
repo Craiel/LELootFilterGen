@@ -17,5 +17,6 @@
     "+(17% to 25%) Chance to cast Fire Aura when Hit (1 second cooldown)",
     "(30% to 50%) Increased Void Damage per Fire Aura"
   ],
-  "lore": "The dying embers of a god swiling around a blackened cloak."
+  "lore": "The dying embers of a god swiling around a blackened cloak.",
+  "dropRarity": null
 }

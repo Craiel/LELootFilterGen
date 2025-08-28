@@ -21,5 +21,6 @@
     "(12 to 24) Mana consumed by Grim Harvest",
     "(18% to 36%) of Current Health consumed by Grim Harvest"
   ],
-  "lore": "Everything comes with a price - even death."
+  "lore": "Everything comes with a price - even death.",
+  "dropRarity": "Very rare"
 }

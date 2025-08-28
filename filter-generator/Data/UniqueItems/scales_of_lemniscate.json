@@ -21,5 +21,6 @@
     "+200% Chance to Apply Frailty and Slow to nearby enemies every second for Infernal Shade",
     "Casting Infernal Shade grants your minions Damage Immunity for 3 seconds (10 second cooldown)"
   ],
-  "lore": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity."
+  "lore": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity.",
+  "dropRarity": "Rare"
 }

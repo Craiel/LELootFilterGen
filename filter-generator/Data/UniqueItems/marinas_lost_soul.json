@@ -20,5 +20,6 @@
     "You are Damned when you cast a spellDamned is a stacking ailment that deals necrotic damage over time and reduces health regeneration by 20%",
     "10% reduced Health"
   ],
-  "lore": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows."
+  "lore": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows.",
+  "dropRarity": "Uncommon"
 }

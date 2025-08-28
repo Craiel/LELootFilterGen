@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique sceptre"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

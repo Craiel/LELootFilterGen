@@ -18,5 +18,6 @@
     "+1 to Level of Lightning Skills",
     "When you cast Teleport you apply a Spark Charge to all enemies around the destination"
   ],
-  "lore": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery."
+  "lore": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery.",
+  "dropRarity": "Common"
 }

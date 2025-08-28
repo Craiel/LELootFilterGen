@@ -17,5 +17,6 @@
     "+(50% to 150%) Chance to apply Ignite on Hit while Channelling",
     "Disintegrate deals more damage equal to your spell crit chanceIf you have 40% spell crit chance Disintegrate deals 40% more damage (multiplicative with other modifiers)"
   ],
-  "lore": "Dying cinders illuminate the empty skull."
+  "lore": "Dying cinders illuminate the empty skull.",
+  "dropRarity": "Common"
 }

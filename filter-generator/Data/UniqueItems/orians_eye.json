@@ -14,5 +14,6 @@
     "+(75 to 150) Mana",
     "(75 to 150)% increased duration of stun immunity after being stunned"
   ],
-  "lore": "The future burns within the prophetic lense."
+  "lore": "The future burns within the prophetic lense.",
+  "dropRarity": "Extremely rare"
 }

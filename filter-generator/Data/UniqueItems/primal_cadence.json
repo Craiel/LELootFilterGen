@@ -21,5 +21,6 @@
     "+1% Critical Strike Multiplier per 2 Strength",
     "+(4 to 9)% Critical Strike Chance for you and your minions"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

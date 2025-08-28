@@ -14,5 +14,6 @@
     "-4 Mana Cost for Bow Skills",
     "+4 Arrows with Multishot"
   ],
-  "lore": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes."
+  "lore": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes.",
+  "dropRarity": "Common"
 }

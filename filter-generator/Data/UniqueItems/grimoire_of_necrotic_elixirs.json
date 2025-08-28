@@ -16,5 +16,6 @@
     "(30 to 40)% less void, necrotic, and poison damage taken for 4 seconds on potion useMultiplicative with other modifiers",
     "+(30 to 40) necrotic damage to melee attacks and spells for 4 seconds on potion use"
   ],
-  "lore": "Take a quaff from draught of undeath."
+  "lore": "Take a quaff from draught of undeath.",
+  "dropRarity": "Common"
 }

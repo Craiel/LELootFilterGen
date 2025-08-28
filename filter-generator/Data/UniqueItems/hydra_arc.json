@@ -22,5 +22,6 @@
     "If you have at least 75 Dexterity you repeat it at up to 2 nearby enemies instead",
     "If you have at least 135 Dexterity you repeat it at up to 3 nearby enemies instead"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

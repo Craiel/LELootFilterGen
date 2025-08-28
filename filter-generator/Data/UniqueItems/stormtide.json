@@ -16,5 +16,6 @@
     "(10% to 15%) Increased Shock Duration",
     "You are shocked for 4 seconds when you stop movingDoes not shock you if you are already shocked Your shock effectiveness does not apply to this shock"
   ],
-  "lore": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly."
+  "lore": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly.",
+  "dropRarity": "Common"
 }

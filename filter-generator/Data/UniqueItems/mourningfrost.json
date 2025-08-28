@@ -16,5 +16,6 @@
     "+1 cold damage to attacks and spells per point of dexterity",
     "-1% physical and cold resistance per point of dexterity"
   ],
-  "lore": "Spread ice with every step, like frost before sunrise."
+  "lore": "Spread ice with every step, like frost before sunrise.",
+  "dropRarity": "Common"
 }

@@ -21,5 +21,6 @@
     "Storm Totem can hit allies to grant 21 healthHealth granted is not affected by minion healing effectiveness",
     "Storm Totem can hit allies to grant 21 ward"
   ],
-  "lore": "Unleash the Beast."
+  "lore": "Unleash the Beast.",
+  "dropRarity": "Rare"
 }

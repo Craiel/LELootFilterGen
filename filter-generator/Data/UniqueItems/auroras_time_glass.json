@@ -14,5 +14,6 @@
     "+(20% to 60%) Ward Retention",
     "If damage leaves you below 30% health and doesn't kill you, you are restored to full health, you gain ward equal to the health restored, all nearby enemies are slowed, and you gain haste for (3 to 6) seconds (20 second cooldown)."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Very rare"
 }

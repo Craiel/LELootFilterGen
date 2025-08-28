@@ -20,5 +20,6 @@
     "(41% to 61%) increased Lightning Damage",
     "+(6% to 16%) Lightning Penetration"
   ],
-  "lore": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury."
+  "lore": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury.",
+  "dropRarity": "Common"
 }

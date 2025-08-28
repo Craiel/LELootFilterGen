@@ -16,5 +16,6 @@
     "When a Minion dies you gain a stack of Frozen VengeanceUp to 8 stacks. Stacks last 8 seconds and gaining a new one refreshes their duration.",
     "When you Hit an enemy with a melee attack you expend a stack of Frozen Vengeance to grant all your minions Frenzy and 24% more Damage to Chilled Enemies for 8 seconds and Freeze up to 8 nearby normal and magic enemies for 3 secondsThis effect cannot trigger more than once per second and the buff does not stack. The freeze has a range limit of 8 metres."
   ],
-  "lore": "Formosus knew not what cause these warriors had fought for, or what ancient conflict left their bodies frozen upon the outer ice. But, as he felt the rage and power of their lingering souls he knew well what purpose they would now fulfill."
+  "lore": "Formosus knew not what cause these warriors had fought for, or what ancient conflict left their bodies frozen upon the outer ice. But, as he felt the rage and power of their lingering souls he knew well what purpose they would now fulfill.",
+  "dropRarity": "Common"
 }

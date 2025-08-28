@@ -17,5 +17,6 @@
     "Regain 30 health on minion death",
     "+(1 to 3) to Level of Sacrifice"
   ],
-  "lore": "The rattle of the dying is the sound of weakness leaving the world."
+  "lore": "The rattle of the dying is the sound of weakness leaving the world.",
+  "dropRarity": "Common"
 }

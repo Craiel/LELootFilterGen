@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique one-handed mace"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

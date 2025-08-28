@@ -19,5 +19,6 @@
     "+(5 to 10) Cold Damage with Spells and Attacks",
     "1% Increased Movement Speed per 2 Dexterity (up to 20%)"
   ],
-  "lore": "Let the northwind mold you, cold and howling above the frozen tundra."
+  "lore": "Let the northwind mold you, cold and howling above the frozen tundra.",
+  "dropRarity": "Common"
 }

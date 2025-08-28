@@ -19,5 +19,6 @@
     "15% increased Poison Damage per stack of Ruby Venom",
     "+1% Melee Poison Chance per 1% uncapped Fire ResistanceUncapped means that you will continue to gain poison chance from fire resistance above the 75% resistance cap"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

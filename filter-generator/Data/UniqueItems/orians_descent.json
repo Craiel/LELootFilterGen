@@ -19,5 +19,6 @@
     "(32% to 55%) Increased Chance To Find Potions",
     "(8 to 16) Mana Gained on Potion Use"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

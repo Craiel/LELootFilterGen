@@ -17,5 +17,6 @@
     "(30% to 50%) Increased Stun Duration",
     "(4 to 8) Health Gain on Stun"
   ],
-  "lore": "Crush. Maul. Bludgeon."
+  "lore": "Crush. Maul. Bludgeon.",
+  "dropRarity": "Rare"
 }

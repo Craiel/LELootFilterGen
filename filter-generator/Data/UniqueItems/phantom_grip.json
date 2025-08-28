@@ -17,5 +17,6 @@
     "(8% to 25%) increased Forged Weapon Duration",
     "The Stats on your Gloves apply to your Forged Weapons at (64 to 100)% effectiveness"
   ],
-  "lore": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought."
+  "lore": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought.",
+  "dropRarity": "Common"
 }

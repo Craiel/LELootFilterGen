@@ -17,5 +17,6 @@
     "30% Necrotic Penetration with Damned",
     "+30% Mana Efficiency with Necrotic Spells"
   ],
-  "lore": "\"...and enraged she arose with murder in her eyes...\""
+  "lore": "\"...and enraged she arose with murder in her eyes...\"",
+  "dropRarity": "Common"
 }

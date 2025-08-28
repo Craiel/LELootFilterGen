@@ -19,5 +19,6 @@
     "+(40 to 60) Health",
     "+(40 to 60) Mana"
   ],
-  "lore": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade."
+  "lore": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade.",
+  "dropRarity": "Very rare"
 }

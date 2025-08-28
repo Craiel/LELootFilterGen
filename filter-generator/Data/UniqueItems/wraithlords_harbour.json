@@ -21,5 +21,6 @@
     "The Wraithlord scales with your Summon Wraith Tree and summons other Wraiths for you while in combatThese Wraiths still count as yours, not the Wraithlord's, and scale with your Summon Wraith tree, not the Wraithlord's Summon Wraith tree.",
     "While at max wraiths, the Wraithlord casts Necrotic Beams and regularly consumes your non-wraith minions to empower itself, gaining Temporary Maximum Health equal to 10% of their maximum health and +3 spell damage for 10 secondsThe Wraithlord can consume up to 5 minions per cast. The buff from consuming minions can stack endlessly."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Uncommon"
 }

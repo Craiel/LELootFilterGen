@@ -19,5 +19,6 @@
     "+1 Block Effectiveness per 1% Total Uncapped ResistanceYour total uncapped resistance is the sum of your uncapped physical, fire, lightning, cold, necrotic, void, and poison resistances.",
     "(22 to 32) Ward Gain on Block"
   ],
-  "lore": "\"Rest now, you are safe here in this cocoon. It's all gone now, but this is not where your thread ends.\" - The Acolyte of Golden Silk"
+  "lore": "\"Rest now, you are safe here in this cocoon. It's all gone now, but this is not where your thread ends.\" - The Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

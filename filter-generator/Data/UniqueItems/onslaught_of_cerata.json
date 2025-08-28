@@ -20,5 +20,6 @@
     "(30 to 60) Health Gain on Block",
     "You and your minions have (20 to 42)% increased area for Melee Area Skills"
   ],
-  "lore": "Impale upon the horns of primordial might"
+  "lore": "Impale upon the horns of primordial might",
+  "dropRarity": null
 }

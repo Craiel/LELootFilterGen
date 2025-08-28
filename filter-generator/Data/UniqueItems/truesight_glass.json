@@ -15,5 +15,6 @@
     "(6% to 10%) Increased Cooldown Recovery Speed",
     "+(60% to 100%) Critical Strike Avoidance"
   ],
-  "lore": "Looking through the right glass can reveal the weaknesses of a foe, the gaps in its armor drawing the eye like resplendant orbs of gold."
+  "lore": "Looking through the right glass can reveal the weaknesses of a foe, the gaps in its armor drawing the eye like resplendant orbs of gold.",
+  "dropRarity": null
 }

@@ -17,5 +17,6 @@
     "(80% to 120%) Increased Ignite Duration",
     "+(12% to 18%) Fire Penetration"
   ],
-  "lore": "Overseer Nicovus had little patience for the traditional mining techniques of his living predecessors. The empire would delve deep and it would delve fast."
+  "lore": "Overseer Nicovus had little patience for the traditional mining techniques of his living predecessors. The empire would delve deep and it would delve fast.",
+  "dropRarity": "Common"
 }

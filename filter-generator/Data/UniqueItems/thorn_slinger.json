@@ -15,5 +15,6 @@
     "+(24% to 48%) Chance to apply Bleed on Hit",
     "(24 to 48) Damage Reflected to Attackers"
   ],
-  "lore": "After making peace with the nagasa, Lord Berant of Skalnir was impatient to secure his legacy and so turned his eyes to an easier conquest. The Verdant Isle was small and his scouts assured him that its druid inhabitants had no weapons. But when his soldiers returned from the sacred island, they brought back only their thorn pierced fallen and tales of vine strangled ships."
+  "lore": "After making peace with the nagasa, Lord Berant of Skalnir was impatient to secure his legacy and so turned his eyes to an easier conquest. The Verdant Isle was small and his scouts assured him that its druid inhabitants had no weapons. But when his soldiers returned from the sacred island, they brought back only their thorn pierced fallen and tales of vine strangled ships.",
+  "dropRarity": "Common"
 }

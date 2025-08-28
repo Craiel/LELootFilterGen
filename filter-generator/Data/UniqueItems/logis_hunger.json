@@ -17,5 +17,6 @@
     "+(2% to 3%) Minion Critical Strike Chance",
     "+2 to Level of Minion Fire Skills"
   ],
-  "lore": "Rise! Through fire we are reborn."
+  "lore": "Rise! Through fire we are reborn.",
+  "dropRarity": null
 }

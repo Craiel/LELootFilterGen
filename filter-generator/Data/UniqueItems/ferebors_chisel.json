@@ -20,5 +20,6 @@
     "+(15% to 35%) Critical Strike Multiplier for Totems",
     "+2 to Level of Totem Skills"
   ],
-  "lore": "When Ferebor's collection of totems grew too large, he gathered his creations in a cave while his fellow nomads moved on without him. As the winters passed and his collection grew, other nomads would visit him to trade food and furs for totems crafted to defend their tribes."
+  "lore": "When Ferebor's collection of totems grew too large, he gathered his creations in a cave while his fellow nomads moved on without him. As the winters passed and his collection grew, other nomads would visit him to trade food and furs for totems crafted to defend their tribes.",
+  "dropRarity": "Common"
 }

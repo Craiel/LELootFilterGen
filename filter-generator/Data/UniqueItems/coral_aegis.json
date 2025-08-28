@@ -20,5 +20,6 @@
     "(50% to 80%) Increased Stun Duration",
     "(8 to 12) Health Gain on Stun"
   ],
-  "lore": "As storms scour the land, the sea swells and flourishes."
+  "lore": "As storms scour the land, the sea swells and flourishes.",
+  "dropRarity": null
 }

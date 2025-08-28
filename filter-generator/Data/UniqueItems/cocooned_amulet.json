@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique amulet"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

@@ -20,5 +20,6 @@
     "+(10 to 20) Intelligence",
     "+75% Fire Resistance"
   ],
-  "lore": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\""
+  "lore": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\"",
+  "dropRarity": "Very rare"
 }

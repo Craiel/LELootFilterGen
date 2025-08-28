@@ -13,5 +13,6 @@
     "(15% to 30%) Chance to Gain 30 Ward when Hit while Channelling",
     "(45% to 75%) increased Lightning Damage"
   ],
-  "lore": "For centuries Architect Liath ensured the prosperity of Lagon's realm."
+  "lore": "For centuries Architect Liath ensured the prosperity of Lagon's realm.",
+  "dropRarity": "Rare"
 }

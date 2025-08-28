@@ -20,5 +20,6 @@
     "20% Chance To Blind AttackersBlind causes enemies to aim erratically, reducing the chance that they will hit you, especially at range. Blind does not stack.",
     "(3% to 6%) of Current Health Drained per Second"
   ],
-  "lore": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake."
+  "lore": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake.",
+  "dropRarity": "Rare"
 }

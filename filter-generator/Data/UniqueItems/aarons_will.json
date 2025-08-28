@@ -20,5 +20,6 @@
     "+(100 to 240) Minion Health",
     "+1 to Level of Minion Skills"
   ],
-  "lore": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B"
+  "lore": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B",
+  "dropRarity": "Very rare"
 }

@@ -17,5 +17,6 @@
     "1% increased Area for Area Skills per 3 Dexterity",
     "+(3 to 12) Dexterity"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

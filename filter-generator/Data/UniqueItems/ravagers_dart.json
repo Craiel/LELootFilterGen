@@ -16,5 +16,6 @@
     "If you have no active Heartseeker and are in combat you throw one at a nearby enemy (3 second cooldown)",
     "+(5 to 11) Dexterity"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

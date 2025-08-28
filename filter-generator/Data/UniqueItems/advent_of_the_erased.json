@@ -16,5 +16,6 @@
     "(35% to 15%) less Damage over Time taken while you have HasteMultiplicative with other modifiers",
     "When you gain Haste or refresh its duration you gain (30 to 60) Ward (1 second cooldown) and your Minions gain Haste and Frenzy for 3 SecondsFrenzy is a buff that grants 20% Increased attack and cast speed. It cannot stack."
   ],
-  "lore": "\"Those long lost may walk again on woven feet\" - The Acolyte of Golden Silk"
+  "lore": "\"Those long lost may walk again on woven feet\" - The Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

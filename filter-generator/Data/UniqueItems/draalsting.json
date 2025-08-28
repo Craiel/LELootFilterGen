@@ -16,5 +16,6 @@
     "+(120% to 180%) Chance to apply Poison on Melee Hit",
     "+1 to Level of Poison Melee Skills"
   ],
-  "lore": "Poison the mind, kill the heart."
+  "lore": "Poison the mind, kill the heart.",
+  "dropRarity": "Common"
 }

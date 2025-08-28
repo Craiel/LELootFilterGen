@@ -16,5 +16,6 @@
     "+(5 to 10) Health Regen",
     "5% Increased Melee Cold Damage per 10 Health Regen, up to 1500%Any additional health regen has an effect, there are not thresholds every 10."
   ],
-  "lore": "Dreams of deicide reflected in ice."
+  "lore": "Dreams of deicide reflected in ice.",
+  "dropRarity": null
 }

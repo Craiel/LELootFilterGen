@@ -19,5 +19,6 @@
     "+(30% to 45%) Cold Resistance",
     "+1 to All Attributes"
   ],
-  "lore": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms."
+  "lore": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms.",
+  "dropRarity": "Common"
 }

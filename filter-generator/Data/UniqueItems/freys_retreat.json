@@ -17,5 +17,6 @@
     "(48% to 108%) increased Cold Damage Over Time",
     "(16% to 24%) more Cold Damage Over Time to Frozen Enemies"
   ],
-  "lore": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot."
+  "lore": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot.",
+  "dropRarity": "Common"
 }

@@ -19,5 +19,6 @@
     "+(30% to 45%) Void Resistance",
     "(10% to 15%) of Current Mana gained as Ward on BlockWard is gained after damage is taken from the hit"
   ],
-  "lore": "\"To survive the void we must build unassailable walls, not just around this town, but around our minds. Do not approach the cultists, do not speak to them.\" - Eos Falrein, last Archmage of Vul'Kaur."
+  "lore": "\"To survive the void we must build unassailable walls, not just around this town, but around our minds. Do not approach the cultists, do not speak to them.\" - Eos Falrein, last Archmage of Vul'Kaur.",
+  "dropRarity": "Common"
 }

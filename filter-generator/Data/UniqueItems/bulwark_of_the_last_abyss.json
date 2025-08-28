@@ -17,5 +17,6 @@
     "70% increased Void Damage during Apocalypse",
     "+70% Melee Critical Strike Multiplier during Apocalypse"
   ],
-  "lore": "Hold steadfast at the edge of light."
+  "lore": "Hold steadfast at the edge of light.",
+  "dropRarity": null
 }

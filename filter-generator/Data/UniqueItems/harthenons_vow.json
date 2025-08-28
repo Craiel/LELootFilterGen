@@ -15,5 +15,6 @@
     "(36% to 54%) Increased Companion Revive Range",
     "(36% to 54%) Increased Companion Revive Speed"
   ],
-  "lore": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle."
+  "lore": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle.",
+  "dropRarity": "Common"
 }

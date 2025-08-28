@@ -20,5 +20,6 @@
     "(63% to 126%) increased Minion Melee Damage",
     "(13% to 35%) increased Minion Movement Speed"
   ],
-  "lore": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment."
+  "lore": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment.",
+  "dropRarity": "Common"
 }

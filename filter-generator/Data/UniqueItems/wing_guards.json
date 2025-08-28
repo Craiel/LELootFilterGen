@@ -16,5 +16,6 @@
     "(18% to 28%) Chance to gain Haste for 1 second on Hit",
     "You cannot deal critical strikes"
   ],
-  "lore": "Speed is its own accuracy."
+  "lore": "Speed is its own accuracy.",
+  "dropRarity": "Common"
 }

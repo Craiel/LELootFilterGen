@@ -21,5 +21,6 @@
     "+(12% to 120%) Chance to apply Shock on Hit",
     "+(6% to 60%) Chance to apply Time Rot on Hit"
   ],
-  "lore": "Forged with shadow iron on an unlit moon to claim Lagon's power over elemental chaos."
+  "lore": "Forged with shadow iron on an unlit moon to claim Lagon's power over elemental chaos.",
+  "dropRarity": null
 }

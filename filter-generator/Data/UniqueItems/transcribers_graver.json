@@ -16,5 +16,6 @@
     "+(6 to 10) Spell Damage with Flame Rush per stack of Fire Aura",
     "+(12% to 20%) Elemental Penetration"
   ],
-  "lore": "Carve the burning nightmares into stone"
+  "lore": "Carve the burning nightmares into stone",
+  "dropRarity": "Common"
 }

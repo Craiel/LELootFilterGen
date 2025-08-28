@@ -18,5 +18,6 @@
     "(12% to 21%) of Armor Mitigation also applies to Damage over Time",
     "+(3 to 12) Attunement"
   ],
-  "lore": "Three petals unwithered by time"
+  "lore": "Three petals unwithered by time",
+  "dropRarity": null
 }

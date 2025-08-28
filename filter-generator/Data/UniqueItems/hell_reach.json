@@ -13,5 +13,6 @@
     "10% increased Bow Attack Speed",
     "+(11% to 20%) Fire Penetration"
   ],
-  "lore": "As Wyvernfall burned nothing could escape the flames."
+  "lore": "As Wyvernfall burned nothing could escape the flames.",
+  "dropRarity": "Common"
 }

@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique ring"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

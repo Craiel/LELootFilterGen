@@ -16,5 +16,6 @@
     "+(25 to 45) Mana",
     "(-15 to -10) Hail of Arrows Mana CostIf Hail of Arrows is channeled this does not affect the channel cost"
   ],
-  "lore": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\""
+  "lore": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\"",
+  "dropRarity": "Common"
 }

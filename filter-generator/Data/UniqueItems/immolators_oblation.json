@@ -15,5 +15,6 @@
     "(10% to 16%) Increased Ignite Duration",
     "100% chance to Cleanse All Ailments on Potion UseCleanses all negative ailments such as slow and ignite, but not stun and freeze, which are not ailments."
   ],
-  "lore": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic."
+  "lore": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic.",
+  "dropRarity": null
 }

@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a pair of random unique boots"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

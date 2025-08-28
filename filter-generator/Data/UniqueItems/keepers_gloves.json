@@ -13,5 +13,6 @@
     "+(17% to 37%) Minion Poison Resistance",
     "10% chance to summon a swarm of bees on melee hit (8 second cooldown)"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

@@ -15,5 +15,6 @@
     "+(12 to 32) Lightning Bow Damage",
     "+(12 to 32) Lightning Throwing Damage"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

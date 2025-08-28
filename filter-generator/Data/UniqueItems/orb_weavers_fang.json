@@ -15,5 +15,6 @@
     "(8% to 10%) increased Movement Speed",
     "+(100 to 140) Dodge Rating"
   ],
-  "lore": "\"You are the blade that will cut the imperfections from the Weaver's web.\" - Masque, the Acolyte of Golden Silk"
+  "lore": "\"You are the blade that will cut the imperfections from the Weaver's web.\" - Masque, the Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

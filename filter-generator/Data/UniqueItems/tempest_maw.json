@@ -19,5 +19,6 @@
     "+(3 to 6) Strength and Attunement",
     "When you summon a totem you also summon 4 Storm Sprites around the totem (6 second cooldown)"
   ],
-  "lore": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena."
+  "lore": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena.",
+  "dropRarity": "Common"
 }

@@ -15,5 +15,6 @@
     "(6% to 12%) increased Movement Speed while Transformed",
     "(-25% to -15%) to All Resistances while Transformed"
   ],
-  "lore": "Shifting, Changing, Striking."
+  "lore": "Shifting, Changing, Striking.",
+  "dropRarity": "Common"
 }

@@ -15,5 +15,6 @@
     "(23% to 28%) Chance to cast Icicle on Bow Hit",
     "+(10 to 15) Attunement"
   ],
-  "lore": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot."
+  "lore": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot.",
+  "dropRarity": null
 }

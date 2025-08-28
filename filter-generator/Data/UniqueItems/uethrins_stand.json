@@ -17,5 +17,6 @@
     "+(15 to 25) Bow Physical Damage for Minions",
     "+2 Maximum BallistaeOnly affects the Rogue's Summon Ballista skill"
   ],
-  "lore": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter."
+  "lore": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter.",
+  "dropRarity": "Common"
 }

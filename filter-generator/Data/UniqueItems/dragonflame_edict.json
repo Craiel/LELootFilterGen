@@ -19,5 +19,6 @@
     "(20% to 50%) of Damage Reflected",
     "60% Chance for the nearest minion to the target location to cast Dragonflame Nova when you use a minion skill (1 second cooldown)"
   ],
-  "lore": "Go forth and conquer by force or by fire."
+  "lore": "Go forth and conquer by force or by fire.",
+  "dropRarity": null
 }

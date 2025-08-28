@@ -15,5 +15,6 @@
     "(313 to 373) Ward gained when damage leaves you at low healthLow health is 35% and this effect has a 5 second cooldown.",
     "+(73 to 113) Health"
   ],
-  "lore": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat"
+  "lore": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat",
+  "dropRarity": "Rare"
 }

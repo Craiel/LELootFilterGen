@@ -18,5 +18,6 @@
     "+(3 to 10) Strength",
     "+(3 to 10) Dexterity"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

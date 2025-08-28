@@ -13,5 +13,6 @@
     "+(15 to 45)% chance to chill, shock, and ignite on hit with elemental skillsElemental refers to fire, cold, and lightning",
     "(10 to 15)% increased chill, shock, and ignite duration"
   ],
-  "lore": "The power of the elements is greatest in their most primal state."
+  "lore": "The power of the elements is greatest in their most primal state.",
+  "dropRarity": "Common"
 }

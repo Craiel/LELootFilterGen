@@ -20,5 +20,6 @@
     "2 Rage Gained on Kill in Werebear Form",
     "White Fur in Werebear Form"
   ],
-  "lore": "The fury of the spirit bear can not be restrained or subdued, even while confined."
+  "lore": "The fury of the spirit bear can not be restrained or subdued, even while confined.",
+  "dropRarity": "Common"
 }

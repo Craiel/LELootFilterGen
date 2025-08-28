@@ -17,5 +17,6 @@
     "+(4 to 7) Melee Physical Damage for Minions",
     "Your Minions cannot be Crit"
   ],
-  "lore": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon."
+  "lore": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon.",
+  "dropRarity": null
 }

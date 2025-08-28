@@ -17,5 +17,6 @@
     "+(5 to 7) Health Regen",
     "+(50% to 75%) Poison Resistance"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

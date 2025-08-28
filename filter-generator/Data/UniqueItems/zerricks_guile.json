@@ -17,5 +17,6 @@
     "72% Increased Chance To Find Potions",
     "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
   ],
-  "lore": "Zerrick's humility and reverence for the Nagasa and the Scalebane leaders long kept him in their favour, sealing their demise."
+  "lore": "Zerrick's humility and reverence for the Nagasa and the Scalebane leaders long kept him in their favour, sealing their demise.",
+  "dropRarity": "Common"
 }

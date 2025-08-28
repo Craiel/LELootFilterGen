@@ -17,5 +17,6 @@
     "(10 to 18) Health Gain on Freeze",
     "+(10 to 18) Cold Melee Damage"
   ],
-  "lore": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades."
+  "lore": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades.",
+  "dropRarity": null
 }

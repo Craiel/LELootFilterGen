@@ -17,5 +17,6 @@
     "(16% to 24%) more Armor against Chilled Enemiesmultiplicative with other modifiers",
     "You are immune to Blind and Chill"
   ],
-  "lore": "Blind with the snow, never blinded by it."
+  "lore": "Blind with the snow, never blinded by it.",
+  "dropRarity": "Common"
 }

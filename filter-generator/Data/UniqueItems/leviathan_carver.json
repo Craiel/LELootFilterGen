@@ -15,5 +15,6 @@
     "You cannot avoid critical strikes",
     "70% reduced Bonus Damage Taken from Critical Strikes"
   ],
-  "lore": "Forge Master Rupin'Ur sought to create a weapon capable of slaying any beast, but to most it more resembled a hunk of raw steel."
+  "lore": "Forge Master Rupin'Ur sought to create a weapon capable of slaying any beast, but to most it more resembled a hunk of raw steel.",
+  "dropRarity": "Rare"
 }

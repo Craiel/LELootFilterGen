@@ -18,5 +18,6 @@
     "Using a Potion Cleanses Stun and Freeze",
     "Stun Immunity for 4 seconds when you use a Potion"
   ],
-  "lore": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead."
+  "lore": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead.",
+  "dropRarity": null
 }

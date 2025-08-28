@@ -18,5 +18,6 @@
     "+2 Endurance Threshold per Strength",
     "+30 Strength"
   ],
-  "lore": "The last bear stood alone against the void, guarding the cave in which she thought her cubs still rested."
+  "lore": "The last bear stood alone against the void, guarding the cave in which she thought her cubs still rested.",
+  "dropRarity": "Common"
 }

@@ -17,5 +17,6 @@
     "1% of Poison Damage Leeched as Health",
     "(10% to 17%) Increased Area for Damage Over Time Spell Area Skills"
   ],
-  "lore": "The witches of the Red Marsh learned to cultivate a type of magical fungus within their own skulls. The mycelium grew eagerly into their brains, twisting their minds, but the powers it bestowed were well worth their sanity."
+  "lore": "The witches of the Red Marsh learned to cultivate a type of magical fungus within their own skulls. The mycelium grew eagerly into their brains, twisting their minds, but the powers it bestowed were well worth their sanity.",
+  "dropRarity": "Common"
 }

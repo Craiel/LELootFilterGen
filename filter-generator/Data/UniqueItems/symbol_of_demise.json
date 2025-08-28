@@ -17,5 +17,6 @@
     "Each stack of Demise grants 10% Bleed Chance (up to 200%)",
     "Each stack of Demise grants 1% increased Bleed Duration"
   ],
-  "lore": "The fate of the world engraved in bone."
+  "lore": "The fate of the world engraved in bone.",
+  "dropRarity": null
 }

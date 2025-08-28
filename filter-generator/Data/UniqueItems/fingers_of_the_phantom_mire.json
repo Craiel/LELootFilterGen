@@ -19,5 +19,6 @@
     "(50% to 80%) Chance to Slow Attackers",
     "You are Immune to SlowThis grants you immunity to the Slow ailment, not to other sources of speed reduction such as chill."
   ],
-  "lore": "A drained bog seeks vengeance"
+  "lore": "A drained bog seeks vengeance",
+  "dropRarity": "Common"
 }

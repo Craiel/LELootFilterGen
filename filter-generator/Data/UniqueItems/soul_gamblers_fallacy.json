@@ -15,5 +15,6 @@
     "+(10% to 15%) Critical Strike Multiplier",
     "+1 to Level of Necrotic Skills"
   ],
-  "lore": "When coins run out, you still have your soul to gamble."
+  "lore": "When coins run out, you still have your soul to gamble.",
+  "dropRarity": null
 }

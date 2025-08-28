@@ -17,5 +17,6 @@
     "0.2% Increased Movement Speed per Added Melee Void DamageNot affected by increased damage, just stats like +5 Melee Void Damage.",
     "(18% to 42%) increased Void Damage"
   ],
-  "lore": "Decades after the rest of civilisation hid itself beneath the ground, the last of the void knights still roamed the ruined surface, searching relentlessly for a way to turn the power of the void against itself. Their discoveries remain with them, lost amidst the shadows."
+  "lore": "Decades after the rest of civilisation hid itself beneath the ground, the last of the void knights still roamed the ruined surface, searching relentlessly for a way to turn the power of the void against itself. Their discoveries remain with them, lost amidst the shadows.",
+  "dropRarity": "Common"
 }

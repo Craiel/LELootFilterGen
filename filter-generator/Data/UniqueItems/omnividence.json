@@ -19,5 +19,6 @@
     "(50% to 100%) of Damage Reflected",
     "(200% to 300%) increased Void Spell Damage"
   ],
-  "lore": "Gaze upon all that will never be."
+  "lore": "Gaze upon all that will never be.",
+  "dropRarity": "Very rare"
 }

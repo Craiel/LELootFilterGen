@@ -20,5 +20,6 @@
     "(5% to 8%) increased Movement Speed",
     "+(1 to 2) Potion Slots"
   ],
-  "lore": "\"I do not need to mend the wounds that a dead foe had not the chance to inflict\" - Elecoe the Alchemist Thief"
+  "lore": "\"I do not need to mend the wounds that a dead foe had not the chance to inflict\" - Elecoe the Alchemist Thief",
+  "dropRarity": "Common"
 }

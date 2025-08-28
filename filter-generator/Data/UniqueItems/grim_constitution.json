@@ -17,5 +17,6 @@
     "+(55 to 85) Health",
     "+(155 to 385) Block Effectiveness"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

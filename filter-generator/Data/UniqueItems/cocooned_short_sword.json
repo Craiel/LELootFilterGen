@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique one-handed sword"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

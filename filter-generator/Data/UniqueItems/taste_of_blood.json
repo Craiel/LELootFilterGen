@@ -17,5 +17,6 @@
     "15% Increased Bleed Duration",
     "When you hit a bleeding enemy with a melee attack all bleed stacks on that enemy double in speedWhen a bleed stack's speed is double its duration is halved and its damage per second is doubled."
   ],
-  "lore": "A bloody fervor clouds the mind."
+  "lore": "A bloody fervor clouds the mind.",
+  "dropRarity": "Common"
 }

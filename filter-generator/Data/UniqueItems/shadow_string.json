@@ -17,5 +17,6 @@
     "+1 Charge for Smoke Bomb",
     "(11 to 111) Ward gained when you use Smoke Bomb"
   ],
-  "lore": "Unseen hands strike hardest"
+  "lore": "Unseen hands strike hardest",
+  "dropRarity": "Rare"
 }

@@ -20,5 +20,6 @@
     "(30% to 40%) Chance to Cast Rip Blood at 5 nearby targets on Melee Hit (2 second cooldown)",
     "+(13 to 20) Health Gained from Rip BloodIncreases the health gained from Blood Orbs created by Rip Blood. Affected by Increased Healing Effectiveness."
   ],
-  "lore": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra."
+  "lore": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra.",
+  "dropRarity": null
 }

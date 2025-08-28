@@ -19,5 +19,6 @@
     "+(20% to 40%) Chance to apply Chill on Melee Hit",
     "(20% to 30%) increased Melee Attack Speed"
   ],
-  "lore": "The great wolf Artor ran with Heorot in times long forgotten."
+  "lore": "The great wolf Artor ran with Heorot in times long forgotten.",
+  "dropRarity": "Common"
 }

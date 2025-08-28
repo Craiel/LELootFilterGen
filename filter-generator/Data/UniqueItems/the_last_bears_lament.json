@@ -16,5 +16,6 @@
     "+2 Endurance Threshold per Strength",
     "+30 Strength"
   ],
-  "lore": "The last bear's ancestors watched as the Temple of Eterra fell from the sky."
+  "lore": "The last bear's ancestors watched as the Temple of Eterra fell from the sky.",
+  "dropRarity": "Common"
 }

@@ -20,5 +20,6 @@
     "(100% to 170%) increased Minion Damage",
     "+(40% to 70%) Chance to apply Electrify on Hit with Minion Skills"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

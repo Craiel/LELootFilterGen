@@ -20,5 +20,6 @@
     "(4% to 10%) increased Movement Speed",
     "(4% to 10%) increased Cooldown Recovery Speed for Evade"
   ],
-  "lore": "The wind chimes sing within the mines"
+  "lore": "The wind chimes sing within the mines",
+  "dropRarity": "Common"
 }

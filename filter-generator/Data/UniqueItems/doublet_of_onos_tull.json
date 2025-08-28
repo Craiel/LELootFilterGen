@@ -13,5 +13,6 @@
     "Minions have +(60 to 100)% Chance to Inflict Bleed on Hit",
     "Minions have (60 to 100)% Increased Bleed Duration"
   ],
-  "lore": "The horns of the Immortal Empire fill the hearts of the living with fear, and the bones of the dead with glory."
+  "lore": "The horns of the Immortal Empire fill the hearts of the living with fear, and the bones of the dead with glory.",
+  "dropRarity": "Common"
 }

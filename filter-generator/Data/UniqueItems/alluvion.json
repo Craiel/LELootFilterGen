@@ -16,5 +16,6 @@
     "+(20% to 40%) Lightning Resistance",
     "100% Chance to cast Tidal Wave when you use a Melee Attack (2 second cooldown)Tidal Wave deals cold damage to all enemies hit in a line in front of you."
   ],
-  "lore": "Waves woven into steel."
+  "lore": "Waves woven into steel.",
+  "dropRarity": null
 }

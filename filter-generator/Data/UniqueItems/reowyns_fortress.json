@@ -21,5 +21,6 @@
     "+(12 to 18) Ward per Second per Gon Rune",
     "+1 Spell Damage with Runic Invocation per 10 Armor, Dodge Rating, or Ward, whichever is lowest"
   ],
-  "lore": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch."
+  "lore": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch.",
+  "dropRarity": "Common"
 }

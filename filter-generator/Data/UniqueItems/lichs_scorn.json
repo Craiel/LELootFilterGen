@@ -20,5 +20,6 @@
     "+1% Cold Penetration for Minions affected by Dread Shade per Intelligence",
     "+4 Maximum ShadesAffects the maximum number of Infernal and Dread Shades."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

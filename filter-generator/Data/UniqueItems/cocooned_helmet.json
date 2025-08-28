@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique helmet"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

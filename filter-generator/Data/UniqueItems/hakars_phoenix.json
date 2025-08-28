@@ -20,5 +20,6 @@
     "When a Companion is Downed it is automatically revived after 2 seconds (10 second cooldown)",
     "When a companion is revived by Hakar's Phoenix it releases a burst of fire and gains 100 melee fire damage and 100% ignite chance for 20 secondsThe burst of fire deals fire spell damage and scales with the minion's stats"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Rare"
 }

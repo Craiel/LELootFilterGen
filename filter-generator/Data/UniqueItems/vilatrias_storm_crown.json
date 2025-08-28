@@ -17,5 +17,6 @@
     "+1% Shock Chance per Intelligence",
     "+1 Spell Lightning Damage per 2 Intelligence"
   ],
-  "lore": "Studying at the great colleges of Welryn and Vul'Kaur, Vilatria perfected the art of Storm Magic. Yet a scholarly life never sated her ambition and she returned to the Lake kingdoms of central Eterra. Without a god to lead them, their lords and elders were proud and open to challenges of force. With the college of Welryn on their doorsteps, they were not unprepared for arcane challengers, but their wards could not protect them from the lightning that tore threw the roofs of their halls and smote them in their thrones, and so Vilatria claimed their kingdoms by force."
+  "lore": "Studying at the great colleges of Welryn and Vul'Kaur, Vilatria perfected the art of Storm Magic. Yet a scholarly life never sated her ambition and she returned to the Lake kingdoms of central Eterra. Without a god to lead them, their lords and elders were proud and open to challenges of force. With the college of Welryn on their doorsteps, they were not unprepared for arcane challengers, but their wards could not protect them from the lightning that tore threw the roofs of their halls and smote them in their thrones, and so Vilatria claimed their kingdoms by force.",
+  "dropRarity": "Very rare"
 }

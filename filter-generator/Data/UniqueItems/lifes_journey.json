@@ -19,5 +19,6 @@
     "(3% to 5%) increased Melee Attack Speed",
     "(3% to 5%) increased Movement Speed"
   ],
-  "lore": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust."
+  "lore": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust.",
+  "dropRarity": "Rare"
 }

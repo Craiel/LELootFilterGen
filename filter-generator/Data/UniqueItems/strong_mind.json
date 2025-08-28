@@ -15,5 +15,6 @@
     "200% of maximum mana added as stun avoidance",
     "Cast a small lightning explosion when you are stunned"
   ],
-  "lore": "Stand Fast."
+  "lore": "Stand Fast.",
+  "dropRarity": "Common"
 }

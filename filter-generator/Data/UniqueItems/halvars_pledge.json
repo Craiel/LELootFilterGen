@@ -23,5 +23,6 @@
     "+100% Chance to cast Avalanche Boulder at target when you critically hit with a spell.This is affected by your Avalanche tree and has a 1 second cooldown.",
     "+2 to Level of Avalanche"
   ],
-  "lore": "The shaman Halvar bound himself with the spirit of the mountain."
+  "lore": "The shaman Halvar bound himself with the spirit of the mountain.",
+  "dropRarity": "Common"
 }

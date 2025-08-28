@@ -16,5 +16,6 @@
     "+5% Chance to replenish one potion when Bone Golem hits an enemyApplies to all types of Bone Golem",
     "Your Summon Skeletons' spells and attacks deal +42 fire, cold or lightning damage. The element selected is your lowest elemental resistance."
   ],
-  "lore": "The bones in Pebbles' body respond to metal like a magnet. I’m beginning to think I’m in over my head. -Traveling Merchant"
+  "lore": "The bones in Pebbles' body respond to metal like a magnet. I’m beginning to think I’m in over my head. -Traveling Merchant",
+  "dropRarity": "Common"
 }

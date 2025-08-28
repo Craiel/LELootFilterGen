@@ -18,5 +18,6 @@
     "+(7% to 13%) Cold Resistance",
     "+1 Maximum SkeletonAffects the Acolyte's Summon Skeleton skill"
   ],
-  "lore": "Only brittle skin remains."
+  "lore": "Only brittle skin remains.",
+  "dropRarity": "Common"
 }

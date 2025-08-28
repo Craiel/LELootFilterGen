@@ -20,5 +20,6 @@
     "(15% to 35%) of Armor Mitigation also applies to Damage over Time",
     "+(5 to 13) to All Attributes"
   ],
-  "lore": "All is judged according to its creation"
+  "lore": "All is judged according to its creation",
+  "dropRarity": null
 }

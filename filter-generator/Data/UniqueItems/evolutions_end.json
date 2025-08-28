@@ -18,5 +18,6 @@
     "When a hit leaves a Boss or Champion below 40% health you summon a Rift Beast for 15 seconds (40 second cooldown)",
     "The Rift Beast summoned has the same Evolutions as the Rift Beast that dropped this item"
   ],
-  "lore": "A fossil of a lineage forged in time"
+  "lore": "A fossil of a lineage forged in time",
+  "dropRarity": null
 }

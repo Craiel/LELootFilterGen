@@ -16,5 +16,6 @@
     "(15 to 30)% increased attack speed, cast speed, and movement speed if you have used a potion in the past 4 seconds",
     "Immunity to Bleed at low healthYou are on low health while below 35% of your maximum health"
   ],
-  "lore": "Crazed is the mind of a blood starved Lich."
+  "lore": "Crazed is the mind of a blood starved Lich.",
+  "dropRarity": "Rare"
 }

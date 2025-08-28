@@ -15,5 +15,6 @@
     "7% of Fire Damage Leeched as Health",
     "15% chance to cast Magma Shards on melee hit"
   ],
-  "lore": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh."
+  "lore": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh.",
+  "dropRarity": "Common"
 }

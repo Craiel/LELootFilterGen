@@ -19,5 +19,6 @@
     "At 5 soul charges, casts Soul Eruption",
     "+2 to Level of Soul Feast"
   ],
-  "lore": "The weight of souls is too much for most."
+  "lore": "The weight of souls is too much for most.",
+  "dropRarity": "Common"
 }

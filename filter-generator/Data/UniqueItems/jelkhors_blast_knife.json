@@ -18,5 +18,6 @@
     "Detonating Arrow scales with melee damage instead of bow damage",
     "+(48 to 65) Melee Damage for directly used Detonating Arrow"
   ],
-  "lore": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge."
+  "lore": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge.",
+  "dropRarity": "Common"
 }

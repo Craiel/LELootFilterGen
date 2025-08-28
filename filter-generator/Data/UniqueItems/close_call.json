@@ -16,5 +16,6 @@
     "40% increased dodge rating for each hit you have blocked recentlyRecently refers to the last 4 seconds",
     "+4 Health gained when you Dodge"
   ],
-  "lore": "Light on your feet, with a foot in the grave."
+  "lore": "Light on your feet, with a foot in the grave.",
+  "dropRarity": "Common"
 }

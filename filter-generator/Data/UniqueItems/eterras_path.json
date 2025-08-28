@@ -17,5 +17,6 @@
     "Every second if you are moving you have a (20 to 28)% chance to cast Summon VinesSummon Vines is an active skill in Spriggan Form and scales with specific nodes on its tree. Limited to 12 Vines by default.",
     "+1 to Level of Entangling Roots"
   ],
-  "lore": "Life grows in your footsteps."
+  "lore": "Life grows in your footsteps.",
+  "dropRarity": "Common"
 }

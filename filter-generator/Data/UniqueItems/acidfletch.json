@@ -19,5 +19,6 @@
     "+(80% to 130%) Chance to apply Shred Armor on Bow Hit",
     "(80% to 130%) Increased Shred Armor Effect"
   ],
-  "lore": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra."
+  "lore": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra.",
+  "dropRarity": "Common"
 }

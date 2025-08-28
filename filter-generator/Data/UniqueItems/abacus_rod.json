@@ -18,5 +18,6 @@
     "+5 Spell Damage per stack of Numeromancy",
     "5% increased Cast Speed per stack of Numeromancy"
   ],
-  "lore": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim."
+  "lore": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim.",
+  "dropRarity": "Common"
 }

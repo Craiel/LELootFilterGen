@@ -16,5 +16,6 @@
     "+(60 to 90) Mana",
     "Gain a Storm Stack when you directly use a melee attack and hit at least one enemyStorm Stacks are expended every second to cast Storm Bolt at a nearby enemy. This interval is reduced by 2% for every stack you currently have."
   ],
-  "lore": "Strike with the power of the storm."
+  "lore": "Strike with the power of the storm.",
+  "dropRarity": "Common"
 }

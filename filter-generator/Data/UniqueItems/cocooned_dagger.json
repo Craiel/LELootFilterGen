@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique dagger"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

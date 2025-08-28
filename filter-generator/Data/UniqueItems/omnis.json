@@ -18,5 +18,6 @@
     "+(1% to 45%) Necrotic Resistance",
     "+(1% to 45%) Poison Resistance"
   ],
-  "lore": "All the stars in the empty sky flicker at once and fade into silence and shadow."
+  "lore": "All the stars in the empty sky flicker at once and fade into silence and shadow.",
+  "dropRarity": null
 }

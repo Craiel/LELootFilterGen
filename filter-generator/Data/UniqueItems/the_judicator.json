@@ -21,5 +21,6 @@
     "(60% to 120%) Increased Healing Effectiveness",
     "(20% to 26%) chance to cast Smite at a nearby enemy on Kill"
   ],
-  "lore": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it."
+  "lore": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it.",
+  "dropRarity": "Rare"
 }

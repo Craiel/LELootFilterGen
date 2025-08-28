@@ -21,5 +21,6 @@
     "(15% to 90%) Necrotic Penetration with Torment",
     "(15% to 21%) Chance to cast Chthonic Fissure when you hit a boss or rare enemy with Soul Feast and don't have an active Fissure"
   ],
-  "lore": "The torment of consumed souls lingers within their devourer."
+  "lore": "The torment of consumed souls lingers within their devourer.",
+  "dropRarity": "Rare"
 }

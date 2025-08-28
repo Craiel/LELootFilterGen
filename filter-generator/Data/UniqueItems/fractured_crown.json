@@ -16,5 +16,6 @@
     "(20% to 50%) of Damage Dealt to Mana Before Health",
     "You have no ward"
   ],
-  "lore": "Few goals have cost more lives than the quest for power."
+  "lore": "Few goals have cost more lives than the quest for power.",
+  "dropRarity": null
 }

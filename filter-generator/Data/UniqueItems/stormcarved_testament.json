@@ -17,5 +17,6 @@
     "12% Chance to summon a Storm Totem on hit (8 second cooldown)",
     "+6 Attunement"
   ],
-  "lore": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs."
+  "lore": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs.",
+  "dropRarity": null
 }

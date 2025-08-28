@@ -18,5 +18,6 @@
     "(30% to 90%) increased Lightning Damage",
     "+(3% to 15%) Lightning Penetration"
   ],
-  "lore": "Where your limits end, your faith's test begins."
+  "lore": "Where your limits end, your faith's test begins.",
+  "dropRarity": "Common"
 }

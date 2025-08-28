@@ -19,5 +19,6 @@
     "+(17% to 29%) Critical Strike Avoidance",
     "(17% to 29%) increased Dodge Rating"
   ],
-  "lore": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes."
+  "lore": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes.",
+  "dropRarity": null
 }

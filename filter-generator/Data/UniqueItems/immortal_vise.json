@@ -18,5 +18,6 @@
     "+(60 to 90) Health",
     "+(6 to 9) Strength"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

@@ -17,5 +17,6 @@
     "+13% Elemental Resistance",
     "(13% to 19%) Fire Penetration with Ignite"
   ],
-  "lore": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you."
+  "lore": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you.",
+  "dropRarity": null
 }

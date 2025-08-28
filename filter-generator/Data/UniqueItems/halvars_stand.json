@@ -22,5 +22,6 @@
     "+100% Chance to cast Avalanche Boulder at target when you critically hit with a spell.This is affected by your Avalanche tree and has a 1 second cooldown.",
     "+2 to Level of Avalanche"
   ],
-  "lore": "When Morditas’ army closed in on him, Halvar asked the mountain to bury them together."
+  "lore": "When Morditas’ army closed in on him, Halvar asked the mountain to bury them together.",
+  "dropRarity": "Common"
 }

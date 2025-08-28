@@ -635,7 +635,8 @@ class DatabaseBuilder {
                     levelRequirement: uniqueItem.levelRequirement,
                     classRequirement: uniqueItem.classRequirement,
                     implicits: uniqueItem.implicits,
-                    modifiers: uniqueItem.modifiers
+                    modifiers: uniqueItem.modifiers,
+                    dropRarity: uniqueItem.dropRarity
                   }
                 });
               } else if (typeof existingEntry === 'object' && existingEntry.name) {
@@ -649,7 +650,8 @@ class DatabaseBuilder {
                   levelRequirement: uniqueItem.levelRequirement,
                   classRequirement: uniqueItem.classRequirement,
                   implicits: uniqueItem.implicits,
-                  modifiers: uniqueItem.modifiers
+                  modifiers: uniqueItem.modifiers,
+                  dropRarity: uniqueItem.dropRarity
                 };
               }
             } else {
@@ -1400,7 +1402,8 @@ class DatabaseBuilder {
         desc: unique.desc || '',
         baseType: unique.props?.baseType || '',
         category: unique.props?.category || '',
-        classRequirement: unique.props?.classRequirement || ''
+        classRequirement: unique.props?.classRequirement || '',
+        dropRarity: unique.props?.dropRarity || 'N/A'
       });
     }
     

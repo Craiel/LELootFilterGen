@@ -6,140 +6,160 @@
       "desc": "Set the world ablaze and burn along with it.",
       "baseType": "Jewelled Circlet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "name": "Decayed Skuil",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Keeper's Glove",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Boulderfist",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Sharktooth Saw",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Heirloom of Light",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Horns of Uhkelros",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Scales of Eterra (Fire & Cold)",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Scales of Eterra (Cold & Lightning)",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Scales of Eterra (Fire & Lightning)",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Twisted Heart of Uhkelros",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Sacrifical Embrace",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Flesh of Stone",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Pack Severance",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Peal of the Mountain",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Mad Alchmeist's Ladle",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Flight of Quetzerl",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Pearls of the Swine (Blood)",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Pearls of the Swine (Fire)",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "name": "Pearls of the Swine (Poison)",
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 1,
@@ -147,7 +167,8 @@
       "desc": "Few goals have cost more lives than the quest for power.",
       "baseType": "Celestial Helm",
       "category": "Helmet",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "N/A"
     },
     {
       "id": 2,
@@ -155,7 +176,8 @@
       "desc": "Blind with the snow, never blinded by it.",
       "baseType": "Gladiator Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 3,
@@ -163,7 +185,8 @@
       "desc": "The great wolf Artor ran with Heorot in times long forgotten.",
       "baseType": "Icewolf Pelt",
       "category": "Helmet",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
     },
     {
       "id": 6,
@@ -171,7 +194,8 @@
       "desc": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion.",
       "baseType": "Gladiator Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 7,
@@ -179,7 +203,8 @@
       "desc": "May the dying breaths of your enemies put air beneath your wings.",
       "baseType": "Refuge Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 8,
@@ -187,7 +212,8 @@
       "desc": "The horns of the Immortal Empire fill the hearts of the living with fear, and the bones of the dead with glory.",
       "baseType": "Leather Coat",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 9,
@@ -195,7 +221,8 @@
       "desc": "The elements shift like light through a prism. If you control the prism you control the elements.",
       "baseType": "Leather Coat",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 10,
@@ -203,7 +230,8 @@
       "desc": "Strength of mind and strength of body are a potent combination.",
       "baseType": "Iron Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 11,
@@ -211,7 +239,8 @@
       "desc": "Crazed is the mind of a blood starved Lich.",
       "baseType": "Noble Raiment",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 12,
@@ -219,7 +248,8 @@
       "desc": "Yrun was wise in battle, but not in his betrayal of Heorot.",
       "baseType": "Banded Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 13,
@@ -227,7 +257,8 @@
       "desc": "Heart of stone, blood of gravel.",
       "baseType": "Copper Plate",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 14,
@@ -235,7 +266,8 @@
       "desc": "The roots of Eterra grow through stone and flesh and time.",
       "baseType": "Forest Cuirass",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 15,
@@ -243,7 +275,8 @@
       "desc": "The bite of the viper brings lethargy and death.",
       "baseType": "Sash",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 17,
@@ -251,7 +284,8 @@
       "desc": "Many things are fickle, few more so than life itself.",
       "baseType": "Nomad Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 18,
@@ -259,7 +293,8 @@
       "desc": "Tether yourself to this mortal realm.",
       "baseType": "Noble Sash",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 19,
@@ -267,7 +302,8 @@
       "desc": "Spread ice with every step, like frost before sunrise.",
       "baseType": "Leather Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 20,
@@ -275,7 +311,8 @@
       "desc": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly.",
       "baseType": "Iron Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 21,
@@ -283,7 +320,8 @@
       "desc": "Life grows in your footsteps.",
       "baseType": "Brigandine Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 23,
@@ -291,7 +329,8 @@
       "desc": "Move with the fluidity of water, relax and you can react without resistance.",
       "baseType": "Mail Bracers",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 24,
@@ -299,7 +338,8 @@
       "desc": "Fight for your life.",
       "baseType": "Mail Bracers",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 27,
@@ -307,7 +347,8 @@
       "desc": "Speed is its own accuracy.",
       "baseType": "Plated Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 28,
@@ -315,7 +356,8 @@
       "desc": "The King of Beasts leads the charge.",
       "baseType": "Wengari Axe",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 29,
@@ -323,7 +365,8 @@
       "desc": "A bloody fervor clouds the mind.",
       "baseType": "Rusted Cleaver",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 30,
@@ -331,7 +374,8 @@
       "desc": "",
       "baseType": "Dragonbone Axe",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 31,
@@ -339,7 +383,8 @@
       "desc": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena.",
       "baseType": "Crescent Axe",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 32,
@@ -347,7 +392,8 @@
       "desc": "An alliance of wengari and nomads gathered in the northern tundra, forging weapons of ice and preparing to reclaim Heoborea from the Immortal Empire.",
       "baseType": "Ice Sceptre",
       "category": "Sceptre",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 33,
@@ -355,7 +401,8 @@
       "desc": "Culnivar, last scion of Liath, was a symbol of hope for the living slaves of Thetima.",
       "baseType": "Auric Sceptre",
       "category": "Sceptre",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 34,
@@ -363,7 +410,8 @@
       "desc": "Bzzzzzzzzzz",
       "baseType": "Gladius",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 35,
@@ -371,7 +419,8 @@
       "desc": "Dance through the flames.",
       "baseType": "Katana",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 36,
@@ -379,7 +428,8 @@
       "desc": "",
       "baseType": "Falchion",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 37,
@@ -387,7 +437,8 @@
       "desc": "An ode to fires past.",
       "baseType": "Archive Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 38,
@@ -395,7 +446,8 @@
       "desc": "Infused with countless potions, its effects are unpredictable.",
       "baseType": "Rowan Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 39,
@@ -403,7 +455,8 @@
       "desc": "The touch of death reaches far beyond the grave.",
       "baseType": "Archive Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 40,
@@ -411,7 +464,8 @@
       "desc": "Some kill without a purpose. Acolytes kill for the harvest.",
       "baseType": "Bearded Axe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 41,
@@ -419,7 +473,8 @@
       "desc": "Lorent may be gone, but its memory will remain with you as you grow.",
       "baseType": "Great Mace",
       "category": "Two-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 42,
@@ -427,7 +482,8 @@
       "desc": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes.",
       "baseType": "Maul",
       "category": "Two-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 43,
@@ -435,7 +491,8 @@
       "desc": "Strike with the power of the storm.",
       "baseType": "Great Mace",
       "category": "Two-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 44,
@@ -443,7 +500,8 @@
       "desc": "Poison the mind, kill the heart.",
       "baseType": "Glaive",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 45,
@@ -451,7 +509,8 @@
       "desc": "Boundless ambition enshrined in ice.",
       "baseType": "Ice Spear",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 47,
@@ -459,7 +518,8 @@
       "desc": "When the headsman's blade falls, Sarno laughs in triumph.",
       "baseType": "Imperial Warblade",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 48,
@@ -467,7 +527,8 @@
       "desc": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh.",
       "baseType": "Flamberge",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 49,
@@ -475,7 +536,8 @@
       "desc": "Eater of dreams, weaver of nightmares.",
       "baseType": "Split Greatsword",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 50,
@@ -483,7 +545,8 @@
       "desc": "Some slabs mark the dead, this one marks the living.",
       "baseType": "Ironglass Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 51,
@@ -491,7 +554,8 @@
       "desc": "Light on your feet, with a foot in the grave.",
       "baseType": "Wooden Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 52,
@@ -499,7 +563,8 @@
       "desc": "The weight of souls is too much for most.",
       "baseType": "Heater Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 53,
@@ -507,7 +572,8 @@
       "desc": "Burn with the fire of the eternal sun.",
       "baseType": "Dawn Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 54,
@@ -515,7 +581,8 @@
       "desc": "Stand Fast.",
       "baseType": "Copper Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 55,
@@ -523,7 +590,8 @@
       "desc": "Drink the blood of the weak.",
       "baseType": "Jade Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 56,
@@ -531,7 +599,8 @@
       "desc": "Shifting, Changing, Striking.",
       "baseType": "Jade Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 58,
@@ -539,7 +608,8 @@
       "desc": "A wolf never hunts alone.",
       "baseType": "Brass Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 59,
@@ -547,7 +617,8 @@
       "desc": "The rattle of the dying is the sound of weakness leaving the world.",
       "baseType": "Turquoise Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 60,
@@ -555,7 +626,8 @@
       "desc": "A wolf never hunts alone.",
       "baseType": "Bone Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 61,
@@ -563,7 +635,8 @@
       "desc": "The future burns within the prophetic lense.",
       "baseType": "Oracle Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Extremely rare"
     },
     {
       "id": 62,
@@ -571,7 +644,8 @@
       "desc": "Forsee the strikes, imbue them with power.",
       "baseType": "Copper Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 65,
@@ -579,7 +653,8 @@
       "desc": "You can search round and round, but you are seeking an illusion.",
       "baseType": "Silver Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 66,
@@ -587,7 +662,8 @@
       "desc": "Only brittle skin remains.",
       "baseType": "Turquoise Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 67,
@@ -595,7 +671,8 @@
       "desc": "The power of the elements is greatest in their most primal state.",
       "baseType": "Reliquary Text",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 68,
@@ -603,7 +680,8 @@
       "desc": "Take a quaff from draught of undeath.",
       "baseType": "Reliquary Grimoire",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 70,
@@ -611,7 +689,8 @@
       "desc": "The souls of the damned burn with eternal fire.",
       "baseType": "Grave Lantern",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 71,
@@ -619,7 +698,8 @@
       "desc": "The blood within is said to reflect the drinker's true face.",
       "baseType": "Silver Grail",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 72,
@@ -627,7 +707,8 @@
       "desc": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun.",
       "baseType": "Overgrowth Bloom",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 73,
@@ -635,7 +716,8 @@
       "desc": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake.",
       "baseType": "Spine Rod",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 74,
@@ -643,7 +725,8 @@
       "desc": "Dying cinders illuminate the empty skull.",
       "baseType": "Branded Skull",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 75,
@@ -651,7 +734,8 @@
       "desc": "Gods may fall and empires crumble, but the furtive scavenger lives on.",
       "baseType": "Leather Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 76,
@@ -659,7 +743,8 @@
       "desc": "For centuries Architect Liath ensured the prosperity of Lagon's realm.",
       "baseType": "Gold Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 80,
@@ -667,7 +752,8 @@
       "desc": "Crush. Maul. Bludgeon.",
       "baseType": "Flanged Mace",
       "category": "One-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 81,
@@ -675,7 +761,8 @@
       "desc": "Ucenui the navigator used his water magic to explore the vast ocean beyond the Isle of Storms. His fate is unknown, but his instrument remains.",
       "baseType": "Navigation Orb",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 82,
@@ -683,7 +770,8 @@
       "desc": "The necromancers were careful to keep Arek's mind intact while they extracted the bones from his flesh.",
       "baseType": "Ebertusk Club",
       "category": "One-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 83,
@@ -691,7 +779,8 @@
       "desc": "Maehlin devoted his life to Rahyeh. Seeking to learn his will he reached into the god's mind. Rahyeh reached back into his and set his blood aflame.",
       "baseType": "Plated Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 84,
@@ -699,7 +788,8 @@
       "desc": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow.",
       "baseType": "Ruby Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 91,
@@ -707,7 +797,8 @@
       "desc": "Embers of a dragon's heart still linger in these smoldering scales. Dire hits threaten to stoke a wrath that has long slumbered.",
       "baseType": "Solarum Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 92,
@@ -715,7 +806,8 @@
       "desc": "The lack of a bottom means that there is more material for pockets.",
       "baseType": "Leather Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 93,
@@ -723,7 +815,8 @@
       "desc": "The fury of the spirit bear can not be restrained or subdued, even while confined.",
       "baseType": "Beastmail",
       "category": "Body Armor",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
     },
     {
       "id": 103,
@@ -731,7 +824,8 @@
       "desc": "“This branch will protect you, even when I can not.” - the last words Quiet heard from her forest friend.",
       "baseType": "Nomad Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 104,
@@ -739,7 +833,8 @@
       "desc": "The rebel Suloron struck deep into Majasa's territory, but his fervour could not save him from the matrons' blades.",
       "baseType": "Brigandine Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 105,
@@ -747,7 +842,8 @@
       "desc": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins.",
       "baseType": "Lunar Helm",
       "category": "Helmet",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 106,
@@ -755,7 +851,8 @@
       "desc": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic.",
       "baseType": "Witch Robes",
       "category": "Body Armor",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
     },
     {
       "id": 107,
@@ -763,7 +860,8 @@
       "desc": "Xenath broke his father's sword, casting away the cursed blade in resentment of his harsh master, and keeping the hilt as a reminder of his loving parent.",
       "baseType": "Broken Hilt",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 108,
@@ -771,7 +869,8 @@
       "desc": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern",
       "baseType": "Lost Journal",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 111,
@@ -779,7 +878,8 @@
       "desc": "The pinnacle of necromancy is to weave undead flesh into any form you desire.",
       "baseType": "Gladiator Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 112,
@@ -787,7 +887,8 @@
       "desc": "It is unseemly to wear the heads of your foes upon your belt like a common witch or wengari, and what is the point if the eyes can no longer see and the brains can no longer think. No, a necromancer should wear the souls of those they have conquered, a repository of sentient energy ready to consume.",
       "baseType": "Leather Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 113,
@@ -795,7 +896,8 @@
       "desc": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon.",
       "baseType": "Ruby Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 114,
@@ -803,7 +905,8 @@
       "desc": "The eyes still stare out, transfixed with longing for the power their owner sought.",
       "baseType": "Brass Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 115,
@@ -811,7 +914,8 @@
       "desc": "Step out of the cold, out of the mortal realm, and take your place among the empire.",
       "baseType": "Arcane Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 116,
@@ -819,7 +923,8 @@
       "desc": "Rust and corrosion stand as monuments to the inevitability of time.",
       "baseType": "Noble Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 117,
@@ -827,7 +932,8 @@
       "desc": "The dying embers of a god swiling around a blackened cloak.",
       "baseType": "Copper Plate",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 118,
@@ -835,7 +941,8 @@
       "desc": "The fall of Eterra is inevitable, as it always has been.",
       "baseType": "Oracle Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 119,
@@ -843,7 +950,8 @@
       "desc": "Hold steadfast at the edge of light.",
       "baseType": "Ironglass Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 120,
@@ -851,7 +959,8 @@
       "desc": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it.",
       "baseType": "Trident",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 121,
@@ -859,7 +968,8 @@
       "desc": "As storms scour the land, the sea swells and flourishes.",
       "baseType": "Meruna Shell",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 122,
@@ -867,7 +977,8 @@
       "desc": "Waves woven into steel.",
       "baseType": "Flamberge",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 123,
@@ -875,7 +986,8 @@
       "desc": "The fate of the world engraved in bone.",
       "baseType": "Rune Stone",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 124,
@@ -883,7 +995,8 @@
       "desc": "Go forth and conquer by force or by fire.",
       "baseType": "Dragon Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 125,
@@ -891,7 +1004,8 @@
       "desc": "Empires rise and fall like the waves, but the ocean's might is eternal.",
       "baseType": "Sapphire Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 126,
@@ -899,7 +1013,8 @@
       "desc": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat",
       "baseType": "Noble Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 130,
@@ -907,7 +1022,8 @@
       "desc": "Just means you're due for a big one, don't worry.",
       "baseType": "Ruby Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 131,
@@ -915,7 +1031,8 @@
       "desc": "Have the wisdom to know what is rightfully yours and the will to seize it.",
       "baseType": "Leather Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 132,
@@ -923,7 +1040,8 @@
       "desc": "We follow in the footsteps of our ancestors, but our paths no longer end.",
       "baseType": "Brigandine Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 133,
@@ -931,7 +1049,8 @@
       "desc": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade.",
       "baseType": "Ruby Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 134,
@@ -939,7 +1058,8 @@
       "desc": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive.",
       "baseType": "Plated Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 135,
@@ -947,7 +1067,8 @@
       "desc": "War is about the destination, not the journey.",
       "baseType": "Silver Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 136,
@@ -955,7 +1076,8 @@
       "desc": "A true assassin must create their own shadows to strike from.",
       "baseType": "Poignard",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 137,
@@ -963,7 +1085,8 @@
       "desc": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter.",
       "baseType": "Birch Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 141,
@@ -971,7 +1094,8 @@
       "desc": "As Wyvernfall burned nothing could escape the flames.",
       "baseType": "Shortbow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 142,
@@ -979,7 +1103,8 @@
       "desc": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes.",
       "baseType": "Longbow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 143,
@@ -987,7 +1112,8 @@
       "desc": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood.",
       "baseType": "Broadsword",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 144,
@@ -995,7 +1121,8 @@
       "desc": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra.",
       "baseType": "Serpent Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 145,
@@ -1003,7 +1130,8 @@
       "desc": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust.",
       "baseType": "Bandit Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 146,
@@ -1011,7 +1139,8 @@
       "desc": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari.",
       "baseType": "Nomad Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 147,
@@ -1019,7 +1148,8 @@
       "desc": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves.",
       "baseType": "Shrine Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 148,
@@ -1027,7 +1157,8 @@
       "desc": "\"Look only west and trust that the sun itself leads our march. \" - Pontixex Aurelus to the auxiliaries of Solarum",
       "baseType": "Heavy Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 149,
@@ -1035,7 +1166,8 @@
       "desc": "Gaze upon all that will never be.",
       "baseType": "Abyssal Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 150,
@@ -1043,7 +1175,8 @@
       "desc": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated.",
       "baseType": "Ruby Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 151,
@@ -1051,7 +1184,8 @@
       "desc": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra.",
       "baseType": "Soul Harvester",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 152,
@@ -1059,7 +1193,8 @@
       "desc": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals.",
       "baseType": "Lost Anchor",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 153,
@@ -1067,7 +1202,8 @@
       "desc": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both.",
       "baseType": "Gladiator Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 154,
@@ -1075,7 +1211,8 @@
       "desc": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass.",
       "baseType": "Brass Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 159,
@@ -1083,7 +1220,8 @@
       "desc": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot.",
       "baseType": "Longbow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "N/A"
     },
     {
       "id": 160,
@@ -1091,7 +1229,8 @@
       "desc": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades.",
       "baseType": "Gladiator Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 161,
@@ -1099,7 +1238,8 @@
       "desc": "Found among the frozen corpses in the wake of Morditas' wrath. Runes etched into the handle read \"Heorot protect us\".",
       "baseType": "Frostbound Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 162,
@@ -1107,7 +1247,8 @@
       "desc": "Shatter! Erupt! This world is only a prison for the immortal flame.",
       "baseType": "Titan Femur",
       "category": "Two-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 163,
@@ -1115,7 +1256,8 @@
       "desc": "Drink deep of the flame, brothers... Immortality awaits.",
       "baseType": "Copper Chalice",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 164,
@@ -1123,7 +1265,8 @@
       "desc": "Rise! Through fire we are reborn.",
       "baseType": "Bone Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 165,
@@ -1131,7 +1274,8 @@
       "desc": "",
       "baseType": "Jade Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 166,
@@ -1139,7 +1283,8 @@
       "desc": "\"To survive the void we must build unassailable walls, not just around this town, but around our minds. Do not approach the cultists, do not speak to them.\" - Eos Falrein, last Archmage of Vul'Kaur.",
       "baseType": "Heater Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 167,
@@ -1147,7 +1292,8 @@
       "desc": "As men and gods fight the ravens rise. As the blood settles the ravens alight.",
       "baseType": "Outcast Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 168,
@@ -1155,7 +1301,8 @@
       "desc": "Those who ventured outside in the Ancient Era lived in constant terror",
       "baseType": "Dreadthorn Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
     },
     {
       "id": 169,
@@ -1163,7 +1310,8 @@
       "desc": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\"",
       "baseType": "Temple Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 172,
@@ -1171,7 +1319,8 @@
       "desc": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!",
       "baseType": "Tusked Greathelm",
       "category": "Helmet",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
     },
     {
       "id": 175,
@@ -1179,7 +1328,8 @@
       "desc": "All the stars in the empty sky flicker at once and fade into silence and shadow.",
       "baseType": "Silver Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 176,
@@ -1187,7 +1337,8 @@
       "desc": "",
       "baseType": "Ruby Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 177,
@@ -1195,7 +1346,8 @@
       "desc": "The sorrow of those that remain feeds the hungering void.",
       "baseType": "Gold Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 178,
@@ -1203,7 +1355,8 @@
       "desc": "The end comes slowly, then quickly, then it is all that has ever been.",
       "baseType": "Arcane Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 179,
@@ -1211,7 +1364,8 @@
       "desc": "Forsake the darkening sky and let the ground swallow your mind.",
       "baseType": "Obsidian Axe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 180,
@@ -1219,7 +1373,8 @@
       "desc": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead.",
       "baseType": "Plated Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 181,
@@ -1227,7 +1382,8 @@
       "desc": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows.",
       "baseType": "Profane Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 182,
@@ -1235,7 +1391,8 @@
       "desc": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma.",
       "baseType": "Third Eye",
       "category": "Relic",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 183,
@@ -1243,7 +1400,8 @@
       "desc": "Forge Master Rupin'Ur sought to create a weapon capable of slaying any beast, but to most it more resembled a hunk of raw steel.",
       "baseType": "Solarum Greatsword",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 184,
@@ -1251,7 +1409,8 @@
       "desc": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes",
       "baseType": "Jadebone Javelin",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 187,
@@ -1259,7 +1418,8 @@
       "desc": "A critical success, a critical failure... It's all in the coin toss.",
       "baseType": "Serrated Bracers",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 188,
@@ -1267,7 +1427,8 @@
       "desc": "The nagasa of the Scorched Basin always warned merchants to disregard the false oasis on the long road to Keltha, but Azurral had never put much heed in the snake people's superstition and his thirst overcame him. He drew deep from the blood red waters. The next day he awoke to his caravan reduced to ash upon the sand and his sword burning hot in his hand.",
       "baseType": "Noble Sash",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 189,
@@ -1275,7 +1436,8 @@
       "desc": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\"",
       "baseType": "Nomad Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 190,
@@ -1283,7 +1445,8 @@
       "desc": "A Warrior's Life burned to ashes and all that's left is pride.",
       "baseType": "Bladed Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 191,
@@ -1291,7 +1454,8 @@
       "desc": "Where your limits end, your faith's test begins.",
       "baseType": "Gold Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 192,
@@ -1299,7 +1463,8 @@
       "desc": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury.",
       "baseType": "Obsidian Dagger",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 198,
@@ -1307,7 +1472,8 @@
       "desc": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade.",
       "baseType": "Old Kite Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 199,
@@ -1315,7 +1481,8 @@
       "desc": "When fire falls in love with the wind, run.",
       "baseType": "Crusader Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 200,
@@ -1323,7 +1490,8 @@
       "desc": "Litugy in darkness leads only to despair, poison on the tongue beguiles the soul, truth in unwords reveals salvation.",
       "baseType": "Jade Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 201,
@@ -1331,7 +1499,8 @@
       "desc": "In times of strife the inflexible are doomed to break. A true Battlemage must master all the arts of war.",
       "baseType": "Claymore",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 202,
@@ -1339,7 +1508,8 @@
       "desc": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms.",
       "baseType": "Leather Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 203,
@@ -1347,7 +1517,8 @@
       "desc": "Decades after the rest of civilisation hid itself beneath the ground, the last of the void knights still roamed the ruined surface, searching relentlessly for a way to turn the power of the void against itself. Their discoveries remain with them, lost amidst the shadows.",
       "baseType": "Iron Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 204,
@@ -1355,7 +1526,8 @@
       "desc": "After making peace with the nagasa, Lord Berant of Skalnir was impatient to secure his legacy and so turned his eyes to an easier conquest. The Verdant Isle was small and his scouts assured him that its druid inhabitants had no weapons. But when his soldiers returned from the sacred island, they brought back only their thorn pierced fallen and tales of vine strangled ships.",
       "baseType": "Leather Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 205,
@@ -1363,7 +1535,8 @@
       "desc": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world.",
       "baseType": "Imperial Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 206,
@@ -1371,7 +1544,8 @@
       "desc": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter.",
       "baseType": "Hide Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 207,
@@ -1379,7 +1553,8 @@
       "desc": "Overseer Nicovus had little patience for the traditional mining techniques of his living predecessors. The empire would delve deep and it would delve fast.",
       "baseType": "Oil Vial",
       "category": "Relic",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 208,
@@ -1387,7 +1562,8 @@
       "desc": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside.",
       "baseType": "Gluttonous Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Extremely rare"
     },
     {
       "id": 209,
@@ -1395,7 +1571,8 @@
       "desc": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment.",
       "baseType": "Spine Rod",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 210,
@@ -1403,7 +1580,8 @@
       "desc": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer.",
       "baseType": "Rotskin Round Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 211,
@@ -1411,7 +1589,8 @@
       "desc": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god.",
       "baseType": "Adorned Silver Idol",
       "category": "Adorned Idol",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 212,
@@ -1419,7 +1598,8 @@
       "desc": "The triumph of man and osprix culminates upon the altar of Solarum. A frail sun rises behind an illuminable shadow, spreading a corona of half light upon the ruined world beneath. This feeble shadow is no salvation from the end, but only from the hope of what might have been.",
       "baseType": "Khopesh",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 213,
@@ -1427,7 +1607,8 @@
       "desc": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane.",
       "baseType": "Mail Bracers",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 214,
@@ -1435,7 +1616,8 @@
       "desc": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs.",
       "baseType": "Stone Tablet",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 215,
@@ -1443,7 +1625,8 @@
       "desc": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek.",
       "baseType": "Spidersilk Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 218,
@@ -1451,7 +1634,8 @@
       "desc": "Between loyalty and opression, hope and tyranny, the path of wisdom must be found.",
       "baseType": "Heoborean Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 219,
@@ -1459,7 +1643,8 @@
       "desc": "Three souls to nourish an unquenchable flame.",
       "baseType": "Adorned Volcano Idol",
       "category": "Adorned Idol",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 220,
@@ -1467,7 +1652,8 @@
       "desc": "Everything comes with a price - even death.",
       "baseType": "Bone Scythe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 221,
@@ -1475,7 +1661,8 @@
       "desc": "In the whispering bull rushes and the swaying leaves, in the howling wind and flickering shadows, everywhere enemies hide.",
       "baseType": "Full Helm",
       "category": "Helmet",
-      "classRequirement": "Sentinel"
+      "classRequirement": "Sentinel",
+      "dropRarity": "Very rare"
     },
     {
       "id": 222,
@@ -1483,7 +1670,8 @@
       "desc": "Time collapsing void\nObservation... destruction\nBring her light with you",
       "baseType": "Bronze Casque",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 223,
@@ -1491,7 +1679,8 @@
       "desc": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance.",
       "baseType": "Dawn Blade",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 224,
@@ -1499,7 +1688,8 @@
       "desc": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it.",
       "baseType": "Dragonslayer Glaive",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 225,
@@ -1507,7 +1697,8 @@
       "desc": "The sky's wrath alights in a golden storm.",
       "baseType": "Longsword",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 226,
@@ -1515,7 +1706,8 @@
       "desc": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha.",
       "baseType": "Impaler",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 229,
@@ -1523,7 +1715,8 @@
       "desc": "Root yourself into the cold earth and drink deep from Eterra's bounty.",
       "baseType": "Heoborean Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 230,
@@ -1531,7 +1724,8 @@
       "desc": "\"Only one with the blood and bones of a king may rule. Fortunately, I have both\" - Venred the Usurper",
       "baseType": "Bone Scythe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 231,
@@ -1539,7 +1733,8 @@
       "desc": "",
       "baseType": "Imperial Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 232,
@@ -1547,7 +1742,8 @@
       "desc": "",
       "baseType": "Eagle Wing",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 233,
@@ -1555,7 +1751,8 @@
       "desc": "Let the northwind mold you, cold and howling above the frozen tundra.",
       "baseType": "Outcast Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 234,
@@ -1563,7 +1760,8 @@
       "desc": "",
       "baseType": "Oak Sceptre",
       "category": "Sceptre",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 235,
@@ -1571,7 +1769,8 @@
       "desc": "The life of the forest flows through every root and leaf",
       "baseType": "Turquoise Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 236,
@@ -1579,7 +1778,8 @@
       "desc": "\"Our tribulations shall end with prosperity, and theirs with death\" - Grand Alchemist Avello",
       "baseType": "Kris",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 237,
@@ -1587,7 +1787,8 @@
       "desc": "Driven from their homes, the Meruna of Sur Soreth settled among the swamps and fens around Urix. Despite their unfamiliarity with the shallows and thickets of their new home, they gradually adapted to it, learning to tunnel through the mud and grow thorns from their shells.",
       "baseType": "Meruna Shell",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 238,
@@ -1595,7 +1796,8 @@
       "desc": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\"",
       "baseType": "Sapphire Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 239,
@@ -1603,7 +1805,8 @@
       "desc": "The very atmosphere is different here, what once slumbered is now awoken and free.",
       "baseType": "Gladiator Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 240,
@@ -1611,7 +1814,8 @@
       "desc": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\"",
       "baseType": "Crusader Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 241,
@@ -1619,7 +1823,8 @@
       "desc": "The durance of strife is an impossible task. Boiling within, despair's sole fate is to erupt and envelop its vessel.",
       "baseType": "Silver Grail",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 242,
@@ -1627,7 +1832,8 @@
       "desc": "Unseen hands strike hardest",
       "baseType": "Birch Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
     },
     {
       "id": 243,
@@ -1635,7 +1841,8 @@
       "desc": "",
       "baseType": "Longbow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 244,
@@ -1643,7 +1850,8 @@
       "desc": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle.",
       "baseType": "Refuge Axe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 245,
@@ -1651,7 +1859,8 @@
       "desc": "",
       "baseType": "Pick Hammer",
       "category": "One-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 246,
@@ -1659,7 +1868,8 @@
       "desc": "\"And thus from a singular point of infinite detail did the goddess Eterra weave the fabric of reality\" - Book of Elders, Chapter 1.",
       "baseType": "Small Eterran Idol",
       "category": "Small Idol",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 247,
@@ -1667,7 +1877,8 @@
       "desc": "The souls of those whose deaths are inked within these pages are bound to the book itself, forever cursed to serve the reader.",
       "baseType": "Leatherbound Tome",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 249,
@@ -1675,7 +1886,8 @@
       "desc": "\"Some say the pen is mightier than the sword. Sacrificing your blood to write the words, now there’s real power.\" - Archmage Diothaen",
       "baseType": "Scrivening Quill",
       "category": "Relic",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Rare"
     },
     {
       "id": 250,
@@ -1683,7 +1895,8 @@
       "desc": "The nomads around lake Mawn were optimistic as Grand Matriarch Torkrefin rose to power among the nearby Wengari. She had at first seemed more civilised than the average Wengari, carrying a giant sword instead of a crude axe or club. Nevertheless she proved particularly difficult to reason with on account of her propensity to devour their envoys.",
       "baseType": "Claymore",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 251,
@@ -1691,7 +1904,8 @@
       "desc": "",
       "baseType": "Skalnir Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 253,
@@ -1699,7 +1913,8 @@
       "desc": "",
       "baseType": "Iron Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 254,
@@ -1707,7 +1922,8 @@
       "desc": "The face of the mountain yields no emotion as waves, weather, and time crash upon it.",
       "baseType": "Stone Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 255,
@@ -1715,7 +1931,8 @@
       "desc": "",
       "baseType": "Banded Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 257,
@@ -1723,7 +1940,8 @@
       "desc": "",
       "baseType": "Ruby Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 258,
@@ -1731,7 +1949,8 @@
       "desc": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic.",
       "baseType": "Leather Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 259,
@@ -1739,7 +1958,8 @@
       "desc": "",
       "baseType": "Fire Lich Scythe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 262,
@@ -1747,7 +1967,8 @@
       "desc": "Honour has no place in the arena. To defeat the mightiest foes, a champion must dance on the edge of shadows, preparing for the perfect moment to strike.",
       "baseType": "Silver Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 263,
@@ -1755,7 +1976,8 @@
       "desc": "",
       "baseType": "Nomad Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 264,
@@ -1763,7 +1985,8 @@
       "desc": "",
       "baseType": "Solarum Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 265,
@@ -1771,7 +1994,8 @@
       "desc": "When coins run out, you still have your soul to gamble.",
       "baseType": "Ruby Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 266,
@@ -1779,7 +2003,8 @@
       "desc": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you.",
       "baseType": "Noble Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 267,
@@ -1787,7 +2012,8 @@
       "desc": "",
       "baseType": "Overgrowth Bloom",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 268,
@@ -1795,7 +2021,8 @@
       "desc": "",
       "baseType": "Blood Encased Hive",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 269,
@@ -1803,7 +2030,8 @@
       "desc": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity.",
       "baseType": "Bone Scythe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 270,
@@ -1811,7 +2039,8 @@
       "desc": "\"Why is that decoy buzzing?\"\n\"That's not a decoy, it's a beecoy!\"",
       "baseType": "Leather Mask",
       "category": "Helmet",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
     },
     {
       "id": 271,
@@ -1819,7 +2048,8 @@
       "desc": "Lightning does strike twice",
       "baseType": "Storm Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 272,
@@ -1827,7 +2057,8 @@
       "desc": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B",
       "baseType": "Revenant Plate",
       "category": "Body Armor",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "Very rare"
     },
     {
       "id": 273,
@@ -1835,7 +2066,8 @@
       "desc": "\"I can hear them skitter, scratching at the walls. Their cries echo through these caverns like the wails of those lost outside. Just rats for now, but ‘they’ are lost no longer, they come back to us now, but different - corrupted.\"",
       "baseType": "Rat City Impaler",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 274,
@@ -1843,7 +2075,8 @@
       "desc": "Most druids talk to their woodland kin, rarely do the trees consider their fleshy brethren. Some branches seek a host to commune with, be it a man, beast, or treekin. Madness touches all in different ways.",
       "baseType": "Root Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 275,
@@ -1851,7 +2084,8 @@
       "desc": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash.",
       "baseType": "Arcane Regalia",
       "category": "Body Armor",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Rare"
     },
     {
       "id": 276,
@@ -1859,7 +2093,8 @@
       "desc": "With careful planning and precise instruments, one can bring order even to a flame.",
       "baseType": "Noble Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 277,
@@ -1867,7 +2102,8 @@
       "desc": "One of seven enchanted rings that were all believed to be lost when Atlaria vanished beneath the waves.",
       "baseType": "Silver Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Extremely rare"
     },
     {
       "id": 278,
@@ -1875,7 +2111,8 @@
       "desc": "",
       "baseType": "Turquoise Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 279,
@@ -1883,7 +2120,8 @@
       "desc": "Once light fades, only darkness can guide those who remain.",
       "baseType": "Terror Mace",
       "category": "Two-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 280,
@@ -1891,7 +2129,8 @@
       "desc": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own.",
       "baseType": "Arcane Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 281,
@@ -1899,7 +2138,8 @@
       "desc": "",
       "baseType": "Mournful Pennant",
       "category": "Relic",
-      "classRequirement": "Sentinel"
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
     },
     {
       "id": 282,
@@ -1907,7 +2147,8 @@
       "desc": "\"By Rahyeh's will this town shall burn!\"",
       "baseType": "Brass Sceptre",
       "category": "Sceptre",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 283,
@@ -1915,7 +2156,8 @@
       "desc": "The witches of the Red Marsh learned to cultivate a type of magical fungus within their own skulls. The mycelium grew eagerly into their brains, twisting their minds, but the powers it bestowed were well worth their sanity.",
       "baseType": "Branded Skull",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 284,
@@ -1923,7 +2165,8 @@
       "desc": "A precise and expertly crafted tool for cutting a soul from a body",
       "baseType": "Rune Dagger",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 285,
@@ -1931,7 +2174,8 @@
       "desc": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge.",
       "baseType": "Majasan Dagger",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 286,
@@ -1939,7 +2183,8 @@
       "desc": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery.",
       "baseType": "Rune Stone",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 287,
@@ -1947,7 +2192,8 @@
       "desc": "The light of divinity!",
       "baseType": "Crusader Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 288,
@@ -1955,7 +2201,8 @@
       "desc": "Above the skies the natural and the arcane are one.",
       "baseType": "Noble Sash",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 289,
@@ -1963,7 +2210,8 @@
       "desc": "The streets of Maj'elka engender no love for authority",
       "baseType": "Quarter Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 290,
@@ -1971,7 +2219,8 @@
       "desc": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\"",
       "baseType": "Bone Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 291,
@@ -1979,7 +2228,8 @@
       "desc": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils.",
       "baseType": "Stolen Tithe",
       "category": "Relic",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 292,
@@ -1987,7 +2237,8 @@
       "desc": "Formosus knew not what cause these warriors had fought for, or what ancient conflict left their bodies frozen upon the outer ice. But, as he felt the rage and power of their lingering souls he knew well what purpose they would now fulfill.",
       "baseType": "Longsword",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 293,
@@ -1995,7 +2246,8 @@
       "desc": "\"Cities, memories, whole timelines have been erased by the spreading void. There is much work ahead of us.\" - The Acolyte of Golden Silk",
       "baseType": "Leather Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 294,
@@ -2003,7 +2255,8 @@
       "desc": "\"For those who have lost everything, The Weaver's bounty knows no end.\"  - The Acolyte of Golden Silk",
       "baseType": "Gold Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 295,
@@ -2011,7 +2264,8 @@
       "desc": "\"Rest now, you are safe here in this cocoon. It's all gone now, but this is not where your thread ends.\" - The Acolyte of Golden Silk",
       "baseType": "Targe",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 296,
@@ -2019,7 +2273,8 @@
       "desc": "\"Those long lost may walk again on woven feet\" - The Acolyte of Golden Silk",
       "baseType": "Iron Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 297,
@@ -2027,7 +2282,8 @@
       "desc": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk",
       "baseType": "Dream Catcher",
       "category": "Relic",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
     },
     {
       "id": 298,
@@ -2035,7 +2291,8 @@
       "desc": "\"Such insight wasted on a lost timeline. It is for naught now, but it proves thy worth.\" - The Acolyte of Golden Silk",
       "baseType": "Warding Scroll",
       "category": "Relic",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 299,
@@ -2043,7 +2300,8 @@
       "desc": "\"Memories of past honour that befits the woven form\" - The Acolyte of Golden Silk",
       "baseType": "Inscribed Tablet",
       "category": "Relic",
-      "classRequirement": "Sentinel"
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
     },
     {
       "id": 300,
@@ -2051,7 +2309,8 @@
       "desc": "\"The context of thy aspirations is long lost, yet they still pervade thy silken form.\" - The Acolyte of Golden Silk",
       "baseType": "Caged Souls",
       "category": "Relic",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
     },
     {
       "id": 301,
@@ -2059,7 +2318,8 @@
       "desc": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk",
       "baseType": "Ivory Dice",
       "category": "Relic",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 302,
@@ -2067,7 +2327,8 @@
       "desc": "Dark clouds roll in from the Sea of the Storms",
       "baseType": "Wolf Pelt",
       "category": "Helmet",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
     },
     {
       "id": 303,
@@ -2075,7 +2336,8 @@
       "desc": "\"The cycle of life and death is forever shattered. Our cities shall not crumble and our citizens shall not yield or die at the whims of a winged devil. We shall persist. Our bodies may whither and decay, but even when we fall we return and persist again. Glory to the new cycle. Glory to persistence and decay. Glory to humanity.\" - Thelocus, Imperial Governor of Argentum",
       "baseType": "Ivory Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 304,
@@ -2083,7 +2345,8 @@
       "desc": "The carapace of a meruna storm ogre makes for an impressive trophy, and an effective cuirass.",
       "baseType": "Banded Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 305,
@@ -2091,7 +2354,8 @@
       "desc": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch.",
       "baseType": "Travelling Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 306,
@@ -2099,7 +2363,8 @@
       "desc": "Fleeing does not stem the flow",
       "baseType": "Iron Greaves",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 307,
@@ -2107,7 +2372,8 @@
       "desc": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain.",
       "baseType": "Runed Visage",
       "category": "Helmet",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 308,
@@ -2115,7 +2381,8 @@
       "desc": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim.",
       "baseType": "Archive Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 309,
@@ -2123,7 +2390,8 @@
       "desc": "\"I do not need to mend the wounds that a dead foe had not the chance to inflict\" - Elecoe the Alchemist Thief",
       "baseType": "Wyrmhide Coat",
       "category": "Body Armor",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 310,
@@ -2131,7 +2399,8 @@
       "desc": "",
       "baseType": "Crystal Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 311,
@@ -2139,7 +2408,8 @@
       "desc": "Carve the burning nightmares into stone",
       "baseType": "Dawn Blade",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 312,
@@ -2147,7 +2417,8 @@
       "desc": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads.",
       "baseType": "Runed Box",
       "category": "Relic",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 313,
@@ -2155,7 +2426,8 @@
       "desc": "Discard freely the paths not taken. They are only distractions from deeper knowledge.",
       "baseType": "Vul'kaur Regalia",
       "category": "Body Armor",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 314,
@@ -2163,7 +2435,8 @@
       "desc": "",
       "baseType": "Rusted Cleaver",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 315,
@@ -2171,7 +2444,8 @@
       "desc": "",
       "baseType": "Rune Dagger",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 316,
@@ -2179,7 +2453,8 @@
       "desc": "",
       "baseType": "Runed Visage",
       "category": "Helmet",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 317,
@@ -2187,7 +2462,8 @@
       "desc": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot.",
       "baseType": "Divine Instrument",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 318,
@@ -2195,7 +2471,8 @@
       "desc": "",
       "baseType": "Obsidian Sceptre",
       "category": "Sceptre",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 319,
@@ -2203,7 +2480,8 @@
       "desc": "Forged by Archmage Drinial for his remaining son, it carries a powerful enchantment to draw out yearning. Now, its wielders unburdened, the sword itself yearns for its shattered kin.",
       "baseType": "Winged Blade",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 320,
@@ -2211,7 +2489,8 @@
       "desc": "",
       "baseType": "Trident",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 322,
@@ -2219,7 +2498,8 @@
       "desc": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes.",
       "baseType": "Avian Puppet",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 323,
@@ -2227,7 +2507,8 @@
       "desc": "The torment of consumed souls lingers within their devourer.",
       "baseType": "Abyssal Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 324,
@@ -2235,7 +2516,8 @@
       "desc": "",
       "baseType": "Large Arcane Idol",
       "category": "Large Idol",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 325,
@@ -2243,7 +2525,8 @@
       "desc": "",
       "baseType": "Adorned Arcane Idol",
       "category": "Adorned Idol",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 326,
@@ -2251,7 +2534,8 @@
       "desc": "",
       "baseType": "Huge Arcane Idol",
       "category": "Huge Idol",
-      "classRequirement": "Mage"
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
     },
     {
       "id": 327,
@@ -2259,7 +2543,8 @@
       "desc": "\"Hark, disparate souls, for you have been blessed. Together you shall imbibe the venom of new life.\" - The Acolyte of Golden Silk",
       "baseType": "Plated Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 328,
@@ -2267,7 +2552,8 @@
       "desc": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come.",
       "baseType": "Soulmass",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 329,
@@ -2275,7 +2561,8 @@
       "desc": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon",
       "baseType": "Bandit Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 330,
@@ -2283,7 +2570,8 @@
       "desc": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him.",
       "baseType": "Flamberge",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 331,
@@ -2291,7 +2579,8 @@
       "desc": "",
       "baseType": "Glass Catalyst",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 332,
@@ -2299,7 +2588,8 @@
       "desc": "The smell of blood fills the air.",
       "baseType": "Serrated Bracers",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 333,
@@ -2307,7 +2597,8 @@
       "desc": "",
       "baseType": "Plated Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 334,
@@ -2315,7 +2606,8 @@
       "desc": "",
       "baseType": "Longbow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
     },
     {
       "id": 335,
@@ -2323,7 +2615,8 @@
       "desc": "",
       "baseType": "Immortal Crown",
       "category": "Helmet",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 336,
@@ -2331,7 +2624,8 @@
       "desc": "Among the island nomads there was once a legend of a great beastmaster, Gatan Larn, who was so in tune with the paravian kind that he could commune with crows and raptors.",
       "baseType": "Serrated Tooth",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 337,
@@ -2339,7 +2633,8 @@
       "desc": "",
       "baseType": "Vanguard Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Very rare"
     },
     {
       "id": 338,
@@ -2347,7 +2642,8 @@
       "desc": "\"The wild cannot be protected by unnatural things, by stone walls or iron shields. The flame and steel that would destroy it must be stopped in their tracks and broken by the primal rage of its defenders.\" - Nomad Chief Thulr",
       "baseType": "Bardiche",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 339,
@@ -2355,7 +2651,8 @@
       "desc": "Forged with shadow iron on an unlit moon to claim Lagon's power over elemental chaos.",
       "baseType": "Odachi",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 340,
@@ -2363,7 +2660,8 @@
       "desc": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos",
       "baseType": "Gold Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 341,
@@ -2371,7 +2669,8 @@
       "desc": "",
       "baseType": "Defiled Bones",
       "category": "Relic",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
     },
     {
       "id": 342,
@@ -2379,7 +2678,8 @@
       "desc": "",
       "baseType": "Kris",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 343,
@@ -2387,7 +2687,8 @@
       "desc": "The lost scion of light dwells no longer among the sun, nor in the resplendent mountains of the east. It lingers only in the minds of the servants of fire, guiding the hands that carve and chisel.",
       "baseType": "Stone Egg",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 344,
@@ -2395,7 +2696,8 @@
       "desc": "A needle forged by Aberroth in the heart of a black hole. It is designed to be plunged into a powerful foe, to sacrifice them to the dark god of fate.",
       "baseType": "Small Orobyss Idol",
       "category": "Small Idol",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 345,
@@ -2403,7 +2705,8 @@
       "desc": "Time thaws all winters",
       "baseType": "Deicide Lance",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 346,
@@ -2411,7 +2714,8 @@
       "desc": "",
       "baseType": "Broadsword",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 347,
@@ -2419,7 +2723,8 @@
       "desc": "All timelines fade and the Harbingers flock like crows to the remains.",
       "baseType": "Worn Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 348,
@@ -2427,7 +2732,8 @@
       "desc": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought.",
       "baseType": "Copper Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 349,
@@ -2435,7 +2741,8 @@
       "desc": "Like Yrun himself, the former champion's blade was imprisoned in bark and ice.",
       "baseType": "Broadsword",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 351,
@@ -2443,7 +2750,8 @@
       "desc": "",
       "baseType": "Siren Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 352,
@@ -2451,7 +2759,8 @@
       "desc": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power.",
       "baseType": "Dragonslayer Glaive",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 353,
@@ -2459,7 +2768,8 @@
       "desc": "From every void, every lost moment, the will of Orobyss echoes for eternity.",
       "baseType": "Unbound Locket",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 354,
@@ -2467,7 +2777,8 @@
       "desc": "Cloaked in the void, Harbingers need fear naught.",
       "baseType": "Gladiator Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 355,
@@ -2475,7 +2786,8 @@
       "desc": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\"",
       "baseType": "Obsidian Sceptre",
       "category": "Sceptre",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 356,
@@ -2483,7 +2795,8 @@
       "desc": "",
       "baseType": "Brigandine Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 357,
@@ -2491,7 +2804,8 @@
       "desc": "From the minds of the devoted grows the roots of the tree of nothing",
       "baseType": "Gladiator Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 358,
@@ -2499,7 +2813,8 @@
       "desc": "Gorge on the prophecies of futures lost",
       "baseType": "Gladiator Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 359,
@@ -2507,7 +2822,8 @@
       "desc": "A drained bog seeks vengeance",
       "baseType": "Noble Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 360,
@@ -2515,7 +2831,8 @@
       "desc": "",
       "baseType": "Coral Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 361,
@@ -2523,7 +2840,8 @@
       "desc": "",
       "baseType": "Heavy Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 362,
@@ -2531,7 +2849,8 @@
       "desc": "",
       "baseType": "Kite Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 363,
@@ -2539,7 +2858,8 @@
       "desc": "A shield dedicated to the great warrior, Arek, who gave his life to repel death from the city's walls.",
       "baseType": "Marble Dedication",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 364,
@@ -2547,7 +2867,8 @@
       "desc": "All must pass beyond the brink",
       "baseType": "Vault Crusher",
       "category": "Two-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 365,
@@ -2555,7 +2876,8 @@
       "desc": "Sever the chains that bind reality",
       "baseType": "Bardiche",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 366,
@@ -2563,7 +2885,8 @@
       "desc": "",
       "baseType": "Celestial Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 367,
@@ -2571,7 +2894,8 @@
       "desc": "",
       "baseType": "Abyssal Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 368,
@@ -2579,7 +2903,8 @@
       "desc": "",
       "baseType": "Amber Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 369,
@@ -2587,7 +2912,8 @@
       "desc": "Written by an esteemed historian, this book chronicles the entire history of Eterra as we understand it. Or, at least, as Sir Tolmat understood it.",
       "baseType": "Leatherbound Tome",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 370,
@@ -2595,7 +2921,8 @@
       "desc": "Fight with the strength of an ox and the wisdom of a spirit",
       "baseType": "Forest Cuirass",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 371,
@@ -2603,7 +2930,8 @@
       "desc": "It was not just Liath's magic and machinery that drove the Wengari threat from Thetima's walls, but the discipline and order her generals instilled in her human soldiers.",
       "baseType": "Pike",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 372,
@@ -2611,7 +2939,8 @@
       "desc": "",
       "baseType": "Ascetic Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 373,
@@ -2619,7 +2948,8 @@
       "desc": "",
       "baseType": "Bronze Casque",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 377,
@@ -2627,7 +2957,8 @@
       "desc": "\"What is innovation without the power to prove its worth? If you present me a solution that is outperformed by a raw expression of power then you have brought me nothing!\" -Runemaster Gordian",
       "baseType": "Glass Catalyst",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 378,
@@ -2635,7 +2966,8 @@
       "desc": "The wind chimes sing within the mines",
       "baseType": "Steelweave Quiver",
       "category": "Quiver",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 379,
@@ -2643,7 +2975,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 380,
@@ -2651,7 +2984,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 381,
@@ -2659,7 +2993,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 382,
@@ -2667,7 +3002,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 383,
@@ -2675,7 +3011,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 384,
@@ -2683,7 +3020,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 385,
@@ -2691,7 +3029,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 386,
@@ -2699,7 +3038,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 387,
@@ -2707,7 +3047,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 388,
@@ -2715,7 +3056,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 389,
@@ -2723,7 +3065,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 390,
@@ -2731,7 +3074,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 391,
@@ -2739,7 +3083,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 392,
@@ -2747,7 +3092,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 393,
@@ -2755,7 +3101,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 394,
@@ -2763,7 +3110,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 395,
@@ -2771,7 +3119,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 396,
@@ -2779,7 +3128,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 397,
@@ -2787,7 +3137,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 398,
@@ -2795,7 +3146,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 399,
@@ -2803,7 +3155,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 400,
@@ -2811,7 +3164,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 401,
@@ -2819,7 +3173,8 @@
       "desc": "",
       "baseType": "",
       "category": "",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 402,
@@ -2827,7 +3182,8 @@
       "desc": "Elecoe discovered that with the right ingredients potions could be imbued with the luck of the brewer.",
       "baseType": "Spidersilk Sash",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 403,
@@ -2835,7 +3191,8 @@
       "desc": "",
       "baseType": "Living Seed",
       "category": "Relic",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "N/A"
     },
     {
       "id": 404,
@@ -2843,7 +3200,8 @@
       "desc": "",
       "baseType": "Plated Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 405,
@@ -2851,7 +3209,8 @@
       "desc": "\"You are the blade that will cut the imperfections from the Weaver's web.\" - Masque, the Acolyte of Golden Silk",
       "baseType": "Split Greatsword",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 406,
@@ -2859,7 +3218,8 @@
       "desc": "\"I was surrounded by golden silk, curious creatures, and Her words filling my very soul.\" - Masque, the Acolyte of Golden Silk",
       "baseType": "Doom Star",
       "category": "One-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 407,
@@ -2867,7 +3227,8 @@
       "desc": "\"Imagine a world free of pain, chaos, and sorrow. A world free of corruption. A perfect world!\" - Masque, the Acolyte of Golden Silk",
       "baseType": "Obsidian Lance",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 408,
@@ -2875,7 +3236,8 @@
       "desc": "\"The Weaver is the greatest artist of all, to grace Her domain is a blessing.\" - Masque, the Acolyte of Golden Silk",
       "baseType": "Longsword",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 409,
@@ -2883,7 +3245,8 @@
       "desc": "\"Our tears for them will be dew upon perfect golden silk.\" - Masque, the Acolyte of Golden Silk",
       "baseType": "Oracle Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 410,
@@ -2891,7 +3254,8 @@
       "desc": "",
       "baseType": "Defiled Bones",
       "category": "Relic",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "N/A"
     },
     {
       "id": 411,
@@ -2899,7 +3263,8 @@
       "desc": "",
       "baseType": "Ironglass Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 412,
@@ -2907,7 +3272,8 @@
       "desc": "",
       "baseType": "Iron Casque",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 413,
@@ -2915,7 +3281,8 @@
       "desc": "The unrestrained power of countless shattered timelines, condensed into a vortex of possibility",
       "baseType": "Void Star",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 414,
@@ -2923,7 +3290,8 @@
       "desc": "They told me not to do it, now I know why",
       "baseType": "Cursed Bones",
       "category": "Relic",
-      "classRequirement": "Acolyte"
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
     },
     {
       "id": 415,
@@ -2931,7 +3299,8 @@
       "desc": "",
       "baseType": "Eternal Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 416,
@@ -2939,7 +3308,8 @@
       "desc": "They say beer makes you bold\nI say it makes you unbreakable",
       "baseType": "Coinmail Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 417,
@@ -2947,7 +3317,8 @@
       "desc": "",
       "baseType": "Giant Rapier",
       "category": "Two-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 418,
@@ -2955,7 +3326,8 @@
       "desc": "",
       "baseType": "Falchion",
       "category": "One-Handed Sword",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 419,
@@ -2963,7 +3335,8 @@
       "desc": "",
       "baseType": "Temple Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 420,
@@ -2971,7 +3344,8 @@
       "desc": "The Immortal Empire conquered death and brought freedom to humanity. Yet in that freedom, there remained one inevitable certainty... the tax claimed from their very souls.",
       "baseType": "Soul Harvester",
       "category": "One-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Rare"
     },
     {
       "id": 421,
@@ -2979,7 +3353,8 @@
       "desc": "Before the falling of the temple and the strife of gods, there was peace between the osprix, the wengari, the meruna, and the nagasa.",
       "baseType": "Adorned Heorot Idol",
       "category": "Adorned Idol",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
     },
     {
       "id": 422,
@@ -2987,7 +3362,8 @@
       "desc": "",
       "baseType": "Noble Sash",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Common"
     },
     {
       "id": 423,
@@ -2995,7 +3371,8 @@
       "desc": "All stories grow from the same roots",
       "baseType": "Opal Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 424,
@@ -3003,7 +3380,8 @@
       "desc": "",
       "baseType": "Ancient Remains",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 425,
@@ -3011,7 +3389,8 @@
       "desc": "",
       "baseType": "Amber Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 426,
@@ -3019,7 +3398,8 @@
       "desc": "",
       "baseType": "Forest Cuirass",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 427,
@@ -3027,7 +3407,8 @@
       "desc": "The first of osprix, wengari, meruna, and nagasa were united in purpose, under the guidance of the gods and Eterra above them.",
       "baseType": "Impaler",
       "category": "Two-Handed Spear",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 428,
@@ -3035,7 +3416,8 @@
       "desc": "Impale upon the horns of primordial might",
       "baseType": "Mountain Shield",
       "category": "Shield",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 429,
@@ -3043,7 +3425,8 @@
       "desc": "Three petals unwithered by time",
       "baseType": "Stone Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 430,
@@ -3051,7 +3434,8 @@
       "desc": "",
       "baseType": "Ancestral Crown",
       "category": "Helmet",
-      "classRequirement": "Primalist"
+      "classRequirement": "Primalist",
+      "dropRarity": "N/A"
     },
     {
       "id": 431,
@@ -3059,7 +3443,8 @@
       "desc": "\"From blood all is brought forth, and to blood all shall return.\" - Ullur Sandhoof, first neophyte of the Coagulated Titan.",
       "baseType": "Eternal Gauntlets",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 432,
@@ -3067,7 +3452,8 @@
       "desc": "Wisps once took physical form upon the shifting surface of Eterra",
       "baseType": "Ivory Wand",
       "category": "Wand",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 433,
@@ -3075,7 +3461,8 @@
       "desc": "",
       "baseType": "Ancient Remains",
       "category": "Relic",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 434,
@@ -3083,7 +3470,8 @@
       "desc": "A visage unweathered by even time itself",
       "baseType": "Forest Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 435,
@@ -3091,7 +3479,8 @@
       "desc": "The vines grow with strange symbols, the meaning of which has long been lost to time.",
       "baseType": "Ascetic Gloves",
       "category": "Gloves",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 436,
@@ -3099,7 +3488,8 @@
       "desc": "Osprix elders used to tell of the Quetzal Dragons, resplendant with wings of mismatched feathers, who were never seen to roost in the same place twice. The elders speculated that having visited every peak and forest in Eterra, they traveled far over the sea in search of new lands.",
       "baseType": "Banded Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 437,
@@ -3107,7 +3497,8 @@
       "desc": "",
       "baseType": "Obsidian Axe",
       "category": "Two-Handed Axe",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 438,
@@ -3115,7 +3506,8 @@
       "desc": "All is judged according to its creation",
       "baseType": "Rune Hammer",
       "category": "One-Handed Mace",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 439,
@@ -3123,7 +3515,8 @@
       "desc": "Looking through the right glass can reveal the weaknesses of a foe, the gaps in its armor drawing the eye like resplendant orbs of gold.",
       "baseType": "Oracle Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 440,
@@ -3131,7 +3524,8 @@
       "desc": "",
       "baseType": "Celestial Ring",
       "category": "Ring",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 441,
@@ -3139,7 +3533,8 @@
       "desc": "",
       "baseType": "Serpent Bow",
       "category": "Bow",
-      "classRequirement": "Rogue"
+      "classRequirement": "Rogue",
+      "dropRarity": "N/A"
     },
     {
       "id": 442,
@@ -3147,7 +3542,8 @@
       "desc": "",
       "baseType": "Chitin Dagger",
       "category": "Dagger",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 443,
@@ -3155,7 +3551,8 @@
       "desc": "",
       "baseType": "Shrine Boots",
       "category": "Boots",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "Uncommon"
     },
     {
       "id": 444,
@@ -3163,7 +3560,8 @@
       "desc": "A fossil of a lineage forged in time",
       "baseType": "Fossil Amulet",
       "category": "Amulet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 445,
@@ -3171,7 +3569,8 @@
       "desc": "The crystal wood inside carries spirits to their rightful destination",
       "baseType": "Crystal Staff",
       "category": "Two-Handed Staff",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 446,
@@ -3179,7 +3578,8 @@
       "desc": "",
       "baseType": "Nomad Belt",
       "category": "Belt",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 447,
@@ -3187,7 +3587,8 @@
       "desc": "Ghosts lay the tracks of the living",
       "baseType": "Divine Instrument",
       "category": "Off-Hand Catalyst",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 448,
@@ -3195,7 +3596,8 @@
       "desc": "The noblest of ancient beasts wore their hearts in the sky",
       "baseType": "Banded Armor",
       "category": "Body Armor",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     },
     {
       "id": 449,
@@ -3203,7 +3605,8 @@
       "desc": "",
       "baseType": "Gladiator Helmet",
       "category": "Helmet",
-      "classRequirement": ""
+      "classRequirement": "",
+      "dropRarity": "N/A"
     }
   ]
 }

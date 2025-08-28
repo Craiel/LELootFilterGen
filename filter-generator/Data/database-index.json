@@ -1,5 +1,5 @@
 {
-  "buildDate": "2025-08-28T04:53:10.387Z",
+  "buildDate": "2025-08-28T05:26:46.521Z",
   "stats": {
     "affixes": 749,
     "uniques": 403,
@@ -13,7 +13,8 @@
   "indexFiles": {
     "idLookup": "indexes/id-lookup.json",
     "tagIndex": "indexes/tags-index.json",
-    "mechanicsIndex": "indexes/mechanics-index.json"
+    "mechanicsIndex": "indexes/mechanics-index.json",
+    "rarityIndex": "indexes/rarity-index.json"
   },
   "globalTags": [
     "Area",

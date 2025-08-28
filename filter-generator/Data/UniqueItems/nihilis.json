@@ -20,5 +20,6 @@
     "(10% to 20%) of Current Health and Ward lost when you use Evade",
     "(1.2 to 4) Seconds of Frenzy after you use EvadeFrenzy is a buff that grants 20% increased attack and cast speed by default. It cannot stack."
   ],
-  "lore": "From every void, every lost moment, the will of Orobyss echoes for eternity."
+  "lore": "From every void, every lost moment, the will of Orobyss echoes for eternity.",
+  "dropRarity": null
 }

@@ -19,5 +19,6 @@
     "+(32% to 45%) Poison Resistance",
     "+(32% to 45%) Lightning Resistance"
   ],
-  "lore": "Driven from their homes, the Meruna of Sur Soreth settled among the swamps and fens around Urix. Despite their unfamiliarity with the shallows and thickets of their new home, they gradually adapted to it, learning to tunnel through the mud and grow thorns from their shells."
+  "lore": "Driven from their homes, the Meruna of Sur Soreth settled among the swamps and fens around Urix. Despite their unfamiliarity with the shallows and thickets of their new home, they gradually adapted to it, learning to tunnel through the mud and grow thorns from their shells.",
+  "dropRarity": "Common"
 }

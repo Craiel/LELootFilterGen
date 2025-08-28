@@ -18,5 +18,6 @@
     "(45% to 75%) increased Lightning Damage",
     "+(20 to 28) Ward per Second"
   ],
-  "lore": "With careful planning and precise instruments, one can bring order even to a flame."
+  "lore": "With careful planning and precise instruments, one can bring order even to a flame.",
+  "dropRarity": "Common"
 }

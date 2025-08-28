@@ -19,5 +19,6 @@
     "+1% Elemental Penetration with Elemental Nova per 10% uncapped Total Elemental ResistanceTotal Elemental Resistance is your fire resistance plus your cold resistance plus your lightning resistance",
     "(18% to 9%) less Damage Taken from Ignited Shocked or Chilled EnemiesMultiplicative with other modifiers. Only applies once even if more than one of these ailments are applied."
   ],
-  "lore": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain."
+  "lore": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain.",
+  "dropRarity": "Uncommon"
 }

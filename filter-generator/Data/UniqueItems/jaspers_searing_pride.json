@@ -22,5 +22,6 @@
     "When you use a melee attack and hit at least one enemy you gain a stack of Searing Blades for 16 seconds",
     "Each stack of Searing Blades grants +2 melee fire damage and 20% melee ignite chance"
   ],
-  "lore": "A Warrior's Life burned to ashes and all that's left is pride."
+  "lore": "A Warrior's Life burned to ashes and all that's left is pride.",
+  "dropRarity": "Common"
 }

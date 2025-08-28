@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique body armor"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

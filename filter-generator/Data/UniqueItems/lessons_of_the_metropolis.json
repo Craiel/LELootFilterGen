@@ -17,5 +17,6 @@
     "(5% to 10%) increased Movement Speed",
     "5% less Damage Taken While Moving"
   ],
-  "lore": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter."
+  "lore": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter.",
+  "dropRarity": "Common"
 }

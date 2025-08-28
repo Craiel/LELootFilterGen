@@ -17,5 +17,6 @@
     "(12% to 24%) Increased Area for Area Skills",
     "(12% to 36%) increased Mana Regen"
   ],
-  "lore": "The vines grow with strange symbols, the meaning of which has long been lost to time."
+  "lore": "The vines grow with strange symbols, the meaning of which has long been lost to time.",
+  "dropRarity": null
 }

@@ -9,5 +9,6 @@
     "Once you have two Runes for Runic Invocation your runes cannot change until they are consumed",
     "2% Chance per Intelligence for +22% Elemental Penetration with Two Rune Invocations"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

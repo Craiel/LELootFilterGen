@@ -17,5 +17,6 @@
     "+(5 to 14) Lightning Melee Damage",
     "You are Immune to Shock"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

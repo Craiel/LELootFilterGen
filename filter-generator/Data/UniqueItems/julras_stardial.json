@@ -15,5 +15,6 @@
     "(36% to 72%) increased Spell Damage",
     "When you use a movement or time travel skill all stats on this item are tripled for 4 seconds (12 second cooldown)"
   ],
-  "lore": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\""
+  "lore": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\"",
+  "dropRarity": null
 }

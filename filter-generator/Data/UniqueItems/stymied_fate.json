@@ -22,5 +22,6 @@
     "+(14% to 22%) Chance to apply Doom on Hit",
     "(14% to 22%) Chance to gain Haste for 1 second on Hit"
   ],
-  "lore": "The end comes slowly, then quickly, then it is all that has ever been."
+  "lore": "The end comes slowly, then quickly, then it is all that has ever been.",
+  "dropRarity": null
 }

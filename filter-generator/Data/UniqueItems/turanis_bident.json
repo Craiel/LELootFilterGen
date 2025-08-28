@@ -18,5 +18,6 @@
     "+(16% to 22%) Lightning Penetration",
     "When you use Javelin you gain a stack of Tu'rani's Thunder for 4 seconds. Each stack grants +(8 to 12) Spell Lightning Damage.Tu'rani's Thunder has no stack limit"
   ],
-  "lore": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha."
+  "lore": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha.",
+  "dropRarity": "Common"
 }

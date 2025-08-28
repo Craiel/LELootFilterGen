@@ -20,5 +20,6 @@
     "1% more Tyrannosaur Health and Damage per 1% Uncapped Endurancemultiplicative with other modifiers",
     "When your Tyrannosaur roars it grants your other minions +25 Physical Damage with Spells and Attacks and the bonuses it gains from this item are applied to them at 20% effectivenessThis buff lasts 12 seconds"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

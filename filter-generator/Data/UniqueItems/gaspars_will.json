@@ -19,5 +19,6 @@
     "15% more Void Damage to Bosses and Rare Enemies",
     "100% Increased Area with Decimate"
   ],
-  "lore": "I failed to protect. I failed to lead. Destruction is all that is left."
+  "lore": "I failed to protect. I failed to lead. Destruction is all that is left.",
+  "dropRarity": null
 }

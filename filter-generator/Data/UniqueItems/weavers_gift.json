@@ -14,5 +14,6 @@
     "(1 to 3)% of Damage Leeched as Health from Damage Over Time",
     "+(22 to 33)% Penetration against All Resistances for Damage Over Time"
   ],
-  "lore": "\"The Weaver is the greatest artist of all, to grace Her domain is a blessing.\" - Masque, the Acolyte of Golden Silk"
+  "lore": "\"The Weaver is the greatest artist of all, to grace Her domain is a blessing.\" - Masque, the Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

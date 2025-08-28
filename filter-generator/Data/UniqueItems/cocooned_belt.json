@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique belt"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

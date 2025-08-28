@@ -16,5 +16,6 @@
     "+(256 to 512) Dodge Rating if you have been hit recentlyRecently refers to the past 4 seconds",
     "+(32 to 64) Ward gained when you Dodge"
   ],
-  "lore": "Osprix elders used to tell of the Quetzal Dragons, resplendant with wings of mismatched feathers, who were never seen to roost in the same place twice. The elders speculated that having visited every peak and forest in Eterra, they traveled far over the sea in search of new lands."
+  "lore": "Osprix elders used to tell of the Quetzal Dragons, resplendant with wings of mismatched feathers, who were never seen to roost in the same place twice. The elders speculated that having visited every peak and forest in Eterra, they traveled far over the sea in search of new lands.",
+  "dropRarity": null
 }

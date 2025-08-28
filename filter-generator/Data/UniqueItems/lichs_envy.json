@@ -18,5 +18,6 @@
     "(-14 to -8) Mana Cost for Dread Shade",
     "+4 Maximum ShadesAffects the maximum number of Infernal and Dread Shades."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

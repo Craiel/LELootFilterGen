@@ -16,5 +16,6 @@
     "Your minions cannot be Stunned",
     "+(31 to 83) Mana"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

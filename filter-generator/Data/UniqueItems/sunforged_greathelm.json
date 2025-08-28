@@ -20,5 +20,6 @@
     "+3 to Forge Strike+3 to Smelter's Wrath",
     "+3 Maximum Forged WeaponsForged Weapons can be summoned by Forge Strike and modified by its tree"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Rare"
 }

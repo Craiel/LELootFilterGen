@@ -18,5 +18,6 @@
     "(1.4 to 1.9) Seconds of Haste after you use a Traversal SkillHaste is a buff that grants 30% increased movement speed by default. It cannot stack.",
     "(14% to 19%) Increased Haste Effect"
   ],
-  "lore": "As the exiled druids flourished in the cloud forests, they learned to seemlessly flit between the forms of human and quetzal."
+  "lore": "As the exiled druids flourished in the cloud forests, they learned to seemlessly flit between the forms of human and quetzal.",
+  "dropRarity": "Common"
 }

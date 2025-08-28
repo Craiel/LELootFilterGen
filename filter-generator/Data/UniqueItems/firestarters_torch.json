@@ -17,5 +17,6 @@
     "-4 Mana Cost for Fire Spell Skills",
     "4% increased Movement Speed"
   ],
-  "lore": "\"By Rahyeh's will this town shall burn!\""
+  "lore": "\"By Rahyeh's will this town shall burn!\"",
+  "dropRarity": "Common"
 }

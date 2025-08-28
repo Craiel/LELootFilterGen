@@ -20,5 +20,6 @@
     "+1 to Level of Fire Skills",
     "+1 to Level of Cold Skills"
   ],
-  "lore": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash."
+  "lore": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash.",
+  "dropRarity": "Rare"
 }

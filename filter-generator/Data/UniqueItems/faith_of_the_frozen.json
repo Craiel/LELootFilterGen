@@ -19,5 +19,6 @@
     "(20% to 15%) less Cold Damage Taken on Block",
     "+(75% to 150%) Freeze Rate Multiplier"
   ],
-  "lore": "Found among the frozen corpses in the wake of Morditas' wrath. Runes etched into the handle read \"Heorot protect us\"."
+  "lore": "Found among the frozen corpses in the wake of Morditas' wrath. Runes etched into the handle read \"Heorot protect us\".",
+  "dropRarity": null
 }

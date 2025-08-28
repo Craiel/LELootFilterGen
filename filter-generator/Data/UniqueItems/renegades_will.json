@@ -15,5 +15,6 @@
     "+5 to All Attributes",
     "5% increased Movement Speed"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

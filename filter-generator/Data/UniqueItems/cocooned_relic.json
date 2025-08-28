@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique relic"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

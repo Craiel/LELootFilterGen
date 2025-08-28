@@ -15,5 +15,6 @@
     "(3 to 5) Health Gained when you receive a Glancing Blow",
     "+(50 to 100) Armor"
   ],
-  "lore": "\"Look only west and trust that the sun itself leads our march. \" - Pontixex Aurelus to the auxiliaries of Solarum"
+  "lore": "\"Look only west and trust that the sun itself leads our march. \" - Pontixex Aurelus to the auxiliaries of Solarum",
+  "dropRarity": "Common"
 }

@@ -18,5 +18,6 @@
     "+1 Bow Void Damage per Dusk Shroud when using a Black Arrow",
     "+(1 to 3) to Level of Dark Quiver"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

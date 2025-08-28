@@ -15,5 +15,6 @@
     "+(4 to 7)% Critical Strike Chance with Fire Skills",
     "(24% to 34%) Chance to Cast Dragon Fire on CritDragon Fire cannot trigger itself"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

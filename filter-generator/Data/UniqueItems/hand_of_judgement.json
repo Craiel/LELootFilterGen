@@ -18,5 +18,6 @@
     "(16% to 64%) Increased Cooldown Recovery Speed for Judgement",
     "+(8% to 24%) Fire Penetration"
   ],
-  "lore": "The light of divinity!"
+  "lore": "The light of divinity!",
+  "dropRarity": "Common"
 }

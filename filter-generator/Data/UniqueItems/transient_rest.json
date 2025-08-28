@@ -17,5 +17,6 @@
     "+35% Necrotic Resistance",
     "(10% to 18%) increased Movement Speed"
   ],
-  "lore": "We follow in the footsteps of our ancestors, but our paths no longer end."
+  "lore": "We follow in the footsteps of our ancestors, but our paths no longer end.",
+  "dropRarity": "Uncommon"
 }

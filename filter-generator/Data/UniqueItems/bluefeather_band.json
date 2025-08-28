@@ -16,5 +16,6 @@
     "When you use 3 zero mana cost skills in a row you gain (15 to 21) Mana and (180 to 330) Ward (3 second cooldown)",
     "+(180 to 330) Ward Decay Threshold"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

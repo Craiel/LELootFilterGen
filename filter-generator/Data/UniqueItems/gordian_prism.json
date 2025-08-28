@@ -16,5 +16,6 @@
     "(35% to 60%) increased Elemental Damage",
     "+(60 to 120) Ward Decay Threshold"
   ],
-  "lore": "\"What is innovation without the power to prove its worth? If you present me a solution that is outperformed by a raw expression of power then you have brought me nothing!\" -Runemaster Gordian"
+  "lore": "\"What is innovation without the power to prove its worth? If you present me a solution that is outperformed by a raw expression of power then you have brought me nothing!\" -Runemaster Gordian",
+  "dropRarity": "Common"
 }

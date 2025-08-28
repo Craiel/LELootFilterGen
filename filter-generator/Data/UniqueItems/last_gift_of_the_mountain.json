@@ -20,5 +20,6 @@
     "+100% Chance to cast Avalanche Boulder at target when you critically hit with a spell.This is affected by your Avalanche tree and has a 1 second cooldown.",
     "+2 to Level of Avalanche"
   ],
-  "lore": "The mountain was sad to lose a friend as true as Halvar."
+  "lore": "The mountain was sad to lose a friend as true as Halvar.",
+  "dropRarity": "Common"
 }

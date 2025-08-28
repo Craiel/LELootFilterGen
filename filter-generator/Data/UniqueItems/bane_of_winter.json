@@ -21,5 +21,6 @@
     "+(25 to 42) Cold Melee Damage",
     "(25% to 42%) of Added Melee Damage applied as Added Spell Damage to Cold and Void SpellsThe type of added spell damage matches the type of added melee damage, for example Melee Fire Damage would be added to Cold and Void Spells as Spell Fire Damage."
   ],
-  "lore": "Time thaws all winters"
+  "lore": "Time thaws all winters",
+  "dropRarity": null
 }

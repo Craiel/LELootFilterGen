@@ -87,6 +87,9 @@ class IndexGenerator {
       console.log('⚙️  Generating game mechanics indexes...');
       await this.generateMechanicsIndexes();
       
+      console.log('🎲 Generating rarity index...');
+      await this.generateRarityIndex();
+      
       console.log('📋 Generating master index...');
       await this.generateMasterIndex();
       
@@ -408,6 +411,45 @@ class IndexGenerator {
   }
 
   /**
+   * Generate rarity index for unique items
+   */
+  async generateRarityIndex() {
+    const rarityIndex = {};
+    
+    // Process unique items to group by dropRarity
+    for (const [id, data] of this.data.uniques) {
+      // Get dropRarity from the data
+      const dropRarity = data.dropRarity;
+      
+      // Only include items that have a valid dropRarity value (exclude null and 'N/A')
+      if (dropRarity && dropRarity !== null && dropRarity !== 'N/A') {
+        // Initialize the rarity array if it doesn't exist
+        if (!rarityIndex[dropRarity]) {
+          rarityIndex[dropRarity] = [];
+        }
+        
+        // Add the item ID to the rarity group (only if it's numeric)
+        // Skip items that use name keys instead of template file IDs
+        if (/^\d+$/.test(id)) {
+          rarityIndex[dropRarity].push(parseInt(id));
+        }
+      }
+    }
+    
+    // Sort the IDs within each rarity group for consistency
+    for (const rarity in rarityIndex) {
+      rarityIndex[rarity].sort();
+    }
+    
+    // Save to file
+    await fs.writeJson(path.join(INDEXES_DIR, 'rarity-index.json'), rarityIndex, { spaces: 2 });
+    
+    const totalRarities = Object.keys(rarityIndex).length;
+    const totalItems = Object.values(rarityIndex).reduce((sum, ids) => sum + ids.length, 0);
+    console.log(`   ✅ Generated rarity index with ${totalRarities} rarity tiers and ${totalItems} items`);
+  }
+
+  /**
    * Generate master index with metadata
    */
   async generateMasterIndex() {
@@ -428,7 +470,8 @@ class IndexGenerator {
       indexFiles: {
         idLookup: 'indexes/id-lookup.json',
         tagIndex: 'indexes/tags-index.json', 
-        mechanicsIndex: 'indexes/mechanics-index.json'
+        mechanicsIndex: 'indexes/mechanics-index.json',
+        rarityIndex: 'indexes/rarity-index.json'
       },
       globalTags: this.data.globalTags,
       colors: this.data.colors,
@@ -462,6 +505,7 @@ class IndexGenerator {
     console.log(`   ${path.join(INDEXES_DIR, 'id-lookup.json')}`);
     console.log(`   ${path.join(INDEXES_DIR, 'tags-index.json')}`);
     console.log(`   ${path.join(INDEXES_DIR, 'mechanics-index.json')}`);
+    console.log(`   ${path.join(INDEXES_DIR, 'rarity-index.json')}`);
     console.log(`   ${path.join(DATA_DIR, 'database-index.json')}`);
   }
 }

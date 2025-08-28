@@ -17,5 +17,6 @@
     "(30% to 40%) increased Health",
     "You do not regenerate healthYou can still regain health through methods other than health regen"
   ],
-  "lore": "Heart of stone, blood of gravel."
+  "lore": "Heart of stone, blood of gravel.",
+  "dropRarity": "Common"
 }

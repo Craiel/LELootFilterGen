@@ -19,5 +19,6 @@
     "30% Necrotic Penetration with Damned",
     "+30% Mana Efficiency with Necrotic Spells"
   ],
-  "lore": "\"...with a stake they slew her, and with silver they bound her...\""
+  "lore": "\"...with a stake they slew her, and with silver they bound her...\"",
+  "dropRarity": "Common"
 }

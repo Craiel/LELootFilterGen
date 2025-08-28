@@ -18,5 +18,6 @@
     "(10% to 20%) Increased Shock Duration",
     "1% more Damage per stack of Shock"
   ],
-  "lore": "Empires rise and fall like the waves, but the ocean's might is eternal."
+  "lore": "Empires rise and fall like the waves, but the ocean's might is eternal.",
+  "dropRarity": "Very rare"
 }

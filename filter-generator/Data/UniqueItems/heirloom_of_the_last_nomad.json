@@ -18,5 +18,6 @@
     "(80% to 90%) increased Duration of Stuns Received",
     "Using a Potion Cleanses Stun and Freeze"
   ],
-  "lore": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow."
+  "lore": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow.",
+  "dropRarity": "Rare"
 }

@@ -10,5 +10,6 @@
     "(12% to 16%) increased Fire Spell Damage",
     "+(12% to 16%) Chance to apply Ignite on Hit"
   ],
-  "lore": "Three souls to nourish an unquenchable flame."
+  "lore": "Three souls to nourish an unquenchable flame.",
+  "dropRarity": null
 }

@@ -20,5 +20,6 @@
     "+5% Chance to replenish one potion when Bone Golem hits an enemyApplies to all types of Bone Golem",
     "Your Summon Skeletons' spells and attacks deal +42 fire, cold or lightning damage. The element selected is your lowest elemental resistance."
   ],
-  "lore": "Feeding Pebbles was one of my favorite things to do. -Traveling Merchant"
+  "lore": "Feeding Pebbles was one of my favorite things to do. -Traveling Merchant",
+  "dropRarity": "Common"
 }

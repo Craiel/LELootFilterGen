@@ -18,5 +18,6 @@
     "You cremate enemies you kill, burning enemies around them",
     "You have a 10% chance to summon a Burning Skeleton for 10 seconds when you cremate an enemy"
   ],
-  "lore": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes."
+  "lore": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes.",
+  "dropRarity": "Common"
 }

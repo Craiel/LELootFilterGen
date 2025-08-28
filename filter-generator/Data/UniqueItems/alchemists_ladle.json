@@ -14,5 +14,6 @@
     "(20 to 45)% chance to ignite, chill, shock, bleed, slow, poison, and blind on melee hit",
     "13% increased Melee Attack Speed"
   ],
-  "lore": "Infused with countless potions, its effects are unpredictable."
+  "lore": "Infused with countless potions, its effects are unpredictable.",
+  "dropRarity": "Rare"
 }

@@ -168,6 +168,37 @@ class HTMLItemParser {
       lore = loreElement.textContent.trim();
     }
 
+    // Get rarity information from "Obtained from" sections
+    let dropRarity = null;
+    const droppedFromElements = card.querySelectorAll('.dropped-from');
+    
+    for (const droppedFromElement of droppedFromElements) {
+      // Look for Random Drop entries with rarity information
+      const randomDrops = droppedFromElement.querySelectorAll('.random-drop');
+      
+      for (const randomDrop of randomDrops) {
+        // Find the parent li element to get the full context
+        const listItem = randomDrop.closest('li');
+        if (listItem) {
+          // Look for drop-chance span with rarity info
+          const dropChanceElement = listItem.querySelector('.drop-chance');
+          if (dropChanceElement) {
+            const fullText = dropChanceElement.textContent.trim();
+            if (fullText && fullText !== 'Random Drop') {
+              // Extract only the rarity part, excluding "Reroll Chance" and other info
+              const rarityMatch = fullText.match(/^(Extremely rare|Very rare|Rare|Uncommon|Common)/i);
+              if (rarityMatch) {
+                dropRarity = rarityMatch[1];
+                break; // Use the first rarity we find
+              }
+            }
+          }
+        }
+      }
+      
+      if (dropRarity) break; // Stop searching once we find a rarity
+    }
+
     return {
       id: itemId || this.generateId(itemName),
       name: itemName,
@@ -177,7 +208,8 @@ class HTMLItemParser {
       classRequirement: classRequirement,
       implicits: implicits,
       modifiers: modifiers,
-      lore: lore
+      lore: lore,
+      dropRarity: dropRarity
     };
   }
 

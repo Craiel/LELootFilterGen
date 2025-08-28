@@ -21,5 +21,6 @@
     "3% more Damage per Dexterity for Invocations with Gon as their second RuneMultiplicative with other modifiers",
     "3% more Damage per Attunement for Invocations with Rah as their second RuneMultiplicative with other modifiers"
   ],
-  "lore": "Discard freely the paths not taken. They are only distractions from deeper knowledge."
+  "lore": "Discard freely the paths not taken. They are only distractions from deeper knowledge.",
+  "dropRarity": "Common"
 }

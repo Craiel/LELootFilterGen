@@ -15,5 +15,6 @@
     "+(25% to 40%) Chance to apply Chill on Hit",
     "(80 to 140)% increased Minion Cold DamageIncreases cold damage dealt by all minions"
   ],
-  "lore": "The eyes still stare out, transfixed with longing for the power their owner sought."
+  "lore": "The eyes still stare out, transfixed with longing for the power their owner sought.",
+  "dropRarity": null
 }

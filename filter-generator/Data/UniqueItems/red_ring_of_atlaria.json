@@ -16,5 +16,6 @@
     "(15% to 20%) increased Dodge Rating",
     "10% less Damage Taken if you have at least 180 Total AttributesMultiplicative with other modifiers. Your Total Attributes is the sum of your Strength, Dexterity, Intelligence, Attunement, and Vitality."
   ],
-  "lore": "One of seven enchanted rings that were all believed to be lost when Atlaria vanished beneath the waves."
+  "lore": "One of seven enchanted rings that were all believed to be lost when Atlaria vanished beneath the waves.",
+  "dropRarity": "Extremely rare"
 }

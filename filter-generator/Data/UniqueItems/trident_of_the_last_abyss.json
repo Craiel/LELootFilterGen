@@ -17,5 +17,6 @@
     "+75% Void Resistance",
     "(5% to 7%) of Void Damage Leeched as Health on Hit"
   ],
-  "lore": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it."
+  "lore": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it.",
+  "dropRarity": null
 }

@@ -17,5 +17,6 @@
     "40% increased Critical Strike Chance",
     "(10% to 5%) less Elemental Damage Taken"
   ],
-  "lore": "Time collapsing void\nObservation... destruction\nBring her light with you"
+  "lore": "Time collapsing void\nObservation... destruction\nBring her light with you",
+  "dropRarity": "Rare"
 }

@@ -18,5 +18,6 @@
     "+110 Armor",
     "+60% Poison Resistance"
   ],
-  "lore": "\"Why is that decoy buzzing?\"\n\"That's not a decoy, it's a beecoy!\""
+  "lore": "\"Why is that decoy buzzing?\"\n\"That's not a decoy, it's a beecoy!\"",
+  "dropRarity": "Rare"
 }

@@ -16,5 +16,6 @@
     "+(10 to 16) Strength",
     "(10% to 16%) increased Cast Speed"
   ],
-  "lore": "In the blackened heart of an emperor, greed devours mercy."
+  "lore": "In the blackened heart of an emperor, greed devours mercy.",
+  "dropRarity": null
 }

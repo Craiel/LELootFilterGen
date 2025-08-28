@@ -19,5 +19,6 @@
     "(22% to 30%) Increased Volcanic Orb Shrapnel Speed",
     "(10% to 22%) increased Cast Speed"
   ],
-  "lore": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma."
+  "lore": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma.",
+  "dropRarity": "Common"
 }

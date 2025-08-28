@@ -16,5 +16,6 @@
     "+(48 to 64) Melee Damage",
     "All stats on this item are increased by (16 to 20)% per equipped non-idol magic itemMagic items are all items that have one or two non-sealed affixes, excluding unique, set, and legendary items."
   ],
-  "lore": "The first of osprix, wengari, meruna, and nagasa were united in purpose, under the guidance of the gods and Eterra above them."
+  "lore": "The first of osprix, wengari, meruna, and nagasa were united in purpose, under the guidance of the gods and Eterra above them.",
+  "dropRarity": null
 }

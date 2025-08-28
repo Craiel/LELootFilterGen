@@ -19,5 +19,6 @@
     "8% less damage taken if your minions have killed recentlyRecently refers to the past 4 seconds. Multiplicative with other modifiers.",
     "minions take 25% less damage if you have killed recentlyRecently refers to the past 4 seconds. Multiplicative with other modifiers."
   ],
-  "lore": "The King of Beasts leads the charge."
+  "lore": "The King of Beasts leads the charge.",
+  "dropRarity": "Common"
 }

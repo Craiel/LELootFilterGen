@@ -15,5 +15,6 @@
     "(13 to 23) Ward Gain on Freeze",
     "+1% Ward Retention per 2% uncapped Cold Resistance"
   ],
-  "lore": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane."
+  "lore": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane.",
+  "dropRarity": null
 }

@@ -13,5 +13,6 @@
     "50% less Critical Strike Chance if you have dealt a Critical Strike RecentlyMultiplicative with other modifiers",
     "(10 to 15) Health Gain on Crit"
   ],
-  "lore": "Just means you're due for a big one, don't worry."
+  "lore": "Just means you're due for a big one, don't worry.",
+  "dropRarity": null
 }

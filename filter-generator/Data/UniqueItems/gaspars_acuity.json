@@ -20,5 +20,6 @@
     "15% more Void Damage to Bosses and Rare Enemies",
     "100% Increased Area with Decimate"
   ],
-  "lore": "Knowledge without power is nothing but informed futility."
+  "lore": "Knowledge without power is nothing but informed futility.",
+  "dropRarity": null
 }

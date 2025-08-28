@@ -15,5 +15,6 @@
     "When a hit leaves you below your endurance threshold you are slowed and release a powerful Wave of Void (2 second cooldown)",
     "+(10 to 14) Strength"
   ],
-  "lore": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals."
+  "lore": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals.",
+  "dropRarity": null
 }

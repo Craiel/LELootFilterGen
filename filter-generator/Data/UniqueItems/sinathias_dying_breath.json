@@ -18,5 +18,6 @@
     "(16% to 19%) increased Block Effectiveness",
     "+2 to Curse Skills+2 to Minion Skills"
   ],
-  "lore": "As the last dagger plunged into Sinathia's body he uttered a dying curse, sealing the fate of his assassins."
+  "lore": "As the last dagger plunged into Sinathia's body he uttered a dying curse, sealing the fate of his assassins.",
+  "dropRarity": "Common"
 }

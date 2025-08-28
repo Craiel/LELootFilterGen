@@ -15,5 +15,6 @@
     "(32% to 46%) chance to cast Smite at two additional targets when you cast it directly",
     "+2 to All Attributes"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

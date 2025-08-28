@@ -16,5 +16,6 @@
     "(6 to 12)% increased Attack and Cast Speed",
     "+(2 to 6) to All Attributes"
   ],
-  "lore": "\"Cities, memories, whole timelines have been erased by the spreading void. There is much work ahead of us.\" - The Acolyte of Golden Silk"
+  "lore": "\"Cities, memories, whole timelines have been erased by the spreading void. There is much work ahead of us.\" - The Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

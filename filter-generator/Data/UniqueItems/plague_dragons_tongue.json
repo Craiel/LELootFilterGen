@@ -21,5 +21,6 @@
     "+(15 to 27) Melee Physical Damage for LocustsLocusts are minions that can be summoned in Swarmblade Form and modified through its tree",
     "+(1 to 5) to Level of Poison Skills"
   ],
-  "lore": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power."
+  "lore": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power.",
+  "dropRarity": "Common"
 }

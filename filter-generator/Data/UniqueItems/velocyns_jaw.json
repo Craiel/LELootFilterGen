@@ -20,5 +20,6 @@
     "(10% to 20%) Chance to gain Haste for 1 second on Hit",
     "+(20 to 40)% Penetration against all Resistances"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

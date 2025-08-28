@@ -20,5 +20,6 @@
     "When you use Evade you transfer all stacks of Shock on you to nearby enemiesThe duration of shock applied to the enemies is the full duration of shock you normally apply",
     "(20% to 35%) increased Cooldown Recovery Speed for Evade"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Uncommon"
 }

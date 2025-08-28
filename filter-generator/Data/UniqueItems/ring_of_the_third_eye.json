@@ -13,5 +13,6 @@
     "-30% Critical Strike Multiplier",
     "30% Chance to gain (15 to 18) Ward on Crit (up to 4 times per second)"
   ],
-  "lore": "Forsee the strikes, imbue them with power."
+  "lore": "Forsee the strikes, imbue them with power.",
+  "dropRarity": "Common"
 }

@@ -20,5 +20,6 @@
     "50% Void Penetration with Time Rot",
     "3% more Void Damage per stack of Time Rot"
   ],
-  "lore": "Dread not the passage of time nor the eternal void beyond."
+  "lore": "Dread not the passage of time nor the eternal void beyond.",
+  "dropRarity": "Common"
 }

@@ -16,5 +16,6 @@
     "100% of Bleed and Poison Chance converted to Frostbite Chance with Puncture",
     "+90 Freeze Rate with Puncture"
   ],
-  "lore": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari."
+  "lore": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari.",
+  "dropRarity": "Common"
 }

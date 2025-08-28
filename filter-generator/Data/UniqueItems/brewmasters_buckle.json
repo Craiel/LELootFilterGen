@@ -17,5 +17,6 @@
     "+(12% to 20%) Endurance",
     "+(3 to 4) Potion Slots"
   ],
-  "lore": "They say beer makes you bold\nI say it makes you unbreakable"
+  "lore": "They say beer makes you bold\nI say it makes you unbreakable",
+  "dropRarity": null
 }

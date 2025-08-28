@@ -20,5 +20,6 @@
     "+(12% to 18%) Block Chance",
     "+2 to Curse Skills+2 to Minion Skills"
   ],
-  "lore": "As the last of his assassins succumbed to their fates, Sinathia stirred within his tomb."
+  "lore": "As the last of his assassins succumbed to their fates, Sinathia stirred within his tomb.",
+  "dropRarity": "Common"
 }

@@ -20,5 +20,6 @@
     "+(2 to 10) Dexterity",
     "1 Health gained per Dexterity when your Falcon hits an enemy"
   ],
-  "lore": "The smell of blood fills the air."
+  "lore": "The smell of blood fills the air.",
+  "dropRarity": "Rare"
 }

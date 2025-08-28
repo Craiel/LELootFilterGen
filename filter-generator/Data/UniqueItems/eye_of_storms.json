@@ -15,5 +15,6 @@
     "(6% to 15%) Increased Lightning Damage per Active Maelstrom",
     "+(10 to 18) Lightning Melee Damage"
   ],
-  "lore": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass."
+  "lore": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass.",
+  "dropRarity": null
 }

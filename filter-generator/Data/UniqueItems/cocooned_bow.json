@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique bow"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

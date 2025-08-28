@@ -16,5 +16,6 @@
     "+(1 to 4) to Level of Aerial Assault",
     "When you Critically Strike an enemy your Falcon gains +25 Melee Damage for 4 seconds and your Falcon Abilities recover 25% of their remaining cooldown (1 second cooldown)Falcon Abilities are Falcon Strikes, Dive Bomb, and Aerial Assault."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

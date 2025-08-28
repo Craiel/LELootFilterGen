@@ -15,5 +15,6 @@
     "(5% to 9%) of Damage Dealt to Mana Before Health",
     "Endurance applies to (5 to 9) additional Health per 10 Missing ManaThis effectively raises your endurance threshold for calculating damage taken, but it does not count as endurance threshold for any other effects that depend on your endurance threshold."
   ],
-  "lore": "\"Such insight wasted on a lost timeline. It is for naught now, but it proves thy worth.\" - The Acolyte of Golden Silk"
+  "lore": "\"Such insight wasted on a lost timeline. It is for naught now, but it proves thy worth.\" - The Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

@@ -17,5 +17,6 @@
     "(20% to 40%) Increased Chance To Find Potions",
     "+(6 to 8) Dexterity"
   ],
-  "lore": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern"
+  "lore": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern",
+  "dropRarity": "Rare"
 }

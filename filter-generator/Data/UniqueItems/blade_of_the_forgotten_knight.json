@@ -17,5 +17,6 @@
     "50% Void Penetration with Time Rot",
     "3% more Void Damage per stack of Time Rot"
   ],
-  "lore": "Incongruous shards of iron from distant eras woven together through time."
+  "lore": "Incongruous shards of iron from distant eras woven together through time.",
+  "dropRarity": "Rare"
 }

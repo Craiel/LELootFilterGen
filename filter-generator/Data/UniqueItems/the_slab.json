@@ -16,5 +16,6 @@
     "Your Block Chance cannot exceed 75%",
     "+(35 to 65) Health"
   ],
-  "lore": "Some slabs mark the dead, this one marks the living."
+  "lore": "Some slabs mark the dead, this one marks the living.",
+  "dropRarity": "Common"
 }

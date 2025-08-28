@@ -16,5 +16,6 @@
     "100% of Hungering Souls Base Damage Converted to Fire",
     "Hungering Souls Ignite on Hit instead of Possessing"
   ],
-  "lore": "The souls of the damned burn with eternal fire."
+  "lore": "The souls of the damned burn with eternal fire.",
+  "dropRarity": "Common"
 }

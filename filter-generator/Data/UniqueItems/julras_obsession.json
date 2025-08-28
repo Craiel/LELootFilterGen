@@ -16,5 +16,6 @@
     "+(3 to 10) Spell Damage",
     "Stats on this item also apply to your minionsAttributes on minions have no effect."
   ],
-  "lore": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\""
+  "lore": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\"",
+  "dropRarity": null
 }

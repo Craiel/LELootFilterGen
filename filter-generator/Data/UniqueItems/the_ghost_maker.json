@@ -20,5 +20,6 @@
     "(61% to 66%) More Infernal Shade Damage per active Wraith against Bosses and Rare EnemiesThis counts the number of wraiths that were active when you cast Infernal Shade. This effect is multiplicative with other damage modifiers.",
     "(36 to 61)% Increased Area for Infernal Shade and for your Summoned Wraiths' Melee Attacks"
   ],
-  "lore": "A precise and expertly crafted tool for cutting a soul from a body"
+  "lore": "A precise and expertly crafted tool for cutting a soul from a body",
+  "dropRarity": "Common"
 }

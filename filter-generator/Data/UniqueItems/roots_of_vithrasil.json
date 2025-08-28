@@ -19,5 +19,6 @@
     "You cannot move while in Spriggan Form",
     "+(20 to 26) Health Regen while in Spriggan Form"
   ],
-  "lore": "Root yourself into the cold earth and drink deep from Eterra's bounty."
+  "lore": "Root yourself into the cold earth and drink deep from Eterra's bounty.",
+  "dropRarity": "Uncommon"
 }

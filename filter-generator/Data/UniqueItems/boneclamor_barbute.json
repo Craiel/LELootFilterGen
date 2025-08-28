@@ -15,5 +15,6 @@
     "+(35% to 65%) Necrotic Resistance",
     "1 Ward per Second per 3% uncapped Necrotic Resistance"
   ],
-  "lore": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion."
+  "lore": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion.",
+  "dropRarity": "Common"
 }

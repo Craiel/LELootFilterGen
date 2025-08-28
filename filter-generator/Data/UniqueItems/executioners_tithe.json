@@ -21,5 +21,6 @@
     "(2 to 4)% of your maximum mana restored when Great Harvest kills an enemyThis effect does not stack when dual wielded",
     "(20 to 30)% of your maximum mana restored when Great Harvest hits a boss or rare enemyThis effect does not stack when dual wielded"
   ],
-  "lore": "The Immortal Empire conquered death and brought freedom to humanity. Yet in that freedom, there remained one inevitable certainty... the tax claimed from their very souls."
+  "lore": "The Immortal Empire conquered death and brought freedom to humanity. Yet in that freedom, there remained one inevitable certainty... the tax claimed from their very souls.",
+  "dropRarity": "Rare"
 }

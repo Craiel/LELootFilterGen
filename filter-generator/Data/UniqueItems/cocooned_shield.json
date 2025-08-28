@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique shield"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

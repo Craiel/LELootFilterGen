@@ -15,5 +15,6 @@
     "+(20 to 200) Armor",
     "+(20 to 200) Endurance Threshold"
   ],
-  "lore": "A visage unweathered by even time itself"
+  "lore": "A visage unweathered by even time itself",
+  "dropRarity": null
 }

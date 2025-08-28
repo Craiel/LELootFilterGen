@@ -17,5 +17,6 @@
     "Flame Reave hits enemies in an expanding circle around youThe circle has 35% less range than Flame Reave's normal shape",
     "+(4 to 10) Flame Reave Mana Cost"
   ],
-  "lore": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated."
+  "lore": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated.",
+  "dropRarity": "Common"
 }

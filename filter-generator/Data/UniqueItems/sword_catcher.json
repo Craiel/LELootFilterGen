@@ -18,5 +18,6 @@
     "+(39 to 60) Melee Damage while you have FrenzyIncreased by effects that increase the effect of Frenzy on you",
     "(39% to 60%) increased Effect of Frenzy on You"
   ],
-  "lore": "\"The wild cannot be protected by unnatural things, by stone walls or iron shields. The flame and steel that would destroy it must be stopped in their tracks and broken by the primal rage of its defenders.\" - Nomad Chief Thulr"
+  "lore": "\"The wild cannot be protected by unnatural things, by stone walls or iron shields. The flame and steel that would destroy it must be stopped in their tracks and broken by the primal rage of its defenders.\" - Nomad Chief Thulr",
+  "dropRarity": "Rare"
 }

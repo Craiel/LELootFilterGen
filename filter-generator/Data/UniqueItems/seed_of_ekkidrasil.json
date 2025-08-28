@@ -17,5 +17,6 @@
     "+(40 to 64) Health",
     "(4% to 8%) chance to take 0 Damage when Hit"
   ],
-  "lore": "From the minds of the devoted grows the roots of the tree of nothing"
+  "lore": "From the minds of the devoted grows the roots of the tree of nothing",
+  "dropRarity": null
 }

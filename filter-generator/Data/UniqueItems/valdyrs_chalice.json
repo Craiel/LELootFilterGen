@@ -15,5 +15,6 @@
     "2% of Physical Damage Over Time Leeched as Health",
     "20 Health gained on Kill per stack of Bleed on the Target"
   ],
-  "lore": "The blood within is said to reflect the drinker's true face."
+  "lore": "The blood within is said to reflect the drinker's true face.",
+  "dropRarity": "Rare"
 }

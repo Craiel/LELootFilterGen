@@ -16,5 +16,6 @@
     "+(10% to 30%) Chance to apply Doom on Hit",
     "(10% to 30%) Void Penetration with Doom"
   ],
-  "lore": "The sorrow of those that remain feeds the hungering void."
+  "lore": "The sorrow of those that remain feeds the hungering void.",
+  "dropRarity": null
 }

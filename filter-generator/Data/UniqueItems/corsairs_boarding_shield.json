@@ -21,5 +21,6 @@
     "100% of Glancing Blow Chance Converted to Block Chance",
     "35% less Necrotic Damage Taken on Block"
   ],
-  "lore": "Striking the Dreadnought would be their greatest feat yet, a win to remember that would silence those wishing to surrender to the Empire. However, for the captain freeing the whales was the true reward."
+  "lore": "Striking the Dreadnought would be their greatest feat yet, a win to remember that would silence those wishing to surrender to the Empire. However, for the captain freeing the whales was the true reward.",
+  "dropRarity": "Common"
 }

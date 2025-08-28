@@ -19,5 +19,6 @@
     "You are Chilled every 3 seconds",
     "(30% to 36%) increased Movement Speed"
   ],
-  "lore": "Step out of the cold, out of the mortal realm, and take your place among the empire."
+  "lore": "Step out of the cold, out of the mortal realm, and take your place among the empire.",
+  "dropRarity": null
 }

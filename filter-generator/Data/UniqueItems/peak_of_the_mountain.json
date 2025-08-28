@@ -13,5 +13,6 @@
     "You cannot Leech Health from Critical Strikes",
     "+(2 to 5) to All Attributes"
   ],
-  "lore": "To achieve the loftiest of goals, victory must be valued over survival."
+  "lore": "To achieve the loftiest of goals, victory must be valued over survival.",
+  "dropRarity": null
 }

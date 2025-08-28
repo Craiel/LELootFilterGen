@@ -19,5 +19,6 @@
     "+1% necrotic resistance per character level",
     "15% chance to cast tundra nova on hit with cold skills (chance doubled against undead)"
   ],
-  "lore": "An alliance of wengari and nomads gathered in the northern tundra, forging weapons of ice and preparing to reclaim Heoborea from the Immortal Empire."
+  "lore": "An alliance of wengari and nomads gathered in the northern tundra, forging weapons of ice and preparing to reclaim Heoborea from the Immortal Empire.",
+  "dropRarity": "Common"
 }

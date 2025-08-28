@@ -15,5 +15,6 @@
     "(5% to 9%) of Damage Leeched as Health",
     "You are inflicted with bleed when you cast a spell"
   ],
-  "lore": "Drink the blood of the weak."
+  "lore": "Drink the blood of the weak.",
+  "dropRarity": "Common"
 }

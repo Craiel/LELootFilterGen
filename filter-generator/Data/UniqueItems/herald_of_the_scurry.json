@@ -22,5 +22,6 @@
     "+(5% to 75%) Chance to Shred Physical Resistance on Hit for Squirrels",
     "Howl is replaced by Sciurine Rage, which grants Squirrels 40% increased movement speed and melee attack speed for 4 seconds."
   ],
-  "lore": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!"
+  "lore": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!",
+  "dropRarity": "Rare"
 }

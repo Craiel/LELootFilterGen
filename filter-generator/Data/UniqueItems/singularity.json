@@ -9,5 +9,6 @@
     "(8% to 20%) More Hit Damage if you have only one Singularity equipped",
     "You cannot deal Critical Strikes100% less Critical Strike Chance (multiplicative with other modifiers)"
   ],
-  "lore": "\"And thus from a singular point of infinite detail did the goddess Eterra weave the fabric of reality\" - Book of Elders, Chapter 1."
+  "lore": "\"And thus from a singular point of infinite detail did the goddess Eterra weave the fabric of reality\" - Book of Elders, Chapter 1.",
+  "dropRarity": "Uncommon"
 }

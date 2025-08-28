@@ -17,5 +17,6 @@
     "+(20 to 40) Health",
     "+(60 to 100) Stun Avoidance"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

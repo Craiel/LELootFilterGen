@@ -18,5 +18,6 @@
     "15% more Void Damage to Bosses and Rare Enemies",
     "100% Increased Area with Decimate"
   ],
-  "lore": "Among the ruins what is wisdom, but empty platitudes?"
+  "lore": "Among the ruins what is wisdom, but empty platitudes?",
+  "dropRarity": null
 }

@@ -16,5 +16,6 @@
     "(75% to 100%) Chance to gain a stack of Reen's Ire for 5 seconds when you crit with a melee attack, up to 30 times per 5 secondsChance above 100% has no effect",
     "Each stack of Reen's Ire grants 5% melee critical strike multiplier and 10% increased fire damage over time"
   ],
-  "lore": "Dance through the flames."
+  "lore": "Dance through the flames.",
+  "dropRarity": "Rare"
 }

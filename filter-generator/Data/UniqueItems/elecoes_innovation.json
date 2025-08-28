@@ -20,5 +20,6 @@
     "(12% to 24%) increased Critical Strike Chance",
     "+(12% to 24%) Critical Strike Multiplier"
   ],
-  "lore": "Elecoe discovered that with the right ingredients potions could be imbued with the luck of the brewer."
+  "lore": "Elecoe discovered that with the right ingredients potions could be imbued with the luck of the brewer.",
+  "dropRarity": "Common"
 }

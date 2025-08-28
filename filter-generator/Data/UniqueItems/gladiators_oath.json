@@ -15,5 +15,6 @@
     "Dancing Strikes' 3rd Strike Creates a Fighting Arena",
     "+100% Melee Critical Strike Chance while in Dancing Strikes' Fighting Arena"
   ],
-  "lore": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood."
+  "lore": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood.",
+  "dropRarity": "Common"
 }

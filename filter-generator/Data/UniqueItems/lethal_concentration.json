@@ -18,5 +18,6 @@
     "Minions leech 8% of Poison Damage as HealthThe health is restored to the minion that dealt the damage, not to you.",
     "+(1 to 3) to Level of Minion Throwing Skills"
   ],
-  "lore": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes"
+  "lore": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes",
+  "dropRarity": "Common"
 }

@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique two-handed spear"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

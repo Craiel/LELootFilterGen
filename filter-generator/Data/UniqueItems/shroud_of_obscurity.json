@@ -17,5 +17,6 @@
     "+(93 to 130) Dodge Rating",
     "+(3 to 13) Ward gained when you Dodge"
   ],
-  "lore": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic."
+  "lore": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic.",
+  "dropRarity": "Common"
 }

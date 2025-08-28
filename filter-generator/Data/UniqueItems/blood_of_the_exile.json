@@ -18,5 +18,6 @@
     "+(5 to 8) Dexterity",
     "+(5 to 8) Intelligence"
   ],
-  "lore": "Fleeing does not stem the flow"
+  "lore": "Fleeing does not stem the flow",
+  "dropRarity": "Rare"
 }

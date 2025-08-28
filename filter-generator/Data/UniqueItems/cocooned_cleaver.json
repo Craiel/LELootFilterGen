@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique one-handed axe"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

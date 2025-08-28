@@ -17,5 +17,6 @@
     "+(6% to 9%) Critical Strike Multiplier with Flame Whip per 10% Uncapped Necrotic ResistanceYour uncapped necrotic resistance is your total necrotic resistance disregarding the normal 75% cap",
     "+(61 to 72) Spell Damage"
   ],
-  "lore": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him."
+  "lore": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him.",
+  "dropRarity": "Common"
 }

@@ -15,5 +15,6 @@
     "When you use a Potion all your Totems are restored to full health and gain Damage Immunity for 2 seconds.",
     "+1 to Level of Totem Skills"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

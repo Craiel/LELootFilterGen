@@ -18,5 +18,6 @@
     "(20% to 25%) Increased Area for Area Skills",
     "+(8% to 20%) Void Penetration"
   ],
-  "lore": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\""
+  "lore": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\"",
+  "dropRarity": null
 }

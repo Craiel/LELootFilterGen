@@ -18,5 +18,6 @@
     "13% increased Elemental Cast Speed",
     "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
   ],
-  "lore": "...electrified with ambition, he cast spells beyond his cognition..."
+  "lore": "...electrified with ambition, he cast spells beyond his cognition...",
+  "dropRarity": "Common"
 }

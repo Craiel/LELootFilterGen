@@ -18,5 +18,6 @@
     "+(7% to 11%) to All Resistances",
     "+(1 to 4) to All Attributes"
   ],
-  "lore": "Perrin the swineherd preferred not to ask questions. He didn't ask where the feed he was paid to accept came from, or why it glowed at night. He didn't ask why his swine began to whisper the names of dead men when they thought he wasn't looking."
+  "lore": "Perrin the swineherd preferred not to ask questions. He didn't ask where the feed he was paid to accept came from, or why it glowed at night. He didn't ask why his swine began to whisper the names of dead men when they thought he wasn't looking.",
+  "dropRarity": "Uncommon"
 }

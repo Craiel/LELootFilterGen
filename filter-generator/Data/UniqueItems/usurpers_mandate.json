@@ -19,5 +19,6 @@
     "+(52 to 113) Health",
     "Your minions cannot be Stunned"
   ],
-  "lore": "\"Only one with the blood and bones of a king may rule. Fortunately, I have both\" - Venred the Usurper"
+  "lore": "\"Only one with the blood and bones of a king may rule. Fortunately, I have both\" - Venred the Usurper",
+  "dropRarity": "Common"
 }

@@ -21,5 +21,6 @@
     "-3 Mana Cost for Throwing Skills",
     "(12% to 18%) more Throwing Damage to Bosses and Rare Enemies"
   ],
-  "lore": "The streets of Maj'elka engender no love for authority"
+  "lore": "The streets of Maj'elka engender no love for authority",
+  "dropRarity": "Common"
 }

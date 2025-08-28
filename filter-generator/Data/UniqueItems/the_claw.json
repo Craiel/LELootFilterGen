@@ -13,5 +13,6 @@
     "+(5 to 9) Melee Physical Damage for Minions",
     "You can Summon Wolves up to your Maximum Number of CompanionsAffects the Summon Wolf skill. Does not increase your maximum number of companions."
   ],
-  "lore": "A wolf never hunts alone."
+  "lore": "A wolf never hunts alone.",
+  "dropRarity": "Common"
 }

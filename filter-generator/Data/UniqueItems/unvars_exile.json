@@ -9,5 +9,6 @@
     "Once you have three Runes for Runic Invocation your runes cannot change until they are consumed",
     "3% Chance per Intelligence for 33% increased Elemental Damage with Three Rune Invocations"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

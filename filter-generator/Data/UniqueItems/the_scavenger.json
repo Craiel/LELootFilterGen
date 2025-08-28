@@ -13,5 +13,6 @@
     "Gain Haste for 3 Seconds on Potion Use",
     "(30% to 45%) increased Dodge Rating"
   ],
-  "lore": "Gods may fall and empires crumble, but the furtive scavenger lives on."
+  "lore": "Gods may fall and empires crumble, but the furtive scavenger lives on.",
+  "dropRarity": "Common"
 }

@@ -15,5 +15,6 @@
     "+(60% to 130%) Throwing Critical Strike Multiplier",
     "+2 Projectiles with ShurikensOnly affects the Rogue skill Shurikens"
   ],
-  "lore": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive."
+  "lore": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive.",
+  "dropRarity": "Common"
 }

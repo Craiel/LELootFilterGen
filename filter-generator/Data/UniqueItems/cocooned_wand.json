@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique wand"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

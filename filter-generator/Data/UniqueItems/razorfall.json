@@ -20,5 +20,6 @@
     "You gain Haste and (12 to 30)% increased Throwing Attack Speed for 2 seconds after using Aerial Assault",
     "(13% to 20%) chance to recover 8% of Aerial Assault's remaining cooldown on Throwing Hit (up to 3 times)Remaining number of cooldown recoveries resets when you use Aerial Assault"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Very rare"
 }

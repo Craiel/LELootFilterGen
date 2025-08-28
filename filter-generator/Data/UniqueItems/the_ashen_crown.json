@@ -17,5 +17,6 @@
     "(10% to 20%) Increased Stun Duration",
     "Elemental Nova is now cast at the target location"
   ],
-  "lore": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins."
+  "lore": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins.",
+  "dropRarity": "Common"
 }

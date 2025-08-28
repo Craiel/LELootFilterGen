@@ -17,5 +17,6 @@
     "-2 Mana Cost per stack of Mountain's Endurance",
     "100% of Dodge Rating converted to Endurance Threshold while you have at least 1 stack of Mountain's Endurance"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

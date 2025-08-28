@@ -20,5 +20,6 @@
     "+(6 to 12) Intelligence",
     "18% increased Movement Speed while not Channelling"
   ],
-  "lore": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own."
+  "lore": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own.",
+  "dropRarity": "Common"
 }

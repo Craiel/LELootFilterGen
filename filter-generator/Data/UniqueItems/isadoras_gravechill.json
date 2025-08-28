@@ -18,5 +18,6 @@
     "30% Necrotic Penetration with Damned",
     "+30% Mana Efficiency with Necrotic Spells"
   ],
-  "lore": "\"...yet her strength was not blood, but of bone...\""
+  "lore": "\"...yet her strength was not blood, but of bone...\"",
+  "dropRarity": "Common"
 }

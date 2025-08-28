@@ -13,5 +13,6 @@
     "20 Maximum Stacks of AmbitionIf you have multiple Thrones of Ambition equipped your maximum stacks is still 20",
     "You lose all stacks of Ambition if you go 4 seconds without gaining a stack"
   ],
-  "lore": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god."
+  "lore": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god.",
+  "dropRarity": null
 }

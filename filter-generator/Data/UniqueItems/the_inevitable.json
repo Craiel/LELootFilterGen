@@ -16,5 +16,6 @@
     "(25% to 16%) less Damage Taken while using Erasing Strike",
     "(36 to 49) Health Gain on Kill"
   ],
-  "lore": "All timelines fade and the Harbingers flock like crows to the remains."
+  "lore": "All timelines fade and the Harbingers flock like crows to the remains.",
+  "dropRarity": null
 }

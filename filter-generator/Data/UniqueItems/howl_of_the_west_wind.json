@@ -18,5 +18,6 @@
     "+(7 to 13) Lightning Melee Damage",
     "(31% to 47%) chance on hit with Lightning Skills to grant your Wolves additional Melee Lightning Damage equal to your Melee Lightning DamageThis buff lasts 5 seconds and does not stack. This effect cannot trigger more than once per second. The duration of the buff is increased by your increased Shock Duration."
   ],
-  "lore": "Dark clouds roll in from the Sea of the Storms"
+  "lore": "Dark clouds roll in from the Sea of the Storms",
+  "dropRarity": "Common"
 }

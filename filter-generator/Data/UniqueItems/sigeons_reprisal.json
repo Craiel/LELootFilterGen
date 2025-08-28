@@ -19,5 +19,6 @@
     "(35 to 115) Damage Reflected to Attackers",
     "+1 Throwing Damage for Shield Throw per 10 Damage Reflected to AttackersScales with your Damage Reflected to Attackers stat not with the actual damage that has been reflected to attackers. Does not scale with percent damage reflected."
   ],
-  "lore": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon"
+  "lore": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon",
+  "dropRarity": "Common"
 }

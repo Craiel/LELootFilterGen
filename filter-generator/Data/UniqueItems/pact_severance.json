@@ -20,5 +20,6 @@
     "(26% to 39%) Increased Area with Sacrifice",
     "When a minion dies you have a (36 to 49)% Chance to cast Sacrifice on your lowest health minion (up to 2 times per second)Only counts your minions' deaths. Can be triggered by sacrificing a minion."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Rare"
 }

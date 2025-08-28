@@ -15,5 +15,6 @@
     "(12% to 8%) less Damage over Time Taken from Slowed EnemiesMultiplicative with other modifiers",
     "(28% to 48%) chance on Hit to grant one of your minions Aspect of the Spider (2 second cooldown)Aspect of the Spider lasts 8 seconds and grants 15% more damage to slowed enemies (multiplicative with other modifiers) and +100% chance to slow on hit. It cannot stack."
   ],
-  "lore": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk"
+  "lore": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

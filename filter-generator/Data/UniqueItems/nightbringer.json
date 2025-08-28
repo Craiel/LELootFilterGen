@@ -17,5 +17,6 @@
     "(10% to 14%) increased Bow Attack Speed while at Low Health",
     "(100% to 154%) Increased Blind Duration"
   ],
-  "lore": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek."
+  "lore": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek.",
+  "dropRarity": null
 }

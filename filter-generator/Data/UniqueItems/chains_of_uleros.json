@@ -17,5 +17,6 @@
     "24% reduced duration of stuns on you",
     "Your potions grant ward instead of health100% of the health you would gain on potion use is gained as ward instead"
   ],
-  "lore": "Tether yourself to this mortal realm."
+  "lore": "Tether yourself to this mortal realm.",
+  "dropRarity": "Common"
 }

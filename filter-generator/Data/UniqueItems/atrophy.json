@@ -17,5 +17,6 @@
     "(20% to 40%) Chance to Slow Attackers",
     "+(20 to 25)% Penetration against All Resistances for Damage Over Time"
   ],
-  "lore": "Rust and corrosion stand as monuments to the inevitability of time."
+  "lore": "Rust and corrosion stand as monuments to the inevitability of time.",
+  "dropRarity": null
 }

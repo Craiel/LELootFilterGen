@@ -17,5 +17,6 @@
     "+(1 to 2) to Level of Intelligence Skills",
     "(10% to 18%) increased Melee Attack Speed"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Rare"
 }

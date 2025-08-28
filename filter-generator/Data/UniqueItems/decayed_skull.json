@@ -15,5 +15,6 @@
     "(3 to 10)% More Armor (multiplicative with other modifiers)",
     "(15% to 30%) of Armor Mitigation also applies to Damage over Time"
   ],
-  "lore": "A monument to the world's decay carved in bone and steel."
+  "lore": "A monument to the world's decay carved in bone and steel.",
+  "dropRarity": "Common"
 }

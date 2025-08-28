@@ -15,5 +15,6 @@
     "(60% to 85%) of Endurance Threshold added as Ward Decay Threshold",
     "+(60 to 70) Ward per Second"
   ],
-  "lore": "Cloaked in the void, Harbingers need fear naught."
+  "lore": "Cloaked in the void, Harbingers need fear naught.",
+  "dropRarity": null
 }

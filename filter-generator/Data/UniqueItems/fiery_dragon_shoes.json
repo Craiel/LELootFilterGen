@@ -20,5 +20,6 @@
     "+(5% to 15%) Chance to Receive a Critical Strike",
     "(75% to 85%) reduced Bonus Damage Taken from Critical Strikes"
   ],
-  "lore": "Embers of a dragon's heart still linger in these smoldering scales. Dire hits threaten to stoke a wrath that has long slumbered."
+  "lore": "Embers of a dragon's heart still linger in these smoldering scales. Dire hits threaten to stoke a wrath that has long slumbered.",
+  "dropRarity": "Rare"
 }

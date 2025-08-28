@@ -16,5 +16,6 @@
     "(25% to 30%) of Block Effectiveness applies to Damage over Time as if it had been Blocked",
     "+(150 to 300) Block Effectiveness"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

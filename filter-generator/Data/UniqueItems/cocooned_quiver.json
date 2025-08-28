@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique quiver"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

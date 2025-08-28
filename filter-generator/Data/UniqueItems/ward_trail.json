@@ -13,5 +13,6 @@
     "(5% to 10%) increased Movement Speed",
     "+(30 to 50) Ward gained when you Dodge"
   ],
-  "lore": "Many things are fickle, few more so than life itself."
+  "lore": "Many things are fickle, few more so than life itself.",
+  "dropRarity": "Common"
 }

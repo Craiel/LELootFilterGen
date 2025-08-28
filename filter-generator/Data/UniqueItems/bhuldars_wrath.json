@@ -17,5 +17,6 @@
     "Earthquake is Converted To FireOnly converts base damage not added damage",
     "100% of Armour Shred Chance Converted to Ignite Chance for Earthquake"
   ],
-  "lore": "Shatter! Erupt! This world is only a prison for the immortal flame."
+  "lore": "Shatter! Erupt! This world is only a prison for the immortal flame.",
+  "dropRarity": null
 }

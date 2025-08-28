@@ -16,5 +16,6 @@
     "+(1 to 2) to Level of Melee Skills",
     "+(4 to 9) Vitality"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

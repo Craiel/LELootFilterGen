@@ -18,5 +18,6 @@
     "Casting a fire spell grants Fire Infusion, with a 20 second cooldownFire Infusion gains a stack every second. Each stack grants 10% more fire damage and 6% less cold and lightning damage for 10 seconds. Reaching 10 stacks of Fire Infusion applies Fire Overload for 10 seconds, granting 80% less fire damage and removing all Fire Infusion and Cold or Lightning Overloads",
     "Casting a lightning spell grants Lightning Infusion, with a 20 second cooldownLightning Infusion gains a stack every second. Each stack grants 10% more lightning damage and 6% less cold and fire damage for 10 seconds. Reaching 10 stacks of Lightning Infusion applies Lightning Overload for 10 seconds, granting 80% less lightning damage and removing all Lightning Infusion and Cold or Fire Overloads"
   ],
-  "lore": "The Scales of Eterra weighed the balance of the elements, ensuring that one would not eclipse the other. Balance is control, and whether that control breeds peace or destruction is up to those who hold the scales."
+  "lore": "The Scales of Eterra weighed the balance of the elements, ensuring that one would not eclipse the other. Balance is control, and whether that control breeds peace or destruction is up to those who hold the scales.",
+  "dropRarity": "Rare"
 }

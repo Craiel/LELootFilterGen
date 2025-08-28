@@ -16,5 +16,6 @@
     "+2 to Level of Fire Melee Skills",
     "+2 to Level of Cold Melee Skills"
   ],
-  "lore": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both."
+  "lore": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both.",
+  "dropRarity": null
 }

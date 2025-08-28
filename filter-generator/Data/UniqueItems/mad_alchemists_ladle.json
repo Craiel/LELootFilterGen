@@ -22,5 +22,6 @@
     "+1% increased Cast Speed per 2 Intelligence",
     "1 Mana Gained on Potion Use per 4 Intelligence"
   ],
-  "lore": "Infused with countless potions, its effects are very unpredictable."
+  "lore": "Infused with countless potions, its effects are very unpredictable.",
+  "dropRarity": null
 }

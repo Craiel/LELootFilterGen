@@ -18,5 +18,6 @@
     "When you kill an enemy with a fire skill you take 4 fire damage over the next 2 seconds",
     "(5% to 10%) increased Fire Cast Speed"
   ],
-  "lore": "Set the world ablaze and burn along with it."
+  "lore": "Set the world ablaze and burn along with it.",
+  "dropRarity": "Common"
 }

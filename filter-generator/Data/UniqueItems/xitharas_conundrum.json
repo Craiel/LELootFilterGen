@@ -14,5 +14,6 @@
     "You have no health regenYou can still regain health through methods other than health regen",
     "(25% to 30%) more Physical Damage while at Full Health"
   ],
-  "lore": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade."
+  "lore": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade.",
+  "dropRarity": "Uncommon"
 }

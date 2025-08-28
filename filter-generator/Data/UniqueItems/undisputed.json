@@ -18,5 +18,6 @@
     "(7% to 14%) of Overkill Damage Leeched as Health",
     "5% increased physical damage for each recent melee hit against a bleeding enemy (up to 255%)Recent refers to the past 4 seconds"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Rare"
 }

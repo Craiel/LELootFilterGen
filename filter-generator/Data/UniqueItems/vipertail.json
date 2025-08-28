@@ -15,5 +15,6 @@
     "(45% to 60%) increased Dodge Rating",
     "7% Chance to Summon a Primal Serpent on kill with Serpent StrikePrimal Serpents are melee minions that poison on hit. They have an unlimited duration, but do not regenerate health. You are limited to one Primal Serpent at a time."
   ],
-  "lore": "The bite of the viper brings lethargy and death."
+  "lore": "The bite of the viper brings lethargy and death.",
+  "dropRarity": "Common"
 }

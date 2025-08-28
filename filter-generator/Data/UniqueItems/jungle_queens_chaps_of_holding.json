@@ -16,5 +16,6 @@
     "(25% to 50%) increased Dodge Rating for 4 seconds when you use a Potion",
     "10% More Dodge Rating for 4 seconds when you use a PotionCan stack multiple times. Each stack is multiplicative with each other and with other modifiers."
   ],
-  "lore": "The lack of a bottom means that there is more material for pockets."
+  "lore": "The lack of a bottom means that there is more material for pockets.",
+  "dropRarity": "Very rare"
 }

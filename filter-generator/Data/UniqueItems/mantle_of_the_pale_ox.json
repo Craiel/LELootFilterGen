@@ -17,5 +17,6 @@
     "+(12 to 16) Strength",
     "+(1 to 2) to Level of Minion Strength Skills"
   ],
-  "lore": "Fight with the strength of an ox and the wisdom of a spirit"
+  "lore": "Fight with the strength of an ox and the wisdom of a spirit",
+  "dropRarity": "Common"
 }

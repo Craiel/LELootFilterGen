@@ -15,5 +15,6 @@
     "+(50 to 100) Health",
     "You cannot leech health"
   ],
-  "lore": "Strike with the force of a mountain."
+  "lore": "Strike with the force of a mountain.",
+  "dropRarity": "Common"
 }

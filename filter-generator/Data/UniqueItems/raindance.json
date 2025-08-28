@@ -20,5 +20,6 @@
     "(10% to 13%) increased Movement Speed",
     "(50% to 25%) reduced Duration of Stuns Received"
   ],
-  "lore": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves."
+  "lore": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves.",
+  "dropRarity": "Rare"
 }

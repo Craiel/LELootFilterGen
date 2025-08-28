@@ -19,5 +19,6 @@
     "+(600 to 1000) Block Effectiveness",
     "+(10 to 16) Strength"
   ],
-  "lore": "Uhkeriros, Emperor of Corpses, hear our prayers! Devour your chosen and free us from this undeath."
+  "lore": "Uhkeriros, Emperor of Corpses, hear our prayers! Devour your chosen and free us from this undeath.",
+  "dropRarity": null
 }

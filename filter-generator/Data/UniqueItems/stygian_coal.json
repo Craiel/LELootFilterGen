@@ -18,5 +18,6 @@
     "1% increased Stygian Beam frequency per Intelligence",
     "3% more Stygian Beam Damage per 10 Current ManaMultiplicative with other modifiers"
   ],
-  "lore": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come."
+  "lore": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come.",
+  "dropRarity": "Common"
 }

@@ -16,5 +16,6 @@
     "+(36 to 54) Physical Melee Damage",
     "+(3 to 9) Strength"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

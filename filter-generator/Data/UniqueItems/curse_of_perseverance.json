@@ -19,5 +19,6 @@
     "+(63 to 73) Health",
     "1% of Necrotic Damage Leeched as Health"
   ],
-  "lore": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world."
+  "lore": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world.",
+  "dropRarity": "Common"
 }

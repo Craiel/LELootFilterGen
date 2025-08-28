@@ -19,5 +19,6 @@
     "72% Increased Chance To Find Potions",
     "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
   ],
-  "lore": "In games of power you win or you die"
+  "lore": "In games of power you win or you die",
+  "dropRarity": "Common"
 }

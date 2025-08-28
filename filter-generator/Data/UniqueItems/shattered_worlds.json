@@ -16,5 +16,6 @@
     "(10% to 100%) increased Effect of Frenzy on You",
     "+1 to Level of All Skills"
   ],
-  "lore": "The unrestrained power of countless shattered timelines, condensed into a vortex of possibility"
+  "lore": "The unrestrained power of countless shattered timelines, condensed into a vortex of possibility",
+  "dropRarity": null
 }

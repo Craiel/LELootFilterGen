@@ -16,5 +16,6 @@
     "(7% to 12%) increased Minion Bow Attack Speed",
     "(7% to 12%) increased Minion Cast Speed"
   ],
-  "lore": "The touch of death reaches far beyond the grave."
+  "lore": "The touch of death reaches far beyond the grave.",
+  "dropRarity": "Common"
 }

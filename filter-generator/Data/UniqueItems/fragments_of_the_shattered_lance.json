@@ -15,5 +15,6 @@
     "(50% to 70%) increased Cold Melee Damage",
     "5% Increased Melee Cold Damage per 10 Health Regen, up to 1500%Any additional health regen has an effect, there are not thresholds every 10."
   ],
-  "lore": "Crafted in desperation, seized with ambition."
+  "lore": "Crafted in desperation, seized with ambition.",
+  "dropRarity": null
 }

@@ -20,5 +20,6 @@
     "+(80 to 90) Spell Damage",
     "+2 to Level of Cold Skills"
   ],
-  "lore": "Most druids talk to their woodland kin, rarely do the trees consider their fleshy brethren. Some branches seek a host to commune with, be it a man, beast, or treekin. Madness touches all in different ways."
+  "lore": "Most druids talk to their woodland kin, rarely do the trees consider their fleshy brethren. Some branches seek a host to commune with, be it a man, beast, or treekin. Madness touches all in different ways.",
+  "dropRarity": "Rare"
 }

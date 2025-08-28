@@ -18,5 +18,6 @@
     "Witchfire deals More Damage equal to 66% of your increased Curse Damage",
     "While you have both Ignite Overload and Damned Overload, enemies within 10 meters are inflicted with Witchfire every secondWitchfire is an ailment that deals 600 fire and 600 necrotic damage over 12 seconds. It cannot stack."
   ],
-  "lore": "They told me not to do it, now I know why"
+  "lore": "They told me not to do it, now I know why",
+  "dropRarity": "Common"
 }

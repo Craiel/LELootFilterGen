@@ -21,5 +21,6 @@
     "100% Chance to transport Devouring Orbs around the target location when you use Erasing StrikeDoes not affect orbiting Devouring Orbs",
     "(-10 to -5) Erasing Strike Mana Cost"
   ],
-  "lore": "Once light fades, only darkness can guide those who remain."
+  "lore": "Once light fades, only darkness can guide those who remain.",
+  "dropRarity": "Common"
 }

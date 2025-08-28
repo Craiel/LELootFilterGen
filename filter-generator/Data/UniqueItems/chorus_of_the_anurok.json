@@ -20,5 +20,6 @@
     "(15 to 25)% increased Attack and Cast Speed for Minions",
     "+(90 to 175) Health"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

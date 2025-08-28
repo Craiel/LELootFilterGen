@@ -15,5 +15,6 @@
     "(20 to 40) Health Gain on Block",
     "+(250 to 450) Block Effectiveness"
   ],
-  "lore": "Eater of dreams, weaver of nightmares."
+  "lore": "Eater of dreams, weaver of nightmares.",
+  "dropRarity": "Common"
 }

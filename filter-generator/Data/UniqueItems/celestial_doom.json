@@ -22,5 +22,6 @@
     "+(113 to 227) Ward Decay Threshold",
     "+(11 to 23) Ward per Second"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

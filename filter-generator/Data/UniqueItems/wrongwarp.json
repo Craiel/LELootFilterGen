@@ -20,5 +20,6 @@
     "2% increased Spell Damage per 1% increased Movement Speed",
     "(5 to 10)% increased Cooldown Recovery Speed for Teleport and Transplant"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Very rare"
 }

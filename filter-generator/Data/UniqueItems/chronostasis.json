@@ -14,5 +14,6 @@
     "+(6 to 10) Intelligence",
     "(10% to 15%) increased Attack Speed"
   ],
-  "lore": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance."
+  "lore": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance.",
+  "dropRarity": "Common"
 }

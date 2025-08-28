@@ -18,5 +18,6 @@
     "55% increased Health Regen",
     "89% increased Physical Spell Damage"
   ],
-  "lore": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun."
+  "lore": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun.",
+  "dropRarity": null
 }

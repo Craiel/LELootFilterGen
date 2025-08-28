@@ -19,5 +19,6 @@
     "+13 Intelligence",
     "(65% to 91%) Reduced Health Cost of Spells"
   ],
-  "lore": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer."
+  "lore": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer.",
+  "dropRarity": null
 }

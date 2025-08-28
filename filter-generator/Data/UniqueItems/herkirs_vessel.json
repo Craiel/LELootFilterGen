@@ -15,5 +15,6 @@
     "100% Chance to cast Fire Aura on Potion Use",
     "(30% to 60%) Increased Fire Aura Area"
   ],
-  "lore": "Drink deep of the flame, brothers... Immortality awaits."
+  "lore": "Drink deep of the flame, brothers... Immortality awaits.",
+  "dropRarity": null
 }

@@ -16,5 +16,6 @@
     "Minions leech 4% of Physical Damage as HealthThe health is restored to the minion that dealt the damage, not to you",
     "Minions cannot deal Critical Strikes"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Rare"
 }

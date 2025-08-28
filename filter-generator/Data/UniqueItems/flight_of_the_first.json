@@ -20,5 +20,6 @@
     "100% increased Critical Strike Chance while you have Ancient Flight",
     "+100% Critical Strike Avoidance while you have Ancient Flight"
   ],
-  "lore": "Those who ventured outside in the Ancient Era lived in constant terror"
+  "lore": "Those who ventured outside in the Ancient Era lived in constant terror",
+  "dropRarity": "Rare"
 }

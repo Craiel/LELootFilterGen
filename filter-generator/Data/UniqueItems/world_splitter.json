@@ -18,5 +18,6 @@
     "(30% to 52%) increased Mana Regen",
     "(30% to 52%) increased Mana"
   ],
-  "lore": "Sever the chains that bind reality"
+  "lore": "Sever the chains that bind reality",
+  "dropRarity": null
 }

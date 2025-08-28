@@ -8,5 +8,6 @@
   "modifiers": [
     "Contains a random unique two-handed staff"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

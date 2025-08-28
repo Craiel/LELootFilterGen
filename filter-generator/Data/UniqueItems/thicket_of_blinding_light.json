@@ -19,5 +19,6 @@
     "+(17% to 41%) Physical Resistance",
     "(11 to 17) Damage Reflected to Attackers per 10% uncapped Physical Resistance"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

@@ -16,5 +16,6 @@
     "(30% to 50%) increased Mana Regen",
     "+(15% to 25%) Critical Strike Multiplier"
   ],
-  "lore": "\"Some say the pen is mightier than the sword. Sacrificing your blood to write the words, now there’s real power.\" - Archmage Diothaen"
+  "lore": "\"Some say the pen is mightier than the sword. Sacrificing your blood to write the words, now there’s real power.\" - Archmage Diothaen",
+  "dropRarity": "Rare"
 }

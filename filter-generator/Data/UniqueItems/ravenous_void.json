@@ -20,5 +20,6 @@
     "(10% to 15%) of Physical Damage Taken as Void",
     "+(60 to 100) Endurance Threshold"
   ],
-  "lore": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside."
+  "lore": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside.",
+  "dropRarity": "Extremely rare"
 }

@@ -17,5 +17,6 @@
     "(35% to 50%) chance to throw a Burning Dagger on hit (1 second cooldown)",
     "100% Chance to throw a Burning Dagger when you drink a Potion"
   ],
-  "lore": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils."
+  "lore": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils.",
+  "dropRarity": "Common"
 }

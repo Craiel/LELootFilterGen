@@ -18,5 +18,6 @@
     "-3 Mana Cost for Fire Spells",
     "+2 Projectiles for FireballIf you have the Embers node on the Fireball tree, this bonus is affected by the additional projectiles penalty on that node."
   ],
-  "lore": "An ode to fires past."
+  "lore": "An ode to fires past.",
+  "dropRarity": "Uncommon"
 }

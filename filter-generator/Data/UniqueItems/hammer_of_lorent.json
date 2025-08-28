@@ -14,5 +14,6 @@
     "+1 melee physical damage per level",
     "1% increased melee stun chance per level"
   ],
-  "lore": "Lorent may be gone, but its memory will remain with you as you grow."
+  "lore": "Lorent may be gone, but its memory will remain with you as you grow.",
+  "dropRarity": "Common"
 }

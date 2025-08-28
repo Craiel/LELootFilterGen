@@ -18,5 +18,6 @@
     "+(225 to 550) Block Effectiveness",
     "(12% to 6%) less Physical Damage Taken on Block"
   ],
-  "lore": "The face of the mountain yields no emotion as waves, weather, and time crash upon it."
+  "lore": "The face of the mountain yields no emotion as waves, weather, and time crash upon it.",
+  "dropRarity": null
 }

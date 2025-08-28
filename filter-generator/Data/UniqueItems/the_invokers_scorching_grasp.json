@@ -18,5 +18,6 @@
     "13% increased Elemental Cast Speed",
     "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
   ],
-  "lore": "...his master fell, a firey death knell..."
+  "lore": "...his master fell, a firey death knell...",
+  "dropRarity": "Common"
 }

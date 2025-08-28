@@ -19,5 +19,6 @@
     "+(22 to 36) Health",
     "+(22 to 36) Mana"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

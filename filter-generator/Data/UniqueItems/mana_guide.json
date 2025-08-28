@@ -18,5 +18,6 @@
     "+(50 to 115) Ward Decay Threshold",
     "+(24% to 38%) Lightning Resistance"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Uncommon"
 }

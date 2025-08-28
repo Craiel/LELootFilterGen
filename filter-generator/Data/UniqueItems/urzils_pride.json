@@ -15,5 +15,6 @@
     "+(10% to 20%) Lightning Resistance",
     "1% increased mana regeneration per 2% uncapped Lightning Resistance"
   ],
-  "lore": "Strength of mind and strength of body are a potent combination."
+  "lore": "Strength of mind and strength of body are a potent combination.",
+  "dropRarity": "Common"
 }

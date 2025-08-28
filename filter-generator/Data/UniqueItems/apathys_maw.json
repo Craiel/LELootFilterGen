@@ -20,5 +20,6 @@
     "(50% to 100%) increased Melee Damage",
     "(50% to 100%) Increased Leech Rate"
   ],
-  "lore": "Forsake the darkening sky and let the ground swallow your mind."
+  "lore": "Forsake the darkening sky and let the ground swallow your mind.",
+  "dropRarity": null
 }

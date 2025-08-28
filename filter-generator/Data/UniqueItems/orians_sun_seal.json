@@ -15,5 +15,6 @@
     "(10% to 15%) increased Armor",
     "Symbols of Hope is automatically activated when damage taken leaves you below your endurance threshold, consuming (70 to 80)% of its cooldown and mana cost.This effect can only occur if Symbols of Hope is on your ability bar and not on cooldown, and you have positive mana."
   ],
-  "lore": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos"
+  "lore": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos",
+  "dropRarity": "Common"
 }

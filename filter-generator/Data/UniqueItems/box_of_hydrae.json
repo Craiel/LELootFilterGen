@@ -17,5 +17,6 @@
     "+(9 to 18) Ward Gained on Hit with Hydrahedron",
     "+(18 to 108) Ward Decay Threshold"
   ],
-  "lore": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads."
+  "lore": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads.",
+  "dropRarity": "Common"
 }

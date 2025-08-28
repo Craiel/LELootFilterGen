@@ -13,5 +13,6 @@
     "(5 to 10)% increased Movement Speed for you and your minions",
     "10% chance to summon an illusory tree when hit (15 second cooldown)"
   ],
-  "lore": "You can search round and round, but you are seeking an illusion."
+  "lore": "You can search round and round, but you are seeking an illusion.",
+  "dropRarity": "Common"
 }

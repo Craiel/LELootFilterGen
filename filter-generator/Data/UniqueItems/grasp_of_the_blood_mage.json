@@ -17,5 +17,6 @@
     "+(2% to 4%) Spell Critical Strike Chance",
     "250% of Mana Spent Reflected to you as DamageThis does not count as being hit and is not affected by any mitigation affects. If this effect would kill you it instead leaves you on 1 health."
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": "Common"
 }

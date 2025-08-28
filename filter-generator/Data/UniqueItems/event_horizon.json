@@ -20,5 +20,6 @@
     "(10% to 15%) more Damage to Slowed Enemies",
     "(10% to 15%) increased Movement Speed"
   ],
-  "lore": "All must pass beyond the brink"
+  "lore": "All must pass beyond the brink",
+  "dropRarity": null
 }

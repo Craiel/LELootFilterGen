@@ -16,5 +16,6 @@
     "(200% to 240%) increased Void Damage",
     "+40% Void Resistance"
   ],
-  "lore": "The triumph of man and osprix culminates upon the altar of Solarum. A frail sun rises behind an illuminable shadow, spreading a corona of half light upon the ruined world beneath. This feeble shadow is no salvation from the end, but only from the hope of what might have been."
+  "lore": "The triumph of man and osprix culminates upon the altar of Solarum. A frail sun rises behind an illuminable shadow, spreading a corona of half light upon the ruined world beneath. This feeble shadow is no salvation from the end, but only from the hope of what might have been.",
+  "dropRarity": null
 }

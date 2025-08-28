@@ -15,5 +15,6 @@
     "+(2 to 6)% of Damage Leeched as Health on Melee Hit for you and your Minions",
     "+(25 to 45)% Melee Critical Strike Multiplier for you and your Minions"
   ],
-  "lore": "\"I was surrounded by golden silk, curious creatures, and Her words filling my very soul.\" - Masque, the Acolyte of Golden Silk"
+  "lore": "\"I was surrounded by golden silk, curious creatures, and Her words filling my very soul.\" - Masque, the Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

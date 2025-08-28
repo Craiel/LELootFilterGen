@@ -15,5 +15,6 @@
     "(15% to 30%) increased Effect of Haste on You",
     "+1 to Level of Dexterity Skills"
   ],
-  "lore": "May the dying breaths of your enemies put air beneath your wings."
+  "lore": "May the dying breaths of your enemies put air beneath your wings.",
+  "dropRarity": "Common"
 }

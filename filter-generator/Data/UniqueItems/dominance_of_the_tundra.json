@@ -16,5 +16,6 @@
     "(30% to 60%) reduced Bonus Damage Taken from Critical Strikes",
     "25% increased Evade distance"
   ],
-  "lore": ""
+  "lore": "",
+  "dropRarity": null
 }

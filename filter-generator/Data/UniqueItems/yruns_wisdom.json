@@ -13,5 +13,6 @@
     "+30 melee cold damage when above 65% health",
     "3% of melee damage leeched as health when below 65% health"
   ],
-  "lore": "Yrun was wise in battle, but not in his betrayal of Heorot."
+  "lore": "Yrun was wise in battle, but not in his betrayal of Heorot.",
+  "dropRarity": "Common"
 }

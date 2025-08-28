@@ -16,5 +16,6 @@
     "+(30% to 36%) Physical Resistance",
     "1% less Damage Taken per 2% Resistance above the normal resistance cap (up to 20% less Damage Taken)Multiplicative with other modifiers. For example having 85% fire resistance will cause you to take 5% less fire damage, because it's 10% above the normal 75% cap."
   ],
-  "lore": "Gorge on the prophecies of futures lost"
+  "lore": "Gorge on the prophecies of futures lost",
+  "dropRarity": null
 }

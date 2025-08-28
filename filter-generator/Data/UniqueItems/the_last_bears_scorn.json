@@ -16,5 +16,6 @@
     "+2 Endurance Threshold per Strength",
     "+30 Strength"
   ],
-  "lore": "The last bear's bloodline survived wars between gods, and empires."
+  "lore": "The last bear's bloodline survived wars between gods, and empires.",
+  "dropRarity": "Common"
 }

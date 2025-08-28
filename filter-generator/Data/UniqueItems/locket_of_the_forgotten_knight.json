@@ -16,5 +16,6 @@
     "50% Void Penetration with Time Rot",
     "3% more Void Damage per stack of Time Rot"
   ],
-  "lore": "A sanctuary for memories lost."
+  "lore": "A sanctuary for memories lost.",
+  "dropRarity": "Rare"
 }

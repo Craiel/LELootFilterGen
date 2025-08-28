@@ -13,5 +13,6 @@
     "+(24 to 54) Dodge Rating",
     "1 in 6 chance to take (25 to 15)% less Damage per Active ShadowMultiplicative with other modifiers. The number of shadows multiplies the damage reduction, not the chance."
   ],
-  "lore": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk"
+  "lore": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk",
+  "dropRarity": "Common"
 }

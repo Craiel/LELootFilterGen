@@ -14,5 +14,6 @@
     "(15 to 25) Health Gain on Kill",
     "(5% to 10%) increased Movement Speed"
   ],
-  "lore": "Fight for your life."
+  "lore": "Fight for your life.",
+  "dropRarity": "Common"
 }

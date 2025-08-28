@@ -17,5 +17,6 @@
     "+1 to Level of Minion Damage Over Time Skills",
     "+(27% to 36%) Minion Fire Resistance"
   ],
-  "lore": "\"The cycle of life and death is forever shattered. Our cities shall not crumble and our citizens shall not yield or die at the whims of a winged devil. We shall persist. Our bodies may whither and decay, but even when we fall we return and persist again. Glory to the new cycle. Glory to persistence and decay. Glory to humanity.\" - Thelocus, Imperial Governor of Argentum"
+  "lore": "\"The cycle of life and death is forever shattered. Our cities shall not crumble and our citizens shall not yield or die at the whims of a winged devil. We shall persist. Our bodies may whither and decay, but even when we fall we return and persist again. Glory to the new cycle. Glory to persistence and decay. Glory to humanity.\" - Thelocus, Imperial Governor of Argentum",
+  "dropRarity": "Common"
 }

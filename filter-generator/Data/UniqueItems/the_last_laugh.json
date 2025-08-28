@@ -18,5 +18,6 @@
     "5% of Overkill Damage Leeched as Health",
     "+5% melee critical strike chance if you have less than 100 dodge rating"
   ],
-  "lore": "When the headsman's blade falls, Sarno laughs in triumph."
+  "lore": "When the headsman's blade falls, Sarno laughs in triumph.",
+  "dropRarity": "Common"
 }
