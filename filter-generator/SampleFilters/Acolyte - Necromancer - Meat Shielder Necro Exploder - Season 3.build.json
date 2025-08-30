@@ -1,8 +1,0 @@
-{
-  "name": "Meat Shielder Necro Exploder",
-  "class": "Acolyte", 
-  "mastery": "Necromancer",
-  "primarySkill": "Bone Prison",
-  "secondarySkills": ["Corpse Explosion"],
-  "defense": "armor"
-}

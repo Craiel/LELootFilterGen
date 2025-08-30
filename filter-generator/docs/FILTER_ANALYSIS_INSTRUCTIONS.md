@@ -7,7 +7,7 @@ This document provides step-by-step instructions for Claude to transform minimal
 **CRITICAL: This is a PURE ANALYSIS PROCESS - NO SCRIPTING OR AUTOMATED TOOLS**
 
 When a user requests filter generation with a command like:
-> "Generate a filter for `Mine - Primalist.build.json`, use FILTER_CREATION_INSTRUCTIONS.md"
+> "Generate a filter for `Mine - Primalist.build.json`, use FILTER_ANALYSIS_INSTRUCTIONS.md"
 
 Your task is to **manually analyze and expand the build using only Claude's analytical capabilities**:
 1. **Read and understand** the user's minimal build file
@@ -238,41 +238,240 @@ Plan for XML generation efficiency:
 ## Step 7: Create Intermediate Format
 
 ### 7.1 Structure the Output
-Follow the INTERMEDIATE_BUILD_FORMAT.md structure:
+**CRITICAL: Follow this EXACT format - scripts depend on this structure:**
 
 ```json
 {
   "buildDefinition": {
-    "userInput": { /* original user input */ },
+    "userInput": {
+      "name": "Build Name",
+      "class": "ClassName",
+      "mastery": "MasteryName", 
+      "primarySkill": "SkillName",
+      "secondarySkills": ["Skill1", "Skill2"],
+      "uniqueItems": ["Item1", "Item2"],
+      "optionalUniqueItems": ["OptionalItem1"],
+      "defense": "armor|dodge|ward|block|hybrid",
+      "source": "optional - build source info",
+      "description": "optional - detailed build description"
+    },
     "derived": {
-      "buildType": "minion",
-      "damageTypes": { /* primary/secondary */ },
-      "scalingStats": { /* critical/high/medium */ },
-      "defenseStrategy": { /* strategy + stats */ },
-      "weaponTypes": { /* preferred/avoided */ }
+      "buildType": "minion|spell|melee|bow|hybrid",
+      "buildClassification": "specific_subtype",
+      "variants": [
+        {
+          "name": "Variant Name",
+          "level": "Level Range", 
+          "focus": "Variant Focus"
+        }
+      ],
+      "damageTypes": {
+        "primary": ["damage_type1"],
+        "secondary": ["damage_type2"],
+        "notes": "damage type explanation"
+      },
+      "scalingStats": {
+        "critical": ["stat1", "stat2"],
+        "high": ["stat3", "stat4"],
+        "medium": ["stat5"],
+        "low": ["stat6"],
+        "ignored": ["stat7"]
+      },
+      "specializedSkills": {
+        "SkillName": "Description of specialization"
+      },
+      "defenseStrategy": {
+        "primary": "armor|dodge|ward|block",
+        "stats": ["defensive_stat1", "defensive_stat2"],
+        "secondary": ["secondary_defensive_stat1"],
+        "reasoning": "explanation of defense choice"
+      },
+      "weaponTypes": {
+        "preferred": ["weapon_type1"],
+        "compatible": ["weapon_type2"], 
+        "avoided": ["weapon_type3"],
+        "reasoning": "weapon choice explanation"
+      },
+      "resourceManagement": {
+        "mana": {
+          "priority": "critical|high|medium|low|very_low",
+          "reasoning": "mana priority explanation"
+        },
+        "health": {
+          "priority": "critical|high|medium|low",
+          "reasoning": "health priority explanation"
+        }
+      }
+    }
+  },
+  "uniqueItemAnalysis": {
+    "ItemName": {
+      "category": "Item Category",
+      "priority": "critical|high|medium|low",
+      "keyEffects": ["effect1", "effect2"],
+      "buildSynergies": ["synergy1", "synergy2"],
+      "filterImplications": {
+        "legendaryPotential": "LP handling description",
+        "alternatives": "alternative item info"
+      },
+      "skillInteractionNote": "skill interaction details"
+    }
+  },
+  "optionalUniqueItemsAnalysis": {
+    "items": ["OptionalItem1", "OptionalItem2"],
+    "analysis": {
+      "OptionalItem1": "item analysis"
+    },
+    "filterTreatment": "how to handle in filter",
+    "buildImpact": "impact on build performance"
+  },
+  "skillAnalysis": {
+    "SkillName": {
+      "manaCost": 0,
+      "type": "skill_type",
+      "scaling": ["scaling_stat1"],
+      "mechanics": ["mechanic1"],
+      "priority": "primary|high_secondary|medium_secondary|utility",
+      "notes": "skill usage notes"
     }
   },
   "filterConfiguration": {
-    "affixMappings": { /* name → affix IDs */ },
-    "itemPriorities": { /* progressive requirements */ },
-    "uniqueHandling": { /* LP thresholds, etc */ },
-    "classFiltering": { /* hide other classes */ }
+    "affixMappings": {
+      "stat_name": {
+        "ids": ["affix_id1", "affix_id2"],
+        "priority": "critical|high|medium|low",
+        "description": "why this stat matters"
+      }
+    },
+    "itemPriorities": {
+      "weapons": {
+        "required": true,
+        "progressive": true,
+        "levelBrackets": [
+          {
+            "range": [1, 30],
+            "subtypes": ["weapon_subtype1"],
+            "tierReq": 5,
+            "affixes": ["affix1", "affix2"],
+            "reasoning": "bracket reasoning"
+          }
+        ]
+      },
+      "armor": {
+        "required": true,
+        "progressive": true,
+        "levelBrackets": [
+          {
+            "range": [1, 25],
+            "minAffixes": 2,
+            "tierReq": 5,
+            "priorityAffixes": ["affix1", "affix2"]
+          }
+        ]
+      },
+      "accessories": {
+        "rings": {
+          "minAffixes": 2,
+          "tierReq": 6,
+          "priorityAffixes": ["affix1"]
+        },
+        "amulets": {
+          "minAffixes": 2,
+          "tierReq": 6,
+          "priorityAffixes": ["affix1"]
+        },
+        "belts": {
+          "minAffixes": 2,
+          "tierReq": 6,
+          "priorityAffixes": ["affix1"]
+        }
+      },
+      "idols": {
+        "generalWeaver": {
+          "sizes": ["1x4", "2x2"],
+          "minAffixes": 2,
+          "priorityAffixes": ["affix1"],
+          "reasoning": "general idol reasoning"
+        },
+        "classSpecific": {
+          "sizes": ["3x1", "1x3"],
+          "minAffixes": 2,
+          "priorityAffixes": ["affix1"],
+          "reasoning": "class idol reasoning"
+        }
+      }
+    },
+    "uniqueHandling": {
+      "targetUniques": ["UniqueItem1", "UniqueItem2"],
+      "optionalUniques": ["OptionalItem1"],
+      "minLegendaryPotential": 0,
+      "showCocooned": true,
+      "showSets": false,
+      "showLegendary": true,
+      "priorityThresholds": {
+        "UniqueItem1": {
+          "0LP": "show_always|prioritize|highlight",
+          "1LP": "show_always|prioritize|highlight|critical",
+          "2LP+": "show_always|prioritize|highlight|critical"
+        }
+      }
+    },
+    "classFiltering": {
+      "hideClasses": ["Class1", "Class2"],
+      "reasoning": "class filtering reasoning"
+    }
   },
   "generationMetadata": {
     "estimatedRules": 21,
-    "complexity": "medium",
-    "patterns": ["progressive_weapons", "level_gated_armor"]
+    "complexity": "low|medium|medium-high|high",
+    "patterns": ["pattern1", "pattern2"],
+    "ruleBreakdown": {
+      "weapons": 3,
+      "armor": 3,
+      "accessories": 3,
+      "idols": 2,
+      "uniques": 2,
+      "class_filtering": 1,
+      "general_items": 4
+    },
+    "optimizationNotes": ["note1", "note2"]
+  },
+  "buildSpecificInsights": {
+    "keyInsight1": "insight description",
+    "keyInsight2": {
+      "subInsight1": "detailed insight",
+      "subInsight2": "more details"
+    }
   }
 }
 ```
 
-### 7.2 Include All Required Data
-Ensure the intermediate file contains:
-- **Complete affix lists** with IDs, names, and descriptions
-- **Progressive item requirements** for different level ranges
-- **Unique item handling rules** with LP thresholds
-- **Multi-build overlap analysis** if applicable
-- **Generation metadata** for script optimization
+### 7.2 Required vs Optional Sections
+
+**REQUIRED SECTIONS** (must be present in every file):
+- `buildDefinition.userInput` - original user input
+- `buildDefinition.derived` - all derived analysis
+- `filterConfiguration.affixMappings` - stat to affix ID mappings
+- `filterConfiguration.itemPriorities` - progressive item requirements
+- `filterConfiguration.uniqueHandling` - unique item rules
+- `filterConfiguration.classFiltering` - class hide rules
+- `generationMetadata` - rule estimates and patterns
+
+**OPTIONAL SECTIONS** (include when data is available):
+- `buildDefinition.derived.variants` - only for multi-variant builds
+- `buildDefinition.derived.specializedSkills` - only when skills have specializations
+- `uniqueItemAnalysis` - detailed analysis of unique items (if any specified)
+- `optionalUniqueItemsAnalysis` - analysis of optional unique items (if any)
+- `skillAnalysis` - detailed skill breakdowns (when complex skill interactions)
+- `buildSpecificInsights` - additional insights from guide/planner analysis
+- `plannerAnalysis` - only when source is build planner profile
+
+**CRITICAL FORMAT RULES:**
+1. **No missing required fields** - scripts cannot handle undefined properties
+2. **Consistent value types** - arrays must always be arrays, objects always objects
+3. **Empty arrays over null** - use `[]` instead of `null` for empty lists
+4. **Standardized enums** - use exact values from format specification
+5. **No custom sections** - only use sections defined in this format
 
 ## Step 8: Validation and Quality Checks
 
@@ -300,12 +499,18 @@ Estimate XML rule count will stay under 75:
 ### 8.4 Final Validation Checklist (MANDATORY)
 **Before creating intermediate file, verify:**
 
-1. **Weapon type consistency**: Unique items match preferred weapon types
-2. **Minion health priority**: Appropriate for minion survivability (bears = low, skeletons = high)  
-3. **Mana relevance**: Priority matches actual casting frequency
-4. **Skill interactions**: Only for explicitly mentioned skills
-5. **Equipment compatibility**: Multi-builds use weapon intersection, not union
-6. **Learning compliance**: Key patterns from COMMON_MISTAKES.md addressed
+1. **Format compliance**: Follows EXACT structure defined in Step 7.1
+2. **Required sections**: All mandatory sections present with correct structure
+3. **Value types**: Arrays are arrays, objects are objects, no mixed types
+4. **Enum values**: All enum fields use exact values from specification
+5. **Weapon type consistency**: Unique items match preferred weapon types
+6. **Minion health priority**: Appropriate for minion survivability (bears = low, skeletons = high)  
+7. **Mana relevance**: Priority matches actual casting frequency
+8. **Skill interactions**: Only for explicitly mentioned skills
+9. **Equipment compatibility**: Multi-builds use weapon intersection, not union
+10. **Learning compliance**: Key patterns from COMMON_MISTAKES.md addressed
+11. **JSON validity**: Valid JSON structure, no syntax errors
+12. **No placeholders**: No TODO, placeholder, or undefined values
 
 ## Step 9: Learning Integration
 

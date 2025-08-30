@@ -1,0 +1,382 @@
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Beastmaster Summoner - strict</name>
+  <filterIcon>2</filterIcon>
+  <filterIconColor>5</filterIconColor>
+  <description>Generated strict filter for Beastmaster Summoner (14/75 rules)</description>
+  <lastModifiedInVersion>1.3.0</lastModifiedInVersion>
+  <lootFilterVersion>3</lootFilterVersion>
+  <rules>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>4</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>4 LP Uniques</nameOverride>
+      <SoundId>8</SoundId>
+      <BeamId>5</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>3</minLegendaryPotential>
+          <maxLegendaryPotential>3</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>3 LP Uniques</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>15</minWeaversWill>
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Valuable Uniques (15+ WW)</nameOverride>
+      <SoundId>4</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>LEGENDARY</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Legendary Items</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>5</BeamId>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Normal Items</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="ClassCondition">
+          <req>Acolyte Mage Sentinel Rogue</req>
+        </Condition>
+      </conditions>
+      <color>1</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Other Classes</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>SET</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Set Items</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>2</minLegendaryPotential>
+          <maxLegendaryPotential>2</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>2 LP Uniques</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>1</minLegendaryPotential>
+          <maxLegendaryPotential>1</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>1 LP Uniques</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+          </type>
+          <subTypes>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>26</int>
+            <int>147</int>
+            <int>70</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Primary Weapons</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>105</int>
+            <int>110</int>
+            <int>46</int>
+            <int>26</int>
+            <int>70</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Defensive Gear</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>105</int>
+            <int>46</int>
+            <int>26</int>
+            <int>147</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Jewelry - Rings</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>105</int>
+            <int>46</int>
+            <int>26</int>
+            <int>4</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Jewelry - Amulets</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+      </conditions>
+      <color>1</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Everything Else</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+    </Rule>
+  </rules>
+</ItemFilter>

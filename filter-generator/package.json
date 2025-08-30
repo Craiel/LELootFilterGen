@@ -1,32 +1,31 @@
 {
   "name": "le-filter-generator",
   "version": "1.0.0",
-  "description": "Loot filter generation system for Last Epoch - creates custom XML filters based on class builds and gameplay descriptions",
-  "main": "src/index.js",
+  "description": "Comprehensive XML suite for parsing, updating, and creating Last Epoch loot filter XML files",
+  "main": "src/cli/xml-suite.js",
   "scripts": {
-    "start": "node src/index.js",
-    "info": "node src/index.js info",
-    "generate": "node src/index.js generate-filter",
-    "analyze-build": "node src/index.js analyze-build",
-    "create-filter": "node src/index.js create-filter",
-    "validate-filter": "node src/index.js validate-filter",
-    "sample-analysis": "node src/index.js sample-analysis",
+    "start": "node src/cli/xml-suite.js",
+    "xml-suite": "node src/cli/xml-suite.js",
     "lint": "eslint src/",
     "test": "jest"
   },
   "keywords": [
     "last-epoch",
     "loot-filter",
-    "xml-generation",
-    "game-builds",
-    "filter-optimization"
+    "xml-processing",
+    "schema-validation",
+    "filter-analysis"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "commander": "^11.0.0",
-    "fs-extra": "^11.1.1",
-    "xml2js": "^0.6.2"
+    "ajv": "^8.17.1",
+    "ajv-formats": "^2.1.1",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.3",
+    "xml2js": "^0.6.2",
+    "xmlbuilder2": "^3.1.1"
   },
   "devDependencies": {
     "eslint": "^8.45.0",

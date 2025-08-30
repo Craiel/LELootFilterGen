@@ -56,8 +56,8 @@ Start every filter with these essential categories:
 ### Currency & Keys (Always Show)
 - **Generic currency rules**: Covers all monetary items automatically
 - **Key items**: Quest items, dungeon keys, special materials
-- **Crafting essentials**: Shards, glyphs, runes regardless of build
-- **Implementation**: Use broad SHOW rules that require minimal maintenance
+- **IMPORTANT**: Currency and crafting materials (runes/glyphs) should NOT be added to loot filters - they are handled by the game's built-in systems
+- **Implementation**: Focus on equipment and unique items only
 
 ### Ultra-Rare Items (Always Show)
 - **Exceptional uniques**: Items with extreme rarity or universal value
@@ -105,7 +105,15 @@ Based on chosen defensive strategy from DEFENSIVE_STRATEGIES:
 
 ## Special Cases and Other Information
 
-### Unique Item Special Categories
+### Item Type Distinctions
+
+**CRITICAL: Unique vs Legendary Items**
+- **Unique Items**: Orange items with fixed names and special properties - these are base items we filter by LP/WW
+- **Legendary Items**: Orange items that were unique items with LP, where affixes were added using that LP - now "completed"
+- **NEVER MIX**: Unique and Legendary items have different rarity values and should have separate rules
+- **Legendary Rule**: Always show all Legendary items regardless of build (they're completed unique items with added affixes)
+
+**Unique Item Categories**
 
 **Cocooned Items**
 - **Identification**: Unique items prefixed with "Cocooned " 
@@ -114,21 +122,21 @@ Based on chosen defensive strategy from DEFENSIVE_STRATEGIES:
 - **Filter Recommendation**: Generally worth showing and picking up regardless of build
 - **Rationale**: Potential for any unique outcome makes them universally valuable
 
-**Legendary Power Items**
-- **System**: Unique items can roll with Legendary Power values
-- **Scale**: Legendary Power ranges with different value thresholds
-- **High-Value Threshold**: 4 Legendary Power items are exceptional
-- **Filter Priority**: 4 Legendary Power should always be shown regardless of base item
-- **Variable Value**: 3 and below depend on the base item's individual worth
-- **Implementation**: Consider separate rules for different Legendary Power tiers
+**Legendary Power (LP) Values**
+- **System**: Unique items can roll with Legendary Power values (1-4 LP)
+- **4 LP Items**: Extremely rare, always show regardless of item
+- **3 LP Items**: Very rare, always show regardless of item  
+- **2 LP Items**: Show based on item rarity and build relevance
+- **1 LP Items**: Show only if item is build-relevant or high-value
+- **0 LP Items**: Show only for semi-strict filters or build-specific items
+- **Implementation**: LP value requirements vary by unique item rarity and build needs
 
 **Weaver's Will Items**
-- **System**: Special power type similar to Legendary Power
-- **Scale**: Weaver's Will ranges from 5 to 25
-- **Value Threshold**: 20+ Weaver's Will is generally considered valuable
-- **Filter Recommendation**: Items with 20+ Weaver's Will should likely be shown
+- **System**: Special power type similar to Legendary Power (5-25 range)
+- **Value Threshold**: 15+ Weaver's Will is considered high-value (matches database)
+- **Filter Recommendation**: Items with 15+ Weaver's Will should be shown
 - **Build Consideration**: Value may vary based on specific build requirements
-- **Implementation**: Use Weaver's Will thresholds in filtering conditions
+- **Implementation**: Use Weaver's Will thresholds from database, not hardcoded values
 
 ### Secondary Priorities
 
@@ -150,25 +158,29 @@ Based on chosen defensive strategy from DEFENSIVE_STRATEGIES:
 
 Structure rules using this strategic order:
 
-### Tier 1: Foundation
-- Currency and key items (generic SHOW rules)
-- Ultra-rare uniques and perfect items
-- Critical build-enabling items
+### Tier 1: Always Show (Before Any Hide Rules)
+- **4 LP Uniques**: Highest priority, emphasized with beams/sounds
+- **3 LP Uniques**: Very high priority, emphasized  
+- **High-value uniques**: From database (15+ Weaver's Will), premium display
+- **Build-specific uniques**: Items mentioned in build, always show
+- **Legendary items**: Always show all Legendary items
 
-### Tier 2: Core Build Items
-- Primary weapon types with core scaling
-- Essential defensive gear for chosen strategy
-- Must-have resistance coverage
+### Tier 2: Hide Rules & Filtering
+- **Normal item hiding**: Hide normal (white) items
+- **Class restrictions**: Hide items for other classes (won't affect Tier 1 items)
+- **Set item filtering**: Hide sets on strict+ unless build-specific
 
-### Tier 3: Optimization Items
-- Secondary weapon types and alternatives
-- Upgrade paths for current gear
-- Specialized build enhancers
+### Tier 3: Show Rules by Priority
+- **2 LP uniques**: Show based on item rarity and build relevance
+- **1 LP uniques**: Show only if build-relevant or valuable
+- **Primary equipment**: Core weapon/armor types with build-specific affixes
+- **Specialized equipment**: Secondary weapons, accessories with targeted affixes
+- **Idol rules**: Separate rules for idol-specific affixes (never mix with equipment)
 
-### Tier 4: Filtering & Cleanup
-- Item type exclusions for irrelevant categories
-- Quality thresholds based on strictness level
-- Final catch-all rules for remaining items
+### Tier 4: Endgame Focus (Optional)
+- **0 LP uniques**: Show only on semi-strict or if build-specific
+- **Common rarity filter**: Hide common uniques on strict+ (unless above rules apply)
+- **Quality thresholds**: Affix tier requirements based on strictness level
 
 ## Condition Optimization
 
@@ -182,6 +194,34 @@ Structure rules using this strategic order:
 - **Logical grouping**: Combine offensive OR defensive conditions
 - **Tier-based filtering**: Different highlighting for different quality levels
 - **Exception handling**: Account for edge cases without rule waste
+
+## Visual & Audio Theming
+
+**Color Organization by Item Rarity:**
+- **Normal Items**: White (0) - typically hidden
+- **Magic Items**: Blue (12) - basic quality items
+- **Rare Items**: Yellow (3) - moderate quality items  
+- **Unique Items**: Orange (5) - special named items
+- **Exalted Items**: Purple (10) - high-tier crafted items
+- **Set Items**: Green (16) - set piece items
+- **Legendary Items**: Hot Pink (9) - completed unique items with LP affixes
+- **Valuable/Premium**: Red (7) or dominant colors for highest priority items
+
+**Rule Naming Conventions:**
+- **Never prefix with "Hide" or "Show"** - the game adds this automatically
+- Use descriptive names like "Normal Items", "4 LP Uniques", "Defensive Gear"
+- Avoid redundant phrases that duplicate the rule type display
+
+**Emphasis & Effects:**
+- **Beams**: Use sparingly for only the most valuable items (4 LP, ultra-rare uniques)
+- **Sounds**: Reserve for items that require immediate attention
+- **Emphasis**: Don't apply to every rule - create clear hierarchy
+- **Implementation**: Not every rule needs visual/audio effects - use strategically
+
+**Leveling vs Endgame:**
+- **Default**: Focus on endgame filtering without level-based rules
+- **Only add level brackets when explicitly requested** for leveling builds
+- Endgame filters assume level-appropriate content and focus on quality over progression
 
 ---
 

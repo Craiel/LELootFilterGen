@@ -1,9 +1,0 @@
-{
-  "name": "Primalist - Frog Minions",
-  "class": "Primalist", 
-  "mastery": "Shaman",
-  "primarySkill": "Summon Frog",
-  "secondarySkills": ["Thorn Totem"],
-  "defense": "armor",
-  "uniqueItems": ["Chorus of the Aurok"]
-}

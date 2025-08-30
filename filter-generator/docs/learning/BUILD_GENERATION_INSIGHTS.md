@@ -1,137 +1,80 @@
 # Build Generation Insights
 
-This document captures high-level insights learned during the filter generation process. These insights help improve future build expansions and avoid repeated mistakes.
+This file captures high-level patterns and insights discovered during build analysis processes. Claude should update this file after each successful build analysis.
 
-## Pattern Recognition Insights
+## Skill Synergy Discoveries
 
-### Multi-Build Filter Architecture Patterns
+### Recently Discovered Patterns
+*(Claude will update this section)*
 
-#### Shared Equipment Strategy Success Patterns
-- **1H + Shield combinations** work well for multiple Primalist builds (Beastmaster + Druid)
-- **Axe + Sceptre compatibility** supports both physical and spell-hybrid builds
-- **Universal defensive stats** (health, resistances, movement) benefit all builds
+- **Pattern**: [Skill combinations that work well together]
+- **Build Types**: [Which build archetypes benefit]
+- **Affix Priority**: [Key affixes for these synergies]
+- **Analysis Date**: [When discovered]
 
-#### Rule Efficiency Discoveries
-- **Global hide + exceptions** more efficient than multiple specific hide rules
-- **Large affix arrays** (100+ affixes) better than many small specialized rules
-- **Tier-based progression** (T7+/T6+) scales well across build types
-
-### Skill Synergy Patterns
-
-#### Minion Build Universals
-- All minion builds share core affixes regardless of strategy:
-  - Minion Damage (643), Cast Speed (102), Minion Health (719)
-  - Pattern holds across direct damage, explosion, and hybrid minion builds
-- **Insight**: Minion templates can support multiple strategies with same base stats
-
-#### Form-Swapping Build Recognition
-- Builds using multiple forms for different content types:
-  - Mapping forms (AoE clear) vs Boss forms (single target)
-  - Auto-proc skill chains triggered by form changes
-  - Content-specific optimization patterns
-
-### Item-Enabled Build Mechanics
-
-#### Build-Enabling Item Categories
-1. **Skill Enablers**: Items that grant access to normally unavailable skills
-   - Example: "Chorus of the Aurok" enables Frog summoning
-2. **Mechanic Transformers**: Items that fundamentally change how builds scale
-   - Example: "Thicket of Blinding Light" makes reflection viable for bosses
-3. **Strategy Variants**: Items that enable different approaches within same mastery
-   - Example: "Naal's Tooth" enables Raptor variant within Beastmaster
-
-## Build Type Classification Insights
-
-### Minion Build Scaling Priority Patterns
-- **High-defense minions** (bears, golems) benefit more from damage scaling than health scaling
-- **Low-defense minions** (skeletons, wraiths) require heavy investment in minion health
-- **Base survivability analysis** critical for determining minion health priority level
-- **Companion vs non-companion** minions have different scaling emphases
-
-### Mana Relevance Assessment Patterns
-- **Cast frequency analysis** determines mana priority: low-frequency casting = low mana priority
-- **Cooldown-gated skills** rarely require mana investment regardless of mana cost
-- **Channel/toggle skills** require sustained mana vs one-time activation costs
-- **Bear builds and similar** typically use skills sparingly, making mana low priority
-
-### Hybrid Build Characteristics
-- **Large affix requirements** (85+ different affix IDs typical)
-- **Multiple scaling paths** requiring balanced priority systems
-- **Higher rule counts** (25+ rules common vs 8-12 for focused builds)
-- **Multi-condition logic** needed for complex interactions
-
-### Progression-Aware Filtering
-- **Early game** focuses on accessibility (T5+ affixes acceptable)
-- **Mid game** introduces quality gates (T6+ requirements)
-- **Endgame** emphasizes premium items (T7+ focus, LP thresholds)
+### Validated Synergies
+*(Move successful patterns here from recent discoveries)*
 
 ## Multi-Build Optimization Techniques
 
-### Equipment Compatibility Analysis
-- **Weapon type intersection** critical for multi-build feasibility
-- **Defense strategy alignment** necessary for shared stat priorities
-- **Class restrictions** can dramatically improve filter efficiency
+### Cross-Build Compatibility Patterns
+*(Claude will document successful multi-build strategies)*
 
-### Rule Sharing Optimization
-- **Universal categories** should be prioritized over build-specific rules
-- **Specialized sections** needed only when builds have conflicting requirements
-- **Global coverage rules** (T7+ all affixes) provide safety net for any build variation
+### Equipment Overlap Optimization
+*(Document successful equipment sharing between builds)*
 
-## User Preference Patterns
+### Rule Efficiency Patterns
+*(Document rule patterns that work well across multiple builds)*
 
-### Strictness Level Calibration
-- **Semi-strict**: Users prefer accessibility over perfection (T5+ acceptable)
-- **Strict**: Standard endgame focus with T6+ requirements
-- **Very strict**: Quality-focused players want T7+ only
-- **Ultra-strict**: Minimal item volume for expert players
+## Build Type Classification Insights
 
-### Build Description Patterns
-- Users naturally describe builds through **primary skills** rather than stat priorities
-- **Secondary skills** often reveal build's true complexity and requirements
-- **Unique items** frequently transform build entirely from base skill expectations
+### Minion Builds
+- **Key Characteristics**: Primary skill is minion summoning, player acts as support
+- **Essential Affixes**: Minion damage, minion health, minion resistances - NOT player damage stats
+- **Unique Item Dependencies**: Items that enhance minion capabilities or enable additional minions
+- **Scaling Priorities**: Minion stats > Player survivability > Player damage (minion builds ignore most player damage scaling)
+- **Companion Survivability**: Primalist companions (Bear, Wolf, etc.) are very tanky and rarely die - moderate minion health investment sufficient
+- **Mana Priority**: Very low for most minion builds since summons are persistent and cast infrequently
+- **Analysis Date**: 2025-08-29
 
-## Generation Quality Indicators
+### Spell Builds
+- **Key Characteristics**:
+- **Essential Affixes**:
+- **Unique Item Dependencies**:
+- **Scaling Priorities**:
 
-### Successful Generation Markers
-- Estimated rule count ≤ 50 (leaving room for optimization)
-- Clear build type classification achieved
-- No conflicting weapon/skill requirements
-- Complete affix ID mappings for all critical stats
+### Melee Builds
+- **Key Characteristics**:
+- **Essential Affixes**:
+- **Unique Item Dependencies**:
+- **Scaling Priorities**:
 
-### Warning Signs
-- Rule count estimates approaching 75 limit
-- Many unresolved affix name mappings
-- Conflicting defensive strategies
-- Missing skill data for primary abilities
+### Bow Builds
+- **Key Characteristics**:
+- **Essential Affixes**:
+- **Unique Item Dependencies**:
+- **Scaling Priorities**:
 
-## Technical Implementation Insights
+### Hybrid Builds
+- **Key Characteristics**:
+- **Essential Affixes**:
+- **Unique Item Dependencies**:
+- **Scaling Priorities**:
 
-### Database Access Patterns
-- **Skill lookups** most critical for accurate build classification
-- **Affix name mappings** frequently need fuzzy matching for user terms
-- **Unique item effects** require detailed mechanical understanding
+## Rule Count Optimization Insights
 
-### Performance Optimization
-- **Caching skill data** significantly improves multi-build processing
-- **Batch affix lookups** more efficient than individual queries
-- **Progressive validation** catches errors early in expansion process
+### Successful Rule Patterns
+*(Document rule patterns that efficiently stay within 75-rule limit)*
 
----
+### Affix Grouping Strategies
+*(Document effective ways to group affixes into single rules)*
 
-## Future Learning Areas
+## Performance Insights
 
-### Areas Needing More Data
-- Seasonal mechanic integration patterns
-- Cross-class unique item synergies
-- Advanced scaling mechanic combinations
-- User feedback correlation with generation parameters
-
-### Expansion Opportunities
-- Integration with community build databases
-- Automated sample filter pattern extraction
-- Real-time game data integration for meta shifts
-- User preference learning from usage patterns
+### Build Analysis Speed
+- **Fast Analysis Builds**: [Builds that are quick to analyze]
+- **Complex Analysis Builds**: [Builds requiring more detailed analysis]
+- **Optimization Opportunities**: [Ways to speed up analysis]
 
 ---
-
-*This document is updated after each successful build generation cycle to capture new insights and patterns.*
+*This file is automatically updated by Claude during the build analysis process.*

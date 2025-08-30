@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Claude Instructions
 
-**CRITICAL: Read and follow [Claude Best Practices](..\..\Claude\CLAUDE_BEST_PRACTICES.md) for all interactions. These are mandatory guidelines that apply to every task unless
+**CRITICAL: Read and follow [Claude Best Practices](D:\Dev\Claude\CLAUDE_BEST_PRACTICES.md) for all interactions. These are mandatory guidelines that apply to every task unless
 explicitly overridden below.**
 
 ## Project Overview

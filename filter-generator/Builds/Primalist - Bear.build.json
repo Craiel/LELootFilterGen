@@ -1,0 +1,17 @@
+{
+  "name": "Primalist Bear Build",
+  "builds": [
+    {
+      "name": "Beastmaster Summoner",
+      "class": "Primalist",
+      "mastery": "Beastmaster",
+      "primarySkill": "Summon Bear",
+      "secondarySkills": ["Swipe", "Earthquake", "Warcry", "Maelstrom"],
+      "uniqueItems": ["Mantle of the Pale Ox", "Naal's Tooth"],
+      "optionalUniqueItems": ["Cleaver Solution", "Inheritance of the Erased", "Yulia's Path", "Red Ring of Atlaria", "Seed of Ekkidrasil", "Reliquary Nest"],
+      "defense": "armor",
+      "description": "Single Minion Bear build, the bear uses Earthquake through our specialization which is our main source of damage. Attack with Swipe to stack Warcry's Berserker and Feeding Frenzy for you and the Bear. Use unspecialized Fury Leap as your Movement Skill. Need to Get Huge Nomad Idols with Minion Increased Cooldown Recovery Speed to lower your Bear's Cooldowns",
+      "variants": []
+    }
+  ]
+}

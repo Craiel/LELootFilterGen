@@ -1,246 +1,307 @@
-# Intermediate Build Format
+# Intermediate Build Format Specification
 
-This document describes the expanded build format that the system creates internally after processing user input. This intermediate format contains all the derived information needed for filter generation.
+**🚨 CRITICAL: This format is LOCKED for script compatibility. No structural changes allowed after this point.**
 
-## Processing Pipeline
+This document defines the exact JSON structure that all intermediate build analysis files must follow. Scripts depend on this exact format.
 
-```
-User Build → Skill Data Lookup → Intermediate Format → Filter Generation
-```
+## Overview
 
-The intermediate format bridges the gap between minimal user input and complex filter generation requirements.
+The intermediate build format transforms user input into comprehensive build analysis data suitable for automated filter generation. It consists of 6 main sections: 4 required, 2+ optional.
 
-## Intermediate Format Structure
+## Complete Format Specification
 
-### Complete Example
-
-Starting from this user input:
-```json
-{
-  "name": "Necromancer - Arcane Servants",
-  "class": "Acolyte",
-  "mastery": "Necromancer",
-  "primarySkill": "Summon Skeleton",
-  "secondarySkills": ["Bone Curse", "Bone Armor"],
-  "defense": "armor"
-}
-```
-
-The system generates this intermediate format:
 ```json
 {
   "buildDefinition": {
     "userInput": {
-      "name": "Necromancer - Arcane Servants",
-      "class": "Acolyte", 
-      "mastery": "Necromancer",
-      "primarySkill": "Summon Skeleton",
-      "secondarySkills": ["Bone Curse", "Bone Armor"],
-      "defense": "armor"
+      "name": "string (required)",
+      "class": "string (required)", 
+      "mastery": "string (required)",
+      "primarySkill": "string (required)",
+      "secondarySkills": "array of strings (required, can be empty)",
+      "uniqueItems": "array of strings (required, can be empty)",
+      "optionalUniqueItems": "array of strings (optional)",
+      "defense": "enum: armor|dodge|ward|block|hybrid (optional)",
+      "source": "string (optional - build source info)",
+      "description": "string (optional - detailed build description)"
     },
     "derived": {
-      "buildType": "minion",
+      "buildType": "enum: minion|spell|melee|bow|hybrid (required)",
+      "buildClassification": "string (required - specific subtype)",
+      "variants": "array (optional - only for multi-variant builds)",
       "damageTypes": {
-        "primary": ["necrotic"],
-        "secondary": ["physical"]
+        "primary": "array of strings (required)",
+        "secondary": "array of strings (required, can be empty)",
+        "notes": "string (required)"
       },
       "scalingStats": {
-        "critical": ["minion_damage", "minion_health"],
-        "high": ["necrotic_damage", "cast_speed"],
-        "medium": ["minion_attack_speed", "mana"]
+        "critical": "array of strings (required)",
+        "high": "array of strings (required, can be empty)",
+        "medium": "array of strings (required, can be empty)", 
+        "low": "array of strings (required, can be empty)",
+        "ignored": "array of strings (required, can be empty)"
       },
+      "specializedSkills": "object (optional - skill name to description mapping)",
       "defenseStrategy": {
-        "primary": "armor",
-        "stats": ["health", "armor", "resistances"],
-        "secondary": ["dodge_rating"]
+        "primary": "enum: armor|dodge|ward|block (required)",
+        "stats": "array of strings (required)",
+        "secondary": "array of strings (required, can be empty)",
+        "reasoning": "string (required)"
       },
       "weaponTypes": {
-        "preferred": ["two_handed_axe", "one_handed_axe", "one_handed_sceptre"],
-        "avoided": ["bow", "wand", "dagger", "mace"]
+        "preferred": "array of strings (required)",
+        "compatible": "array of strings (required, can be empty)",
+        "avoided": "array of strings (required, can be empty)",
+        "reasoning": "string (required)"
+      },
+      "resourceManagement": {
+        "mana": {
+          "priority": "enum: critical|high|medium|low|very_low (required)",
+          "reasoning": "string (required)"
+        },
+        "health": {
+          "priority": "enum: critical|high|medium|low (required)", 
+          "reasoning": "string (required)"
+        }
       }
     }
   },
+  "uniqueItemAnalysis": "object (optional - present when uniqueItems specified)",
+  "optionalUniqueItemsAnalysis": "object (optional - present when optionalUniqueItems specified)",
+  "skillAnalysis": "object (optional - present for complex skill interactions)",
   "filterConfiguration": {
-    "affixMappings": {
-      "minion_damage": [643, 102],
-      "necrotic_damage": [724],
-      "cast_speed": [4],
-      "health": [25],
-      "armor": [1],
-      "resistances": [13, 17, 10, 7]
-    },
+    "affixMappings": "object (required - stat name to affix mapping)",
     "itemPriorities": {
       "weapons": {
-        "required": true,
-        "progressive": true,
-        "levelBrackets": [
-          {"range": [1, 34], "subtypes": [3], "tierReq": 6},
-          {"range": [35, 65], "subtypes": [4], "tierReq": 6},
-          {"range": [66, 100], "subtypes": [9], "tierReq": 6}
-        ]
+        "required": "boolean (required)",
+        "progressive": "boolean (required)",
+        "levelBrackets": "array of objects (required)"
       },
       "armor": {
-        "required": true,
-        "progressive": true,
-        "levelBrackets": [
-          {"range": [1, 20], "minAffixes": 1, "tierReq": 6},
-          {"range": [21, 35], "minAffixes": 2, "tierReq": 6},
-          {"range": [36, 100], "minAffixes": 3, "tierReq": 6}
-        ]
+        "required": "boolean (required)",
+        "progressive": "boolean (required)", 
+        "levelBrackets": "array of objects (required)"
+      },
+      "accessories": {
+        "rings": "object (required)",
+        "amulets": "object (required)",
+        "belts": "object (required)"
       },
       "idols": {
-        "generalWeaver": {
-          "sizes": ["1x4", "2x2", "2x1", "1x2"],
-          "minAffixes": 2,
-          "affixes": "general_utility"
-        },
-        "classSpecific": {
-          "sizes": ["3x1", "1x3", "4x1"],
-          "minAffixes": 1, 
-          "affixes": "minion_focused"
-        }
+        "generalWeaver": "object (required)",
+        "classSpecific": "object (required)"
       }
     },
     "uniqueHandling": {
-      "minLegendaryPotential": 2,
-      "showCocooned": true,
-      "showSets": true,
-      "showLegendary": true
+      "targetUniques": "array of strings (required, can be empty)",
+      "optionalUniques": "array of strings (optional)",
+      "minLegendaryPotential": "number (required)",
+      "showCocooned": "boolean (required)",
+      "showSets": "boolean (required)",
+      "showLegendary": "boolean (required)",
+      "priorityThresholds": "object (optional)"
     },
     "classFiltering": {
-      "hideClasses": ["Primalist", "Mage", "Sentinel", "Rogue"]
+      "hideClasses": "array of strings (required)",
+      "reasoning": "string (required)"
     }
   },
   "generationMetadata": {
-    "estimatedRules": 21,
-    "complexity": "medium",
-    "patterns": ["progressive_weapons", "level_gated_armor", "idol_specialization"]
-  }
-}
-```
-
-## Section Breakdown
-
-### buildDefinition.userInput
-- Preserves the original user input exactly as provided
-- Used for debugging and user feedback
-
-### buildDefinition.derived
-- **buildType**: Inferred from primary skill (minion, spell, melee, bow, hybrid)
-- **damageTypes**: Primary and secondary damage types from skill data
-- **scalingStats**: Stats categorized by importance for this build
-- **defenseStrategy**: Defense approach with specific stat requirements
-- **weaponTypes**: Preferred and avoided weapon categories
-
-### filterConfiguration.affixMappings
-- **Human names → Affix IDs**: Maps user-friendly names to database IDs
-- **Resistance handling**: Groups all resistance types under "resistances"
-- **Alternative mappings**: Some stats have multiple valid affix IDs
-
-### filterConfiguration.itemPriorities
-- **Progressive requirements**: Different rules for different level ranges
-- **Subtype progression**: Weapon subtypes for leveling vs endgame
-- **Tier requirements**: Minimum affix tier thresholds
-- **Affix combinations**: How many affixes required on different item types
-
-### generationMetadata
-- **Rule estimation**: Predicted XML rule count
-- **Complexity assessment**: Simple/medium/complex filter classification  
-- **Pattern identification**: Which rule patterns will be used
-
-## Skill Data Integration
-
-The system looks up each skill to determine build characteristics:
-
-### Example Skill Lookup: "Summon Skeleton"
-```json
-{
-  "Summon Skeleton": {
-    "class": "Acolyte",
-    "mastery": "Necromancer", 
-    "buildType": "minion",
-    "damageTypes": ["necrotic", "physical"],
-    "scalingStats": {
-      "primary": ["minion_damage", "minion_health"],
-      "secondary": ["necrotic_damage", "cast_speed", "mana"]
+    "estimatedRules": "number (required)",
+    "complexity": "enum: low|medium|medium-high|high (required)",
+    "patterns": "array of strings (required)",
+    "ruleBreakdown": {
+      "weapons": "number (required)",
+      "armor": "number (required)",
+      "accessories": "number (required)",
+      "idols": "number (required)",
+      "uniques": "number (required)",
+      "class_filtering": "number (required)",
+      "general_items": "number (required)"
     },
-    "weaponCompatibility": ["axes", "sceptres"],
-    "resourceCosts": ["mana"],
-    "synergies": ["minion_count", "minion_survivability"]
-  }
+    "optimizationNotes": "array of strings (required)"
+  },
+  "buildSpecificInsights": "object (optional - additional insights)",
+  "plannerAnalysis": "object (optional - only when source is build planner)"
 }
 ```
 
-### Skill Data Aggregation
-When multiple skills are specified:
-1. **Combine damage types**: Union of all damage types from all skills
-2. **Merge scaling stats**: Higher priority if multiple skills need the same stat
-3. **Weapon requirements**: Intersection of compatible weapon types
-4. **Resource needs**: Combined resource requirements (mana, rage, etc.)
+## Section Details
 
-## Unique Item Integration
+### Required Sections
 
-When unique items are specified, the system modifies the build profile:
+#### 1. buildDefinition
+Contains original user input and all derived analysis.
 
-### Example: Exsanguinous Integration
+**buildDefinition.userInput** - Preserves original user specification
+**buildDefinition.derived** - Complete analytical expansion of user input
+
+#### 2. filterConfiguration
+All data needed for filter rule generation.
+
+**affixMappings** - Maps stat names to database affix IDs
+**itemPriorities** - Progressive item requirements by level
+**uniqueHandling** - Unique item filtering rules
+**classFiltering** - Class hiding configuration
+
+#### 3. generationMetadata
+Information for optimization and validation.
+
+**estimatedRules** - Expected XML rule count
+**complexity** - Build complexity rating  
+**patterns** - Filter generation patterns to use
+**ruleBreakdown** - Rule count by category
+**optimizationNotes** - Generation hints and warnings
+
+### Optional Sections
+
+#### uniqueItemAnalysis
+Present when user specifies `uniqueItems`. Contains detailed analysis of each unique item.
+
 ```json
-{
-  "uniqueItems": ["Exsanguinous"],
-  "itemModifications": {
-    "Exsanguinous": {
-      "mechanics": ["low_life", "ward_based_defense"],
-      "statModifications": {
-        "add": ["ward", "ward_retention", "potion_effectiveness"],
-        "modify": {"defense": "ward_hybrid"},
-        "deprioritize": ["health_regeneration"]
-      },
-      "buildSynergies": ["chaos_inoculation_style", "high_risk_high_reward"]
-    }
+"uniqueItemAnalysis": {
+  "ItemName": {
+    "category": "string (required)",
+    "priority": "enum: critical|high|medium|low (required)",
+    "keyEffects": "array of strings (required)",
+    "buildSynergies": "array of strings (required)",
+    "filterImplications": {
+      "legendaryPotential": "string (required)",
+      "alternatives": "string (optional)"
+    },
+    "skillInteractionNote": "string (optional)"
   }
 }
 ```
 
-## Filter Generation Parameters
+#### optionalUniqueItemsAnalysis
+Present when user specifies `optionalUniqueItems`.
 
-The intermediate format is used with generation parameters:
-
-### Generation Call Example
-```javascript
-generateFilter(intermediateBuild, {
-  strictness: "strict",           // semi_strict, strict, very_strict, ultra_strict
-  levelRange: "endgame",          // leveling, mixed, endgame
-  customizations: {               // Optional user overrides
-    hideOtherClasses: false,
-    uniqueLPThreshold: 3
-  }
-})
+```json
+"optionalUniqueItemsAnalysis": {
+  "items": "array of strings (required)",
+  "analysis": "object (optional - item name to analysis mapping)",
+  "filterTreatment": "string (required)",
+  "buildImpact": "string (required)"
+}
 ```
 
-### Strictness Application
-The generator applies strictness to the intermediate format:
-- **semi_strict**: Reduce tier requirements by 3, increase item volume
-- **strict**: Use tier requirements as specified
-- **very_strict**: Increase tier requirements by 1, reduce item volume  
-- **ultra_strict**: Focus only on critical stats, minimal item volume
+#### skillAnalysis
+Present for builds with complex skill interactions.
 
-## Benefits of Intermediate Format
+```json
+"skillAnalysis": {
+  "SkillName": {
+    "manaCost": "number (required)",
+    "type": "string (required)",
+    "scaling": "array of strings (optional)",
+    "mechanics": "array of strings (optional)",
+    "priority": "enum: primary|high_secondary|medium_secondary|utility (required)",
+    "notes": "string (optional)"
+  }
+}
+```
 
-### For System Architecture
-- **Separation of Concerns**: User interface vs generation logic
-- **Cacheable**: Intermediate formats can be cached and reused
-- **Debuggable**: Clear visibility into derivation process
-- **Testable**: Each step can be validated independently
+#### buildSpecificInsights
+Free-form insights section for additional analysis data.
 
-### For Filter Quality
-- **Data-Driven**: Based on actual skill mechanics and scaling
-- **Consistent**: Same skills always produce same intermediate format
-- **Comprehensive**: Accounts for all build aspects (damage, defense, progression)
-- **Optimized**: Pre-calculated for efficient filter generation
+#### plannerAnalysis
+Only present when source is a build planner profile. Contains planner-specific data.
 
-### For User Experience
-- **Error Detection**: Can validate build coherence before generation
-- **Feedback**: Can show users what the system derived from their input
-- **Customization**: Users can override specific derived aspects if needed
-- **Explanation**: Can explain why certain items are prioritized
+## Format Rules
 
-This intermediate format ensures that the simple user input is properly expanded into a comprehensive build profile that produces high-quality, mechanically-accurate filters.
+### 1. Value Type Consistency
+- **Arrays must always be arrays** - use `[]` for empty, never `null`
+- **Objects must always be objects** - use `{}` for empty, never `null` 
+- **Strings must always be strings** - no numbers as strings
+- **Numbers must always be numbers** - no strings as numbers
+
+### 2. Enum Values
+Use exact values specified in format. Allowed enum values:
+
+**buildType**: `minion`, `spell`, `melee`, `bow`, `hybrid`
+**defense**: `armor`, `dodge`, `ward`, `block`, `hybrid`
+**priority**: `critical`, `high`, `medium`, `low`, `very_low`
+**complexity**: `low`, `medium`, `medium-high`, `high`
+**priorityThresholds**: `show_always`, `prioritize`, `highlight`, `critical`
+
+### 3. Required vs Optional Fields
+- **Required fields**: Must be present in every file
+- **Required-if-present fields**: If section is present, these fields must exist
+- **Optional fields**: May be omitted entirely
+- **Empty values**: Use empty arrays `[]` or empty objects `{}`, not `null`
+
+### 4. No Custom Sections
+Only use sections defined in this specification. No additional top-level keys allowed.
+
+### 5. Affix Mapping Structure
+Always use this exact structure for `affixMappings`:
+
+```json
+"affixMappings": {
+  "stat_name": {
+    "ids": ["affix_id1", "affix_id2"],
+    "priority": "critical|high|medium|low",
+    "description": "string explaining importance"
+  }
+}
+```
+
+### 6. Level Bracket Structure
+Always use this exact structure for weapon and armor level brackets:
+
+```json
+"levelBrackets": [
+  {
+    "range": [min_level, max_level],
+    "subtypes": ["subtype1", "subtype2"], // weapons only
+    "minAffixes": number, // armor only
+    "tierReq": number,
+    "affixes": ["affix1", "affix2"], // weapons only  
+    "priorityAffixes": ["affix1", "affix2"], // armor only
+    "reasoning": "string explanation"
+  }
+]
+```
+
+## Validation Requirements
+
+Every intermediate file must pass these validations:
+
+1. **JSON validity** - Perfect JSON syntax
+2. **Required sections** - All mandatory sections present
+3. **Required fields** - All mandatory fields in each section
+4. **Value types** - Correct types for all fields
+5. **Enum compliance** - Only allowed enum values
+6. **Array consistency** - Arrays never null, consistent element types
+7. **No placeholders** - No TODO, undefined, or placeholder values
+8. **Logical coherence** - Data makes sense together
+
+## Migration Notes
+
+This format consolidates and extends previous intermediate formats:
+
+- **Added**: `optionalUniqueItems` support
+- **Added**: `variants` for multi-variant builds  
+- **Added**: `specializedSkills` tracking
+- **Added**: `plannerAnalysis` for planner sources
+- **Added**: `buildSpecificInsights` extensibility
+- **Standardized**: All enum values
+- **Required**: Consistent empty value handling
+- **Locked**: No future structural changes allowed
+
+## Usage in Scripts
+
+Scripts can rely on:
+- Exact section names and structure
+- Consistent value types
+- Required sections always present
+- Arrays never being null
+- Standardized enum values
+- No unexpected additional sections
+
+This stability enables robust automated filter generation without defensive programming against format changes.
+
+## Examples
+
+See `generated/analysis/*.intermediate.json` for real-world examples following this format.

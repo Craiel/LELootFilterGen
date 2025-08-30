@@ -1,0 +1,510 @@
+{
+  "buildDefinition": {
+    "userInput": {
+      "name": "Bear Beastmaster (Planner Profile)",
+      "class": "Primalist", 
+      "mastery": "Beastmaster",
+      "primarySkill": "SummonBear",
+      "secondarySkills": ["Swipe", "Warcry", "Maelstrom", "FuryLeap"],
+      "uniqueItems": ["Naal's Tooth", "Mantle of the Pale Ox", "Seed of Ekkidrasil", "Yulia's Path", "Red Ring of Atlaria", "Reliquary Nest"],
+      "optionalUniqueItems": ["Cleaver Solution", "Inheritance of the Erased", "Phantom Grip", "Shattered Worlds"],
+      "defense": "armor",
+      "source": "bear-beastmaster-guide.profile.json (Build Planner Data)",
+      "description": "Complete build planner analysis with 5 progression variants: Starting Gear → Endgame Gear → Aspirational Gear, plus Boss DPS and HC Shield variants. Level 100 Beastmaster with full skill trees, passives, and item configurations."
+    },
+    "derived": {
+      "buildType": "minion",
+      "buildClassification": "companion_summoner",
+      "variants": [
+        {
+          "name": "Starting Gear",
+          "level": "Early progression",
+          "focus": "Basic functionality"
+        },
+        {
+          "name": "Endgame Gear", 
+          "level": "Standard endgame",
+          "focus": "Core uniques established"
+        },
+        {
+          "name": "Aspirational Gear",
+          "level": "Min-maxed endgame",
+          "focus": "Perfect legendary items"
+        },
+        {
+          "name": "Boss DPS Variant",
+          "level": "Specialized endgame",
+          "focus": "Single target optimization"
+        },
+        {
+          "name": "HC Shield Variant",
+          "level": "Hardcore focused",
+          "focus": "Maximum survivability"
+        }
+      ],
+      "damageTypes": {
+        "primary": ["physical"],
+        "secondary": ["cold"],
+        "notes": "Bear provides physical damage via specialized skills. Maelstrom provides cold DoT utility."
+      },
+      "scalingStats": {
+        "critical": [
+          "minion_damage",
+          "level_of_summon_bear",
+          "minion_flat_melee_damage", 
+          "minion_attack_speed",
+          "minion_critical_strike_chance",
+          "health",
+          "armor",
+          "all_resistances"
+        ],
+        "high": [
+          "minion_health",
+          "minion_critical_strike_multiplier",
+          "level_of_swipe",
+          "level_of_earthquake", 
+          "level_of_warcry",
+          "level_of_maelstrom",
+          "increased_minion_cooldown_recovery_speed",
+          "strength",
+          "attunement",
+          "movement_speed"
+        ],
+        "medium": [
+          "cold_damage",
+          "area_damage",
+          "endurance",
+          "health_regeneration",
+          "dodge_rating"
+        ],
+        "low": [
+          "cast_speed",
+          "mana",
+          "mana_regeneration"
+        ],
+        "ignored": [
+          "physical_damage",
+          "melee_damage",
+          "critical_strike_chance",
+          "critical_strike_multiplier"
+        ]
+      },
+      "specializedSkills": {
+        "SummonBear": "Primary skill - fully specialized",
+        "Swipe": "Dual usage - player + Bear specialized",
+        "Warcry": "Utility - specialized for buffs",
+        "Maelstrom": "Utility - specialized for Yulia's Path synergy", 
+        "EarthquakeSlam": "Bear ability - specialized"
+      },
+      "defenseStrategy": {
+        "primary": "armor",
+        "stats": ["health", "armor", "all_resistances", "endurance"],
+        "secondary": ["damage_reduction", "healing_effectiveness", "dodge_rating"],
+        "reasoning": "Multiple variants show consistent armor + health focus with different defensive layers"
+      }
+    }
+  },
+  "plannerAnalysis": {
+    "profileMetadata": {
+      "author": "Lizard_IRL",
+      "buildId": "1j2bc0q0",
+      "season": "3",
+      "category": "endgame",
+      "level": 100,
+      "publicProfile": true,
+      "lastAccessed": "2025-01-20"
+    },
+    "variantBreakdown": {
+      "Starting Gear": {
+        "uniqueItems": {
+          "weapon": "Basic rare weapon (itemType: 5, subType: 11)",
+          "body": "Basic rare armor", 
+          "accessories": "Mostly rare items",
+          "relic": "Unique Relic (uniqueID: 297)"
+        },
+        "skillProgression": "Includes SummonFrenzyTotem early",
+        "affixFocus": "Basic tier 5 affixes across equipment"
+      },
+      "Endgame Gear": {
+        "uniqueItems": {
+          "head": "Seed of Ekkidrasil (uniqueID: 357)",
+          "body": "Mantle of the Pale Ox (uniqueID: 370)", 
+          "weapon": "Naal's Tooth (uniqueID: 314)",
+          "waist": "Yulia's Path (uniqueID: 416)",
+          "feet": "Mourningfrost (uniqueID: 218)",
+          "rings": "Red Ring of Atlaria x2 (uniqueID: 277)",
+          "neck": "Julra's Obsession (uniqueID: 409)",
+          "relic": "Reliquary Nest (uniqueID: 433)"
+        },
+        "affixQuality": "Mix of T6-T7 affixes with some T5",
+        "legendaryPotential": "Most items at 1LP (single T7 affix)"
+      },
+      "Aspirational Gear": {
+        "uniqueItems": "Same uniques as Endgame but with enhanced affixes",
+        "affixQuality": "Primarily T7 affixes with T6 secondaries",
+        "legendaryPotential": "Multiple T7 affixes, some T6 secondaries", 
+        "specialItems": "Perfect rolled uniques with optimal LP usage"
+      },
+      "Boss DPS Variant": {
+        "modifications": "Enhanced weapon with additional affixes",
+        "offhand": "Phantom Grip (uniqueID: 336) for crit chance",
+        "rings": "Optimized for damage over defense",
+        "skillChanges": "Different skill point allocation for single target"
+      },
+      "HC Shield Variant": {
+        "uniqueItems": "Defensive focus with shield",
+        "offhand": "Unique Shield (uniqueID: 198) instead of Phantom Grip",
+        "modifications": "Conservative affix choices prioritizing survivability"
+      }
+    },
+    "affixAnalysis": {
+      "criticalAffixes": {
+        "64": "Appears frequently - likely minion damage",
+        "643": "Common secondary affix - likely minion attack speed", 
+        "2": "Health affix - appears on multiple pieces",
+        "348": "Body armor affix - likely armor/health",
+        "629": "Helmet affix - likely minion crit or health",
+        "501": "Universal affix - appears on many items"
+      },
+      "tierDistribution": {
+        "T7": "Priority affixes on most important stats",
+        "T6": "Secondary stats and some defensive rolls", 
+        "T5": "Tertiary stats and starting gear",
+        "T1": "Idol affixes mostly T1 (different scaling)"
+      },
+      "sealedAffixes": "Some items have sealed affixes indicating legendary potential usage",
+      "primordialAffix": "Boss DPS variant has primordial affix (tier 8)"
+    },
+    "idolConfiguration": {
+      "pattern": "23-slot idol configuration with specific placements",
+      "types": {
+        "25": "Small Immortal Idol (subType: 2)",
+        "27": "Small Stout Idol (subType: 1)", 
+        "28": "Small Humble Idol (subType: 1)",
+        "30": "Large Stout Idol (subType: 5)",
+        "32": "Large Immortal Idol (subType: 5)"
+      },
+      "affixFocus": {
+        "862": "T1 affix on many idols - likely minion specific",
+        "837": "T1 paired with 862 - complementary minion stat",
+        "148": "T1 on Large idols - possibly health/armor",
+        "925": "T7 on Large idols - high priority stat",
+        "899": "T7 on Large idols - another high priority stat"
+      }
+    }
+  },
+  "uniqueItemAnalysis": {
+    "Seed of Ekkidrasil": {
+      "uniqueID": 357,
+      "category": "Helmet",
+      "baseType": "Spirit Helm",
+      "affixSlots": 1,
+      "legendaryPotential": "1LP in endgame, enhanced in aspirational",
+      "keyAffixes": ["629 (T7)", "501 (T5-T6)", "52 (T6)"],
+      "priority": "critical",
+      "notes": "Damage to mana before health mechanic"
+    },
+    "Mantle of the Pale Ox": {
+      "uniqueID": 370,
+      "category": "Body Armor", 
+      "baseType": "Forest Cuirass",
+      "affixSlots": 1,
+      "legendaryPotential": "1LP standard",
+      "keyAffixes": ["348 (T7)", "336 (T6)", "52 (T6)"],
+      "priority": "critical",
+      "notes": "Damage redirection to minion mechanic"
+    },
+    "Naal's Tooth": {
+      "uniqueID": 314,
+      "category": "One-Handed Sword",
+      "baseType": "Serrated Tooth", 
+      "affixSlots": 2,
+      "legendaryPotential": "1-2LP depending on variant",
+      "keyAffixes": ["64 (T7)", "643 (T5-T6)", "2 (T5)"],
+      "priority": "critical",
+      "notes": "Enables raptor summoning, major Bear damage boost"
+    },
+    "Yulia's Path": {
+      "uniqueID": 416,
+      "category": "Belt",
+      "baseType": "Sash",
+      "affixSlots": 2,
+      "legendaryPotential": "1LP standard",
+      "keyAffixes": ["36 (T7)", "52 (T5-T6)", "75 (T5)"],
+      "priority": "high",
+      "notes": "Maelstrom buff mechanics"
+    },
+    "Red Ring of Atlaria": {
+      "uniqueID": 277,
+      "category": "Ring",
+      "baseType": "Ruby Ring",
+      "usage": "Dual rings in most variants",
+      "affixSlots": 1,
+      "legendaryPotential": "1LP each",
+      "keyAffixes": ["501 (T7)", "25 (T6)", "26 (T6-T7)"],
+      "priority": "high",
+      "notes": "Attribute requirements and damage reduction"
+    },
+    "Julra's Obsession": {
+      "uniqueID": 409,
+      "category": "Amulet",
+      "affixSlots": 4,
+      "legendaryPotential": "1LP with multiple affixes",
+      "keyAffixes": ["5 (T7)", "6 (T6)", "429 (T1-T3)", "25 (T5)"],
+      "priority": "medium-high",
+      "notes": "High affix capacity amulet"
+    },
+    "Reliquary Nest": {
+      "uniqueID": 433,
+      "category": "Relic", 
+      "affixSlots": 3,
+      "legendaryPotential": "Standard with support affixes",
+      "keyAffixes": ["501 (T7)", "25 (T5-T6)", "26 (T5)", "19 (T5)"],
+      "priority": "medium",
+      "notes": "Can be replaced by Shattered Worlds per guide"
+    }
+  },
+  "filterConfiguration": {
+    "affixMappings": {
+      "minion_damage": {
+        "ids": ["64"],
+        "priority": "critical",
+        "description": "Core affix ID 64 - appears on weapon and offhand consistently"
+      },
+      "minion_attack_speed": {
+        "ids": ["643"],
+        "priority": "critical", 
+        "description": "Core affix ID 643 - paired with minion damage frequently"
+      },
+      "health": {
+        "ids": ["2"],
+        "priority": "critical",
+        "description": "Affix ID 2 - appears on defensive pieces"
+      },
+      "armor": {
+        "ids": ["348"],
+        "priority": "critical",
+        "description": "Affix ID 348 - primary on body armor"
+      },
+      "level_of_summon_bear": {
+        "ids": ["629"],
+        "priority": "critical",
+        "description": "Affix ID 629 - appears on helmet in high tiers"
+      },
+      "minion_critical_strike_chance": {
+        "ids": ["501"],
+        "priority": "high",
+        "description": "Affix ID 501 - universal affix appearing on many items at T7"
+      },
+      "all_resistances": {
+        "ids": ["25", "26"],
+        "priority": "high",
+        "description": "Affix IDs 25/26 - resistance stats on accessories"
+      },
+      "movement_speed": {
+        "ids": ["36"],
+        "priority": "high",
+        "description": "Affix ID 36 - quality of life stat on belt"
+      },
+      "cast_speed": {
+        "ids": ["28"],
+        "priority": "medium",
+        "description": "Affix ID 28 - appears on boots"
+      },
+      "minion_cooldown_recovery": {
+        "ids": ["862"],
+        "priority": "high",
+        "description": "Idol affix ID 862 - appears consistently on idols"
+      }
+    },
+    "itemPriorities": {
+      "weapons": {
+        "required": true,
+        "progressive": true,
+        "levelBrackets": [
+          {
+            "range": [1, 50],
+            "subtypes": ["one_handed_sword", "one_handed_axe"],
+            "tierReq": 5,
+            "affixes": ["64", "643", "2"],
+            "reasoning": "Basic progression toward Naal's Tooth"
+          },
+          {
+            "range": [51, 70],
+            "subtypes": ["one_handed_sword"],
+            "tierReq": 6,
+            "affixes": ["64", "643"],
+            "reasoning": "Pre-unique weapon preparation"
+          },
+          {
+            "range": [71, 100],
+            "subtypes": ["one_handed_sword"],
+            "tierReq": 7,
+            "affixes": ["64", "643", "2"],
+            "reasoning": "Endgame focus on Naal's Tooth with perfect affixes"
+          }
+        ]
+      },
+      "armor": {
+        "required": true,
+        "progressive": true,
+        "levelBrackets": [
+          {
+            "range": [1, 50],
+            "minAffixes": 2,
+            "tierReq": 5,
+            "priorityAffixes": ["2", "348", "25", "26"]
+          },
+          {
+            "range": [51, 75],
+            "minAffixes": 3,
+            "tierReq": 6,
+            "priorityAffixes": ["2", "348", "25", "26", "501"]
+          },
+          {
+            "range": [76, 100],
+            "minAffixes": 4,
+            "tierReq": 7,
+            "priorityAffixes": ["348", "2", "501", "52", "336"]
+          }
+        ]
+      },
+      "accessories": {
+        "rings": {
+          "minAffixes": 2,
+          "tierReq": 7,
+          "priorityAffixes": ["501", "25", "26", "80"],
+          "specialHandling": "Dual Red Ring of Atlaria priority"
+        },
+        "amulets": {
+          "minAffixes": 3,
+          "tierReq": 7,
+          "priorityAffixes": ["5", "6", "25", "429"],
+          "specialHandling": "High affix capacity items prioritized"
+        },
+        "belts": {
+          "minAffixes": 2,
+          "tierReq": 7,
+          "priorityAffixes": ["36", "52", "75"]
+        }
+      },
+      "idols": {
+        "smallIdols": {
+          "sizes": ["1x2", "2x1"],
+          "affixPattern": ["862", "837"],
+          "tierReq": 1,
+          "reasoning": "Consistent pattern of T1 862+837 on small idols"
+        },
+        "largeIdols": {
+          "sizes": ["2x2", "3x1"],
+          "affixPattern": ["148", "925", "226", "899"],
+          "tierReq": [1, 7, 1, 7],
+          "reasoning": "Mix of T1 defensive and T7 offensive stats"
+        }
+      }
+    },
+    "uniqueHandling": {
+      "targetUniques": [
+        {
+          "name": "Seed of Ekkidrasil",
+          "uniqueID": 357,
+          "minLP": 1,
+          "priority": "critical"
+        },
+        {
+          "name": "Mantle of the Pale Ox", 
+          "uniqueID": 370,
+          "minLP": 1,
+          "priority": "critical"
+        },
+        {
+          "name": "Naal's Tooth",
+          "uniqueID": 314,
+          "minLP": 1,
+          "priority": "critical"
+        },
+        {
+          "name": "Yulia's Path",
+          "uniqueID": 416,
+          "minLP": 1,
+          "priority": "high"
+        },
+        {
+          "name": "Red Ring of Atlaria",
+          "uniqueID": 277,
+          "minLP": 1,
+          "priority": "high",
+          "quantity": 2
+        }
+      ],
+      "variantUniques": [
+        {
+          "name": "Phantom Grip",
+          "uniqueID": 336,
+          "context": "Boss DPS variant offhand"
+        },
+        {
+          "name": "Mourningfrost",
+          "uniqueID": 218,
+          "context": "Standard boots choice"
+        }
+      ],
+      "showCocooned": true,
+      "showSets": false,
+      "showLegendary": true
+    }
+  },
+  "generationMetadata": {
+    "estimatedRules": 28,
+    "complexity": "high",
+    "patterns": [
+      "multi_variant_progression",
+      "specific_unique_targeting",
+      "affix_id_precision",
+      "dual_item_handling",
+      "specialized_idol_patterns"
+    ],
+    "ruleBreakdown": {
+      "weapons": 3,
+      "armor": 4,
+      "accessories": 4,
+      "idols": 4,
+      "uniques": 8,
+      "variants": 3,
+      "general_items": 2
+    },
+    "optimizationNotes": [
+      "Planner data provides exact affix IDs enabling precise filtering",
+      "Multiple variants require flexible rule structure",
+      "Dual Red Ring handling needs special consideration", 
+      "Idol patterns are highly specific and consistent",
+      "LP requirements scale with build progression"
+    ]
+  },
+  "buildSpecificInsights": {
+    "plannerAdvantages": {
+      "exactAffixIDs": "Direct mapping to game database affixes (64, 643, etc.)",
+      "tierPrecision": "Exact tier requirements per progression stage",
+      "uniqueIDMapping": "Direct unique item identification numbers",
+      "multiVariantData": "5 different build configurations with distinct focuses",
+      "legendaryPotentialData": "Exact LP usage and affix combinations"
+    },
+    "progressionInsights": {
+      "earlyGame": "Basic rares with T5 affixes, some starter uniques",
+      "midGame": "Core unique establishment with 1LP items",
+      "endGame": "Optimized unique items with perfect affix combinations",
+      "specialization": "Boss DPS vs HC variants show different optimization paths"
+    },
+    "comparedToOtherSources": {
+      "vs_JSON_build": "Much more detailed with exact specifications",
+      "vs_web_guide": "Precise data vs descriptive text",
+      "vs_raw_HTML": "Complete structured data vs parsing requirements"
+    },
+    "filterQualityImpact": {
+      "highestPrecision": "Exact affix IDs eliminate guesswork",
+      "progressionAccuracy": "Clear tier requirements per level range",
+      "variantFlexibility": "Can adapt filter for different playstyles",
+      "uniqueOptimization": "Perfect unique item targeting with LP thresholds"
+    }
+  }
+}

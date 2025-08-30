@@ -4,15 +4,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Generated filter files
-generated/*.xml
-generated/*.log
-
-# Keep generated directory but ignore contents
-generated/
-!generated/.gitkeep
-!generated/README.md
-
 # Editor files
 .vscode/
 .idea/

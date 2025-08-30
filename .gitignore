@@ -12,9 +12,6 @@ yarn-error.log*
 package-lock.json
 
 # Generated files
-generated/*.xml
-Data/database/*.json
-Data/cache/
 *.log
 
 # OS
@@ -30,6 +27,3 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
-
-# Backup files
-Data/backups/

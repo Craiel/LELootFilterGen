@@ -31,7 +31,7 @@ if not exist "node_modules" (
 
 REM Launch the filter generator
 echo Starting Filter Generator...
-node index.js
+node src/index.js
 
 REM Keep console open if there was an error
 if errorlevel 1 (

@@ -1,8 +1,0 @@
-{
-  "name": "Necromancer - Arcane Servants",
-  "class": "Acolyte",
-  "mastery": "Necromancer",
-  "primarySkill": "Summon Skeleton",
-  "secondarySkills": ["Bone Curse", "Bone Armor"],
-  "defense": "armor"
-}

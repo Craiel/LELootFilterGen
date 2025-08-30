@@ -92,7 +92,9 @@ The system figures out:
 - **`name`** *(string)*: Human-readable build name (defaults to "Class - Mastery - PrimarySkill")
 - **`secondarySkills`** *(array)*: Supporting skills (up to 4 additional skills)
 - **`uniqueItems`** *(array)*: Key unique items the build relies on
+- **`optionalUniqueItems`** *(array)*: Additional unique items that enhance but aren't required for the build
 - **`defense`** *(string)*: Defensive strategy preference (`armor`, `dodge`, `block`, `ward`, `hybrid`)
+- **`description`** *(string)*: Brief build description explaining mechanics and synergies
 - **`focus`** *(string)*: Special filter focus (`leveling`, `endgame`, `trading`)
 
 ### Multi-Build Format
@@ -103,7 +105,7 @@ The system figures out:
 #### Per-Build Fields
 - **`name`** *(string)*: Descriptive name for this build
 - **`class`**, **`mastery`**, **`primarySkill`**: Same as single build format
-- **`secondarySkills`**, **`uniqueItems`**, **`defense`**: Same as single build format
+- **`secondarySkills`**, **`uniqueItems`**, **`optionalUniqueItems`**, **`defense`**, **`description`**: Same as single build format
 - **`scalingType`** *(string)*: Special scaling mechanism (`damage_reflection`, `low_life`, etc.)
 - **`variants`** *(array)*: Build variations enabled by different items
 

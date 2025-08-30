@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
+           elementFormDefault="qualified">
+
+  <!-- Generated XSD for Last Epoch Loot Filter XML Files -->
+  <!-- Generated on: 2025-08-30T01:02:00.986Z -->
+
+  <xs:element name="ItemFilter" type="ItemFilterType"/>
+
+  <xs:complexType name="ItemFilterType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="filterIcon" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="filterIconColor" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="description" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="lastModifiedInVersion" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="lootFilterVersion" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="rules" type="rulesType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="xmlns:i" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="nameType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="filterIconType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="filterIconColorType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="descriptionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="lastModifiedInVersionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="lootFilterVersionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="rulesType">
+    <xs:sequence>
+      <xs:element name="Rule" type="RuleType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RuleType">
+    <xs:sequence>
+      <xs:element name="type" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="conditions" type="conditionsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="color" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="isEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="levelDependent" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="minLvl" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="maxLvl" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="emphasized" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="nameOverride" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="levelDependent_deprecated" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="minLvl_deprecated" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="maxLvl_deprecated" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="SoundId" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="BeamId" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="Order" type="xs:int" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="typeType">
+    <xs:sequence>
+      <xs:element name="EquipmentType" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="conditionsType">
+    <xs:sequence>
+      <xs:element name="Condition" type="ConditionType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConditionType">
+    <xs:sequence>
+      <xs:element name="type" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="subTypes" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="rarity" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="minLegendaryPotential" type="minLegendaryPotentialType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="maxLegendaryPotential" type="maxLegendaryPotentialType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="minWeaversWill" type="minWeaversWillType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="maxWeaversWill" type="maxWeaversWillType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="affixes" type="affixesType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="comparsion" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="comparsionValue" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="minOnTheSameItem" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="combinedComparsion" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="combinedComparsionValue" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="advanced" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="req" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="uniqueIds" type="uniqueIdsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="advanced_DEPRECATED" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="requiredLegendaryPotential_DEPRECATED" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="requiredWeaversWill_DEPRECATED" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="Uniques" type="UniquesType" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="minPrefixes" type="minPrefixesType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="maxPrefixes" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="minSuffixes" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="maxSuffixes" type="maxSuffixesType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="sealedType" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="EligibleFactions" type="EligibleFactionsType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="i:type" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="EquipmentTypeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="subTypesType">
+    <xs:sequence>
+      <xs:element name="int" type="xs:int" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="colorType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="isEnabledType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="levelDependentType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="minLvlType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="maxLvlType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="emphasizedType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="nameOverrideType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="rarityType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="minLegendaryPotentialType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="maxLegendaryPotentialType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="minWeaversWillType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="maxWeaversWillType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="affixesType">
+    <xs:sequence>
+      <xs:element name="int" type="xs:int" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="intType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="comparsionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="comparsionValueType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="minOnTheSameItemType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="combinedComparsionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="combinedComparsionValueType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="advancedType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="reqType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="uniqueIdsType">
+    <xs:sequence>
+      <xs:element name="unsignedShort" type="xs:int" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="unsignedShortType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="levelDependent_deprecatedType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="minLvl_deprecatedType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="maxLvl_deprecatedType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="SoundIdType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="BeamIdType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="OrderType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="advanced_DEPRECATEDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="requiredLegendaryPotential_DEPRECATEDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="requiredWeaversWill_DEPRECATEDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="UniquesType">
+    <xs:sequence>
+      <xs:element name="UniqueId" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="Rolls" type="RollsType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UniqueIdType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="RollsType">
+    <xs:sequence>
+      <xs:element name="UniqueModifierWithRollId" type="UniqueModifierWithRollIdType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UniqueModifierWithRollIdType">
+    <xs:sequence>
+      <xs:element name="RollId" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="Modifier" type="ModifierType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RollIdType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="ModifierType">
+    <xs:sequence>
+      <xs:element name="LessIsBetter" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="MinRoll" type="MinRollType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="MaxRoll" type="MaxRollType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LessIsBetterType">
+    <xs:simpleContent>
+      <xs:extension base="xs:boolean">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="MinRollType">
+    <xs:attribute name="i:nil" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="MaxRollType">
+    <xs:attribute name="i:nil" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="minPrefixesType">
+    <xs:attribute name="i:nil" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="maxPrefixesType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="minSuffixesType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="maxSuffixesType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="i:nil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="sealedTypeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="EligibleFactionsType">
+    <xs:sequence>
+      <xs:element name="FactionID" type="xs:string" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FactionIDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>
