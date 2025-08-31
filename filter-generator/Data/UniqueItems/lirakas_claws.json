@@ -16,5 +16,43 @@
     "+2 Projectiles with ShurikensOnly affects the Rogue skill Shurikens"
   ],
   "lore": "Scalebane recruits are taught to never travel south of Mes'Ork in groups of less than six. Information on Li'raka's whereabouts are valuable, so it is pertinent that one should escape alive.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "dot",
+      "ailment",
+      "critical",
+      "proc",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "poison_damage",
+      "ranged_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "endurance_defense",
+      "scaling_mechanic",
+      "gloves_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "transformation_build"
+    ]
+  }
 }

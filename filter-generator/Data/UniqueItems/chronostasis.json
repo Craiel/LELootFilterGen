@@ -15,5 +15,43 @@
     "(10% to 15%) increased Attack Speed"
   ],
   "lore": "It's the missing beat, the spurious tick of a broken clock, the jolt of sudden realization. As we swing this timeless artifact like frenzied apes, minds future and past laugh at our ignorance.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "dot",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "dot_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

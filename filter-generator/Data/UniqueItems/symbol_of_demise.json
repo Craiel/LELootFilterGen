@@ -18,5 +18,43 @@
     "Each stack of Demise grants 1% increased Bleed Duration"
   ],
   "lore": "The fate of the world engraved in bone.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "ward_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

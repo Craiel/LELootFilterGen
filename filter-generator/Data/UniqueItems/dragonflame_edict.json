@@ -20,5 +20,47 @@
     "60% Chance for the nearest minion to the target location to cast Dragonflame Nova when you use a minion skill (1 second cooldown)"
   ],
   "lore": "Go forth and conquer by force or by fire.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "trigger_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build"
+    ]
+  }
 }

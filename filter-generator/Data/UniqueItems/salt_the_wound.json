@@ -21,5 +21,42 @@
     "(40% to 50%) of added Critical Strike Multiplier Converted to Poison Penetration with PoisonDoes not convert Critical Strike Multiplier specific to certain types of skill, such as spells, or Critical Strike Multiplier from skill trees. The base 200% Critical Strike Multiplier is not converted."
   ],
   "lore": "A critical success, a critical failure... It's all in the coin toss.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "poison_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

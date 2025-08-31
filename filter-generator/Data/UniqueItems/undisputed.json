@@ -19,5 +19,53 @@
     "5% increased physical damage for each recent melee hit against a bleeding enemy (up to 255%)Recent refers to the past 4 seconds"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

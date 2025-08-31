@@ -19,5 +19,52 @@
     "3% more Stygian Beam Damage per 10 Current ManaMultiplicative with other modifiers"
   ],
   "lore": "The congealed loathing of souls trapped beneath the earth. Ample fuel for the destruction to come.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "drain life"
+    ],
+    "damageTypes": [
+      "fire",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "drain_life_synergy",
+      "ward_defense",
+      "health_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "off-hand_catalyst_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

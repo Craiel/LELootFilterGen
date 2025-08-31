@@ -17,5 +17,50 @@
     "+(7 to 11)% Fire, Necrotic, and Void Penetration"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "wandering spirits"
+    ],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "wandering_spirits_synergy",
+      "ward_defense",
+      "conversion_enabler",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "ring_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

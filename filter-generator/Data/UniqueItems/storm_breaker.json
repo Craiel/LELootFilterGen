@@ -17,5 +17,47 @@
     "Gain a Storm Stack when you directly use a melee attack and hit at least one enemyStorm Stacks are expended every second to cast Storm Bolt at a nearby enemy. This interval is reduced by 2% for every stack you currently have."
   ],
   "lore": "Strike with the power of the storm.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "mana",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "two-handed_mace_slot",
+      "mid_game",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

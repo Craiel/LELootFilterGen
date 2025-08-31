@@ -21,5 +21,45 @@
     "100% Increased Area with Decimate"
   ],
   "lore": "Knowledge without power is nothing but informed futility.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "lightning_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "transformation_build"
+    ]
+  }
 }

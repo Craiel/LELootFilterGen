@@ -18,5 +18,37 @@
     "(4% to 8%) chance to take 0 Damage when Hit"
   ],
   "lore": "From the minds of the devoted grows the roots of the tree of nothing",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "mana",
+      "regen",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "endurance_defense",
+      "helmet_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

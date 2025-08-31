@@ -20,5 +20,39 @@
     "+(10 to 16) Strength"
   ],
   "lore": "Uhkeriros, Emperor of Corpses, hear our prayers! Devour your chosen and free us from this undeath.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "mana",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "block_defense",
+      "mana_defense",
+      "endurance_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

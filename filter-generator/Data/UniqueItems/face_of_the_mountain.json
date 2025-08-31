@@ -19,5 +19,41 @@
     "(12% to 6%) less Physical Damage Taken on Block"
   ],
   "lore": "The face of the mountain yields no emotion as waves, weather, and time crash upon it.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "hybrid_damage"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "resistance",
+      "endurance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "tank_build",
+      "block_defense",
+      "resistance_defense",
+      "endurance_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "shield_slot",
+      "mid_game",
+      "multi_damage_type"
+    ]
+  }
 }

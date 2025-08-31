@@ -16,5 +16,40 @@
     "When a nearby enemy or ally dies you gain Ward equal to 2% to (4 to 6)% of its maximum health, up to 3,000 ward (2 second cooldown)"
   ],
   "lore": "\"The context of thy aspirations is long lost, yet they still pervade thy silken form.\" - The Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "resource_manipulation",
+      "transformation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "tank_build",
+      "ward_defense",
+      "health_defense",
+      "endurance_defense",
+      "scaling_mechanic",
+      "relic_slot",
+      "acolyte_class",
+      "mid_game",
+      "resource_build",
+      "transformation_build",
+      "support_build"
+    ]
+  }
 }

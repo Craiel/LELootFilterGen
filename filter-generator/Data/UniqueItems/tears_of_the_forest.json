@@ -19,5 +19,47 @@
     "+(32 to 64) Mana"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "critical",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_spriggan_synergy",
+      "armor_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "amulet_slot",
+      "mid_game",
+      "dot_build",
+      "critical_build",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

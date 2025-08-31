@@ -21,5 +21,53 @@
     "+1 to Level of Minion Skills"
   ],
   "lore": "\"Guilty as charged, I was being daft, but raising bones is my craft.\" - C.N.B",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon skeleton",
+      "summon warrior",
+      "summon golem"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "minion_build",
+      "tank_build",
+      "summon_skeleton_synergy",
+      "summon_warrior_synergy",
+      "summon_golem_synergy",
+      "armor_defense",
+      "ward_defense",
+      "health_defense",
+      "endurance_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "acolyte_class",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

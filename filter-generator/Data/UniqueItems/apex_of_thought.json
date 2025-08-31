@@ -20,5 +20,60 @@
     "+(1 to 2) to Level of Buff Skills"
   ],
   "lore": "",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "helmet_slot",
+      "mage_class",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

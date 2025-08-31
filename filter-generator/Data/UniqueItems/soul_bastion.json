@@ -20,5 +20,36 @@
     "+2 to Level of Soul Feast"
   ],
   "lore": "The weight of souls is too much for most.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank"
+    ],
+    "skillSynergies": [
+      "soul feast"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "block"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "soul_feast_synergy",
+      "armor_defense",
+      "block_defense",
+      "trigger_mechanic",
+      "shield_slot",
+      "early_game"
+    ]
+  }
 }

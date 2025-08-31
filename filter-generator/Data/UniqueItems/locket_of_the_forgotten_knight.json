@@ -17,5 +17,34 @@
     "3% more Void Damage per stack of Time Rot"
   ],
   "lore": "A sanctuary for memories lost.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "critical",
+      "proc",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "support_build"
+    ]
+  }
 }

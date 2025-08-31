@@ -17,5 +17,47 @@
     "(10% to 16%) increased Cast Speed"
   ],
   "lore": "In the blackened heart of an emperor, greed devours mercy.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ward_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

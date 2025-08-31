@@ -18,5 +18,39 @@
     "During Falsewater Fury non-channelled melee attacks consume 20 mana to deal +100 melee fire damage"
   ],
   "lore": "The nagasa of the Scorched Basin always warned merchants to disregard the false oasis on the long road to Keltha, but Azurral had never put much heed in the snake people's superstition and his thirst overcame him. He drew deep from the blood red waters. The next day he awoke to his caravan reduced to ash upon the sand and his sword burning hot in his hand.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "belt_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

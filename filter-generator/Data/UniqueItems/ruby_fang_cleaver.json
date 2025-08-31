@@ -19,5 +19,49 @@
     "+1% Melee Poison Chance per 1% uncapped Fire ResistanceUncapped means that you will continue to gain poison chance from fire resistance above the 75% resistance cap"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "poison_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

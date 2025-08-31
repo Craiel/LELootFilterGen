@@ -21,5 +21,49 @@
     "1 Health gained per Dexterity when your Falcon hits an enemy"
   ],
   "lore": "The smell of blood fills the air.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "poison_damage",
+      "physical_damage",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

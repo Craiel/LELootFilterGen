@@ -18,5 +18,45 @@
     "You are Immune to Shock"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "dodge",
+      "mana",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "dodge_defense",
+      "mana_defense",
+      "immunity_defense",
+      "conversion_enabler",
+      "scaling_mechanic",
+      "belt_slot",
+      "mid_game",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

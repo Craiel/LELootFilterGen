@@ -22,5 +22,51 @@
     "when Maelstrom is cast from any source your minions gain +(2 to 4) melee necrotic damage for the maximum duration of the Maelstrom"
   ],
   "lore": "Between loyalty and opression, hope and tyranny, the path of wisdom must be found.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "minion_hybrid",
+      "speed"
+    ],
+    "skillSynergies": [
+      "maelstrom"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "maelstrom_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "endurance_defense",
+      "boots_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "speed_build"
+    ]
+  }
 }

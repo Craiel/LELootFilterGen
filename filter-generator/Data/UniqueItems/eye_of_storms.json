@@ -16,5 +16,46 @@
     "+(10 to 18) Lightning Melee Damage"
   ],
   "lore": "Torrential rain falls upon a dark and churning sea to the deafening sound of thunder and waves. The moon gleams from above and Lagon gazes from below as the centuries pass.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "maelstrom"
+    ],
+    "damageTypes": [
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "maelstrom_synergy",
+      "resistance_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

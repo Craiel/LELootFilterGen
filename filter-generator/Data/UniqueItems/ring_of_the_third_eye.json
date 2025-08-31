@@ -14,5 +14,37 @@
     "30% Chance to gain (15 to 18) Ward on Crit (up to 4 times per second)"
   ],
   "lore": "Forsee the strikes, imbue them with power.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "ward_defense",
+      "scaling_mechanic",
+      "ring_slot",
+      "early_game",
+      "dot_build",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

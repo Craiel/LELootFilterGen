@@ -20,5 +20,47 @@
     "minions take 25% less damage if you have killed recentlyRecently refers to the past 4 seconds. Multiplicative with other modifiers."
   ],
   "lore": "The King of Beasts leads the charge.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "one-handed_axe_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

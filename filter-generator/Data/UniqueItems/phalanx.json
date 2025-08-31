@@ -17,5 +17,34 @@
     "100% Chance to use Javelin when you RiposteIf Javelin has a cooldown then it must be on your bar and off cooldown for this effect to trigger and triggering it puts Javelin on cooldown."
   ],
   "lore": "It was not just Liath's magic and machinery that drove the Wengari threat from Thetima's walls, but the discipline and order her generals instilled in her human soldiers.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "tank",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "block"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "ranged_build",
+      "tank_build",
+      "block_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "mid_game",
+      "proc_build"
+    ]
+  }
 }

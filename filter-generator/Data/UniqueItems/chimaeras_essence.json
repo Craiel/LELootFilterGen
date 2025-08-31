@@ -16,5 +16,34 @@
     "(-25% to -15%) to All Resistances while Transformed"
   ],
   "lore": "Shifting, Changing, Striking.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "tank",
+      "speed",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "shift"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "ranged_build",
+      "tank_build",
+      "shift_synergy",
+      "resistance_defense",
+      "amulet_slot",
+      "mid_game",
+      "speed_build",
+      "transformation_build"
+    ]
+  }
 }

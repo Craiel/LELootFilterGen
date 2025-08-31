@@ -18,5 +18,35 @@
     "5% less Damage Taken While Moving"
   ],
   "lore": "\"Stay quick on your feet. Don't get hit once, but if you do get hit once, don't get hit twice\" - Dar'Fuun, Scalebane Recruiter.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "tank_build",
+      "armor_defense",
+      "dodge_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "boots_slot",
+      "early_game",
+      "speed_build"
+    ]
+  }
 }

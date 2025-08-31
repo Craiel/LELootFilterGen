@@ -20,5 +20,41 @@
     "+(12 to 27) Melee Fire Damage for you and your Minions"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "armor_defense",
+      "endurance_defense",
+      "scaling_mechanic",
+      "gloves_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "speed_build"
+    ]
+  }
 }

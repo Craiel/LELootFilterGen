@@ -18,5 +18,34 @@
     "+(60 to 100) Stun Avoidance"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "endurance_defense",
+      "relic_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

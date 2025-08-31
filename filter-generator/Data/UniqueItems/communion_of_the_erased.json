@@ -18,5 +18,47 @@
     "(6% to 14%) more Damage to Stunned Enemies"
   ],
   "lore": "\"Hark, disparate souls, for you have been blessed. Together you shall imbibe the venom of new life.\" - The Acolyte of Golden Silk",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "dot",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "health_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "belt_slot",
+      "early_game",
+      "multi_damage_type",
+      "dot_build",
+      "resource_build"
+    ]
+  }
 }

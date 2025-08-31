@@ -22,5 +22,45 @@
     "+(4 to 9)% Critical Strike Chance for you and your minions"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_axe_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

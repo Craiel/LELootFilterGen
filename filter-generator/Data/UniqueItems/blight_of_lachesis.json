@@ -21,5 +21,49 @@
     "+(40% to 70%) Chance to apply Electrify on Hit with Minion Skills"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

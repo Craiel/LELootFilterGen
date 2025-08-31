@@ -20,5 +20,39 @@
     "+1 Throwing Damage for Shield Throw per 10 Damage Reflected to AttackersScales with your Damage Reflected to Attackers stat not with the actual damage that has been reflected to attackers. Does not scale with percent damage reflected."
   ],
   "lore": "\"The best protection is the enemy's fear of retaliation\" - General Sigeon",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "hybrid_damage",
+      "dot",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "ranged_build",
+      "tank_build",
+      "block_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "mid_game",
+      "multi_damage_type",
+      "dot_build",
+      "proc_build"
+    ]
+  }
 }

@@ -17,5 +17,37 @@
     "You are shocked for 4 seconds when you stop movingDoes not shock you if you are already shocked Your shock effectiveness does not apply to this shock"
   ],
   "lore": "Rest was a sin among the messenger priests of Lagon, and these boots would punish the wearer accordingly.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "trigger_mechanic",
+      "boots_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

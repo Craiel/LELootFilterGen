@@ -21,5 +21,45 @@
     "+(5 to 13) to All Attributes"
   ],
   "lore": "All is judged according to its creation",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "lightning",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "lightning_damage",
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "threshold_mechanic",
+      "one-handed_mace_slot",
+      "end_game",
+      "multi_damage_type"
+    ]
+  }
 }

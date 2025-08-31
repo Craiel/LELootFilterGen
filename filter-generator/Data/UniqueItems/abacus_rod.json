@@ -19,5 +19,43 @@
     "5% increased Cast Speed per stack of Numeromancy"
   ],
   "lore": "\"Runes provide order to magic, a way to shape it, harness it, and use it for one's will. Follow their structure and you shall remain in control, break it and you shall loose the madness between the lines.\" - Arch Runemaster Unvar to the college of Kolheim.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "hybrid_damage",
+      "speed",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "elemental_damage",
+      "caster_build",
+      "mana_defense",
+      "scaling_mechanic",
+      "wand_slot",
+      "end_game",
+      "multi_damage_type",
+      "speed_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

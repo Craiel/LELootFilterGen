@@ -19,5 +19,52 @@
     "You have a 10% chance to summon a Burning Skeleton for 10 seconds when you cremate an enemy"
   ],
   "lore": "Pontifex Yulia, High Priest of the Immortal Empire, would sacrifice entire villages and raise burning soldiers from the ashes.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc"
+    ],
+    "skillSynergies": [
+      "summon skeleton"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "necrotic_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "ailment_build",
+      "summon_skeleton_synergy",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "two-handed_mace_slot",
+      "mid_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build"
+    ]
+  }
 }

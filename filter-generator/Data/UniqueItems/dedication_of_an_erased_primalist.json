@@ -16,5 +16,42 @@
     "(28% to 48%) chance on Hit to grant one of your minions Aspect of the Spider (2 second cooldown)Aspect of the Spider lasts 8 seconds and grants 15% more damage to slowed enemies (multiplicative with other modifiers) and +100% chance to slow on hit. It cannot stack."
   ],
   "lore": "\"A protector of wilds long lost shall now serve a greater purpose\" - The Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "relic_slot",
+      "primalist_class",
+      "mid_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

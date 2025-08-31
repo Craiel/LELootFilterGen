@@ -14,5 +14,36 @@
     "3% of melee damage leeched as health when below 65% health"
   ],
   "lore": "Yrun was wise in battle, but not in his betrayal of Heorot.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "body_armor_slot",
+      "mid_game",
+      "resource_build"
+    ]
+  }
 }

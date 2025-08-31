@@ -20,5 +20,57 @@
     "(22 to 32) Ward Gain on Block"
   ],
   "lore": "\"Rest now, you are safe here in this cocoon. It's all gone now, but this is not where your thread ends.\" - The Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "necrotic",
+      "poison",
+      "physical",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "block",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "necrotic_damage",
+      "poison_damage",
+      "physical_damage",
+      "void_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "ward_defense",
+      "block_defense",
+      "resistance_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "early_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,48 @@
     "+2 Maximum BallistaeOnly affects the Rogue's Summon Ballista skill"
   ],
   "lore": "Uethrin made his last stand on the shores of Lake Mawn. By dawn all that remained was a pile of Wengari bodies and his line of ballistae standing still and victorious upon the shore. His home was safe for another winter.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "ballista"
+    ],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "ranged_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "ballista_synergy",
+      "resistance_defense",
+      "mana_defense",
+      "bow_slot",
+      "rogue_class",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

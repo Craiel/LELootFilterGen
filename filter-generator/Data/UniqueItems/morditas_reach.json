@@ -18,5 +18,50 @@
     "+(20 to 30) Melee Cold Damage for you and your minions"
   ],
   "lore": "Boundless ambition enshrined in ice.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "leech_defense",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

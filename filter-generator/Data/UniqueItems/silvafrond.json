@@ -20,5 +20,52 @@
     "(20% to 30%) Increased Attack and Cast Speed for Summoned Vines"
   ],
   "lore": "The life of the forest flows through every root and leaf",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "teleport"
+    ],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "poison_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "teleport_synergy",
+      "health_defense",
+      "immunity_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "mid_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

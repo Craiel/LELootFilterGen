@@ -18,5 +18,45 @@
     "+(20 to 25)% Penetration against All Resistances for Damage Over Time"
   ],
   "lore": "Rust and corrosion stand as monuments to the inevitability of time.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "gloves_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

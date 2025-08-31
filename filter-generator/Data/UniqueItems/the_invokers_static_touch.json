@@ -19,5 +19,55 @@
     "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
   ],
   "lore": "...electrified with ambition, he cast spells beyond his cognition...",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "void_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "ward_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "ring_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,41 @@
     "Disintegrate deals more damage equal to your spell crit chanceIf you have 40% spell crit chance Disintegrate deals 40% more damage (multiplicative with other modifiers)"
   ],
   "lore": "Dying cinders illuminate the empty skull.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "dot",
+      "ailment",
+      "critical",
+      "proc",
+      "support"
+    ],
+    "skillSynergies": [
+      "disintegrate"
+    ],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "disintegrate_synergy",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "critical_build",
+      "proc_build",
+      "support_build"
+    ]
+  }
 }

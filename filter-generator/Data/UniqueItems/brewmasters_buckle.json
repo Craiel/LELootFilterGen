@@ -18,5 +18,37 @@
     "+(3 to 4) Potion Slots"
   ],
   "lore": "They say beer makes you bold\nI say it makes you unbreakable",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "endurance_defense",
+      "trigger_mechanic",
+      "belt_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

@@ -14,5 +14,43 @@
     "10% chance to summon a swarm of bees on melee hit (8 second cooldown)"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "minion_hybrid",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "poison_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "scaling_mechanic",
+      "gloves_slot",
+      "early_game",
+      "minion_hybrid_build",
+      "proc_build"
+    ]
+  }
 }

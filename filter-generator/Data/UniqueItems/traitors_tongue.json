@@ -18,5 +18,26 @@
     "(10% to 18%) increased Melee Attack Speed"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "caster_build",
+      "dagger_slot",
+      "mid_game",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

@@ -16,5 +16,37 @@
     "+2 to All Attributes"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "proc"
+    ],
+    "skillSynergies": [
+      "smite"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "smite_synergy",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "early_game",
+      "dot_build",
+      "proc_build"
+    ]
+  }
 }

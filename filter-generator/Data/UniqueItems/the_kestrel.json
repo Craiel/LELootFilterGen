@@ -16,5 +16,32 @@
     "+1 to Level of Dexterity Skills"
   ],
   "lore": "May the dying breaths of your enemies put air beneath your wings.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "armor_defense",
+      "dodge_defense",
+      "trigger_mechanic",
+      "body_armor_slot",
+      "early_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

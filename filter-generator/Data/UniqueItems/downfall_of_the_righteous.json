@@ -19,5 +19,45 @@
     "While you have both Ignite Overload and Damned Overload, enemies within 10 meters are inflicted with Witchfire every secondWitchfire is an ailment that deals 600 fire and 600 necrotic damage over 12 seconds. It cannot stack."
   ],
   "lore": "They told me not to do it, now I know why",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "relic_slot",
+      "acolyte_class",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

@@ -21,5 +21,33 @@
     "+100% Critical Strike Avoidance while you have Ancient Flight"
   ],
   "lore": "Those who ventured outside in the Ancient Era lived in constant terror",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [
+      "flurry",
+      "multishot"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "ranged_build",
+      "flurry_synergy",
+      "multishot_synergy",
+      "bow_slot",
+      "rogue_class",
+      "end_game",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

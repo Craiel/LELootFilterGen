@@ -16,5 +16,49 @@
     "+(73 to 113) Health"
   ],
   "lore": "\"The living necromancers of the early empire were quick to take life and to return it. They knew more of the nature of life than any who had come before them, so it is curious that they clung to their own with such desperation. Were these founders of our empire fools and cowards, or did they know something then that we have now forgotten? I wonder if there is something that we have lost in these centuries of undeath.\" - Recanted texts of Historian Zabat",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

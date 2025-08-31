@@ -14,5 +14,36 @@
     "+(30 to 50) Ward gained when you Dodge"
   ],
   "lore": "Many things are fickle, few more so than life itself.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "ward",
+      "dodge",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "tank_build",
+      "ward_defense",
+      "dodge_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "belt_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

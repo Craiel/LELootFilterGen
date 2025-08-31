@@ -19,5 +19,47 @@
     "(30% to 52%) increased Mana"
   ],
   "lore": "Sever the chains that bind reality",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "two-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

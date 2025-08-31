@@ -17,5 +17,40 @@
     "+(12% to 20%) Elemental Penetration"
   ],
   "lore": "Carve the burning nightmares into stone",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "elemental"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "mid_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "support_build"
+    ]
+  }
 }

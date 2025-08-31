@@ -18,5 +18,49 @@
     "(30% to 76%) increased Necrotic Damage"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "ward_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "ring_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

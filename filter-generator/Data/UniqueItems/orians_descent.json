@@ -20,5 +20,48 @@
     "(8 to 16) Mana Gained on Potion Use"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "volatile reversal",
+      "smite"
+    ],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "volatile_reversal_synergy",
+      "smite_synergy",
+      "armor_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

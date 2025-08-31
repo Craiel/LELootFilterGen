@@ -16,5 +16,27 @@
     "+(45 to 90) Endurance Threshold"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "endurance",
+      "immunity"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "tank_build",
+      "armor_defense",
+      "endurance_defense",
+      "immunity_defense",
+      "body_armor_slot",
+      "end_game"
+    ]
+  }
 }

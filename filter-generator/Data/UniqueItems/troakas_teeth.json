@@ -17,5 +17,40 @@
     "+90 Freeze Rate with Puncture"
   ],
   "lore": "Many among the nomads had assumed Troaka slain along with her family, but in truth she still hunted out on the tundra and among the frozen lakes. Except she no longer hunted deer nor eber, only wengari.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [
+      "puncture"
+    ],
+    "damageTypes": [
+      "cold",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "poison_damage",
+      "physical_damage",
+      "ranged_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "puncture_synergy",
+      "quiver_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

@@ -21,5 +21,50 @@
     "+75% Fire Resistance"
   ],
   "lore": "\"Hold fast, maintain the runes! The flames of Rahyeh may envelope this tower, but they shall not penetrate these walls. There is knowledge here that must not burn.\"",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "flame ward"
+    ],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance",
+      "mana",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "flame_ward_synergy",
+      "ward_defense",
+      "resistance_defense",
+      "mana_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

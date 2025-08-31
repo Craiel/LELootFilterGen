@@ -9,5 +9,20 @@
     "Contains a random unique one-handed axe"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "melee_build",
+      "_slot",
+      "early_game"
+    ]
+  }
 }

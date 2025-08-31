@@ -17,5 +17,55 @@
     "Your Summon Skeletons' spells and attacks deal +42 fire, cold or lightning damage. The element selected is your lowest elemental resistance."
   ],
   "lore": "The bones in Pebbles' body respond to metal like a magnet. I’m beginning to think I’m in over my head. -Traveling Merchant",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon skeleton",
+      "summon golem"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "necrotic",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "necrotic_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_skeleton_synergy",
+      "summon_golem_synergy",
+      "resistance_defense",
+      "mana_defense",
+      "relic_slot",
+      "early_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

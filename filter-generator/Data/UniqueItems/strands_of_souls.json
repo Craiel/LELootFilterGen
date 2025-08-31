@@ -16,5 +16,39 @@
     "+(7 to 18) Ward per Second"
   ],
   "lore": "It is unseemly to wear the heads of your foes upon your belt like a common witch or wengari, and what is the point if the eyes can no longer see and the brains can no longer think. No, a necromancer should wear the souls of those they have conquered, a repository of sentient energy ready to consume.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "end_game",
+      "dot_build",
+      "resource_build"
+    ]
+  }
 }

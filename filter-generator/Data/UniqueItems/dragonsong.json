@@ -16,5 +16,32 @@
     "(24% to 34%) Chance to Cast Dragon Fire on CritDragon Fire cannot trigger itself"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "ranged_build",
+      "caster_build",
+      "bow_slot",
+      "rogue_class",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

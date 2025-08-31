@@ -17,5 +17,54 @@
     "Minions cannot deal Critical Strikes"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_spriggan_synergy",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

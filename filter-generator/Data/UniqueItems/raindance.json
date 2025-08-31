@@ -21,5 +21,45 @@
     "(50% to 25%) reduced Duration of Stuns Received"
   ],
   "lore": "Those who seek Lagon's favour dance beneath the moon. Those who seek his adoration dance beneath the waves.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "health"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "dodge_defense",
+      "health_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "boots_slot",
+      "end_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

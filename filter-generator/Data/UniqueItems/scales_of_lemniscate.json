@@ -22,5 +22,53 @@
     "Casting Infernal Shade grants your minions Damage Immunity for 3 seconds (10 second cooldown)"
   ],
   "lore": "A weapon wielded in service of the cycle. Surrender both hope and despair to serve eternity.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "dread shade"
+    ],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "immunity"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "dread_shade_synergy",
+      "health_defense",
+      "immunity_defense",
+      "two-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

@@ -17,5 +17,30 @@
     "+1 to Level of All Skills"
   ],
   "lore": "The unrestrained power of countless shattered timelines, condensed into a vortex of possibility",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "ailment",
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "immunity",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "ailment_build",
+      "immunity_defense",
+      "damage_reduction_defense",
+      "relic_slot",
+      "end_game",
+      "critical_build"
+    ]
+  }
 }

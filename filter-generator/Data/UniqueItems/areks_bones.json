@@ -17,5 +17,49 @@
     "100% Chance to summon Arek's Flesh when a hit leaves you below half healthArek's Flesh is a melee minion that lasts for 20 seconds. Its damage scales with intelligence. Its health scales with intelligence and character level."
   ],
   "lore": "The necromancers were careful to keep Arek's mind intact while they extracted the bones from his flesh.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "one-handed_mace_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

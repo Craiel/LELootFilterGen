@@ -17,5 +17,36 @@
     "+4 Health gained when you Dodge"
   ],
   "lore": "Light on your feet, with a foot in the grave.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "dodge",
+      "block",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "dodge_defense",
+      "block_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "shield_slot",
+      "early_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

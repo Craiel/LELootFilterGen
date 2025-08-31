@@ -17,5 +17,34 @@
     "+(3 to 9) Strength"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "one-handed_axe_slot",
+      "mid_game",
+      "proc_build"
+    ]
+  }
 }

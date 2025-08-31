@@ -21,5 +21,52 @@
     "+4 Maximum ShadesAffects the maximum number of Infernal and Dread Shades."
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "dread shade"
+    ],
+    "damageTypes": [
+      "cold",
+      "necrotic",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "poison_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "dread_shade_synergy",
+      "ward_defense",
+      "scaling_mechanic",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

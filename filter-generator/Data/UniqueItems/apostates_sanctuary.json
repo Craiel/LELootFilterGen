@@ -19,5 +19,49 @@
     "(6% to 14%) more Damage to Bosses and Rare Enemies"
   ],
   "lore": "\"The gods serve only themselves, foolish mortals. They will not protect you. If you wish to survive, you must forge your own sanctuary.\"",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ward_defense",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

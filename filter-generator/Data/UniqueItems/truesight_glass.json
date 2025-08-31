@@ -16,5 +16,34 @@
     "+(60% to 100%) Critical Strike Avoidance"
   ],
   "lore": "Looking through the right glass can reveal the weaknesses of a foe, the gaps in its armor drawing the eye like resplendant orbs of gold.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "damage_reduction_defense",
+      "amulet_slot",
+      "end_game",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

@@ -16,5 +16,33 @@
     "You cannot leech health"
   ],
   "lore": "Strike with the force of a mountain.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "gloves_slot",
+      "mid_game",
+      "resource_build"
+    ]
+  }
 }

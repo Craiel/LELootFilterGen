@@ -9,5 +9,17 @@
     "Contains a random unique sceptre"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "_slot",
+      "early_game"
+    ]
+  }
 }

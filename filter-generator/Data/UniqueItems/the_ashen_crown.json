@@ -18,5 +18,50 @@
     "Elemental Nova is now cast at the target location"
   ],
   "lore": "The great crown of the regent of Wyvernfall, bestowed by Rahyeh, recovered from the ruins.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon storm crows",
+      "elemental nova"
+    ],
+    "damageTypes": [
+      "fire",
+      "physical",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "summon_storm crows_synergy",
+      "elemental_nova_synergy",
+      "armor_defense",
+      "mana_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "helmet_slot",
+      "mage_class",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

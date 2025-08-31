@@ -18,5 +18,36 @@
     "(18% to 42%) increased Void Damage"
   ],
   "lore": "Decades after the rest of civilisation hid itself beneath the ground, the last of the void knights still roamed the ruined surface, searching relentlessly for a way to turn the power of the void against itself. Their discoveries remain with them, lost amidst the shadows.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "speed"
+    ],
+    "skillSynergies": [
+      "void cleave"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "void_cleave_synergy",
+      "armor_defense",
+      "scaling_mechanic",
+      "boots_slot",
+      "early_game",
+      "speed_build"
+    ]
+  }
 }

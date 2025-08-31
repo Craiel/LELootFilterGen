@@ -10,5 +10,27 @@
     "2% Chance per Intelligence for +22% Elemental Penetration with Two Rune Invocations"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "elemental_damage",
+      "caster_build",
+      "scaling_mechanic",
+      "adorned_idol_slot",
+      "mage_class",
+      "mid_game"
+    ]
+  }
 }

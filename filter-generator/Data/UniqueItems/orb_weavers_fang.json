@@ -16,5 +16,36 @@
     "+(100 to 140) Dodge Rating"
   ],
   "lore": "\"You are the blade that will cut the imperfections from the Weaver's web.\" - Masque, the Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "critical",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "dodge",
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "tank_build",
+      "dodge_defense",
+      "health_defense",
+      "scaling_mechanic",
+      "two-handed_sword_slot",
+      "mid_game",
+      "critical_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

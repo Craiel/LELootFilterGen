@@ -19,5 +19,47 @@
     "+5% melee critical strike chance if you have less than 100 dodge rating"
   ],
   "lore": "When the headsman's blade falls, Sarno laughs in triumph.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "critical",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "tank_build",
+      "armor_defense",
+      "dodge_defense",
+      "health_defense",
+      "leech_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "two-handed_sword_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

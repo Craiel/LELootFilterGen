@@ -19,5 +19,32 @@
     "+(8% to 20%) Void Penetration"
   ],
   "lore": "\"Be the instrument of ruin, that which delivers time's atrophy, and fate's damnation.\"",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "support"
+    ],
+    "skillSynergies": [
+      "void cleave"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "void_cleave_synergy",
+      "sceptre_slot",
+      "end_game",
+      "support_build"
+    ]
+  }
 }

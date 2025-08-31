@@ -21,5 +21,45 @@
     "+2 to Curse Skills+2 to Minion Skills"
   ],
   "lore": "As the last of his assassins succumbed to their fates, Sinathia stirred within his tomb.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "critical",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon skeleton"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_skeleton_synergy",
+      "block_defense",
+      "health_defense",
+      "endurance_defense",
+      "shield_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

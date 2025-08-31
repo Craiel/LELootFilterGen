@@ -20,5 +20,47 @@
     "(17% to 29%) increased Dodge Rating"
   ],
   "lore": "A puppet crafted to hold a transient spirit. It seems merely avian in nature, but it's impossible to shake the sense of unease that builds as one looks into those carved black eyes.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "speed",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "dodge"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "dodge_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "speed_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

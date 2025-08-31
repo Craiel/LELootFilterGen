@@ -17,5 +17,46 @@
     "+(31 to 83) Mana"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "ailment_build",
+      "mana_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "relic_slot",
+      "acolyte_class",
+      "mid_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

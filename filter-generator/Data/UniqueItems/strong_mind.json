@@ -16,5 +16,45 @@
     "Cast a small lightning explosion when you are stunned"
   ],
   "lore": "Stand Fast.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "lightning_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "resistance_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

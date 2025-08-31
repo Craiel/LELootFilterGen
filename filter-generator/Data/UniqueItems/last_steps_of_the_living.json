@@ -20,5 +20,47 @@
     "(30% to 36%) increased Movement Speed"
   ],
   "lore": "Step out of the cold, out of the mortal realm, and take your place among the empire.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "dot",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "health_defense",
+      "scaling_mechanic",
+      "boots_slot",
+      "end_game",
+      "multi_damage_type",
+      "dot_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

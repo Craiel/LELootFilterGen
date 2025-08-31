@@ -20,5 +20,42 @@
     "+(75% to 150%) Freeze Rate Multiplier"
   ],
   "lore": "Found among the frozen corpses in the wake of Morditas' wrath. Runes etched into the handle read \"Heorot protect us\".",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "resistance",
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "block_defense",
+      "resistance_defense",
+      "health_defense",
+      "damage_reduction_defense",
+      "shield_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

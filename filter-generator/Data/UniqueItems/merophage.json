@@ -18,5 +18,36 @@
     "When you shatter a Two Handed Sword while you have Merophage equipped, it absorbs the shards you would gain, using them to gain Legendary affixes or replace its existing ones.Only legendary affixes are replaced. The unique affixes that started on the item always remain."
   ],
   "lore": "Forged by Archmage Drinial for his remaining son, it carries a powerful enchantment to draw out yearning. Now, its wielders unburdened, the sword itself yearns for its shattered kin.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "health",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "tank_build",
+      "health_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "two-handed_sword_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

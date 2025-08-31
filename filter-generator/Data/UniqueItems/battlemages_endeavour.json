@@ -20,5 +20,46 @@
     "(45% to 75%) Chance to cast Lightning Blast when you use a Melee Attack and hit at least one enemyThis cast is affected by the Lightning Blast skill tree"
   ],
   "lore": "In times of strife the inflexible are doomed to break. A true Battlemage must master all the arts of war.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [
+      "lightning blast"
+    ],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "lightning_blast_synergy",
+      "resistance_defense",
+      "trigger_mechanic",
+      "two-handed_sword_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

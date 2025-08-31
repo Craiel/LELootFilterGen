@@ -10,5 +10,27 @@
     "1% Chance per Intelligence for 11% more Elemental Damage with One Rune Invocationsmultiplicative with other modifiers"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "elemental_damage",
+      "caster_build",
+      "scaling_mechanic",
+      "large_idol_slot",
+      "mage_class",
+      "mid_game"
+    ]
+  }
 }

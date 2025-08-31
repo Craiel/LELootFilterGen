@@ -20,5 +20,60 @@
     "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "resistance",
+      "health",
+      "leech",
+      "endurance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "dodge_defense",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "endurance_defense",
+      "damage_reduction_defense",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

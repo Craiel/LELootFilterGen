@@ -20,5 +20,47 @@
     "You are Immune to SlowThis grants you immunity to the Slow ailment, not to other sources of speed reduction such as chill."
   ],
   "lore": "A drained bog seeks vengeance",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "regen",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "mana_defense",
+      "regen_defense",
+      "immunity_defense",
+      "conversion_enabler",
+      "gloves_slot",
+      "early_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

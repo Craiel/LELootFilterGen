@@ -14,5 +14,36 @@
     "1 in 6 chance to take (25 to 15)% less Damage per Active ShadowMultiplicative with other modifiers. The number of shadows multiplies the damage reduction, not the chance."
   ],
   "lore": "\"It is no accident that you have outlasted your world, but belief in one's own luck is a powerful tool.\" - The Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "dodge",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "tank_build",
+      "dodge_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "relic_slot",
+      "rogue_class",
+      "mid_game",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

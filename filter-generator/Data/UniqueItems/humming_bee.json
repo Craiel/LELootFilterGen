@@ -16,5 +16,41 @@
     "Elemental Attacks deal 1% Increased Damage per 200 WardThis effects all damage from the attack, including damage from ailments and non-elemental damage."
   ],
   "lore": "Bzzzzzzzzzz",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "early_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

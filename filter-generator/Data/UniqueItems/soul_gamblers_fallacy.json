@@ -16,5 +16,39 @@
     "+1 to Level of Necrotic Skills"
   ],
   "lore": "When coins run out, you still have your soul to gamble.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ward_defense",
+      "health_defense",
+      "threshold_mechanic",
+      "amulet_slot",
+      "mid_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

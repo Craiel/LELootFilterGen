@@ -23,5 +23,59 @@
     "+(11 to 23) Ward per Second"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "necrotic_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ward_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

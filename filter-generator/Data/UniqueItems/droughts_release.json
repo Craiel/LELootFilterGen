@@ -18,5 +18,46 @@
     "+3 to All Attributes"
   ],
   "lore": "\"Our tribulations shall end with prosperity, and theirs with death\" - Grand Alchemist Avello",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "acid flask"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "melee_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "acid_flask_synergy",
+      "health_defense",
+      "scaling_mechanic",
+      "dagger_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

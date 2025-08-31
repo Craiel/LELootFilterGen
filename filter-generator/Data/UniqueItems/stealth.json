@@ -19,5 +19,37 @@
     "+(2 to 4) to Level of Smoke Bomb"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "speed",
+      "support"
+    ],
+    "skillSynergies": [
+      "smoke bomb"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "minion_build",
+      "tank_build",
+      "smoke_bomb_synergy",
+      "armor_defense",
+      "dodge_defense",
+      "conversion_enabler",
+      "boots_slot",
+      "end_game",
+      "speed_build",
+      "support_build"
+    ]
+  }
 }

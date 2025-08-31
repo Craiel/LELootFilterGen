@@ -19,5 +19,34 @@
     "The Rift Beast summoned has the same Evolutions as the Rift Beast that dropped this item"
   ],
   "lore": "A fossil of a lineage forged in time",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "minion_build",
+      "tank_build",
+      "resistance_defense",
+      "health_defense",
+      "amulet_slot",
+      "early_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

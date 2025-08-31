@@ -22,5 +22,50 @@
     "(20% to 26%) chance to cast Smite at a nearby enemy on Kill"
   ],
   "lore": "It is Rahyeh's duty to pass judgement, and a Paladin's to deliver it.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "support"
+    ],
+    "skillSynergies": [
+      "smite",
+      "judgement"
+    ],
+    "damageTypes": [
+      "fire",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "lightning_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "smite_synergy",
+      "judgement_synergy",
+      "resistance_defense",
+      "trigger_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "support_build"
+    ]
+  }
 }

@@ -21,5 +21,49 @@
     "10% reduced Health"
   ],
   "lore": "Countess Marina revived the cursed land of Urix in the name of the Emperor, unaware that some spirits are better left in the shadows.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "wand_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,35 @@
     "75% Increased Healing Effectiveness"
   ],
   "lore": "Burn with the fire of the eternal sun.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank"
+    ],
+    "skillSynergies": [
+      "judgement"
+    ],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "resistance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "caster_build",
+      "tank_build",
+      "judgement_synergy",
+      "block_defense",
+      "resistance_defense",
+      "damage_reduction_defense",
+      "shield_slot",
+      "end_game"
+    ]
+  }
 }

@@ -16,5 +16,32 @@
     "+(12 to 32) Lightning Throwing Damage"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "ranged_build",
+      "caster_build",
+      "trigger_mechanic",
+      "quiver_slot",
+      "end_game",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

@@ -18,5 +18,39 @@
     "You are immune to Blind and Chill"
   ],
   "lore": "Blind with the snow, never blinded by it.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "immunity_defense",
+      "trigger_mechanic",
+      "helmet_slot",
+      "early_game",
+      "proc_build"
+    ]
+  }
 }

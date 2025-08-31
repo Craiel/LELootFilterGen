@@ -17,5 +17,47 @@
     "(10% to 30%) Void Penetration with Doom"
   ],
   "lore": "The sorrow of those that remain feeds the hungering void.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

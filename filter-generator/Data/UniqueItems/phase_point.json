@@ -19,5 +19,37 @@
     "+(1 to 3) to Level of Dark Quiver"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "dodge",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "ranged_build",
+      "tank_build",
+      "ailment_build",
+      "dodge_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "quiver_slot",
+      "end_game",
+      "proc_build"
+    ]
+  }
 }

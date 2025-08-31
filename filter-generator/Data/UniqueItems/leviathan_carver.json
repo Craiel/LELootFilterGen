@@ -16,5 +16,32 @@
     "70% reduced Bonus Damage Taken from Critical Strikes"
   ],
   "lore": "Forge Master Rupin'Ur sought to create a weapon capable of slaying any beast, but to most it more resembled a hunk of raw steel.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "damage_reduction_defense",
+      "two-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

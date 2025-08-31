@@ -16,5 +16,39 @@
     "5% Increased Melee Cold Damage per 10 Health Regen, up to 1500%Any additional health regen has an effect, there are not thresholds every 10."
   ],
   "lore": "Crafted in desperation, seized with ambition.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "health_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "relic_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

@@ -117,7 +117,7 @@ class DatabaseBuilder {
       await this.copyClaudeGuide();
       await this.generateIndexes();
       
-      this.printSummary();
+      await this.printSummary();
       await this.logger.finish();
       
       return this.gameData.statistics;
@@ -580,15 +580,18 @@ class DatabaseBuilder {
     try {
       this.logger.info('Starting HTML data parsing from manual download...');
       
-      // Parse HTML data
+      // Parse HTML data with analytics enrichment
       const parsedData = await parser.parseItems();
       
       if (parsedData.uniqueItems && parsedData.uniqueItems.length > 0) {
         this.logger.info(`Parsed ${parsedData.uniqueItems.length} unique items from HTML data`);
         console.log(`✅ Parsed ${parsedData.uniqueItems.length} unique items from HTML data`);
         
-        // Save unique items to Data/UniqueItems directory
-        await this.saveHtmlUniqueItemsToFiles(parsedData.uniqueItems);
+        // Enrich items with analytics data before saving
+        const enrichedItems = await this.enrichItemsWithAnalytics(parsedData.uniqueItems);
+        
+        // Save enriched unique items to Data/UniqueItems directory
+        await this.saveHtmlUniqueItemsToFiles(enrichedItems);
         
         // Extract subtypes from HTML data - TEMPORARILY DISABLED
         // TODO: Re-enable when complete subtype data is available
@@ -1492,7 +1495,7 @@ class DatabaseBuilder {
   /**
    * Print build summary
    */
-  printSummary() {
+  async printSummary() {
     const stats = this.gameData.statistics;
     
     console.log('\n📊 Build Summary:');
@@ -1533,8 +1536,169 @@ class DatabaseBuilder {
     console.log(`   Uniques: ${uniqueCompletion}%`);
     console.log(`   Sets: ${setCompletion}%`);
     
+    // Generate analytics indexes
+    await this.generateAnalyticsIndexes();
+    
     console.log('\n✅ Database build complete!');
     console.log(`📄 Log file: ${LOG_FILE}`);
+  }
+
+  /**
+   * Generate analytics indexes for efficient querying
+   */
+  async generateAnalyticsIndexes() {
+    const analyticsFile = path.join(OVERRIDES_DIR, 'analytics_unique_items_data.json');
+    
+    if (!await fs.pathExists(analyticsFile)) {
+      this.logger.info('No analytics data available for index generation');
+      return;
+    }
+    
+    try {
+      this.logger.info('🔍 Creating analytics indexes...');
+      console.log('🔍 Creating analytics indexes...');
+      
+      const analyticsData = await fs.readJson(analyticsFile);
+      const indexesDir = path.join(DATA_DIR, 'indexes');
+      await fs.ensureDir(indexesDir);
+      
+      const indexes = {
+        buildArchetypes: {},
+        skillSynergies: {},
+        damageTypes: {},
+        defensiveMechanisms: {},
+        buildEnablers: {},
+        powerLevels: {},
+        buildTags: {},
+        classRestricted: {}
+      };
+      
+      // Load unique items to get additional metadata
+      const uniqueItemsDir = path.join(DATA_DIR, 'UniqueItems');
+      const uniqueFiles = await fs.readdir(uniqueItemsDir);
+      const uniqueItemsMap = new Map();
+      
+      for (const file of uniqueFiles.filter(f => f.endsWith('.json'))) {
+        try {
+          const item = await fs.readJson(path.join(uniqueItemsDir, file));
+          if (item.name) uniqueItemsMap.set(item.name, item);
+        } catch (error) {
+          this.logger.warn(`Failed to read ${file}: ${error.message}`);
+        }
+      }
+      
+      // Build indexes
+      for (const [itemName, analytics] of Object.entries(analyticsData)) {
+        const item = uniqueItemsMap.get(itemName);
+        if (!item) continue;
+        
+        const itemRef = {
+          name: item.name,
+          category: item.category,
+          levelRequirement: item.levelRequirement,
+          classRequirement: item.classRequirement,
+          dropRarity: item.dropRarity
+        };
+        
+        // Build archetype index
+        for (const archetype of analytics.buildArchetypes || []) {
+          if (!indexes.buildArchetypes[archetype]) indexes.buildArchetypes[archetype] = [];
+          indexes.buildArchetypes[archetype].push(itemRef);
+        }
+        
+        // Skill synergy index
+        for (const skill of analytics.skillSynergies || []) {
+          if (!indexes.skillSynergies[skill]) indexes.skillSynergies[skill] = [];
+          indexes.skillSynergies[skill].push(itemRef);
+        }
+        
+        // Damage type index
+        for (const damageType of analytics.damageTypes || []) {
+          if (!indexes.damageTypes[damageType]) indexes.damageTypes[damageType] = [];
+          indexes.damageTypes[damageType].push(itemRef);
+        }
+        
+        // Defensive mechanism index
+        for (const mechanism of analytics.defensiveMechanisms || []) {
+          if (!indexes.defensiveMechanisms[mechanism]) indexes.defensiveMechanisms[mechanism] = [];
+          indexes.defensiveMechanisms[mechanism].push(itemRef);
+        }
+        
+        // Build enabler index
+        for (const enabler of analytics.buildEnablers || []) {
+          if (!indexes.buildEnablers[enabler]) indexes.buildEnablers[enabler] = [];
+          indexes.buildEnablers[enabler].push(itemRef);
+        }
+        
+        // Power level index
+        const powerLevel = analytics.powerLevel;
+        if (!indexes.powerLevels[powerLevel]) indexes.powerLevels[powerLevel] = [];
+        indexes.powerLevels[powerLevel].push(itemRef);
+        
+        // Build tag index
+        for (const tag of analytics.buildTags || []) {
+          if (!indexes.buildTags[tag]) indexes.buildTags[tag] = [];
+          indexes.buildTags[tag].push(itemRef);
+        }
+        
+        // Class restricted index
+        if (item.classRequirement) {
+          if (!indexes.classRestricted[item.classRequirement]) indexes.classRestricted[item.classRequirement] = [];
+          indexes.classRestricted[item.classRequirement].push(itemRef);
+        }
+      }
+      
+      // Save individual index files
+      for (const [indexName, indexData] of Object.entries(indexes)) {
+        const indexFile = path.join(indexesDir, `${indexName}.json`);
+        await fs.writeJson(indexFile, indexData, { spaces: 2 });
+      }
+      
+      // Create comprehensive analytics summary
+      const analyticsSummary = {
+        metadata: {
+          createdDate: new Date().toISOString(),
+          totalItemsAnalyzed: Object.keys(analyticsData).length,
+          version: '1.0.0'
+        },
+        buildArchetypes: Object.keys(indexes.buildArchetypes).map(archetype => ({
+          name: archetype,
+          itemCount: indexes.buildArchetypes[archetype].length
+        })).sort((a, b) => b.itemCount - a.itemCount),
+        
+        skillSynergies: Object.keys(indexes.skillSynergies).map(skill => ({
+          name: skill,
+          itemCount: indexes.skillSynergies[skill].length
+        })).sort((a, b) => b.itemCount - a.itemCount),
+        
+        damageTypes: Object.keys(indexes.damageTypes).map(type => ({
+          name: type,
+          itemCount: indexes.damageTypes[type].length
+        })).sort((a, b) => b.itemCount - a.itemCount),
+        
+        powerDistribution: Object.keys(indexes.powerLevels).map(level => ({
+          tier: level,
+          itemCount: indexes.powerLevels[level].length
+        })),
+        
+        classDistribution: Object.keys(indexes.classRestricted).map(cls => ({
+          class: cls,
+          itemCount: indexes.classRestricted[cls].length
+        }))
+      };
+      
+      const analyticsSummaryFile = path.join(DATA_DIR, 'analytics_summary.json');
+      await fs.writeJson(analyticsSummaryFile, analyticsSummary, { spaces: 2 });
+      
+      this.logger.info(`📊 Created ${Object.keys(indexes).length} analytics indexes`);
+      this.logger.info(`🔍 Analytics summary saved to analytics_summary.json`);
+      console.log(`📊 Created ${Object.keys(indexes).length} analytics indexes`);
+      console.log(`🔍 Analytics summary saved to analytics_summary.json`);
+      
+    } catch (error) {
+      this.logger.error(`Failed to generate analytics indexes: ${error.message}`);
+      console.log(`❌ Failed to generate analytics indexes: ${error.message}`);
+    }
   }
 
   /**
@@ -1569,6 +1733,56 @@ class DatabaseBuilder {
     }
     
     return total;
+  }
+
+  /**
+   * Enrich items with analytics data
+   */
+  async enrichItemsWithAnalytics(uniqueItems) {
+    const analyticsFile = path.join(OVERRIDES_DIR, 'analytics_unique_items_data.json');
+    
+    if (!await fs.pathExists(analyticsFile)) {
+      this.logger.warn('⚠️  No analytics file found, proceeding without enriched data');
+      console.log('⚠️  No analytics file found, proceeding without enriched data');
+      return uniqueItems;
+    }
+    
+    try {
+      this.logger.info('📊 Loading enriched analytics data...');
+      console.log('📊 Loading enriched analytics data...');
+      
+      const analyticsData = await fs.readJson(analyticsFile);
+      this.logger.info(`✅ Loaded analytics for ${Object.keys(analyticsData).length} items`);
+      console.log(`✅ Loaded analytics for ${Object.keys(analyticsData).length} items`);
+      
+      let enrichedCount = 0;
+      const enrichedItems = uniqueItems.map(item => {
+        const analytics = analyticsData[item.name];
+        if (analytics) {
+          item.analytics = {
+            buildArchetypes: analytics.buildArchetypes || [],
+            skillSynergies: analytics.skillSynergies || [],
+            damageTypes: analytics.damageTypes || [],
+            defensiveMechanisms: analytics.defensiveMechanisms || [],
+            buildEnablers: analytics.buildEnablers || [],
+            powerLevel: analytics.powerLevel || 'Standard',
+            buildTags: analytics.buildTags || []
+          };
+          enrichedCount++;
+        }
+        return item;
+      });
+      
+      this.logger.info(`📊 Enriched ${enrichedCount} items with analytics data`);
+      console.log(`📊 Enriched ${enrichedCount} items with analytics data`);
+      
+      return enrichedItems;
+      
+    } catch (error) {
+      this.logger.error(`Failed to load analytics data: ${error.message}`);
+      console.log(`❌ Failed to load analytics data: ${error.message}`);
+      return uniqueItems;
+    }
   }
 
   /**

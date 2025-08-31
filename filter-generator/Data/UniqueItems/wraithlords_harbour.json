@@ -22,5 +22,51 @@
     "While at max wraiths, the Wraithlord casts Necrotic Beams and regularly consumes your non-wraith minions to empower itself, gaining Temporary Maximum Health equal to 10% of their maximum health and +3 spell damage for 10 secondsThe Wraithlord can consume up to 5 minions per cast. The buff from consuming minions can stack endlessly."
   ],
   "lore": "",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon storm crows",
+      "summon wraith"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "summon_storm crows_synergy",
+      "summon_wraith_synergy",
+      "armor_defense",
+      "health_defense",
+      "scaling_mechanic",
+      "helmet_slot",
+      "acolyte_class",
+      "end_game",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

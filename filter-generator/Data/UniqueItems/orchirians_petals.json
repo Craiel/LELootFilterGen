@@ -19,5 +19,45 @@
     "89% increased Physical Spell Damage"
   ],
   "lore": "Petals harvested from the remains of Orchirian the Rampant, still bright with the light of an ancient sun.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "critical",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "harvest"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "harvest_synergy",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "relic_slot",
+      "mid_game",
+      "critical_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

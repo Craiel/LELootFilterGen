@@ -19,5 +19,36 @@
     "+(12% to 16%) Elemental Resistance"
   ],
   "lore": "Written by an esteemed historian, this book chronicles the entire history of Eterra as we understand it. Or, at least, as Sir Tolmat understood it.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "resistance_defense",
+      "off-hand_catalyst_slot",
+      "early_game",
+      "minion_hybrid_build",
+      "speed_build"
+    ]
+  }
 }

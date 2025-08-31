@@ -17,5 +17,52 @@
     "(112% to 144%) increased Damage"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "glass_cannon"
+    ],
+    "skillSynergies": [
+      "summon storm crows"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "summon_storm crows_synergy",
+      "armor_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "helmet_slot",
+      "end_game",
+      "dot_build",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "glass_cannon_build"
+    ]
+  }
 }

@@ -18,5 +18,54 @@
     "+6 Attunement"
   ],
   "lore": "In ancient times it was believed that the will of Lagon could be gleaned from the patterns burned into the stones of the Scoured Reefs, and studied them at great length. Yet a wild storm needs no reason to strike where it does and the inscrutable stones were dismissed by later storm priests, who claimed it did not befit surface dwellers to decipher their god's purposes or designs.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "fire",
+      "lightning",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "lightning_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "ailment_build",
+      "summon_thorn totem_synergy",
+      "resistance_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "relic_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

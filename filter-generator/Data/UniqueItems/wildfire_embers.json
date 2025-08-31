@@ -17,5 +17,47 @@
     "(17% to 25%) increased Health"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "end_game",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

@@ -14,5 +14,25 @@
     "(30% to 45%) increased Dodge Rating"
   ],
   "lore": "Gods may fall and empires crumble, but the furtive scavenger lives on.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "dodge"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "dodge_defense",
+      "belt_slot",
+      "early_game",
+      "proc_build"
+    ]
+  }
 }

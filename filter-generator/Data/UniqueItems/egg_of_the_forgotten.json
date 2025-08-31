@@ -10,5 +10,23 @@
     "Changes into a random Unique Item if challenged or empowered"
   ],
   "lore": "The lost scion of light dwells no longer among the sun, nor in the resplendent mountains of the east. It lingers only in the minds of the servants of fire, guiding the hands that carve and chisel.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "caster_build",
+      "relic_slot",
+      "early_game"
+    ]
+  }
 }

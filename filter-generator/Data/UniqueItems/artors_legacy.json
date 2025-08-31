@@ -20,5 +20,50 @@
     "(20% to 30%) increased Melee Attack Speed"
   ],
   "lore": "The great wolf Artor ran with Heorot in times long forgotten.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [
+      "summon wolf"
+    ],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "ailment_build",
+      "summon_wolf_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "helmet_slot",
+      "primalist_class",
+      "mid_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

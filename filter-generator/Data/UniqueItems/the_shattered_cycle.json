@@ -19,5 +19,31 @@
     "(24% to 36%) increased Mana Regen"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "caster_build",
+      "mana_defense",
+      "regen_defense",
+      "sceptre_slot",
+      "end_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

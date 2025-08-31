@@ -18,5 +18,40 @@
     "+(1 to 3) to Level of Sacrifice"
   ],
   "lore": "The rattle of the dying is the sound of weakness leaving the world.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "health_defense",
+      "amulet_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

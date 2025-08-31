@@ -18,5 +18,41 @@
     "The Stats on your Gloves apply to your Forged Weapons at (64 to 100)% effectiveness"
   ],
   "lore": "The one armed smith, Draelyn, perfected the art of controlling her animated weapons as if she were holding them with her own hand. Though lauded throughout the forges of Solarum, she was secretive about her methods, and this lead to rumours that she invoked necromancy in her craft, and some even swore they had glimpsed spectral fingers gripping her weapons as she fought.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "critical",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "mana_defense",
+      "scaling_mechanic",
+      "ring_slot",
+      "early_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

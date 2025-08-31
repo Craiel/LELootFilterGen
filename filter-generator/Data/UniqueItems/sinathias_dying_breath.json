@@ -19,5 +19,39 @@
     "+2 to Curse Skills+2 to Minion Skills"
   ],
   "lore": "As the last dagger plunged into Sinathia's body he uttered a dying curse, sealing the fate of his assassins.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid"
+    ],
+    "skillSynergies": [
+      "lunge"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "lunge_synergy",
+      "block_defense",
+      "resistance_defense",
+      "one-handed_mace_slot",
+      "end_game",
+      "minion_hybrid_build"
+    ]
+  }
 }

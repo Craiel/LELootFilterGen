@@ -23,5 +23,43 @@
     "Each stack of Searing Blades grants +2 melee fire damage and 20% melee ignite chance"
   ],
   "lore": "A Warrior's Life burned to ashes and all that's left is pride.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "block_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "proc_build"
+    ]
+  }
 }

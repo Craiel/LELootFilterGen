@@ -21,5 +21,39 @@
     "(50% to 100%) Increased Leech Rate"
   ],
   "lore": "Forsake the darkening sky and let the ground swallow your mind.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "minion_build",
+      "leech_defense",
+      "trigger_mechanic",
+      "two-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build"
+    ]
+  }
 }

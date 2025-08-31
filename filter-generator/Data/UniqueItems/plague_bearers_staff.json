@@ -21,5 +21,52 @@
     "(3% to 6%) of Current Health Drained per Second"
   ],
   "lore": "The Plague Bearer wandered far and wide searching for a cure for his affliction and left only death in his wake.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon bear"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_bear_synergy",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

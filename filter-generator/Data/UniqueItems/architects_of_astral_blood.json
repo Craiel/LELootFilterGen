@@ -18,5 +18,43 @@
     "+(4 to 6) to All Attributes"
   ],
   "lore": "The noblest of ancient beasts wore their hearts in the sky",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "dot",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "health_defense",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "dot_build",
+      "resource_build"
+    ]
+  }
 }

@@ -10,5 +10,23 @@
     "You cannot deal Critical Strikes100% less Critical Strike Chance (multiplicative with other modifiers)"
   ],
   "lore": "\"And thus from a singular point of infinite detail did the goddess Eterra weave the fabric of reality\" - Book of Elders, Chapter 1.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "threshold_mechanic",
+      "small_idol_slot",
+      "mid_game",
+      "critical_build"
+    ]
+  }
 }

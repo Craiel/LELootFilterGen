@@ -16,5 +16,38 @@
     "(15% to 30%) of Armor Mitigation also applies to Damage over Time"
   ],
   "lore": "A monument to the world's decay carved in bone and steel.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "damage_reduction_defense",
+      "helmet_slot",
+      "mid_game",
+      "multi_damage_type"
+    ]
+  }
 }

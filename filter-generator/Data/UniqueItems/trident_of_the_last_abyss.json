@@ -18,5 +18,43 @@
     "(5% to 7%) of Void Damage Leeched as Health on Hit"
   ],
   "lore": "The dark ocean of void lies still. Echoes are all that remain of the strife that preceeded it.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

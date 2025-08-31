@@ -18,5 +18,50 @@
     "+(10 to 18) Cold Melee Damage"
   ],
   "lore": "Jormun slew the great wyverns of Farwood at Heorot's behest, freezing them with his shouts and shattering them with his blades.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "warcry"
+    ],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "warcry_synergy",
+      "armor_defense",
+      "health_defense",
+      "regen_defense",
+      "conversion_enabler",
+      "helmet_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

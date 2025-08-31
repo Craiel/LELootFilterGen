@@ -17,5 +17,44 @@
     "(7% to 12%) increased Minion Cast Speed"
   ],
   "lore": "The touch of death reaches far beyond the grave.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "wand_slot",
+      "early_game",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,48 @@
     "(16% to 24%) more Cold Damage Over Time to Frozen Enemies"
   ],
   "lore": "\"The city is lost. All remaining garrisons are to head north. The great roots and ancient wards of Farwood shall be our last stronghold against the horde. And, Heorot Willing, it will be their tomb.\" - Arch Cryomancer Frey, Champion of Heorot.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "fury leap"
+    ],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "fury_leap_synergy",
+      "ward_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

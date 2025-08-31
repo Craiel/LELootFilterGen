@@ -19,5 +19,56 @@
     "(34% to 52%) increased Mana Regen"
   ],
   "lore": "\"Imagine a world free of pain, chaos, and sorrow. A world free of corruption. A perfect world!\" - Masque, the Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "smite"
+    ],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "void_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "smite_synergy",
+      "armor_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

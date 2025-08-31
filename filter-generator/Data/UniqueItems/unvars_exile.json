@@ -10,5 +10,27 @@
     "3% Chance per Intelligence for 33% increased Elemental Damage with Three Rune Invocations"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "elemental_damage",
+      "caster_build",
+      "scaling_mechanic",
+      "huge_idol_slot",
+      "mage_class",
+      "mid_game"
+    ]
+  }
 }

@@ -18,5 +18,52 @@
     "(13% to 19%) Fire Penetration with Ignite"
   ],
   "lore": "Have the ambition to know what might be yours, and the conviction to burn those who would keep it from you.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "necrotic",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "mana",
+      "leech",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "necrotic_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "regen_defense",
+      "gloves_slot",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

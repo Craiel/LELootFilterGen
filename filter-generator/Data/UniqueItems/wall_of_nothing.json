@@ -16,5 +16,43 @@
     "+(60 to 70) Ward per Second"
   ],
   "lore": "Cloaked in the void, Harbingers need fear naught.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "hybrid_damage",
+      "dot",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "tank_build",
+      "armor_defense",
+      "ward_defense",
+      "endurance_defense",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "dot_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

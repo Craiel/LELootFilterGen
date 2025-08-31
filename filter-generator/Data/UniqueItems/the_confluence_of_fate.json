@@ -17,5 +17,39 @@
     "(3% to 9%) increased Void Damage Taken on Hit"
   ],
   "lore": "The fall of Eterra is inevitable, as it always has been.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "dot",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "dot_build",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

@@ -21,5 +21,58 @@
     "+(13 to 20) Health Gained from Rip BloodIncreases the health gained from Blood Orbs created by Rip Blood. Affected by Increased Healing Effectiveness."
   ],
   "lore": "Only the whispers of ghosts can be heard among the stillness of the crimson tundra.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "harvest",
+      "rip blood"
+    ],
+    "damageTypes": [
+      "cold",
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "harvest_synergy",
+      "rip_blood_synergy",
+      "health_defense",
+      "scaling_mechanic",
+      "one-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

@@ -20,5 +20,52 @@
     "+(22 to 36) Mana"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_spriggan_synergy",
+      "health_defense",
+      "mana_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "sceptre_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

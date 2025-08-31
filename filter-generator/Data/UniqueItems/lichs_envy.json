@@ -19,5 +19,48 @@
     "+4 Maximum ShadesAffects the maximum number of Infernal and Dread Shades."
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "dread shade"
+    ],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "dread_shade_synergy",
+      "armor_defense",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

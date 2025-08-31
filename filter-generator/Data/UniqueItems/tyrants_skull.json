@@ -21,5 +21,49 @@
     "When your Tyrannosaur roars it grants your other minions +25 Physical Damage with Spells and Attacks and the bonuses it gains from this item are applied to them at 20% effectivenessThis buff lasts 12 seconds"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "health_defense",
+      "endurance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "mid_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -17,5 +17,50 @@
     "+30 Strength"
   ],
   "lore": "The last bear's bloodline survived wars between gods, and empires.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon bear"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech",
+      "regen",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "tank_build",
+      "ailment_build",
+      "summon_bear_synergy",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "regen_defense",
+      "endurance_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "mid_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

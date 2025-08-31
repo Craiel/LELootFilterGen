@@ -20,5 +20,49 @@
     "(18% to 30%) of Remaining Volcanic Orb Cooldown Recovered when you use a Melee Attack and hit at least one Enemy"
   ],
   "lore": "\"I can hear them skitter, scratching at the walls. Their cries echo through these caverns like the wails of those lost outside. Just rats for now, but ‘they’ are lost no longer, they come back to us now, but different - corrupted.\"",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "ailment_build",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

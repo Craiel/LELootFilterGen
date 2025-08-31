@@ -22,5 +22,49 @@
     "35% less Necrotic Damage Taken on Block"
   ],
   "lore": "Striking the Dreadnought would be their greatest feat yet, a win to remember that would silence those wishing to surrender to the Empire. However, for the captain freeing the whales was the true reward.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "flurry",
+      "lethal mirage"
+    ],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "block",
+      "resistance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "flurry_synergy",
+      "lethal_mirage_synergy",
+      "ward_defense",
+      "block_defense",
+      "resistance_defense",
+      "damage_reduction_defense",
+      "shield_slot",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

@@ -19,5 +19,47 @@
     "(12% to 20%) increased Melee Attack Speed"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

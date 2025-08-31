@@ -15,5 +15,36 @@
     "+4 Arrows with Multishot"
   ],
   "lore": "\"Enemies lie to the north, south, east, and west, but it matters not whence they come; Welryn must not fall.\" Drelkor, last Lord of the Lakes.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "multishot"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "ranged_build",
+      "caster_build",
+      "ailment_build",
+      "multishot_synergy",
+      "mana_defense",
+      "bow_slot",
+      "rogue_class",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

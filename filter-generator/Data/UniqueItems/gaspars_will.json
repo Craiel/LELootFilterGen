@@ -20,5 +20,40 @@
     "100% Increased Area with Decimate"
   ],
   "lore": "I failed to protect. I failed to lead. Destruction is all that is left.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "sceptre_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

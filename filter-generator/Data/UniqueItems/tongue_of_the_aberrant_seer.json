@@ -16,5 +16,38 @@
     "(30% to 40%) increased Poison Damage"
   ],
   "lore": "Litugy in darkness leads only to despair, poison on the tongue beguiles the soul, truth in unwords reveals salvation.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "dodge"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "dodge_defense",
+      "ring_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

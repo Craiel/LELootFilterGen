@@ -21,5 +21,39 @@
     "(13% to 20%) chance to recover 8% of Aerial Assault's remaining cooldown on Throwing Hit (up to 3 times)Remaining number of cooldown recoveries resets when you use Aerial Assault"
   ],
   "lore": "",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "tank",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "tank_build",
+      "armor_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "boots_slot",
+      "end_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

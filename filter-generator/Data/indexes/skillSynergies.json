@@ -1,0 +1,1438 @@
+{
+  "summon skeleton": [
+    {
+      "name": "Aaron's Will",
+      "category": "Body Armor",
+      "levelRequirement": 75,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Army of Skin",
+      "category": "Boots",
+      "levelRequirement": 49,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Bone Harvester",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 21,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Hollow Finger",
+      "category": "Ring",
+      "levelRequirement": 31,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Lethal Concentration",
+      "category": "Two-Handed Spear",
+      "levelRequirement": 58,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Pebbles' Bitemarked Sash",
+      "category": "Belt",
+      "levelRequirement": 12,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Pebbles' Collar",
+      "category": "Relic",
+      "levelRequirement": 12,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Pebbles' Femur",
+      "category": "Wand",
+      "levelRequirement": 30,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Sinathia's Resurrection",
+      "category": "Shield",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Torch Of The Pontifex",
+      "category": "Two-Handed Mace",
+      "levelRequirement": 20,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "summon warrior": [
+    {
+      "name": "Aaron's Will",
+      "category": "Body Armor",
+      "levelRequirement": 75,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Very rare"
+    }
+  ],
+  "summon golem": [
+    {
+      "name": "Aaron's Will",
+      "category": "Body Armor",
+      "levelRequirement": 75,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Pebbles' Bitemarked Sash",
+      "category": "Belt",
+      "levelRequirement": 12,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Pebbles' Collar",
+      "category": "Relic",
+      "levelRequirement": 12,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Pebbles' Femur",
+      "category": "Wand",
+      "levelRequirement": 30,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "summon wraith": [
+    {
+      "name": "Aberrant Call",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 38,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Ghost Maker",
+      "category": "Dagger",
+      "levelRequirement": 61,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Wraithlord's Harbour",
+      "category": "Helmet",
+      "levelRequirement": 65,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "void cleave": [
+    {
+      "name": "Aberroth's Command",
+      "category": "Sceptre",
+      "levelRequirement": 65,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Darkstride",
+      "category": "Boots",
+      "levelRequirement": 19,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "hail of arrows": [
+    {
+      "name": "Acidfletch",
+      "category": "Bow",
+      "levelRequirement": 60,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Sanguine Hoard",
+      "category": "Quiver",
+      "levelRequirement": 44,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "flame ward": [
+    {
+      "name": "Aergon's Refuge",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 70,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Horn of the Bone Wisp",
+      "category": "Wand",
+      "levelRequirement": 31,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "The Invoker's Scorching Grasp",
+      "category": "Ring",
+      "levelRequirement": 35,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "harvest": [
+    {
+      "name": "Army of Skin",
+      "category": "Boots",
+      "levelRequirement": 49,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Bone Harvester",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 21,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Death's Embrace",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 75,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Eulogy of Blood",
+      "category": "One-Handed Axe",
+      "levelRequirement": 83,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Executioner's Tithe",
+      "category": "One-Handed Axe",
+      "levelRequirement": 70,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Lethal Concentration",
+      "category": "Two-Handed Spear",
+      "levelRequirement": 58,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Murama's Hilt",
+      "category": "Relic",
+      "levelRequirement": 46,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Orchirian's Petals",
+      "category": "Relic",
+      "levelRequirement": 35,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Pact Severance",
+      "category": "One-Handed Axe",
+      "levelRequirement": 71,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "rip blood": [
+    {
+      "name": "Army of Skin",
+      "category": "Boots",
+      "levelRequirement": 49,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Eulogy of Blood",
+      "category": "One-Handed Axe",
+      "levelRequirement": 83,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "summon wolf": [
+    {
+      "name": "Artor's Legacy",
+      "category": "Helmet",
+      "levelRequirement": 44,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Boardman's Fallacy",
+      "category": "Body Armor",
+      "levelRequirement": 63,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Boardman's Legacy",
+      "category": "Helmet",
+      "levelRequirement": 63,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Boardman's Plank",
+      "category": "Sceptre",
+      "levelRequirement": 63,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Chorus of the Anurok",
+      "category": "Helmet",
+      "levelRequirement": 73,
+      "classRequirement": "Primalist",
+      "dropRarity": null
+    },
+    {
+      "name": "Hakar's Phoenix",
+      "category": "One-Handed Axe",
+      "levelRequirement": 63,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Harthenon's Vow",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 1,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Herald of the Scurry",
+      "category": "Helmet",
+      "levelRequirement": 73,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Howl of the West Wind",
+      "category": "Helmet",
+      "levelRequirement": 24,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Naal's Tooth",
+      "category": "One-Handed Sword",
+      "levelRequirement": 64,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "The Claw",
+      "category": "Amulet",
+      "levelRequirement": 4,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Fang",
+      "category": "Amulet",
+      "levelRequirement": 58,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Land Before",
+      "category": "Adorned Idol",
+      "levelRequirement": 32,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    }
+  ],
+  "smite": [
+    {
+      "name": "Aurelis",
+      "category": "One-Handed Sword",
+      "levelRequirement": 50,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Devotion",
+      "category": "Amulet",
+      "levelRequirement": 71,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Essence Weaver",
+      "category": "Two-Handed Spear",
+      "levelRequirement": 68,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Orian's Descent",
+      "category": "Belt",
+      "levelRequirement": 40,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Palarus's Sacred Light",
+      "category": "One-Handed Sword",
+      "levelRequirement": 6,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Judicator",
+      "category": "Two-Handed Spear",
+      "levelRequirement": 76,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "lightning blast": [
+    {
+      "name": "Battlemage's Endeavour",
+      "category": "Two-Handed Sword",
+      "levelRequirement": 46,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Dragorath's Claw",
+      "category": "Dagger",
+      "levelRequirement": 37,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Mana Guide",
+      "category": "Amulet",
+      "levelRequirement": 30,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "lethal mirage": [
+    {
+      "name": "Black Blade of Chaos",
+      "category": "Two-Handed Sword",
+      "levelRequirement": 72,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Corsair's Blood Cowl",
+      "category": "Helmet",
+      "levelRequirement": 57,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Corsair's Boarding Shield",
+      "category": "Shield",
+      "levelRequirement": 35,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Fulgurite Shard",
+      "category": "Dagger",
+      "levelRequirement": 71,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Penumbra",
+      "category": "Ring",
+      "levelRequirement": 45,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "summon spriggan": [
+    {
+      "name": "Bloodkeeper's Nest",
+      "category": "Relic",
+      "levelRequirement": 70,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Eterra's Path",
+      "category": "Boots",
+      "levelRequirement": 30,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Hazelroot",
+      "category": "Sceptre",
+      "levelRequirement": 21,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Legacy of the Quiet Forest",
+      "category": "Belt",
+      "levelRequirement": 50,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Roots of Vithrasil",
+      "category": "Boots",
+      "levelRequirement": 45,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Soul of the Mountain",
+      "category": "Relic",
+      "levelRequirement": 34,
+      "classRequirement": "Primalist",
+      "dropRarity": null
+    },
+    {
+      "name": "Tears of the Forest",
+      "category": "Amulet",
+      "levelRequirement": 28,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Valeroot",
+      "category": "Body Armor",
+      "levelRequirement": 35,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "summon thorn totem": [
+    {
+      "name": "Boardman's Fallacy",
+      "category": "Body Armor",
+      "levelRequirement": 63,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Boardman's Legacy",
+      "category": "Helmet",
+      "levelRequirement": 63,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Boardman's Plank",
+      "category": "Sceptre",
+      "levelRequirement": 63,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Ferebor's Chisel",
+      "category": "Dagger",
+      "levelRequirement": 71,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Ferebor's Persistence",
+      "category": "Ring",
+      "levelRequirement": 72,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Halvar's Pledge",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 46,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Omen of Thunder",
+      "category": "Belt",
+      "levelRequirement": 48,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Stormcarved Testament",
+      "category": "Relic",
+      "levelRequirement": 78,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Tempest Maw",
+      "category": "One-Handed Axe",
+      "levelRequirement": 51,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "tempest strike": [
+    {
+      "name": "Boardman's Plank",
+      "category": "Sceptre",
+      "levelRequirement": 63,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "summon bear": [
+    {
+      "name": "Bone Harvester",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 21,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Kermode's Cage",
+      "category": "Body Armor",
+      "levelRequirement": 54,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Plague Bearer's Staff",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 40,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Stormhide Paws",
+      "category": "Gloves",
+      "levelRequirement": 6,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Last Bear's Fury",
+      "category": "Gloves",
+      "levelRequirement": 31,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Last Bear's Lament",
+      "category": "Helmet",
+      "levelRequirement": 20,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Last Bear's Scorn",
+      "category": "Body Armor",
+      "levelRequirement": 27,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "maelstrom": [
+    {
+      "name": "Branch of Hallows",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 74,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Eye of Storms",
+      "category": "Amulet",
+      "levelRequirement": 85,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Yulia's Path",
+      "category": "Boots",
+      "levelRequirement": 79,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "warcry": [
+    {
+      "name": "Call of the Tundra",
+      "category": "Helmet",
+      "levelRequirement": 74,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Herald of the Scurry",
+      "category": "Helmet",
+      "levelRequirement": 73,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Howl of the West Wind",
+      "category": "Helmet",
+      "levelRequirement": 24,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Paranoia",
+      "category": "Helmet",
+      "levelRequirement": 85,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Snowdrift",
+      "category": "Boots",
+      "levelRequirement": 23,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "shift": [
+    {
+      "name": "Chimaera's Essence",
+      "category": "Amulet",
+      "levelRequirement": 22,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Horn of the Bone Wisp",
+      "category": "Wand",
+      "levelRequirement": 31,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Prism Wraps",
+      "category": "Body Armor",
+      "levelRequirement": 5,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Shadow String",
+      "category": "Bow",
+      "levelRequirement": 11,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Smoke Weaver",
+      "category": "Dagger",
+      "levelRequirement": 52,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Stymied Fate",
+      "category": "Boots",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "summon storm crows": [
+    {
+      "name": "Chorus of the Anurok",
+      "category": "Helmet",
+      "levelRequirement": 73,
+      "classRequirement": "Primalist",
+      "dropRarity": null
+    },
+    {
+      "name": "Fractured Crown",
+      "category": "Helmet",
+      "levelRequirement": 56,
+      "classRequirement": "Mage",
+      "dropRarity": null
+    },
+    {
+      "name": "Naal's Tooth",
+      "category": "One-Handed Sword",
+      "levelRequirement": 64,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "The Ashen Crown",
+      "category": "Helmet",
+      "levelRequirement": 33,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Butcher's Crown",
+      "category": "Helmet",
+      "levelRequirement": 72,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "The Inevitable",
+      "category": "Boots",
+      "levelRequirement": 83,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Vilatria's Storm Crown",
+      "category": "Helmet",
+      "levelRequirement": 14,
+      "classRequirement": "Mage",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Wraithlord's Harbour",
+      "category": "Helmet",
+      "levelRequirement": 65,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "wandering spirits": [
+    {
+      "name": "Chronicle of the Damned",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 8,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Flames of Midnight",
+      "category": "Ring",
+      "levelRequirement": 52,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Unearthed Memories",
+      "category": "Relic",
+      "levelRequirement": 40,
+      "classRequirement": "Acolyte",
+      "dropRarity": null
+    }
+  ],
+  "fireball": [
+    {
+      "name": "Cinder Song",
+      "category": "Wand",
+      "levelRequirement": 40,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Liath's Machinations",
+      "category": "Gloves",
+      "levelRequirement": 26,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "puncture": [
+    {
+      "name": "Clotho's Needle",
+      "category": "Two-Handed Sword",
+      "levelRequirement": 68,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Longshot",
+      "category": "Bow",
+      "levelRequirement": 23,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Troaka's Teeth",
+      "category": "Quiver",
+      "levelRequirement": 44,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "sentinel": [
+    {
+      "name": "Code of an Erased Sentinel",
+      "category": "Relic",
+      "levelRequirement": 30,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
+    }
+  ],
+  "flurry": [
+    {
+      "name": "Corsair's Boarding Shield",
+      "category": "Shield",
+      "levelRequirement": 35,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Flight of the First",
+      "category": "Bow",
+      "levelRequirement": 58,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Quicksilver Coil",
+      "category": "Ring",
+      "levelRequirement": 12,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "lightning nova": [
+    {
+      "name": "Crest of Unity",
+      "category": "Helmet",
+      "levelRequirement": 60,
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "focus": [
+    {
+      "name": "Crest of Unity",
+      "category": "Helmet",
+      "levelRequirement": 60,
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Mana Guide",
+      "category": "Amulet",
+      "levelRequirement": 30,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "elemental nova": [
+    {
+      "name": "Crest of Unity",
+      "category": "Helmet",
+      "levelRequirement": 60,
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "The Ashen Crown",
+      "category": "Helmet",
+      "levelRequirement": 33,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Unstable Core",
+      "category": "Body Armor",
+      "levelRequirement": 77,
+      "classRequirement": "Mage",
+      "dropRarity": "Rare"
+    }
+  ],
+  "glacier": [
+    {
+      "name": "Dominance of the Tundra",
+      "category": "Helmet",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "multishot": [
+    {
+      "name": "Drelkor's Compass",
+      "category": "Bow",
+      "levelRequirement": 64,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Flight of the First",
+      "category": "Bow",
+      "levelRequirement": 58,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Nightbringer",
+      "category": "Quiver",
+      "levelRequirement": 68,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "acid flask": [
+    {
+      "name": "Drought's Release",
+      "category": "Dagger",
+      "levelRequirement": 27,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Elecoe's Abandon",
+      "category": "Body Armor",
+      "levelRequirement": 40,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Hive Mind",
+      "category": "Helmet",
+      "levelRequirement": 58,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Vial of Volatile Ice",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 1,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "fury leap": [
+    {
+      "name": "Flight of Quetzeri",
+      "category": "Boots",
+      "levelRequirement": 13,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Frey's Retreat",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 62,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Stymied Fate",
+      "category": "Boots",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Yrun's Penance",
+      "category": "One-Handed Sword",
+      "levelRequirement": 4,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "teleport": [
+    {
+      "name": "Fragment of the Enigma",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 46,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Silvafrond",
+      "category": "Ring",
+      "levelRequirement": 44,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Stymied Fate",
+      "category": "Boots",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Wrongwarp",
+      "category": "Wand",
+      "levelRequirement": 83,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    }
+  ],
+  "dancing strikes": [
+    {
+      "name": "Gladiator's Oath",
+      "category": "One-Handed Sword",
+      "levelRequirement": 31,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "avalanche": [
+    {
+      "name": "Halvar's Pledge",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 46,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Halvar's Stand",
+      "category": "Boots",
+      "levelRequirement": 45,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Last Gift of the Mountain",
+      "category": "Relic",
+      "levelRequirement": 42,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "judgement": [
+    {
+      "name": "Hand of Judgement",
+      "category": "Gloves",
+      "levelRequirement": 24,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Rahyeh's Light",
+      "category": "Shield",
+      "levelRequirement": 76,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "The Judicator",
+      "category": "Two-Handed Spear",
+      "levelRequirement": 76,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "lunge": [
+    {
+      "name": "Harbinger's Needle",
+      "category": "Small Idol",
+      "levelRequirement": 1,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Paranoia",
+      "category": "Helmet",
+      "levelRequirement": 85,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Penumbra",
+      "category": "Ring",
+      "levelRequirement": 45,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Sinathia's Dying Breath",
+      "category": "One-Handed Mace",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Stymied Fate",
+      "category": "Boots",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "meteor": [
+    {
+      "name": "Harbinger of Stars",
+      "category": "Belt",
+      "levelRequirement": 36,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Vilatria's Downfall",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 46,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "decoy": [
+    {
+      "name": "Hive Mind",
+      "category": "Helmet",
+      "levelRequirement": 58,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Kelthan Blasting Agent",
+      "category": "Relic",
+      "levelRequirement": 38,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    }
+  ],
+  "disintegrate": [
+    {
+      "name": "Ignivar's Head",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 50,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "detonating arrow": [
+    {
+      "name": "Jelkhor's Blast Knife",
+      "category": "Dagger",
+      "levelRequirement": 36,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "dread shade": [
+    {
+      "name": "Lich's Envy",
+      "category": "Gloves",
+      "levelRequirement": 64,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Lich's Scorn",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 63,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Scales of Lemniscate",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 82,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "shield rush": [
+    {
+      "name": "Monument of Protection",
+      "category": "One-Handed Axe",
+      "levelRequirement": 52,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "summon raptor": [
+    {
+      "name": "Naal's Tooth",
+      "category": "One-Handed Sword",
+      "levelRequirement": 64,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    }
+  ],
+  "volatile reversal": [
+    {
+      "name": "Orian's Descent",
+      "category": "Belt",
+      "levelRequirement": 40,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "bone curse": [
+    {
+      "name": "Pearls of the Swine",
+      "category": "Amulet",
+      "levelRequirement": 58,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "shadow daggers": [
+    {
+      "name": "Penumbra",
+      "category": "Ring",
+      "levelRequirement": 45,
+      "classRequirement": null,
+      "dropRarity": null
+    }
+  ],
+  "transplant": [
+    {
+      "name": "Pyre of Affliction",
+      "category": "Two-Handed Axe",
+      "levelRequirement": 76,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Stymied Fate",
+      "category": "Boots",
+      "levelRequirement": 60,
+      "classRequirement": null,
+      "dropRarity": null
+    },
+    {
+      "name": "Wrongwarp",
+      "category": "Wand",
+      "levelRequirement": 83,
+      "classRequirement": null,
+      "dropRarity": "Very rare"
+    }
+  ],
+  "tornado": [
+    {
+      "name": "Rule of the Simoon",
+      "category": "Gloves",
+      "levelRequirement": 72,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "devouring orb": [
+    {
+      "name": "Shadow Beacon",
+      "category": "Two-Handed Mace",
+      "levelRequirement": 51,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "smoke bomb": [
+    {
+      "name": "Shadow String",
+      "category": "Bow",
+      "levelRequirement": 11,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Stealth",
+      "category": "Boots",
+      "levelRequirement": 79,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "soul feast": [
+    {
+      "name": "Soul Bastion",
+      "category": "Shield",
+      "levelRequirement": 15,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Wheel of Torment",
+      "category": "Two-Handed Staff",
+      "levelRequirement": 75,
+      "classRequirement": null,
+      "dropRarity": "Rare"
+    }
+  ],
+  "drain life": [
+    {
+      "name": "Stygian Coal",
+      "category": "Off-Hand Catalyst",
+      "levelRequirement": 36,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "forge strike": [
+    {
+      "name": "Sunforged Cuirass",
+      "category": "Body Armor",
+      "levelRequirement": 60,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Sunforged Greathelm",
+      "category": "Helmet",
+      "levelRequirement": 72,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Sunforged Hammer",
+      "category": "Two-Handed Mace",
+      "levelRequirement": 68,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "snap freeze": [
+    {
+      "name": "The Invoker's Frozen Heart",
+      "category": "Amulet",
+      "levelRequirement": 24,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ],
+  "static orb": [
+    {
+      "name": "Triboelectra",
+      "category": "Wand",
+      "levelRequirement": 45,
+      "classRequirement": null,
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "ballista": [
+    {
+      "name": "Uethrin's Stand",
+      "category": "Bow",
+      "levelRequirement": 36,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    }
+  ],
+  "warpath": [
+    {
+      "name": "Vortex Pennant",
+      "category": "Relic",
+      "levelRequirement": 12,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
+    }
+  ],
+  "mana strike": [
+    {
+      "name": "Yrun's Penance",
+      "category": "One-Handed Sword",
+      "levelRequirement": 4,
+      "classRequirement": null,
+      "dropRarity": "Common"
+    }
+  ]
+}

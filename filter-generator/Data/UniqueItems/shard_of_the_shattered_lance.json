@@ -17,5 +17,45 @@
     "5% Increased Melee Cold Damage per 10 Health Regen, up to 1500%Any additional health regen has an effect, there are not thresholds every 10."
   ],
   "lore": "Dreams of deicide reflected in ice.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "health_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "end_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

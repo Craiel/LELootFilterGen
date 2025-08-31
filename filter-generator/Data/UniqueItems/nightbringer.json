@@ -18,5 +18,41 @@
     "(100% to 154%) Increased Blind Duration"
   ],
   "lore": "Most flee from the encroaching void and cower beneath the soil, but those with greater aspirations do not run from power, however terrifying it might be. Hunt the rifts and you will find what you seek.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "tank",
+      "ailment",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "multishot"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "tank_build",
+      "ailment_build",
+      "multishot_synergy",
+      "health_defense",
+      "quiver_slot",
+      "end_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

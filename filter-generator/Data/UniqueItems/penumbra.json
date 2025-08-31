@@ -16,5 +16,46 @@
     "(5 to 10) Health Gain on Crit"
   ],
   "lore": "Honour has no place in the arena. To defeat the mightiest foes, a champion must dance on the edge of shadows, preparing for the perfect moment to strike.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "critical",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "shadow daggers",
+      "lethal mirage",
+      "lunge"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "tank_build",
+      "shadow_daggers_synergy",
+      "lethal_mirage_synergy",
+      "lunge_synergy",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "ring_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

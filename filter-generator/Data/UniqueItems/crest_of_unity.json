@@ -20,5 +20,63 @@
     "(18% to 9%) less Damage Taken from Ignited Shocked or Chilled EnemiesMultiplicative with other modifiers. Only applies once even if more than one of these ailments are applied."
   ],
   "lore": "In the waning years of his reign Lord Drelkor forbade the mages of Welryn from focusing their studies on any single element, lest their research lead them to aligning with forces beyond his domain.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "lightning nova",
+      "focus",
+      "elemental nova"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "mana",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "lightning_nova_synergy",
+      "focus_synergy",
+      "elemental_nova_synergy",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "mana_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "helmet_slot",
+      "mage_class",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

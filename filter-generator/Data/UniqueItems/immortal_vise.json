@@ -19,5 +19,44 @@
     "+(6 to 9) Strength"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "dot",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech",
+      "endurance",
+      "immunity",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "endurance_defense",
+      "immunity_defense",
+      "damage_reduction_defense",
+      "gloves_slot",
+      "end_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -21,5 +21,50 @@
     "+2 to Level of Avalanche"
   ],
   "lore": "The mountain was sad to lose a friend as true as Halvar.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [
+      "avalanche"
+    ],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "avalanche_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "relic_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

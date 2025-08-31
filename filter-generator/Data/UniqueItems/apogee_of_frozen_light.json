@@ -17,5 +17,48 @@
     "When you Hit an enemy with a melee attack you expend a stack of Frozen Vengeance to grant all your minions Frenzy and 24% more Damage to Chilled Enemies for 8 seconds and Freeze up to 8 nearby normal and magic enemies for 3 secondsThis effect cannot trigger more than once per second and the buff does not stack. The freeze has a range limit of 8 metres."
   ],
   "lore": "Formosus knew not what cause these warriors had fought for, or what ancient conflict left their bodies frozen upon the outer ice. But, as he felt the rage and power of their lingering souls he knew well what purpose they would now fulfill.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "transformation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "transformation_build",
+      "support_build"
+    ]
+  }
 }

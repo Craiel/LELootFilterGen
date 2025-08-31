@@ -17,5 +17,41 @@
     "+2 to Level of Cold Melee Skills"
   ],
   "lore": "Falter not before the fire nor the ice, but let your ambition be your wings and soar above them both.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

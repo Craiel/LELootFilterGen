@@ -21,5 +21,58 @@
     "When a minion dies you have a (36 to 49)% Chance to cast Sacrifice on your lowest health minion (up to 2 times per second)Only counts your minions' deaths. Can be triggered by sacrificing a minion."
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "harvest"
+    ],
+    "damageTypes": [
+      "cold",
+      "necrotic",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "harvest_synergy",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

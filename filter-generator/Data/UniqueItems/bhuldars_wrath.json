@@ -18,5 +18,45 @@
     "100% of Armour Shred Chance Converted to Ignite Chance for Earthquake"
   ],
   "lore": "Shatter! Erupt! This world is only a prison for the immortal flame.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "conversion_enabler",
+      "trigger_mechanic",
+      "two-handed_mace_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

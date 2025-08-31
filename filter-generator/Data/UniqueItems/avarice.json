@@ -16,5 +16,42 @@
     "+13% Elemental Resistance"
   ],
   "lore": "Have the wisdom to know what is rightfully yours and the will to seize it.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "mana",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "gloves_slot",
+      "early_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

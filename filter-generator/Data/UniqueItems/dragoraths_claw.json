@@ -20,5 +20,52 @@
     "+(37% to 47%) Spell Critical Strike Multiplier"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "dot",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "lightning blast"
+    ],
+    "damageTypes": [
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "lightning_blast_synergy",
+      "ward_defense",
+      "resistance_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "dagger_slot",
+      "mid_game",
+      "multi_damage_type",
+      "dot_build",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

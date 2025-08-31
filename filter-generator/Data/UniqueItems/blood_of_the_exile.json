@@ -19,5 +19,34 @@
     "+(5 to 8) Intelligence"
   ],
   "lore": "Fleeing does not stem the flow",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "boots_slot",
+      "mid_game",
+      "speed_build"
+    ]
+  }
 }

@@ -18,5 +18,47 @@
     "(10% to 5%) less Elemental Damage Taken"
   ],
   "lore": "Time collapsing void\nObservation... destruction\nBring her light with you",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "mana",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "mana_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "helmet_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

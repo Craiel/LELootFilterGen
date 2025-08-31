@@ -18,5 +18,52 @@
     "250% of Mana Spent Reflected to you as DamageThis does not count as being hit and is not affected by any mitigation affects. If this effect would kill you it instead leaves you on 1 health."
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "mana",
+      "leech",
+      "immunity",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "immunity_defense",
+      "damage_reduction_defense",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

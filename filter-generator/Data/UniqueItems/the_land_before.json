@@ -12,5 +12,32 @@
     "+(36% to 56%) Minion Physical Resistance"
   ],
   "lore": "Before the falling of the temple and the strife of gods, there was peace between the osprix, the wengari, the meruna, and the nagasa.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank"
+    ],
+    "skillSynergies": [
+      "summon wolf"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "minion_build",
+      "tank_build",
+      "summon_wolf_synergy",
+      "resistance_defense",
+      "adorned_idol_slot",
+      "primalist_class",
+      "mid_game"
+    ]
+  }
 }

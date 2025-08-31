@@ -16,5 +16,34 @@
     "-75% Physical Resistance"
   ],
   "lore": "The rebel Suloron struck deep into Majasa's territory, but his fervour could not save him from the matrons' blades.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "boots_slot",
+      "end_game",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

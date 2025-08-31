@@ -18,5 +18,37 @@
     "+(155 to 385) Block Effectiveness"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "block",
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "tank_build",
+      "ward_defense",
+      "block_defense",
+      "health_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "mid_game",
+      "dot_build",
+      "resource_build"
+    ]
+  }
 }

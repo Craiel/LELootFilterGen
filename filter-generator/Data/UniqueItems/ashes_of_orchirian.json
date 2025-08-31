@@ -19,5 +19,46 @@
     "89% increased Physical and Fire Damage"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "relic_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

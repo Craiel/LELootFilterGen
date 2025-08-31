@@ -17,5 +17,29 @@
     "+(35 to 65) Health"
   ],
   "lore": "Some slabs mark the dead, this one marks the living.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "block",
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "block_defense",
+      "health_defense",
+      "damage_reduction_defense",
+      "shield_slot",
+      "early_game",
+      "resource_build"
+    ]
+  }
 }

@@ -17,5 +17,53 @@
     "+(30 to 40) necrotic damage to melee attacks and spells for 4 seconds on potion use"
   ],
   "lore": "Take a quaff from draught of undeath.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

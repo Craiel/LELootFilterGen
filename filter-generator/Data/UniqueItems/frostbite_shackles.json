@@ -16,5 +16,49 @@
     "+1% Ward Retention per 2% uncapped Cold Resistance"
   ],
   "lore": "All the advances and discoveries of this great empire, yet even in death we remain frozen in place, shackled to this mortal plane.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

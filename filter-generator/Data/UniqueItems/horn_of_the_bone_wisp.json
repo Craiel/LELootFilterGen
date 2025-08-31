@@ -21,5 +21,54 @@
     "(100% to 160%) increased Minion Damage"
   ],
   "lore": "Wisps once took physical form upon the shifting surface of Eterra",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "flame ward",
+      "shift"
+    ],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "physical_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "flame_ward_synergy",
+      "shift_synergy",
+      "ward_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "wand_slot",
+      "mid_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

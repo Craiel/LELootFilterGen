@@ -18,5 +18,36 @@
     "+70% Melee Critical Strike Multiplier during Apocalypse"
   ],
   "lore": "Hold steadfast at the edge of light.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "block",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "armor_defense",
+      "block_defense",
+      "health_defense",
+      "shield_slot",
+      "end_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

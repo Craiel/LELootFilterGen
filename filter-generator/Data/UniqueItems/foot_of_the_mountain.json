@@ -18,5 +18,42 @@
     "100% of Dodge Rating converted to Endurance Threshold while you have at least 1 stack of Mountain's Endurance"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "mana",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "dodge_defense",
+      "mana_defense",
+      "endurance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "boots_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

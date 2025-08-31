@@ -22,5 +22,58 @@
     "Storm Totem can hit allies to grant 21 ward"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "summon wolf",
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "physical_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_wolf_synergy",
+      "summon_thorn totem_synergy",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "body_armor_slot",
+      "primalist_class",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

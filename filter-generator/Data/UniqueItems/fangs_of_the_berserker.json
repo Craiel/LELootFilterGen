@@ -19,5 +19,42 @@
     "1% increased Effect of Frenzy per Strength"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "health",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "health_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

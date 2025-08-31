@@ -21,5 +21,42 @@
     "(20% to 35%) increased Cooldown Recovery Speed for Evade"
   ],
   "lore": "",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "ailment",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "static orb"
+    ],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "caster_build",
+      "ailment_build",
+      "static_orb_synergy",
+      "mana_defense",
+      "trigger_mechanic",
+      "wand_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

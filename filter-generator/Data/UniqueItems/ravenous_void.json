@@ -21,5 +21,49 @@
     "+(60 to 100) Endurance Threshold"
   ],
   "lore": "A pair of mimic brothers, lost in the ravenous void, hungry for anyone who dips their hands inside.",
-  "dropRarity": "Extremely rare"
+  "dropRarity": "Extremely rare",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech",
+      "endurance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "endurance_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

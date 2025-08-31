@@ -23,5 +23,50 @@
     "If you have at least 135 Dexterity you repeat it at up to 3 nearby enemies instead"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "poison_damage",
+      "ranged_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "mana_defense",
+      "threshold_mechanic",
+      "bow_slot",
+      "rogue_class",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

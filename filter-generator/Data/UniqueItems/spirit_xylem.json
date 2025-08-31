@@ -22,5 +22,38 @@
     "(20% to 10%) less Damage Taken from Bosses and Rare Enemies while below half mana"
   ],
   "lore": "The crystal wood inside carries spirits to their rightful destination",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "health_defense",
+      "mana_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

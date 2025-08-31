@@ -19,5 +19,45 @@
     "1% more Damage per stack of Shock"
   ],
   "lore": "Empires rise and fall like the waves, but the ocean's might is eternal.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "caster_build",
+      "ailment_build",
+      "mana_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "ring_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

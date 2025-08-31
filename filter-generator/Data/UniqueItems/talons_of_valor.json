@@ -17,5 +17,30 @@
     "When you Critically Strike an enemy your Falcon gains +25 Melee Damage for 4 seconds and your Falcon Abilities recover 25% of their remaining cooldown (1 second cooldown)Falcon Abilities are Falcon Strikes, Dive Bomb, and Aerial Assault."
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "ranged_build",
+      "trigger_mechanic",
+      "bow_slot",
+      "rogue_class",
+      "mid_game",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

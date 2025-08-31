@@ -16,5 +16,42 @@
     "Endurance applies to (5 to 9) additional Health per 10 Missing ManaThis effectively raises your endurance threshold for calculating damage taken, but it does not count as endurance threshold for any other effects that depend on your endurance threshold."
   ],
   "lore": "\"Such insight wasted on a lost timeline. It is for naught now, but it proves thy worth.\" - The Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "mana",
+      "endurance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "health_defense",
+      "mana_defense",
+      "endurance_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "relic_slot",
+      "mage_class",
+      "mid_game",
+      "resource_build"
+    ]
+  }
 }

@@ -16,5 +16,40 @@
     "100% chance to Cleanse All Ailments on Potion UseCleanses all negative ailments such as slow and ignite, but not stun and freeze, which are not ailments."
   ],
   "lore": "The pyromancers following the Fire Lich, Cremorus, perfected the technique of burning their own souls to fuel their dark magic.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

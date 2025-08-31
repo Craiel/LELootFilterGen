@@ -17,5 +17,41 @@
     "-1% physical and cold resistance per point of dexterity"
   ],
   "lore": "Spread ice with every step, like frost before sunrise.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "scaling_mechanic",
+      "boots_slot",
+      "early_game",
+      "multi_damage_type",
+      "speed_build"
+    ]
+  }
 }

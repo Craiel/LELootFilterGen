@@ -17,5 +17,47 @@
     "1% less Damage Taken per 2% Resistance above the normal resistance cap (up to 20% less Damage Taken)Multiplicative with other modifiers. For example having 85% fire resistance will cause you to take 5% less fire damage, because it's 10% above the normal 75% cap."
   ],
   "lore": "Gorge on the prophecies of futures lost",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

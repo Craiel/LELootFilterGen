@@ -19,5 +19,56 @@
     "+1 Maximum SkeletonAffects the Acolyte's Summon Skeleton skill"
   ],
   "lore": "Only brittle skin remains.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon skeleton"
+    ],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_skeleton_synergy",
+      "resistance_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

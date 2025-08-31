@@ -16,5 +16,46 @@
     "+(20 to 200) Endurance Threshold"
   ],
   "lore": "A visage unweathered by even time itself",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "endurance",
+      "immunity",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "physical_damage",
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "endurance_defense",
+      "immunity_defense",
+      "damage_reduction_defense",
+      "helmet_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

@@ -16,5 +16,39 @@
     "1% increased mana regeneration per 2% uncapped Lightning Resistance"
   ],
   "lore": "Strength of mind and strength of body are a potent combination.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "lightning_damage",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "early_game",
+      "resource_build"
+    ]
+  }
 }

@@ -17,5 +17,36 @@
     "+(4 to 9) Vitality"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "ranged_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "end_game",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

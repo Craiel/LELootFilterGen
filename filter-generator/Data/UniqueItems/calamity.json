@@ -19,5 +19,43 @@
     "(5% to 10%) increased Fire Cast Speed"
   ],
   "lore": "Set the world ablaze and burn along with it.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "helmet_slot",
+      "early_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

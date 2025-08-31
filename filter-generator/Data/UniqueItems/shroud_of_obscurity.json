@@ -18,5 +18,45 @@
     "+(3 to 13) Ward gained when you Dodge"
   ],
   "lore": "Shrouded in a fetid swamp, disregarded by the gods' watchful eyes, the witches of Urix honed the art of blood magic.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "dodge",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "ward_defense",
+      "dodge_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "acolyte_class",
+      "early_game",
+      "dot_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

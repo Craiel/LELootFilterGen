@@ -16,5 +16,57 @@
     "7% Chance to Summon a Primal Serpent on kill with Serpent StrikePrimal Serpents are melee minions that poison on hit. They have an unlimited duration, but do not regenerate health. You are limited to one Primal Serpent at a time."
   ],
   "lore": "The bite of the viper brings lethargy and death.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "dodge",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "void_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "dodge_defense",
+      "health_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "early_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

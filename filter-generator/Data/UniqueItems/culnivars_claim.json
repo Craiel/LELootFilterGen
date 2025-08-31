@@ -18,5 +18,43 @@
     "100% of mana converted to ward when you reach full manaDoes not trigger while your mana is replaced with Rage"
   ],
   "lore": "Culnivar, last scion of Liath, was a symbol of hope for the living slaves of Thetima.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "sceptre_slot",
+      "end_game",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

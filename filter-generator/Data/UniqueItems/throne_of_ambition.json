@@ -14,5 +14,39 @@
     "You lose all stacks of Ambition if you go 4 seconds without gaining a stack"
   ],
   "lore": "Argentus may have been born a mere slave of Rahyeh, but his ambition eclipsed even his god.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "caster_build",
+      "armor_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "adorned_idol_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

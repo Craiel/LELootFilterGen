@@ -15,5 +15,38 @@
     "(25% to 30%) more Physical Damage while at Full Health"
   ],
   "lore": "Strong in times of peace, brilliant in the day, generous in times of plenty, and absent when they fade.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "leech",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "tank_build",
+      "ward_defense",
+      "health_defense",
+      "leech_defense",
+      "regen_defense",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

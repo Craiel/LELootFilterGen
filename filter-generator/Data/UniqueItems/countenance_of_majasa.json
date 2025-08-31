@@ -17,5 +17,35 @@
     "+(150 to 300) Block Effectiveness"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "block_defense",
+      "trigger_mechanic",
+      "shield_slot",
+      "end_game",
+      "proc_build"
+    ]
+  }
 }

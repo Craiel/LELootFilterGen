@@ -22,5 +22,62 @@
     "(18% to 36%) of Current Health consumed by Grim Harvest"
   ],
   "lore": "Everything comes with a price - even death.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "harvest"
+    ],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "harvest_synergy",
+      "health_defense",
+      "mana_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_axe_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

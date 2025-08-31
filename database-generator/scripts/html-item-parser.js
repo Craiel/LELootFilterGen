@@ -14,6 +14,7 @@ class HTMLItemParser {
   constructor() {
     this.htmlFile = path.join(__dirname, '..', 'WebData', 'ItemList.html');
     this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
+    this.analyticsFile = path.join(__dirname, '..', 'Overrides', 'analytics_unique_items_data.json');
     this.logger = console;
   }
 
@@ -224,33 +225,73 @@ class HTMLItemParser {
   }
 
   /**
+   * Load enriched analytics data
+   */
+  async loadAnalyticsData() {
+    if (!await fs.pathExists(this.analyticsFile)) {
+      this.logger.warn('⚠️  No analytics file found, proceeding without enriched data');
+      return {};
+    }
+    
+    this.logger.log('📊 Loading enriched analytics data...');
+    const analytics = await fs.readJson(this.analyticsFile);
+    this.logger.log(`✅ Loaded analytics for ${Object.keys(analytics).length} items`);
+    return analytics;
+  }
+
+  /**
    * Save parsed data to files
    */
   async saveData(data) {
     await fs.ensureDir(this.outputDir);
     
+    // Load analytics data to enrich items
+    const analyticsData = await this.loadAnalyticsData();
+    
     // Save unique items
     const uniqueItemsDir = path.join(this.outputDir, 'UniqueItems');
     await fs.ensureDir(uniqueItemsDir);
     
-    this.logger.log('💾 Saving unique items...');
+    this.logger.log('💾 Saving unique items with enriched analytics...');
     
+    let enrichedCount = 0;
     for (const item of data.uniqueItems) {
+      // Add analytics data if available
+      const analytics = analyticsData[item.name];
+      if (analytics) {
+        item.analytics = {
+          buildArchetypes: analytics.buildArchetypes || [],
+          skillSynergies: analytics.skillSynergies || [],
+          damageTypes: analytics.damageTypes || [],
+          defensiveMechanisms: analytics.defensiveMechanisms || [],
+          buildEnablers: analytics.buildEnablers || [],
+          powerLevel: analytics.powerLevel || 'Standard',
+          buildTags: analytics.buildTags || []
+        };
+        enrichedCount++;
+      }
+      
       const fileName = `${item.name.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_')}.json`;
       const filePath = path.join(uniqueItemsDir, fileName);
       
       await fs.writeJson(filePath, item, { spaces: 2 });
     }
+    
+    this.logger.log(`📊 Enriched ${enrichedCount} items with analytics data`);
 
     // Save subtypes list
     const subtypesFile = path.join(this.outputDir, 'html_subtypes.json');
     await fs.writeJson(subtypesFile, data.subtypes, { spaces: 2 });
+
+    // Create analytics indexes for efficient querying
+    await this.createAnalyticsIndexes(data.uniqueItems, analyticsData);
 
     // Save summary
     const summary = {
       parseDate: new Date().toISOString(),
       totalUniqueItems: data.uniqueItems.length,
       totalSubtypes: data.subtypes.length,
+      enrichedItems: enrichedCount,
       categories: [...new Set(data.uniqueItems.map(item => item.category))].sort()
     };
 
@@ -262,6 +303,133 @@ class HTMLItemParser {
     this.logger.log(`📊 Parse summary saved to ${summaryFile}`);
 
     return summary;
+  }
+
+  /**
+   * Create analytics indexes for efficient querying
+   */
+  async createAnalyticsIndexes(uniqueItems, analyticsData) {
+    this.logger.log('🔍 Creating analytics indexes...');
+    
+    const indexesDir = path.join(this.outputDir, 'indexes');
+    await fs.ensureDir(indexesDir);
+    
+    const indexes = {
+      buildArchetypes: {},
+      skillSynergies: {},
+      damageTypes: {},
+      defensiveMechanisms: {},
+      buildEnablers: {},
+      powerLevels: {},
+      buildTags: {},
+      classRestricted: {}
+    };
+    
+    // Build indexes
+    for (const item of uniqueItems) {
+      const analytics = analyticsData[item.name];
+      if (!analytics) continue;
+      
+      const itemRef = {
+        name: item.name,
+        category: item.category,
+        levelRequirement: item.levelRequirement,
+        classRequirement: item.classRequirement,
+        dropRarity: item.dropRarity
+      };
+      
+      // Build archetype index
+      for (const archetype of analytics.buildArchetypes) {
+        if (!indexes.buildArchetypes[archetype]) indexes.buildArchetypes[archetype] = [];
+        indexes.buildArchetypes[archetype].push(itemRef);
+      }
+      
+      // Skill synergy index
+      for (const skill of analytics.skillSynergies) {
+        if (!indexes.skillSynergies[skill]) indexes.skillSynergies[skill] = [];
+        indexes.skillSynergies[skill].push(itemRef);
+      }
+      
+      // Damage type index
+      for (const damageType of analytics.damageTypes) {
+        if (!indexes.damageTypes[damageType]) indexes.damageTypes[damageType] = [];
+        indexes.damageTypes[damageType].push(itemRef);
+      }
+      
+      // Defensive mechanism index
+      for (const mechanism of analytics.defensiveMechanisms) {
+        if (!indexes.defensiveMechanisms[mechanism]) indexes.defensiveMechanisms[mechanism] = [];
+        indexes.defensiveMechanisms[mechanism].push(itemRef);
+      }
+      
+      // Build enabler index
+      for (const enabler of analytics.buildEnablers) {
+        if (!indexes.buildEnablers[enabler]) indexes.buildEnablers[enabler] = [];
+        indexes.buildEnablers[enabler].push(itemRef);
+      }
+      
+      // Power level index
+      const powerLevel = analytics.powerLevel;
+      if (!indexes.powerLevels[powerLevel]) indexes.powerLevels[powerLevel] = [];
+      indexes.powerLevels[powerLevel].push(itemRef);
+      
+      // Build tag index
+      for (const tag of analytics.buildTags) {
+        if (!indexes.buildTags[tag]) indexes.buildTags[tag] = [];
+        indexes.buildTags[tag].push(itemRef);
+      }
+      
+      // Class restricted index
+      if (item.classRequirement) {
+        if (!indexes.classRestricted[item.classRequirement]) indexes.classRestricted[item.classRequirement] = [];
+        indexes.classRestricted[item.classRequirement].push(itemRef);
+      }
+    }
+    
+    // Save individual index files
+    for (const [indexName, indexData] of Object.entries(indexes)) {
+      const indexFile = path.join(indexesDir, `${indexName}.json`);
+      await fs.writeJson(indexFile, indexData, { spaces: 2 });
+    }
+    
+    // Create comprehensive analytics summary
+    const analyticsSummary = {
+      metadata: {
+        createdDate: new Date().toISOString(),
+        totalItemsAnalyzed: Object.keys(analyticsData).length,
+        version: '1.0.0'
+      },
+      buildArchetypes: Object.keys(indexes.buildArchetypes).map(archetype => ({
+        name: archetype,
+        itemCount: indexes.buildArchetypes[archetype].length
+      })).sort((a, b) => b.itemCount - a.itemCount),
+      
+      skillSynergies: Object.keys(indexes.skillSynergies).map(skill => ({
+        name: skill,
+        itemCount: indexes.skillSynergies[skill].length
+      })).sort((a, b) => b.itemCount - a.itemCount),
+      
+      damageTypes: Object.keys(indexes.damageTypes).map(type => ({
+        name: type,
+        itemCount: indexes.damageTypes[type].length
+      })).sort((a, b) => b.itemCount - a.itemCount),
+      
+      powerDistribution: Object.keys(indexes.powerLevels).map(level => ({
+        tier: level,
+        itemCount: indexes.powerLevels[level].length
+      })),
+      
+      classDistribution: Object.keys(indexes.classRestricted).map(cls => ({
+        class: cls,
+        itemCount: indexes.classRestricted[cls].length
+      }))
+    };
+    
+    const analyticsSummaryFile = path.join(this.outputDir, 'analytics_summary.json');
+    await fs.writeJson(analyticsSummaryFile, analyticsSummary, { spaces: 2 });
+    
+    this.logger.log(`📊 Created ${Object.keys(indexes).length} analytics indexes`);
+    this.logger.log(`🔍 Analytics summary saved to analytics_summary.json`);
   }
 
   /**

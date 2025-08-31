@@ -14,5 +14,30 @@
     "+(11% to 20%) Fire Penetration"
   ],
   "lore": "As Wyvernfall burned nothing could escape the flames.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "bow_slot",
+      "rogue_class",
+      "early_game",
+      "speed_build"
+    ]
+  }
 }

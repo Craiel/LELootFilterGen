@@ -16,5 +16,32 @@
     "+(250 to 450) Block Effectiveness"
   ],
   "lore": "Eater of dreams, weaver of nightmares.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "block_defense",
+      "health_defense",
+      "two-handed_sword_slot",
+      "early_game",
+      "resource_build"
+    ]
+  }
 }

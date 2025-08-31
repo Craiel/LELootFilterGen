@@ -21,5 +21,38 @@
     "(4% to 10%) increased Cooldown Recovery Speed for Evade"
   ],
   "lore": "The wind chimes sing within the mines",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "ailment",
+      "dot",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "ranged_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "quiver_slot",
+      "end_game",
+      "dot_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

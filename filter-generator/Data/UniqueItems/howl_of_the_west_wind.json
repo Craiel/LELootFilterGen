@@ -19,5 +19,53 @@
     "(31% to 47%) chance on hit with Lightning Skills to grant your Wolves additional Melee Lightning Damage equal to your Melee Lightning DamageThis buff lasts 5 seconds and does not stack. This effect cannot trigger more than once per second. The duration of the buff is increased by your increased Shock Duration."
   ],
   "lore": "Dark clouds roll in from the Sea of the Storms",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "ailment",
+      "dot",
+      "minion_hybrid",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [
+      "summon wolf",
+      "warcry"
+    ],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "ailment_build",
+      "summon_wolf_synergy",
+      "warcry_synergy",
+      "armor_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "helmet_slot",
+      "primalist_class",
+      "mid_game",
+      "dot_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

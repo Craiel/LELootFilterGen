@@ -18,5 +18,41 @@
     "When you hit a bleeding enemy with a melee attack all bleed stacks on that enemy double in speedWhen a bleed stack's speed is double its duration is halved and its damage per second is doubled."
   ],
   "lore": "A bloody fervor clouds the mind.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_axe_slot",
+      "early_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

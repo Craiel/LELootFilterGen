@@ -18,5 +18,43 @@
     "+(61 to 72) Spell Damage"
   ],
   "lore": "The withered dragon Malatros taught his followers the art of chthonic fire and sorcery. The rage of dragons would not die with him.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "resistance_defense",
+      "scaling_mechanic",
+      "two-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

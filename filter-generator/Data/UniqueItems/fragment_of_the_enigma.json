@@ -19,5 +19,44 @@
     "When you cast Teleport you apply a Spark Charge to all enemies around the destination"
   ],
   "lore": "When the scholars of Vul'Kaur realised the artifact's power, they shattered it immediately and told not even Majasa of their discovery.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "teleport"
+    ],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "teleport_synergy",
+      "ward_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "off-hand_catalyst_slot",
+      "mid_game",
+      "dot_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

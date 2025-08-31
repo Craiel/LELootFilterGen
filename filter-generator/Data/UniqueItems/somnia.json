@@ -16,5 +16,36 @@
     "+(6 to 9) Vitality"
   ],
   "lore": "The very atmosphere is different here, what once slumbered is now awoken and free.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "ailment",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "trigger_mechanic",
+      "helmet_slot",
+      "end_game",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

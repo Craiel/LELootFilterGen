@@ -17,5 +17,39 @@
     "100% Chance to cast Tidal Wave when you use a Melee Attack (2 second cooldown)Tidal Wave deals cold damage to all enemies hit in a line in front of you."
   ],
   "lore": "Waves woven into steel.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "resistance_defense",
+      "trigger_mechanic",
+      "two-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

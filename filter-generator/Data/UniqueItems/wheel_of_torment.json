@@ -22,5 +22,44 @@
     "(15% to 21%) Chance to cast Chthonic Fissure when you hit a boss or rare enemy with Soul Feast and don't have an active Fissure"
   ],
   "lore": "The torment of consumed souls lingers within their devourer.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "soul feast"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "soul_feast_synergy",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "end_game",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

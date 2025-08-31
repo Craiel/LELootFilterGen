@@ -18,5 +18,44 @@
     "(16% to 26%) Chance to Reveal a Wandering Spirit on Kill (1 Second Cooldown)Scales with the Wandering Spirits tree"
   ],
   "lore": "The souls of those whose deaths are inked within these pages are bound to the book itself, forever cursed to serve the reader.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "wandering spirits"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "wandering_spirits_synergy",
+      "ward_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "off-hand_catalyst_slot",
+      "early_game",
+      "dot_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

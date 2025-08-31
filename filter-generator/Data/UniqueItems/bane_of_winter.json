@@ -22,5 +22,57 @@
     "(25% to 42%) of Added Melee Damage applied as Added Spell Damage to Cold and Void SpellsThe type of added spell damage matches the type of added melee damage, for example Melee Fire Damage would be added to Cold and Void Spells as Spell Fire Damage."
   ],
   "lore": "Time thaws all winters",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "physical",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "physical_damage",
+      "void_damage",
+      "elemental_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "ward_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

@@ -20,5 +20,43 @@
     "+3 Maximum Forged WeaponsForged Weapons can be summoned by Forge Strike and modified by its tree"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid"
+    ],
+    "skillSynergies": [
+      "forge strike"
+    ],
+    "damageTypes": [
+      "fire",
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "ailment_build",
+      "forge_strike_synergy",
+      "scaling_mechanic",
+      "two-handed_mace_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build"
+    ]
+  }
 }

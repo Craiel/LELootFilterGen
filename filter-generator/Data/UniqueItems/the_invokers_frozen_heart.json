@@ -17,5 +17,40 @@
     "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
   ],
   "lore": "...alone with ice in his heart, he gained mastery of his art...",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [
+      "snap freeze"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "elemental"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "elemental_damage",
+      "caster_build",
+      "ailment_build",
+      "snap_freeze_synergy",
+      "amulet_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

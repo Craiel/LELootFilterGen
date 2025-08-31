@@ -19,5 +19,39 @@
     "+3 Potion Slots if you have at least 900 Mana"
   ],
   "lore": "Above the skies the natural and the arcane are one.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "meteor"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "mana",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "caster_build",
+      "meteor_synergy",
+      "mana_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

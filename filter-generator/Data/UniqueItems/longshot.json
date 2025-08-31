@@ -19,5 +19,53 @@
     "+40 Bow Physical Damage if you have at least 40 Dexterity"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "puncture"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "dodge",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "physical_damage",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "puncture_synergy",
+      "dodge_defense",
+      "health_defense",
+      "leech_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "bow_slot",
+      "rogue_class",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

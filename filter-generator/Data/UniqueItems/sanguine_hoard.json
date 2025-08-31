@@ -17,5 +17,62 @@
     "(-15 to -10) Hail of Arrows Mana CostIf Hail of Arrows is channeled this does not affect the channel cost"
   ],
   "lore": "\"Our enemies have been hoarding their blood for far too long. Loose the arrows and let it return to Eterra.\"",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "hail of arrows"
+    ],
+    "damageTypes": [
+      "fire",
+      "poison",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "poison_damage",
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "hail_of arrows_synergy",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "quiver_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

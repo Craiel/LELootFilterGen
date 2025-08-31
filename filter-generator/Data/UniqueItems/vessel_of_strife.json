@@ -16,5 +16,36 @@
     "(40% to 66%) increased Void Damage"
   ],
   "lore": "The durance of strife is an impossible task. Boiling within, despair's sole fate is to erupt and envelop its vessel.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "relic_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

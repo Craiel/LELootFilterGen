@@ -18,5 +18,34 @@
     "(4 to 8) Health Gain on Stun"
   ],
   "lore": "Crush. Maul. Bludgeon.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "tank_build",
+      "ailment_build",
+      "health_defense",
+      "leech_defense",
+      "one-handed_mace_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

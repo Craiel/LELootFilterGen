@@ -20,5 +20,49 @@
     "(65% to 91%) Reduced Health Cost of Spells"
   ],
   "lore": "The obscene angles at which the patches of undead skin are arranged belies the unsettling precision required to produce such a steady stream of blood. A treasured implement for any Hemomancer.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "block_defense",
+      "health_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "shield_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

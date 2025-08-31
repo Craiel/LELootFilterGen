@@ -17,5 +17,42 @@
     "Each stack of Reen's Ire grants 5% melee critical strike multiplier and 10% increased fire damage over time"
   ],
   "lore": "Dance through the flames.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

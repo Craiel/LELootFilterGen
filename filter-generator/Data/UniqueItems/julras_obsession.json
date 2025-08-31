@@ -17,5 +17,40 @@
     "Stats on this item also apply to your minionsAttributes on minions have no effect."
   ],
   "lore": "\"This future must not come to pass. Surely there is some way, some power that can avert this horror?\"",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "minion_hybrid"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "void_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build"
+    ]
+  }
 }

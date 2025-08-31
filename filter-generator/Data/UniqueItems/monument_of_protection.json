@@ -21,5 +21,39 @@
     "5% reduced Movement Speed"
   ],
   "lore": "A shield dedicated to the great warrior, Arek, who gave his life to repel death from the city's walls.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "shield rush"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "tank_build",
+      "shield_rush_synergy",
+      "block_defense",
+      "health_defense",
+      "endurance_defense",
+      "one-handed_axe_slot",
+      "end_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

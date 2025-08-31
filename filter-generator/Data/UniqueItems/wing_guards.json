@@ -17,5 +17,38 @@
     "You cannot deal critical strikes"
   ],
   "lore": "Speed is its own accuracy.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "tank_build",
+      "armor_defense",
+      "dodge_defense",
+      "endurance_defense",
+      "trigger_mechanic",
+      "gloves_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

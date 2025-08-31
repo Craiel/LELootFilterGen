@@ -17,5 +17,42 @@
     "100% of Bleed Chance Converted to Ignite Chance"
   ],
   "lore": "Maehlin devoted his life to Rahyeh. Seeking to learn his will he reached into the god's mind. Rahyeh reached back into his and set his blood aflame.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "endurance_defense",
+      "gloves_slot",
+      "mid_game",
+      "multi_damage_type"
+    ]
+  }
 }

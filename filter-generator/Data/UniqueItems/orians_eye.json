@@ -15,5 +15,40 @@
     "(75 to 150)% increased duration of stun immunity after being stunned"
   ],
   "lore": "The future burns within the prophetic lense.",
-  "dropRarity": "Extremely rare"
+  "dropRarity": "Extremely rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "immunity",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "mana_defense",
+      "immunity_defense",
+      "damage_reduction_defense",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

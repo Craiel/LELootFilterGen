@@ -16,5 +16,40 @@
     "+100% Critical Strike Avoidance"
   ],
   "lore": "The pinnacle of necromancy is to weave undead flesh into any form you desire.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

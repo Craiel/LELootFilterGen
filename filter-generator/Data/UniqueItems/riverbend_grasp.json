@@ -16,5 +16,51 @@
     "(18% to 30%) Chance to Throw an Axe at a nearby enemy on hit (1 second cooldown)Axe Throw is a physical throwing attack"
   ],
   "lore": "Move with the fluidity of water, relax and you can react without resistance.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "resistance",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "dodge_defense",
+      "resistance_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "gloves_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

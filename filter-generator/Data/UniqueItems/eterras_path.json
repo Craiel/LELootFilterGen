@@ -18,5 +18,42 @@
     "+1 to Level of Entangling Roots"
   ],
   "lore": "Life grows in your footsteps.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_spriggan_synergy",
+      "armor_defense",
+      "health_defense",
+      "boots_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

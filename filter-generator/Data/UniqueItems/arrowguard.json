@@ -16,5 +16,36 @@
     "+(50 to 100) Armor"
   ],
   "lore": "\"Look only west and trust that the sun itself leads our march. \" - Pontixex Aurelus to the auxiliaries of Solarum",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "ranged_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "quiver_slot",
+      "early_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

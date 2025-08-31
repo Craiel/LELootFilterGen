@@ -22,5 +22,47 @@
     "+1 Spell Damage with Runic Invocation per 10 Armor, Dodge Rating, or Ward, whichever is lowest"
   ],
   "lore": "\"I have long travelled the north, Aergon. I have seen the great stone ruins at Reimhaven and Kolheim and I have seen the frozen blood of their ancient defenders. No tower can stand forever and those walls shall not avail you when the flames descends. You must strike first.\" - Reowyn's last letter to the mages of Oerden's Watch.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "dot",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "dodge",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "ward_defense",
+      "dodge_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "mid_game",
+      "multi_damage_type",
+      "dot_build",
+      "resource_build"
+    ]
+  }
 }

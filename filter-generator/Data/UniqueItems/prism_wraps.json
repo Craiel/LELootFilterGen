@@ -15,5 +15,41 @@
     "(3% to 8%) of Elemental Damage Leeched as Health on Crit"
   ],
   "lore": "The elements shift like light through a prism. If you control the prism you control the elements.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "shift"
+    ],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "shift_synergy",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "body_armor_slot",
+      "early_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

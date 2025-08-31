@@ -21,5 +21,41 @@
     "3% more Void Damage per stack of Time Rot"
   ],
   "lore": "Dread not the passage of time nor the eternal void beyond.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "dot",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "block_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "shield_slot",
+      "mid_game",
+      "proc_build"
+    ]
+  }
 }

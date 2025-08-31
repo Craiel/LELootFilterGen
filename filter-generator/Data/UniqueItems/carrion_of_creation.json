@@ -17,5 +17,49 @@
     "Primordial Blood gains (37 to 100)% Chance to inflict Bleed on Hit per stack of Bleed on the enemy killed (up to 20)"
   ],
   "lore": "\"From blood all is brought forth, and to blood all shall return.\" - Ullur Sandhoof, first neophyte of the Coagulated Titan.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "poison",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "poison_damage",
+      "physical_damage",
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

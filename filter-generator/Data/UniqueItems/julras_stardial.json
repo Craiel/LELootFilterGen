@@ -16,5 +16,39 @@
     "When you use a movement or time travel skill all stats on this item are tripled for 4 seconds (12 second cooldown)"
   ],
   "lore": "\"By the movement of the stars, thirteen centuries have passed, are ruins all that remains?\"",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "mid_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

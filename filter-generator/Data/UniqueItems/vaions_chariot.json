@@ -20,5 +20,35 @@
     "+(40 to 120) Armor"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "scaling_mechanic",
+      "boots_slot",
+      "end_game",
+      "speed_build"
+    ]
+  }
 }

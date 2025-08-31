@@ -17,5 +17,50 @@
     "+(10% to 34%) Cold Penetration"
   ],
   "lore": "Like Yrun himself, the former champion's blade was imprisoned in bark and ice.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "fury leap",
+      "mana strike"
+    ],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "fury_leap_synergy",
+      "mana_strike_synergy",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "early_game",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

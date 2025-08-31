@@ -17,5 +17,55 @@
     "Immunity to Bleed at low healthYou are on low health while below 35% of your maximum health"
   ],
   "lore": "Crazed is the mind of a blood starved Lich.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "speed",
+      "resource_manipulation",
+      "glass_cannon"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "health",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "health_defense",
+      "immunity_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "mid_game",
+      "multi_damage_type",
+      "speed_build",
+      "resource_build",
+      "glass_cannon_build"
+    ]
+  }
 }

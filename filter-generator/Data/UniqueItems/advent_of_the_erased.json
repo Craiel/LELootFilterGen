@@ -17,5 +17,49 @@
     "When you gain Haste or refresh its duration you gain (30 to 60) Ward (1 second cooldown) and your Minions gain Haste and Frenzy for 3 SecondsFrenzy is a buff that grants 20% Increased attack and cast speed. It cannot stack."
   ],
   "lore": "\"Those long lost may walk again on woven feet\" - The Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "ward_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "boots_slot",
+      "early_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

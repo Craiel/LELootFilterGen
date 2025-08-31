@@ -18,5 +18,50 @@
     "(20% to 30%) increased Armor"
   ],
   "lore": "When fire falls in love with the wind, run.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "tornado"
+    ],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "tornado_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

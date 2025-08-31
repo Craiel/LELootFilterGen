@@ -19,5 +19,48 @@
     "+(3% to 15%) Lightning Penetration"
   ],
   "lore": "Where your limits end, your faith's test begins.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "smite"
+    ],
+    "damageTypes": [
+      "fire",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "lightning_damage",
+      "caster_build",
+      "tank_build",
+      "smite_synergy",
+      "resistance_defense",
+      "mana_defense",
+      "endurance_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -19,5 +19,40 @@
     "Casting a lightning spell grants Lightning Infusion, with a 20 second cooldownLightning Infusion gains a stack every second. Each stack grants 10% more lightning damage and 6% less cold and fire damage for 10 seconds. Reaching 10 stacks of Lightning Infusion applies Lightning Overload for 10 seconds, granting 80% less lightning damage and removing all Lightning Infusion and Cold or Fire Overloads"
   ],
   "lore": "The Scales of Eterra weighed the balance of the elements, ensuring that one would not eclipse the other. Balance is control, and whether that control breeds peace or destruction is up to those who hold the scales.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "resistance_defense",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

@@ -18,5 +18,42 @@
     "+(18 to 108) Ward Decay Threshold"
   ],
   "lore": "Deep within her research of Geometromancy, Runemaster Heraclea was surprised to discover a shape that behaved as if it had many heads.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "trigger_mechanic",
+      "relic_slot",
+      "mage_class",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

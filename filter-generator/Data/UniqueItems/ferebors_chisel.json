@@ -21,5 +21,42 @@
     "+2 to Level of Totem Skills"
   ],
   "lore": "When Ferebor's collection of totems grew too large, he gathered his creations in a cave while his fellow nomads moved on without him. As the winters passed and his collection grew, other nomads would visit him to trade food and furs for totems crafted to defend their tribes.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "critical",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "summon_thorn totem_synergy",
+      "mana_defense",
+      "scaling_mechanic",
+      "dagger_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

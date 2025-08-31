@@ -20,5 +20,46 @@
     "+1 Spell Lightning Damage per 2 Intelligence"
   ],
   "lore": "In her old age, Vilatria's hubris only grew. Having defeated all her human challengers, the storm queen's mind turned to Lagon, the fabled god of the sea and storms. With her apprentice, she sailed out from the border town of Etendell, along the estuary and out into the Fogrise sea. Lagon was said to dwell beneath the far seas beyond the western isles, yet the journey was quick for Vilatria as she fuelled her sails with winds of magic. Eventually she alighted at night upon a great isle of rock, coral, and ancient shrines. The moon spoke to her from its reflection flickering on the surface of the sea. It spoke with the voice of Lagon, and it spoke with amusement at her challenge, readily accepting, and opening the heavens. Thousands of years have passed and Vilatria is long dead, and her kingdom fractured, but the storms still rage upon the seas around that isle.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "meteor"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "ailment_build",
+      "meteor_synergy",
+      "mana_defense",
+      "conversion_enabler",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,30 @@
     "(5 to 12)% increased Attack and Cast Speed"
   ],
   "lore": "All stories grow from the same roots",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "caster_build",
+      "tank_build",
+      "resistance_defense",
+      "scaling_mechanic",
+      "ring_slot",
+      "mid_game",
+      "speed_build"
+    ]
+  }
 }

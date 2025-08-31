@@ -16,5 +16,43 @@
     "20% chance to summon a Skeleton Harvester for 15 seconds on kill"
   ],
   "lore": "Some kill without a purpose. Acolytes kill for the harvest.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "minion_hybrid",
+      "proc"
+    ],
+    "skillSynergies": [
+      "summon bear",
+      "summon skeleton",
+      "harvest"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "summon_bear_synergy",
+      "summon_skeleton_synergy",
+      "harvest_synergy",
+      "trigger_mechanic",
+      "two-handed_axe_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "proc_build"
+    ]
+  }
 }

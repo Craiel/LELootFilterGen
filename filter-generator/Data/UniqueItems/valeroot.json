@@ -19,5 +19,43 @@
     "(60 to 80) Damage Reflected to Attackers"
   ],
   "lore": "The roots of Eterra grow through stone and flesh and time.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "summon_spriggan_synergy",
+      "armor_defense",
+      "health_defense",
+      "mana_defense",
+      "body_armor_slot",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

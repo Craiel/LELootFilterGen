@@ -22,5 +22,50 @@
     "(20 to 30)% of your maximum mana restored when Great Harvest hits a boss or rare enemyThis effect does not stack when dual wielded"
   ],
   "lore": "The Immortal Empire conquered death and brought freedom to humanity. Yet in that freedom, there remained one inevitable certainty... the tax claimed from their very souls.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "harvest"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "harvest_synergy",
+      "mana_defense",
+      "conversion_enabler",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_axe_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

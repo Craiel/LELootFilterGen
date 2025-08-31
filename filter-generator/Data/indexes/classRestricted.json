@@ -1,0 +1,390 @@
+{
+  "Acolyte": [
+    {
+      "name": "Aaron's Will",
+      "category": "Body Armor",
+      "levelRequirement": 75,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Ambitions of an Erased Acolyte",
+      "category": "Relic",
+      "levelRequirement": 30,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Cruelty",
+      "category": "Relic",
+      "levelRequirement": 31,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Downfall of the Righteous",
+      "category": "Relic",
+      "levelRequirement": 70,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Shroud of Obscurity",
+      "category": "Body Armor",
+      "levelRequirement": 13,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Unearthed Memories",
+      "category": "Relic",
+      "levelRequirement": 40,
+      "classRequirement": "Acolyte",
+      "dropRarity": null
+    },
+    {
+      "name": "Wraithlord's Harbour",
+      "category": "Helmet",
+      "levelRequirement": 65,
+      "classRequirement": "Acolyte",
+      "dropRarity": "Uncommon"
+    }
+  ],
+  "Rogue": [
+    {
+      "name": "Acidfletch",
+      "category": "Bow",
+      "levelRequirement": 60,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Corsair's Blood Cowl",
+      "category": "Helmet",
+      "levelRequirement": 57,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Dragonsong",
+      "category": "Bow",
+      "levelRequirement": 36,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Drelkor's Compass",
+      "category": "Bow",
+      "levelRequirement": 64,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Elecoe's Abandon",
+      "category": "Body Armor",
+      "levelRequirement": 40,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Flight of the First",
+      "category": "Bow",
+      "levelRequirement": 58,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Gambit of an Erased Rogue",
+      "category": "Relic",
+      "levelRequirement": 30,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Gathering Fury",
+      "category": "Bow",
+      "levelRequirement": 50,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Hell Reach",
+      "category": "Bow",
+      "levelRequirement": 1,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Hive Mind",
+      "category": "Helmet",
+      "levelRequirement": 58,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Hydra Arc",
+      "category": "Bow",
+      "levelRequirement": 72,
+      "classRequirement": "Rogue",
+      "dropRarity": null
+    },
+    {
+      "name": "Kelthan Blasting Agent",
+      "category": "Relic",
+      "levelRequirement": 38,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Longshot",
+      "category": "Bow",
+      "levelRequirement": 23,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Pillager's Gold",
+      "category": "Relic",
+      "levelRequirement": 35,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Reign of Winter",
+      "category": "Bow",
+      "levelRequirement": 70,
+      "classRequirement": "Rogue",
+      "dropRarity": null
+    },
+    {
+      "name": "Shadow String",
+      "category": "Bow",
+      "levelRequirement": 11,
+      "classRequirement": "Rogue",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Talons of Valor",
+      "category": "Bow",
+      "levelRequirement": 30,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Uethrin's Stand",
+      "category": "Bow",
+      "levelRequirement": 36,
+      "classRequirement": "Rogue",
+      "dropRarity": "Common"
+    }
+  ],
+  "Mage": [
+    {
+      "name": "Apex of Thought",
+      "category": "Helmet",
+      "levelRequirement": 59,
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Box of Hydrae",
+      "category": "Relic",
+      "levelRequirement": 36,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Crest of Unity",
+      "category": "Helmet",
+      "levelRequirement": 60,
+      "classRequirement": "Mage",
+      "dropRarity": "Uncommon"
+    },
+    {
+      "name": "Diothaen's Bloody Nib",
+      "category": "Relic",
+      "levelRequirement": 58,
+      "classRequirement": "Mage",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Eye of Orexia",
+      "category": "Relic",
+      "levelRequirement": 36,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Fractured Crown",
+      "category": "Helmet",
+      "levelRequirement": 56,
+      "classRequirement": "Mage",
+      "dropRarity": null
+    },
+    {
+      "name": "Fundamental Criterion",
+      "category": "Body Armor",
+      "levelRequirement": 54,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Knowledge of an Erased Mage",
+      "category": "Relic",
+      "levelRequirement": 30,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "The Ashen Crown",
+      "category": "Helmet",
+      "levelRequirement": 33,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Unstable Core",
+      "category": "Body Armor",
+      "levelRequirement": 77,
+      "classRequirement": "Mage",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Unvar's Exile",
+      "category": "Huge Idol",
+      "levelRequirement": 33,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Unvar's Hegemony",
+      "category": "Adorned Idol",
+      "levelRequirement": 32,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Unvar's Rise",
+      "category": "Large Idol",
+      "levelRequirement": 31,
+      "classRequirement": "Mage",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Vilatria's Storm Crown",
+      "category": "Helmet",
+      "levelRequirement": 14,
+      "classRequirement": "Mage",
+      "dropRarity": "Very rare"
+    }
+  ],
+  "Primalist": [
+    {
+      "name": "Artor's Legacy",
+      "category": "Helmet",
+      "levelRequirement": 44,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Boardman's Fallacy",
+      "category": "Body Armor",
+      "levelRequirement": 63,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Boardman's Legacy",
+      "category": "Helmet",
+      "levelRequirement": 63,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Chorus of the Anurok",
+      "category": "Helmet",
+      "levelRequirement": 73,
+      "classRequirement": "Primalist",
+      "dropRarity": null
+    },
+    {
+      "name": "Dedication of an Erased Primalist",
+      "category": "Relic",
+      "levelRequirement": 30,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Herald of the Scurry",
+      "category": "Helmet",
+      "levelRequirement": 73,
+      "classRequirement": "Primalist",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Howl of the West Wind",
+      "category": "Helmet",
+      "levelRequirement": 24,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Kermode's Cage",
+      "category": "Body Armor",
+      "levelRequirement": 54,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Soul of the Mountain",
+      "category": "Relic",
+      "levelRequirement": 34,
+      "classRequirement": "Primalist",
+      "dropRarity": null
+    },
+    {
+      "name": "The Land Before",
+      "category": "Adorned Idol",
+      "levelRequirement": 32,
+      "classRequirement": "Primalist",
+      "dropRarity": "Common"
+    }
+  ],
+  "Sentinel": [
+    {
+      "name": "Code of an Erased Sentinel",
+      "category": "Relic",
+      "levelRequirement": 30,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Paranoia",
+      "category": "Helmet",
+      "levelRequirement": 85,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Very rare"
+    },
+    {
+      "name": "Sunforged Cuirass",
+      "category": "Body Armor",
+      "levelRequirement": 60,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
+    },
+    {
+      "name": "Sunforged Greathelm",
+      "category": "Helmet",
+      "levelRequirement": 72,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Rare"
+    },
+    {
+      "name": "Vortex Pennant",
+      "category": "Relic",
+      "levelRequirement": 12,
+      "classRequirement": "Sentinel",
+      "dropRarity": "Common"
+    }
+  ]
+}

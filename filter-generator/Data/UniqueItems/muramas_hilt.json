@@ -14,5 +14,37 @@
     "(4 to 6) Mana Gained when you use Harvest"
   ],
   "lore": "Xenath broke his father's sword, casting away the cursed blade in resentment of his harsh master, and keeping the hilt as a reminder of his loving parent.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "harvest"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "melee_build",
+      "caster_build",
+      "harvest_synergy",
+      "mana_defense",
+      "trigger_mechanic",
+      "relic_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

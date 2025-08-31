@@ -19,5 +19,58 @@
     "+1 to Fire Spells+1 to Lightning Spells+1 to Cold Spells"
   ],
   "lore": "...his master fell, a firey death knell...",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "flame ward"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "necrotic",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "necrotic_damage",
+      "void_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "flame_ward_synergy",
+      "ward_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

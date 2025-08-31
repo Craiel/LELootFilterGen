@@ -19,5 +19,43 @@
     "100% Increased Area with Decimate"
   ],
   "lore": "Among the ruins what is wisdom, but empty platitudes?",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "helmet_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

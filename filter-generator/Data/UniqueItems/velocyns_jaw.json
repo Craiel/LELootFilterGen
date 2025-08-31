@@ -21,5 +21,43 @@
     "+(20 to 40)% Penetration against all Resistances"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "dot",
+      "ailment",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "poison_damage",
+      "melee_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "dagger_slot",
+      "end_game",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

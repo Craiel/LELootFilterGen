@@ -16,5 +16,51 @@
     "20 Health gained on Kill per stack of Bleed on the Target"
   ],
   "lore": "The blood within is said to reflect the drinker's true face.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

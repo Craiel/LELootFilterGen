@@ -20,5 +20,49 @@
     "1% of Necrotic Damage Leeched as Health"
   ],
   "lore": "The last imperial dwelt for centuries beneath Welryn, bound by his own sanctuary to witness the ruin of this world.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "health_defense",
+      "mana_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

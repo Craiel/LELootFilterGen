@@ -20,5 +20,41 @@
     "(10% to 22%) increased Cast Speed"
   ],
   "lore": "From beneath the dormant volcano, the titan's eye flickers and turns staring into rock and magma.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "poison_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "relic_slot",
+      "mage_class",
+      "mid_game",
+      "multi_damage_type",
+      "speed_build"
+    ]
+  }
 }

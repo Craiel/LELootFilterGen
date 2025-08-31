@@ -18,5 +18,37 @@
     "(20% to 25%) Increased Cooldown Recovery Speed for Shift"
   ],
   "lore": "A true assassin must create their own shadows to strike from.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "ailment",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [
+      "shift"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "dodge"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "tank_build",
+      "ailment_build",
+      "shift_synergy",
+      "dodge_defense",
+      "dagger_slot",
+      "end_game",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

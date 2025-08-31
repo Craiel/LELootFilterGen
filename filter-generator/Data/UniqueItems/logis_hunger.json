@@ -18,5 +18,48 @@
     "+2 to Level of Minion Fire Skills"
   ],
   "lore": "Rise! Through fire we are reborn.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "physical_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

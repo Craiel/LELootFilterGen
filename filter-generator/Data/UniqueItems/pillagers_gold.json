@@ -18,5 +18,46 @@
     "100% Chance to throw a Burning Dagger when you drink a Potion"
   ],
   "lore": "The mercenary guilds of Skalnir care naught for the destruction they leave in their wake, as long as their pay is fair and they can take a cut of the spoils.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "rogue_class",
+      "mid_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

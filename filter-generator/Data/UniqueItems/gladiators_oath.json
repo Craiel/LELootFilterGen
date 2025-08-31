@@ -16,5 +16,27 @@
     "+100% Melee Critical Strike Chance while in Dancing Strikes' Fighting Arena"
   ],
   "lore": "There is no mercy among the sands of the arena. Majasa demands beauty, be it the glory of victory or the dance of blood.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [
+      "dancing strikes"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "dancing_strikes_synergy",
+      "one-handed_sword_slot",
+      "mid_game",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

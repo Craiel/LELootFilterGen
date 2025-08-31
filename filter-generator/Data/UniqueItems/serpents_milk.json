@@ -18,5 +18,51 @@
     "+(50% to 75%) Poison Resistance"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "poison_damage",
+      "melee_build",
+      "ranged_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "amulet_slot",
+      "end_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

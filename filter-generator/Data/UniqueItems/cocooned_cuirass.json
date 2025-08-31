@@ -9,5 +9,23 @@
     "Contains a random unique body armor"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "armor_defense",
+      "_slot",
+      "early_game"
+    ]
+  }
 }

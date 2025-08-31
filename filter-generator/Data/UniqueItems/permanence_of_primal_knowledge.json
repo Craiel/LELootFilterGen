@@ -18,5 +18,39 @@
     "(12% to 36%) increased Mana Regen"
   ],
   "lore": "The vines grow with strange symbols, the meaning of which has long been lost to time.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "gloves_slot",
+      "end_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

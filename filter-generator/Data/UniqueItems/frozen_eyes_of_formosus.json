@@ -16,5 +16,46 @@
     "(80 to 140)% increased Minion Cold DamageIncreases cold damage dealt by all minions"
   ],
   "lore": "The eyes still stare out, transfixed with longing for the power their owner sought.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "transformation_build"
+    ]
+  }
 }

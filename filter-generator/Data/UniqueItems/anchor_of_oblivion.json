@@ -16,5 +16,34 @@
     "+(10 to 14) Strength"
   ],
   "lore": "Hope pulls you forward, but the anchor ever stays your feet, as is the fate of mortals.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "ward_defense",
+      "endurance_defense",
+      "relic_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

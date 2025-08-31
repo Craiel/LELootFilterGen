@@ -20,5 +20,55 @@
     "(10% to 15%) of Melee Damage Leeched as Health"
   ],
   "lore": "The nomads around lake Mawn were optimistic as Grand Matriarch Torkrefin rose to power among the nearby Wengari. She had at first seemed more civilised than the average Wengari, carrying a giant sword instead of a crude axe or club. Nevertheless she proved particularly difficult to reason with on account of her propensity to devour their envoys.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

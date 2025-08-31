@@ -17,5 +17,39 @@
     "+(45% to 85%) Freeze Rate Multiplier"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [
+      "acid flask"
+    ],
+    "damageTypes": [
+      "cold",
+      "poison"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "poison_damage",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "acid_flask_synergy",
+      "trigger_mechanic",
+      "off-hand_catalyst_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

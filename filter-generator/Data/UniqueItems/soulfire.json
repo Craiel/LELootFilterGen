@@ -17,5 +17,43 @@
     "Hungering Souls Ignite on Hit instead of Possessing"
   ],
   "lore": "The souls of the damned burn with eternal fire.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "relic_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

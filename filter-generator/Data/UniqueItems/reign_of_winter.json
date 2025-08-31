@@ -16,5 +16,28 @@
     "+(10 to 15) Attunement"
   ],
   "lore": "“For us to survive, others must suffer. One day you will accept this truth.” -Morditas, forsaken son of Heorot.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "ranged_build",
+      "caster_build",
+      "bow_slot",
+      "rogue_class",
+      "end_game",
+      "proc_build"
+    ]
+  }
 }

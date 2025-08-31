@@ -16,5 +16,43 @@
     "+100% Critical Strike Chance with the Third Strike of Flurry"
   ],
   "lore": "War is about the destination, not the journey.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "tank",
+      "critical",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "flurry"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "melee_build",
+      "ranged_build",
+      "tank_build",
+      "flurry_synergy",
+      "health_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "early_game",
+      "critical_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,36 @@
     "+(3 to 12) Dexterity"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

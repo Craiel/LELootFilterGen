@@ -20,5 +20,56 @@
     "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
   ],
   "lore": "In games of power you win or you die",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "boots_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

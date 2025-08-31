@@ -22,5 +22,42 @@
     "3% more Damage per Attunement for Invocations with Rah as their second RuneMultiplicative with other modifiers"
   ],
   "lore": "Discard freely the paths not taken. They are only distractions from deeper knowledge.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "ward_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "mage_class",
+      "end_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

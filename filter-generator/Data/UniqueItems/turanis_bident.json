@@ -19,5 +19,46 @@
     "When you use Javelin you gain a stack of Tu'rani's Thunder for 4 seconds. Each stack grants +(8 to 12) Spell Lightning Damage.Tu'rani's Thunder has no stack limit"
   ],
   "lore": "Matron Tu'rani is still revered amongst the nagasa for leading the first successful campaign against the Osprix. Striking them out of the sky with javelins and thunderbolts, she drove them back into the Mountains of the Sun, liberating the town of Kel'tha.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "lightning",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "lightning_damage",
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "two-handed_spear_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

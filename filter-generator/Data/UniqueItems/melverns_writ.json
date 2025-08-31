@@ -18,5 +18,42 @@
     "+(6 to 8) Dexterity"
   ],
   "lore": "\"If Liath will not afford me guards I will purchase my own. Deliver this writ to Skalnir, along with the gold, and bring me back enough mercenaries to secure caravans to Vul'Kaur.\" - Trade Prince Melvern",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "ranged_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "resistance_defense",
+      "relic_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build"
+    ]
+  }
 }

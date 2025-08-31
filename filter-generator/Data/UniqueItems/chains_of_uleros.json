@@ -18,5 +18,40 @@
     "Your potions grant ward instead of health100% of the health you would gain on potion use is gained as ward instead"
   ],
   "lore": "Tether yourself to this mortal realm.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "ward_defense",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "belt_slot",
+      "early_game",
+      "resource_build"
+    ]
+  }
 }

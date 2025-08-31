@@ -19,5 +19,42 @@
     "Using a Potion Cleanses Stun and Freeze"
   ],
   "lore": "The last nomad wandered the northern wastes in the dying days of the Ruined Era, searching in vain for a living soul among the void and snow.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "resistance_defense",
+      "health_defense",
+      "ring_slot",
+      "end_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

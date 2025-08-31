@@ -18,5 +18,51 @@
     "Your Minions cannot be Crit"
   ],
   "lore": "The congealing liquid grips tight around your finger, the memories of its vessels passing into those that you summon.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

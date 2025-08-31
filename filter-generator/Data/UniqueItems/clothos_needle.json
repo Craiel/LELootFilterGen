@@ -19,5 +19,42 @@
     "+(3 to 10) Dexterity"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [
+      "puncture"
+    ],
+    "damageTypes": [
+      "fire",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "block"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "puncture_synergy",
+      "block_defense",
+      "scaling_mechanic",
+      "two-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

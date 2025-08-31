@@ -20,5 +20,42 @@
     "When you summon a totem you also summon 4 Storm Sprites around the totem (6 second cooldown)"
   ],
   "lore": "A last sign of favour bestowed to those doomed to fight for Lagon's amusement in his sunken arena.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "summon_thorn totem_synergy",
+      "mana_defense",
+      "trigger_mechanic",
+      "one-handed_axe_slot",
+      "end_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,43 @@
     "20% increased Cold and Lightning Damage for each Water Orb you have cast in the past 12 secondsBonus Water Orbs also apply this buff"
   ],
   "lore": "Ucenui the navigator used his water magic to explore the vast ocean beyond the Isle of Storms. His fate is unknown, but his instrument remains.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "caster_build",
+      "tank_build",
+      "resistance_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

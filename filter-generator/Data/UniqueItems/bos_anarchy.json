@@ -22,5 +22,40 @@
     "(12% to 18%) more Throwing Damage to Bosses and Rare Enemies"
   ],
   "lore": "The streets of Maj'elka engender no love for authority",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "block_defense",
+      "mana_defense",
+      "two-handed_staff_slot",
+      "early_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

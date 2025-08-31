@@ -18,5 +18,41 @@
     "(24% to 124%) Increased Physical Damage while Dual Wielding"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "tank",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "warpath"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "ranged_build",
+      "tank_build",
+      "warpath_synergy",
+      "health_defense",
+      "scaling_mechanic",
+      "relic_slot",
+      "sentinel_class",
+      "early_game",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

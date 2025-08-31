@@ -19,5 +19,43 @@
     "Stun Immunity for 4 seconds when you use a Potion"
   ],
   "lore": "As he was interred chains fell from the sky. As he was exhumed chains fell from the dead.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "immunity_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "belt_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

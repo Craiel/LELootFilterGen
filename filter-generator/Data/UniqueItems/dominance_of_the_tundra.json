@@ -17,5 +17,36 @@
     "25% increased Evade distance"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "glacier"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "caster_build",
+      "tank_build",
+      "glacier_synergy",
+      "armor_defense",
+      "mana_defense",
+      "damage_reduction_defense",
+      "helmet_slot",
+      "end_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

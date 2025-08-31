@@ -16,5 +16,45 @@
     "(30% to 60%) Increased Fire Aura Area"
   ],
   "lore": "Drink deep of the flame, brothers... Immortality awaits.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "caster_build",
+      "tank_build",
+      "health_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

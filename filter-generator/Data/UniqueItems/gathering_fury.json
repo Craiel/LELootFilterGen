@@ -13,5 +13,41 @@
     "When you directly use a bow ability and hit an enemy, gain 5% increased attack speed for 3 seconds, stacking up to 10 times"
   ],
   "lore": "Lightning does strike twice",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "hybrid_damage",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "lightning",
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "trigger_mechanic",
+      "bow_slot",
+      "rogue_class",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

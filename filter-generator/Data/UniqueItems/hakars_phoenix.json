@@ -21,5 +21,40 @@
     "When a companion is revived by Hakar's Phoenix it releases a burst of fire and gains 100 melee fire damage and 100% ignite chance for 20 secondsThe burst of fire deals fire spell damage and scales with the minion's stats"
   ],
   "lore": "",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "dot",
+      "ailment",
+      "critical",
+      "minion_hybrid",
+      "speed"
+    ],
+    "skillSynergies": [
+      "summon wolf"
+    ],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "dot_build",
+      "ailment_build",
+      "summon_wolf_synergy",
+      "one-handed_axe_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "speed_build"
+    ]
+  }
 }

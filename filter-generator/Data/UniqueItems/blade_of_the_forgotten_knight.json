@@ -18,5 +18,34 @@
     "3% more Void Damage per stack of Time Rot"
   ],
   "lore": "Incongruous shards of iron from distant eras woven together through time.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "one-handed_sword_slot",
+      "end_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

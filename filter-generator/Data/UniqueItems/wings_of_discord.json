@@ -17,5 +17,45 @@
     "+(32 to 64) Ward gained when you Dodge"
   ],
   "lore": "Osprix elders used to tell of the Quetzal Dragons, resplendant with wings of mismatched feathers, who were never seen to roost in the same place twice. The elders speculated that having visited every peak and forest in Eterra, they traveled far over the sea in search of new lands.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "critical",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "dodge",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "tank_build",
+      "armor_defense",
+      "ward_defense",
+      "dodge_defense",
+      "damage_reduction_defense",
+      "threshold_mechanic",
+      "trigger_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "critical_build",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

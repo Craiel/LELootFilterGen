@@ -20,5 +20,38 @@
     "(80% to 130%) Increased Shred Armor Effect"
   ],
   "lore": "From the Radiant Dunes to the Sea of Glass, order corrodes throughout Eterra.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "dot",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [
+      "hail of arrows"
+    ],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "poison_damage",
+      "ranged_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "hail_of arrows_synergy",
+      "armor_defense",
+      "bow_slot",
+      "rogue_class",
+      "end_game",
+      "proc_build"
+    ]
+  }
 }

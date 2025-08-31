@@ -16,5 +16,36 @@
     "15% chance to cast Magma Shards on melee hit"
   ],
   "lore": "Crafted in the Divine Era in the great forges beneath the mountains of Rahyeh.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "health_defense",
+      "leech_defense",
+      "two-handed_sword_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

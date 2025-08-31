@@ -17,5 +17,39 @@
     "You have no ward"
   ],
   "lore": "Few goals have cost more lives than the quest for power.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon storm crows"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "caster_build",
+      "tank_build",
+      "summon_storm crows_synergy",
+      "armor_defense",
+      "ward_defense",
+      "health_defense",
+      "mana_defense",
+      "helmet_slot",
+      "mage_class",
+      "end_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

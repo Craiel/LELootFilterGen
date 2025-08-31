@@ -16,5 +16,22 @@
     "5% increased Movement Speed"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "one-handed_mace_slot",
+      "mid_game",
+      "speed_build"
+    ]
+  }
 }

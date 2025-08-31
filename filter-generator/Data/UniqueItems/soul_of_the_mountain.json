@@ -20,5 +20,67 @@
     "+(18% to 36%) Poison Resistance"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "leech",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "physical_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_spriggan_synergy",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "relic_slot",
+      "primalist_class",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

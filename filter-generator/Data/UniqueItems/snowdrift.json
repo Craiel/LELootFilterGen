@@ -20,5 +20,48 @@
     "1% Increased Movement Speed per 2 Dexterity (up to 20%)"
   ],
   "lore": "Let the northwind mold you, cold and howling above the frozen tundra.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [
+      "warcry"
+    ],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "warcry_synergy",
+      "armor_defense",
+      "dodge_defense",
+      "conversion_enabler",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "boots_slot",
+      "mid_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

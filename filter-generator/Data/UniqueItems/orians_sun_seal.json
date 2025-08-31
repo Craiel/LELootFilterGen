@@ -16,5 +16,40 @@
     "Symbols of Hope is automatically activated when damage taken leaves you below your endurance threshold, consuming (70 to 80)% of its cooldown and mana cost.This effect can only occur if Symbols of Hope is on your ability bar and not on cooldown, and you have positive mana."
   ],
   "lore": "\"Piety need not stay your wings nor slow the winds of conquest.\" - Grand Haruspex Uranos",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "mana",
+      "endurance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "mana_defense",
+      "endurance_defense",
+      "damage_reduction_defense",
+      "ring_slot",
+      "mid_game",
+      "resource_build"
+    ]
+  }
 }

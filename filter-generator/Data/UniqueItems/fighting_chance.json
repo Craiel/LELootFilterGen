@@ -15,5 +15,36 @@
     "(5% to 10%) increased Movement Speed"
   ],
   "lore": "Fight for your life.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "melee_build",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "gloves_slot",
+      "early_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -20,5 +20,41 @@
     "+(40 to 60) Mana"
   ],
   "lore": "Heed not the cowards that fight from the safety of range, or the generals that sit in their camps while their soldiers' blood spills. Face your foes with honour, a shield, and a good blade.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "block",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "block_defense",
+      "health_defense",
+      "mana_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

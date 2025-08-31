@@ -15,5 +15,48 @@
     "13% increased Melee Attack Speed"
   ],
   "lore": "Infused with countless potions, its effects are unpredictable.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "poison_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "dot_build",
+      "ailment_build",
+      "mana_defense",
+      "wand_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -1,0 +1,202 @@
+Reflect Shaman Guide
+Season 3
+
+Last Epoch Video Review
+Last Updated:
+August 20, 2025
+|
+Changelog
+
+
+Pin this Page
+The Reflect Shaman embraces the ancient power of the wild to become a thick Spriggan. Twisted bark hardens into armor, roots dig deep into the earth, and every blow struck against this guardian is turned back upon its enemies. With thorns bristling and sap flowing like blood, the Spriggan thrives in the heart of battle, reflecting pain and punishment onto all who dare to stare at him.
+
+Spam Thorn Shield to spawn Maelstroms and watch everything die around you while they try to get through your impenetrable bark skin. Eterra's Blessing automatically procs every time you cast Thorn Shield for sustain while Summon Spriggan offers you amazing defensive buffs.
+
+This setup needs 
+Thicket of Blinding Light, 
+Tears of the Forest and 
+Thornshell to function. Additionally, Items like 
+Hazelroot, 
+Hand of Judgement, 
+Legacy of the Quiet Forest and 
+Bloodkeeper's Nest are incredible for the build.
+
+Overall this is an amazing Shaman build that performs well in endgame, even in Hardcore. If you are looking for the ultimate reflect fantasy and the truly afk porcupine build, then this is the perfect setup for you!
+
+Starting Gear
+Endgame Gear
+Aspirational Gear
+Attuned Ancestral Crown of the Ox
+Tears of the Forest of Life
+Shade's HazelrootAttuned Thicket of Blinding Light of the Ox
+Thorny Thornshell of Life
+Attuned Red Ring of AtlariaLegacy of the Quiet Forest of the Giant
+Attuned Red Ring of Atlaria
+Attuned Hand of Judgement of the Giant
+Mercurial Foot of the Mountain of the Giant
+Attuned Bloodkeeper's Nest
+CLICK the Planner for Gear Progression
+!
+Unique Requirement!
+This build needs 
+Thicket of Blinding Light, 
+Tears of the Forest and 
+Thornshell to function.
+
+Are you Level 70?
+This build guide assumes you have a Level 70 Character.
+Reach Level 70 with our Primalist Leveling Guide.
+Check our Tier Lists to know how this build performs in the current patch.
+If you are looking for a different playstyle, check all our Build Guides!
+
+Pros
+Reflect Fantasy
+Exceptionally Durable
+High Single Target DPS
+Amazing Scaling With Gear and Uniques
+Cons
+No Damage Numbers
+Not Many Skill Options
+Optimal Play Is Very Spammy
+The Spriggan Dies Often And Needs To Be Revived
+Skills
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+
+Spriggan Form
+Convert into a Spriggan Form to be able to spam Thorn Shield. Since your Mana turns into Rage while transformed, this build utilizes 
+Tears of the Forest to turn your Summon Vines into Rage generators. Proc Maelstrom thanks to the Glacial Grove Node.
+
+Search Nodes...
+Click the Nodes at the bottom to see Skill Tree Progression
+
+Additional Skill Tips
+Expand
+!
+Extra Skill Points
+Skills showcase extra Skill Points in case you find +Level of Skills that may not be included in the Planners.
+
+Passives
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Shaman
+Mastered
+Passive bonuses
+-5 Totem mana cost
++10 Attunement
++50% elemental resistance while you control a totem
+Search Nodes...
+Click the Nodes at the bottom to see Passive Tree Progression
+
+Additional Passive Tips
+Expand
+Passive Points
+Make sure to complete the Campaign to get all your Passive Points.
+
+Gameplay
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Skill Usage/Rotation
+Summon your Spriggan Companion for it buffs.
+Transform into your Spriggan Form.
+Summon Vines to generate Rage thanks to 
+Tears of the Forest.
+Spam Thorn Shield.
+Walk around and watch everything die.
+Resumon the Vines when necessary.
+Bossing
+Take advantage of all your buffs and keep them active.
+Make sure you are in range for 
+Thicket of Blinding Light.
+
+Additional Skill Tips
+Expand
+Gear, Idols & Blessings
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Reflect Shaman
+The new 
+Thicket of Blinding Light Primordial Unique allows you to easily deal with Bosses, making it core to the build.
+Tears of the Forest provides Rage sustain.
+Thornshell allows you to scale Reflect Damage from Attunement to reach amazing DPS.
+Hand of Judgement comes with a 16 Attunement Implicit and for that reason is used as a stat stick.
+Legacy of the Quiet Forest helps with Rage sustain.
+Bloodkeeper's Nest grants a huge DPS buff as you cast more Thorn Shields. Alternatively, you can go for a Cold Spriggan Form Ward Variant of the build that uses 
+Twisted Heart of Uhkeiros instead.
+Stack Reflect Idols to boost your Damage. The Flat Reflect Damage they provide is extremely important for your DPS.
+Red Ring of Atlaria boosts Attunement and Resistances while also providing amazing Damage Reduction. Double-stacking them amplifies the defensive benefit.
+Starting Gear
+Endgame Gear
+Aspirational Gear
+Attuned Ancestral Crown of the Ox
+Tears of the Forest of Life
+Shade's HazelrootAttuned Thicket of Blinding Light of the Ox
+Thorny Thornshell of Life
+Attuned Red Ring of AtlariaLegacy of the Quiet Forest of the Giant
+Attuned Red Ring of Atlaria
+Attuned Hand of Judgement of the Giant
+Mercurial Foot of the Mountain of the Giant
+Attuned Bloodkeeper's Nest
+CLICK the Planner for Gear Progression
+Crafting and Idols
+Learn the basics for crafting gear with our Beginner Crafting Guide.
+Make sure to complete the Campaign to get all your Idol Slots.
+
+Build Scaling
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Offensive Stats
+
+Attunement (
+Thornshell)
+Flat Damage Reflected
+Cast Speed
+Defensive Stats
+
+Health
+Attunement
+Armor
+Endurance
+Endurance Threshold
+Dodge
+Scaling Tips
+
+Damage
+Defense
+Reflect Damage has many unique traits that set it apart from all other types of damage in Last Epoch. Reflect Damage does not Hit and instead directly reduces Health and Ward without going through damage calculations.
+Reflect Damage does not apply Ailments or Leech Health.
+Reflect Damage doesn’t have a Damage type tag, it is simply ‘Damage’. If an enemy deals Cold Damage and has high Cold Resistance, the Reflect Damage isn't affected by the enemy's Cold Resistance
+Reflect Damage ignores all enemy mitigations except for more/less/increased Damage Taken Modifiers (like the ones in the Monolith of Fate). It ignores: Resistances, Armor, Endurance, Block, Dodge, Glancing blow and the Damage Reduction enemies gain from area level.
+Reflect Damage cannot be scaled by regular Modifiers (increases to Global Damage, specific types, etc).
+Learn More
+Our Damage Explained Article covers all you need to know to scale Damage.
+Learn all you need to know to scale Defense with our Defense Explained Article.
+
+Loot Filter
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Loot Filters are critical in Last Epoch. Making sure you highlight all the related valuable Item Bases, Affixes, Uniques and Idols is necessary to ensure your character's progression. Click on the Generate Loot Filter button down below then use the Paste Clipboard Contents button in-game to import it!
+
+Here is the Endgame Loot Filter for this build:
+
+Loot Filter
+Loot Filters Explained
+Learn how to load and make Filters with our Loot Filter Guide.
+
+Video Guide
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Coming Soon.
+
+Summary
+Season 3 - Beneath Ancient Skies
+Reflect Shaman
+Overall the Reflect Shaman is an excellent setup that performs well in endgame. It has incredibly high damage that map clears with ease, while retaining a large stat budget towards defensive gearing.
+
+Spam Thorn Shield to spawn Maelstroms and watch everything die around you
+Benefit from powerful defensive buffs from Summon Spriggan and Maelstrom.
+The new 
+Thicket of Blinding Light Primordial Unique allows you to easily deal with Bosses and its core for the build.
+Tears of the Forest provides Rage sustain.
+Thornshell allows you to scale Reflect Damage from Attunement.

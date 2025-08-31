@@ -17,5 +17,41 @@
     "+(180 to 330) Ward Decay Threshold"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "ring_slot",
+      "mid_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

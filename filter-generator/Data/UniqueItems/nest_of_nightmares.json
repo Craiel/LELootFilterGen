@@ -16,5 +16,47 @@
     "+(25 to 45)% Melee Critical Strike Multiplier for you and your Minions"
   ],
   "lore": "\"I was surrounded by golden silk, curious creatures, and Her words filling my very soul.\" - Masque, the Acolyte of Golden Silk",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "health_defense",
+      "leech_defense",
+      "scaling_mechanic",
+      "one-handed_mace_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

@@ -16,5 +16,41 @@
     "1 Ward per Second per 3% uncapped Necrotic Resistance"
   ],
   "lore": "\"The essence of the bone seemed to reverberate within my skull. Singing and dancing into a song of fortifying vigor. Never have I felt so alive.\" - Ethenus, First Legate of the Immortal Legion.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "fortify"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "fortify_defense",
+      "scaling_mechanic",
+      "helmet_slot",
+      "end_game",
+      "resource_build"
+    ]
+  }
 }

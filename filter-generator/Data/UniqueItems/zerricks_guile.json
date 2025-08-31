@@ -18,5 +18,55 @@
     "18% less Poison and Necrotic Damage TakenMultiplicative with other modifiers"
   ],
   "lore": "Zerrick's humility and reverence for the Nagasa and the Scalebane leaders long kept him in their favour, sealing their demise.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "dodge",
+      "resistance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "void_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "dodge_defense",
+      "resistance_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "belt_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

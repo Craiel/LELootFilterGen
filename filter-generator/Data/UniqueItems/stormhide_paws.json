@@ -20,5 +20,45 @@
     "+1 to All Attributes"
   ],
   "lore": "The roar of thunder above the frozen seas has long inspired stories among the nomads of great white bears that prowl the ice beneath the storms.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon bear"
+    ],
+    "damageTypes": [
+      "cold",
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "summon_bear_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "mana_defense",
+      "gloves_slot",
+      "early_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

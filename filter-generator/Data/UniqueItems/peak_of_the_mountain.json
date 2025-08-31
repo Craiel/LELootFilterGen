@@ -14,5 +14,31 @@
     "+(2 to 5) to All Attributes"
   ],
   "lore": "To achieve the loftiest of goals, victory must be valued over survival.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "leech_defense",
+      "helmet_slot",
+      "early_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

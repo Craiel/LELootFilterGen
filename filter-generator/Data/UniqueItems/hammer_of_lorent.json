@@ -15,5 +15,36 @@
     "1% increased melee stun chance per level"
   ],
   "lore": "Lorent may be gone, but its memory will remain with you as you grow.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ailment",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "melee_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_mace_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

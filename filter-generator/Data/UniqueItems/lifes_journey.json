@@ -20,5 +20,43 @@
     "(3% to 5%) increased Movement Speed"
   ],
   "lore": "Hold fast to the wheel of life, cling tight as it withers your skin and grinds your flesh to dust.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "dot",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "glass_cannon"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "health"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "tank_build",
+      "block_defense",
+      "health_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "mid_game",
+      "dot_build",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "glass_cannon_build"
+    ]
+  }
 }

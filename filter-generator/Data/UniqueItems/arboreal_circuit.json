@@ -14,5 +14,29 @@
     "10% chance to summon an illusory tree when hit (15 second cooldown)"
   ],
   "lore": "You can search round and round, but you are seeking an illusion.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "minion_build",
+      "tank_build",
+      "armor_defense",
+      "ring_slot",
+      "early_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

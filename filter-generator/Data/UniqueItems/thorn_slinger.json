@@ -16,5 +16,36 @@
     "(24 to 48) Damage Reflected to Attackers"
   ],
   "lore": "After making peace with the nagasa, Lord Berant of Skalnir was impatient to secure his legacy and so turned his eyes to an easier conquest. The Verdant Isle was small and his scouts assured him that its druid inhabitants had no weapons. But when his soldiers returned from the sacred island, they brought back only their thorn pierced fallen and tales of vine strangled ships.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "dot",
+      "ailment",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "ranged_build",
+      "dot_build",
+      "ailment_build",
+      "trigger_mechanic",
+      "belt_slot",
+      "early_game",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

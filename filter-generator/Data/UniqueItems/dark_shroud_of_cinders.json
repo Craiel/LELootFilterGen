@@ -18,5 +18,49 @@
     "(30% to 50%) Increased Void Damage per Fire Aura"
   ],
   "lore": "The dying embers of a god swiling around a blackened cloak.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "lightning",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "lightning_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "support_build"
+    ]
+  }
 }

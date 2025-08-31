@@ -21,5 +21,49 @@
     "(8 to 12) Health Gain on Stun"
   ],
   "lore": "As storms scour the land, the sea swells and flourishes.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "block",
+      "resistance",
+      "health",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "block_defense",
+      "resistance_defense",
+      "health_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "shield_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

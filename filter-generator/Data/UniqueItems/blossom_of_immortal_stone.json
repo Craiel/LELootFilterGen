@@ -19,5 +19,44 @@
     "+(3 to 12) Attunement"
   ],
   "lore": "Three petals unwithered by time",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "endurance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "physical_damage",
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "armor_defense",
+      "endurance_defense",
+      "damage_reduction_defense",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type"
+    ]
+  }
 }

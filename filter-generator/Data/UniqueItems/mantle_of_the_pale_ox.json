@@ -18,5 +18,31 @@
     "+(1 to 2) to Level of Minion Strength Skills"
   ],
   "lore": "Fight with the strength of an ox and the wisdom of a spirit",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "minion_build",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "body_armor_slot",
+      "end_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

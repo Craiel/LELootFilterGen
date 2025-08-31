@@ -16,5 +16,32 @@
     "(7% to 15%) Chance to cast Static when HitThis cast is affected by Static's skill tree. Only works if Static is equipped."
   ],
   "lore": "The carapace of a meruna storm ogre makes for an impressive trophy, and an effective cuirass.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "armor_defense",
+      "body_armor_slot",
+      "end_game",
+      "proc_build"
+    ]
+  }
 }

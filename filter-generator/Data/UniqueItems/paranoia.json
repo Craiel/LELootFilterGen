@@ -17,5 +17,39 @@
     "(33% to 71%) increased Void Damage"
   ],
   "lore": "In the whispering bull rushes and the swaying leaves, in the howling wind and flickering shadows, everywhere enemies hide.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "critical"
+    ],
+    "skillSynergies": [
+      "warcry",
+      "lunge"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "void_damage",
+      "tank_build",
+      "warcry_synergy",
+      "lunge_synergy",
+      "armor_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "helmet_slot",
+      "sentinel_class",
+      "end_game",
+      "critical_build"
+    ]
+  }
 }

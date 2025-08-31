@@ -19,5 +19,30 @@
     "(14% to 19%) Increased Haste Effect"
   ],
   "lore": "As the exiled druids flourished in the cloud forests, they learned to seemlessly flit between the forms of human and quetzal.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "speed",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "fury leap"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "tank_build",
+      "fury_leap_synergy",
+      "armor_defense",
+      "boots_slot",
+      "early_game",
+      "speed_build",
+      "transformation_build"
+    ]
+  }
 }

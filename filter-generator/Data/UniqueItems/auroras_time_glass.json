@@ -15,5 +15,40 @@
     "If damage leaves you below 30% health and doesn't kill you, you are restored to full health, you gain ward equal to the health restored, all nearby enemies are slowed, and you gain haste for (3 to 6) seconds (20 second cooldown)."
   ],
   "lore": "",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "ailment",
+      "speed",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "ward_defense",
+      "health_defense",
+      "endurance_defense",
+      "amulet_slot",
+      "end_game",
+      "speed_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

@@ -17,5 +17,46 @@
     "(36 to 49) Health Gain on Kill"
   ],
   "lore": "All timelines fade and the Harbingers flock like crows to the remains.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon storm crows"
+    ],
+    "damageTypes": [
+      "cold",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "immunity",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "void_damage",
+      "tank_build",
+      "ailment_build",
+      "summon_storm crows_synergy",
+      "health_defense",
+      "immunity_defense",
+      "damage_reduction_defense",
+      "trigger_mechanic",
+      "boots_slot",
+      "end_game",
+      "multi_damage_type",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

@@ -18,5 +18,44 @@
     "+(20% to 28%) Necrotic Resistance"
   ],
   "lore": "As men and gods fight the ravens rise. As the blood settles the ravens alight.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "hybrid_damage",
+      "minion_hybrid",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "damage_reduction"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "armor_defense",
+      "resistance_defense",
+      "damage_reduction_defense",
+      "gloves_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "speed_build"
+    ]
+  }
 }

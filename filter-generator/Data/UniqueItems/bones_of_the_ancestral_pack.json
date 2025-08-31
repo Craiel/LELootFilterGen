@@ -20,5 +20,45 @@
     "+(77 to 123) Endurance Threshold"
   ],
   "lore": "Ghosts lay the tracks of the living",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "ward_defense",
+      "endurance_defense",
+      "trigger_mechanic",
+      "off-hand_catalyst_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

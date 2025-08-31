@@ -24,5 +24,50 @@
     "+2 to Level of Avalanche"
   ],
   "lore": "The shaman Halvar bound himself with the spirit of the mountain.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "avalanche",
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "avalanche_synergy",
+      "summon_thorn totem_synergy",
+      "mana_defense",
+      "trigger_mechanic",
+      "two-handed_staff_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

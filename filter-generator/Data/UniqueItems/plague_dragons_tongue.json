@@ -22,5 +22,57 @@
     "+(1 to 5) to Level of Poison Skills"
   ],
   "lore": "In the early days of Welryn, the archmage Sinveri led the assault to slay the plague dragon, Quolahron, last scion of Uhkeiros, and save the town's fields from blight. The dragon fell, yet, like many mages of Welryn, Sinveri did not lack ambition, and took Quolahron's crystal tongue, to research and wield its dark power.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "fire_damage",
+      "poison_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "transformation_build"
+    ]
+  }
 }

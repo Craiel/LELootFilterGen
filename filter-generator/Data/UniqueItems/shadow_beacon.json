@@ -22,5 +22,44 @@
     "(-10 to -5) Erasing Strike Mana Cost"
   ],
   "lore": "Once light fades, only darkness can guide those who remain.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "ailment",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "devouring orb"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "mana",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "ailment_build",
+      "devouring_orb_synergy",
+      "mana_defense",
+      "endurance_defense",
+      "trigger_mechanic",
+      "two-handed_mace_slot",
+      "end_game",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

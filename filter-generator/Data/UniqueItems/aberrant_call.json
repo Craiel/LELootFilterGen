@@ -21,5 +21,50 @@
     "(13% to 35%) increased Minion Movement Speed"
   ],
   "lore": "A beacon among the eternity of the damned. A call to return to the world of the living, if only for a moment.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon wraith"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "summon_wraith_synergy",
+      "health_defense",
+      "mana_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "two-handed_staff_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

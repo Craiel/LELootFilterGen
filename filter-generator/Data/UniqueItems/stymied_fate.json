@@ -23,5 +23,56 @@
     "(14% to 22%) Chance to gain Haste for 1 second on Hit"
   ],
   "lore": "The end comes slowly, then quickly, then it is all that has ever been.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "fury leap",
+      "teleport",
+      "transplant",
+      "shift",
+      "lunge"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "fury_leap_synergy",
+      "teleport_synergy",
+      "transplant_synergy",
+      "shift_synergy",
+      "lunge_synergy",
+      "armor_defense",
+      "ward_defense",
+      "trigger_mechanic",
+      "boots_slot",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

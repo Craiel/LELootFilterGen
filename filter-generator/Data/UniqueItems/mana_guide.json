@@ -19,5 +19,56 @@
     "+(24% to 38%) Lightning Resistance"
   ],
   "lore": "",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "dot",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "lightning blast",
+      "focus"
+    ],
+    "damageTypes": [
+      "lightning",
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "lightning_blast_synergy",
+      "focus_synergy",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "mana_defense",
+      "regen_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "amulet_slot",
+      "mid_game",
+      "multi_damage_type",
+      "dot_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

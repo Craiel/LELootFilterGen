@@ -21,5 +21,53 @@
     "+(90 to 175) Health"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon wolf",
+      "summon storm crows"
+    ],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_wolf_synergy",
+      "summon_storm crows_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "endurance_defense",
+      "threshold_mechanic",
+      "helmet_slot",
+      "primalist_class",
+      "end_game",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

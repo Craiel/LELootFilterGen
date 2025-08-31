@@ -19,5 +19,48 @@
     "+(8% to 24%) Fire Penetration"
   ],
   "lore": "The light of divinity!",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "judgement"
+    ],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "judgement_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "mana_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "gloves_slot",
+      "mid_game",
+      "multi_damage_type",
+      "resource_build"
+    ]
+  }
 }

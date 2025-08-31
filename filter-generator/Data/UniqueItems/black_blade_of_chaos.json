@@ -22,5 +22,45 @@
     "+(6% to 60%) Chance to apply Time Rot on Hit"
   ],
   "lore": "Forged with shadow iron on an unlit moon to claim Lagon's power over elemental chaos.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc"
+    ],
+    "skillSynergies": [
+      "lethal mirage"
+    ],
+    "damageTypes": [
+      "lightning",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Trigger Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "lightning_damage",
+      "void_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "ailment_build",
+      "lethal_mirage_synergy",
+      "trigger_mechanic",
+      "scaling_mechanic",
+      "two-handed_sword_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build"
+    ]
+  }
 }

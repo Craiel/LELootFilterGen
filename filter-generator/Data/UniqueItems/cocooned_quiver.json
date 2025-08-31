@@ -9,5 +9,20 @@
     "Contains a random unique quiver"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "ranged"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "ranged_build",
+      "_slot",
+      "early_game"
+    ]
+  }
 }

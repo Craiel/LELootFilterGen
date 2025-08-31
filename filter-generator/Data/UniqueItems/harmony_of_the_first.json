@@ -17,5 +17,27 @@
     "All stats on this item are increased by (16 to 20)% per equipped non-idol magic itemMagic items are all items that have one or two non-sealed affixes, excluding unique, set, and legendary items."
   ],
   "lore": "The first of osprix, wengari, meruna, and nagasa were united in purpose, under the guidance of the gods and Eterra above them.",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "critical",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "melee_build",
+      "scaling_mechanic",
+      "two-handed_spear_slot",
+      "early_game",
+      "critical_build",
+      "speed_build"
+    ]
+  }
 }

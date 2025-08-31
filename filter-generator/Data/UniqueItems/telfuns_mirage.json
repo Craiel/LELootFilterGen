@@ -21,5 +21,43 @@
     "18% increased Movement Speed while not Channelling"
   ],
   "lore": "Fascinated by mirages, Telf'un long wandered the deserts, telescope in hand. Even after decades of study and delirium he failed to truly comprehend their nature, but eventually the mirages took pity on the old man and turned him into one of their own.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "dodge",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "ward_defense",
+      "dodge_defense",
+      "mana_defense",
+      "trigger_mechanic",
+      "boots_slot",
+      "end_game",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

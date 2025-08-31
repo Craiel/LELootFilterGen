@@ -19,5 +19,50 @@
     "+30 Strength"
   ],
   "lore": "The last bear stood alone against the void, guarding the cave in which she thought her cubs still rested.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "tank",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon bear"
+    ],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "regen",
+      "endurance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "tank_build",
+      "ailment_build",
+      "summon_bear_synergy",
+      "armor_defense",
+      "health_defense",
+      "regen_defense",
+      "endurance_defense",
+      "scaling_mechanic",
+      "gloves_slot",
+      "mid_game",
+      "multi_damage_type",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

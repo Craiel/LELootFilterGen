@@ -14,5 +14,41 @@
     "(45% to 75%) increased Lightning Damage"
   ],
   "lore": "For centuries Architect Liath ensured the prosperity of Lagon's realm.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "ward_defense",
+      "resistance_defense",
+      "scaling_mechanic",
+      "ring_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

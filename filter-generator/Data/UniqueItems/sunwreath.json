@@ -18,5 +18,46 @@
     "+(4 to 10) Flame Reave Mana Cost"
   ],
   "lore": "Yield not snow, nor seas, nor sand to the flames of the sun, for it will consume all and remain unsated.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "fire",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "fire_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "resistance_defense",
+      "mana_defense",
+      "ring_slot",
+      "mid_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

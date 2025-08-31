@@ -21,5 +21,53 @@
     "White Fur in Werebear Form"
   ],
   "lore": "The fury of the spirit bear can not be restrained or subdued, even while confined.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "speed",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon bear"
+    ],
+    "damageTypes": [
+      "cold",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "cold_damage",
+      "elemental_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "summon_bear_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "body_armor_slot",
+      "primalist_class",
+      "end_game",
+      "multi_damage_type",
+      "speed_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

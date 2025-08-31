@@ -17,5 +17,49 @@
     "You can Summon Wolves up to your Maximum Number of CompanionsAffects the Summon Wolf skill. Does not increase your maximum number of companions."
   ],
   "lore": "A wolf never hunts alone.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon wolf"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_wolf_synergy",
+      "resistance_defense",
+      "health_defense",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

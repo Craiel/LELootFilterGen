@@ -22,5 +22,35 @@
     "You can summon Raptors up to your Companion Limit"
   ],
   "lore": "Among the island nomads there was once a legend of a great beastmaster, Gatan Larn, who was so in tune with the paravian kind that he could commune with crows and raptors.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "critical",
+      "minion_hybrid",
+      "speed"
+    ],
+    "skillSynergies": [
+      "summon wolf",
+      "summon raptor",
+      "summon storm crows"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "melee_build",
+      "minion_build",
+      "summon_wolf_synergy",
+      "summon_raptor_synergy",
+      "summon_storm crows_synergy",
+      "one-handed_sword_slot",
+      "end_game",
+      "critical_build",
+      "minion_hybrid_build",
+      "speed_build"
+    ]
+  }
 }

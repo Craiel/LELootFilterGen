@@ -16,5 +16,41 @@
     "+(15 to 20) Rage gained every 3 seconds while in Spriggan Form"
   ],
   "lore": "“This branch will protect you, even when I can not.” - the last words Quiet heard from her forest friend.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [
+      "poison",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "poison_damage",
+      "void_damage",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_spriggan_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "belt_slot",
+      "end_game",
+      "multi_damage_type",
+      "transformation_build"
+    ]
+  }
 }

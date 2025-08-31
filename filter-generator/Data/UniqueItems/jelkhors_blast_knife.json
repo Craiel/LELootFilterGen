@@ -19,5 +19,37 @@
     "+(48 to 65) Melee Damage for directly used Detonating Arrow"
   ],
   "lore": "Jelkhor was once the greatest archer and artificer in all of Majasa's domain. Eventually the diamond matrons grew fearful of his popularity among the human populace, and so they accused him of a terrible crime and had his left hand severed, so that he could no longer wield a bow. Though disgraced and outcast, Jelkhor's resolve remained and his ingenuity gave him the tools he needed to deliver his revenge.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "critical",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "detonating arrow"
+    ],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "mana"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "detonating_arrow_synergy",
+      "mana_defense",
+      "dagger_slot",
+      "mid_game",
+      "critical_build",
+      "resource_build"
+    ]
+  }
 }

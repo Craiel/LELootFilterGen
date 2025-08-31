@@ -16,5 +16,42 @@
     "(36% to 54%) Increased Companion Revive Speed"
   ],
   "lore": "\"My first loyalty is to those who follow me. I will not abandon them\" - Harthenon, Last Druid of the Verdant Isle.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon wolf"
+    ],
+    "damageTypes": [
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "physical_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "summon_wolf_synergy",
+      "health_defense",
+      "trigger_mechanic",
+      "two-handed_axe_slot",
+      "early_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

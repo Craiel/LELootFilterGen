@@ -19,5 +19,50 @@
     "+2 to Level of Totem Skills"
   ],
   "lore": "Fifty winters since they first parted, Ferebor's tribe returned to his cave eager to purchase another totem. However, instead of finding the storied totem carver, they were driven away by his creations. Assuming him dead, they paid their respects and moved on, yet the number of totems around the cave continued to grow. Some say Ferebor still dwells there, cut off from the outside but carving totem after totem among the shadows.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "minion_hybrid",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "necrotic"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "ward",
+      "resistance",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "necrotic_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "summon_thorn totem_synergy",
+      "armor_defense",
+      "ward_defense",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "scaling_mechanic",
+      "ring_slot",
+      "end_game",
+      "minion_hybrid_build",
+      "resource_build"
+    ]
+  }
 }

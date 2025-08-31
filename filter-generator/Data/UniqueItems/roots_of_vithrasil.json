@@ -20,5 +20,45 @@
     "+(20 to 26) Health Regen while in Spriggan Form"
   ],
   "lore": "Root yourself into the cold earth and drink deep from Eterra's bounty.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "caster",
+      "tank",
+      "speed",
+      "resource_manipulation",
+      "transformation"
+    ],
+    "skillSynergies": [
+      "summon spriggan"
+    ],
+    "damageTypes": [
+      "cold"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "cold_damage",
+      "ranged_build",
+      "caster_build",
+      "tank_build",
+      "summon_spriggan_synergy",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "boots_slot",
+      "mid_game",
+      "speed_build",
+      "resource_build",
+      "transformation_build"
+    ]
+  }
 }

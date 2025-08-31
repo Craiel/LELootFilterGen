@@ -21,5 +21,53 @@
     "+1 to Level of Cold Skills"
   ],
   "lore": "Whether wrapped in shadows, barriers, blessings, or armor, the storm reduced them to ash.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "hybrid_damage",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "elemental nova"
+    ],
+    "damageTypes": [
+      "fire",
+      "cold",
+      "lightning",
+      "void",
+      "elemental"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "mana",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "fire_damage",
+      "cold_damage",
+      "lightning_damage",
+      "void_damage",
+      "elemental_damage",
+      "caster_build",
+      "tank_build",
+      "elemental_nova_synergy",
+      "armor_defense",
+      "mana_defense",
+      "regen_defense",
+      "trigger_mechanic",
+      "body_armor_slot",
+      "mage_class",
+      "end_game",
+      "multi_damage_type",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

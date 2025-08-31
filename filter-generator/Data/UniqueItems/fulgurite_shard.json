@@ -21,5 +21,34 @@
     "+(6% to 16%) Lightning Penetration"
   ],
   "lore": "The best weapon smiths of the western isles disregard common metal. They need only the glass left in the wake of Lagon's fury.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "hybrid_damage",
+      "critical"
+    ],
+    "skillSynergies": [
+      "lethal mirage"
+    ],
+    "damageTypes": [
+      "lightning",
+      "physical"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "lightning_damage",
+      "physical_damage",
+      "melee_build",
+      "caster_build",
+      "lethal_mirage_synergy",
+      "dagger_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build"
+    ]
+  }
 }

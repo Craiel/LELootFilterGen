@@ -22,5 +22,62 @@
     "Storm Totem can hit allies to grant 21 ward"
   ],
   "lore": "Unleash the Beast.",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation",
+      "support"
+    ],
+    "skillSynergies": [
+      "summon wolf",
+      "tempest strike",
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "lightning",
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance",
+      "health"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "physical_damage",
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_wolf_synergy",
+      "tempest_strike_synergy",
+      "summon_thorn totem_synergy",
+      "ward_defense",
+      "resistance_defense",
+      "health_defense",
+      "trigger_mechanic",
+      "sceptre_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build",
+      "support_build"
+    ]
+  }
 }

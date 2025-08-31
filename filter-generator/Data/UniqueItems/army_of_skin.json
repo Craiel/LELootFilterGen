@@ -22,5 +22,56 @@
     "(26% to 52%) more Melee Damage to High Health Enemies"
   ],
   "lore": "",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon skeleton",
+      "harvest",
+      "rip blood"
+    ],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "mana"
+    ],
+    "buildEnablers": [
+      "Threshold Mechanic",
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "melee_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_skeleton_synergy",
+      "harvest_synergy",
+      "rip_blood_synergy",
+      "armor_defense",
+      "health_defense",
+      "mana_defense",
+      "threshold_mechanic",
+      "scaling_mechanic",
+      "boots_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

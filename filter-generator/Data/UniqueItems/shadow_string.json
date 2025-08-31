@@ -18,5 +18,40 @@
     "(11 to 111) Ward gained when you use Smoke Bomb"
   ],
   "lore": "Unseen hands strike hardest",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "ranged",
+      "tank",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "shift",
+      "smoke bomb"
+    ],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "ward"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "ranged_build",
+      "tank_build",
+      "shift_synergy",
+      "smoke_bomb_synergy",
+      "ward_defense",
+      "trigger_mechanic",
+      "bow_slot",
+      "rogue_class",
+      "early_game",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

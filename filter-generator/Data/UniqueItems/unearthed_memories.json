@@ -15,5 +15,35 @@
     "+(8 to 12) Intelligence"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "dot",
+      "hybrid_damage",
+      "support"
+    ],
+    "skillSynergies": [
+      "wandering spirits"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "void"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "necrotic_damage",
+      "void_damage",
+      "caster_build",
+      "dot_build",
+      "wandering_spirits_synergy",
+      "relic_slot",
+      "acolyte_class",
+      "mid_game",
+      "multi_damage_type",
+      "support_build"
+    ]
+  }
 }

@@ -15,5 +15,47 @@
     "+(28% to 46%) Void Resistance"
   ],
   "lore": "\"Our tears for them will be dew upon perfect golden silk.\" - Masque, the Acolyte of Golden Silk",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "minion_hybrid",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "resistance",
+      "health",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "void_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "amulet_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

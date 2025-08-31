@@ -19,5 +19,58 @@
     "+(1 to 3) to Level of Minion Throwing Skills"
   ],
   "lore": "\"Jade Dust- derived from fossils sold by traders claiming to come from beyond the eastern horizon. Evaluation- Extremely deadly.\" - Scalebane Master of Poison's Notes",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "ranged",
+      "caster",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon skeleton",
+      "harvest"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "poison"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "leech"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "melee_build",
+      "ranged_build",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_skeleton_synergy",
+      "harvest_synergy",
+      "health_defense",
+      "leech_defense",
+      "trigger_mechanic",
+      "two-handed_spear_slot",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

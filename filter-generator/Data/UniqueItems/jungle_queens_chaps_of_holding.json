@@ -17,5 +17,37 @@
     "10% More Dodge Rating for 4 seconds when you use a PotionCan stack multiple times. Each stack is multiplicative with each other and with other modifiers."
   ],
   "lore": "The lack of a bottom means that there is more material for pockets.",
-  "dropRarity": "Very rare"
+  "dropRarity": "Very rare",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "hybrid_damage",
+      "proc"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "physical",
+      "void"
+    ],
+    "defensiveMechanisms": [
+      "dodge"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Standard",
+    "buildTags": [
+      "physical_damage",
+      "void_damage",
+      "minion_build",
+      "tank_build",
+      "dodge_defense",
+      "trigger_mechanic",
+      "belt_slot",
+      "early_game",
+      "multi_damage_type",
+      "proc_build"
+    ]
+  }
 }

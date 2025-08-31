@@ -18,5 +18,43 @@
     "You do not regenerate healthYou can still regain health through methods other than health regen"
   ],
   "lore": "Heart of stone, blood of gravel.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "caster",
+      "tank",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "resistance",
+      "health",
+      "regen",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "melee_build",
+      "caster_build",
+      "tank_build",
+      "armor_defense",
+      "resistance_defense",
+      "health_defense",
+      "regen_defense",
+      "damage_reduction_defense",
+      "scaling_mechanic",
+      "body_armor_slot",
+      "mid_game",
+      "resource_build"
+    ]
+  }
 }

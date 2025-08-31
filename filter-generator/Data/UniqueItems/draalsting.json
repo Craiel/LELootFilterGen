@@ -17,5 +17,33 @@
     "+1 to Level of Poison Melee Skills"
   ],
   "lore": "Poison the mind, kill the heart.",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "dot",
+      "ailment",
+      "critical",
+      "proc",
+      "speed"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [
+      "poison"
+    ],
+    "defensiveMechanisms": [],
+    "buildEnablers": [],
+    "powerLevel": "Good",
+    "buildTags": [
+      "poison_damage",
+      "melee_build",
+      "dot_build",
+      "ailment_build",
+      "two-handed_spear_slot",
+      "mid_game",
+      "critical_build",
+      "proc_build",
+      "speed_build"
+    ]
+  }
 }

@@ -18,5 +18,36 @@
     "+(3 to 6) to All Attributes"
   ],
   "lore": "",
-  "dropRarity": "Common"
+  "dropRarity": "Common",
+  "analytics": {
+    "buildArchetypes": [
+      "minion",
+      "tank",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [],
+    "damageTypes": [],
+    "defensiveMechanisms": [
+      "armor",
+      "health",
+      "regen"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic"
+    ],
+    "powerLevel": "Good",
+    "buildTags": [
+      "minion_build",
+      "tank_build",
+      "armor_defense",
+      "health_defense",
+      "regen_defense",
+      "conversion_enabler",
+      "ring_slot",
+      "mid_game",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

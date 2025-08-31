@@ -16,5 +16,44 @@
     "+1 to Level of Totem Skills"
   ],
   "lore": "",
-  "dropRarity": null
+  "dropRarity": null,
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "minion",
+      "tank",
+      "minion_hybrid",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon thorn totem"
+    ],
+    "damageTypes": [
+      "lightning"
+    ],
+    "defensiveMechanisms": [
+      "health",
+      "immunity"
+    ],
+    "buildEnablers": [
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "lightning_damage",
+      "caster_build",
+      "minion_build",
+      "tank_build",
+      "summon_thorn totem_synergy",
+      "health_defense",
+      "immunity_defense",
+      "trigger_mechanic",
+      "belt_slot",
+      "mid_game",
+      "minion_hybrid_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }

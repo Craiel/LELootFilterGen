@@ -23,5 +23,67 @@
     "Howl is replaced by Sciurine Rage, which grants Squirrels 40% increased movement speed and melee attack speed for 4 seconds."
   ],
   "lore": "One squirrel, two squirrel, cute and furry\nThree squirrel, four squirrel, what's the hurry?\nFive squirrel, six squirrel, you should worry\nRun and hide, here comes the scurry!",
-  "dropRarity": "Rare"
+  "dropRarity": "Rare",
+  "analytics": {
+    "buildArchetypes": [
+      "melee",
+      "minion",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "minion_hybrid",
+      "proc",
+      "speed",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "summon wolf",
+      "warcry"
+    ],
+    "damageTypes": [
+      "cold",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "armor",
+      "dodge",
+      "resistance",
+      "health",
+      "leech",
+      "damage_reduction"
+    ],
+    "buildEnablers": [
+      "Unique Conversion Mechanic",
+      "Trigger Mechanic"
+    ],
+    "powerLevel": "Chase",
+    "buildTags": [
+      "cold_damage",
+      "physical_damage",
+      "melee_build",
+      "minion_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "summon_wolf_synergy",
+      "warcry_synergy",
+      "armor_defense",
+      "dodge_defense",
+      "resistance_defense",
+      "health_defense",
+      "leech_defense",
+      "damage_reduction_defense",
+      "conversion_enabler",
+      "trigger_mechanic",
+      "helmet_slot",
+      "primalist_class",
+      "end_game",
+      "multi_damage_type",
+      "minion_hybrid_build",
+      "proc_build",
+      "speed_build",
+      "resource_build"
+    ]
+  }
 }

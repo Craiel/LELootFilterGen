@@ -19,5 +19,52 @@
     "+(1 to 4) to All Attributes"
   ],
   "lore": "Perrin the swineherd preferred not to ask questions. He didn't ask where the feed he was paid to accept came from, or why it glowed at night. He didn't ask why his swine began to whisper the names of dead men when they thought he wasn't looking.",
-  "dropRarity": "Uncommon"
+  "dropRarity": "Uncommon",
+  "analytics": {
+    "buildArchetypes": [
+      "caster",
+      "tank",
+      "dot",
+      "ailment",
+      "hybrid_damage",
+      "critical",
+      "proc",
+      "resource_manipulation"
+    ],
+    "skillSynergies": [
+      "bone curse"
+    ],
+    "damageTypes": [
+      "necrotic",
+      "poison",
+      "physical"
+    ],
+    "defensiveMechanisms": [
+      "ward",
+      "resistance"
+    ],
+    "buildEnablers": [
+      "Scaling Mechanic"
+    ],
+    "powerLevel": "Premium",
+    "buildTags": [
+      "necrotic_damage",
+      "poison_damage",
+      "physical_damage",
+      "caster_build",
+      "tank_build",
+      "dot_build",
+      "ailment_build",
+      "bone_curse_synergy",
+      "ward_defense",
+      "resistance_defense",
+      "scaling_mechanic",
+      "amulet_slot",
+      "end_game",
+      "multi_damage_type",
+      "critical_build",
+      "proc_build",
+      "resource_build"
+    ]
+  }
 }
