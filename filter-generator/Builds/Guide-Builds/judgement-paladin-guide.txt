@@ -1,0 +1,214 @@
+Judgement Paladin Guide
+Season 3
+Last Updated:
+August 16, 2025
+|
+Changelog
+|
+FAQ
+
+
+Pin this Page
+The Judgement Paladin creates Consecrated Ground with Judgement, to burn enemies with holy fire. Become the Judge and cleanse your foes of impurity, as they hopelessly try to break through your immense defenses.
+
+The Judgement Paladin deals Fire Spell Damage Over Time with Consecrated Ground and generates Mana with Vengeance. Consecrated Ground also grants great Healing, since multiple of them can stack on top of each other. Use Holy Aura and Symbols of Hope for great passive buffs. Healing Hands grants Ward and Healing, while acting as your Movement Skill.
+
+This setup doesn't require any Uniques to function. However, items like
+Transcriber's Graver,
+Wing Guards,
+Rahyeh's Light,
+Immolator's Oblation and
+Twisted Heart of Uhkeiros turn this build into an absolute powerhouse, capable of dealing amazing DPS while being absurdly tanky.
+
+Overall this powerful Paladin is an amazing build that performs well in endgame, even in Hardcore. If you are looking for a holy warrior that destroys enemies and is able to survive the hardest encounters, this build is perfect for you!
+
+Starter
+Endgame
+Aspirational
+Mighty Leonine Greathelm of the Ox
+Infernal Blossom of Immortal Stone
+Deft Transcriber's GraverSentinel's Null Portent
+Guardian's Rahyeh's Light
+Infernal Flames of MidnightInfernal Immolator's Oblation of the Giant
+Infernal Sunwreath
+Deft Wing Guards
+Mercurial Army of Skin of the Giant
+Sentinel's Twisted Heart of Uhkeiros
+CLICK the Planner for Gear Progression
+Are you Level 70?
+This build guide assumes you have a Level 70 Character.
+Reach Level 70 with our Sentinel Leveling Guide.
+Check our Tier Lists to know how this build performs in the current patch.
+If you are looking for a different playstyle, check all our Build Guides!
+
+Pros
+Insane Tankiness
+Exceptional Sustain
+High Single Target DPS
+Amazing Scaling With Gear and Uniques
+Cons
+Limited AoE
+Average Clear Speed
+Uses a Mana Generator
+Needs Legendaries To Shine
+Skills
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+
+Judgement
+Judgement creates Consecrated Ground which Damages enemies and provides Healing. Remove its cooldown with Urgent Inquisition and scale the Damage by specializing Purifying Flame and Flaming Soul. Consecrated Ground can stack, so Lingering Force is a multiplier to your Damage and Healing.
+
+Search Nodes...
+Click the Nodes at the bottom to see Skill Tree Progression
+
+Additional Skill Tips
+Expand
+!
+Extra Skill Points
+Skills showcase extra Skill Points in case you find +Level of Skills that may not be included in the Planners.
+
+Passives
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+Sentinel
+Base Class
+Search Nodes...
+Click the Nodes at the bottom to see Passive Tree Progression
+
+Additional Passive Tips
+Expand
+Passive Points
+Make sure to complete the Campaign to get all your Passive Points.
+
+Gameplay
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+Skill Usage/Rotation
+Spam Judgement to burn your enemies in holy fire and get absurdly high Healing by stacking multiple Consecrated Grounds.
+Generate Mana with Vengeance.
+Use Healing Hands or unspecialized Shield Rush to move across the map.
+Activate Holy Aura for its buffs and extra Damage.
+Bossing
+Take advantage of all your buffs and keep them active.
+Save Healing Hands for emergency situations.
+If the Boss is out of range and you're in need of Healing, use Judgement to get healed by Consecrated Ground.
+
+Additional Skill Tips
+Expand
+!
+Skill Queue
+Hold down Vengeance and Judgement at the same time to immediately use Judgement when you have Mana available. Vengeance must be to the right of Judgement on your Action Bar for this to work.
+
+Gear, Idols & Blessings
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+Judgement Paladin
+The Mana Gained when you use Vengeance and hit at least one enemy Affix on your Body Armor is very important for Mana sustain.
+Transcriber's Graver provides Flat Spell Damage and Elemental Penetration. Craft it into a Legendary with T7 Melee Attack Speed for a massive boost to your DPS.
+Wing Guards are huge for the Melee Attack Speed and Haste they provide.
+Army of Skin provides high Movement Speed and Attack Speed. For a more defensive option, use
+Advent of the Erased for its Damage Reduction against Damage Over Time.
+Twisted Heart of Uhkeiros provides many valuable stats, including +5 total levels to Judgement when you craft it into a Legendary item with T7 Level of Judgement.
+Null Portent grants Damage Reduction with overcapped Resistances, applied individually for each Damage type. 115% Resistance maximizes the Damage Reduction.
+Starter
+Endgame
+Aspirational
+Mighty Leonine Greathelm of the Ox
+Infernal Blossom of Immortal Stone
+Deft Transcriber's GraverSentinel's Null Portent
+Guardian's Rahyeh's Light
+Infernal Flames of MidnightInfernal Immolator's Oblation of the Giant
+Infernal Sunwreath
+Deft Wing Guards
+Mercurial Army of Skin of the Giant
+Sentinel's Twisted Heart of Uhkeiros
+CLICK the Planner for Gear Progression
+Blossom of Immortal Stone raises the tankiness to another level. With this Amulet, Void, Necrotic and Poison Damage are taken as Physical. You don't need to build Resistances for these converted Damage Types.
+Orian's Eye and
+Nihilis are decent alternatives.
+Flames of Midnight provides the valuable Swiftness buff, which grants 20% Movement Speed at level 100. In addition, it grants Fire Penetration.
+Sunwreath is used for its Increased Fire Damage.
+Crafting and Idols
+Learn the basics for crafting gear with our Beginner Crafting Guide.
+Make sure to complete the Campaign to get all your Idol Slots.
+
+Build Scaling
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+Offensive Stats
+
+Flat Fire Spell Damage
+% Increased Healing Effectiveness
+% Increased Attack Speed
+% Increased Elemental Damage Over Time
+% Increased Fire Damage Over Time
+% Increased Fire Damage
+Strength
+Fire Resistance Shred
+Fire Penetration
+Defensive Stats
+
+Health
+Armor
+Endurance
+% Increased Healing Effectiveness
+Block Chance
+Block Effectiveness
+Health Regen
+Leech
+Scaling Tips
+
+Damage
+Defense
+Consecrated Ground gains 1 Flat Spell Damage per 5% Increased Healing Effectiveness. The same stat also grants Fire Penetration thanks to Righteous Firebrand.
+Learn More
+Our Damage Explained Article covers all you need to know to scale Damage.
+Learn all you need to know to scale Defense with our Defense Explained Article.
+
+Loot Filter
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+Loot Filters are critical in Last Epoch. Making sure you highlight all the related valuable Item Bases, Affixes, Uniques and Idols is necessary to ensure your character's progression. Click on the Generate Loot Filter button down below then use the Paste Clipboard Contents button in-game to import it!
+
+Here is the Endgame Loot Filter for this build:
+
+Loot Filter
+Loot Filters Explained
+Learn how to load and make Filters with our Loot Filter Guide.
+
+FAQ & Mechanics
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+
+When to switch from Multistrike to Vengeance?
+Expand
+
+How can I get +4 Level of Judgement?
+Expand
+
+What should I use
+Rune of Ascendance on?
+Expand
+
+Which items are Boss drops?
+Expand
+Video Guide
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+
+youtube thumbnail
+Summary
+Season 3 - Beneath Ancient Skies
+Judgement Paladin
+Overall the Judgement Paladin is an excellent setup that performs well in endgame. It has amazing single target DPS and insane survivability thanks to its multiple defensive layers.
+
+Spam Judgement and generate Mana with Vengeance.
+Burn your enemies in holy fire and get absurdly high Healing by stacking multiple Consecrated Grounds.
+Move across the map with Healing Hands and let Consecrated Ground kill enemies as you cruise through the Echoes.
+While they are not mandatory,
+Transcriber's Graver,
+Wing Guards,
+Rahyeh's Light,
+Immolator's Oblation,
+Twisted Heart of Uhkeiros and
+Blossom of Immortal Stone are great Uniques that you want to get to scale the build to its full potential.
