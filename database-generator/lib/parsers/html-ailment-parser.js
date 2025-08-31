@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { JSDOM } = require('jsdom');
+const paths = require('../config/paths');
 
 /**
  * HTML Ailment Data Parser
@@ -12,8 +13,8 @@ const { JSDOM } = require('jsdom');
  */
 class HTMLAilmentParser {
   constructor() {
-    this.ailmentDataFile = path.join(__dirname, '..', 'WebData', 'Ailments.json');
-    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
+    this.ailmentDataFile = paths.JSON_FILES.ailments;
+    this.outputDir = paths.DATA_DIR;
     this.logger = console;
     this.globalTags = new Set(); // Track all unique tags
   }

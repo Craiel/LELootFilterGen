@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { JSDOM } = require('jsdom');
+const paths = require('../config/paths');
 
 /**
  * HTML Skill Data Parser
@@ -12,9 +13,9 @@ const { JSDOM } = require('jsdom');
  */
 class HTMLSkillParser {
   constructor() {
-    this.htmlFile = path.join(__dirname, '..', 'WebData', 'SkillOverview.html');
-    this.skillDataFile = path.join(__dirname, '..', 'WebData', 'SkillData.json');
-    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
+    this.htmlFile = paths.HTML_FILES.skills;
+    this.skillDataFile = paths.JSON_FILES.skillData;
+    this.outputDir = paths.DATA_DIR;
     this.logger = console;
     this.scrapedSkillData = null;
     this.globalTags = new Set(); // Track all unique tags

@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { JSDOM } = require('jsdom');
+const paths = require('../config/paths');
 
 /**
  * HTML Set Data Parser
@@ -12,8 +13,8 @@ const { JSDOM } = require('jsdom');
  */
 class HTMLSetParser {
   constructor() {
-    this.htmlFile = path.join(__dirname, '..', 'WebData', 'Sets.html');
-    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
+    this.htmlFile = paths.HTML_FILES.sets;
+    this.outputDir = paths.DATA_DIR;
     this.logger = console;
   }
 

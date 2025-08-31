@@ -17,13 +17,15 @@ const { parseStringPromise } = require('xml2js');
  * - Condensed, efficient database structure
  */
 
-const TEMPLATE_DIR = path.join(__dirname, '..', 'TemplateFilters');
-const DATA_DIR = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
-const OVERRIDES_DIR = path.join(__dirname, '..', 'Overrides');
-const WEB_DATA_DIR = path.join(__dirname, '..', 'WebData');
-const VERSION_FILE = path.join(DATA_DIR, 'database-version.json');
-const LOG_FILE = path.join(DATA_DIR, 'build.log');
-const VALIDATION_REPORT_FILE = path.join(DATA_DIR, 'validation-report.txt');
+const paths = require('../lib/config/paths');
+
+const TEMPLATE_DIR = paths.TEMPLATE_DIR;
+const DATA_DIR = paths.DATA_DIR;
+const OVERRIDES_DIR = paths.OVERRIDES_DIR;
+const WEB_DATA_DIR = paths.WEB_DATA_DIR;
+const VERSION_FILE = paths.VERSION_FILE;
+const LOG_FILE = paths.LOG_FILE;
+const VALIDATION_REPORT_FILE = paths.VALIDATION_REPORT_FILE;
 
 // Default game version from templates
 const DEFAULT_GAME_VERSION = '1.3.0.4';
@@ -574,7 +576,7 @@ class DatabaseBuilder {
    * Parse HTML data from manual download (replaced JavaScript parsing)
    */
   async parseHtmlData() {
-    const { HTMLItemParser } = require('./html-item-parser.js');
+    const { HTMLItemParser } = require('../lib/parsers/html-item-parser.js');
     const parser = new HTMLItemParser();
 
     try {
@@ -745,7 +747,7 @@ class DatabaseBuilder {
    * Parse set data from HTML file
    */
   async parseSetData() {
-    const { HTMLSetParser } = require('./html-set-parser.js');
+    const { HTMLSetParser } = require('../lib/parsers/html-set-parser.js');
     const parser = new HTMLSetParser();
 
     try {
@@ -840,7 +842,7 @@ class DatabaseBuilder {
    * Parse affix data from HTML files
    */
   async parseAffixData() {
-    const { HTMLAffixParser } = require('./html-affix-parser.js');
+    const { HTMLAffixParser } = require('../lib/parsers/html-affix-parser.js');
     
     let totalPrefixes = 0;
     let totalSuffixes = 0;
@@ -962,7 +964,7 @@ class DatabaseBuilder {
    * Parse skill data from HTML file
    */
   async parseSkillData() {
-    const { HTMLSkillParser } = require('./html-skill-parser.js');
+    const { HTMLSkillParser } = require('../lib/parsers/html-skill-parser.js');
     const parser = new HTMLSkillParser();
 
     try {
@@ -1016,7 +1018,7 @@ class DatabaseBuilder {
    * Parse monster data from Monsters.json file
    */
   async parseMonsterData() {
-    const HTMLMonsterParser = require('./html-monster-parser.js');
+    const HTMLMonsterParser = require('../lib/parsers/html-monster-parser.js');
     const parser = new HTMLMonsterParser();
 
     try {
@@ -1049,7 +1051,7 @@ class DatabaseBuilder {
    * Parse ailment data from Ailments.json file
    */
   async parseAilmentData() {
-    const HTMLAilmentParser = require('./html-ailment-parser.js');
+    const HTMLAilmentParser = require('../lib/parsers/html-ailment-parser.js');
     const parser = new HTMLAilmentParser();
 
     try {
@@ -1481,7 +1483,7 @@ class DatabaseBuilder {
   async generateIndexes() {
     try {
       console.log('🔍 Generating database indexes...');
-      const IndexGenerator = require('./generate-indexes');
+      const IndexGenerator = require('../lib/generate-indexes');
       const generator = new IndexGenerator();
       await generator.generate();
       this.logger.info('🔍 Generated database indexes successfully');
@@ -1654,46 +1656,8 @@ class DatabaseBuilder {
         await fs.writeJson(indexFile, indexData, { spaces: 2 });
       }
       
-      // Create comprehensive analytics summary
-      const analyticsSummary = {
-        metadata: {
-          createdDate: new Date().toISOString(),
-          totalItemsAnalyzed: Object.keys(analyticsData).length,
-          version: '1.0.0'
-        },
-        buildArchetypes: Object.keys(indexes.buildArchetypes).map(archetype => ({
-          name: archetype,
-          itemCount: indexes.buildArchetypes[archetype].length
-        })).sort((a, b) => b.itemCount - a.itemCount),
-        
-        skillSynergies: Object.keys(indexes.skillSynergies).map(skill => ({
-          name: skill,
-          itemCount: indexes.skillSynergies[skill].length
-        })).sort((a, b) => b.itemCount - a.itemCount),
-        
-        damageTypes: Object.keys(indexes.damageTypes).map(type => ({
-          name: type,
-          itemCount: indexes.damageTypes[type].length
-        })).sort((a, b) => b.itemCount - a.itemCount),
-        
-        powerDistribution: Object.keys(indexes.powerLevels).map(level => ({
-          tier: level,
-          itemCount: indexes.powerLevels[level].length
-        })),
-        
-        classDistribution: Object.keys(indexes.classRestricted).map(cls => ({
-          class: cls,
-          itemCount: indexes.classRestricted[cls].length
-        }))
-      };
-      
-      const analyticsSummaryFile = path.join(DATA_DIR, 'analytics_summary.json');
-      await fs.writeJson(analyticsSummaryFile, analyticsSummary, { spaces: 2 });
-      
       this.logger.info(`📊 Created ${Object.keys(indexes).length} analytics indexes`);
-      this.logger.info(`🔍 Analytics summary saved to analytics_summary.json`);
       console.log(`📊 Created ${Object.keys(indexes).length} analytics indexes`);
-      console.log(`🔍 Analytics summary saved to analytics_summary.json`);
       
     } catch (error) {
       this.logger.error(`Failed to generate analytics indexes: ${error.message}`);

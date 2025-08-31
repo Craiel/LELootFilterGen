@@ -4,15 +4,12 @@
   "description": "Database generation system for Last Epoch game data - parses templates and web data to create structured database",
   "main": "scripts/build-database.js",
   "scripts": {
-    "build": "node scripts/build-database.js",
     "build-force": "node scripts/build-database.js --force",
-    "info": "node scripts/database-info.js",
-    "generate-affix-templates": "node scripts/generate-affix-templates.js",
-    "generate-set-templates": "node scripts/generate-set-templates.js",
-    "generate-unique-templates": "node scripts/generate-unique-templates.js",
-    "generate-subtype-templates": "node scripts/generate-subtype-templates.js",
-    "validate": "node scripts/build-database.js --validate-only",
-    "lint": "eslint scripts/"
+    "generate-affix-templates": "node lib/generators/generate-affix-templates.js",
+    "generate-set-templates": "node lib/generators/generate-set-templates.js",
+    "generate-unique-templates": "node lib/generators/generate-unique-templates.js",
+    "generate-subtype-templates": "node lib/generators/generate-subtype-templates.js",
+    "lint": "eslint scripts/ lib/"
   },
   "keywords": [
     "last-epoch",

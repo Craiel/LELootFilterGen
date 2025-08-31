@@ -15,26 +15,23 @@ The database generator processes:
 # Install dependencies
 npm install
 
-# Build the complete database
-npm run build
+# Start interactive CLI
+npm start
+# OR
+node index.js
 
-# Force rebuild (ignore timestamps)
+# Force rebuild database (CLI option 1)
 npm run build-force
-
-# Show database information
-npm run info
-
-# Validate data integrity only
-npm run validate
 ```
 
 ## Key Components
 
-### Scripts
-- `build-database.js` - Main database builder
-- `database-info.js` - Database information and statistics
-- `html-*-parser.js` - Parsers for different HTML data types
-- `generate-*-templates.js` - Template generation utilities
+### Architecture
+- `index.js` - Interactive CLI with 2 options: Build Database, Generate Templates
+- `scripts/build-database.js` - Main database builder
+- `lib/parsers/` - HTML parsers for different data types
+- `lib/generators/` - Template generation utilities
+- `lib/generate-indexes.js` - Index generation system
 
 ### Data Sources
 - `TemplateFilters/` - XML template files from Last Epoch

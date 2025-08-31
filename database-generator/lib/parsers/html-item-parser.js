@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
+const BaseHTMLParser = require('./base-html-parser');
 const fs = require('fs-extra');
 const path = require('path');
-const { JSDOM } = require('jsdom');
+const paths = require('../config/paths');
 
 /**
  * HTML Item Data Parser
@@ -10,28 +11,17 @@ const { JSDOM } = require('jsdom');
  * Parses the manually downloaded HTML file from Last Epoch Tools
  * to extract unique item information and subtypes.
  */
-class HTMLItemParser {
+class HTMLItemParser extends BaseHTMLParser {
   constructor() {
-    this.htmlFile = path.join(__dirname, '..', 'WebData', 'ItemList.html');
-    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
-    this.analyticsFile = path.join(__dirname, '..', 'Overrides', 'analytics_unique_items_data.json');
-    this.logger = console;
+    super('ItemList.html');
+    this.analyticsFile = paths.OVERRIDE_FILES.analytics;
   }
 
   /**
    * Parse the HTML file and extract item data
    */
   async parseItems() {
-    if (!await fs.pathExists(this.htmlFile)) {
-      throw new Error(`HTML file not found: ${this.htmlFile}`);
-    }
-
-    this.logger.log('📄 Loading HTML file...');
-    const htmlContent = await fs.readFile(this.htmlFile, 'utf8');
-    
-    this.logger.log('🔍 Parsing HTML structure...');
-    const dom = new JSDOM(htmlContent);
-    const document = dom.window.document;
+    const document = await this.loadHTML();
 
     // Find all item cards
     const itemCards = document.querySelectorAll('.item-card');

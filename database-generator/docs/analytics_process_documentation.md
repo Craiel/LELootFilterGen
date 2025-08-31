@@ -12,10 +12,12 @@ The enriched analytics system analyzes unique items to extract build-relevant da
 database-generator/
 ├── docs/
 │   └── analytics_process_documentation.md        # This documentation
+├── lib/parsers/
+│   └── html-item-parser.js                       # HTML parsing with analytics integration
 ├── Overrides/
 │   ├── analytics_unique_items_data.json          # Complete analytics for all items
 │   └── analytics_analyzed_items_list.json        # Simple list of analyzed item names  
-└── scripts/html-item-parser.js                   # Integration with database generation
+└── scripts/build-database.js                     # Main build process with analytics
 ```
 
 ## Process for Adding New Items
@@ -70,7 +72,9 @@ Run the database generation to integrate the new analytics:
 
 ```bash
 cd database-generator
-node scripts/html-item-parser.js
+npm run build-force
+# OR use the interactive CLI
+node index.js
 ```
 
 This will:

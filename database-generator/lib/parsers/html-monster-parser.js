@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { JSDOM } = require('jsdom');
+const paths = require('../config/paths');
 
 /**
  * HTML Monster Data Parser
@@ -12,8 +13,8 @@ const { JSDOM } = require('jsdom');
  */
 class HTMLMonsterParser {
   constructor() {
-    this.monsterDataFile = path.join(__dirname, '..', 'WebData', 'Monsters.json');
-    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
+    this.monsterDataFile = paths.JSON_FILES.monsters;
+    this.outputDir = paths.DATA_DIR;
     this.logger = console;
     this.globalTags = new Set(); // Track all unique tags
   }

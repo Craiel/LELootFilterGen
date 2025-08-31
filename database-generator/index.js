@@ -19,11 +19,8 @@ class DatabaseGenerator {
     });
     
     this.menuItems = [
-      { key: '1', name: 'Build Database', desc: 'Parse templates and build game database', action: 'buildDatabase' },
-      { key: '2', name: 'Force Rebuild Database', desc: 'Clean rebuild database (overwrites all)', action: 'forceBuildDatabase' },
-      { key: '3', name: 'Generate Templates', desc: 'Create test templates (affixes, uniques, sets)', action: 'generateTemplates' },
-      { key: '4', name: 'Database Info', desc: 'Show database statistics and information', action: 'databaseInfo' },
-      { key: '5', name: 'Validate Data', desc: 'Check data integrity and validation', action: 'validateData' },
+      { key: '1', name: 'Build Database', desc: 'Parse templates and build game database (always force)', action: 'buildDatabase' },
+      { key: '2', name: 'Generate Templates', desc: 'Create test templates (affixes, uniques, sets)', action: 'generateTemplates' },
       { key: 'q', name: 'Quit', desc: 'Exit the application', action: 'quit' }
     ];
   }
@@ -135,29 +132,11 @@ class DatabaseGenerator {
     try {
       switch (action) {
         case 'buildDatabase':
-          await this.runScript('npm run build');
-          break;
-          
-        case 'forceBuildDatabase':
-          console.log('⚠️  This will completely rebuild the database, preserving overrides.');
-          const confirm = await this.prompt('Continue? (y/N): ');
-          if (confirm.toLowerCase() === 'y') {
-            await this.runScript('npm run build-force');
-          } else {
-            console.log('❌ Operation cancelled.');
-          }
+          await this.runScript('npm run build-force');
           break;
           
         case 'generateTemplates':
           await this.showTemplateGenerationMenu();
-          break;
-          
-        case 'databaseInfo':
-          await this.runScript('npm run info');
-          break;
-          
-        case 'validateData':
-          await this.runScript('npm run validate');
           break;
           
         case 'quit':

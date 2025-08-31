@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { JSDOM } = require('jsdom');
+const paths = require('../config/paths');
 
 /**
  * HTML Affix Data Parser
@@ -13,8 +14,8 @@ const { JSDOM } = require('jsdom');
 class HTMLAffixParser {
   constructor(type = 'prefixes') {
     this.type = type.toLowerCase();
-    this.htmlFile = path.join(__dirname, '..', 'WebData', `${this.type.charAt(0).toUpperCase() + this.type.slice(1)}.html`);
-    this.outputDir = path.join(__dirname, '..', '..', 'filter-generator', 'Data');
+    this.htmlFile = this.type === 'prefixes' ? paths.HTML_FILES.prefixes : paths.HTML_FILES.suffixes;
+    this.outputDir = this.type === 'prefixes' ? paths.PREFIXES_DIR : paths.SUFFIXES_DIR;
     this.logger = console;
   }
 
@@ -337,21 +338,17 @@ class HTMLAffixParser {
   async saveData(data) {
     await fs.ensureDir(this.outputDir);
     
-    // Save affixes to individual files
-    const affixesDir = path.join(this.outputDir, this.type.charAt(0).toUpperCase() + this.type.slice(1));
-    await fs.ensureDir(affixesDir);
-    
     this.logger.log(`💾 Saving ${this.type}...`);
     
     const affixes = data[this.type] || [];
     for (const affix of affixes) {
       const fileName = `${affix.name.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_')}.json`;
-      const filePath = path.join(affixesDir, fileName);
+      const filePath = path.join(this.outputDir, fileName);
       
       await fs.writeJson(filePath, affix, { spaces: 2 });
     }
 
-    this.logger.log(`✅ Saved ${affixes.length} ${this.type} to ${affixesDir}`);
+    this.logger.log(`✅ Saved ${affixes.length} ${this.type} to ${this.outputDir}`);
 
     return {
       [`total${this.type.charAt(0).toUpperCase() + this.type.slice(1)}`]: affixes.length,
